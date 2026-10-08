@@ -7,6 +7,7 @@ const env = (k: string) => (process.env[k] || "").trim();
 /* ---------- 來源檢查 ---------- */
 export function allowedOrigins(): string[] {
   const list = (env("ALLOWED_ORIGINS") || "https://ai-tool-search.vercel.app").split(",").map((s) => s.trim().replace(/\/+$/, "")).filter(Boolean);
+  if (env("NEXT_PUBLIC_SITE_URL")) list.push(env("NEXT_PUBLIC_SITE_URL").replace(/\/+$/, ""));
   if (env("VERCEL_URL")) list.push(`https://${env("VERCEL_URL")}`);
   if (env("VERCEL_PROJECT_PRODUCTION_URL")) list.push(`https://${env("VERCEL_PROJECT_PRODUCTION_URL")}`);
   if (process.env.NODE_ENV !== "production") list.push("http://localhost:3000", "http://127.0.0.1:3000");
