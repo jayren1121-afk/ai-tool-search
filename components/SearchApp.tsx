@@ -33,7 +33,7 @@ export default function SearchApp() {
   return (
     <main className="mx-auto max-w-5xl p-4">
       <h1 className="mb-1 text-2xl font-bold">AI 工具搜尋</h1>
-      <p className="mb-4 text-sm text-slate-500">搜尋 AI 工具，點「診斷」由 Gemini 即時分析價位、方案與是否套殼。</p>
+      <p className="mb-4 text-sm text-slate-500">搜尋 AI 工具，點「診斷」由 AI 即時分析價位、方案與是否套殼。</p>
       <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="搜尋名稱、描述，例如：影片、Claude、簡報…"
           className="min-w-0 flex-[1_1_240px] rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-400" />

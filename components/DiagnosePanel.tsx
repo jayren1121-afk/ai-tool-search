@@ -58,7 +58,7 @@ export default function DiagnosePanel({ tool, onClose }: { tool: Tool | null; on
           </dl>
         </Section>
 
-        <Section title="Gemini 診斷">
+        <Section title="AI 診斷">
           {loading && <div className="animate-pulse space-y-2">{[...Array(5)].map((_, i) => <div key={i} className="h-4 rounded bg-slate-200" />)}<p className="text-sm text-slate-500">正在抓取官網並分析…</p></div>}
           {err && <div className="rounded bg-red-50 p-3 text-sm text-red-700">{err} <button className="underline" onClick={() => run()}>重試</button></div>}
           {r && (
