@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { SITE_DESC, SITE_NAME, SITE_SHORT, SITE_URL } from "@/lib/site";
+import HtmlLang from "@/components/HtmlLang";
+import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -14,6 +16,7 @@ export const metadata: Metadata = {
 };
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#4f46e5" };
 
+// <html lang> 由 HtmlLang 依網址設定（中文 zh-Hant-TW、/en 為 en）
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="zh-Hant-TW"><body className="bg-slate-50 text-slate-800">{children}</body></html>;
+  return <HtmlLang><body className="bg-slate-50 text-slate-800"><SiteHeader />{children}</body></HtmlLang>;
 }

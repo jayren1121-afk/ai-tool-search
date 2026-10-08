@@ -1,5 +1,5 @@
 import "server-only";
-import { createHash, createHmac, timingSafeEqual } from "crypto";
+import { createHash, createHmac, randomUUID, timingSafeEqual } from "crypto";
 import type { NextRequest } from "next/server";
 
 const env = (k: string) => (process.env[k] || "").trim();
@@ -67,6 +67,7 @@ async function incr(key: string, ttlSec: number): Promise<number> {
   }
 }
 
+export const incrPublic = (key: string, ttlSec: number) => incr(key, ttlSec);
 const day = () => new Date().toISOString().slice(0, 10).replace(/-/g, "");
 export type Limit = { name: string; max: number; windowSec: number };
 
@@ -114,4 +115,50 @@ export function passCookieOk(v: string | undefined): boolean {
   if (!exp || !sig || Number(exp) < Date.now() / 1000) return false;
   const a = Buffer.from(sig), b = Buffer.from(sign(exp));
   return a.length === b.length && timingSafeEqual(a, b);
+}
+
+/* ---------- Turnstile 關卡（共用） ---------- */
+export type Gate = { ok: true; setPass: boolean } | { ok: false };
+/** 已有有效通行 cookie 或未設定 Turnstile → 通過；否則驗證 token */
+export async function turnstileGate(req: NextRequest, token: unknown, ip: string): Promise<Gate> {
+  if (!turnstileEnabled() || passCookieOk(req.cookies.get(TS_COOKIE)?.value)) return { ok: true, setPass: false };
+  if (typeof token === "string" && (await verifyTurnstile(token, ip))) return { ok: true, setPass: true };
+  return { ok: false };
+}
+const secure = () => process.env.NODE_ENV === "production";
+export function applyPass(res: { cookies: { set: (n: string, v: string, o: Record<string, unknown>) => unknown } }, gate: Gate) {
+  if (gate.ok && gate.setPass) {
+    const c = makePassCookie();
+    res.cookies.set(c.name, c.value, { httpOnly: true, secure: secure(), sameSite: "lax", maxAge: c.maxAge, path: "/" });
+  }
+}
+
+/* ---------- 匿名投票者身分：簽章 httpOnly cookie ---------- */
+export const VOTER_COOKIE = "vid";
+const voterSecret = () => env("VOTER_SECRET") || env("IP_HASH_SALT") || env("SUPABASE_SERVICE_ROLE_KEY") || "ai-tool-search-voter";
+const vsign = (id: string) => createHmac("sha256", voterSecret()).update("vid:" + id).digest("base64url").slice(0, 32);
+export type Voter = { hash: string; ipHash: string; newCookie: string | null };
+/** 讀取或建立投票者 id；hash 用於資料庫（不可逆） */
+export function getVoter(req: NextRequest, ip: string): Voter {
+  const raw = req.cookies.get(VOTER_COOKIE)?.value || "";
+  const [id, sig] = raw.split(".");
+  let vid = id && sig && /^[A-Za-z0-9_-]{16,64}$/.test(id) && sig === vsign(id) ? id : "";
+  let newCookie: string | null = null;
+  if (!vid) { vid = randomUUID().replace(/-/g, ""); newCookie = `${vid}.${vsign(vid)}`; }
+  return { hash: createHash("sha256").update(voterSecret() + ":v:" + vid).digest("hex").slice(0, 40), ipHash: ipHash(ip), newCookie };
+}
+/** 只讀取（不建立）投票者 hash */
+export function peekVoterHash(req: NextRequest): string | null {
+  const raw = req.cookies.get(VOTER_COOKIE)?.value || "";
+  const [id, sig] = raw.split(".");
+  if (!id || !sig || sig !== vsign(id)) return null;
+  return createHash("sha256").update(voterSecret() + ":v:" + id).digest("hex").slice(0, 40);
+}
+export function applyVoter(res: { cookies: { set: (n: string, v: string, o: Record<string, unknown>) => unknown } }, v: Voter) {
+  if (v.newCookie) res.cookies.set(VOTER_COOKIE, v.newCookie, { httpOnly: true, secure: secure(), sameSite: "lax", maxAge: 400 * 86400, path: "/" });
+}
+
+/** 只在第一次呼叫時回傳 true（例如每工具每天只刷新一次熱度） */
+export async function firstTime(key: string, ttlSec: number): Promise<boolean> {
+  return (await incrPublic(key, ttlSec)) === 1;
 }

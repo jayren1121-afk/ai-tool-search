@@ -37,3 +37,15 @@ export const categoryName = (k: string) => CATEGORIES[k] ?? k;
 export const toolPath = (id: string) => `/tools/${encodeURIComponent(id)}`;
 export const categoryPath = (k: string) => `/category/${encodeURIComponent(k)}`;
 export const jsonLd = (o: unknown) => JSON.stringify(o).replace(/</g, "\\u003c");
+
+/* ---------- v6 英文版 ---------- */
+export const SITE_NAME_EN = "jAytal AI Tool Search";
+export const SITE_DESC_EN = "jAytal AI Tool Search: compare pricing, subscription plans, free tiers and whether it's a wrapper for nearly 500 popular AI tools by category, with live AI diagnosis.";
+export const siteName = (loc: "zh" | "en") => (loc === "en" ? SITE_NAME_EN : SITE_NAME);
+export const siteDesc = (loc: "zh" | "en") => (loc === "en" ? SITE_DESC_EN : SITE_DESC);
+/** hreflang：每組中英頁面互相指向，x-default 指向中文 */
+export function langAlternates(base: string, loc: "zh" | "en") {
+  const zh = SITE_URL + (base === "/" ? "/" : base);
+  const en = SITE_URL + (base === "/" ? "/en" : `/en${base}`);
+  return { canonical: loc === "en" ? en : zh, languages: { "zh-Hant-TW": zh, en, "x-default": zh } };
+}

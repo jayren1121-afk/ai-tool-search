@@ -1,7 +1,8 @@
 import Link from "next/link";
-export default function Breadcrumb({ items }: { items: { name: string; href?: string }[] }) {
+import { t, type Locale } from "@/lib/i18n";
+export default function Breadcrumb({ items, locale = "zh" }: { items: { name: string; href?: string }[]; locale?: Locale }) {
   return (
-    <nav aria-label="麵包屑" className="mb-4 text-sm text-slate-500">
+    <nav aria-label={t(locale).breadcrumb} className="mb-4 text-sm text-slate-500">
       <ol className="flex flex-wrap items-center gap-1">
         {items.map((it, i) => (
           <li key={i} className="flex items-center gap-1">

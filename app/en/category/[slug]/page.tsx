@@ -8,9 +8,9 @@ export async function generateStaticParams() { return []; } // 首次請求時�
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  return categoryMetadata((await params).slug, "zh");
+  return categoryMetadata((await params).slug, "en");
 }
 
 export default async function CategoryPage({ params }: Props) {
-  return <CategoryView slug={(await params).slug} locale="zh" />;
+  return <CategoryView slug={(await params).slug} locale="en" />;
 }

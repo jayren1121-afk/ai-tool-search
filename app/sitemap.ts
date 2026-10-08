@@ -1,24 +1,31 @@
 import type { MetadataRoute } from "next";
-import { categoryPath, SITE_URL, toolPath } from "@/lib/site";
+import { langAlternates } from "@/lib/site";
 import { STATIC_TOOL_IDS } from "@/lib/tool-ids";
 import { getAllToolsLite } from "@/lib/tools-server";
 import { CATEGORIES } from "@/lib/types";
 
 export const revalidate = 86400;
 
+type Entry = MetadataRoute.Sitemap[number];
+/** 每個中文網址都有對應英文網址，兩者都列出並互相標註 hreflang（x-default → 中文） */
+function pair(base: string, lastModified: Date, changeFrequency: Entry["changeFrequency"], priority: number): Entry[] {
+  const { languages } = langAlternates(base, "zh");
+  return [languages["zh-Hant-TW"], languages.en].map((url) => ({ url, lastModified, changeFrequency, priority, alternates: { languages } }));
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const rows = await getAllToolsLite(); // 無法連線 Supabase 時為 null → 使用靜態清單
   const tools = rows ?? STATIC_TOOL_IDS.map((id) => ({ id, category: "", updated_at: null as string | null }));
   const lastByCat: Record<string, Date> = {};
-  for (const t of tools) {
-    if (!t.updated_at || !t.category) continue;
-    const d = new Date(t.updated_at);
-    if (!lastByCat[t.category] || d > lastByCat[t.category]) lastByCat[t.category] = d;
+  for (const x of tools) {
+    if (!x.updated_at || !x.category) continue;
+    const d = new Date(x.updated_at);
+    if (!lastByCat[x.category] || d > lastByCat[x.category]) lastByCat[x.category] = d;
   }
   return [
-    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "daily", priority: 1 },
-    ...Object.keys(CATEGORIES).map((k) => ({ url: SITE_URL + categoryPath(k), lastModified: lastByCat[k] ?? now, changeFrequency: "weekly" as const, priority: 0.8 })),
-    ...tools.map((t) => ({ url: SITE_URL + toolPath(t.id), lastModified: t.updated_at ? new Date(t.updated_at) : now, changeFrequency: "weekly" as const, priority: 0.6 })),
+    ...pair("/", now, "daily", 1),
+    ...Object.keys(CATEGORIES).flatMap((k) => pair(`/category/${encodeURIComponent(k)}`, lastByCat[k] ?? now, "weekly", 0.8)),
+    ...tools.flatMap((x) => pair(`/tools/${encodeURIComponent(x.id)}`, x.updated_at ? new Date(x.updated_at) : now, "weekly", 0.6)),
   ];
 }

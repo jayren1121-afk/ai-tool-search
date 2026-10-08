@@ -8,9 +8,9 @@ export async function generateStaticParams() { return []; } // 全部於首次�
 type Props = { params: Promise<{ id: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  return toolMetadata((await params).id, "zh");
+  return toolMetadata((await params).id, "en");
 }
 
 export default async function ToolPage({ params }: Props) {
-  return <ToolView id={(await params).id} locale="zh" />;
+  return <ToolView id={(await params).id} locale="en" />;
 }
