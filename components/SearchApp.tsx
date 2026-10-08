@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { supabaseBrowser } from "@/lib/supabase";
 import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
@@ -32,7 +33,7 @@ export default function SearchApp() {
 
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <h1 className="mb-1 flex items-center gap-3 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 rounded-xl" />AI 工具搜尋</h1>
+      <h1 className="mb-1 flex items-center gap-3 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 rounded-xl" />jAytal AI 工具搜尋</h1>
       <p className="mb-4 text-sm text-slate-500">搜尋 AI 工具，點「診斷」由 AI 即時分析價位、方案與是否套殼。</p>
       <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="搜尋名稱、描述，例如：影片、Claude、簡報…"
@@ -52,7 +53,8 @@ export default function SearchApp() {
         {rows.map((t) => (
           <li key={t.id} className="flex items-start gap-3 rounded-xl bg-white p-4 shadow-sm">
             <div className="min-w-0 flex-1">
-              <a href={t.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-indigo-700 hover:underline">{t.name}</a>
+              <Link href={`/tools/${encodeURIComponent(t.id)}`} className="font-semibold text-indigo-700 hover:underline">{t.name}</Link>
+              <a href={t.url} target="_blank" rel="nofollow noopener noreferrer" className="ml-2 text-xs text-slate-400 hover:text-indigo-600">官網 ↗</a>
               <div className="mt-1 flex flex-wrap gap-1 text-xs">
                 <span className="rounded bg-indigo-50 px-2 py-0.5">{CATEGORIES[t.category] ?? t.category}</span>
                 {t.subcategory && <span className="rounded bg-slate-100 px-2 py-0.5">{t.subcategory}</span>}
