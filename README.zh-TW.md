@@ -104,3 +104,11 @@ vercel --prod
 
 ### 回報錯誤（需執行資料庫遷移）
 面板中的「回報錯誤」會寫入 `reports` 資料表。請在 Supabase → **SQL Editor** 貼上並執行 `supabase_migration_002.sql`（可重複執行）。此表啟用 RLS 且沒有公開 policy，只有伺服器端（service role）能讀寫；可在 Supabase → **Table Editor → reports** 查看回報。
+
+## SEO（v4）
+- 每個工具有獨立頁面 `/tools/{id}`、每個分類有 `/category/{slug}`，由伺服器端渲染並快取 1 天（ISR）；建置時不需連線 Supabase，頁面於第一次被造訪時產生。
+- 自動產生 `/sitemap.xml`（首頁、24 個分類、所有工具，`lastModified` 取自 `updated_at`；Supabase 無法連線時改用內建的靜態工具清單）與 `/robots.txt`（允許全部、禁止 `/api/`）。
+- 頁面包含標題、描述、canonical、OpenGraph／Twitter 卡片（圖片為 `public/logo.png`）、JSON-LD（SoftwareApplication、BreadcrumbList、ItemList）。
+- 新增環境變數 `NEXT_PUBLIC_SITE_URL`（選填，預設 `https://ai-tool-search.vercel.app`）。若改用自訂網域，請設定此變數並 Redeploy；它也會自動加入 `ALLOWED_ORIGINS`。
+- 部署後到 Google Search Console → **Sitemap** 提交 `https://ai-tool-search.vercel.app/sitemap.xml`。驗證檔 `public/google67eec0c3b8944098.html` 請勿刪除。
+- 更新資料庫後，工具頁最多 1 天後自動更新。
