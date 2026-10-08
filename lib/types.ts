@@ -6,11 +6,22 @@ export type Tool = {
   is_wrapper: string | null; underlying_models: string | null; company: string | null;
   country: string | null; confidence: string | null; last_verified: string | null; source_urls: string[];
 };
+export type Conf = "high" | "medium" | "low";
+export type EvidenceField = "price" | "plans" | "is_wrapper" | "underlying_models" | "summary";
+export type Evidence = { quote: string; source: string; verified?: boolean };
 export type Diagnosis = {
   useful: boolean; score: number; verdict: string; price_summary: string;
   plans: { name: string; price: string; notes: string }[];
   is_wrapper: "true" | "false" | "partial" | "unknown"; underlying_models: string[];
   summary: string[]; pros: string[]; cons: string[]; sources: string[];
+  // v2 新增欄位（舊快取可能沒有，UI 需容錯）
+  field_confidence?: Partial<Record<EvidenceField, Conf>>;
+  evidence?: Partial<Record<EvidenceField, Evidence>>;
+  data_quality?: string;
+  schema_version?: number;
+};
+export type DiagnoseResponse = {
+  result: Diagnosis; model: string; created_at: string; cached: boolean; id?: number | null; notice?: string;
 };
 export const CATEGORIES: Record<string, string> = {
   chatbot: "聊天機器人", image: "圖像", video: "影片", audio: "音訊/語音", music: "音樂", coding: "程式開發",
