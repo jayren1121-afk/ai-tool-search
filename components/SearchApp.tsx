@@ -32,7 +32,7 @@ export default function SearchApp() {
 
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <h1 className="mb-1 text-2xl font-bold">AI 工具搜尋</h1>
+      <h1 className="mb-1 flex items-center gap-3 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 rounded-xl" />AI 工具搜尋</h1>
       <p className="mb-4 text-sm text-slate-500">搜尋 AI 工具，點「診斷」由 AI 即時分析價位、方案與是否套殼。</p>
       <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="搜尋名稱、描述，例如：影片、Claude、簡報…"
