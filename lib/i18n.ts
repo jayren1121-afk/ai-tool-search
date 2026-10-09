@@ -183,11 +183,12 @@ const zh = {
   // 診斷面板
   tabBuzz: "口碑", tabHeat: "熱度", tabReviews: "評論", tabAlts: "替代方案", tabOfficial: "官網最新資訊",
   close: "關閉", dbData: "資料庫資料", category: "分類", pricing: "計價", wrapperS: "套殼",
-  aiDisclaimer: "⚠️ AI 自動分析，僅供參考。價格與方案請以官網為準。", analyzing: "正在抓取官網與公開討論並分析…（約 10–30 秒）", retry: "重試",
+  aiDisclaimer: "⚠️ AI 自動分析，僅供參考。價格與方案請以官網為準。", analyzing: "正在抓取官網並分析…（約 10–30 秒）", retry: "重試",
   diagFailed: "診斷失敗", worth: "值得使用", notRec: "不太推薦", dataQuality: "資料品質：", price: "價位", plans: "訂閱方案", summary: "重點摘要",
   pros: "優點", cons: "缺點", sources: "資料來源", evidence: "依據", evidenceUnverified: "（未能在網頁中核對）",
   conf: { high: "高可信", medium: "中可信", low: "低可信" } as Record<string, string>,
   diagTime: "AI 診斷時間：", model: "模型：", cached: "快取結果", fresh: "新產生", oldV1: "｜舊版診斷（無逐欄信心與引用）", oldV2: "｜舊版診斷（無替代方案說明）",
+  diagBanner: (d: string) => `📅 此為 ${d} 的診斷結果（結果保留 7 天，期間內所有人看到的都是這一份）。想了解最新狀況，請按下方「重新診斷」。`, dateFmt: (t: string) => { const x = new Date(t); return `${x.getFullYear()} 年 ${x.getMonth() + 1} 月 ${x.getDate()} 日`; },
   rediagnose: "重新診斷", report: "回報錯誤", reportThanks: "已收到回報，謝謝！", reportPh: "哪裡有誤？例如：價格已調整為…（最多 500 字）", reportFailed: "回報失敗",
   dateLocale: "zh-TW", breadcrumb: "麵包屑",
 };
@@ -228,11 +229,12 @@ const en: Dict = {
   submit: "Submit", submitting: "Submitting…", cancel: "Cancel", updated: "Review updated", thanks: "Thanks for your review!", submitFailed: "Submit failed",
   tabBuzz: "Buzz", tabHeat: "Popularity", tabReviews: "Reviews", tabAlts: "Alternatives", tabOfficial: "Latest from website",
   close: "Close", dbData: "Database record", category: "Category", pricing: "Pricing", wrapperS: "Wrapper",
-  aiDisclaimer: "⚠️ Automated AI analysis for reference only. Check the official website for prices and plans.", analyzing: "Fetching the website and public discussions and analyzing… (about 10–30 seconds)", retry: "Retry",
+  aiDisclaimer: "⚠️ Automated AI analysis for reference only. Check the official website for prices and plans.", analyzing: "Fetching the website and analyzing… (about 10–30 seconds)", retry: "Retry",
   diagFailed: "Diagnosis failed", worth: "Worth using", notRec: "Not recommended", dataQuality: "Data quality: ", price: "Price", plans: "Plans", summary: "Key points",
   pros: "Pros", cons: "Cons", sources: "Sources", evidence: "Evidence", evidenceUnverified: " (could not be matched on the page)",
   conf: { high: "High confidence", medium: "Medium confidence", low: "Low confidence" },
   diagTime: "Diagnosed: ", model: "Model: ", cached: "cached", fresh: "new", oldV1: " | older diagnosis (no per-field confidence or quotes)", oldV2: " | older diagnosis (no alternatives note)",
+  diagBanner: (d: string) => `📅 This is the diagnosis from ${d} (results are kept for 7 days and shared by everyone during that time). For the latest status, press “Re-diagnose” below.`, dateFmt: (t: string) => new Date(t).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
   rediagnose: "Re-diagnose", report: "Report an error", reportThanks: "Report received, thank you!", reportPh: "What's wrong? e.g. the price changed to… (max 500 characters)", reportFailed: "Report failed",
   dateLocale: "en-US", breadcrumb: "Breadcrumb",
 };
