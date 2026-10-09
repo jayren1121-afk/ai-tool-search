@@ -77,6 +77,7 @@ export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: 
         </details>
 
         <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-800">{L.aiDisclaimer}</p>
+        {r && d?.created_at && <p className="mt-2 rounded bg-indigo-50 px-3 py-2 text-xs text-indigo-800">{L.diagBanner(L.dateFmt(d.created_at))}</p>}
         {d?.notice && <div className="mt-2 rounded bg-sky-50 p-2 text-xs text-sky-800">{d.notice}</div>}
 
         <div role="tablist" className="sticky top-0 z-10 -mx-5 mt-3 flex gap-1 overflow-x-auto border-b bg-white px-5">
