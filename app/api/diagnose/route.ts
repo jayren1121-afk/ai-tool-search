@@ -16,7 +16,7 @@ export const maxDuration = 60;
 const PAGE_CHARS = 6000;   // 每頁最多字元數
 const PAGE_TOKENS = 1200;  // 每頁估算 token 上限；加上口碑片段與替代方案仍需低於 Groq 免費額度（約 8K tokens/分鐘）
 const CACHE_DAYS = 7;
-const FORCE_MIN_HOURS = 24; // 重新診斷：最新結果須超過 24 小時
+const FORCE_MIN_HOURS = 0.17; // 重新診斷：最新結果須超過約 10 分鐘（只防連點，不再是 24 小時）
 
 function truncateTokens(t: string, max = PAGE_TOKENS) {
   let n = 0, i = 0;
@@ -24,20 +24,44 @@ function truncateTokens(t: string, max = PAGE_TOKENS) {
   return t.slice(0, i);
 }
 
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 AIToolSearchBot",
+  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8",
+};
+const decodeEntities = (t: string) => t.replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;|&gt;/g, " ");
+const metaOf = (html: string, attr: string, key: string) => {
+  const m = html.match(new RegExp(`<meta[^>]+${attr}=["']${key}["'][^>]*>`, "i"));
+  const c = m?.[0].match(/content=["']([^"']*)["']/i);
+  return c ? decodeEntities(c[1]).trim() : "";
+};
+
+/** 抓網頁文字；除了可見內文，也擷取標題、meta 描述與結構化資料（JS 網站的可見文字常常很少，但這些通常還在） */
 async function pageText(url: string | null, keepHtml = false): Promise<{ text: string; html: string }> {
   const empty = { text: "", html: "" };
   if (!url || !/^https?:\/\//.test(url)) return empty;
   try {
-    const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 AIToolSearchBot" }, signal: AbortSignal.timeout(10000), redirect: "follow" });
+    const r = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(10000), redirect: "follow" });
     if (!r.ok) return empty;
     const html = (await r.text()).slice(0, 800_000);
-    const text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>/gi, " ")
-      .replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;|&gt;/g, " ")
+    const title = decodeEntities((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").replace(/<[^>]+>/g, " ")).trim();
+    const metas = [title && `標題：${title}`, metaOf(html, "name", "description"), metaOf(html, "property", "og:description"), metaOf(html, "name", "twitter:description")]
+      .filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
+    const ld = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+      .map((m) => m[1].replace(/\s+/g, " ").trim()).join(" ").slice(0, 1500);
+    const body = decodeEntities(html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>/gi, " ").replace(/<[^>]+>/g, " "));
+    const text = (metas.join(" ｜ ") + " ｜ " + body + (ld ? " ｜ " + ld : ""))
       .replace(/<<<|>>>/g, " ") // 防止偽造分隔符號
       .replace(/\s+/g, " ").trim().slice(0, PAGE_CHARS);
     return { text: truncateTokens(text), html: keepHtml ? html : "" };
   } catch { return empty; }
 }
+
+/** 沒有內容的診斷（網站擋機器人或抓取失敗）不該被當成正常結果卡住 24 小時 */
+const isPoor = (r: unknown) => {
+  const d = r as { summary?: unknown[]; pros?: unknown[]; cons?: unknown[]; plans?: unknown[] } | null;
+  return !!d && !(d.summary?.length) && !(d.pros?.length) && !(d.cons?.length) && !(d.plans?.length);
+};
 
 const err = (error: string, status: number, extra: Record<string, unknown> = {}) => NextResponse.json({ error, ...extra }, { status });
 
@@ -86,9 +110,10 @@ export async function POST(req: NextRequest) {
     if (!en) ({ data: latest } = await latestQ(false));
   }
   const ageH = latest ? (Date.now() - new Date(latest.created_at).getTime()) / 36e5 : Infinity;
+  const poor = isPoor(latest?.result); // 內容空白的診斷（網站擋機器人等）：快取只留 6 小時
   if (latest && force === true && ageH < FORCE_MIN_HOURS)
-    return respond({ ...latest, cached: true, notice: M(`此工具 ${Math.max(1, Math.floor(ageH))} 小時前已診斷過，24 小時內不能重新診斷，以下為快取結果。`, `This tool was diagnosed ${Math.max(1, Math.floor(ageH))} hour(s) ago. Re-diagnosis is allowed once every 24 hours; showing the cached result.`) });
-  if (latest && force !== true && ageH < CACHE_DAYS * 24) return respond({ ...latest, cached: true });
+    return respond({ ...latest, cached: true, notice: M("剛剛才診斷過，請等幾分鐘再重新診斷，以下為最新結果。", "This was diagnosed just now. Please wait a few minutes before re-diagnosing; showing the latest result.") });
+  if (latest && force !== true && ageH < (poor ? 6 : CACHE_DAYS * 24)) return respond({ ...latest, cached: true });
 
   const order = providerOrder();
   if (!order.length) return respond({ error: M("伺服器未設定任何 LLM API 金鑰", "No LLM API key is configured on the server") }, 500);
