@@ -130,9 +130,8 @@ ${JSON_SHAPE_EN}`;
   const system = en ? systemEn : systemZh;
   const wrap = (label: string, url: string | null, t: string) =>
     `<<<UNTRUSTED_PAGE_TEXT ${label} url=${url ?? M("無", "none")}>>>\n${t || M("（抓取失敗或無內容）", "(fetch failed or empty)")}\n<<<END_UNTRUSTED_PAGE_TEXT>>>`;
-  const buzzText = buzzR.snippets.length
-    ? buzzR.snippets.map((x) => `[${x.id}] (${x.site}) ${x.title}｜${x.text}`.replace(/<<<|>>>/g, " ")).join("\n")
-    : M("（無）", "(none)");
+  // 口碑功能已移除：不再把討論片段送進 AI（省 token）；fetchBuzz 仍保留，只用於熱度的 HN 提及數
+  const buzzText = M("（無）", "(none)");
   const altText = altR.self && altR.alts.length
     ? JSON.stringify([altR.self, ...altR.alts].map((a) => ({ name: a.name, pricing_model: a.pricing_model, free_tier: en ? trFree("en", a.free_tier) : a.free_tier, min_price_usd: a.min_price, is_wrapper: a.is_wrapper, good_pct: a.up + a.down ? Math.round((a.up * 100) / (a.up + a.down)) : null, votes: a.up + a.down })))
     : M("（無）", "(none)");
@@ -161,7 +160,7 @@ ${buzzText}
 
 【替代方案資料（第一筆為本工具，來自本站資料庫）】
 ${altText}`;
-  const ctx = { snippets: buzzR.snippets, checked: buzzR.checked, locale: loc };
+  const ctx = { snippets: [], checked: [], locale: loc };
   console.info(`diagnose ${tool.id} [${loc}]: prompt≈${estTokens(system + user)} tokens, snippets=${buzzR.snippets.length}, alts=${altR.alts.length}`);
   after(() => refreshHeat({ id: tool.id, url: tool.url }, { html: homeR.html, hnMentions: buzzR.hnMentions90d }).catch((e) => console.error("refreshHeat", e)));
 
