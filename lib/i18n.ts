@@ -191,6 +191,10 @@ const zh = {
   diagBanner: (d: string) => `📅 此為 ${d} 的診斷結果（結果保留 7 天，期間內所有人看到的都是這一份）。想了解最新狀況，請按下方「重新診斷」。`, dateFmt: (t: string) => { const x = new Date(t); return `${x.getFullYear()} 年 ${x.getMonth() + 1} 月 ${x.getDate()} 日`; },
   rediagnose: "重新診斷", report: "回報錯誤", reportThanks: "已收到回報，謝謝！", reportPh: "哪裡有誤？例如：價格已調整為…（最多 500 字）", reportFailed: "回報失敗",
   dateLocale: "zh-TW", breadcrumb: "麵包屑",
+  // v10 推出日期／最新上架
+  sortNewest: "最新上架", released: "推出日期",
+  releasedHint: "依公開來源可查到的最早日期，不一定是官方正式發售日",
+  relSrc: { github_created: "GitHub 建立日", hn_post: "最早公開討論日", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt 上架日", manual: "人工確認" } as Record<string, string>,
 };
 type Dict = typeof zh;
 const en: Dict = {
@@ -237,6 +241,17 @@ const en: Dict = {
   diagBanner: (d: string) => `📅 This is the diagnosis from ${d} (results are kept for 7 days and shared by everyone during that time). For the latest status, press “Re-diagnose” below.`, dateFmt: (t: string) => new Date(t).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
   rediagnose: "Re-diagnose", report: "Report an error", reportThanks: "Report received, thank you!", reportPh: "What's wrong? e.g. the price changed to… (max 500 characters)", reportFailed: "Report failed",
   dateLocale: "en-US", breadcrumb: "Breadcrumb",
+  sortNewest: "Newest releases", released: "Released",
+  releasedHint: "Earliest date found in public sources; not necessarily the official launch date",
+  relSrc: { github_created: "GitHub repo created", hn_post: "first public discussion", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt launch", manual: "manually confirmed" },
 };
 export const DICT: Record<Locale, Dict> = { zh, en };
 export const t = (loc: Locale = "zh") => DICT[loc] ?? zh;
+
+/** 「推出日期：2024-03-01（GitHub 建立日）」；沒有日期回傳 null */
+export function releaseText(loc: Locale, date: string | null | undefined, src: string | null | undefined): string | null {
+  if (!date || !/^\d{4}-\d{2}-\d{2}/.test(date)) return null;
+  const L = t(loc);
+  const label = src ? L.relSrc[src] ?? src : "";
+  return `${date.slice(0, 10)}${label ? (loc === "en" ? ` (${label})` : `（${label}）`) : ""}`;
+}

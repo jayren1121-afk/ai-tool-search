@@ -7,6 +7,8 @@ export type Tool = {
   country: string | null; confidence: string | null; last_verified: string | null; source_urls: string[];
   // v6 英文欄位（需執行 supabase_migration_004.sql；未執行時為 undefined）
   description_en?: string | null; key_features_en?: string[] | null;
+  // v10 推出日期（需執行 supabase_migration_005.sql；未執行時為 undefined）
+  released_at?: string | null; released_source?: string | null;
 };
 export type Conf = "high" | "medium" | "low";
 export type EvidenceField = "price" | "plans" | "is_wrapper" | "underlying_models" | "summary";

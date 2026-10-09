@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { normText, spamReason } from "@/lib/spam";
 import { applyPass, applyVoter, checkLimits, clientIp, getVoter, originOk, readJson, turnstileGate, validToolId } from "@/lib/security";
 import { supabaseAdmin } from "@/lib/supabase-admin";
+import { withPublished } from "@/lib/published";
 
 export const runtime = "nodejs";
 const MAX_PER_IP_PER_TOOL = 2;
@@ -30,7 +31,7 @@ export async function POST(req: NextRequest) {
   const db = supabaseAdmin();
   const done = (data: Record<string, unknown>, status = 200) => { const res = NextResponse.json(data, { status }); applyPass(res, gate); applyVoter(res, voter); return res; };
 
-  const { data: tool } = await db.from("ai_tools").select("id").eq("id", toolId).maybeSingle();
+  const { data: tool } = await withPublished((pub) => { const q = db.from("ai_tools").select("id").eq("id", toolId); return (pub ? q.eq("status", "published") : q).maybeSingle(); }); // 只允許已上架工具
   if (!tool) return done({ error: "找不到工具" }, 404);
 
   const { data: mine, error: e1 } = await db.from("tool_reviews").select("id").eq("tool_id", toolId).eq("voter_hash", voter.hash).maybeSingle();

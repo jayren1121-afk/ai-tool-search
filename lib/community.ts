@@ -2,6 +2,7 @@ import "server-only";
 import { supabaseAdmin } from "./supabase-admin";
 import { firstTime } from "./security";
 import { distinctHost } from "./textutil";
+import { withPublished } from "./published";
 import type { AltRow, Heat, HeatPart, Review, VoteStats } from "./types";
 
 const env = (k: string) => (process.env[k] || "").trim();
@@ -53,9 +54,10 @@ const trustedMin = (t: AltSrc) => {
 };
 export async function pickAlternatives(toolId: string, n = 3): Promise<{ self: AltRow | null; alts: AltRow[] }> {
   const cols = "id,name,category,subcategory,tags,pricing_model,free_tier,is_wrapper,underlying_models,paid_plans,confidence";
-  const { data: me } = await db().from("ai_tools").select(cols).eq("id", toolId).maybeSingle();
+  // 只比較已上架的工具（service_role 略過 RLS，需自行過濾 status）
+  const { data: me } = await withPublished((pub) => { const q = db().from("ai_tools").select(cols).eq("id", toolId); return (pub ? q.eq("status", "published") : q).maybeSingle(); });
   if (!me) return { self: null, alts: [] };
-  const { data: same } = await db().from("ai_tools").select(cols).eq("category", (me as AltSrc).category).neq("id", toolId).limit(200);
+  const { data: same } = await withPublished((pub) => { const q = db().from("ai_tools").select(cols).eq("category", (me as unknown as AltSrc).category).neq("id", toolId); return (pub ? q.eq("status", "published") : q).limit(200); });
   const list = (same ?? []) as AltSrc[];
   let stats: Record<string, VoteStats> = {};
   try { stats = await getStatsMany([toolId, ...list.map((t) => t.id)]); } catch { /* 003 未執行時略過 */ }

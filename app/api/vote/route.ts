@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getStats } from "@/lib/community";
 import { applyPass, applyVoter, checkLimits, clientIp, getVoter, originOk, readJson, turnstileGate, validToolId } from "@/lib/security";
 import { supabaseAdmin } from "@/lib/supabase-admin";
+import { withPublished } from "@/lib/published";
 
 export const runtime = "nodejs";
 const MAX_PER_IP_PER_TOOL = 5; // 同一 IP 對同一工具最多幾個不同投票者（容許共用網路）
@@ -22,7 +23,7 @@ export async function POST(req: NextRequest) {
   const db = supabaseAdmin();
   const done = (data: Record<string, unknown>, status = 200) => { const res = NextResponse.json(data, { status }); applyPass(res, gate); applyVoter(res, voter); return res; };
 
-  const { data: tool } = await db.from("ai_tools").select("id").eq("id", toolId).maybeSingle();
+  const { data: tool } = await withPublished((pub) => { const q = db.from("ai_tools").select("id").eq("id", toolId); return (pub ? q.eq("status", "published") : q).maybeSingle(); }); // 只允許已上架工具
   if (!tool) return done({ error: "找不到工具" }, 404);
 
   if (vote === 0) {

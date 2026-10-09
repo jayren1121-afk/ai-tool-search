@@ -9,7 +9,7 @@ import { jsonLd, langAlternates, siteName, SITE_SHORT, SITE_URL } from "@/lib/si
 import { getPublicStats, getTool, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
 import { validToolId } from "@/lib/security";
 import {
-  categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, t, toolDesc, toolFeatures, toolHref,
+  categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, releaseText, t, toolDesc, toolFeatures, toolHref,
   trFree, trNote, trPlanName, trSub, type Locale,
 } from "@/lib/i18n";
 
@@ -115,6 +115,8 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
         <dl className="mt-2 grid grid-cols-[8rem_1fr] gap-y-2 text-sm">
           <dt className="text-slate-500">{L.company}</dt><dd>{x.company || NA}{x.country ? paren(x.country) : ""}</dd>
           <dt className="text-slate-500">{L.lastVerified}</dt><dd>{x.last_verified || L.unverified}</dd>
+          <dt className="text-slate-500">{L.released}</dt>
+          <dd>{releaseText(locale, x.released_at, x.released_source) ?? NA}{x.released_at ? <span className="block text-xs text-slate-400">{L.releasedHint}</span> : null}</dd>
         </dl>
 
         <p className="mt-6 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-800">{L.toolDisclaimer}</p>

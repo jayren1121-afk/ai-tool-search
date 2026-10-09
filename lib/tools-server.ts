@@ -35,8 +35,13 @@ async function withEn<T>(locale: Locale, en: () => Promise<T>, base: () => Promi
 
 export async function getTool(id: string, locale: Locale = "zh"): Promise<ToolFull | null> {
   const q = (cols: string) => rest<ToolFull[]>(`ai_tools?select=${cols}&id=eq.${encodeURIComponent(id)}&limit=1`);
-  const rows = await withEn(locale, () => q(`${FULL},description_en,key_features_en`), () => q(FULL));
+  // 推出日期欄位需 migration 005；尚未執行（HTTP 400）時退回不含該欄位的查詢。待審核工具由 RLS 隱藏（anon 只讀得到 published）
+  const rows = await withRel((rel) => withEn(locale, () => q(`${FULL}${rel},description_en,key_features_en`), () => q(`${FULL}${rel}`)));
   return rows[0] ?? null;
+}
+async function withRel<T>(run: (rel: string) => Promise<T>): Promise<T> {
+  try { return await run(",released_at,released_source"); }
+  catch (e) { if ((e as { status?: number }).status === 400) return run(""); throw e; }
 }
 
 export async function getToolsByCategory(cat: string, limit = 200, locale: Locale = "zh"): Promise<ToolLite[]> {
@@ -46,7 +51,11 @@ export async function getToolsByCategory(cat: string, limit = 200, locale: Local
 
 /** sitemap 用；失敗時回傳 null 由呼叫端改用靜態清單 */
 export async function getAllToolsLite(): Promise<ToolLite[] | null> {
-  try { return await rest<ToolLite[]>(`ai_tools?select=${LITE}&order=id.asc&limit=1000`); }
+  // RLS 已讓 anon 只讀得到 published；這裡再明確加上過濾（migration 005 未執行時欄位不存在 → HTTP 400 → 退回原查詢）
+  try {
+    try { return await rest<ToolLite[]>(`ai_tools?select=${LITE}&status=eq.published&order=id.asc&limit=1000`); }
+    catch (e) { if ((e as { status?: number }).status === 400) return await rest<ToolLite[]>(`ai_tools?select=${LITE}&order=id.asc&limit=1000`); throw e; }
+  }
   catch (e) { console.warn("getAllToolsLite fallback:", (e as Error).message); return null; }
 }
 

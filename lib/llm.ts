@@ -133,12 +133,12 @@ export function enforceEvidence(d: Diagnosis, pageText: string, thin: boolean, l
   return d;
 }
 
-async function openaiCompatible(url: string, key: string, model: string, system: string, user: string, extra: Record<string, unknown> = {}) {
+async function openaiCompatible(url: string, key: string, model: string, system: string, user: string, extra: Record<string, unknown> = {}, timeoutMs = 45000) {
   const r = await fetch(url, {
     method: "POST",
     headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json", ...(url.includes("openrouter") ? { "HTTP-Referer": "https://ai-tool-search.vercel.app", "X-Title": "AI Tool Search" } : {}) },
     body: JSON.stringify({ model, messages: [{ role: "system", content: system }, { role: "user", content: user }], response_format: { type: "json_object" }, temperature: 0.2, max_completion_tokens: 2600, ...extra }),
-    signal: AbortSignal.timeout(45000),
+    signal: AbortSignal.timeout(timeoutMs),
   });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(`HTTP ${r.status}: ${j?.error?.message ?? "unknown"}`);
@@ -174,4 +174,18 @@ export async function callProvider(p: Provider, system: string, user: string, ct
     return normalize(await openaiCompatible("https://api.groq.com/openai/v1/chat/completions", env("GROQ_API_KEY"), model, system, user, extra), ctx);
   }
   return normalize(await openaiCompatible("https://openrouter.ai/api/v1/chat/completions", env("OPENROUTER_API_KEY"), model, system, user), ctx);
+}
+
+/** 簡單 JSON 輸出呼叫（供自動發現新工具等用途）：使用同一組供應商、模型與金鑰，回傳模型原始文字（由呼叫端解析與驗證） */
+export async function callProviderJSON(p: Provider, system: string, user: string, timeoutMs = 20000): Promise<string> {
+  const model = modelFor(p);
+  if (p === "gemini") {
+    const ai = new GoogleGenAI({ apiKey: env("GEMINI_API_KEY") });
+    const r = await ai.models.generateContent({ model, contents: `${system}\n\n${user}`, config: { responseMimeType: "application/json", temperature: 0.1, abortSignal: AbortSignal.timeout(timeoutMs) } });
+    if (!r.text) throw new Error("空的回應");
+    return r.text;
+  }
+  const extra = { max_completion_tokens: 1200, temperature: 0.1, ...(p === "groq" && model.startsWith("openai/gpt-oss") ? { reasoning_effort: "low" } : {}) };
+  if (p === "groq") return openaiCompatible("https://api.groq.com/openai/v1/chat/completions", env("GROQ_API_KEY"), model, system, user, extra, timeoutMs);
+  return openaiCompatible("https://openrouter.ai/api/v1/chat/completions", env("OPENROUTER_API_KEY"), model, system, user, extra, timeoutMs);
 }

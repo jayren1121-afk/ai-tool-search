@@ -5,6 +5,8 @@ import { callProvider, enforceEvidence, modelFor, providerOrder, JSON_SHAPE, JSO
 import { isLocale, trFree, type Locale } from "@/lib/i18n";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 import { estTokens } from "@/lib/textutil";
+import { pageText } from "@/lib/pagetext";
+import { withPublished } from "@/lib/published";
 import {
   checkLimits, clientIp, globalDailyOk, makePassCookie, originOk, passCookieOk, readJson,
   TS_COOKIE, turnstileEnabled, validToolId, verifyTurnstile,
@@ -13,49 +15,8 @@ import {
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const PAGE_CHARS = 6000;   // 每頁最多字元數
-const PAGE_TOKENS = 1200;  // 每頁估算 token 上限；加上口碑片段與替代方案仍需低於 Groq 免費額度（約 8K tokens/分鐘）
 const CACHE_DAYS = 7;
 const FORCE_MIN_HOURS = 0.17; // 重新診斷：最新結果須超過約 10 分鐘（只防連點，不再是 24 小時）
-
-function truncateTokens(t: string, max = PAGE_TOKENS) {
-  let n = 0, i = 0;
-  for (; i < t.length && n < max; i++) n += /[\u3000-\u9fff\uac00-\ud7af\uff00-\uffef]/.test(t[i]) ? 1 : 0.25;
-  return t.slice(0, i);
-}
-
-const BROWSER_HEADERS = {
-  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 AIToolSearchBot",
-  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8",
-};
-const decodeEntities = (t: string) => t.replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;|&gt;/g, " ");
-const metaOf = (html: string, attr: string, key: string) => {
-  const m = html.match(new RegExp(`<meta[^>]+${attr}=["']${key}["'][^>]*>`, "i"));
-  const c = m?.[0].match(/content=["']([^"']*)["']/i);
-  return c ? decodeEntities(c[1]).trim() : "";
-};
-
-/** 抓網頁文字；除了可見內文，也擷取標題、meta 描述與結構化資料（JS 網站的可見文字常常很少，但這些通常還在） */
-async function pageText(url: string | null, keepHtml = false): Promise<{ text: string; html: string }> {
-  const empty = { text: "", html: "" };
-  if (!url || !/^https?:\/\//.test(url)) return empty;
-  try {
-    const r = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(10000), redirect: "follow" });
-    if (!r.ok) return empty;
-    const html = (await r.text()).slice(0, 800_000);
-    const title = decodeEntities((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").replace(/<[^>]+>/g, " ")).trim();
-    const metas = [title && `標題：${title}`, metaOf(html, "name", "description"), metaOf(html, "property", "og:description"), metaOf(html, "name", "twitter:description")]
-      .filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
-    const ld = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
-      .map((m) => m[1].replace(/\s+/g, " ").trim()).join(" ").slice(0, 1500);
-    const body = decodeEntities(html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>/gi, " ").replace(/<[^>]+>/g, " "));
-    const text = (metas.join(" ｜ ") + " ｜ " + body + (ld ? " ｜ " + ld : ""))
-      .replace(/<<<|>>>/g, " ") // 防止偽造分隔符號
-      .replace(/\s+/g, " ").trim().slice(0, PAGE_CHARS);
-    return { text: truncateTokens(text), html: keepHtml ? html : "" };
-  } catch { return empty; }
-}
 
 /** 沒有內容的診斷（網站擋機器人或抓取失敗）不該被當成正常結果卡住 24 小時 */
 const isPoor = (r: unknown) => {
@@ -93,7 +54,12 @@ export async function POST(req: NextRequest) {
   };
 
   const db = supabaseAdmin();
-  const { data: tool } = await db.from("ai_tools").select("id,name,url,category,subcategory,description_zh,pricing_url").eq("id", toolId).maybeSingle();
+  // 只診斷已上架的工具（待審核／已拒絕的回「找不到」）
+  type DiagTool = { id: string; name: string; url: string; category: string; subcategory: string | null; description_zh: string | null; pricing_url: string | null };
+  const { data: tool } = await withPublished<DiagTool>((pub) => {
+    const q = db.from("ai_tools").select("id,name,url,category,subcategory,description_zh,pricing_url").eq("id", toolId);
+    return (pub ? q.eq("status", "published") : q).maybeSingle<DiagTool>();
+  });
   if (!tool) return respond({ error: M("找不到工具", "Tool not found") }, 404);
 
   // 快取依語言區分（migration 004 新增 diagnoses.locale，舊資料預設 'zh'）；欄位不存在時：中文沿用舊快取，英文不快取
