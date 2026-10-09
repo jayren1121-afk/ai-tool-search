@@ -187,7 +187,7 @@ const zh = {
   diagFailed: "診斷失敗", worth: "值得使用", notRec: "不太推薦", dataQuality: "資料品質：", price: "價位", plans: "訂閱方案", summary: "重點摘要",
   pros: "優點", cons: "缺點", sources: "資料來源", evidence: "依據", evidenceUnverified: "（未能在網頁中核對）",
   conf: { high: "高可信", medium: "中可信", low: "低可信" } as Record<string, string>,
-  diagTime: "AI 診斷時間：", model: "模型：", cached: "快取結果", fresh: "新產生", oldV1: "｜舊版診斷（無逐欄信心與引用）", oldV2: "｜舊版診斷（無口碑與替代方案說明）",
+  diagTime: "AI 診斷時間：", model: "模型：", cached: "快取結果", fresh: "新產生", oldV1: "｜舊版診斷（無逐欄信心與引用）", oldV2: "｜舊版診斷（無替代方案說明）",
   rediagnose: "重新診斷", report: "回報錯誤", reportThanks: "已收到回報，謝謝！", reportPh: "哪裡有誤？例如：價格已調整為…（最多 500 字）", reportFailed: "回報失敗",
   dateLocale: "zh-TW", breadcrumb: "麵包屑",
 };
@@ -232,7 +232,7 @@ const en: Dict = {
   diagFailed: "Diagnosis failed", worth: "Worth using", notRec: "Not recommended", dataQuality: "Data quality: ", price: "Price", plans: "Plans", summary: "Key points",
   pros: "Pros", cons: "Cons", sources: "Sources", evidence: "Evidence", evidenceUnverified: " (could not be matched on the page)",
   conf: { high: "High confidence", medium: "Medium confidence", low: "Low confidence" },
-  diagTime: "Diagnosed: ", model: "Model: ", cached: "cached", fresh: "new", oldV1: " | older diagnosis (no per-field confidence or quotes)", oldV2: " | older diagnosis (no buzz or alternatives note)",
+  diagTime: "Diagnosed: ", model: "Model: ", cached: "cached", fresh: "new", oldV1: " | older diagnosis (no per-field confidence or quotes)", oldV2: " | older diagnosis (no alternatives note)",
   rediagnose: "Re-diagnose", report: "Report an error", reportThanks: "Report received, thank you!", reportPh: "What's wrong? e.g. the price changed to… (max 500 characters)", reportFailed: "Report failed",
   dateLocale: "en-US", breadcrumb: "Breadcrumb",
 };
