@@ -10,7 +10,7 @@ import { getPublicStats, getTool, getToolsByCategory, type ToolFull } from "@/li
 import { validToolId } from "@/lib/security";
 import {
   categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, t, toolDesc, toolFeatures, toolHref,
-  trFree, trModels, trNote, trPlanName, trSub, type Locale,
+  trFree, trNote, trPlanName, trSub, type Locale,
 } from "@/lib/i18n";
 
 function trustedPlans(t: { confidence?: string | null; paid_plans?: { name: string; price_usd_month?: number | null; notes?: string | null }[] | null }) {
@@ -29,10 +29,10 @@ function metaDesc(x: ToolFull, locale: Locale) {
   const pm = pricingName(locale, x.pricing_model);
   if (locale === "en") {
     const price = min != null ? `Paid plans from about $${min}/month.` : pm ? `Pricing model: ${pm}.` : "";
-    return [x.description_en?.trim() ? `${x.name}: ${x.description_en.trim()}` : toolDesc("en", x), price, `See ${x.name} pricing, plans, free tier and whether it's a wrapper.`].filter(Boolean).join(" ").slice(0, 160);
+    return [x.description_en?.trim() ? `${x.name}: ${x.description_en.trim()}` : toolDesc("en", x), price, `See ${x.name} pricing, plans, free tier.`].filter(Boolean).join(" ").slice(0, 160);
   }
   const price = min != null ? `付費方案約 $${min} 美元/月起` : pm ? `計價模式：${pm}` : "";
-  return [`${x.name}：${x.description_zh ?? ""}`, price, `查看 ${x.name} 的價格、訂閱方案、免費額度與是否套殼。`].filter(Boolean).join(" ").slice(0, 155);
+  return [`${x.name}：${x.description_zh ?? ""}`, price, `查看 ${x.name} 的價格、訂閱方案與免費額度。`].filter(Boolean).join(" ").slice(0, 155);
 }
 
 export async function toolMetadata(id: string, locale: Locale): Promise<Metadata> {
@@ -113,8 +113,6 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
 
         <h2 className="mt-6 border-b pb-1 text-lg font-semibold">{L.modelTech}</h2>
         <dl className="mt-2 grid grid-cols-[8rem_1fr] gap-y-2 text-sm">
-          <dt className="text-slate-500">{L.wrapper}</dt><dd>{(x.is_wrapper && L.wrapperFull[x.is_wrapper]) || NA}</dd>
-          <dt className="text-slate-500">{L.models}</dt><dd>{trModels(locale, x.underlying_models) || NA}</dd>
           <dt className="text-slate-500">{L.company}</dt><dd>{x.company || NA}{x.country ? paren(x.country) : ""}</dd>
           <dt className="text-slate-500">{L.lastVerified}</dt><dd>{x.last_verified || L.unverified}</dd>
         </dl>
