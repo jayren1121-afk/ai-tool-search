@@ -21,14 +21,15 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
   const [q, setQ] = useState(""); const [cat, setCat] = useState(""); const [pm, setPm] = useState("");
   const [rows, setRows] = useState<Row[]>([]); const [sort, setSort] = useState<Sort>("name"); const [votesOn, setVotesOn] = useState(true); const [relOn, setRelOn] = useState(true);
   const [enOn, setEnOn] = useState(locale === "en"); const [loading, setLoading] = useState(false); const [err, setErr] = useState("");
-  const [sel, setSel] = useState<Tool | null>(null);
+  const [sel, setSel] = useState<Tool | null>(null); const [count, setCount] = useState(LIMIT); // 目前要顯示幾筆（每按一次「載入更多」增加 20）
+  useEffect(() => { setCount(LIMIT); }, [q, cat, pm, sort]);
 
   useEffect(() => {
     const timer = setTimeout(async () => {
       setLoading(true); setErr("");
       const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
       const build = (withVotes: boolean, withEn: boolean, withRel: boolean) => {
-        let query = sb.from("ai_tools").select(`${COLS}${withEn ? EN_COLS : ""}${withRel ? REL_COLS : ""}${withVotes ? ",tool_vote_stats(up,down,score)" : ""}`).limit(LIMIT);
+        let query = sb.from("ai_tools").select(`${COLS}${withEn ? EN_COLS : ""}${withRel ? REL_COLS : ""}${withVotes ? ",tool_vote_stats(up,down,score)" : ""}`).range(0, count); // 多抓 1 筆，用來判斷是否還有更多結果
         query = withVotes && sort === "votes"
           ? query.order("tool_vote_stats(score)", { ascending: false, nullsFirst: false }).order("name")
           : withRel && sort === "newest"
@@ -54,7 +55,7 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, L.queryFailed]);
+  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, count, L.queryFailed]);
 
   return (
     <main className="mx-auto max-w-5xl p-4">
@@ -75,10 +76,10 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
           {Object.keys(PRICING).map((k) => <option key={k} value={k}>{pricingName(locale, k)}</option>)}
         </select>
       </div>
-      <div className="mb-2 text-sm text-slate-500">{loading ? L.searching : `${L.results(rows.length)}${rows.length === LIMIT ? L.resultsCap(LIMIT) : ""}`}</div>
+      <div className="mb-2 text-sm text-slate-500">{loading && rows.length === 0 ? L.searching : L.results(Math.min(rows.length, count)) + (rows.length > count ? L.resultsMore : "")}</div>
       {err && <div className="mb-3 rounded bg-red-50 p-3 text-red-700">{err}</div>}
       <ul className="space-y-3">
-        {rows.map((x) => (
+        {rows.slice(0, count).map((x) => (
           <li key={x.id} className="flex items-start gap-3 rounded-xl bg-white p-4 shadow-sm">
             <div className="min-w-0 flex-1">
               <Link href={toolHref(locale, x.id)} className="font-semibold text-indigo-700 hover:underline">{x.name}</Link>
@@ -96,6 +97,11 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
           </li>
         ))}
       </ul>
+      {rows.length > count && (
+        <div className="mt-4 text-center">
+          <button onClick={() => setCount((c) => c + LIMIT)} disabled={loading} className="rounded-lg border border-indigo-300 bg-white px-5 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-50">{loading ? L.searching : L.loadMore}</button>
+        </div>
+      )}
       <DiagnosePanel tool={sel} onClose={() => setSel(null)} locale={locale} />
     </main>
   );
