@@ -3,20 +3,20 @@ import { useCallback, useEffect, useState } from "react";
 import { protectedPost } from "@/lib/client";
 import type { Conf, DiagnoseResponse, EvidenceField, Tool } from "@/lib/types";
 import { catName, pricingName, t, toolDesc, trError, trFree, trModels, trSub, type Locale } from "@/lib/i18n";
-import { AlternativesTable, BuzzView, HeatCard, ReviewsSection, useCommunity } from "./Community";
+import { AlternativesTable, HeatCard, ReviewsSection, useCommunity } from "./Community";
 import VoteButtons from "./VoteButtons";
 
-type Tab = "official" | "buzz" | "heat" | "reviews" | "alts";
+type Tab = "official" | "heat" | "reviews" | "alts";
 type L = ReturnType<typeof t>;
 
 export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: Tool | null; onClose: () => void; locale?: Locale }) {
   const L = t(locale); const NA = L.unknown;
   const TABS: { k: Tab; label: string }[] = [
-    { k: "buzz", label: L.tabBuzz }, { k: "heat", label: L.tabHeat }, { k: "reviews", label: L.tabReviews }, { k: "alts", label: L.tabAlts }, { k: "official", label: L.tabOfficial },
+    { k: "heat", label: L.tabHeat }, { k: "reviews", label: L.tabReviews }, { k: "alts", label: L.tabAlts }, { k: "official", label: L.tabOfficial },
   ];
   const [shown, setShown] = useState<Tool | null>(null);
   const [open, setOpen] = useState(false);
-  const [tab, setTab] = useState<Tab>("buzz");
+  const [tab, setTab] = useState<Tab>("heat");
   const [d, setD] = useState<DiagnoseResponse | null>(null);
   const [loading, setLoading] = useState(false); const [err, setErr] = useState("");
   const community = useCommunity(tool?.id ?? null, locale);
@@ -36,7 +36,7 @@ export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: 
     } catch (e) { setErr((e as Error).message); } finally { setLoading(false); }
   }, [tool, locale, L.diagFailed]);
 
-  useEffect(() => { setD(null); setErr(""); setTab("buzz"); if (tool) run(); // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => { setD(null); setErr(""); setTab("heat"); if (tool) run(); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tool?.id]);
   useEffect(() => { const k = (e: KeyboardEvent) => e.key === "Escape" && onClose(); addEventListener("keydown", k); return () => removeEventListener("keydown", k); }, [onClose]);
 
@@ -87,7 +87,6 @@ export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: 
         </div>
 
         <div className="pt-4">
-          {tab === "buzz" && (aiLoading || aiError || (r ? <BuzzView buzz={r.buzz} locale={locale} /> : null))}
           {tab === "heat" && (c ? <HeatCard heat={c.heat} enabled={c.enabled} locale={locale} /> : loadingTxt)}
           {tab === "reviews" && (c ? <ReviewsSection toolId={tl.id} c={c} sort={community.sort} setSort={community.setSort} reload={community.reload} locale={locale} /> : loadingTxt)}
           {tab === "alts" && (c ? <AlternativesTable selfId={tl.id} alts={c.alternatives} note={r?.alternatives_note} locale={locale} /> : loadingTxt)}
