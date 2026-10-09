@@ -77,7 +77,7 @@ export function AlternativesTable({ selfId, alts, note, locale = "zh" }: { selfI
     <div className="text-sm">
       <div className="overflow-x-auto">
         <table className="w-full min-w-[420px] text-left text-xs">
-          <thead className="text-slate-500"><tr><th className="py-1">{L.altTool}</th><th>{L.altPricing}</th><th>{L.altMin}</th><th>{L.altFree}</th><th>{L.altWrapper}</th><th>{L.altGood}</th></tr></thead>
+          <thead className="text-slate-500"><tr><th className="py-1">{L.altTool}</th><th>{L.altPricing}</th><th>{L.altMin}</th><th>{L.altFree}</th><th>{L.altGood}</th></tr></thead>
           <tbody>
             {alts.map((a) => {
               const pct = pctGood(a.up, a.down);
@@ -87,7 +87,6 @@ export function AlternativesTable({ selfId, alts, note, locale = "zh" }: { selfI
                   <td>{pricingName(locale, a.pricing_model) ?? L.unknown}</td>
                   <td>{a.min_price != null ? `US$${a.min_price}` : L.unknown}</td>
                   <td className="max-w-[10rem]">{trFree(locale, a.free_tier) || L.unknown}</td>
-                  <td>{(a.is_wrapper && L.wrapperShort[a.is_wrapper]) || L.unknown}</td>
                   <td>{pct !== null ? `${pct}% (${a.up + a.down})` : "—"}</td>
                 </tr>
               );

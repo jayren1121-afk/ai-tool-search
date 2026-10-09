@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { protectedPost } from "@/lib/client";
 import type { Conf, DiagnoseResponse, EvidenceField, Tool } from "@/lib/types";
-import { catName, pricingName, t, toolDesc, trError, trFree, trModels, trSub, type Locale } from "@/lib/i18n";
+import { catName, pricingName, t, toolDesc, trError, trFree, trSub, type Locale } from "@/lib/i18n";
 import { AlternativesTable, HeatCard, ReviewsSection, useCommunity } from "./Community";
 import VoteButtons from "./VoteButtons";
 
@@ -71,8 +71,6 @@ export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: 
             <dt className="text-slate-500">{L.category}</dt><dd>{catName(locale, tl.category)}{tl.subcategory ? ` / ${trSub(locale, tl.subcategory)}` : ""}</dd>
             <dt className="text-slate-500">{L.pricing}</dt><dd>{pricingName(locale, tl.pricing_model) ?? NA}</dd>
             <dt className="text-slate-500">{L.freeTier}</dt><dd>{trFree(locale, tl.free_tier) || NA}</dd>
-            <dt className="text-slate-500">{L.wrapperS}</dt><dd>{L.wrapperFull[tl.is_wrapper ?? "unknown"] ?? NA}</dd>
-            <dt className="text-slate-500">{L.models}</dt><dd>{trModels(locale, tl.underlying_models) || NA}</dd>
           </dl>
         </details>
 
@@ -101,8 +99,6 @@ export default function DiagnosePanel({ tool, onClose, locale = "zh" }: { tool: 
               {r.data_quality && <p className="rounded bg-slate-100 px-2 py-1 text-xs text-slate-600">{L.dataQuality}{r.data_quality}</p>}
               <Item L={L} k={L.price} c={fc("price")} e={ev("price")}>{r.price_summary || NA}</Item>
               <Item L={L} k={L.plans} c={fc("plans")} e={ev("plans")}>{r.plans?.length ? <ul className="list-disc pl-5">{r.plans.map((p, i) => <li key={i}><b>{p.name}</b>{locale === "en" ? ": " : "："}{p.price || NA}{p.notes ? (locale === "en" ? ` (${p.notes})` : `（${p.notes}）`) : ""}</li>)}</ul> : NA}</Item>
-              <Item L={L} k={L.wrapper} c={fc("is_wrapper")} e={ev("is_wrapper")}>{L.wrapperFull[r.is_wrapper] ?? NA}</Item>
-              <Item L={L} k={L.models} c={fc("underlying_models")} e={ev("underlying_models")}>{r.underlying_models?.length ? r.underlying_models.join(L.listSep) : NA}</Item>
               <Item L={L} k={L.summary} c={fc("summary")} e={ev("summary")}><List a={r.summary} /></Item>
               <div className="grid gap-3 sm:grid-cols-2">
                 <Item L={L} k={L.pros}><List a={r.pros} /></Item><Item L={L} k={L.cons}><List a={r.cons} /></Item>
