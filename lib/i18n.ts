@@ -148,7 +148,7 @@ const zh = {
   heroSub: "搜尋 AI 工具，點「診斷」由 AI 即時分析價位與訂閱方案。",
   searchPh: "搜尋名稱、描述，例如：影片、Claude、簡報…", allCats: "所有分類", allPricing: "所有計價", sortLabel: "排序",
   sortName: "依名稱", sortVotes: "好評優先", searching: "搜尋中…", results: (n: number) => `${n} 筆結果`,
-  resultsCap: (n: number) => `（最多顯示 ${n} 筆，請輸入更精確的關鍵字）`, queryFailed: "查詢失敗：", website: "官網 ↗", diagnose: "診斷",
+  loadMore: "載入更多", resultsMore: "（還有更多結果）", resultsCap: (n: number) => `（最多顯示 ${n} 筆，請輸入更精確的關鍵字）`, queryFailed: "查詢失敗：", website: "官網 ↗", diagnose: "診斷",
   browseCats: "依分類瀏覽 AI 工具", homeNote: "資料由公開網頁自動整理，AI 診斷僅供參考，價格請以官網為準。",
   footerCopy: "jAytal AI 工具搜尋", contact: "聯絡我們：",
   // 投票
@@ -203,7 +203,7 @@ const en: Dict = {
   heroSub: "Search AI tools and click “Diagnose” for a live AI analysis of pricing, plans and plans.",
   searchPh: "Search names or descriptions, e.g. video, Claude, slides…", allCats: "All categories", allPricing: "All pricing", sortLabel: "Sort",
   sortName: "By name", sortVotes: "Top rated", searching: "Searching…", results: (n) => `${n} result${n === 1 ? "" : "s"}`,
-  resultsCap: (n) => ` (showing up to ${n}; try a more specific keyword)`, queryFailed: "Search failed: ", website: "Website ↗", diagnose: "Diagnose",
+  loadMore: "Load more", resultsMore: " (more results available)", resultsCap: (n) => ` (showing up to ${n}; try a more specific keyword)`, queryFailed: "Search failed: ", website: "Website ↗", diagnose: "Diagnose",
   browseCats: "Browse AI tools by category", homeNote: "Data is compiled automatically from public web pages. AI diagnoses are for reference only; check official websites for current prices.",
   footerCopy: "jAytal AI Tool Search", contact: "Contact: ",
   votes: "Votes from site users", noVotes: "No votes yet", good: (p) => `${p}% positive`, goodVotes: (p, n) => `${p}% positive (${n} vote${n === 1 ? "" : "s"})`,
