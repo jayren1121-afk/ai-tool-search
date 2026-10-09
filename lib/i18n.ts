@@ -145,7 +145,7 @@ const zh = {
   siteName: "jAytal AI 工具搜尋", home: "首頁", unknown: "無法確認", unverified: "未核實", loading: "載入中…",
   langName: "中文", switchTo: "English", switchLabel: "Switch to English",
   // 首頁 / 搜尋
-  heroSub: "搜尋 AI 工具，點「診斷」由 AI 即時分析價位、方案與是否套殼。",
+  heroSub: "搜尋 AI 工具，點「診斷」由 AI 即時分析價位與訂閱方案。",
   searchPh: "搜尋名稱、描述，例如：影片、Claude、簡報…", allCats: "所有分類", allPricing: "所有計價", sortLabel: "排序",
   sortName: "依名稱", sortVotes: "好評優先", searching: "搜尋中…", results: (n: number) => `${n} 筆結果`,
   resultsCap: (n: number) => `（最多顯示 ${n} 筆，請輸入更精確的關鍵字）`, queryFailed: "查詢失敗：", website: "官網 ↗", diagnose: "診斷",
@@ -157,7 +157,7 @@ const zh = {
   // 工具頁
   toolTitle: (n: string) => `${n} 價格、方案與評價`, aiDiagnose: "AI 即時診斷", visitSite: "前往官網 ↗", pricingPlans: "價格與方案",
   pricingModel: "計價模式", paidPlans: "付費方案", freeTier: "免費方案", pricingPage: "價格頁", perMonth: "/月",
-  modelTech: "模型與技術", wrapper: "是否套殼", models: "底層模型", company: "公司", lastVerified: "最後核實",
+  modelTech: "公司資訊", wrapper: "是否套殼", models: "底層模型", company: "公司", lastVerified: "最後核實",
   toolDisclaimer: "⚠️ 本頁資料由公開網頁自動整理，價格與方案可能已變動，請以官網為準；「AI 即時診斷」為 AI 自動分析，僅供參考；使用者評論為個人意見。",
   otherInCat: (c: string) => `其他${c}工具`, allInCat: (c: string) => `查看全部${c}工具 →`, toolNotFound: "找不到此工具",
   wrapperFull: { true: "是（使用第三方模型）", false: "否（自有模型）", partial: "部分使用第三方模型", unknown: "無法確認" } as Record<string, string>,
@@ -196,7 +196,7 @@ type Dict = typeof zh;
 const en: Dict = {
   siteName: "jAytal AI Tool Search", home: "Home", unknown: "Unknown", unverified: "Not verified", loading: "Loading…",
   langName: "English", switchTo: "中文", switchLabel: "切換為繁體中文",
-  heroSub: "Search AI tools and click “Diagnose” for a live AI analysis of pricing, plans and whether a tool is a wrapper.",
+  heroSub: "Search AI tools and click “Diagnose” for a live AI analysis of pricing, plans and plans.",
   searchPh: "Search names or descriptions, e.g. video, Claude, slides…", allCats: "All categories", allPricing: "All pricing", sortLabel: "Sort",
   sortName: "By name", sortVotes: "Top rated", searching: "Searching…", results: (n) => `${n} result${n === 1 ? "" : "s"}`,
   resultsCap: (n) => ` (showing up to ${n}; try a more specific keyword)`, queryFailed: "Search failed: ", website: "Website ↗", diagnose: "Diagnose",
@@ -206,7 +206,7 @@ const en: Dict = {
   firstVote: "Be the first to vote", voteFailed: "Vote failed",
   toolTitle: (n) => `${n} Pricing, Plans & Reviews`, aiDiagnose: "Live AI Diagnosis", visitSite: "Visit website ↗", pricingPlans: "Pricing & Plans",
   pricingModel: "Pricing model", paidPlans: "Paid plans", freeTier: "Free tier", pricingPage: "Pricing page", perMonth: "/mo",
-  modelTech: "Models & Technology", wrapper: "Wrapper?", models: "Underlying models", company: "Company", lastVerified: "Last verified",
+  modelTech: "Company info", wrapper: "Wrapper?", models: "Underlying models", company: "Company", lastVerified: "Last verified",
   toolDisclaimer: "⚠️ This page is compiled automatically from public web pages. Prices and plans may have changed, so check the official website. “Live AI Diagnosis” is an automated AI analysis for reference only. User reviews are personal opinions.",
   otherInCat: (c) => `Other ${c} tools`, allInCat: (c) => `See all ${c} tools →`, toolNotFound: "Tool not found",
   wrapperFull: { true: "Yes (uses third-party models)", false: "No (own models)", partial: "Partly uses third-party models", unknown: "Unknown" },

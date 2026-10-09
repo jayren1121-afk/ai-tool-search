@@ -3,7 +3,7 @@ import { CATEGORIES } from "./types";
 export const SITE_NAME = "jAytal AI 工具搜尋";
 export const SITE_SHORT = "jAytal";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://ai-tool-search.vercel.app").trim().replace(/\/+$/, "");
-export const SITE_DESC = "jAytal AI 工具搜尋：收錄近 500 個熱門 AI 工具，依分類比較價格、訂閱方案、免費額度與是否套殼，並可由 AI 即時診斷。";
+export const SITE_DESC = "jAytal AI 工具搜尋：收錄近 500 個熱門 AI 工具，依分類比較價格、訂閱方案與免費額度，並可由 AI 即時診斷。";
 export const NA = "無法確認";
 
 export const CATEGORY_INTRO: Record<string, string> = {
@@ -40,7 +40,7 @@ export const jsonLd = (o: unknown) => JSON.stringify(o).replace(/</g, "\\u003c")
 
 /* ---------- v6 英文版 ---------- */
 export const SITE_NAME_EN = "jAytal AI Tool Search";
-export const SITE_DESC_EN = "jAytal AI Tool Search: compare pricing, subscription plans, free tiers and whether it's a wrapper for nearly 500 popular AI tools by category, with live AI diagnosis.";
+export const SITE_DESC_EN = "jAytal AI Tool Search: compare pricing, subscription plans, free tiers and free tiers for nearly 500 popular AI tools by category, with live AI diagnosis.";
 export const siteName = (loc: "zh" | "en") => (loc === "en" ? SITE_NAME_EN : SITE_NAME);
 export const siteDesc = (loc: "zh" | "en") => (loc === "en" ? SITE_DESC_EN : SITE_DESC);
 /** hreflang：每組中英頁面互相指向，x-default 指向中文 */

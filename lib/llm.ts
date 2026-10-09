@@ -84,8 +84,8 @@ export function normalize(raw: unknown, ctx?: BuzzCtx): Diagnosis {
   const d: Diagnosis = {
     useful: typeof o.useful === "boolean" ? o.useful : String(o.useful).toLowerCase() === "true" || score >= 6,
     score, verdict: String(o.verdict ?? ""), price_summary: String(o.price_summary ?? "").trim() || T.na, plans,
-    is_wrapper: (["true", "false", "partial", "unknown"].includes(w) ? w : w === "yes" ? "true" : w === "no" ? "false" : "unknown") as Diagnosis["is_wrapper"],
-    underlying_models: strArr(o.underlying_models), summary: strArr(o.summary), pros: strArr(o.pros), cons: strArr(o.cons),
+    is_wrapper: "unknown", // 不由 AI 判定是否套殼，避免爭議
+    underlying_models: [] /* 不由 AI 判定底層模型，避免爭議 */, summary: strArr(o.summary), pros: strArr(o.pros), cons: strArr(o.cons),
     sources: strArr(o.sources, 10), field_confidence, evidence, data_quality: String(o.data_quality ?? "").slice(0, 300), schema_version: ctx ? 3 : 2,
   };
   if (ctx) { d.buzz = finalizeBuzz(o.buzz, ctx); d.alternatives_note = String(o.alternatives_note ?? "").trim().slice(0, 400); }
