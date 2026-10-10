@@ -36,12 +36,15 @@ export default async function AdminPage() {
 /** 官網檢查區塊的資料；資料表尚未建立（migration 008）時只在該區塊顯示提示，不影響其他後台功能 */
 async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthData> {
   const BASE = "tool_id,status,consecutive_failures,detail,last_checked_at,last_http_status,last_final_url,needs_review,manual_down,reviewed_note,reviewed_at,snoozed_until";
-  const listQ = (cols: string, filter: string) => db.from("tool_health").select(`${cols},ai_tools!inner(name,url,status)`)
-    .eq("ai_tools.status", "published").or(filter).order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300);
+  // excludeMoved：已設定「已轉址／已改名」提示的工具視為已人工處理（即使 status = down），不列入上方「需要人工檢查」，只出現在下方 moved 區塊
+  const listQ = (cols: string, filter: string, excludeMoved: boolean) => {
+    const q = db.from("tool_health").select(`${cols},ai_tools!inner(name,url,status)`).eq("ai_tools.status", "published").or(filter);
+    return (excludeMoved ? q.is("moved_type", null) : q).order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300);
+  };
   // 先嘗試含「已轉址／已改名」欄位（migration 009）；欄位還不存在就退回舊欄位（後台其餘功能照常）
   let movedReady = true;
-  let listR = await listQ(`${BASE},moved_type,moved_to`, "needs_review.eq.true,status.eq.down");
-  if (listR.error && isMissingColumn(listR.error)) { movedReady = false; listR = await listQ(BASE, "needs_review.eq.true,status.eq.down"); }
+  let listR = await listQ(`${BASE},moved_type,moved_to`, "needs_review.eq.true,status.eq.down", true);
+  if (listR.error && isMissingColumn(listR.error)) { movedReady = false; listR = await listQ(BASE, "needs_review.eq.true,status.eq.down", false); }
   const movedR = movedReady ? await db.from("tool_health").select("tool_id,status,consecutive_failures,detail,last_checked_at,last_http_status,last_final_url,needs_review,manual_down,reviewed_note,reviewed_at,snoozed_until,moved_type,moved_to,ai_tools!inner(name,url,status)")
     .eq("ai_tools.status", "published").not("moved_type", "is", null).order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300) : null;
   const [list, all, total, runs] = await Promise.all([
@@ -58,11 +61,13 @@ async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthD
   const now = Date.now(), rows = (all.data ?? []) as { status: string; last_checked_at: string | null }[];
   const all7 = rows.filter((r) => r.last_checked_at && Date.parse(r.last_checked_at) >= now - 7 * 86400_000).length;
   const count = (s: string) => rows.filter((r) => r.status === s).length;
-  const visible = ((list.data ?? []) as unknown as (HealthItem & { snoozed_until: string | null })[]).filter((r) => !r.snoozed_until || Date.parse(r.snoozed_until) <= now);
+  // 上方清單：排除有 moved 提示者（查詢已排除，這裡再保險一次；它們會顯示在下方 moved 區塊，不會兩邊都消失）；略過 7 天內的也不列
+  const unmoved = ((list.data ?? []) as unknown as (HealthItem & { snoozed_until: string | null })[]).filter((r) => !r.moved_type);
+  const visible = unmoved.filter((r) => !r.snoozed_until || Date.parse(r.snoozed_until) <= now);
   const totalN = total.count ?? 0;
   return {
     items: visible,
-    stats: { total: totalN, live: count("live"), down: count("down"), unknown: count("unknown"), unchecked: Math.max(0, totalN - rows.length), stale7d: Math.max(0, totalN - all7), snoozed: (list.data?.length ?? 0) - visible.length },
+    stats: { total: totalN, live: count("live"), down: count("down"), unknown: count("unknown"), unchecked: Math.max(0, totalN - rows.length), stale7d: Math.max(0, totalN - all7), snoozed: unmoved.length - visible.length },
     movedReady,
     moved: ((movedR?.data ?? []) as unknown as HealthItem[]).filter((m) => !visible.some((v) => v.tool_id === m.tool_id)), // 已在上方清單的不重複列出
     runs: (runs.data ?? []) as HealthRun[], error: runs.error ? `讀取官網檢查紀錄失敗：${runs.error.message}` : null,
