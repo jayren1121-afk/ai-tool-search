@@ -69,3 +69,12 @@ export async function getPublicStats(ids: string[], revalidate = 3600): Promise<
     return Object.fromEntries(rows.map((r) => [r.tool_id, r]));
   } catch { return {}; }
 }
+
+export type ToolHealthPublic = { status: string; last_checked_at: string | null };
+/** 官網連線檢查結果（v14，anon 只能讀已上架工具的 status 與 last_checked_at）；資料表不存在、沒有資料或任何錯誤一律回傳 null（頁面照常顯示，只是不顯示標籤） */
+export async function getToolHealth(id: string): Promise<ToolHealthPublic | null> {
+  try {
+    const rows = await rest<ToolHealthPublic[]>(`tool_health?select=status,last_checked_at&tool_id=eq.${encodeURIComponent(id)}&limit=1`);
+    return rows[0] ?? null;
+  } catch { return null; }
+}

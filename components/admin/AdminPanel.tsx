@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { releaseText } from "@/lib/i18n";
+import HealthSection, { type HealthItem, type HealthRun, type HealthStats } from "./HealthSection";
 import { CATEGORIES } from "@/lib/types";
 
 export type PendingTool = {
@@ -73,7 +74,9 @@ function Card({ t, onDone }: { t: PendingTool; onDone: (msg: string) => void }) 
   );
 }
 
-export default function AdminPanel({ pending, runs, setupError }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null }) {
+export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs: HealthRun[]; error: string | null };
+
+export default function AdminPanel({ pending, runs, setupError, health }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData }) {
   const router = useRouter();
   const [msg, setMsg] = useState(""); const [running, setRunning] = useState(false);
   const last = runs[0];
@@ -108,6 +111,8 @@ export default function AdminPanel({ pending, runs, setupError }: { pending: Pen
         <button onClick={runNow} disabled={running} className="mt-3 w-full rounded-lg bg-indigo-600 px-4 py-3 font-medium text-white disabled:opacity-50 sm:w-auto">{running ? "執行中…" : "立即執行一次自動發現"}</button>
         <p className="mt-1 text-xs text-slate-400">每天最多自動新增 1 筆；今天已新增過時會顯示「略過」。</p>
       </section>
+
+      {health && <HealthSection items={health.items} stats={health.stats} runs={health.runs} error={health.error} />}
 
       {msg && <p className="mb-4 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-800">{msg}</p>}
       {pending.length === 0 ? <p className="rounded-xl bg-white p-4 text-slate-500 shadow-sm">目前沒有待審核的工具。</p> : (

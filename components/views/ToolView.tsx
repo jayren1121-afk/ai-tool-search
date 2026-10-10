@@ -3,10 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import DiagnoseButton from "@/components/DiagnoseButton";
+import HealthBadge from "@/components/HealthBadge";
 import ToolCommunity from "@/components/ToolCommunity";
 import VoteSummary from "@/components/VoteSummary";
 import { jsonLd, langAlternates, siteName, SITE_SHORT, SITE_URL } from "@/lib/site";
-import { getPublicStats, getTool, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
+import { getPublicStats, getTool, getToolHealth, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
 import { validToolId } from "@/lib/security";
 import {
   categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, releaseText, t, toolDesc, toolFeatures, toolHref,
@@ -53,7 +54,8 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
   const L = t(locale); const NA = L.unknown;
   const x = await load(id, locale);
   if (!x) notFound();
-  const related = (await getToolsByCategory(x.category, 13, locale).catch(() => [])).filter((r) => r.id !== x.id).slice(0, 12);
+  const [relatedAll, health] = await Promise.all([getToolsByCategory(x.category, 13, locale).catch(() => []), getToolHealth(x.id)]); // 官網檢查結果取不到時為 null（不顯示標籤）
+  const related = relatedAll.filter((r) => r.id !== x.id).slice(0, 12);
   const priced = trustedPlans(x);
   const ps = await getPublicStats([x.id, ...related.map((r) => r.id)], 86400);
   const st = ps[x.id];
@@ -94,6 +96,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
           {x.pricing_model && <span className="rounded bg-emerald-50 px-2 py-0.5">{pricingName(locale, x.pricing_model)}</span>}
         </div>
         {st && <VoteSummary up={st.up} down={st.down} className="mt-2" locale={locale} />}
+        <HealthBadge health={health} locale={locale} full className="mt-2" />
         <p className="mt-3 text-slate-700">{desc || NA}</p>
         {features.length ? <ul className="mt-3 list-disc pl-5 text-sm text-slate-600">{features.map((f, i) => <li key={i}>{f}</li>)}</ul> : null}
 

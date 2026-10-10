@@ -5,13 +5,16 @@ import { supabaseBrowser } from "@/lib/supabase";
 import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
 import { catName, pricingName, releaseText, t, toolDesc, toolHref, trSub, type Locale } from "@/lib/i18n";
 import DiagnosePanel from "./DiagnosePanel";
+import HealthBadge from "./HealthBadge";
 import VoteSummary from "./VoteSummary";
 
-type Row = Tool & { tool_vote_stats?: { up: number; down: number; score: number } | null };
+type HealthEmbed = { status: string; last_checked_at: string | null };
+type Row = Tool & { tool_vote_stats?: { up: number; down: number; score: number } | null; tool_health?: HealthEmbed | HealthEmbed[] | null };
 
 const COLS = "id,name,url,category,subcategory,description_zh,key_features,pricing_model,free_tier,paid_plans,pricing_url,is_wrapper,underlying_models,company,country,confidence,last_verified,source_urls";
 const EN_COLS = ",description_en,key_features_en"; // 需 migration 004；欄位不存在時自動退回
 const REL_COLS = ",released_at,released_source"; // 需 migration 005；欄位不存在時自動退回
+const HEALTH_COLS = ",tool_health(status,last_checked_at)"; // 官網連線狀態（需 migration 008）；關聯不存在或沒有權限時自動退回，不影響搜尋
 type Sort = "name" | "votes" | "newest";
 const LIMIT = 20;
 
@@ -19,7 +22,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
   const L = t(locale);
   const sb = useMemo(() => supabaseBrowser(), []);
   const [q, setQ] = useState(""); const [cat, setCat] = useState(""); const [pm, setPm] = useState("");
-  const [rows, setRows] = useState<Row[]>([]); const [sort, setSort] = useState<Sort>("name"); const [votesOn, setVotesOn] = useState(true); const [relOn, setRelOn] = useState(true);
+  const [rows, setRows] = useState<Row[]>([]); const [sort, setSort] = useState<Sort>("name"); const [votesOn, setVotesOn] = useState(true); const [relOn, setRelOn] = useState(true); const [healthOn, setHealthOn] = useState(true);
   const [enOn, setEnOn] = useState(locale === "en"); const [loading, setLoading] = useState(false); const [err, setErr] = useState("");
   const [sel, setSel] = useState<Tool | null>(null); const [count, setCount] = useState(LIMIT); // 目前要顯示幾筆（每按一次「載入更多」增加 20）
   useEffect(() => { setCount(LIMIT); }, [q, cat, pm, sort]);
@@ -30,8 +33,8 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
     const timer = setTimeout(async () => {
       setLoading(true); setErr("");
       const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
-      const build = (withVotes: boolean, withEn: boolean, withRel: boolean) => {
-        let query = sb.from("ai_tools").select(`${COLS}${withEn ? EN_COLS : ""}${withRel ? REL_COLS : ""}${withVotes ? ",tool_vote_stats(up,down,score)" : ""}`).range(0, count); // 多抓 1 筆，用來判斷是否還有更多結果
+      const build = (withVotes: boolean, withEn: boolean, withRel: boolean, withHealth: boolean) => {
+        let query = sb.from("ai_tools").select(`${COLS}${withEn ? EN_COLS : ""}${withRel ? REL_COLS : ""}${withHealth ? HEALTH_COLS : ""}${withVotes ? ",tool_vote_stats(up,down,score)" : ""}`).range(0, count); // 多抓 1 筆，用來判斷是否還有更多結果
         query = withVotes && sort === "votes"
           ? query.order("tool_vote_stats(score)", { ascending: false, nullsFirst: false }).order("name")
           : withRel && sort === "newest"
@@ -45,19 +48,20 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
         }
         return query;
       };
-      let v = votesOn, e = enOn, r = relOn;
-      let { data, error } = await build(v, e, r);
-      if (error && r && error.code === "42703" && /released/.test(error.message || "")) { r = false; setRelOn(false); if (sort === "newest") setSort("name"); ({ data, error } = await build(v, e, r)); } // 推出日期欄位尚未建立（migration 005）
-      if (error && e && error.code === "42703") { e = false; setEnOn(false); ({ data, error } = await build(v, e, r)); } // 英文欄位尚未建立
+      let v = votesOn, e = enOn, r = relOn, h = healthOn;
+      let { data, error } = await build(v, e, r, h);
+      if (error && r && error.code === "42703" && /released/.test(error.message || "")) { r = false; setRelOn(false); if (sort === "newest") setSort("name"); ({ data, error } = await build(v, e, r, h)); } // 推出日期欄位尚未建立（migration 005）
+      if (error && h && /tool_health/.test(`${error.message} ${error.details ?? ""}`)) { h = false; setHealthOn(false); ({ data, error } = await build(v, e, r, h)); } // 官網檢查資料表／關聯尚未建立（migration 008）：退回不含標籤的查詢
+      if (error && e && error.code === "42703") { e = false; setEnOn(false); ({ data, error } = await build(v, e, r, h)); } // 英文欄位尚未建立
       if (error && v) { // 投票資料表尚未建立（或查詢失敗）→ 退回不含投票的查詢
         if (/^(PGRST2|42)/.test(error.code || "")) setVotesOn(false);
-        v = false; ({ data, error } = await build(v, e, r));
+        v = false; ({ data, error } = await build(v, e, r, h));
       }
       if (error) setErr(L.queryFailed + error.message); else setRows((data as unknown as Row[]) || []);
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, count, searched, L.queryFailed]);
+  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, count, searched, L.queryFailed]);
 
   return (
     <main className="mx-auto max-w-5xl p-4">
@@ -95,6 +99,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
               </div>
               <p className="mt-2 text-sm text-slate-600">{toolDesc(locale, x)}</p>
               {releaseText(locale, x.released_at, x.released_source) && <p className="mt-1 text-xs text-slate-400" title={L.releasedHint}>{L.released}{locale === "en" ? ": " : "："}{releaseText(locale, x.released_at, x.released_source)}</p>}
+              {healthOn && <HealthBadge health={Array.isArray(x.tool_health) ? x.tool_health[0] : x.tool_health} locale={locale} className="mt-2" />}
               {votesOn && <VoteSummary up={x.tool_vote_stats?.up} down={x.tool_vote_stats?.down} className="mt-2" locale={locale} />}
             </div>
             <button onClick={() => setSel(x)} className="shrink-0 rounded-lg bg-indigo-600 px-3 py-2 text-sm font-medium text-white hover:bg-indigo-700">{L.diagnose}</button>

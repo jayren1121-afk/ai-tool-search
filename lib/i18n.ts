@@ -194,6 +194,10 @@ const zh = {
   // v10 推出日期／最新上架
   sortNewest: "最新上架", released: "推出日期",
   releasedHint: "依公開來源可查到的最早日期，不一定是官方正式發售日",
+  // v14 官網健康檢查
+  healthLive: "官網可連線", healthDown: "官網異常", healthChecked: (d: string) => `最近檢查：${d}`,
+  healthHint: "僅代表官網連線狀態，不代表產品品質或價格正確。",
+  healthDownNote: "最近檢查發現官網可能無法正常使用（暫時故障、已搬遷或已停止營運），請自行確認。",
   relSrc: { github_created: "GitHub 建立日", hn_post: "最早公開討論日", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt 上架日", manual: "人工確認" } as Record<string, string>,
 };
 type Dict = typeof zh;
@@ -243,6 +247,9 @@ const en: Dict = {
   dateLocale: "en-US", breadcrumb: "Breadcrumb",
   sortNewest: "Newest releases", released: "Released",
   releasedHint: "Earliest date found in public sources; not necessarily the official launch date",
+  healthLive: "Website reachable", healthDown: "Website unreachable", healthChecked: (d) => `Last checked: ${d}`,
+  healthHint: "Shows website connectivity only. It does not reflect product quality or pricing accuracy.",
+  healthDownNote: "Recent checks suggest this website may not be working properly (temporary outage, moved, or discontinued); please verify yourself.",
   relSrc: { github_created: "GitHub repo created", hn_post: "first public discussion", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt launch", manual: "manually confirmed" },
 };
 export const DICT: Record<Locale, Dict> = { zh, en };
