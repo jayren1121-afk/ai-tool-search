@@ -4,7 +4,16 @@
 :root {
   --heading: #1e293b;
   --body-text: #475569;
+  /* 降低亮度：把純白與冷灰換成偏暖的柔和色（覆寫 Tailwind 的顏色變數，全站生效） */
+  --color-white: #faf8f4;
+  --color-slate-50: #f1ede6;
+  --color-slate-100: #e9e4da;
+  --color-slate-200: #dcd6ca;
+  --color-slate-300: #c9c2b4;
 }
+/* 放大全站字體（所有 rem 單位的字級與間距一起放大約 12%） */
+html { font-size: 112.5%; }
+@media (min-width: 1024px) { html { font-size: 118.75%; } }
 body {
   font-family: Inter, system-ui, -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   color: var(--body-text);
