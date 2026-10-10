@@ -308,6 +308,7 @@ export function nextHealth(prev: HealthRow | null, r: CheckResult, now: Date): H
     }
   }
   if (row.manual_down && r.kind !== "ok") { status = "down"; row.needs_review = false; } // 人工確認異常：直到看到恢復才解除
+  if (p.moved_type) row.needs_review = false; // 已設定「已轉址／已改名」提示 = 已人工處理：再次檢查也不會把它丟回「需要人工檢查」
   row.status = status;
   if (status !== p.status || row.check_signature !== p.check_signature) row.snoozed_until = null; // 狀況改變 → 重新出現在清單
   return row;
