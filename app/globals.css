@@ -1,2 +1,29 @@
 @import "tailwindcss";
-body { font-family: system-ui, "Noto Sans TC", "PingFang TC", sans-serif; }
+
+/* 版面與配色：沉穩深藍標題、柔和深灰內文、現代無襯線字體、較寬鬆的行距 */
+:root {
+  --heading: #1e293b;
+  --body-text: #475569;
+}
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  color: var(--body-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  color: var(--heading);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  border-bottom: 0; /* 取消標題的硬性底線 */
+}
+h2 { padding-bottom: 0; }
+
+/* 卡片（列表項目）加大內距 */
+li.rounded-xl, article.rounded-xl, div.rounded-xl.bg-white {
+  padding: 1.25rem 1.5rem;
+}
+@media (min-width: 640px) {
+  li.rounded-xl, article.rounded-xl, div.rounded-xl.bg-white { padding: 1.5rem 1.75rem; }
+}
+li.rounded-xl p, article p { line-height: 1.7; }
