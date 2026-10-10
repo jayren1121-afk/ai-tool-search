@@ -4,12 +4,12 @@
 :root {
   --heading: #1e293b;
   --body-text: #475569;
-  /* 降低亮度：把純白與冷灰換成偏暖的柔和色（覆寫 Tailwind 的顏色變數，全站生效） */
-  --color-white: #faf8f4;
-  --color-slate-50: #f1ede6;
-  --color-slate-100: #e9e4da;
-  --color-slate-200: #dcd6ca;
-  --color-slate-300: #c9c2b4;
+  /* 降低亮度：把純白與冷灰換成柔和淡黃色（覆寫 Tailwind 的顏色變數，全站生效） */
+  --color-white: #fffbea;
+  --color-slate-50: #fbf3d0;
+  --color-slate-100: #f4ebc3;
+  --color-slate-200: #e8dca8;
+  --color-slate-300: #d6c98f;
 }
 /* 放大全站字體（所有 rem 單位的字級與間距一起放大約 12%） */
 html { font-size: 112.5%; }
@@ -36,3 +36,7 @@ li.rounded-xl, article.rounded-xl, div.rounded-xl.bg-white {
   li.rounded-xl, article.rounded-xl, div.rounded-xl.bg-white { padding: 1.5rem 1.75rem; }
 }
 li.rounded-xl p, article p { line-height: 1.7; }
+
+/* 分類標題、工具名稱與連結文字：不用藍色，改成黑色（深色）；按鈕與標籤的底色不受影響 */
+.text-indigo-600, .text-indigo-700 { color: #111827; }
+a.text-indigo-600 { text-decoration: underline; text-underline-offset: 2px; }
