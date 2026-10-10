@@ -17,7 +17,8 @@ export default function HealthBadge({ health, locale, full = false, className = 
       {mHref ? <a href={mHref} target="_blank" rel="nofollow noopener noreferrer" className="break-all text-slate-900 underline">{mTo}</a> : <span className="break-all">{mTo}</span>}
     </p>
   ) : null;
-  if (s !== "live" && s !== "down") return movedLine ? <div className={`text-xs ${className}`}>{movedLine}</div> : null;
+  // 已有改名／轉址提示且 status = down：不顯示紅色「網站異常」，只顯示改名／轉址那一行（live 照常顯示）
+  if (s !== "live" && !(s === "down" && !movedLine)) return movedLine ? <div className={`text-xs ${className}`}>{movedLine}</div> : null;
   const ts = health?.last_checked_at ? Date.parse(String(health.last_checked_at)) : NaN;
   const date = Number.isNaN(ts) ? "" : new Date(ts).toISOString().slice(0, 10); // 一律用 UTC 日期，避免資料庫時區造成不同顯示
   const tone = s === "live" ? "bg-emerald-50 text-emerald-700 ring-emerald-200" : "bg-red-50 text-red-700 ring-red-200";
