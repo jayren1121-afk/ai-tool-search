@@ -7,7 +7,7 @@ import HealthBadge from "@/components/HealthBadge";
 import ToolCommunity from "@/components/ToolCommunity";
 import VoteSummary from "@/components/VoteSummary";
 import { jsonLd, langAlternates, siteName, SITE_SHORT, SITE_URL } from "@/lib/site";
-import { getPublicStats, getTool, getToolHealth, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
+import { getPublicStats, getTool, getHealthByCategory, getToolHealth, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
 import { validToolId } from "@/lib/security";
 import {
   categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, releaseText, t, toolDesc, toolFeatures, toolHref,
@@ -57,7 +57,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
   const [relatedAll, health] = await Promise.all([getToolsByCategory(x.category, 13, locale).catch(() => []), getToolHealth(x.id)]); // 官網檢查結果取不到時為 null（不顯示標籤）
   const related = relatedAll.filter((r) => r.id !== x.id).slice(0, 12);
   const priced = trustedPlans(x);
-  const ps = await getPublicStats([x.id, ...related.map((r) => r.id)], 86400);
+  const [ps, relHealth] = await Promise.all([getPublicStats([x.id, ...related.map((r) => r.id)], 86400), related.length ? getHealthByCategory(x.category, 200) : Promise.resolve({} as Awaited<ReturnType<typeof getHealthByCategory>>)]); // 同分類健康資料（與分類頁共用快取）；失敗為空物件
   const st = ps[x.id];
   const cat = catName(locale, x.category);
   const pageUrl = SITE_URL + toolHref(locale, x.id);
@@ -136,6 +136,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
                 <Link href={toolHref(locale, r.id)} className="font-medium text-indigo-700 hover:underline">{r.name}</Link>
                 <p className="mt-1 line-clamp-2 text-xs text-slate-500">{toolDesc(locale, r)}</p>
                 {ps[r.id] && <VoteSummary up={ps[r.id].up} down={ps[r.id].down} className="mt-1" locale={locale} />}
+                {relHealth[r.id] && <HealthBadge health={relHealth[r.id]} locale={locale} className="mt-1" />}
               </li>
             ))}
           </ul>
