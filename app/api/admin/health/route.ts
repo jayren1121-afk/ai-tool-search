@@ -6,6 +6,7 @@ import { runHealthCheck } from "@/lib/health-run";
 import { isMissingColumn } from "@/lib/published";
 import { readJson, validToolId } from "@/lib/security";
 import { supabaseAdmin } from "@/lib/supabase-admin";
+import { CATEGORIES } from "@/lib/types";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,7 +20,9 @@ const str = (v: unknown, max: number) => (typeof v === "string" ? v.replace(/\s+
  *  ok   確認正常：status=live、needs_review=false，並記住這個狀況，之後同樣的狀況不會再被丟回清單
  *  down 確認異常：status=down 並鎖定，直到自動檢查看到恢復
  *  skip 略過：7 天內不在清單顯示（不改變前台狀態）
- *  moved 只更新「已轉址／已改名」提示（不改變狀態與內部備註）；movedType 為 none 即清除
+ *  moved 儲存「已轉址／已改名」提示並結案：needs_review=false、reviewed_at=now、reviewed_note（沒備註用「人工標記轉址／改名」）、
+ *        review_signature=目前的 check_signature（同一狀況不再丟回清單），但「不改變 status」（不自動改成 live／down）；
+ *        movedType 為 none 即清除提示，此時只清欄位、不結案（維持舊行為）
  * ok／down 也可附帶 movedType（none｜moved｜renamed）與 movedTo（最長 200 字；轉址必須是 http/https 網址）；
  * 沒有帶 movedType 時不動現有的轉址／改名提示。需要 migration 009。
  */
@@ -49,7 +52,7 @@ export async function POST(req: NextRequest) {
 
   const db = supabaseAdmin();
   // 只允許處理已上架工具的紀錄
-  const { data: tool, error: e0 } = await db.from("ai_tools").select("id").eq("id", id).eq("status", "published").maybeSingle();
+  const { data: tool, error: e0 } = await db.from("ai_tools").select("id,category").eq("id", id).eq("status", "published").maybeSingle();
   if (e0) return jerr("讀取失敗：" + e0.message, 500);
   if (!tool) return jerr("找不到這個已上架的工具", 404);
   const { data: cur, error: e1 } = await db.from("tool_health").select("*").eq("tool_id", id).maybeSingle();
@@ -63,7 +66,8 @@ export async function POST(req: NextRequest) {
   } else if (action === "down") {
     patch = { status: "down", needs_review: false, manual_down: true, snoozed_until: null, reviewed_at: now, reviewed_note: note || "人工確認異常" };
   } else if (action === "moved") {
-    patch = {};
+    // 設定了轉址／改名 = 使用者已判定完畢 → 結案（不動 status）；清除（moved 為 null）只清欄位
+    patch = moved?.type ? { needs_review: false, snoozed_until: null, reviewed_at: now, reviewed_note: note || "人工標記轉址／改名", review_signature: cur?.check_signature ?? null } : {};
   } else {
     patch = { snoozed_until: new Date(Date.now() + 7 * 86400_000).toISOString() };
   }
@@ -76,6 +80,11 @@ export async function POST(req: NextRequest) {
     return jerr("儲存失敗：" + error.message, 500);
   }
 
-  if (action !== "skip") for (const p of [`/tools/${id}`, `/en/tools/${id}`]) revalidatePath(p); // 讓工具頁的標籤盡快更新
+  if (action !== "skip") {
+    // 讓工具頁與所屬分類頁的標籤盡快更新；查不到分類就只清工具頁（revalidate 失敗不應讓已成功的儲存變成錯誤）
+    const cat = typeof tool.category === "string" && Object.prototype.hasOwnProperty.call(CATEGORIES, tool.category) ? tool.category : null;
+    const paths = [`/tools/${id}`, `/en/tools/${id}`, ...(cat ? [`/category/${cat}`, `/en/category/${cat}`] : [])];
+    for (const p of paths) { try { revalidatePath(p); } catch (e) { console.warn("revalidatePath", p, (e as Error).message); } }
+  }
   return NextResponse.json({ ok: true }, { headers: noStore });
 }

@@ -70,13 +70,37 @@ export async function getPublicStats(ids: string[], revalidate = 3600): Promise<
   } catch { return {}; }
 }
 
+/** 官網檢查／轉址提示的快取秒數：短一點，後台改了之後最慢 5 分鐘內各頁就會更新（後台儲存時另外會立刻清除工具頁與分類頁快取） */
+export const HEALTH_REVALIDATE = 300;
+const isClientErr = (e: unknown) => { const st = (e as { status?: number })?.status; return typeof st === "number" && st >= 400 && st < 500; };
 export type ToolHealthPublic = { status: string; last_checked_at: string | null; moved_type?: string | null; moved_to?: string | null };
 /** 官網連線檢查結果（v14，anon 只能讀已上架工具的 status 與 last_checked_at）；資料表不存在、沒有資料或任何錯誤一律回傳 null（頁面照常顯示，只是不顯示標籤） */
 export async function getToolHealth(id: string): Promise<ToolHealthPublic | null> {
-  const q = (cols: string) => rest<ToolHealthPublic[]>(`tool_health?select=${cols}&tool_id=eq.${encodeURIComponent(id)}&limit=1`);
+  const q = (cols: string) => rest<ToolHealthPublic[]>(`tool_health?select=${cols}&tool_id=eq.${encodeURIComponent(id)}&limit=1`, HEALTH_REVALIDATE);
   try {
-    // 先嘗試含「已轉址／已改名」欄位（migration 009）；欄位還不存在時退回舊欄位，標籤照常顯示
+    // 先嘗試含「已轉址／已改名」欄位（migration 009）；只有欄位不存在／沒有權限（HTTP 4xx）才退回舊欄位，暫時性錯誤不會悄悄丟掉轉址提示
     try { return (await q("status,last_checked_at,moved_type,moved_to"))[0] ?? null; }
-    catch { return (await q("status,last_checked_at"))[0] ?? null; }
+    catch (e) { if (!isClientErr(e)) throw e; return (await q("status,last_checked_at"))[0] ?? null; }
   } catch { return null; }
+}
+
+type HealthEmbedRow = { id: string; tool_health?: ToolHealthPublic | ToolHealthPublic[] | null };
+/** 分類頁／相關工具用：一次取得某分類（依名稱排序、前 limit 筆）所有工具的健康資料，回傳 { 工具 id: 健康資料 }。
+ *  用 ai_tools 關聯嵌入查詢（單一請求、網址很短，不會有 in.() 太長的問題）；快取 5 分鐘（HEALTH_REVALIDATE），
+ *  查詢條件與 getToolsByCategory 一致，所以同一個分類的工具頁與分類頁共用同一份快取。
+ *  含轉址欄位的查詢失敗時退回舊欄位；仍失敗一律回傳空物件（頁面照常顯示，只是不顯示標籤）。 */
+export async function getHealthByCategory(cat: string, limit = 200, revalidate = HEALTH_REVALIDATE): Promise<Record<string, ToolHealthPublic>> {
+  const q = (cols: string) => rest<HealthEmbedRow[]>(`ai_tools?select=id,tool_health(${cols})&category=eq.${encodeURIComponent(cat)}&order=name.asc&limit=${limit}`, revalidate);
+  const toMap = (rows: HealthEmbedRow[]) => {
+    const out: Record<string, ToolHealthPublic> = {};
+    for (const r of Array.isArray(rows) ? rows : []) {
+      const h = Array.isArray(r.tool_health) ? r.tool_health[0] : r.tool_health;
+      if (r?.id && h && typeof h === "object") out[r.id] = h;
+    }
+    return out;
+  };
+  try {
+    try { return toMap(await q("status,last_checked_at,moved_type,moved_to")); }
+    catch (e) { if (!isClientErr(e)) throw e; return toMap(await q("status,last_checked_at")); } // 只有欄位不存在／沒有權限（4xx）才退回舊欄位
+  } catch { return {}; }
 }

@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MOVED_MAX, validateMoved } from "@/lib/health-moved";
 
 export type HealthItem = {
@@ -17,13 +17,15 @@ const RUN: Record<string, [string, string]> = { ok: ["✅ 完成", "bg-emerald-5
 const ST: Record<string, [string, string]> = { live: ["可連線", "bg-emerald-50 text-emerald-700"], down: ["異常", "bg-red-50 text-red-700"], unknown: ["無法判定", "bg-amber-50 text-amber-800"] };
 const host = (u: string | null) => { try { return u ? new URL(u).hostname.replace(/^www\./, "") : ""; } catch { return ""; } };
 
-async function post(body: unknown) {
-  const r = await fetch("/api/admin/health", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+async function post(body: unknown, timeoutMs = 30_000) {
+  // 加上逾時：就算連線卡住，也會丟出錯誤讓按鈕恢復，不會永遠停在「處理中…」
+  const r = await fetch("/api/admin/health", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), signal: AbortSignal.timeout(timeoutMs) });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(j.error || `HTTP ${r.status}`);
   return j;
 }
 
+const errText = (e: unknown) => ((e as Error)?.name === "TimeoutError" || (e as Error)?.name === "AbortError" ? "連線逾時，請稍後按「重新整理」確認是否已儲存" : (e as Error)?.message || "發生錯誤");
 type MovedState = { type: string; to: string };
 const movedInit = (h: HealthItem): MovedState => ({ type: h.moved_type === "moved" || h.moved_type === "renamed" ? h.moved_type : "none", to: h.moved_to ?? "" });
 const MOVED_LABEL: Record<string, string> = { moved: "已轉址", renamed: "已改名" };
@@ -57,12 +59,15 @@ function MovedFields({ value, onChange, disabled }: { value: MovedState; onChang
 /** 已經設定了轉址／改名、但不在「需要人工檢查」清單的工具：讓你事後修改或清除 */
 function MovedRow({ h, onDone }: { h: HealthItem; onDone: (m: string) => void }) {
   const [mv, setMv] = useState<MovedState>(movedInit(h)); const [busy, setBusy] = useState(false); const [err, setErr] = useState("");
+  useEffect(() => { setMv(movedInit(h)); }, [h.moved_type, h.moved_to]); // eslint-disable-line react-hooks/exhaustive-deps -- 伺服器資料更新後同步輸入框
   const name = h.ai_tools?.name ?? h.tool_id;
   const save = async () => {
     const v = validateMoved(mv.type, mv.to); if (!v.ok) { setErr(v.error); return; }
     setBusy(true); setErr("");
-    try { await post({ action: "moved", id: h.tool_id, movedType: mv.type, movedTo: mv.to }); onDone(v.type ? `已儲存「${name}」的${MOVED_LABEL[v.type]}提示` : `已清除「${name}」的轉址／改名提示`); }
-    catch (e) { setErr((e as Error).message); } finally { setBusy(false); }
+    let ok = false;
+    try { await post({ action: "moved", id: h.tool_id, movedType: mv.type, movedTo: mv.to }); ok = true; }
+    catch (e) { setErr(errText(e)); } finally { setBusy(false); } // 不論成功失敗，一定先恢復按鈕
+    if (ok) try { onDone(v.type ? `已儲存「${name}」的${MOVED_LABEL[v.type]}提示` : `已清除「${name}」的轉址／改名提示`); } catch { /* 重新整理失敗不影響已儲存的結果 */ }
   };
   return (
     <li className="rounded-lg border border-slate-200 p-3">
@@ -79,6 +84,7 @@ function MovedRow({ h, onDone }: { h: HealthItem; onDone: (m: string) => void })
 
 function Row({ h, onDone, movedReady }: { h: HealthItem; onDone: (m: string) => void; movedReady: boolean }) {
   const [busy, setBusy] = useState(""); const [err, setErr] = useState(""); const [mv, setMv] = useState<MovedState>(movedInit(h));
+  useEffect(() => { setMv(movedInit(h)); }, [h.moved_type, h.moved_to]); // eslint-disable-line react-hooks/exhaustive-deps -- 伺服器資料更新後同步輸入框（key 只用 tool_id，不會因資料改變而重建元件）
   const name = h.ai_tools?.name ?? h.tool_id, url = h.ai_tools?.url ?? "";
   const moved = h.last_final_url && host(h.last_final_url) !== host(url) ? h.last_final_url : null;
   const act = async (action: "ok" | "down" | "skip" | "moved") => {
@@ -90,8 +96,10 @@ function Row({ h, onDone, movedReady }: { h: HealthItem; onDone: (m: string) => 
     }
     if (action === "ok" || action === "down") { const n = prompt(action === "ok" ? `確認「${name}」官網正常。備註（可留空）：` : `確認「${name}」官網異常。備註（可留空）：`, ""); if (n === null) return; note = n; }
     setBusy(action); setErr("");
-    try { await post({ action, id: h.tool_id, note, ...extra }); onDone(action === "ok" ? `已確認正常：${name}` : action === "down" ? `已標記為異常：${name}` : action === "moved" ? `已儲存轉址／改名提示：${name}` : `已略過 7 天：${name}`); }
-    catch (e) { setErr((e as Error).message); } finally { setBusy(""); }
+    let ok = false;
+    try { await post({ action, id: h.tool_id, note, ...extra }); ok = true; }
+    catch (e) { setErr(errText(e)); } finally { setBusy(""); } // 不論成功失敗，一定先恢復按鈕（之後 router.refresh 讓這列卸載也不會留下卡住的狀態）
+    if (ok) try { onDone(action === "ok" ? `已確認正常：${name}` : action === "down" ? `已標記為異常：${name}` : action === "moved" ? (extra.movedType && extra.movedType !== "none" ? `已儲存轉址／改名提示並結案：${name}` : `已清除轉址／改名提示：${name}`) : `已略過 7 天：${name}`); } catch { /* 重新整理失敗不影響已完成的動作 */ }
   };
   const [stText, stCls] = ST[h.status] ?? [h.status, "bg-slate-100"];
   return (
@@ -127,8 +135,8 @@ export default function HealthSection({ items, stats, runs, error, movedReady = 
   const last = runs[0];
   const runNow = async () => {
     setRunning(true); setMsg("檢查中，約需 20–50 秒…");
-    try { const j = await post({ action: "run" }); setMsg(`執行${j.status === "error" ? "失敗" : "完成"}：${j.message}`); router.refresh(); }
-    catch (e) { setMsg(`執行失敗：${(e as Error).message}`); } finally { setRunning(false); }
+    try { const j = await post({ action: "run" }, 90_000); setMsg(`執行${j.status === "error" ? "失敗" : "完成"}：${j.message}`); router.refresh(); }
+    catch (e) { setMsg(`執行失敗：${errText(e)}`); } finally { setRunning(false); }
   };
   const done = (m: string) => { setMsg(m); router.refresh(); };
   return (
@@ -158,13 +166,13 @@ export default function HealthSection({ items, stats, runs, error, movedReady = 
           {msg && <p className="mt-3 rounded-lg bg-indigo-50 p-3 text-indigo-800">{msg}</p>}
 
           <h3 className="mt-4 font-semibold">需要人工檢查（{items.length}{stats?.snoozed ? `；另有 ${stats.snoozed} 個已略過` : ""}）</h3>
-          {items.length === 0 ? <p className="mt-1 text-slate-500">目前沒有需要人工檢查的工具。</p> : <ul className="mt-2 space-y-3">{items.map((h) => <Row key={`${h.tool_id}:${h.moved_type ?? ""}:${h.moved_to ?? ""}`} h={h} onDone={done} movedReady={movedReady} />)}</ul>}
+          {items.length === 0 ? <p className="mt-1 text-slate-500">目前沒有需要人工檢查的工具。</p> : <ul className="mt-2 space-y-3">{items.map((h) => <Row key={h.tool_id} h={h} onDone={done} movedReady={movedReady} />)}</ul>}
           {!movedReady && <p className="mt-3 rounded-lg bg-amber-50 p-2 text-amber-800">想使用「已轉址／已改名」提示，請先在 Supabase 執行 supabase_migration_009_tool_health_moved.sql。</p>}
           {movedReady && moved.length > 0 && (
             <>
               <h3 className="mt-4 font-semibold">已設定「已轉址／已改名」提示的工具（{moved.length}）</h3>
               <p className="mt-1 text-xs text-slate-500">這些工具目前在公開頁面顯示轉址／改名提示；要修改或清除，在這裡操作（選「無」再儲存即清除）。</p>
-              <ul className="mt-2 space-y-3">{moved.map((h) => <MovedRow key={`${h.tool_id}:${h.moved_type}:${h.moved_to}`} h={h} onDone={done} />)}</ul>
+              <ul className="mt-2 space-y-3">{moved.map((h) => <MovedRow key={h.tool_id} h={h} onDone={done} />)}</ul>
             </>
           )}
           <p className="mt-3 text-xs text-slate-400">
