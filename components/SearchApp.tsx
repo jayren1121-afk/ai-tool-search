@@ -15,7 +15,7 @@ const REL_COLS = ",released_at,released_source"; // 需 migration 005；欄位�
 type Sort = "name" | "votes" | "newest";
 const LIMIT = 20;
 
-export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
+export default function SearchApp({ locale = "zh", children }: { locale?: Locale; children?: React.ReactNode }) {
   const L = t(locale);
   const sb = useMemo(() => supabaseBrowser(), []);
   const [q, setQ] = useState(""); const [cat, setCat] = useState(""); const [pm, setPm] = useState("");
@@ -23,8 +23,10 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
   const [enOn, setEnOn] = useState(locale === "en"); const [loading, setLoading] = useState(false); const [err, setErr] = useState("");
   const [sel, setSel] = useState<Tool | null>(null); const [count, setCount] = useState(LIMIT); // 目前要顯示幾筆（每按一次「載入更多」增加 20）
   useEffect(() => { setCount(LIMIT); }, [q, cat, pm, sort]);
+  const searched = !!(q.trim() || cat || pm); // 沒有輸入關鍵字也沒選篩選時，不顯示工具列表（改顯示分類）
 
   useEffect(() => {
+    if (!searched) { setRows([]); setErr(""); setLoading(false); return; }
     const timer = setTimeout(async () => {
       setLoading(true); setErr("");
       const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
@@ -55,7 +57,7 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, count, L.queryFailed]);
+  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, count, searched, L.queryFailed]);
 
   return (
     <main className="mx-auto max-w-5xl p-4">
@@ -76,6 +78,8 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
           {Object.keys(PRICING).map((k) => <option key={k} value={k}>{pricingName(locale, k)}</option>)}
         </select>
       </div>
+      {searched ? (
+        <>
       <div className="mb-2 text-sm text-slate-500">{loading && rows.length === 0 ? L.searching : L.results(Math.min(rows.length, count)) + (rows.length > count ? L.resultsMore : "")}</div>
       {err && <div className="mb-3 rounded bg-red-50 p-3 text-red-700">{err}</div>}
       <ul className="space-y-3">
@@ -102,6 +106,8 @@ export default function SearchApp({ locale = "zh" }: { locale?: Locale }) {
           <button onClick={() => setCount((c) => c + LIMIT)} disabled={loading} className="rounded-lg border border-indigo-300 bg-white px-5 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-50">{loading ? L.searching : L.loadMore}</button>
         </div>
       )}
+        </>
+      ) : children}
       <DiagnosePanel tool={sel} onClose={() => setSel(null)} locale={locale} />
     </main>
   );
