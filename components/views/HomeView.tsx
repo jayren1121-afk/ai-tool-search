@@ -27,19 +27,20 @@ export default function HomeView({ locale }: { locale: Locale }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(ld) }} />
-      <SearchApp locale={locale} />
-      <section className="mx-auto max-w-5xl px-4 pb-10" aria-labelledby="cats">
-        <h2 id="cats" className="mb-3 mt-6 text-lg font-semibold">{L.browseCats}</h2>
-        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {Object.keys(CATEGORIES).map((k) => (
-            <li key={k} className="rounded-xl bg-white p-4 shadow-sm">
-              <Link href={categoryHref(locale, k)} className="font-semibold text-indigo-700 hover:underline">{catName(locale, k)}</Link>
-              <p className="mt-1 text-xs text-slate-500">{intro[k]}</p>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-6 text-xs text-slate-400">{siteDesc(locale)} {L.homeNote}</p>
-      </section>
+      <SearchApp locale={locale}>
+        <section aria-labelledby="cats">
+          <h2 id="cats" className="mb-3 mt-6 text-lg font-semibold">{L.browseCats}</h2>
+          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {Object.keys(CATEGORIES).map((k) => (
+              <li key={k} className="rounded-xl bg-white p-4 shadow-sm">
+                <Link href={categoryHref(locale, k)} className="font-semibold text-indigo-700 hover:underline">{catName(locale, k)}</Link>
+                <p className="mt-1 text-xs text-slate-500">{intro[k]}</p>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-xs text-slate-400">{siteDesc(locale)} {L.homeNote}</p>
+        </section>
+      </SearchApp>
       <footer className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-4 py-6 text-sm text-slate-500">
           <span>© {new Date().getFullYear()} {L.footerCopy}</span>
