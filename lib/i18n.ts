@@ -198,6 +198,7 @@ const zh = {
   healthLive: "官網可連線", healthDown: "官網異常", healthChecked: (d: string) => `最近檢查：${d}`,
   healthHint: "僅代表官網連線狀態，不代表產品品質或價格正確。",
   healthDownNote: "最近檢查發現官網可能無法正常使用（暫時故障、已搬遷或已停止營運），請自行確認。",
+  healthMoved: "官網已搬到", healthRenamed: "此工具已改名為",
   relSrc: { github_created: "GitHub 建立日", hn_post: "最早公開討論日", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt 上架日", manual: "人工確認" } as Record<string, string>,
 };
 type Dict = typeof zh;
@@ -250,6 +251,7 @@ const en: Dict = {
   healthLive: "Website reachable", healthDown: "Website unreachable", healthChecked: (d) => `Last checked: ${d}`,
   healthHint: "Shows website connectivity only. It does not reflect product quality or pricing accuracy.",
   healthDownNote: "Recent checks suggest this website may not be working properly (temporary outage, moved, or discontinued); please verify yourself.",
+  healthMoved: "The official website has moved to", healthRenamed: "This tool has been renamed to",
   relSrc: { github_created: "GitHub repo created", hn_post: "first public discussion", wikidata_p577: "Wikidata", wikidata_p571: "Wikidata", wikidata: "Wikidata", producthunt_launch: "Product Hunt launch", manual: "manually confirmed" },
 };
 export const DICT: Record<Locale, Dict> = { zh, en };

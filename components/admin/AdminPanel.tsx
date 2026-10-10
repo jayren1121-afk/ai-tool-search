@@ -74,7 +74,7 @@ function Card({ t, onDone }: { t: PendingTool; onDone: (msg: string) => void }) 
   );
 }
 
-export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs: HealthRun[]; error: string | null };
+export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs: HealthRun[]; error: string | null; movedReady?: boolean; moved?: HealthItem[] };
 
 export default function AdminPanel({ pending, runs, setupError, health }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData }) {
   const router = useRouter();
@@ -112,7 +112,7 @@ export default function AdminPanel({ pending, runs, setupError, health }: { pend
         <p className="mt-1 text-xs text-slate-400">每天最多自動新增 1 筆；今天已新增過時會顯示「略過」。</p>
       </section>
 
-      {health && <HealthSection items={health.items} stats={health.stats} runs={health.runs} error={health.error} />}
+      {health && <HealthSection items={health.items} stats={health.stats} runs={health.runs} error={health.error} movedReady={health.movedReady} moved={health.moved} />}
 
       {msg && <p className="mb-4 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-800">{msg}</p>}
       {pending.length === 0 ? <p className="rounded-xl bg-white p-4 text-slate-500 shadow-sm">目前沒有待審核的工具。</p> : (

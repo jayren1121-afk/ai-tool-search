@@ -4,6 +4,7 @@ import AdminLogin from "@/components/admin/AdminLogin";
 import AdminPanel, { type HealthData, type JobRun, type PendingTool } from "@/components/admin/AdminPanel";
 import type { HealthItem, HealthRun } from "@/components/admin/HealthSection";
 import { ADMIN_COOKIE, adminConfigured, sessionOk } from "@/lib/admin-auth";
+import { isMissingColumn } from "@/lib/published";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
 export const dynamic = "force-dynamic";
@@ -34,9 +35,17 @@ export default async function AdminPage() {
 
 /** 官網檢查區塊的資料；資料表尚未建立（migration 008）時只在該區塊顯示提示，不影響其他後台功能 */
 async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthData> {
+  const BASE = "tool_id,status,consecutive_failures,detail,last_checked_at,last_http_status,last_final_url,needs_review,manual_down,reviewed_note,reviewed_at,snoozed_until";
+  const listQ = (cols: string, filter: string) => db.from("tool_health").select(`${cols},ai_tools!inner(name,url,status)`)
+    .eq("ai_tools.status", "published").or(filter).order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300);
+  // 先嘗試含「已轉址／已改名」欄位（migration 009）；欄位還不存在就退回舊欄位（後台其餘功能照常）
+  let movedReady = true;
+  let listR = await listQ(`${BASE},moved_type,moved_to`, "needs_review.eq.true,status.eq.down");
+  if (listR.error && isMissingColumn(listR.error)) { movedReady = false; listR = await listQ(BASE, "needs_review.eq.true,status.eq.down"); }
+  const movedR = movedReady ? await db.from("tool_health").select("tool_id,status,consecutive_failures,detail,last_checked_at,last_http_status,last_final_url,needs_review,manual_down,reviewed_note,reviewed_at,snoozed_until,moved_type,moved_to,ai_tools!inner(name,url,status)")
+    .eq("ai_tools.status", "published").not("moved_type", "is", null).order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300) : null;
   const [list, all, total, runs] = await Promise.all([
-    db.from("tool_health").select("tool_id,status,consecutive_failures,detail,last_checked_at,last_http_status,last_final_url,needs_review,manual_down,reviewed_note,reviewed_at,snoozed_until,ai_tools!inner(name,url,status)")
-      .eq("ai_tools.status", "published").or("needs_review.eq.true,status.eq.down").order("last_checked_at", { ascending: false, nullsFirst: false }).limit(300),
+    Promise.resolve(listR),
     db.from("tool_health").select("status,last_checked_at,ai_tools!inner(status)").eq("ai_tools.status", "published").limit(5000),
     db.from("ai_tools").select("id", { count: "exact", head: true }).eq("status", "published"),
     db.from("job_runs").select("id,started_at,finished_at,status,message,details").eq("job", "health").order("started_at", { ascending: false }).limit(5),
@@ -54,6 +63,8 @@ async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthD
   return {
     items: visible,
     stats: { total: totalN, live: count("live"), down: count("down"), unknown: count("unknown"), unchecked: Math.max(0, totalN - rows.length), stale7d: Math.max(0, totalN - all7), snoozed: (list.data?.length ?? 0) - visible.length },
+    movedReady,
+    moved: ((movedR?.data ?? []) as unknown as HealthItem[]).filter((m) => !visible.some((v) => v.tool_id === m.tool_id)), // 已在上方清單的不重複列出
     runs: (runs.data ?? []) as HealthRun[], error: runs.error ? `讀取官網檢查紀錄失敗：${runs.error.message}` : null,
   };
 }

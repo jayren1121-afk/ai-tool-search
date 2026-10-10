@@ -47,6 +47,9 @@ export type HealthRow = {
   check_signature: string | null;
   manual_down: boolean;
   snoozed_until: string | null;
+  /** 選填、公開：已轉址 / 已改名 與新網址／新名稱（需 migration 009；沒有這兩欄時為 undefined） */
+  moved_type?: "moved" | "renamed" | null;
+  moved_to?: string | null;
 };
 
 /* ---------------- 網域判斷 ---------------- */

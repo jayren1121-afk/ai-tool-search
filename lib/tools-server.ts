@@ -70,11 +70,13 @@ export async function getPublicStats(ids: string[], revalidate = 3600): Promise<
   } catch { return {}; }
 }
 
-export type ToolHealthPublic = { status: string; last_checked_at: string | null };
+export type ToolHealthPublic = { status: string; last_checked_at: string | null; moved_type?: string | null; moved_to?: string | null };
 /** 官網連線檢查結果（v14，anon 只能讀已上架工具的 status 與 last_checked_at）；資料表不存在、沒有資料或任何錯誤一律回傳 null（頁面照常顯示，只是不顯示標籤） */
 export async function getToolHealth(id: string): Promise<ToolHealthPublic | null> {
+  const q = (cols: string) => rest<ToolHealthPublic[]>(`tool_health?select=${cols}&tool_id=eq.${encodeURIComponent(id)}&limit=1`);
   try {
-    const rows = await rest<ToolHealthPublic[]>(`tool_health?select=status,last_checked_at&tool_id=eq.${encodeURIComponent(id)}&limit=1`);
-    return rows[0] ?? null;
+    // 先嘗試含「已轉址／已改名」欄位（migration 009）；欄位還不存在時退回舊欄位，標籤照常顯示
+    try { return (await q("status,last_checked_at,moved_type,moved_to"))[0] ?? null; }
+    catch { return (await q("status,last_checked_at"))[0] ?? null; }
   } catch { return null; }
 }
