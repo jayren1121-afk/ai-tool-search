@@ -1,0 +1,336 @@
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics and personalization. To learn more, view the following link:
+Privacy Policy
+Terms and Conditions
+Skip to main content
+
+NEW Knowledge for Web Search: live stock prices, crypto, weather, and prediction markets. Same $5/1K calls.
+
+Learn More →
+APIs
+Docs
+Pricing
+Benchmarks
+Company
+Blog
+Contact Sales
+C
+Sign in
+Web Search APIs, priced per call
+
+Choose the level of intelligence your workload needs.
+
+How to buy
+What to buy
+Use cases
+For Enterprise
+FAQs
+
+START BUILDING NOW
+
+Free
+
+View MCP config docs
+No API key, no account, no credit card
+100 Web Search API queries/day via MCP
+Sign up only when you need more
+
+PRODUCTION WORKLOADS
+
+Pay as you go
+
+Compare pricing
+No minimums, no seats, no platform fee
+All endpoints, SDKs and MCP
+Auto top-up so jobs never stall
+
+ENTERPRISE TEAMS
+
+Custom
+
+Talk to our humans
+Zero Data Retention, SOC 2, DPA-ready
+Custom QPS and dedicated capacity
+SLA-backed support
+
+POWERING WEB SEARCH FOR LEADING ENTERPRISES
+
+APIs and features
+
+All built on the same real-time index. Pick based on how much you want to build yourself.
+
+Get an API key
+
+WEB SEARCH
+
+Web Search API
+Contents API
+
+AGENTIC RESEARCH
+
+Answer API
+Research API
+Finance Research API
+Web Search
+
+You get the sources and do the reasoning.
+
+ENDPOINT
+
+LATENCY
+
+PRICE
+
+Web Search API
+Free tier
+
+Real-time web and news results, optimized for programmatic access in AI applications.
+
+Web Search API
+Free
+
+Live search through the MCP server, no API key—up to 100 queries a day. Prototype or drop live search into an agent before committing.
+
+p50 ~0.4s
+
+Free
+
+Web Search API
+Standard
+
+Full endpoint access: Highlights, Knowledge, extraction, and domain filters. Built for production traffic at scale.
+
+p50 ~0.4s
+
+$5
+
+/1K CALLS
+
+Contents API
+
+Give it URLs you already have, get back clean Markdown or HTML per page. Use it when you know which pages you want and just need them parsed, not searched.
+
+1-10s per page
+
+$1
+
+/1K PAGES
+
+Agentic Research
+
+We do the reasoning and hand back the answer.
+
+ENDPOINT
+
+LATENCY
+
+PRICE
+
+Answer API
+
+One call turns a question into a cited answer with the sources it used. Choose this over Web Search when you want the answer written for you, not a list of links to synthesize yourself.
+
+p50 ~2.7s
+
+$5
+
+/1K CALLS
+
+Research API
+
+Multi-step research on the open web. It plans, searches repeatedly, reads full pages, and cross-references before answering. One research_effort parameter tunes cost and depth across five levels:
+
+Research
+Lite
+
+Simple factual lookups in a single pass. No structured output.
+
+Under 2s
+
+$12
+
+/1K CALLS
+
+Research
+Standard
+
+Balanced depth for most production research
+
+10-30s
+
+$50
+
+/1K CALLS
+
+Research
+Deep
+
+Complex questions that span several sources and need cross-referencing.
+
+Under 2min
+
+$100
+
+/1K CALLS
+
+Research
+Exhaustive
+
+High-stakes questions where claims get verified across dozens of sources.
+
+Under 5min
+
+$450
+
+/1K CALLS
+
+Research
+Frontier
+
+Research too long to finish inside a request. Background mode only.
+
+~5min
+
+$1,200
+
+/1K CALLS
+
+Finance Research API
+
+The Research engine tuned for financial questions, at the same price and latency. Use it for company, market, and competitive analysis that needs grounded numbers.
+
+Finance Research
+Deep
+
+Earnings summaries, competitive benchmarking, and multi-quarter trends.
+
+Under 2 min
+
+$110
+
+/1K CALLS
+
+Finance Research
+Exhaustive
+
+Full 10-K analysis, due diligence, and cross-market research.
+
+Under 5 min
+
+$500
+
+/1K CALLS
+
+Decide what to build, then find API.
+
+Pick what you're building. We'll point you to the endpoint that fits, what it costs, and when to reach for something else.
+
+Feed LLM live web content
+Extract content from URLs
+Answer a question in one call
+Produce a research report
+Analyze financial or market data
+
+WEB SEARCH
+
+Web Search API
+
+$5
+
+/1K CALLS
+
+Ranked web and news results your model reads and reasons over. You keep full control of synthesis — ideal for RAG.
+
+$100 FREE CREDIT = 20,000 SEARCHES
+
+View docs
+Get an API key
+Enterprise-ready
+
+Get custom pricing, higher rate limits, enterprise security, and dedicated support.
+
+Talk to a human
+ZDR available
+
+All queries and data can be automatically purged—giving you complete control over what's stored and for how long.
+
+SOC 2 certified
+
+Our infrastructure is independently audited to ensure best-in-class data security, privacy, and availability.
+
+DPA-ready
+
+Designed to seamlessly accommodate Data Processing Agreements.
+
+CCPA
+
+Compliant with California Consumer Privacy Act requirements for data handling and consumer rights.
+
+Custom QPS limits
+
+Enterprise-grade concurrency with performance optimization for high-volume usage available on request.
+
+Dedicated support
+
+Direct access to our engineering team for onboarding, optimization, and priority issue resolution.
+
+The reliability and latency improvements when using You.com were decisive factors. We cut P50 web search latency from over five seconds to sub-one second and pushed our success rate to three 9s or higher.
+
+Jonathan Lucuix-Andre
+
+Technical Staff, Factory
+
+Frequent questions about API pricing
+What counts as a billable call?
+One request to an endpoint is one billable call, whatever it returns. A Web Search call returning 1 result and one returning 100 cost the same. Contents is billed per page returned.
+Do I need a credit card to start?
+Do credits expire?
+What happens if I run out of credits mid-run?
+Are there rate limits?
+How do the Research effort tiers differ, and which should I use?
+Is the MCP server billed separately?
+Do you offer volume or annual discounts?
+Can I get a DPA? Is there zero data retention?
+Is there anything for startups?
+
+Search, extract, and synthesize information from the web with APIs built for AI systems.
+
+APIS
+
+Web Search API
+Contents API
+Answer API
+Research API
+Finance Research API
+MCP server
+Agent skills
+
+COMPANY
+
+About
+Careers
+Partnerships
+Events
+Grant program
+
+RESOURCES
+
+Developer docs
+Benchmarks
+MCP server
+Trust center
+Blog
+
+TERMS & POLICIES
+
+Privacy policy
+Cookie notice
+Do not sell or share my personal information
+Privacy requests
+Terms & conditions
+Master service agreement
+Data processing addendum
+
+© 2026 YOU.COM  /  ALL RIGHTS RESERVED
+
+LLMS.TXT
+FOR.YOU.COM

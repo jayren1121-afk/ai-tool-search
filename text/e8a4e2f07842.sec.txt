@@ -1,0 +1,537 @@
+CONTACT SALES
+SIGN IN
+---
+MiniMax M3
+---
+$0.30
+---
+$0.06 (cached)
+---
+$1.20
+---
+PROMO
+PROMOTION VALID UNTIL 10/11/2026
+---
+$3.00
+---
+$2.70
+---
+$0.27 (cached)
+---
+$15.00
+---
+$13.50
+---
+Qwen3.8-2.4T-A95B
+---
+$2.00
+---
+$0.25 (cached)
+---
+$6.00
+---
+Muse Glimmer 30B
+---
+$0.35
+---
+$0.04 (cached)
+---
+$1.50
+---
+DeepSeek V4 Pro 0813
+---
+$1.32
+---
+$0.13 (cached)
+---
+$3.96
+---
+GLM-5.3
+---
+$1.40
+---
+$0.26 (cached)
+---
+$4.40
+---
+GLM-5.3-Flash
+---
+$0.15
+---
+$0.03 (cached)
+---
+$0.50
+---
+DeepSeek V4.1 Flash
+---
+$0.30
+---
+$0.006 (cached)
+---
+$1.20
+---
+Tev1 4B Experimental
+---
+$0.04
+---
+Free
+---
+Gemma 4 31B
+---
+$0.39
+---
+$0.97
+---
+Qwen3.7-Plus
+---
+$0.32
+---
+$1.28
+---
+GLM-5.2
+---
+$1.40
+---
+$0.26 (cached)
+---
+$4.40
+---
+Ternary Bonsai 27B
+---
+$0.00
+---
+$0.00
+---
+Inkling
+---
+$1.00
+---
+$0.17 (cached)
+---
+$4.05
+---
+DeepSeek V4 Flash 0731
+---
+$0.14
+---
+$0.03 (cached)
+---
+$0.28
+---
+Qwen3.8 Flash
+---
+$0.15
+---
+$0.47
+---
+Qwen3.7-Max
+---
+$1.50
+---
+$0.30 (cached)
+---
+$4.50
+---
+gpt-oss-120B
+---
+$0.15
+---
+$0.60
+---
+Qwen3.5-397B-A17B
+---
+$0.60
+---
+$0.35 (cached)
+---
+$3.60
+---
+Qwen3.5 9B
+---
+$0.17
+---
+$0.25
+---
+Cogito v2.1 671B
+---
+$1.25
+---
+$1.25
+---
+Rnj-1 Instruct
+---
+$0.15
+---
+$0.15
+---
+Llama 3.3 70B
+---
+$1.04
+---
+$1.04
+---
+MiniMax M2.7
+---
+$0.30
+---
+$0.06 (cached)
+---
+$1.20
+---
+Qwen3.6-Plus
+---
+$0.50
+---
+$3.00
+---
+Qwen2.5 7B Instruct Turbo
+---
+$0.30
+---
+$0.30
+---
+Llama 3 8B Instruct Lite
+---
+$0.14
+---
+$0.14
+---
+Qwen3 235B A22B Instruct 2507 FP8 Throughput
+---
+$0.20
+---
+$0.60
+---
+Displayed prices refer to the lowest resolution/duration settings. Actual prices might vary.
+---
+OUTPUT TOKENS / REQUEST
+PTUS REQUIRED
+352
+EST. MONTHLY COST
+$770,880
+EST. MONTHLY SAVINGS
+$1,745,430 69% LOWER
+---
+COMPUTE COSTS
+---
+41,667
+---
+$0.05
+---
+3,333
+---
+$0.05
+---
+11,364
+---
+$0.05
+---
+Savings compare Together PTU cost against the selected commercial model's published list price ($/1M tokens) on the same traffic profile. Estimates assume continuous 24/7 provisioning (~43,800 min/mo).
+---
+NVIDIA HGX H100
+---
+$5.49
+---
+Contact sales
+---
+NVIDIA HGX B200
+---
+$8.99
+---
+NVIDIA HGX H100
+---
+$1.99
+---
+$3.99
+---
+$3.69
+---
+$3.45
+---
+$3.19
+---
+NVIDIA HGX H200
+---
+$2.99
+---
+$5.99
+---
+$4.99
+---
+$4.15
+---
+$3.99
+---
+NVIDIA HGX B200
+---
+$4.09
+---
+$8.19
+---
+$7.99
+---
+$7.79
+---
+$6.79
+---
+NVIDIA HGX B300
+---
+$4.99
+---
+$9.99
+---
+Per vCPU
+---
+$0.0446
+---
+Per GiB RAM
+---
+$0.0149
+---
+Code Interpreter
+---
+Session (60 minutes)
+---
+$0.03
+---
+Storage
+---
+Shared Filesystem
+---
+$0.16
+---
+GiB/month
+---
+Qwen3.5 0.8B
+---
+$0.34
+---
+$0.84
+---
+$4.00
+---
+Qwen3.5 122B A10B
+---
+$4.20
+---
+$10.50
+---
+$10.00
+---
+Qwen3.5 27B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Qwen3.5 2B
+---
+$0.34
+---
+$0.84
+---
+$4.00
+---
+Qwen3.5 35B A3B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Qwen3.5 397B A17B
+---
+$5.60
+---
+$14.00
+---
+$22.00
+---
+Qwen3.5 4B
+---
+$0.34
+---
+$0.84
+---
+$4.00
+---
+Qwen3.5 9B
+---
+$0.34
+---
+$0.84
+---
+$4.00
+---
+Qwen3.6 27B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Qwen3.6 35B A3B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Qwen3.8 27B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+DeepSeek-V3.1
+---
+$7.00
+---
+$17.50
+---
+$20.00
+---
+DeepSeek V4 Flash 0731
+---
+$6.00
+---
+$15.00
+---
+$12.00
+---
+Gemma 4 26B A4B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Gemma 4 31B
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Gemma 4 31B VLM
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Llama 3.3 70B
+---
+$2.03
+---
+$5.08
+---
+$4.00
+---
+Llama 4 Maverick
+---
+$5.60
+---
+$14.00
+---
+$16.00
+---
+Llama 4 Maverick VLM
+---
+$5.60
+---
+$14.00
+---
+$16.00
+---
+Llama 4 Scout
+---
+$2.10
+---
+$5.25
+---
+$6.00
+---
+Llama 4 Scout VLM
+---
+$2.10
+---
+$5.25
+---
+$6.00
+---
+Llama 3.1 8B
+---
+$0.34
+---
+$0.84
+---
+$4.00
+---
+Mixtral 8x7B Instruct v0.1
+---
+$1.05
+---
+$2.62
+---
+$4.00
+---
+Kimi K2.6
+---
+$15.00
+---
+$37.50
+---
+$60.00
+---
+Kimi K2.7 Code
+---
+$15.00
+---
+$37.50
+---
+$60.00
+---
+gpt-oss-120B
+---
+$2.50
+---
+$6.25
+---
+$6.00
+---
+gpt-oss-20B
+---
+$0.40
+---
+$1.00
+---
+$4.00
+---
+GLM-5.1
+---
+$40.00
+---
+$100.00
+---
+$60.00
+---
+GLM-5.2
+---
+$40.00
+---
+$100.00
+---
+$60.00
+---
+Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size × number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size × number of evaluations). Each job is s

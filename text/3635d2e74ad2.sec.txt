@@ -1,0 +1,48 @@
+Sign in
+Try for free
+Contact sales
+The economics of multiplayer AI
+---
+Start for free
+Yearly
+Save 20%
+Monthly
+Free
+$0
+500 credits · Lifetime
+Pro
+$24
+8,000 credits /seat/mo
+Max
+$120
+40,000 credits /seat/mo
+---
+Excluding VAT
+---
+Unlimited connectors & MCP servers
+Workspace-pooled credits & volume pricing
+SCIM, audit logs & custom data retention
+---
+Business
+Start for free
+---
+Programmatic usage rate
+$0.01 / credit	Custom
+Frequently asked questions
+What is a credit?
+A credit is Dust's unit for measuring AI usage. Credit consumption depends on the model used, the complexity of the task, and any tools the agent uses, such as search, data retrieval, code execution, or actions in connected apps. Learn more
+How are credits consumed?
+Credits are charged per message, based on the model used and the actions performed. Basic chat with a token-efficient model like Claude Sonnet will consume few credits, while a deep research task that requires complex, multi-step orchestrat
+Do unused credits roll over?
+No. Each seat's monthly credit allocation resets at the start of every billing period. This keeps pricing predictable and makes it easier for teams to plan.
+What happens when I run out of credits?
+If an agent is already generating a response, it will finish; you won't be cut off mid-response. After that, additional usage depends on your seat type and workspace settings. Pro and Max users will be able to continue through workspace ove
+What's the difference between Free, Pro, and Max seats?
+---
+These are seat types within the Business plan. Admins assign one to each user based on that individual's expected usage:
+---
+Free: $0, 500 credits lifetime. Best for occasional users or people trying Dust.
+Pro: $30/month, or $24/month billed yearly, with 8,000 credits/month. Best for most team members.
+Max: $150/month, or $120/month billed yearly, with 40,000 credits/month. Best for power users running complex automations, Deep research, or tool-heavy workflows regularly.
+---
+You can mix and match seat types across your workspace and reassign them anytime as usage changes. Learn more about seats.

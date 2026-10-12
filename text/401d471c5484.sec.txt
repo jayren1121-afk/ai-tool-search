@@ -1,0 +1,202 @@
+Login
+Get started for free
+Pricing
+---
+Monthly
+Annual
+Save 20%
+---
+Included on every plan (even the free one):
+---
+Free
+---
+Get started for free with no card required.
+---
+$0
+---
+Free forever
+---
+CREDITS
+---
+50 credits / month
+---
+Up to 50 pages and/or 500 rows of data per month.
+---
+Start free
+---
+Personal
+---
+Great for smaller data scraping and monitoring projects.
+---
+$19
+/mo
+---
+Billed annually, $228, all credits upfront
+---
+CREDITS
+---
+12,000 / year
+24,000 / year
+---
+Up to 12,000 pages and/or 120,000 rows of data per year.
+---
+Professional
+---
+Extract and monitor the data your team depends on.
+---
+$69
+/mo
+---
+Billed annually, $828, all credits upfront
+---
+CREDITS
+---
+60,000 / year
+120,000 / year
+240,000 / year
+360,000 / year
+---
+Up to 60,000 pages and/or 600,000 rows of data per year.
+---
+60-day refund guarantee
+---
+10 domains included
+Priority support
+Setup and onboarding services available from $399
+---
+FOR ANY PAID PLAN
+---
+Add a domain without moving up a tier.
+---
+Personal
+$4/mo
+Professional
+$2.40/mo
+---
+Credit top-ups
+---
+Buy more credits mid-term. 1,000 credit minimum. Annual plans only.
+---
+Personal
+$0.024/credit
+Professional
+$0.017-$0.013/credit
+---
+Setup and onboarding
+---
+Our team builds and configures your robots, then hands them over. Annual plans only.
+---
+Professional and Premium plans only.
+From $399
+---
+FOR ENTERPRISE
+---
+The platform plus our team of data engineers and AI experts. We work with you to build your solution and deliver clean data into your systems on your schedule.
+---
+Starting at
+$500
+a month billed annually
+Talk to sales
+See how managed works
+---
+Building the agents and keeping them running when sites change.
+Integrating into your systems, on your schedule.
+Transforming, combining and matching data across sources.
+The quality of every row, against a 98% accuracy SLA.
+Volume priced to what you actually use, from $0.010 a credit.
+---
+98%
+---
+data-accuracy SLA
+---
+$0.01
+---
+starting price per credit
+---
+CCPA
+How credits work
+---
+Credits are based on the volume and cost of the data you extract.
+---
+Here's what 100 credits can get you:
+---
+Free
+---
+$0
+---
+Start free →
+---
+Personal
+---
+From $19/mo
+---
+Get Personal →
+---
+Professional
+---
+From $69/mo
+---
+Get Professional →
+---
+Premium
+---
+From $500/mo
+---
+Talk to sales →
+USAGE
+---
+Credits
+50 / month	12K to 24K / year	60K to 360K / year	Custom
+---
+Cost per credit
+—	$0.019	$0.014 to $0.011	Custom
+---
+Domains
+2	5	10	Custom
+---
+Unlimited	Unlimited	Unlimited	Unlimited
+ADD-ONS
+---
+Domains
+N/A	Additional domains $4/mo paid annually	Additional domains $2.4/mo paid annually	Custom
+---
+Credits
+N/A	$0.024 per credit on annual plans	$0.017 to $0.013 per credit on annual plans	Custom
+---
+Setup and onboarding
+N/A	N/A	From $399	Custom
+PLATFORM
+---
+Monitoring frequency
+---
+Premium sites
+2 to 10 credits / run	2 to 10 credits / run	2 to 10 credits / run
+---
+Credit top-ups
+—	Annual plans only	Annual plans only	Custom
+---
+Setup and onboarding services
+—	—	From $399
+---
+Annual account review
+—	—	—
+---
+Monthly performance reports
+—	—	—
+---
+Why did my deep scrape cost more than I expected?
+What happens if I run out of credits?
+Do unused credits roll over?
+How do I stop monitoring from using up my credits?
+What counts as a website?
+Do I need a paid plan to use the API?
+Is the free plan really free?
+Can I change plans later?
+---
+What is your refund policy?
+Extract data from your first website for free
+---
+Get 50 credits a month with no credit card required. Most users capture their first dataset in minutes.
+---
+Start free
+Talk to sales

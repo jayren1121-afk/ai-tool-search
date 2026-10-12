@@ -1,0 +1,148 @@
+Sign in
+Contact Sales
+Try Cartesia
+Pricing for every stage.
+Start free, scale as you ship. Pay for the credits and agent minutes you use.
+---
+Free
+---
+$0
+---
+/mo
+Start free
+---
+20K credits / month
+---
+$1 prepaid agents / month
+---
+Text to Speech
+Speech to Text
+---
+Pro
+---
+$5
+---
+/mo
+Select Pro
+---
+100K credits / month
+---
+$5 prepaid agents / month
+---
+Everything in Free, plus
+---
+Instant voice cloning
+---
+Startup
+---
+$49
+---
+/mo
+Select Startup
+---
+1.25M credits / month
+---
+$49 prepaid agents / month
+---
+Everything in Pro, plus
+---
+Organizations
+---
+Scale
+---
+$299
+---
+/mo
+Select Scale
+---
+8M credits / month
+---
+$299 prepaid agents / month
+---
+Everything in Startup, plus
+---
+Custom credits & agent usage
+---
+2
+Minutes of generated audio per month
+45 min
+---
+Recommended plan
+---
+Pro
+---
+$5
+/mo
+Pause or cancel anytime
+133 Text to Speech minutes / month
+Choose Pro
+---
+Feature-by-feature across Free, Pro, Startup, and Scale.
+---
+Free
+---
+$0
+/mo
+Start free
+---
+Pro
+---
+$5
+/mo
+Select Pro
+---
+Startup
+---
+$49
+/mo
+Select Startup
+---
+Scale
+---
+$299
+/mo
+Select Scale
+---
+Sonic-3.6
+Minutes included monthly
+~27
+---
+Localizing a voice
+225 credits per added voice accent
+Speech to Text
+Ink-2
+Hours included monthly
+~1h 51m
+---
+20
+60
+Custom
+Call duration
+$0.06 per minute
+$0.06 per minute
+$0.06 per minute
+$0.06 per minute
+Custom
+Telephony
+$0.014 per minute when using a Cartesia-provided phone number
+LLM usage during calls
+Free for UI-created agents for a limited time
+Evaluations
+Free of charge for a limited time only
+FAQs
+Do TTS, STT, and Agent concurrency limits affect each other?
+How do model credits and voice agent rates work within each plan?
+How many voice agent minutes do I get per plan?
+How many credits do I need?
+How many credits do I need for Pro Voice Cloning?
+How many Professional Voice Clones can I have?
+What happens to my rollover credits if I change my pricing tier?
+What happens if I upgrade to a higher subscription tier?
+---
+When does my subscription renew?
+What happens if I use more model credits than I have in my account?
+What happens if I use more prepaid voice agent dollars than I have in my account?
+---
+Events
+Free tools
+Learn

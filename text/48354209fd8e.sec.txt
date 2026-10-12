@@ -1,0 +1,38 @@
+Pricing built for innovation
+TRY OUR API FOR FREE
+CONTACT SALES
+---
+Start free, pay-as-you-go after that – no commitments required.
+---
+Universal-3.5 Pro
+---
+The most accurate async speech-to-text model that transcribes every conversation exactly as it's heard – works across 18 languages, with native code switching and our most accurate speaker diarization yet.
+---
+$0.21 /hr
+---
+Get custom rate limits, enhanced concurrency, and enterprise-grade flexibility tailored to your AI workloads.
+---
+Universal-2
+---
+Our highly accurate speech-to-text model trained on over 12.5 million hours of audio data. Supports 99 languages. Exceptional accuracy at a lower price.
+---
+$0.15 /hr
+---
+Looking for volume-based pricing?
+---
+Can I sign up for free?
+expand_more
+---
+Yes. You can create an account and start transcribing immediately with no credit card required. The free tier includes up to 185 hours of pre-recorded transcription and up to 333 hours of streaming transcription.
+---
+What is included in the $4.50/hr Voice Agent API price?
+expand_more
+---
+Speech-to-text on Universal-3.6 Pro Realtime with prompting and Voice Focus, advanced turn detection, interruption detection, our Voice Agent LLM, our text-to-speech voices, and the infrastructure hosting that runs it all over a single WebS
+---
+How is multichannel billed?
+expand_more
+---
+Blog
+Contact Sales
+RESEARCH

@@ -1,0 +1,81 @@
+Free
+---
+Education plan
+---
+Full access to Vibe for all-day coding and long-running tasks.
+---
+$14.99
+---
+/mo
+---
+Generate spreadsheets and slides.
+---
+Better image generation and editing.
+---
+$25.5 /mo in API credits.
+---
+Chat and email support.
+---
+All-day coding in the CLI, IDE, or on web.
+---
+More image generations.
+---
+$15 /mo in API credits.
+---
+Chat and email support.
+---
+Team
+---
+Secure, collaborative workspace for teams building with AI.
+---
+$24.99
+---
+/user/mo
+---
+Up to 30GB of storage /user.
+---
+Domain name verification.
+---
+Data export.
+---
+$50
+---
+/mo
+---
+Free
+---
+Up to 6x free
+---
+Up to 6x free
+---
+Up to 5x free
+---
+Up to 5x free
+---
+Up to 30GB / user
+---
+Up to 40x free
+---
+Up to 40x free
+---
+Extend usage with PAYG credits
+---
+Does Mistral have a free plan?
+---
+For most tasks and coding: Mistral Medium. For document AI: OCR. For audio and speech intelligence: Voxtral. For cost-sensitive projects: Mistral Small. See the Models overview for more information.
+---
+How is API pricing calculated?
+---
+Most models are priced per million tokens, with both input (your prompts) and output (responses) counted separately. For example, Mistral Large costs $0.5 /M tokens in and $1.5 /M tokens out. Batch processing, for high-volume work, reduces 
+---
+How can I track my API usage and spending?
+---
+What’s the difference between Mistral Free and Pro plans?
+---
+Yes, you can self-host our models anywhere. Open-weight models (e.g., Mistral 7B) are Apache 2.0 licensed for research/individual use; while commercial deployments require a Mistral license with separate terms for derivatives and production
+---
+Are there discounts for students?
+---
+Verified students can get Mistral Pro for $5.99 / month (normally $14.99).
+---
+Do you offer enterprise solutions and support?

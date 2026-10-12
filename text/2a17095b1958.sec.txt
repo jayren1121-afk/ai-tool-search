@@ -1,0 +1,89 @@
+JetBrains AI Plans & Pricing
+Yearly billing
+save 2 months
+Monthly billing
+AI Free
+---
+3 AI Credits per 30 days
+Free
+Get Started
+---
+Designed for regular AI-enhanced IDE workflows, with enough credits for occasional agent use.
+---
+10 AI Credits per 30 days
+Anytime top-ups
+$100.00
+/per user, per year
+Buy
+AI Ultimate
+---
+Best suited for frequent coding agent use.
+---
+35 AI Credits per 30 days
+Anytime top-ups
+$300.00
+/per user, per year
+Buy
+AI Enterprise
+---
+The maximum number of credits, enterprise security, and custom AI integrations.
+---
+$720.00
+/per user, per year
+Request a demo
+---
+10 IDEs, Air, and extra .NET tools
+10 AI Credits per 30 days
+Anytime top-ups
+$299.00
+first year
+---
+second year
+---
+$239.00
+---
+third year onwards
+---
+$179.00
+---
+Buy
+---
+Rider, ReSharper and 4 extra .NET tools
+10 AI Credits per 30 days
+Anytime top-ups
+$219.00
+first year
+---
+second year
+---
+$175.00
+---
+third year onwards
+---
+$131.00
+---
+Buy
+---
+Running low on your monthly quota?
+---
+Top up AI Credits in any amount to continue using AI features without interruption.
+---
+Top Up AI Credits
+1 AI Credit is worth USD 1.00 (charged in your local currency).
+AI Credits are valid for 12 months from their purchase date.
+Features
+AI Free	AI Pro	AI Ultimate	AI Enterprise
+---
+You can connect your own API keys from supported AI providers or use your preferred AI agent via ACP – with no JetBrains AI subscription required.
+AI Free	AI Pro	AI Ultimate	AI Enterprise
+---
+Availability in editors and IDEs
+A free 30-day trial of the AI Pro plan is available across all supported products.
+AI Free	AI Pro	AI Ultimate	AI Enterprise
+---
+Security and administration
+AI Free	AI Pro	AI Ultimate	AI Enterprise
+---
+Technical Support
+Contact Sales
+Documentation

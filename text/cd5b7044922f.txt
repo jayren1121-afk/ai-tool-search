@@ -1,0 +1,145 @@
+Platform
+Use cases
+Resources
+Pricing
+GTM AI
+Login
+Get a Demo
+Get a Demo
+Copy.ai pricing
+Self-Serve
+Enterprise
+Chat
+For small teams starting to drive real business value with AI
+5 Seat
+Unlimited Words in Chat
+Unlimited Chat Projects
+Access to OpenAI, Anthropic, and Gemini models
+Monthly 
+|
+ Annually
+20% SAVING
+$29/mo
+Billed monthly
+Get started
+Get started
+
+Trusted by 17 million users at leading companies
+
+Guided implementation
+
+“Copy.ai navigated through our rigorous security protocols. They set a new standard for efficient onboarding and instilled confidence in our partnership from day one.”
+
+CMO @ Fortune 500 Cybersecurity Company
+Guided onboarding with AI experts for fast time to value
+Codify your unique processes + best practices with AI
+Set up integrations with all key GTM systems
+Fortune 500 companies are adopting Copy.ai with fast, tangible results
+SALES COLLATERAL CREATION
+Driving personalized sales enablement across $650m partner sales channel
+
+“The value of our AI application layer is that it’s very flexible, like a Swiss Army knife. The way our vendor partnership builds out APIs makes it easy to brainstorm ideas and start on new use cases.”
+
+$2.6M
+
+in cost savings
+
+$650M
+
+partner sales channel
+
+MARKETING CONTENT CREATION
+Driving accurate content generation across 100,000+ product review catalog sites
+
+“We had a huge backlog of products that didn’t have unique copy for. Now we have a content system that scales.”
+
+80%
+
+cut operational costs
+
+300%
+
+improved coverage
+
+Frequently asked questions
+What are Workflows?
+
+A Workflow is a set of AI-powered actions that are stitched together to codify a process or best practices (eg. create account plan, write SEO article). Copy.ai makes it easy to create customizable, intelligent workflows that combine research, content generation, and tool integrations. These workflows serve to codify your complex business processes, and extend best practices across your entire team.
+
+What are Workflow credits?
+
+A credit represents a specific amount of computational power necessary to execute the tasks within a given workflow (eg. generate content, perform internet research, scanning websites, etc.).
+
+What is a credit worth?
+
+A credit's value depends on the complexity of the tasks performed within Copy.ai, such as generating text, or using the API. Each workflow run might have different credit consumption, depending on the steps and content it generates.
+
+How much does a Workflow run cost? 
+
+How much a workflow run costs depends on the complexity of the workflow. The more steps and content a workflow generates, the more it'll cost in credits. You can see how much a run costs by opening the side panel and looking at the "Credits used" for the run.
+
+Can I add credits later?
+
+Yes, Copy.ai allows for flexible, usage-based pricing. Our team will work with yours to scope your use cases and accurately estimate the credits necessary to fulfill those use cases. But as you discover more opportunities for AI to add value across your organization, you can easily add credits to your balance.
+
+For self-serve users: Can I change my plan later?
+
+Yes, you can upgrade or downgrade at any time. If you choose to upgrade, you'll pay a prorated amount for the rest of the month. If you choose to downgrade, you'll be credited on next month's bill.
+
+See the Copy.ai platform in action
+Get a demo and discover how sales and marketing teams use Copy.ai to add an AI superpower to their revenue engine.
+
+Explore the Platform
+Explore the Platform
+Explore the Platform
+Platform
+OVERVIEW
+How it Works
+Platform Components
+Powering GTM AI
+WORKFLOWS
+What are Workflows?
+Building Workflows
+Copy Agents
+INTELLIGENCE LAYER
+Tables
+Infobase
+Brand Voice
+Use Cases
+SALES
+Prospecting Cockpit
+Inbound Lead Processing
+Deal Coaching & Forecasting
+MARKETING
+Account Based Marketing
+Content Creation
+Translation & Localization
+OPERATIONS
+Lead + Account Intelligence
+CRM Enrichment
+GTM Systems Integrations
+Resources
+BY TEAM
+Marketing
+Sales
+Operations
+LEARN MORE
+Blog
+For The Enterprise
+Trust Center
+Webinars
+GET HELP
+Help Center
+Contact Support
+Changelog
+Other pages
+Home
+Pricing
+GTM AI
+Careers
+Free Tools
+Podcasts
+© 2025 CopyAI, Inc
+Privacy Notice
+Terms of Service
+Status

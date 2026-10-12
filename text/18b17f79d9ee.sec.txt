@@ -1,0 +1,36 @@
+Monthly
+Annual
+Lite
+---
+$0
+---
+per month
+---
+Ad-Sponsorships
+Get Started
+Starter
+---
+$20
+---
+per month
+---
+Most popular
+Most popular plan
+Pro
+---
+$90
+---
+per month
+---
+Customization
+Ad-Sponsorship Free
+Get Pro
+Max
+---
+$200
+---
+per month
+---
+Customization
+Ad-Sponsorship Free
+EHR Integration

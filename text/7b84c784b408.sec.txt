@@ -1,0 +1,39 @@
+Comparing Midjourney Plans
+All Midjourney plans are subscriptions - meaning they automatically renew on a monthly or yearly basis unless you set your plan to cancel.
+---
+You can get a 20% discount on your subscription by committing to an annual plan, where the full year fee is paid upfront.
+---
+Basic Plan	Standard Plan	Pro Plan	Mega Plan
+Monthly Price	$10	$30	$60	$120
+Annual Price	$96
+($8 / month)	$288
+($24 / month)	$576
+($48 / month)	$1,152
+($96 / month)
+Fast GPU Time 	3.3 hr/month
+(200 minutes)	15 hr/month	30 hr/month	60 hr/month
+Relax GPU Time 		Unlimited Images	Unlimited Images & SD Video	Unlimited Images & SD Video
+Video Resolution 	SD	SD & HD	SD & HD	SD & HD
+Purchase Extra
+GPU Time	$4/hr	$4/hr	$4/hr	$4/hr
+Work Solo in Discord Direct Messages
+Stealth Mode
+Maximum Concurrent Prompts (images)	3 Fast	3 Fast or Relax	12 Fast or
+---
+Rate Images to Earn
+Free GPU Time
+Usage Rights	General Commercial Terms**	General Commercial Terms**	General Commercial Terms**	General Commercial Terms**
+---
+*Queue size will extend to accommodate repeat/permutation jobs.
+---
+**If you have subscribed at any point, you are free to use your images/videos in just about any way you want. You must purchase the Pro or Mega plan if you are a company making more than $1,000,000 USD in gross revenue per year. For complet
+---
+Plan availability and features are subject to change. Our Terms of Service apply to all subscriptions.
+---
+Purchasing Extra Fast Time
+Earning Free Fast Time
+Using Images & Videos Commercially
+---
+Keeping Your Creations Private
+Free Trials
+Discord Nitro Subscription

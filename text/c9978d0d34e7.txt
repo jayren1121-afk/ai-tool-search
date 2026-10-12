@@ -1,0 +1,252 @@
+Product
+Docs
+Models
+Pricing
+Cloud Login
+Try now free
+
+By the creators of
+
+The cloud coding agent you actually own.
+
+Roomote runs your actual dev environment, verifies its work, reviews the code with a different model, and hands back PRs with live previews for you to approve.
+
+All so you can ship faster with unlimited parallel tasks. Self-hosted or on our Cloud.
+
+Try now free
+Deployment options
+Star on GitHub
+Mix and match models
+
+Use different providers and model vendors, assigning the best one for each job, optimizing for performance, latency or cost according to your needs.
+
+Go beyond local dev without compromise
+Keep control
+Model-agnostic, BYOK
+Self-hostable, isolated sandboxes
+Works with Github, Gitlab, Azure DevOps, Gitea, Bitbucket
+Always single-tenant
+Source available
+But keep it easy
+Works where you work: Slack, Teams, Discord, Telegram
+Naturally async and great on mobile.
+Screenshots for visual changes
+Configurable automations to find and fix issues on your behalf
+Nothing to set up locally
+Free, flexible and fully-featured (wherever you deploy)
+Model agnostic
+
+Mix and match providers and models, optimizing for intelligence, price or throughput according to your needs.
+
+Grounded like a dev
+
+Connected to your repo, issues, logs, docs, DB. Roomote uses the same tools as you do to deliver quality.
+
+Automated Work
+
+Automatically handle inbound issues or have Roomote proactively find things to improve. No prompting, just review the results.
+
+Live previews
+
+Roomote runs your actual app before calling work done, and gives reviewers a live URL to inspect.
+
+Built-in review loops
+
+It reviews its own changes, catches issues early, and cleans up fixes before a human has to step in.
+
+Friendly to all
+
+Non-eng folks can build without setting up anything locally, because of trustworthy results and easy interfaces.
+
+Build on-the-go
+
+Since Roomote uses your messaging apps, it's naturally mobile-friendly. But we also have a great mobile wb UI.
+
+Built-in analytics
+
+Understand inference cost, team productivity and more with built-in interactive charts.
+
+Your choice of deployment
+FASTEST
+Try on Roomote Cloud
+
+Live in 2 min. Your own isolated deployment:
+we just run it for you.
+
+Us:
+Hosting, networking, sandboxes, upgrades
+You:
+Inference key
+Try now — 2 min, no card
+
+Free 7-day trial, then from $49/mo
+
+Self-host it
+
+The exact same app on your own infra.
+Full control, your data never leaves.
+
+Us:
+Easy-to-deploy docker images
+You:
+Hosting, sandboxes, inference, maintenance
+See deployment options
+
+Up and running on your infra in 10 min
+
+Pricing
+Cloud
+Self-hosted
+
+Up to 10 users
+
+Free
+
+No license needed
+
+11–50 users
+
+$249/mo
+
+All features included
+
+51–100 users
+
+$499/mo
+
+All features included
+
+100+ users
+
+Talk to us
+
+All features included
+
+Just wanna try it out? Keep it under 10 users, no license needed.
+
+Talk to us
+Buy on Roomote Cloud
+
+"I would say Codex is really good if I hadn't seen Roomote. In fact I find Roomote a highly superior product to anything that I've tried so far; it's surprising me every day. It's like when I tried Roo Code for the first time... But better."
+
+Zoran Perokovic
+
+Founder, LogSharp
+
+"I went through a very large migration over the last two weeks, and Roomote did all of it. I just give it a prompt and it goes. I just read the PR."
+
+Mohammad Al Akkaoui
+
+Partner, ModularCX
+
+"The automations are working really well, the screenshots and everything sending into Slack are pretty awesome, and it's done really well finding bugs in really niche flows."
+
+David Fletcher
+
+Co-Founder and CTO, Currents
+
+"I don't sweat being 'on-call' anymore, even if I'm in back-to-back meetings, or even on PTO. I'll just likely have to read some Roomote summaries and PRs. We're now including new hires and some interns on rotation, because we can."
+
+John Stearns
+
+CTO, Roo Vet
+
+Yours, not theirs.
+
+Roomote is yours whether you run it or we do. Single-tenant by design, source-available, and portable — you choose the model, the tools, and where it lives. Nothing about it is a black box.
+
+Source-available
+
+Read it, run it, modify it, trust it.
+
+Model-agnostic
+
+Frontier, open-weight, huge, or local. Bring your own key.
+
+Single-tenant
+
+Your own isolated deployment, Cloud or self-hosted.
+
+Private
+
+Keep your code and conversations to you. Great for regulated industries.
+
+How Roomote compares to alternatives
+
+You can stay local/manual, hand your workflow to a vendor, build your own agent, or run a self-hosted cloud agent you can own, inspect and modify.
+
+	
+	Local IDEs and agents	First-party agents	Build it yourself
+Shape	Source-available self-hosted AI teammate	Engineer-centric tools	Vendor-native cloud agent	Internal scripts and automation
+Inspectability	Complete	Sometimes	No way	Complete
+Model choice	Any model, including open-weight	Often limited	Locked to that vendor's models	Whatever you wire up yourself
+Full auto-pilot	Yes	No	Mostly yes	Depends what you built
+Your own single-tenant deployment	Yes — hosted or self-hosted	N/A	No — multi-tenant	Yes
+Time to value	Minutes	Quick, single player	Medium, config is tricky	Months, and is it ever really done?
+Roomote kicks butt
+by using the same tools you do
+
+Connect your issue trackers, docs, observability, analytics, and data warehouse and Roomote can investigate, answer, and ship changes with the same context you already rely on.
+
+Asana
+Better Stack
+BigQuery
+Braintrust
+Google Drive
+Figma
+Grafana
+Granola
+Jira
+Linear
+monday.com
+Neon
+Notion
+PostHog
+Pylon
+Railway
+Resend
+Sentry
+Snowflake
+Supabase
+Supermemory
+Vercel
+Zero
+Questions you may ask (we get these frequently)
+
+What is Roomote?
+
+Who is it for?
+
+Is this open source?
+
+We could just build this ourselves, no?
+
+What about first-party tools like Claude Tag?
+
+I already use Cursor/Copilot/Claude Code/something else with a C. Why would I need Roomote?
+
+What harness do you use?
+
+How does it fit into our existing dev workflow?
+
+What keeps it from breaking something? I've been burned by AI that ships junk.
+
+Can multiple people use it at the same time?
+
+Do you have a hosted version?
+
+Why do self-hosted licenses cost the same as Cloud?
+
+Wait, does this mean I can finally close my laptop?
+
+Close your laptop lid and get real productive.
+Start free — 2 min, no card
+Deploy now free
+
+Start free on Roomote Cloud, or deploy the same product on your own infrastructure.
+
+© 2026 Roomote. All rights reserved.
+
+Home
+Legal
+Security

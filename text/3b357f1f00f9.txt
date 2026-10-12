@@ -1,0 +1,418 @@
+Use Cases
+AI Design
+Templates
+Resources
+Pricing
+Log in
+Sign up for free
+Use Cases
+AI Design
+Templates
+Resources
+Pricing
+Log in
+Sign up for free
+A million ideas, one tool
+
+Starter
+
+For trying things out
+
+$0
+
+Choose plan
+
+STARTER ESSENTIALS
+
+300 AI credits / month
+Standard AI design
+Limited boards & elements
+Pro
+
+For solo professionals and small teams
+
+$14
+
+Per editor/month
+
+Choose plan
+
+COMPARE TO STARTER PLAN
+
+10x more AI generations
+
+3,000 AI credits / month
+AI deep design & design instructions 
+Unlimited boards & elements
+Figma export & import
+Export to Code 
+Visily MCP server
+
+Business
+
+For growing and large businesses
+
+$29
+
+Per editor/month
+
+Billed annually
+Choose plan
+
+COMPARE TO STARTER PLAN
+
+33x more AI generations
+
+10,000 AI credits / month
+AI deep design & design instructions 
+Unlimited boards & elements
+Figma export & import
+Export to Code 
+Visily MCP server​
+Advanced security & control
+SAML SSO, custom team management, workspace library, 30-day version history, priority support.
+Need a custom plan? Let's talk
+Plan comparison
+	Starter	Pro	Business	Enterprise
+Organization
+
+Private folders and boards
+	
+	
+	
+	
+
+
+Boards per workspace
+	2 editable
+Unlimited view-only	Unlimited	Unlimited	Unlimited
+
+Elements per board
+	2500	Unlimited	Unlimited	Unlimited
+
+Custom teams
+	
+	
+	
+	
+
+AI Design
+
+Generate Screen
+	300 credits / workspace / month
+(600 credits for first month)	3,000 credits / editor / month
+600 credits / guest editor / month	10,000 credits / editor / month
+2,000 credits / guest editor / month	Custom
+
+Generate Component
+
+
+Generate Diagram
+
+
+Generate Image
+
+
+Auto Prototype
+
+
+Generate Theme
+
+
+Rename Layer
+
+
+Fill Content
+
+
+Character limit per prompt
+	4,000	4,000	10,000	10,000
+
+AI plan mode
+	
+	
+	
+	
+
+
+AI design instructions
+	
+	
+	
+	
+
+
+AI deep design
+	
+	
+	
+	
+
+
+Custom AI images
+	1 free trial	Unlimited	Unlimited	Unlimited
+
+Color Assistant
+	
+	
+	
+	
+
+
+Hi-fi <> Lo-fi switch
+	
+	
+	
+	
+
+Templates
+
+App templates
+	150 credits / workspace / month
+(300 credits for first month)	8,000 credits / editor / month
+1,600 credits / viewer / month
+1,600 credits / guest editor / month	Unlimited	Unlimited
+
+Screen templates
+
+
+Component templates
+
+
+Diagram templates
+
+
+Synced templates
+	
+	
+	
+	
+
+Workspace Library
+
+Workspace templates
+	
+	Unlimited	Unlimited	Unlimited
+
+Workspace themes
+	
+	2	Unlimited	Unlimited
+
+Workspace images
+	
+	Unlimited	Unlimited	Unlimited
+
+Workspace custom fonts
+	
+	5 font families / workspace	Unlimited	Unlimited
+Design and Prototype
+
+Wireframing
+	
+	
+	
+	
+
+
+Diagramming
+	
+	
+	
+	
+
+
+Interactive prototyping
+	
+	
+	
+	
+
+
+Theme setting
+	
+	
+	
+	
+
+
+Custom fonts
+	
+	5 font families / board	Unlimited	Unlimited
+Integration
+
+MCP server
+	
+	
+	
+	
+
+
+Notion integration
+	
+	
+	
+	
+
+
+Jira integration
+	
+	
+	
+	
+
+
+Slack integration
+	
+	
+	
+	
+
+Collaboration
+
+Export to Figma
+	
+	
+	
+	
+
+
+Import from Figma
+	
+	
+	
+	
+
+
+Export to Code
+	
+	
+	
+	
+
+
+Export to JPG, PNG, PDF
+	1x only
+With watermark	High resolution
+No watermark	High resolution
+No watermark	High resolution
+No watermark
+
+Workspace members
+	50	Unlimited	Unlimited	Unlimited
+
+Guest viewers
+	
+	Unlimited	Unlimited	Unlimited
+
+Guest editors
+	
+	Based on workspace size	Based on workspace size	Based on workspace size
+
+Invite from Slack & Google
+	
+	
+	
+	
+
+
+Commenting
+	
+	
+	
+	
+
+
+Real-time co-designing
+	
+	
+	
+	
+
+Data Retention
+
+Data deletion recovery
+	24 hours	30 days	90 days	Custom
+
+Version history
+	
+	7 days	30 days	Custom
+Support and Security
+
+SAML SSO
+	
+	
+	
+	
+
+
+Priority support
+	
+	
+	
+	
+
+
+Dedicated account manager
+	
+	
+	
+	
+
+
+Additional security & organization settings
+	
+	
+	
+	Coming soon
+Frequently Asked Questions
+About Visily
+What is Visily? What can I do with it?
+
+Visily allows anyone to quickly brainstorm, design, and prototype UI & product experiences with their team—regardless of their design skill or experience level. In minutes, anyone can produce comprehensive flowcharts, hi-fidelity wireframes, and more.
+To learn how to use Visily, check out our Explore Visily resources, or simply sign up for a free Starter plan account.
+
+Who should use Visily?
+What is a “Project” in Visily?
+What is a “Board” in Visily?
+How does Visily use AI?
+Is there a Visily Enterprise plan?
+How do AI and Template credits work in Visily?
+Visily Plans
+Does everyone on my team need a Visily account to see my designs?
+
+Anyone can view publicly shared Projects & Boards in Visily (without a Visily account); however, commenting and editing is only available to logged in Visily users.
+In the Visily Starter plan, commenters and editors must be Team Members; in the Visily Pro plan, admin can invite guest viewers & editors to individual Projects and Boards.
+See Sharing & Permission doc for more information.
+
+ 
+What can I do in Visily’s Starter (Free) Plan?
+Do you offer an education and/or non-profit discount?
+I have additional questions about Visily. Who should I contact?
+Use Cases
+Wireframing
+Brainstorming
+Prototyping
+Collaboration
+Features
+AI UI Design Generator
+Screenshot Editor
+Online Sticky Notes
+UI Mockup Tool
+AI Prototype Generator
+Diagram AI
+Resources
+Design Systems
+NEW
+Vibe Designing
+Blog
+Release Notes
+Help Center
+FAQs
+
+© 2025 Visily. All rights reserved.
+
+Privacy Policy
+
+Terms of Service
+
+Terms Of Use

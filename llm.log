@@ -1,0 +1,43 @@
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://claude.com/pricing 2606
+2 ok openai/gpt-oss-120b https://gemini.google/subscriptions/ 2296
+停用 groq ： groq 每日額度用盡（429）：{"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4cpekmnez7s57xjy0dnkkqv` service tier `on_demand` on tokens per 
+3 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.perplexity.ai/pro 6044
+4 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://docs.midjourney.com/hc/en-us/articles/27870484040333 7895
+5 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://github.com/features/copilot/plans 5864
+6 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://cursor.com/pricing 5278
+7 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.canva.com/pricing/ 3027
+8 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.notion.com/pricing 4063
+9 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.grammarly.com/plans 5848
+10 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://api-docs.deepseek.com/quick_start/pricing 1600
+11 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://elevenlabs.io/pricing 7411
+12 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://runwayml.com/pricing 10494
+13 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.veed.io/pricing 5005
+14 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://openai.com/api/pricing 2354
+15 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.figma.com/pricing/ 5552
+16 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.deepl.com/pro 5337
+17 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://workspace.google.com/pricing 5818
+18 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.microsoft.com/microsoft-365/copilot 4267
+19 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.microsoft.com/microsoft-365/copilot/enterprise 3580
+20 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://suno.com/pricing 3723
+21 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://stability.ai/license 2127
+22 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.synthesia.io/pricing 5666
+23 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.heygen.com/pricing 6403
+24 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.descript.com/pricing 10324
+25 error openrouter:nvidia/nemotron-3-super-120b-a12b:free https://otter.ai/pricing None
+26 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.jasper.ai/pricing 3644
+27 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.copy.ai/prices 3758
+28 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://writesonic.com/pricing 10136
+29 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://zapier.com/pricing 5948
+30 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://replit.com/pricing 4067
+31 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://v0.app/pricing 4339
+32 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://bolt.new/pricing 3366
+33 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://lovable.dev/pricing 3484
+34 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://windsurf.com/pricing 5449
+35 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://codeium.com/pricing 5270
+36 error openrouter:nvidia/nemotron-3-super-120b-a12b:free https://pika.art/pricing None
+37 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://lumalabs.ai/dream-machine/pricing 4575
+38 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.krea.ai/pricing 5048
+39 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://bfl.ai/pricing 2498
+停用 openrouter ： openrouter 每日額度用盡（429）：{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-R
+LLM 結束： 所有已設定的提供者今天額度都用完了（明天自動接續） {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": "groq 每日額度用盡（429）：{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4cpekmnez7s57xjy0dnkkqv` service tier `on_demand` on tokens per ", "calls": 2, "ok": 2, "tokens": 4902, "rl429": 1, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": "openrouter 每日額度用盡（429）：{\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-R", "calls": 52, "ok": 35, "tokens": 329290, "rl429": 1, "errors": 2}}

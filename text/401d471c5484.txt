@@ -1,0 +1,434 @@
+Features
+Use cases
+Resources
+Pricing
+Login
+Get started for free
+Pricing
+
+Pay for the data you extract or monitor, with pricing that scales as you grow.
+
+Monthly
+Annual
+Save 20%
+
+Included on every plan (even the free one):
+
+Unlimited robots
+Monitoring every 5 minutes
+REST API, webhooks and bulk runs
+Residential proxies
+Formula columns
+Thousands of integrations
+
+FOR TRYING IT OUT
+
+Free
+
+Get started for free with no card required.
+
+$0
+
+Free forever
+
+CREDITS
+
+50 credits / month
+
+Up to 50 pages and/or 500 rows of data per month.
+
+Start free
+
+No credit card required
+
+2 domains included
+Self support
+
+FOR ONE PERSON
+
+Personal
+
+Great for smaller data scraping and monitoring projects.
+
+$19
+/mo
+
+Billed annually, $228, all credits upfront
+
+CREDITS
+
+12,000 / year
+24,000 / year
+
+Up to 12,000 pages and/or 120,000 rows of data per year.
+
+Get Personal
+
+60-day refund guarantee
+
+5 domains included
+Standard support
+BEST VALUE
+
+FOR A TEAM
+
+Professional
+
+Extract and monitor the data your team depends on.
+
+$69
+/mo
+
+Billed annually, $828, all credits upfront
+
+CREDITS
+
+60,000 / year
+120,000 / year
+240,000 / year
+360,000 / year
+
+Up to 60,000 pages and/or 600,000 rows of data per year.
+
+Get Professional
+
+60-day refund guarantee
+
+10 domains included
+Priority support
+Setup and onboarding services available from $399
+
+FOR ANY PAID PLAN
+
+Add-ons
+
+Add what you need, without changing plans.
+
+Extra domains
+
+Add a domain without moving up a tier.
+
+Personal
+$4/mo
+Professional
+$2.40/mo
+
+Credit top-ups
+
+Buy more credits mid-term. 1,000 credit minimum. Annual plans only.
+
+Personal
+$0.024/credit
+Professional
+$0.017-$0.013/credit
+
+Setup and onboarding
+
+Our team builds and configures your robots, then hands them over. Annual plans only.
+
+Professional and Premium plans only.
+From $399
+
+FOR ENTERPRISE
+
+Premium
+
+The platform plus our team of data engineers and AI experts. We work with you to build your solution and deliver clean data into your systems on your schedule.
+
+Starting at
+$500
+a month billed annually
+Talk to sales
+See how managed works
+
+Typical reply within one business day. NDA on request.
+
+We design a custom solution that turns raw pages into the dataset you actually need.
+
+AI experts and data engineers who design your pipeline end to end.
+Building the agents and keeping them running when sites change.
+Integrating into your systems, on your schedule.
+Transforming, combining and matching data across sources.
+The quality of every row, against a 98% accuracy SLA.
+Volume priced to what you actually use, from $0.010 a credit.
+
+98%
+
+data-accuracy SLA
+
+$0.01
+
+starting price per credit
+
+10+ billion
+
+rows of delivered data
+
+Built with security in mind.
+
+Discover how we safeguard your information with industry-leading practices and compliance certifications. Visit Browse AI's Trust Center to request our SOC 2 report.
+
+SOC 2 - Type II
+GDPR
+CCPA
+How credits work
+
+Credits are based on the volume and cost of the data you extract.
+
+Read the full credit guide →
+
+Here's what 100 credits can get you:
+
+1,000 rows from list pages
+
+A row is one item: a product, a listing, a job posting.
+
+100 standard pages
+
+1 credit for every time a standard page is scraped or monitored.
+
+100 screenshots
+
+Capture a full or partial screenshot.
+
+1 to 10 premium pages
+
+Including sites like Amazon or Ebay, which need residential proxies (thus cost more).
+
+Compare every plan
+
+All of our plans are built on the same platform with pricing discounts and service add-ons to support your growth.
+
+	
+
+Free
+
+$0
+
+Start free →	
+
+Personal
+
+From $19/mo
+
+Get Personal →	
+
+Professional
+
+From $69/mo
+
+Get Professional →	
+
+Premium
+
+From $500/mo
+
+Talk to sales →
+USAGE				
+
+Credits
+	50 / month	12K to 24K / year	60K to 360K / year	Custom
+
+Cost per credit
+	—	$0.019	$0.014 to $0.011	Custom
+
+Domains
+	2	5	10	Custom
+
+Team members
+	3	3	10	Custom
+
+Robots
+	Unlimited	Unlimited	Unlimited	Unlimited
+ADD-ONS				
+
+Domains
+	N/A	Additional domains $4/mo paid annually	Additional domains $2.4/mo paid annually	Custom
+
+Credits
+	N/A	$0.024 per credit on annual plans	$0.017 to $0.013 per credit on annual plans	Custom
+
+Setup and onboarding
+	N/A	N/A	From $399	Custom
+PLATFORM				
+
+Monitoring frequency
+	Every minute	Every minute	Every minute	Every minute
+
+Data retention
+	90 days	90 days	90 days	Custom
+
+Residential proxies
+	
+	
+	
+	
+
+
+Workflows
+	
+	
+	
+	
+
+
+Premium sites
+	2 to 10 credits / run	2 to 10 credits / run	2 to 10 credits / run	
+
+
+Bulk run, up to 500,000 pages
+	
+	
+	
+	
+
+
+Anti-bot and CAPTCHA handling
+	
+	
+	
+	
+
+
+Formula columns
+	
+	
+	
+	
+
+
+Deep scraping
+	
+	
+	
+	
+
+
+Max task run time
+	60 minutes	60 minutes	60 minutes	Custom
+
+Prebuilt robots
+	250+	250+	250+	250+
+DATA AND INTEGRATIONS				
+
+REST API and webhooks
+	
+	
+	
+	
+
+
+Google Sheets, Airtable, Zapier, Make, Pabbly
+	
+	
+	
+	
+
+
+Custom data integrations
+	—	—	—	
+
+
+Data transformations
+	—	—	—	
+
+SUPPORT AND SERVICES				
+
+Support
+	Self support	Standard support	Priority email	Dedicated Account Manager
+
+Credit top-ups
+	—	Annual plans only	Annual plans only	Custom
+
+Setup and onboarding services
+	—	—	From $399	
+
+
+Annual account review
+	—	—	—	
+
+
+Dedicated account manager
+	—	—	—	
+
+
+98% data-accuracy SLA
+	—	—	—	
+
+
+Custom maintenance
+	—	—	—	
+
+
+Product matching
+	—	—	—	
+
+
+Migration from another tool
+	—	—	—	
+
+
+On-time delivery SLA
+	—	—	—	
+
+
+Monthly performance reports
+	—	—	—	
+
+
+NDA on request
+	—	—	—	
+Questions about pricing
+What is a credit, and how many will I need?
+One page is one credit. Ten rows of data is one credit. You pay whichever is more, so a list page with 50 products costs 5 credits, and a page that returns two fields still costs 1. Every run shows its cost in your dashboard before it goes.
+Why do some sites cost more?
+Why did my deep scrape cost more than I expected?
+What happens if I run out of credits?
+Do unused credits roll over?
+How do I stop monitoring from using up my credits?
+What counts as a website?
+Do I need a paid plan to use the API?
+Is the free plan really free?
+Can I change plans later?
+What happens when I outgrow Professional?
+Do you offer discounts?
+What is your refund policy?
+Extract data from your first website for free
+
+Get 50 credits a month with no credit card required. Most users capture their first dataset in minutes.
+
+Start free
+Talk to sales
+
+Not sure which plan fits? Talk to us.
+
+Talk to sales
+SOLUTIONS
+Web scraper and data extractor
+Website to spreadsheet
+Website monitoring
+Website to API
+Prebuilt robots
+Price monitoring
+Integrations
+Web scraping services
+Pricing
+RESOURCES
+Help center
+API documentation
+Trust center
+Blog
+Careers
+Contact us
+Schedule a demo
+About us
+Media kit
+Glossary
+PARTNERS
+Affiliate program
+Browse AI for startups
+LEGAL
+Privacy policy
+Terms of service
+Affiliate terms & conditions
+© 2026 Browse AI Inc.

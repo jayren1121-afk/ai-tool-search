@@ -1,0 +1,350 @@
+Products
+Research
+Solutions
+Learn
+Developers
+Pricing
+Log in
+Start free
+Contact us
+SAVE 20% WITH TEAM AND BUSINESS PLANS
+Start free. Scale with your team.
+No credit card needed to try it. Start free and scale up to fit your organization’s needs. Contact us for enterprise solutions.
+Monthly billing
+Annual billing
+Save 20%
+FLEX
+1
+For builders and teams exploring detection with no subscription fee.
+$0/mo
+Buy credits as you go - view rates
+Start free
+
+Deepfake detection for audio, image, and video
+
+Intelligence insights on detection results
+
+Enroll an identity to fight impersonation
+
+Real-time detection for meetings
+
+Check for SynthID and sign C2PA records
+
+Platform and API access
+
+1 team seat included
+TEAM
+5
+For growing teams putting detection into production.
+$280/mo
+Billed annually, save $840/yr
+Select Team
+
+Everything on Flex plan
+
+Lower usage rates on select services
+
+Intelligence for meetings included
+
+Large file uploads
+
+Batch uploads
+
+5 team seats included
+BUSINESS
+20
+For larger orgs scaling Resemble across teams and workflows.
+$800/mo
+Billed annually, save $2,400/yr
+Select Business
+
+Everything on Team plan
+
+Configurable as deployment grows
+
+Org-wide calendar integration for Meetings
+
+Meetings security notifications
+
+Single Sign-On (SSO)
+
+20 team seats included
+Looking for enterprise solutions?
+Get volume pricing, enterprise SLAs, custom model training, on-prem deployment, dedicated support, and more. Connect with our team to learn more.
+Contact us
+FULL COMPARISON
+Transparent flexible pricing
+No matter what stage you’re at, our pricing is built to grow with you.
+Monthly billing
+Annual billing
+save 20%
+FLEX
+$0/mo
+Start free
+TEAM
+$280/mo
+Select Team
+BUSINESS
+$800/mo
+Select Business
+ENTERPRISE
+Custom
+Contact us
+APIs, products, features
+
+Resemble Detect
+
+
+
+
+
+Resemble Intelligence
+
+
+
+
+
+Resemble Meetings
+
+
+
+
+
+Resemble Identity
+
+
+
+
+
+Resemble Watermarker
+
+
+
+
+
+Resemble Agent Detection
+
+
+
+
+
+Platform and API access
+
+
+
+
+Subscription fee
+None
+$280/mo paid annually
+$800/mo paid annually
+Talk to Sales
+Number of seats
+1
+5
+20
+Custom
+Large file uploads (150MB+)
+
+
+
+
+Batch uploads
+
+
+
+
+Configurable as deployment grows
+
+
+
+
+Org-wide calendar integration for Meetings
+
+
+
+
+Meetings Intelligence
+
+
+
+
+
+Meetings security notifications
+
+
+
+
+Single Sign-On (SSO)
+
+
+
+
+Volume pricing
+
+
+
+
+Enterprise SLAs
+
+
+
+
+Custom model training
+
+
+
+
+Dedicated support
+
+
+
+
+On-premises deployment
+
+
+
+
+SOC 2 Documentation
+
+
+
+
+Processing rates
+
+Resemble Detect for audio
+$0.03500 per second
+$0.01500 per second
+$0.01500 per second
+Volume pricing available
+Resemble Detect for images
+$0.03500 per image
+$0.01500 per image
+$0.01500 per image
+Volume pricing available
+Resemble Detect for video
+$0.07000 per second
+$0.03000 per second
+$0.03000 per second
+Volume pricing available
+Resemble Intelligence
+$0.02500 per second
+$0.01500 per second
+$0.01500 per second
+Volume pricing available
+Resemble Identity search
+$0.00050 per call
+$0.00050 per call
+$0.00050 per call
+Volume pricing available
+Resemble Watermarker encode
+
+$0.00050 per call
+$0.00050 per call
+$0.00050 per call
+Volume pricing available
+Resemble Watermarker decode
+
+$0.00020 per call
+$0.00020 per call
+$0.00020 per call
+Volume pricing available
+Resemble Agent Detection
+
+$1 per 1,000 sessions
+$1 per 1,000 sessions
+$1 per 1,000 sessions
+Volume pricing available
+Frequently asked questions
+How does the Flex plan work?
+The Flex Plan is pay-as-you-go model where you load credits into your account and pay based on actual usage. You're only charged for the models and features you use, with no minimum commitments.
+Do credits expire?
+No, credits on the Flex Plan never expire. Load credits when you need them and use them at your own pace.
+Is deepfake detection available on the Flex plan?
+Yes! Deepfake Detection is now available on the Flex Plan. You can access audio, video, and image detection capabilities as well as intelligence analysis features, all billed on a pay-per-use basis.
+When should I talk to Sales?
+If you're spending more than $1,000/month on the Business Plan, you could save significantly with volume pricing. Our Sales team can also help if you need enterprise features like SSO, higher API concurrency, custom SLAs, model finetuning, or on-premise deployment.
+Can I upgrade from Flex to Enterprise?
+Yes, you can upgrade at any time. Contact our Sales team and we'll help you transition smoothly.
+Know what's real — and what's a real threat.
+Join thousands of developers and enterprises detecting AI fraud and protecting their content with Resemble AI
+Contact us
+Sign up for our newsletter
+Not too often. No spam.
+Subscribe
+PRODUCT
+Product overview
+Verify
+Resemble Identity
+Resemble Watermarker
+Detect
+Resemble Detect
+Resemble Intelligence
+Resemble Meetings
+Resemble Agent Detection
+Deepfake Detection Chrome Extension
+Status
+Log in
+Data breach policy
+Data processing agreement
+SOLUTIONS
+Use cases
+Voice agents
+Dispute & claim verification
+Executive impersonation
+Media watermarking
+Contact center fraud
+Identity verification & KYC
+Industries
+Telco
+Marketplace
+Finance
+Media & entertainment
+Healthtech
+Public sector
+BUILD
+Start here
+SDKs
+Docs
+Changelog
+LEARN
+Benchmarks
+Trust center
+Deepfake incident database
+Laws & regulations
+Attack vectors
+Blog
+Research
+Case studies
+Discord
+MODELS
+Models overview
+Verify
+PerTh
+PerTh Multimodal
+Resemblyzer
+Detect
+DETECT-World
+DETECT-3B Omni
+DETECT-2B
+COMPARE
+Deepfake detection
+vs Pindrop
+vs Reality Defender
+vs Sensity
+COMPANY
+About Resemble AI
+Careers
+Ethics
+Press
+Resources
+PROGRAMS
+Builder’s Grant
+Integrations & partners
+Press Access Tier
+Deepfake detection models
+Make confident, scalable decisions — instantly.
+Privacy policy
+Terms of service
+Cookie policy
+Your privacy choices
+© 2026 Resemble AI. All rights reserved.

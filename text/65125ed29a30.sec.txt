@@ -1,0 +1,58 @@
+Start free trial
+Request a pricing quote
+---
+Explore products
+Data Engineering
+---
+Starting at $0.15 / DBU
+---
+Orchestrate data processing, machine learning and analytics pipelines; Build streaming and batch pipelines; Ingest data from a wide variety of sources with in-built connectors
+---
+Learn more
+Data Warehousing
+---
+Starting at $0.22 / DBU
+---
+Run SQL queries for BI reporting, analytics and visualization to get timely insights from data lakes. Available in both Classic and Serverless (managed) Compute.
+---
+Learn more
+Interactive workloads
+---
+Starting at $0.40 / DBU
+---
+Run interactive data science and machine learning workloads. Build and deploy custom applications with the full security and governance of the Data + AI Platform.
+---
+Learn more
+Operational Database
+---
+Starting at $0.069 / CU
+---
+Fully-managed Postgres transactional database for serving data and features to support applications built on Databricks.
+---
+Learn more
+Artificial Intelligence
+---
+Starting at $0.07 / DBU
+---
+Build production-quality GenAI or ML apps across any use case
+---
+Learn more
+Genie
+---
+Starting at $0.07 / DBUbeyond free usage
+---
+AI assistance for every team, across code, analytics, and enterprise knowledge. Ask in natural language and get trusted, governed answers from your data.
+---
+Try Databricks for free
+Get started for free
+Schedule a demo
+---
+What does the free trial include?
+---
+What happens after the free trial?
+---
+How will I be billed?
+---
+Certification
+Free Edition
+University Alliance

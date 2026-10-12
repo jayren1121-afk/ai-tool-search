@@ -1,0 +1,322 @@
+Products
+chevron_right
+Integrations
+chevron_right
+Resources
+chevron_right
+API
+Enterprise
+Pricing
+north_east
+Contact Sales
+north_east
+Login
+Sign Up
+Choose a Pricing Plan
+
+Try for Free
+
+API
+Studio
+Dub
+
+Free Trial
+
+Get access to all API endpoints. Explore, build, and test without barriers
+
+Get Started
+No credit card required
+$10 FREE for API calls
+150+ voices in 35+ languages and styles
+5 concurrent requests
+24x7 chat support
+
+Pay as you go
+
+Perfect for teams moving to production, with flexibility to scale as needs grow
+
+Buy Plan
+
+Calculate Your Requirement
+
+expand_more
+$0.01/1000 characters for Falcon
+expand_circle_down
+Buy what you need, when you need it
+Purchased credit never expires
+Upto 5 concurrent requests
+info
+Priority Support
+
+Enterprise
+
+Tailored for high-volume businesses needing custom terms, advanced support, and volume discounts
+
+Contact Sales
+Data Residency
+info
+On-Premise Deployment
+Enterprise-grade concurrency
+Dedicated Technical Support
+Professional Voice Cloning
+SLA assurance
+Master Service Agreement
+info
+
+Every Plan comes with
+
+New
+
+Text to Speech
+
+Optimized for conversational AI and real-time voice agents with time-to-first-audio under 100ms
+
+$0.01
+
+/ 1000 characters
+
+Text to Speech
+
+Studio-quality speech synthesis, ideal for multimedia applications requiring rich, expressive voiceovers
+
+$0.03
+
+/ 1000 characters
+
+Voice Changer
+
+Transform voice recordings into high-quality, lifelike AI voices
+
+$0.10
+
+/ minute
+
+Translation
+
+Localize your content at scale across major global languages
+
+$0.02
+
+/ 1000 characters
+
+Calculate your 
+Requirement
+
+Use the pricing calculator to estimate your usage by adjusting the sliders.
+
+API Endpoints
+Usage
+Cost
+Text-to-Speech
+FALCON
+
+0
+
+Characters
+
+~ 0m of speech generated
+
+$0
+Text-to-Speech
+Gen2
+
+0
+
+Characters
+
+~ 0m of speech generated
+
+$0
+Translation
+
+0
+
+Characters
+$0
+Voice Changer
+
+0m
+
+of input Audio
+$0
+Total
+$0
+Buy Plan ->
+
+Didn’t find what you’re looking for?
+
+Contact Sales
+
+Reach out for tailored solutions.
+
+Contact Support
+
+Our support team is just a message away.
+
+Help Center
+
+Visit our help centre to know more
+
+Trusted by over 300+ of the
+
+Fortune 2000
+
+Rated 4.7
+
+Reliable and Secure.
+
+Your data, Our Promise
+
+Murf is designed to meet your security and compliance requirements. Our systems are built to protect your data and ensure user security.
+
+HIPAA
+
+Compliant
+
+GDPR
+
+Compliant
+
+ISO 27001
+
+Certification
+
+SOC 2 Type II
+
+Certification
+
+Contact Sales
+
+Frequently Asked Questions
+
+How do I get started with the Murf API?
+
+expand_more
+
+What is the pricing structure for the Murf API?
+
+expand_more
+
+What is the Falcon model?
+
+expand_more
+
+How does the free credit system work?
+
+expand_more
+
+Does the API support multiple languages and voices?
+
+expand_more
+
+Can I track my API usage?
+
+expand_more
+
+Are there character limits per request?
+
+expand_more
+
+How does Murf ensure data security?
+
+expand_more
+Murf supports Text to speech in
+American English
+British English
+Australian English
+German
+French
+Italian
+Spanish
+Russian
+Portuguese
+Arabic
+Hindi
+Tamil
+Chinese
+Japanese
+Korean
+Dutch
+Danish
+Finnish
+Norwegian
+Romanian
+Turkish
+Indonesian
+Cantonese Chinese
+Brazil Portuguese
+Scottish
+Indian English
+Twitter
+Linkedin
+Instagram
+Discord
+Youtube
+Email
+
+Address
+
+341 South Main Street, Suite 500, Salt Lake City, Utah 84111
+
+Important Links
+
+Affiliates Partner Program
+Global Reseller Program
+Voice Actor Partnerships
+Blog
+Help Center
+Ethical AI
+Privacy Policy
+Terms of Service
+Security
+Contact Us
+Impressum
+Alternatives
+Cookie Preferences
+
+Products
+
+Text to speech
+AI Translation
+AI Dubbing
+Transcription
+Voice Cloning
+Voice over Video
+Voice over Google Slides
+Voice Changer
+Murf API
+Accent Generator
+Integrations
+Canva add-on
+Speech to text
+Read Aloud
+Audio to text converter
+
+How To Create
+
+E-Learning
+Advertisements
+Explainer Videos
+Presentations
+Audiobooks
+Product Demos
+Youtube Videos
+Podcasts
+Spotify Ads
+IVR Voices
+Video Games
+Animation Videos
+Corporate Videos
+Training Videos
+Documentary
+Social Media Videos
+Sales Videos
+Learning and Development Videos
+
+© 2024 Murf AI. All right reserved
+
+Privacy Policy
+Terms of Service
+CCPA
+
+Keeping your data safe

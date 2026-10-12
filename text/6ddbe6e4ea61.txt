@@ -1,0 +1,138 @@
+Get started
+Projects
+Editing templates
+Community
+Styles
+Favorites
+History
+Profile
+What's new
+Log in to generate
+Flexible plans for creators and teams
+Pay monthly
+Pay annually (save 20%)
+Plans
+API
+Free
+
+For exploring AI features at a basic level. Personal use only.
+
+$0
+Limited free credits
+Get started
+What's included:
+3 generations per style per day
+3 image uploads daily
+Up to 2 images per generation
+Basic editing tools
+Style Library and custom style creation
+All images are public
+No commercial use
+No parallel generation
+Recraft models only
+Basic
+
+For individual creators with core image generation needs.
+
+$10
+per month
+billed annually $120
+1,000 credits per month
+Upgrade to Basic
+Everything in Free, plus:
+Nano Banana, 
+Seedream, 
+GPT Image, 
+Flux, and other image generation and editing models
+Commercial rights and private generations
+Unlimited image uploads
+Advanced tools: Custom color palettes, Magic wand, Creative upscale, Artistic level, Extract prompt
+Unlimited styles usage
+Up to 20 images per generation
+Credit top-ups
+Up to 5 parallel generations
+Recommended
+Pro
+
+For professional creators who need scale and video generation.
+
+$16
+per month
+billed annually $192
+2k
+4k
+8k
+16k
+2,000 credits per month
+Upgrade to Pro
+Everything in Basic, plus:
+Video generation
+Kling, 
+Grok Imagine Video, 
+Veo, 
+Seedance, and other video generation models
+Full access to all video generation controls
+Priority generation for images
+Credit top-ups
+Up to 10 parallel generations for images
+Up to 10 parallel generations for video
+Teams
+
+For teams collaborating on shared creative workflows.
+
+$18
+per month per seat
+billed annually $211
+2k
+4k
+8k
+16k
+2,000 credits per month per seat
+Add workspace
+or Contact sales
+Everything in Pro, plus:
+Shared workspace for all team members
+Shared custom styles
+Centralized account management
+Centralized billing
+Credit top-ups
+Premium 24/7 support
+Single Sign-On (SSO)
+The prices displayed are exclusive of Value Added Tax (VAT)
+Trusted by brands and creators
+Got questions?
+What’s the difference between subscription credits and top-up credits?
+Subscription credits are included in your plan and reset at the start of each billing cycle — unused credits don't roll over.
+
+Top-up credits are purchased separately, never expire, and are used automatically once your monthly credits run out. On Teams workspaces, top-up credits are shared across all seats. Top-ups are available on Basic, Pro, and Teams plans.
+How much do operations cost?
+Credit costs vary depending on the type of action and the model used.
+
+For more details, please see the External Models pricing as well.
+What payment methods are accepted?
+Recraft accepts credit cards, debit cards, and bank transfers. Payments are processed securely via Stripe.
+Can I get a refund?
+We may offer a refund at our discretion where your most recent payment was made within the past 30 days and either you have not used any credits since that payment, or your account has used fewer than 30 credits in total since it was created. To ask us to consider one, contact support at help@recraft.ai. Any refund is issued to your original payment method, and additional details about payments and refunds can be found in our Terms of Service.
+
+We cannot issue refunds once an account has been deleted, as we no longer have access to the records needed to assess the request. Please contact us before deleting your account.
+How do I cancel my subscription?
+You can cancel at any time:
+— Click your profile in the upper right and select “Manage subscription”
+— Click “Cancel plan” and confirm
+
+Your plan remains active until the end of the current billing period. After cancellation, images created during your paid subscription remain private and under your ownership.
+Who owns the images I generate on the Free plan?
+Images generated on the Free plan are owned by Recraft. They are publicly visible in the community gallery and are not licensed for commercial use. For example, they cannot typically be listed on stock platforms, which require proof of ownership.
+Who owns the images I generate on a paid plan?
+Paid plans grant you full ownership and commercial rights for all images generated while subscribed. You may use them freely for marketing, branding, product packaging, or any other professional purpose. Images remain private and are not shown in the community gallery.
+What happens to my images if I cancel my subscription?
+Images created during a paid subscription remain private and under your ownership even after the subscription ends. They will not be made public. You keep full ownership and commercial rights to those images even after cancellation.
+Does Recraft offer an API?
+Yes. The Recraft API provides programmatic access to image and vector generation, editing, background removal, inpainting, outpainting, batch jobs, and asynchronous processing. It is designed for developers building internal tools, customer-facing features, or high-volume visual pipelines.
+Which models are available via the API?
+All models across the V2, V3, V4 and V4.1 generations are available via the API. More information can be found in API documentation.
+How is API usage billed?
+API usage is billed based on API Units consumed per request. Pricing varies by operation and output type. Full details are available in the API pricing documentation.
+Are API Units refundable?
+API Units are prepaid and are purchased separately from subscription credits. API Unit packages are non-cancellable and non-refundable except as required by applicable law, and purchased API Units do not expire. This is separate from the discretionary refund we may offer on subscription plans, described above. Full details are in our Developer Terms and API pricing documentation.
+Message support

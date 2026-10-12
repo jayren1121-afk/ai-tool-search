@@ -1,0 +1,195 @@
+Models
+Research
+API
+Open Weights
+Pricing
+Enterprise
+Resources
+Contact Sales
+Get started
+Pay as you go
+
+No subscriptions, no seat fees. Only pay for what you generate.
+
+FLUX 3 Image
+FLUX 3 Video
+FLUX Video Tools
+FLUX.2
+FLUX.1
+FLUX Image Tools
+MODEL
+768 × 768
+1K
+1.5K
+2K
+4K
+DESCRIPTION
+FLUX 3 Image
+$0.041/img
+$0.048/img
+$0.07/img
+$0.10/img
+$0.607/img
+Text to image and image to image
+*
+Pricing is per image generated. Charges are based on the resolution tier selected in the request, regardless of the resolution at which the image is processed internally, and apply equally to text-to-image and image-to-image generations.
+*
+Reference images, whether provided by the user or retrieved by the model, and prompts are included at no extra charge. The per-image rate does not vary with the number of reference images provided, up to the maximum set out in the documentation.
+*
+The resolution tier is selected in the request; all supported aspect ratios within a tier are charged the same. Delivered dimensions may differ slightly from the nominal size (dimensions are rounded to multiples of 16). Supported resolutions, aspect ratios and reference image limits are set out in the documentation.
+*
+Reference images up to 16 MP are accepted (larger ones are rejected); images above 4 MP are downscaled to 4 MP before processing. Rejected requests, failed generations and outputs withheld by moderation are not charged.
+*
+Tiers denote the approximate pixel count of the output: 768²≈0.6 MP, 1K≈1 MP (1024×1024-equivalent), 1.5K≈2 MP, 2K≈4 MP, 4K≈16 MP.
+Pricing Calculator
+Image
+Video
+Model
+SELECT AN OPTION
+FLUX 3 Image
+FLUX.2 [flex]
+FLUX.2 [pro]
+FLUX.2 [max]
+FLUX.2 [klein] 4B
+FLUX.2 [klein] 9B
+FLUX Outpainting
+FLUX Eraser
+FLUX VTO
+Resolution
+768 × 768
+1K
+1.5K
+2K
+4K
+Number of Images*
+Price Calculation
+Rate:
+$0.048 / image
+Images:
+1
+Total Price:
+$0.048
+ENTERPRISE
+Building at scale?
+
+Custom pricing, volume discounts, SLA guarantees, and dedicated support for high-throughput workloads.
+
+Contact Sales
+View Enterprise
+Open Weights Licensing
+
+Deploy and run FLUX models on your own infrastructure.
+
+Full details
+Builder
+
+For developers and early-stage teams.
+
+FLUX.2 [klein] models
+10K images / month
+1 domain
+10 licensed users
+Fine-tuning & LoRA rights
+Purchase
+Platform
+
+For product teams shipping at volume.
+
+FLUX.2 [klein] 9B + FLUX.2 [dev]
+100K images / month
+1 domain
+10 licensed users
+Fine-tuning & LoRA rights
+Purchase
+Professional
+
+For agencies and service providers.
+
+FLUX.2 [dev]
+100K images / month
+Up to 3 domains
+10 licensed users
+Fine-tuning & LoRA rights
+Contact Sales
+Enterprise
+
+The full picture.
+
+All models + new releases
+Custom volume
+Custom domains & users
+Permissive commercial use
+API + Weights combo pricing
+Contact Sales
+Synthetic Data
+
+For AI training datasets.
+
+FLUX.2 models
+Rights to use outputs as training data
+No domain restrictions
+Custom volume
+Fine-tuning & LoRA rights
+Contact Sales
+What hasn’t been can now be.
+Try Flux
+Talk to Sales
+
+Models
+
+FLUX 3 IMAGE
+FLUX 3 VIDEO
+FLUX 3 ACTION
+FLUX TOOLS
+
+API
+
+DOCUMENTATION
+DASHBOARD
+STATUS
+
+Open Weights
+
+LICENSING
+HUGGING FACE
+GITHUB
+
+Resources
+
+DOCUMENTATION
+HELP DESK
+BLOG
+CREATOR PROGRAM
+BRAND
+GITHUB
+
+Company
+
+ABOUT US
+CAREERS
+TRUST AND SECURITY
+CONTACT US
+ ISO 27001:2022
+ SOC 2 TYPE II
+
+Enterprise
+
+LEARN MORE
+CONTACT SALES
+
+Legal
+
+IMPRINT
+TERMS OF SERVICE
+USAGE POLICY
+PRIVACY POLICY
+INTELLECTUAL PROPERTY POLICY
+DEVELOPER TERMS OF SERVICE
+FLUX API SERVICE TERMS
+SELF-HOSTED TERMS OF SERVICE
+NON-COMMERCIAL LICENSE TERMS
+RESPONSIBLE AI DEVELOPMENT POLICY
+
+ALL RIGHTS RESERVED.
+
+©2026 BLACK FOREST LABS.

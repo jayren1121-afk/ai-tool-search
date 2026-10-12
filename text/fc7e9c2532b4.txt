@@ -1,0 +1,403 @@
+DeepL uses cookies, including marketing cookies to personalize advertisements displayed to you. For more details, please read our Privacy Policy.
+
+Close
+DeepL for AI agents
+DeepL Translation Flow: New AI-powered workflows for key use cases and integrations
+The ROI of AI-native translation
+Building for Europe’s sovereignty needs
+What MCP changes about enterprise software
+DeepL is now available in Microsoft Copilot, ChatGPT and Claude via MCP
+The real-time audio layer ready to transform voice translation
+How we’re building Translation Quality Evaluation for DeepL
+From high-quality text translation to a real-time voice platform
+Products
+Solutions
+Developers
+Pricing
+Apps
+New
+Resources
+Log in
+Start free trial
+Menu
+Find your perfect plan
+Translator
+API
+Voice
+Annual
+Monthly
+Save 16 % with annual billing
+United States (USD $)
+
+Individual
+
+Professional-grade translations for single users
+
+$8.74
+
+per month, billed annually
+Try for free
+Free for 30 days. Cancel anytime.
+What’s included:
+No data training
+300,000 characters per month
+3 file translations per month
+1 glossary
+1 saved translation
+Full-page translation
+Available add-on:
+Write Pro
+30 min of DeepL Voice
+Included per user/month
+See more features
+Most popular
+
+Team
+
+Increased translation productivity and control for teams
+
+$28.74
+
+per user/month, billed annually
+Try for free
+Free for 30 days. Cancel anytime.
+Everything in Individual, plus:
+1,000,000 characters per user/month
+20 file translations per month
+Bulk file translation
+5 shared style rule lists
+5 glossaries
+10 saved translations
+Team administration
+Analytics and reporting
+Single sign-on (SSO)
+Available add-on:
+Write Pro
+30 min of DeepL Voice
+Included per user/month
+See more features
+
+Business
+
+Multilingual communication management for businesses
+
+$57.49
+
+per user/month, billed annually
+Buy now
+Everything in Team, plus:
+Unlimited characters 1
+100 file translations per month
+20 shared style rule lists
+Unlimited glossaries 1
+Translation memory 1
+Unlimited saved translations 1
+User provisioning (SCIM)
+Domain capture
+99.0% availability
+Write Pro
+Available add-on:
+Translation Flow
+New
+30 min of DeepL Voice
+Included per user/month
+See more features
+
+Enterprise
+
+Scalability, control, and security for organizations
+
+Custom pricing
+
+Bring the power of DeepL to your entire organization
+Contact Sales
+Tailor to your enterprise needs:
+Customize your character and file limits to fit your exact business needs
+Unlimited shared style rule lists 1
+Unlimited glossaries 1
+Translation memory 1
+Bring your own key
+99.9% availability
+Dedicated account team
+Premium support
+Available add-on:
+Translation Flow
+New
+See more features
+1 A fair usage policy applies
+
+Get more out of DeepL with an add-on
+Annual
+Write Pro add-on
+$7.49 per user/month (billed annually)
+
+Transform the way you communicate with DeepL Write Pro, your AI-powered writing assistant. Write clearly and error-free, adapt messages to your audience, and easily refine your text—all within the same tool you use to translate. Learn more
+
+Add to Team
+Add to Individual
+See how our plans compare
+ 	
+Free version
+	
+Individual
+Try for free
+Free for 30 days. Cancel anytime.
+	
+Team
+Try for free
+Free for 30 days. Cancel anytime.
+	
+Business
+Buy now
+	
+Enterprise
+Contact Sales
+Text translation
+Characters (per user/month)	50,000	300,000	1,000,000	Unlimited 1	Unlimited 1
+
+Formal/informal tone
+	
+	
+	
+	
+	
+
+Saved translations (per user)	1	1	10	Unlimited 1	Unlimited 1
+
+Write Pro
+	
+	$ (add-on)	$ (add-on)	
+	
+
+
+Full-page translation
+	
+	
+	
+	
+	
+File translation
+File translations (per user/month)
+	1	3	20	100	Custom files/month
+
+Max. file size
+	Up to 5 MB	Up to 30 MB	Up to 30 MB	Up to 100 MB	Up to 100 MB
+Bulk file translation	
+	
+	
+	
+	
+Customization
+Glossaries
+	1	1	5	Unlimited 1	Unlimited 1
+
+Glossary entries per language pair
+	5	5	1,000	Unlimited	Unlimited
+
+Glossary generator
+	
+	
+	
+	
+	
+
+Glossary upload via CSV file	
+	
+	
+	
+	
+
+
+Shared glossaries
+	
+	
+	
+	
+	
+
+
+Shared style rule lists
+	
+	
+	5	20	Unlimited 1
+
+Translation memory 1
+	
+	
+	
+	
+	
+Security and compliance
+No data training
+	
+	
+	
+	
+	
+
+
+Domain capture
+	
+	
+	
+	
+	
+
+
+User provisioning (SCIM)
+	
+	
+	
+	
+	
+
+
+Bring your own key
+	
+	
+	
+	
+	
+
+
+SOC 2 Type 2 compliance
+	
+	
+	
+	
+	
+
+
+ISO 27001 certified
+	
+	
+	
+	
+	
+
+
+TLS encryption
+	
+	
+	
+	
+	
+Admin and control
+Team administration
+	
+	
+	For 2+ users	For 2+ users	
+
+
+Single sign-on (SSO)
+	
+	
+	For 50+ users	For 50+ users	
+
+
+Analytics and reporting
+	
+	
+	
+	
+	
+1 A fair usage policy applies
+
+Trusted by over 200,000 businesses globally
+Frequently asked questions
+Trial and purchases
+How does the free trial work?
+If I have a DeepL Pro subscription, can I get a trial for the Write Pro add-on?
+What payment methods are accepted?
+Can I update my payment method at a later date?
+Do you offer discounts for large enterprises?
+Where can I find my invoices?
+Changes to your plan
+Can I change my plan after purchase?
+Can I change the number of users during my billing period?
+How do I cancel my DeepL subscription?
+Using DeepL
+How does DeepL secure my data as a Pro subscriber?
+How are file translations shared among users in a team?
+Can I use DeepL Translator and DeepL Write directly in my browser?
+Still have a question? Find answers in our Help Center
+Ready to try DeepL Pro?
+Try for free
+English
+Products
+Platform overview
+Free translator
+DeepL API
+DeepL Write
+DeepL Voice
+DeepL Voice for Meetings
+DeepL Voice for Conversations
+Apps & Integrations
+DeepL Pro
+Why DeepL
+Data Security
+Quality
+Customization Hub
+Accessibility
+Features
+Document Translation
+Translate PDF documents
+Translate Word documents
+Translate PPT documents
+Translate Excel files
+Translate images
+Translation glossary
+SSO
+Alternatives
+See all our features
+Solutions
+DeepL for Enterprise
+Legal & Professional Services
+Retail & eCommerce
+Manufacturing
+Government
+Financial Services
+Pharma & Life science
+Healthcare
+ISV & technology
+Download
+DeepL for Android
+DeepL for iPhone
+DeepL for Windows
+DeepL Chrome extension
+DeepL for Microsoft Outlook
+DeepL for Microsoft Word
+DeepL for Microsoft Powerpoint
+DeepL for Google Workspace
+DeepL for Mac
+DeepL Firefox extension
+DeepL Edge extension
+DeepL for iPad
+DeepL Integrations
+Resources
+Help Center
+Blog
+Customer Research Panel
+API documentation
+Community
+Customer Stories
+Events & Webinars
+Trust Center
+DeepL Academy
+Reports & guides
+Borderless business report
+DeepL Spring Event Hub
+Privacy Policy
+Terms & Conditions
+Status
+DeepL AI Labs
+Company
+About Us
+Sustainability
+Contact Sales
+Become a Partner
+Careers
+Press
+Publisher
+Sitemap
+There are 1 new updates to our product. Press g, n on your keyboard to view them.

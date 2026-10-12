@@ -1,0 +1,36 @@
+For people: no API access.
+Billed monthly, cancel anytime.
+---
+$9.99 / month
+---
+Most popular
+---
+For software: has API access.
+Billed monthly, cancel anytime.
+Roll over up to 5× monthly credits.
+---
+Credits/Month	Price/Month	Price/Credit
+50	$9.99/month	$0.200
+100	$18.99/month	$0.190
+200	$34.99/month	$0.175
+Show more plans
+SUBSCRIBE
+Which plan should I choose?
+---
+We also let you download the result from any of our example images for free so that you can try them out with your software before you buy.
+---
+Do unused API credits roll over?
+---
+Can I integrate with the API for free?
+---
+Yes! It is free to integrate with and test out the API, no subscription required. Details
+---
+Previews are PNG images four times larger than your input, come with a discreet watermark, and cost 0.200 credits each.
+---
+What happens when I run out of API credits?
+---
+When you run out of credits, your API requests will result in 402 Payment Required errors.
+---
+Remaining credits are lost upon cancellation.
+---
+Subscriptions continue running and are automatically billed until cancelled.

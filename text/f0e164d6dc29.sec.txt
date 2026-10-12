@@ -1,0 +1,137 @@
+Pricing
+Contact sales
+Sign up
+Start searching for free
+---
+Start for free with over $120 in credits per year
+---
+Get started
+---
+STARTER
+---
+Free
+---
+$10 credits every month plus a $10 onboarding bonus. No payment method required
+---
+Start building for free
+---
+Includes:
+---
+Free $10 credits per month
+MCP server access
+Claude Connector
+ChatGPT plugin
+---
+SOC 2 Type II and HIPAA
+Monthly invoicing
+SSO and SCIM for Exa Dashboard
+---
+Premium Exa Connect data providers
+Bring your own data provider
+Products
+Search
+From $4
+/1k requests
+---
+Web search tool calls for agents
+---
+Agent
+$0.012–$1.00
+/run
+---
+Asynchronous deep research runs
+---
+Access leading data providers
+---
+Get started
+Contents
+$1
+/1k pages per content type
+---
+Full page contents for LLM context
+---
+"founded"
+:
+}
+Deep Search
+$12–15
+/1k requests
+---
+Multi-step agent workflows
+---
+Daily at 9:00AM
+Weekly, Mondays
+Daily at 6:00PM
+Monitors
+$15
+/1k requests
+---
+Identify fresh events on the web
+---
+Changelog Lookup
+---
+Exa Search
+---
+From $4
+/1k requests
+Try Search for Free
+---
+Endpoint pricing
+Endpoint	Instant Search	Fast / Auto Search	Deep Search	Deep-Reasoning Search	Contents	Monitors	Answer
+Base price, with up to 10 results
+(per 1k requests)
+$4	$7	$12	$15	$1
+(per 1k pages)
+$15	$5
+Cost per additional result above 10
+(per 1k requests)
+$1	$1	$1	$1	-	$1	-
+AI page summaries
+(per 1k pages)
+$1	$1	$1	$1	$1	$1	-
+---
+Agent pricing
+---
+USAGE COMPONENTS
+---
+Agent Compute Units
+$0.10 / ACU
+Search tool calls
+$0.005 / search
+Email contact enrichment
+$0.02 / email
+Phone contact enrichment
+$0.07 / phone number
+---
+EFFORT LEVELS*
+---
+Minimal
+$0.012 / request
+Low
+$0.025 / request
+Medium
+$0.10 / request
+High
+$0.50 / request
+X-high
+$1.00 / request
+Ultra
+usage-based
+---
+*Contact enrichment for emails and phone numbers is billed separately.
+---
+Pull live data from specialized third-party providers through a single Exa integration. Billed on top of Agent usage.
+---
+Startup and Education Grants
+---
+Build comprehensive web search into your startup or education project—for free.
+---
+Up to $1000 worth of free credits
+---
+Build, launch, and test search
+---
+Try API for free
+EXA LABS INC.
+---
+Contact Sales
+Twitter

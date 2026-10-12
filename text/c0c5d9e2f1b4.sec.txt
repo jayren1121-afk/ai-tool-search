@@ -1,0 +1,72 @@
+Book a Demo
+Start free, scale as you grow
+Simple, transparent pricing
+---
+Plans
+Free
+---
+5,000 credits
+---
+$0/month
+Start Free
+1 concurrent run
+Webhooks
+---
+Hobby
+---
+30,000 credits/month
+---
+$29/month
+Get Hobby
+10 concurrent runs
+Basic CAPTCHA solver
+---
+Pro
+---
+150,000 credits/month
+---
+$149/month
+Get Pro
+25 concurrent runs
+Advanced CAPTCHA solver
+Team workspaces
+2FA / TOTP support
+Skyvern SMS number — $10/month per number
+1Password integration
+Residential proxy
+City-level geo-targeting
+---
+Custom credits
+---
+Custom/month
+Contact Us
+---
+Free — Evaluate and prototype
+Hobby — Side projects and small pipelines
+Pro — Production-grade with team features
+Most developers start on Free and move to Pro within 2 weeks
+Enterprise & Ops Leaders
+---
+Full feature breakdown across all plans.
+---
+Feature	Free	Hobby	Pro	Enterprise
+USAGE
+Price	$0/mo	$29/mo	$149/mo	Custom
+Included credits	5,000	30,000/month	150,000/month	Custom credits
+Estimated actions	~170	~1,200/month	~6,200/month	Custom
+Concurrent runs	1	10	25	100
+---
+2FA / TOTP support	—	—
+---
+Skyvern SMS numbers	—	—	$10/month per number	Included/custom
+1Password integration	—	—
+---
+What counts as a run or credit?
+Can I try Skyvern for free?
+What's included in the Enterprise plan?
+---
+Start free with 5,000 credits. No credit card required. Upgrade when you're ready for production.
+---
+Start Free
+Contact Sales
+Skyvern

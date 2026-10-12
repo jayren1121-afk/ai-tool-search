@@ -1,0 +1,798 @@
+Skip to main content
+Platform
+Products
+Recording
+4K video and audio recorder.
+Editing
+AI, text-based video editor.
+Live Streaming
+For livestreams in full HD.
+Webinars
+Host, record, and repurpose.
+Hosting
+Podcast publishing and analytics.
+Newsletters
+Create and send newsletters.
+Features
+Magic Clips
+AI Twin
+Transcribing
+Captions
+Magic Audio
+AI Show Notes
+AI Co-Creator
+AI Translation
+Social Scheduling
+Video Enhancement
+Apps
+Mac App
+Mobile Apps
+MCP
+Explore AI Tools
+Solutions
+Use cases
+Podcasts
+Video testimonials
+Webinars
+Video marketing
+In-person Recording
+Learning & Development
+Async Recording
+Virtual conferences
+Internal communications
+Tutorial videos
+For
+Podcasters
+Producers
+Marketers
+Resources
+Learn
+Riverside University
+Blog
+What’s New
+Free tools
+Webinars
+Masterclass
+Community
+Case studies
+Creators Newsletter
+Community hub
+Recorded on Riverside
+Support
+Help Center
+Contact support
+Blog
+University
+For Business
+Pricing
+Contact Sales
+Login
+Start for Free
+There’s a plan for every story.
+
+Start yours with a free trial.
+
+Monthly
+Yearly
+Up to 20% off Yearly plans
+Not sure which plan you need? Let us help you
+Pro
+
+Create polished, high-quality content
+
+$35
+$29
+
+/month
+
+Start 14-day free trial
+Pro includes:
+Studio-quality video & sound
+
+Up to 4K video
+
+48kHz audio
+
+No watermark
+
+Teleprompter for hostⓘ
+
+In-person multi-cam recording ⓘ
+
+AI & Editing
+
+Unlimited text-based editingⓘ
+
+AI editing & repurposing agentⓘ
+
+AI B-roll, eye contact, remove silences & filler words
+
+Unlimited transcriptions
+
+Magic clips & show notesⓘ
+
+Audio enhancement
+
+Hosting & publishing
+
+Podcast hosting & analyticsⓘ
+
+Publish to YouTube, Spotify, Apple, Instagram, LinkedIn & moreⓘ
+
+1 studioⓘ
+
+15 hrs of separate track downloadsⓘ
+
+Grow
+
+Go live, engage and grow your audience
+
+$45
+$36
+
+/month
+
+Start 14-day free trial
+Everything in Pro, plus:
+Audience Growth
+
+Social media schedulingⓘ
+
+Newsletterⓘ
+
+Creator websiteⓘ
+
+Podcast hosting for 2 shows
+
+Publish video to Apple Podcasts
+
+Video hostingⓘ
+
+AI thumbnailsⓘ
+
+Riverside MCP
+
+Custom Studio links
+
+Live Streaming
+
+Full HD 1080p live streaming
+
+Multistream to unlimited destinations (YouTube, Facebook, LinkedIn, X, Twitch, Instagram, TikTok)
+
+Custom RTMP to stream to custom platformsⓘ
+
+Multi-aspect ratio streaming
+
+Omnichat
+
+Save custom scenes, layouts and overlays in the studioⓘ
+
+Backstage speaker management (hide/show participants)ⓘ
+
+2 studiosⓘ
+
+20 hrs of separate track downloadsⓘ
+
+Best Value
+Webinar
+
+Plan, host & repurpose webinars
+
+$99
+$79
+
+/month
+
+Start 14-day free trial
+Everything in Grow, plus:
+Webinar tools
+
+Host webinars with up to 100 registrants
+
+Pre-record & stream the session
+as live
+
+Recurring webinarsⓘ
+
+No time limits
+
+Unlimited sessions
+
+Lead capture toolⓘ
+
+Custom branded registration formⓘ
+
+Embed webinars on your siteⓘ
+
+Engagement
+
+Branded email reminders & follow-ups
+
+Q&A, live call-ins, polls & reactions
+
+Webinar analytics
+
+HubSpot integration to sync leads in your CRM
+
+3 studiosⓘ
+
+25 hrs of separate track downloadsⓘ
+
+Business
+
+Produce at scale with full control
+
+Contact Sales
+for pricing and more info
+Book a demo
+Everything in Webinar, plus:
+
+Unlimited studiosⓘ
+
+Unlimited separate track downloadsⓘ
+
+Scale
+
+Up to 10,000 webinar registrants
+
+Unlimited video storage
+
+Custom brandingⓘ
+
+Async recordingⓘ
+
+Simultaneous recordingⓘ
+
+Unlimited video & podcast hosting
+
+Private podcast hosting
+
+Control & collaboration
+
+Producer modeⓘ
+
+Control guest input & outputⓘ
+
+Teleprompter for host & guestsⓘ
+
+Presentation recorderⓘ
+
+Custom frame rates: 24, 25, 29.97 FPS
+
+Production workspaces & custom rolesⓘ
+
+Collaborative editing
+
+Non-destructive timeline exportsⓘ
+
+Producer on demandⓘ
+
+Video Enhancement
+
+Salesforce & Marketo integrations
+
+API access
+
+SSO (Okta, Azure)
+
+SOC2 & ISO27001 compliance
+
+Dedicated CSM
+
+24/7 live priority chat support
+
+Compare
+plans
+Pro
+$35$29/mo
+Start free trial
+Grow
+$45$36/mo
+Start free trial
+Webinar
+$99$79/mo
+Start free trial
+Business
+Custom
+Book a demo
+Recording
+Studios
+1 studio
+2 studios
+3 studios
+Unlimited
+Separate audio & video tracks downloads
+15 hours/month
+20 hours/month
+25 hours/month
+Unlimited
+Recording hours
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Local recording
+Video quality - desktop
+Up to 4K
+Up to 4K
+Up to 4K
+Up to 4K
+Video quality - mobile apps
+Up to 1080P
+Up to 1080P
+Up to 1080P
+Up to 4K
+Audio quality
+44.1 & 48 kHz
+44.1 & 48 kHz
+44.1 & 48 kHz
+44.1 & 48 kHz
+Available frame rates
+24 FPS
+24 FPS
+24 FPS
+24, 25, 29.97 FPS
+People recorded in a single session
+10
+10
+10
+10
+In-person multi-cam recording
+Progressive uploading
+Automatic cloud backups
+Virtual backgrounds
+Standard, Blur, Custom
+Standard, Blur, Custom
+Standard, Blur, Custom
+Standard, Blur, Custom
+Teleprompter
+For host
+For host
+For host
+For host & guest
+Producer mode
+-
+-
+-
+Remote change input
+and outputs of guests
+-
+-
+-
+Camera controls
+-
+-
+-
+Async Recording
+-
+-
+-
+Presentation recorder
+-
+-
+-
+Audience mode
+Screen-share recording
+Noise reduction
+Upload control
+Simultaneous recordings
+-
+-
+-
+Customizable bit rate
+-
+-
+-
+Prioritized processing
+-
+-
+-
+AI & Editing
+Hosting & Publishing
+Grow Your Audience
+Live Streaming
+Webinars
+Collaboration
+Apps
+Support & Success
+Security & Data Governance
+Compare plans
+Frequently Asked Questions
+What is a studio?
+
+A studio is your dedicated space for a show on Riverside. Each studio has its own recordings, podcast hosting, analytics, and website - so if you run two podcasts, two YouTube channels, or work with two clients, you'd want two separate studios to keep everything organized and independently trackable. Pro gives you 1 studio, Grow gives you 2, Webinar gives you 3, and Business gives you unlimited.
+
+What happens if I go over my monthly separate track download hours?
+
+Separate track downloads (15 hrs on Pro, 20 on Grow, 25 on Webinar) refer to downloading individual audio/video tracks per participant - the studio-quality files. Recording itself is unlimited. If you hit the cap, you can still access your content but won't be able to download new separate tracks until the next billing cycle or if you upgrade.
+
+Can I add more editors without upgrading my plan?
+
+On Pro, Grow, and Webinar, an additional editor seat is available as an add-on. Business is the only plan with collaborative editing and custom roles built in. If your team needs multiple people editing simultaneously, Business is the right fit.
+
+What are AI Credits and which features use them?
+
+Al Credits power select features like Al Translation, Al B-Roll, and Animated Clips. Pro users start with 2000 free credits; Business starts with 12000. Once credits are used, you can purchase more. Core Al features like Magic Clips, Magic Audio, and the Al Co-Creator don't require credits.
+
+Do I need the Webinar plan just to run a webinar, or can I get by with Grow?
+
+You need at least the Webinar plan. Grow includes live streaming and multistreaming, but audience registration, Q&A, polls, automated email reminders, HubSpot integration, and webinar analytics are only available on Webinar - making it the better fit for structured, lead-gen webinars.
+
+Should I pay monthly or annually?
+
+Annual billing saves you up to 20% - Pro drops from $29 to $24/month, Grow from $39 to $34, and Webinar from $99 to $79. If you're using Riverside consistently, annual is the better deal. Monthly makes sense if you're seasonal, testing the platform, or have a project-based use case where you only need it for a few months.
+
+When does it make sense to talk to Sales about Business?
+
+Business becomes necessary when you need more than 100 webinar registrants, multiple producers managing a show, SSO, SOC2/ISO27001 compliance, Salesforce integration, or a dedicated CSM. It's built for media teams and B2B companies running production at scale - not just heavy individual creators.
+
+What if I need help choosing the right Riverside plan?
+
+You can take our 1-minute quiz to find the right Riverside plan for you.
+
+What is the Riverside MCP?
+
+The Riverside MCP (Model Context Protocol) is a connection between Riverside and AI assistants like Claude, ChatGPT, and Cursor. Once connected, your AI can work directly on your Riverside content: search your transcripts, make edits, cut clips, and The Riverside MCP (Model Context Protocol) is a connection between Riverside and AI assistants like Claude, ChatGPT, and Cursor. Once connected, your AI can work directly on your Riverside content: search your transcripts, make edits, cut clips, and publish to social media.publish to social media.
+
+Don’t just take our word for it...
+
+Visit Vegas Places
+
+@PlacesVegas
+
+I love you guys! I can probably get rid of my other editing subscriptions now. Thank you for evolving to a one-stop shop for creators and podcasters!
+
+4:41 PM · Feb 6, 2025
+Hirad Arshadi
+
+@hiradary
+
+My god, @RiversidedotFM is legit the best product I've got to use this year. It's well worth the money. It saves 10-15 hours per episode, for only $20 a month. Well done team!
+
+12:11 AM · Nov 28, 2024
+Brie E Anderson
+
+@brie_e_anderson
+
+
+WOW! Just finished session number one of GA4SEO using @RiversidedotFM and... I... am.... in....LOVE!!!! I did not realize that I was going to get a full transcription of my entire hour-long webinar 😍 Uh and this AI clip generator 🤯
+
+9:23 PM · Jan 16, 2024
+Mark LaCour
+
+@Mark_LaCour
+
+Wow. Just downloaded my video from @RiversidedotFM and it's a clean 1080p! When did that happen? And what type of voodoo was involved to hand me remote video of this high-quality?
+
+9:41 PM · Jan 20, 2024
+Zlatko Bijelic
+
+@Zbijelic
+
+There is no better feeling when you're paying for software, and the updates just keep getting better and better. You get excited to read the email updates. Very rare, but when it hits... it hits right. Looking at your @RiversidedotFM. Y'all are just leveling up.
+
+9:13 PM · Jan 22, 2024
+Marc Aflalo
+
+@marcaflalo
+
+I recorded a remote interview with someone across the world, edited it like a pro using Riverside transcript editor, and published it—all in the same day! 🚀 https://buff.ly/4hemb0Q
+
+3:00 AM · Jan 28, 2025
+mytogblog
+
+@mytogblog
+
+The smart-scene editor is an amazing time saver. 😀
+
+1:38 AM · Feb 4, 2025
+John Nunemaker
+
+@jnunemaker
+
+Podcast production is the hardest part of podcasting. We've collected some AI tools that help make it easier. One of my favs linked is @RiversidedotFM. Love using it for editing, transcriptions and clips.
+
+3:32 PM · Jan 27, 2025
+Andy
+
+@ACI62593
+
+Riverside FM is really solid. Its like $300  a year but it makes everything super easy.
+
+3:54 PM · Feb 5, 2025
+Visit Vegas Places
+
+@PlacesVegas
+
+I love you guys! I can probably get rid of my other editing subscriptions now. Thank you for evolving to a one-stop shop for creators and podcasters!
+
+4:41 PM · Feb 6, 2025
+Hirad Arshadi
+
+@hiradary
+
+My god, @RiversidedotFM is legit the best product I've got to use this year. It's well worth the money. It saves 10-15 hours per episode, for only $20 a month. Well done team!
+
+12:11 AM · Nov 28, 2024
+Brie E Anderson
+
+@brie_e_anderson
+
+
+WOW! Just finished session number one of GA4SEO using @RiversidedotFM and... I... am.... in....LOVE!!!! I did not realize that I was going to get a full transcription of my entire hour-long webinar 😍 Uh and this AI clip generator 🤯
+
+9:23 PM · Jan 16, 2024
+Mark LaCour
+
+@Mark_LaCour
+
+Wow. Just downloaded my video from @RiversidedotFM and it's a clean 1080p! When did that happen? And what type of voodoo was involved to hand me remote video of this high-quality?
+
+9:41 PM · Jan 20, 2024
+Zlatko Bijelic
+
+@Zbijelic
+
+There is no better feeling when you're paying for software, and the updates just keep getting better and better. You get excited to read the email updates. Very rare, but when it hits... it hits right. Looking at your @RiversidedotFM. Y'all are just leveling up.
+
+9:13 PM · Jan 22, 2024
+Marc Aflalo
+
+@marcaflalo
+
+I recorded a remote interview with someone across the world, edited it like a pro using Riverside transcript editor, and published it—all in the same day! 🚀 https://buff.ly/4hemb0Q
+
+3:00 AM · Jan 28, 2025
+mytogblog
+
+@mytogblog
+
+The smart-scene editor is an amazing time saver. 😀
+
+1:38 AM · Feb 4, 2025
+John Nunemaker
+
+@jnunemaker
+
+Podcast production is the hardest part of podcasting. We've collected some AI tools that help make it easier. One of my favs linked is @RiversidedotFM. Love using it for editing, transcriptions and clips.
+
+3:32 PM · Jan 27, 2025
+Andy
+
+@ACI62593
+
+Riverside FM is really solid. Its like $300  a year but it makes everything super easy.
+
+3:54 PM · Feb 5, 2025
+George B.
+
+@aperfectcircle0
+
+Love it. This will be saving my client's (and therefore, me) loads of time in the near future.
+
+10:07 PM · Jan 13, 2025
+sonya serendipitously
+
+@sonyasupposedly
+
+Trying out @RiversidedotFM for work and the automagic AI editing tools are amazing.
+
+10:27 PM · Jan 16, 2025
+DigiToolsAdvice
+
+@DNewhood
+
+You should check out Riverside! It’s super straightforward, great for recording high-quality audio and video, and perfect for remote collaboration. Plus, it works seamlessly on Mac. Definitely worth a try.
+
+5:38 AM · Jan 18, 2025
+Lautaro
+
+@BitConductor_
+
+First every Personize video made with @RiversidedotFM. Here's to lots of improvement, but the Magic AI editing tools within Riverside are insane!!!
+
+2:23 AM · Jan 31, 2025
+Isa Mutlib
+
+@isamutlib
+
+
+This is epic. So my conversation with @QRTalentGroup's AI for the average joe podcast, i've downloaded it and uploaded to @RiversidedotFM. Within seconds it has created a script and the AI splits the videos up. The future is now!
+
+9:35 AM · Jan 23, 2024
+Taylor Siebert
+
+@taylorsiebert
+
+Decided to move forward with @RiversidedotFM! Did a test recording for an upcoming @Striv_Education video and the editor and transcript tool are so amazing!
+
+10:19 PM · Jan 3, 2024
+Mark LaCour
+
+@Mark_LaCour
+
+Wow. Just downloaded my video from @RiversidedotFM and it's a clean 1080p! When did that happen? And what type of voodoo was involved to hand me remote video of this high-quality?
+
+9:41 PM · Jan 20, 2024
+Theo Jordan
+
+@Theo_TJ_Jordan
+
+
+Riverside is such impressive software. I'm opening up my talk with Chuck Pezeshki last night and a whole host of AI toys await me at the studio page. Chopped clips with titles, transcripts, summaries and notes. Really cool! What an amazing time to be alive.
+
+1:52 PM · Dec 31, 2023
+Zlatko Bijelic
+
+@Zbijelic
+
+PS. Thanks @RiversidedotFM for making the editing process so F***ing easy.
+
+11:59 PM · May 29, 2024
+George B.
+
+@aperfectcircle0
+
+Love it. This will be saving my client's (and therefore, me) loads of time in the near future.
+
+10:07 PM · Jan 13, 2025
+sonya serendipitously
+
+@sonyasupposedly
+
+Trying out @RiversidedotFM for work and the automagic AI editing tools are amazing.
+
+10:27 PM · Jan 16, 2025
+DigiToolsAdvice
+
+@DNewhood
+
+You should check out Riverside! It’s super straightforward, great for recording high-quality audio and video, and perfect for remote collaboration. Plus, it works seamlessly on Mac. Definitely worth a try.
+
+5:38 AM · Jan 18, 2025
+Lautaro
+
+@BitConductor_
+
+First every Personize video made with @RiversidedotFM. Here's to lots of improvement, but the Magic AI editing tools within Riverside are insane!!!
+
+2:23 AM · Jan 31, 2025
+Isa Mutlib
+
+@isamutlib
+
+
+This is epic. So my conversation with @QRTalentGroup's AI for the average joe podcast, i've downloaded it and uploaded to @RiversidedotFM. Within seconds it has created a script and the AI splits the videos up. The future is now!
+
+9:35 AM · Jan 23, 2024
+Taylor Siebert
+
+@taylorsiebert
+
+Decided to move forward with @RiversidedotFM! Did a test recording for an upcoming @Striv_Education video and the editor and transcript tool are so amazing!
+
+10:19 PM · Jan 3, 2024
+Mark LaCour
+
+@Mark_LaCour
+
+Wow. Just downloaded my video from @RiversidedotFM and it's a clean 1080p! When did that happen? And what type of voodoo was involved to hand me remote video of this high-quality?
+
+9:41 PM · Jan 20, 2024
+Theo Jordan
+
+@Theo_TJ_Jordan
+
+
+Riverside is such impressive software. I'm opening up my talk with Chuck Pezeshki last night and a whole host of AI toys await me at the studio page. Chopped clips with titles, transcripts, summaries and notes. Really cool! What an amazing time to be alive.
+
+1:52 PM · Dec 31, 2023
+Zlatko Bijelic
+
+@Zbijelic
+
+PS. Thanks @RiversidedotFM for making the editing process so F***ing easy.
+
+11:59 PM · May 29, 2024
+Easily Record High-Quality
+Audio & Video Remotely
+Get started
+Company
+About Us
+Careers
+Partners
+Affiliate Program
+Creator Partnerships
+Platform
+Why Riverside
+Pricing
+For Business
+Mac App
+Mobile Apps
+FAQ
+Support
+Features
+Recording
+Livestream
+Editor
+Hosting
+MCP
+AI Co-Creator
+Magic Clips
+Transcriptions
+Captions
+Magic Audio
+AI Show Notes
+Teleprompter
+Async Recording
+Overlays
+Studio Branding
+AI Translation
+All AI Features
+Use Cases
+Video Marketing
+Tutorial Videos
+Virtual Events
+Podcasts
+Learning & Development
+Internal Communications
+Webinars
+Customer Testimonials
+Virtual Conferences
+Live Show
+Split-Screen Video
+Tools
+Podcast Maker
+Podcast Recorder
+Live Podcast
+YouTube Video Maker
+Screen Recorder
+Video Compressor
+WAV To MP3
+Podcast Name Generator
+YouTube Name Generator
+Mic Test
+Webcam Test
+YouTube Transcript Generator
+Top Podcast Charts
+Free Podcast Music
+All Tools
+Solutions
+Podcasters
+Producers
+Marketers
+Resources
+Riverside University
+What's New
+Recorded On Riverside
+Help Center
+Case Studies
+Blog
+Creators Newsletter
+Masterclass
+Community Hub
+Video Editing Glossary
+
+Podcast guides
+
+How to Start a Podcast in 2026: The Complete 10-Step Guide
+How to Start a Podcast on YouTube: 6 Steps [2026]
+How to Record a Podcast Remotely: 4 Methods Compared
+Video Podcast Software: Top Tools to Record, Edit & Publish
+
+© 2026 RiversideFM, Inc.
+
+English
+Terms
+Privacy
+Cookies
+
+About cookies on this site
+
+We and our vendors use cookies, scripts, and other technologies to collect and share information from website visitors, including information about how you use our website. By using our site, you agree to our Cookie Policy:
+
+RiversideFM Cookie Policy
+
+Cookie settings
+Allow all cookies

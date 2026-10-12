@@ -1,0 +1,781 @@
+Fliki
+Features
+Use cases
+Explore
+Pricing
+Login
+Sign Up
+
+SIMPLE, TRANSPARENT PRICING
+
+Your AI partner for video creation
+
+Free forever. Upgrade for more credits, longer videos, more voices, and HD exports.
+
+Monthly
+Yearly ⚡️25% off
+Free
+
+For beginners trying out AI video creation.
+
+$0
+
+No credit card required
+
+Start now
+
+3 credits per month
+
+300 voices across 80+ languages
+
+Create videos from ideas, scripts, blog posts, or PPTs
+
+Stock images, video clips & music assets
+
+Generate AI images & thumbnails
+
+HD - 720p videos
+
+Includes Fliki watermark
+
+Standard
+
+For creators venturing into AI video production.
+
+$28 $21
+
+per user / month · $252 billed annually
+
+Start for free
+
+2160 credits per year
+
+1000 voices with 500 ultra-realistic
+
+Full HD - 1080p videos
+
+Videos upto 15 minutes, translated to 80+ languages
+
+Voice cloning + limited stock avatars
+
+Custom characters + Series
+
+AI Playground & commercial rights
+
+Premium
+
+The ultimate solution for professional teams & studios
+
+$88 $66
+
+per user / month · $792 billed annually
+
+Start for free
+
+7200 credits per year
+
+2000+ voices, 1000+ ultra-realistic & multilingual expressive
+
+Videos upto 40 minutes
+
+Generate AI video clips + photo avatars
+
+All AI avatars + multiple voice cloning
+
+Multiple brand kits, custom fonts & priority support
+
+API access
+
+Enterprise
+
+Custom plan tailored to your organization's specific needs.
+
+Custom pricing
+
+billed yearly
+
+Contact us
+
+Custom credits, bulk discounts & invoiced billing
+
+API access & state-of-the-art AI models
+
+Personalized avatars & professional voice cloning
+
+Branded custom templates & team collaboration
+
+Dedicated account manager
+
+Estimate your credits
+
+Adjust the parameters to see credit requirements.
+
+VIDEO DURATION
+
+5 mins
+
+1 MIN
+30 MIN
+
+MEDIA SOURCE
+
+Upload or Stock Footage
+
+Generate with AI
+
+OPTIONAL FEATURES
+
+AI Avatar
+
+AI Video Clips
+
+ESTIMATED CREDITS
+
+2.5
+
+Credits
+
+0.5 credits / min
+
+Includes AI voiceover. This estimate assumes AI video and avatar appear in about 25% of the video. Actual credit usage may vary depending on the models and settings used.
+
+Detailed credit guide →
+100M+
+VIDEOS CREATED
+14M+
+USERS WORLDWIDE
+80+
+LANGUAGES SUPPORTED
+
+TRUSTED BY 50,000+ COMPANIES WORLDWIDE
+
+Compare plans
+FEATURE
+Monthly
+Yearly 25% off
+	
+FREE
+
+$0
+
+No credit card required
+
+Start now
+	
+STANDARD
+
+$28 $21
+
+per month · $252 billed annually
+
+Start for free
+	
+PREMIUM
+
+$88 $66
+
+per month · $792 billed annually
+
+Start for free
+
+
+
+Credits
+
+	36	2160	7200
+CORE LIMITS
+
+
+Export length
+
+	
+
+5 minutes
+
+	
+
+15 minutes
+
+	
+
+40 minutes
+
+
+
+
+Video resolution
+
+	
+
+720p
+
+	
+
+1080p
+
+	
+
+1080p
+
+
+
+
+Scene limits
+
+	
+
+100
+
+	
+
+200
+
+	
+
+300
+
+
+
+
+Standard voices
+
+	
+
+300
+
+	
+
+1000
+
+	
+
+2000+
+
+
+
+
+Ultra-Realistic voices
+
+	﹣	
+
+500
+
+	
+
+1000+
+
+
+WORKFLOWS
+
+
+Idea to video
+
+	
+
+Limited
+
+		
+
+
+Script to video
+
+	
+
+Limited
+
+		
+
+
+Blog post to video
+
+	
+
+Limited
+
+		
+
+
+PPT to video
+
+	
+
+Limited
+
+		
+
+
+Edit video
+
+	
+
+Limited
+
+		
+
+
+Recording to polished video
+
+	
+
+Limited
+
+		
+
+
+Idea to audio
+
+	
+
+Limited
+
+		
+
+
+Script to audio
+
+	
+
+Limited
+
+		
+
+
+Blog to audio
+
+	
+
+Limited
+
+		
+
+
+Idea to thumbnail
+
+	
+
+Limited
+
+		
+
+
+Idea to social carousel
+
+	
+
+Limited
+
+		
+
+
+Idea to presentation
+
+	
+
+Limited
+
+		
+
+
+Translate
+
+	﹣		
+
+
+YouTube publishing
+
+	﹣		
+
+
+Publications per month
+
+	﹣	
+
+50
+
+	
+
+120
+
+
+
+
+Series
+
+	﹣	
+
+1
+
+	
+
+3
+
+
+AI MEDIA AND ASSETS
+
+
+AI Image
+
+			
+
+
+AI Video clips
+
+	﹣		
+
+
+Playground
+
+	
+
+Limited
+
+		
+
+
+Media library
+
+	
+
+Limited
+
+	
+
+Premium
+
+	
+
+Premium
+
+
+
+
+AI Avatar
+
+	﹣	
+
+Limited
+
+	
+
+
+Custom characters
+
+	﹣		
+
+
+Voice cloning
+
+	﹣	
+
+1
+
+	
+
+3
+
+
+
+
+Custom voices
+
+	﹣	
+
+1
+
+	
+
+3
+
+
+
+
+v1 voice model
+
+	﹣	
+
+1
+
+	
+
+2
+
+
+
+
+Brand kits
+
+	﹣	
+
+1
+
+	
+
+3
+
+
+
+
+Templates
+
+	﹣		
+
+
+Custom fonts
+
+	﹣	﹣	
+
+
+Pronunciation map
+
+	﹣		
+
+
+Favorites
+
+	﹣		
+
+
+Share previews
+
+	﹣		
+SCALE AND COLLABORATION
+
+
+Make and Zapier integration
+
+	﹣		
+
+
+Bulk create
+
+	﹣		
+
+
+AI Copilot
+
+	﹣		
+
+
+Web research
+
+	﹣		
+
+
+Faster exports
+
+	﹣	﹣	
+
+
+Auto-pick on paste
+
+	﹣	﹣	
+
+
+No watermark
+
+	﹣		
+
+
+Commercial rights
+
+	﹣		
+
+
+API Access
+
+	﹣	﹣	
+
+
+Team collaboration
+
+	﹣	﹣	
+
+
+Support
+
+	
+
+Email only
+
+	
+
+Email &
+live chat
+
+	
+
+Email &
+priority live chat
+
+PRICING FAQ
+
+Questions about pricing & plans
+
+Everything you need to know about credits, billing cycles, and what each plan includes.
+
+Can I use Fliki AI Video generator for free?
+
+Yes, Fliki offers a tier that allows users to explore text to voice and text to video features without any cost.
+
+You can generate 5 minutes of free audio and video content per month. However, certain advanced features and premium AI capabilities may require a paid subscription.
+
+How does Fliki differ from other text-to-video and text-to-speech tools in the market?
+
+Fliki stands out from other tools because we combine text to video AI and text to speech AI capabilities to give you an all in one platform for your content creation needs.
+
+Fliki helps you create visually captivating videos with professional-grade voiceovers, all in one place. In addition, we take pride in our exceptional AI Voices and Voice Clones known for their superior quality.
+
+Which languages are supported?
+
+Fliki supports over 80 languages in over 100 dialects.
+
+The AI speech generator offers 1300+ ultra-realistic voices, ensuring that you can create videos with voice overs in your desired language with ease.
+
+Do I need any special software or equipment to use this tool?
+
+No, our text-to-video tool is fully web-based. You only need a device with internet access and a browser preferably Google Chrome, to create, edit, and publish your videos.
+
+How do credits work? How does Fliki calculate the minutes used?
+
+Credits are deducted based on the duration of the audio generated from text or video exported. If you modify the text or adjust settings like the voice or pauses, Fliki reprocesses the text to generate new audio and charges credits. Please check out this video which shows in detail how credits work.
+
+How many videos can I create with the standard plan?
+
+The standard plan comes with 180 minutes of credits, ideally speaking you can create videos whose cumulative duration is 60-90 minutes.
+
+You can on average create:
+60 short 1 min videos or
+12 medium 5 min videos or
+6 long 10 min videos.
+
+Note: these are estimations and credits usage would depend on how often one edits the script.
+
+What is the maximum length of an audio/video file I can create?
+
+The standard plan offers creating audio/video upto 15 minutes in length. The premium plan offers creating audio/video upto 30 minutes in length.
+
+Can I use Fliki to create Youtube videos?
+
+Yes, with our subscription plans you get a commercial license to all the content you create. You can use the content created to publish on Youtube or other social media and monetize it, provided your text content is original and does not have any copyright conflict.
+
+Will I get copyright issues with content created with Fliki?
+
+Fliki provides media from royalty free media sources and also has license to the premium media to be used with commercial rights on all social media platforms.
+
+Does Fliki support Voice Cloning? How can it help me?
+
+Fliki supports voice cloning, allowing you to replicate your own voice or create unique voices for different characters. This feature saves time on recording and adds authenticity to your content.
+
+It also opens up creative possibilities and assists individuals with speech impairments. With Fliki, you can personalize your content, enhance creativity, and overcome limitations with ease.
+
+Should I have prior experience as a designer or video editor to use this tool?
+
+No, prior experience as a designer or video editor is not required to use Fliki. Our intuitive and user-friendly platform offers capabilities that make it super easy for anyone to create content.
+
+Our Voice Cloning AI, Text to Speech AI, and Text to Video AI, combined with our ready to use templates and 10 million+ rich stock media, allow you to create high-quality videos without any design or video editing expertise.
+
+What if I only need Fliki for a short amount of time?
+
+You can cancel your subscription at anytime by navigating to Account and selecting "Manage billing"
+
+How do I pay?
+
+Prices are listed in USD. We accept all major debit and credit cards along with GPay, Apple Pay and local payment wallets in supported countries.
+
+How does Fliki's payment system work?
+
+Fliki operates on a subscription system with flexible pricing tiers. Users can access the platform for free or upgrade to a premium plan for advanced features.
+
+The paid subscription includes benefits like ultra realistic AI voices, extended video durations, commercial usage rights, watermark removal, and priority customer support.
+
+Payments can be made through the secure payment gateway provided.
+
+Check out our pricing page for more information.
+
+Start free today
+Pick a plan when you are ready
+
+No credit card required. Upgrade, downgrade, or cancel anytime.
+
+Start creating free
+
+Free forever plan · No credit card required · Cancel anytime
+
+Home
+Pricing
+Fliki
+
+Create studio-quality videos from scripts, ideas, and long-form content in minutes with lifelike voices.
+
+4.8/5 on G2 and Capterra
+
+FEATURES
+
+AI explainer video maker
+AI music video generator
+AI music generator
+AI video generator
+AI animation generator
+AI voiceover
+AI avatar
+Translator
+AI Reel maker
+AI video ad generator
+AI Presentation Maker
+Video editor
+Text to video
+Idea to video
+View all features →
+
+USE CASES
+
+Content Creation
+Business and Corporate
+Training Videos
+Internal Communication
+Marketing and Social Media
+Education and E-Learning
+eCommerce
+Localization and Translation
+
+AI MODELS
+
+Seedance 2.5
+Gemini Omni Flash 1.1
+MiniMax H3 Max
+FLUX 3 Video
+Veo 3.1
+Kling 3 Pro
+GPT Image 2.5
+Nano Banana 2
+Qwen Image 3
+Meta Muse
+AI video models
+AI image models
+Browse all models →
+
+RESOURCES
+
+Guide
+Pricing
+Blog
+Tutorials
+Webinars
+FAQs
+What's new
+Voice samples
+Languages & dialects
+Alternatives
+Tools
+Developer API
+Affiliate program
+© 2026 Nine Thirty Five. All rights reserved.
+Privacy
+·
+Terms
+·
+Cookies
+
+Earn recurring commissions with the Fliki affiliate program.
+
+Become an Affiliate

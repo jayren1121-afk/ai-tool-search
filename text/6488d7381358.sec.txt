@@ -1,0 +1,76 @@
+Monthly
+Yearly
+---
+20% off yearly plans
+---
+40
+per month
+Start 7-day trial
+Access to advanced models
+700 message credits/month
+2 members
+---
+150
+per month
+Start 7-day trial
+Everything in Hobby +
+4,000 message credits/month
+3 members
+---
+500
+per month
+Start 7-day trial
+Everything in Standard +
+15,000 message credits/month
+5 members
+---
+Fine-tune your plan with powerful add-ons
+Auto recharge credits
+---
+When your credits fall below the threshold you set, we'll automatically add credits that don't expire to your account, ensuring uninterrupted service.
+---
+$40
+per 1000 message credits
+Get Add-on
+Extra agents
+---
+Add extra agents to your workspace.
+---
+$25
+per AI agent / month
+Get Add-on
+Remove 'Powered By Chatbase'
+---
+Remove the Chatbase branding from your deployed agents.
+---
+$99
+per month
+Get Add-on
+Compare
+Compare all our plans
+Monthly
+Yearly
+Hobby
+---
+40
+per month
+Subscribe
+---
+150
+per month
+Subscribe
+---
+500
+per month
+Subscribe
+Configuration
+Message credits (monthly)
+Test credits (monthly)
+Agents
+---
+Get answers to the most commonly asked questions
+How do message credits work?
+When are my message credits renewed?
+How do auto-recharge message credits work?
+What is the difference between subscription credits and auto-recharge credits?
+How many users can use my agent?

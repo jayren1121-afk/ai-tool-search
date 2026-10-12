@@ -1,0 +1,419 @@
+Skip to content
+
+Meet your AI team. Introducing Experts.
+
+Meet the Experts
+Experts
+How it works
+Pricing
+Resources
+Sign in
+Start free for 7 days
+Choose the plan that's right for you
+
+Pro covers Otto and Expert chat. Scheduled workflow runs use your credit wallet, with a spending cap you can set for each Expert.
+
+Explore the interactive demo
+Plans
+Monthly billing
+Yearly billing
+Save 15%
+Pro
+7-day free trial
+$50.00
+/ month
+billed monthly
+
+7 days free, then $50/mo on Pro. Trial terms confirmed at checkout.
+
+For individuals ready to put an AI team to work.
+
+Access to virtually any leading AI model
+AI experts for research, content, and operations
+Otto chat and the visual workflow builder
+Work with your documents and connected apps
+Expert activity, results, and spending controls
+Scheduled workflows and recurring routines
+Start free for 7 days
+
+Eligible new accounts. Card required; no subscription charge today. Cancel anytime.
+
+Max
+8.5x usage
+$320.00
+/ month
+billed monthly
+
+For users who are serious about getting more work done.
+
+Includes everything in Pro
+8.5x Pro usage
+5x file storage
+Early access to features before anyone else
+Expand our extensive integration library
+Priority support
+Help drive the roadmap for new features
+Start with Max
+
+Cancel anytime
+
+Team
+Coming soon
+Contact us
+
+For teams that need collaboration, controls, and custom usage.
+
+Multi-user workspaces
+Admin controls & roles
+Centralized billing & seat management
+Collaboration & approvals
+Security & compliance options
+Secure access for shared integrations
+Contact sales
+
+Need something custom? Talk to sales.
+
+THE FULL LIST
+
+Every feature, side by side.
+
+See exactly what's included on the cloud platform, and what comes with self-hosting.
+
+AI Experts & Otto
+22
+Builder
+20
+Execution, Scheduling & Triggers
+18
+Blocks & Integrations
+21
+LLM Providers & Models
+18
+Library, Marketplace & Sharing
+17
+Auth, Credentials & Security
+18
+Storage, Files & Workspaces
+8
+Billing, Credits & Usage
+6
+Notifications & Communication
+5
+Self-Host Admin Tools
+7
+APIs, SDKs & Developer Platform
+13
+Feature
+✓ included · — not included
+Pro
+Cloud
+Get started
+Max
+Cloud
+Get started
+Self-Host
+Open source
+Read the docs
+AI Experts & Otto
+22
+Highlighted feature.
+Otto Chat
+Highlighted feature.
+Workflow Generation from Prompt
+Dry-Run Self-Repair Loop
+Personalized Home & Prompt Suggestions
+Memory controls
+Parallel Tool Execution
+Context Compaction
+Reasoning Display
+Task Planning
+Multimodal Inputs
+Voice In & Out
+File Upload in Chat
+Cloud Sandbox
+Highlighted feature.
+Teach Otto Skills
+GitHub CLI in Otto
+Highlighted feature.
+Browser Automation
+Highlighted feature.
+MCP Tool Support
+Web Search
+SQL Analytics Tool
+AutoPilot Block
+Export Chat as Markdown
+Otto Notifications
+(BYO push/email infra)
+Builder
+20
+Highlighted feature.
+Visual Workflow Builder
+Auto-Save & Draft Recovery
+Undo / Redo with Keyboard Shortcuts
+Copy, Paste & Multi-Select
+Inline Node-Title Editing
+Block Menu Search
+Friendly Block Names & Docs
+Inline Field Validation
+Rich Node Outputs
+Expandable Block Outputs
+Run From Builder
+Task Presets
+Open Task in Builder
+Highlighted feature.
+Nested Workflows as Blocks
+Workflow Import / Export
+Rich Input Widgets
+Smart Type Coercion
+Inline Credential Prompts
+Auto-Select Credentials
+Builder Tutorial
+Execution, Scheduling & Triggers
+18
+Real-Time Execution Stream
+Task Cost Display
+Live Activity Status
+Correctness & Accuracy Scoring
+Task History with Infinite Scroll
+Stop & Cascade Stop
+Continue Aborted Tasks
+Parallel Block Execution
+Cron Scheduling
+Run Now on Schedules
+Version-Pinned Schedules
+Recommended Schedules
+Late & Stuck Execution Alerts
+Trigger On Anything
+Generic Webhook Trigger
+GitHub Webhook Triggers
+Manual Webhook Setup
+Triggered Workflows in Library
+Blocks & Integrations
+21
+Highlighted feature.
+200+ Integration Blocks
+Communication Suite
+Developer Suite
+Google Workspace
+Productivity Tools
+CMS & Publishing
+CRM & Sales
+Social Media
+Web Search & Research
+Web Scraping
+Browser Automation
+AI & Dev Tool Blocks
+Image, Video & Music Generation
+Vector & Memory
+Data Transformation Blocks
+AI Reasoning Blocks
+Key-Value Storage Block
+HTTP Request Block
+SQL Query Block
+Block Development SDK
+Auto-Generated Block Docs
+LLM Providers & Models
+18
+
+Self-Host note: all model providers require BYO API keys when self-hosting. We don't repeat that on each model family row.
+
+Highlighted feature.
+All Major LLM Families
+Claude Family
+GPT Family
+Gemini Family
+Grok (xAI)
+Llama Family
+Kimi / Moonshot
+Mistral Family
+Cohere Command A
+Microsoft Phi-4
+Perplexity Sonar
+Z.ai GLM
+DeepSeek
+Qwen
+v0 by Vercel
+Per-Task LLM Budget Caps
+Token & Cost Tracking
+Prompt Caching
+Library, Marketplace & Sharing
+17
+Workflow Library
+Folders for Library Workflows
+Favorite Workflows
+Fork Workflows
+Highlighted feature.
+Workflow Marketplace
+Run & Save Marketplace Workflows
+Marketplace Search & Filters
+Import from n8n, Make.com, Zapier
+Featured Creators & Workflows
+—
+Creator Profiles
+—
+Creator Dashboard
+—
+Workflow Submissions
+—
+AI-Generate Listing Images & Thumbnails
+—
+Highlighted feature.
+Public Share Links
+—
+Prompt-in-URL Sharing (Otto)
+Output ZIP Download
+Marketplace Update Alerts
+—
+Auth, Credentials & Security
+18
+Google Sign-In
+Email & Password Login
+Single Sign-On (OAuth)
+Password Strength Requirements
+CAPTCHA on Auth Forms
+API Key Management
+Credentials Manager
+Multi-Provider Credentials per Service
+Optional Credentials
+Host-Scoped HTTP Credentials
+Highlighted feature.
+Managed Credentials — No Accounts to Create
+—
+Inline Credential Setup
+Human-in-the-Loop Approvals
+Safe URL Redirects & DNS-Rebinding Protection
+OAuth Callback Hardening
+OAuth Token Validation
+Credential Scope Filtering
+Admin Impersonation
+—
+—
+Storage, Files & Workspaces
+8
+Persistent User Workspace
+Workspace File Tools
+Large File Uploads
+Antivirus Scanning
+Multimodal File Support
+Rich Media Previews
+Builder File Inputs from Workspace
+Google Drive Picker
+Billing, Credits & Usage
+6
+
+The model: workflow runs are pay-as-you-go via the credit wallet — the same on every plan. The subscription (Pro vs Max) covers Otto and Expert chat usage. You can set a spending cap for each Expert.
+
+Highlighted feature.
+Otto Chat Allowance
+Standard
+8.5×
+Unlimited
+(BYO LLM keys)
+Highlighted feature.
+Support Level
+Email
+Priority + Onboarding
+Community / GitHub
+Pay-As-You-Go Automations
+BYO compute
+Wallet & Top-Up
+—
+Auto-Refill Wallet
+—
+Execution Cost Visibility
+Notifications & Communication
+5
+Real-Time WebSocket Notifications
+Web Push Notifications
+Email Notifications
+BYO SMTP
+Daily Email Digest
+BYO SMTP
+Submission Review Notifications
+—
+Self-Host Admin Tools
+7
+
+Rows in this section are admin/operations tools that exist for whoever runs the platform. On Pro and Max we run it — so these are internal AGPT-staff tools not exposed to customers. On Self-Host you run it — so these become real features for the self-hoster.
+
+Execution Diagnostics Dashboard
+—
+—
+Execution Analytics Dashboard
+—
+—
+User Spending Dashboard
+—
+—
+User Search & Rate-Limit Controls
+—
+—
+Credit & Balance Admin Tools
+—
+—
+CSV Exports
+—
+—
+Platform Cost Dashboard
+—
+—
+APIs, SDKs & Developer Platform
+13
+Highlighted feature.
+Public REST API
+Create Workflows via API
+Execution Completion API
+External Integration Management API
+Store Search & Usage API
+OpenAPI Schema
+Generated SDK Clients
+Platform Linking API
+—
+CORS Support
+Streaming API Responses
+Highlighted feature.
+Self-Hosting via Docker Compose
+—
+—
+Self-Host Setup Scripts
+—
+—
+Self-Host Platform Support
+—
+—
+
+About Self-Host: rows that rely on third-party services (LLM providers, sandboxes, browser automation, email, CAPTCHA, antivirus, and the like) assume you bring your own API keys and infrastructure. A “—” in the Self-Host column marks a managed service we run for you — hosted billing, managed credentials, hosted email delivery, or publishing to our marketplace — not a limitation of the open-source platform itself.
+
+Need something bigger? Talk to sales about enterprise.
+
+Ambition deserves a team.
+
+AI Experts for the work that matters to you.
+GitHub
+X
+Discord
+Reddit
+Start free for 7 days
+Product
+Meet the Experts
+How it works
+Pricing
+Interactive demo
+Sign in
+Resources
+Documentation
+Blog
+Compare
+Changelog
+Careers
+
+© 2026 AutoGPT
+
+Privacy policy
+Terms of use
+Cookie settings
+
+We use cookies to understand how people use AutoGPT and to measure our ads. Privacy policy
+
+Reject all
+Accept all

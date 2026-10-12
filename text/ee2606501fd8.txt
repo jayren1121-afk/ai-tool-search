@@ -1,0 +1,350 @@
+Skip to main content
+Features
+Use Cases
+Workflows & API
+Pricing
+Blog
+Try Auphonic
+Login
+News
+View Help
+Pricing
+
+Auphonic is free for 2 hours of processed audio per month.
+Need more? Add Recurring or One-Time Credits.
+
+Plans
+Yearly
+Monthly
+Pay yearly - Save 20%
+€ EUR
+$ USD
+Auphonic Free
+Free
+Enjoy Auphonic for 2 h per month
+incl. our AI-based audio algorithms
+Try our 1-click audio magic for free
+Register now
+With Auphonic Jingle
+Productions of free users come with a jingle.
+Free credits do not stack up if you don't use them.
+Best Value
+Recurring Credits Yearly
+Recurring Credits
+$
+11
+per month
+$132 billed yearly
+Auphonic S
+Auphonic M
+Auphonic L
+Auphonic XL
+Auphonic XXL
+Auphonic S
+Auphonic M
+Auphonic L
+Auphonic XL
+Auphonic XXL
+More than 1000 hours per month
+S	9 h/m	$11
+M	21 h/m	$25
+L	45 h/m	$52
+XL	100 h/m	$113
+XXL	250 h/m	$245
+More	> 1000 h/m	 
+Purchase Plan
+Purchase selected recurring credits plan
+Reset every month
+You can see your available credits and reset date at the Account Settings page. Credits don't stack up if you don't use them.
+One-Time Credits
+One-Time Credits
+$ 12
+5
+10
+25
+50
+100
+250
+500
+1000
+2000
+3000
+More than 3000 hours
+5 h	
+$2.4 per hour
+	$12
+10 h	
+$2.3 per hour
+	$23
+25 h	
+$2.2 per hour
+	$55
+50 h	
+$2.0 per hour
+	$100
+100 h	
+$1.71 per hour
+	$171
+Show higher plans
+Enable auto-renew
+Purchase Credits
+Purchase selected one-time credit plan
+One-Time Credits never expire
+Used after recurring but before free credits.
+Further important information about our plans
+Prices without VAT
+Sales tax or VAT may be charged, depending on where you live. Companies from Europe can use their VAT ID (UID number) to purchase without VAT.
+Do you need a more flexible plan?
+Simply add one-time credits on top of your recurring credits! They are great if you only occasionally need more than your monthly limit.
+Feature comparison
+Algorithms
+
+Auphonic Free
+
+Enjoy all basic features for free for up to 2 h per month.
+
+Monthly & One-Time
+
+Full access to all basic and advanced workflow features.
+
+Yearly & Business
+
+Enjoy everything including priority processing and support.
+
+Feature comparison
+Feature
+	
+Free
+	
+Monthly & One-Time
+	
+Yearly & Business
+
+Intelligent Leveler	
+Yes
+	
+Yes
+	
+Yes
+
+Noise & Reverb Reduction	
+Yes
+	
+Yes
+	
+Yes
+
+Filtering & Enhancement	
+Yes
+	
+Yes
+	
+Yes
+
+Loudness specifications	
+Yes
+	
+Yes
+	
+Yes
+
+Multitrack productions	< 20 min
+< 20 min
+	
+Yes
+	
+Yes
+
+Filler & Silence cutting	
+Yes
+	
+Yes
+	
+Yes
+
+Multilingual speech recognition	
+No
+	
+Yes
+	
+Yes
+
+Automatic shownotes and chapters	
+No
+	
+Yes
+	
+Yes
+Encoding, Workflows and API
+Business feature comparison
+Feature
+	
+Free
+	
+Monthly and One-Time
+	
+Yearly and Business
+
+Encoding, metadata & chapters	
+Yes
+	
+Yes
+	
+Yes
+
+Video support & audiograms	
+Yes
+	
+Yes
+	
+Yes
+
+Connect to external services	
+Yes
+	
+Yes
+	
+Yes
+
+Automatic publishing	
+Yes
+	
+Yes
+	
+Yes
+
+Auphonic API access	
+Yes
+	
+Yes
+	
+Yes
+
+Auphonic CLI	
+Yes
+	
+Yes
+	
+Yes
+
+Watch folders	
+No
+	
+Yes
+	
+Yes
+
+Batch productions	
+No
+	
+Yes
+	
+Yes
+More
+Business feature comparison
+Feature
+	
+Free
+	
+Monthly and One-Time
+	
+Yearly and Business
+
+Includes Auphonic jingle	
+Yes
+	
+No
+	
+No
+
+Support	Basic
+Basic
+	Standard
+Standard
+	Priority
+Priority
+
+Early access to new features	
+No
+	
+Yes
+	
+Yes
+
+Team accounts	
+No
+	
+No
+	
+Yes
+
+Priority processing	
+No
+	
+No
+	
+Yes
+
+Manual invoicing	
+No
+	
+No
+	Business only
+Business only
+
+Custom contracts	
+No
+	
+No
+	Business only
+Business only
+Join over 2M users today!
+Get started →
+Frequently Asked Questions
+How do you bill processed audio?
+What is the difference between Recurring and One-Time Credits?
+I have purchased both Recurring and One-Time Credits. Which will be used first?
+How can I make sure my account never runs out of credits?
+Am I allowed to edit and re-run my production with different settings?
+Are credits charged if there is an error during audio processing?
+I am not satisfied with the result of a production. Can I get my credits back?
+How do you charge multitrack productions?
+All pricing FAQs
+Help →
+Blog →
+Press →
+Footer
+Product
+Features
+Use Cases
+Workflows & API
+Pricing
+Changelog
+Resources
+Help
+Blog
+API Docs
+Auphonic CLI
+Service Status
+Company
+About
+Contact
+Jobs
+Press
+Legal
+Imprint
+Terms of Service
+Privacy Policy
+Subscribe to our newsletter
+
+Stay up to date with important updates and news.
+
+Subscribe
+Newsletter
+RSS feed
+Twitter
+Mastodon
+Facebook
+LinkedIn
+
+© 2026 by Auphonic GmbH

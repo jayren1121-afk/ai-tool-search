@@ -1,0 +1,137 @@
+Webinar
+Live on Oct 14: How Inmar Put AI for HR Inside Workday and Google Chat
+02
+DAYS
+11
+HRS
+21
+MIN
+14
+SEC
+Save my seat
+Products
+Pricing
+Architecture
+Why Leena AI
+Resources
+Company
+Talk to a specialist
+Leena AI pricing,
+built around your numbers
+
+Answer six questions, and we'll price a proposal based on your headcount, use cases, and volumes. About two minutes. No email needed until the last step.
+
+Universal Assistant: Flat license, per employee per year. Unlimited use.
+
+AI Colleagues Platform: Platform fee + usage, billed in tokens you can audit.
+
+Integrations: Included. 200+ pre-built connectors, not custom code:
+
+Workday
+ServiceNow
+SAP
++200 more
+MCP & A2A built in.
+01
+Industry
+02
+Function
+03
+Company size
+04
+Use cases
+05
+Volumes
+06
+Summary
+Which industry are you in?
+Healthcare
+Health systems, hospitals, payers
+Insurance & Financial Services
+Banks, insurers, asset managers
+Manufacturing
+Plants, supply chain, auto
+Retail & Consumer
+Stores, e-commerce, CPG
+Hospitality & Food Services
+Hotels, restaurants, catering
+Technology & Software
+SaaS, services, telecom
+Energy & Utilities
+Power, oil & gas, utilities
+Other
+Every other industry
+Pick your function
+3x Leader
+Gartner EMQ, Agentic AI
+4.6 rating
+4.5 rating
+4.4 rating
+Frequently Asked Questions
+How is the Universal Assistant priced?
+How is the AI Colleagues Platform priced?
+What's the difference between the Assistant and AI Colleagues?
+What are tokens, and why do you bill in them?
+Will usage costs surprise me?
+Why don't you publish prices?
+How fast can we go live?
+Ready to accelerate your Agentic AI journey?
+Talk to a specialist
+Agentic AI platform with pre-built AI Colleagues for the back-office.
+132 West, 31st Street, Suite #1006,
+New York 10001
+Products
+Universal IT Assistant
+Universal HR Assistant
+Universal Finance Assistant
+AI Colleagues Platform
+Pricing
+Leena AI Pricing
+Agentic AI Architecture
+Agentic AI Architecture Overview
+Touchpoints
+Orchestrator
+Workbench
+Context Graph + Memory
+Knowledge Studio
+AOP Studio
+Workflow Studio
+Observability and Governance
+Permissions and Access Control
+Integrations
+Trust and Security
+Differentiators
+45-Day Go-Live
+Avoid Vendor Lock-In
+A2A and MCP Built-In
+8 Years of Integrations
+Compare
+Vs. Microsoft Copilot Studio
+Vs. Moveworks
+Vs. Glean
+Resources
+Product Documentation
+Blogs
+Webinars
+Case Studies
+Podcasts
+Reports
+All resources
+Company
+About us
+Customers
+Partners
+Events
+Newsroom
+Recognitions
+Careers
+Contact us
+Status
+Subscribe to the Leena AI newsletter: the AI Edge Digest, monthly intel on enterprise Agentic AI.
+© Leena AI. All rights reserved 2026
+Terms and Conditions
+Privacy Policy
+Media Kit
+Schedule demo
+Product tour
+Talk to sales

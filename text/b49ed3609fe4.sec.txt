@@ -1,0 +1,48 @@
+Free to build. Pay when your integrations go to production.
+---
+Free
+---
+$0
+---
+Free, no credit card required
+---
+Startup
+Monthly
+Annual
+---
+$99 per month
+$
+0
+1
+---
+per month, billed annually
+---
+Everything in Free, plus:
+---
+Run in production
+100 users included, then $2 per user
+10,000 usage credits included
+Email support
+Business
+---
+Annual billing
+---
+Feature
+Free	Startup	Business
+Build
+---
+Included
+---
+Included
+---
+External users	Development only	100 included, then $2 each	Volume pricing
+Usage credits	Development only	10,000 included, then $0.012 each	Volume pricing
+Billing	Free	Monthly or annual	Annual contract
+Security & compliance
+SOC 2 Type 2 and GDPR
+---
+What happens when I pass 100 external users?
+What are usage credits?
+What's the difference between development and production?
+---
+Start building for free

@@ -1,0 +1,262 @@
+Catch up on the "Best Bits" from FUSION
+
+Watch now
+Platform
+Solutions
+Resources
+Developers
+Software testing
+Search
+Close
+Try UiPath free
+
+Plans and Pricing
+
+UiPath Plans and Pricing
+
+Agentic Automation for businesses of all sizes
+
+Automation Cloud
+Test Cloud
+Community
+
+Build, explore, and automate with UiPath — free forever.
+
+Automate tasks with Maestro Automate
+Orchestrate business processes with Maestro Orchestrate
+Start quickly with Claude Code, Cursor, Codex, or UiPath Autopilot
+Build code-first or low-code with UiPath Studio or with UiPath SDKs in your own IDE
+Ready for production, not just prototyping
+Get help from the UiPath Community Forum
+Free forever
+Start building free
+Basic
+Starting at
+$25 per month
+
+Run essential team automations with business-grade support and reliability.
+
+Basic Tier includes:
+
+Build and run basic personal automations
+Limited scale (e.g. Users and Robots)
+Hosted in our European region
+99.9% service uptime
+UiPath Bronze Support
+Basic is evolving
+An updated plan offering is coming soon.
+Buy now
+Standard
+Contact
+Sales for
+pricing
+
+Businesses and enterprises looking to establish a professional agentic automation program with the ability to scale rapidly.
+
+Everything in Basic, plus:
+
+Build, test, run, and share enterprise automations including Agents
+Classify and extract enterprise data from documents and communications at scale
+Orchestrate agents, robots, and people to automate business processes
+Enhanced governance controls for your automations, AI, and data
+Bring your own Identity Provider
+Opt-out of data collection
+No limits to scale
+Hosted in one of our available regions or on your own premise
+Start 60-day free trial
+Contact sales
+Enterprise
+Contact
+Sales for
+pricing
+
+Businesses and enterprises looking for strategic, company-wide business outcomes with enterprise security, governance, and flexibility requirements
+
+Everything in Standard, plus:
+
+Build resilient self-healing UI automation
+Monitor, optimize, and simulate live business processes
+Automatically optimize your own Robot infrastructure
+Bring your own model for available AI products
+Bring and manage your own encryption keys
+Bring and manage your own credential vaults
+Bring or build your own CI/CD Pipeline
+Hosted in one or more of our available regions or on your own premise
+Contact sales
+Comparison of our offerings
+Automate business processes with Agents, Robots, and API Workflows
+	BASIC	STANDARD	ENTERPRISE
+
+Build and run RPA workflows, API workflows, and low-code business apps
+			
+
+Build and run agentic automations
+	Limited***		
+
+Build and run conversational agents**
+	Limited***		
+
+Classify and extract from different inputs and sources**
+	—		
+
+Automate document and communications processing end-to-end**
+	—		
+
+Integrate Human-In-The-Loop into your agents, robots, and API workflows
+			
+
+Build and run Automation Tests
+	—		
+
+Self-healing automations
+	—	Available for purchase	
+Orchestrate agents, robots, and people
+Scale your agentic automation program
+Secure and govern your agentic automation program
+Discover and capitalize on agentic automation opportunities
+Deploy your agentic automation program anywhere
+
+* Users and Robots may require additional license purchases
+
+** Some capabilities included, usage may require additional purchase
+
+*** Limited consumption available in Basic Tier
+
+Users and robots are available for purchase across all 3 tiers
+Basic User
+
+Build and run low complex personal automations on your own computer.
+
+Plus User
+
+Build and run more complex low-code automations for you and your team.
+
+Pro User
+
+Build and run advanced automations and agents for your whole enterprise using our most comprehensive toolset.
+
+Unattended Robot
+
+Run automations and long running workflows with high precision without human supervision.
+
+Find the best solution for your needs
+
+Speak to our team of knowledgeable RPA experts and learn how you can benefit from RPA.
+
+Try UiPath Free
+Contact sales
+Contact Us
+Sign In
+
+English
+
+PLATFORM
+
+Explore the UiPath Platform
+Plans and pricing
+Support
+CAPABILITIES
+Business orchestration
+Process intelligence
+AI ecosystem
+Agentic AI
+RPA
+API
+Intelligent document processing
+Security & governance
+Data Fabric
+AI trust
+Deployment
+
+PRODUCTS
+
+Apps
+Autopilot
+Cartographer
+Delegate
+Integration Service
+IXP
+Maestro Automate
+Maestro BPMN
+Maestro Case
+Maestro Flow
+Maestro Orchestrate
+Orchestrator
+ScreenPlay
+Studio
+Test Cloud
+UiPath for Coding Agents
+
+SOLUTIONS & RESOURCES
+
+SOLUTIONS
+By industry
+By department
+Ready to deploy
+LEARNING
+Academy
+Certifications
+Digital credentials
+SUPPORT & COMMUNITY
+Customer support
+Customer portal
+Documentation
+Forum
+Community blog
+Community events
+Service status
+Marketplace
+RESOURCE CENTER
+Blog
+Analyst reports
+Case studies
+White papers
+Webinars
+Brochures
+Demos and videos
+EVENTS
+UiPath FUSION
+UiPath FUSION (multi-city)
+UiPath DevCon
+See all events
+
+PARTNERS
+
+UiPath Partner Network
+Find a partner
+Become a partner
+Grow as a partner
+Business partner portal
+Technology partner portal
+
+COMPANY
+
+About us
+Careers
+Careers blog
+Newsroom
+Investor relations
+Trust & security
+UiPath using UiPath
+UiPath gift shop
+UiPath Foundation
+Code of conduct
+Report ethical concerns
+Employment scams
+
+Let's connect
+
+Trust & security
+Terms of Use
+Privacy Policy
+Cookies Policy
+Your Privacy Choices
+
+The UiPath word mark, logos, and robots are registered trademarks owned by UiPath, Inc. and its affiliates. UiPath® is a registered trademark in the United States and several countries across the globe. See TMEP 906.
+
+© 2005-2026 UiPath. All rights reserved.
+
+Ask AI about...
+We use cookies to analyze traffic and deliver personalized content. Click “Ok, got it” or simply close this banner to allow the all cookies. Click "View cookie settings" to allow certain categories of cookies. Update your cookie settings any time from our Cookie Policy.
+View cookie settings
+Ok, got it

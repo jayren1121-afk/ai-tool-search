@@ -1,0 +1,26 @@
+Our flexible licensing options allow you to deploy our models in your environment with advanced customization and full control over your data.
+---
+Community
+---
+For researchers, developers, small businesses, and creators with less than $1M in annual revenue.
+---
+License includes:
+---
+Free
+Get license
+Enterprise
+---
+For enterprise, API providers, and businesses with annual revenue exceeding $1M.
+---
+License includes:
+---
+Custom Pricing
+---
+I’m a fine-tuner, do I need to pay a license fee to Stability? Even if I sell my models?
+I own a business that uses the Core Models in our products, services or internal business operations. Do I need to pay a license fee?
+I am an individual creator or enthusiast generating content from the Core Models at home. Do I need to pay a license fee?
+I am a researcher in a large company. Do I need to pay a license fee?
+I am part of an organization that just hit USD $1M of annual revenue. What should I do next in order to continue using the Core Models and Derivative Works?
+How do the Stability AI Core Models compare to other open generative AI models?
+What happens if I am unable to agree to an Enterprise License with Stability?
+I am a creator who made a LoRA derived from a Core Model. Can I use the outputs of my LoRA to train another one?

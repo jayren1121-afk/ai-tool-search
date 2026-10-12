@@ -1,0 +1,45 @@
+Free
+---
+10,000 add requests/ month
+---
+1,000 retrieval requests/ month
+---
+Starter
+---
+For solo builders shipping their first AI agent.
+---
+$19
+---
+/ month
+---
+50,000 add requests /month
+---
+5,000 retrieval requests / month
+---
+Popular
+---
+For production apps with real scale.
+---
+$249
+---
+/ month
+---
+500,000 add requests /month
+---
+50,000 retrieval requests /month
+---
+Price
+---
+Free
+---
+$19/month
+---
+$249/month
+---
+Custom
+---
+Add requests / month
+---
+Retrieval requests / month
+---
+Is Mem0 free? What's included in the free tier?

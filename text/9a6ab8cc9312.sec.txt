@@ -1,0 +1,102 @@
+Login
+Sign up for free →
+Choose your plan
+---
+Monthly
+/
+Yearly
+Save 50%
+Pro
+Popular
+$10
+/mo
+10 users included
+Get Pro
+Everything in Free, plus:
+Taskade AI
+---
+Password-protected sharing
+Pay-as-you-go credits
+Business
+Custom domains
+$25
+/mo
+Unlimited users included
+Get Business
+---
+Admin dashboard
+Priority support
+Max
+High capacity
+$100
+/mo
+Unlimited users and teams
+Get Max
+---
+Per-agent model selection
+Always-on agent orchestration
+Enterprise
+Custom SLA
+$250
+/mo
+Unlimited users · custom SLA
+Get Enterprise
+---
+Dedicated onboarding
+Volume credit pricing
+1 TB AI storage
+Free
+$0
+/mo
+Free forever · 2 users included
+Get Started
+Includes:
+Free AI
+Up to 3 apps
+Clone community apps
+Desktop and mobile apps
+Extra Credits
+Add-on
+$5
+/pack
+Stacks on included monthly credits
+Buy credits
+Use it to:
+Build when credits run out
+Fuel AI in apps, agents, flows
+Buy only what you need
+Keep unused credits forever
+Custom Domains
+Add-on
+$5
+/year
+Buy a domain or bring yours free
+Buy a domain
+How it works:
+Bring your own for free
+Or buy one inside Taskade
+---
+// FEATURE
+Free
+Pro
+---
+∞
+AI credits
+Earn or buy
+---
+What can I build with Taskade Genesis?
+Why upgrade from Free to Pro?
+Which AI models does Taskade use?
+Does Pro include unlimited apps?
+How do AI credits work?
+How far do my monthly credits go?
+Do my apps keep running if I use all my credits?
+What stops a build from using all my credits at once?
+Which plan includes integrations?
+---
+How do I choose the right AI model for my task?
+How do I make sure I never run out of credits?
+Can I earn free credits?
+How can I save on a paid plan?
+---
+Free to start. Browse apps to clone.

@@ -1,0 +1,106 @@
+For businesses
+Free
+---
+Start for free
+Open in VS Code
+---
+Access to entry level models
+2,000 completions per month
+Community Support
+---
+USD
+per user / month
+---
+Choose Pro
+Everything in Free and:
+Access to medium-complexity models
+Unlimited code completion and next edit suggestions
+Access to 3rd party agents (Claude Code and Codex)
+1,500 monthly AI credits ($15 value)
+---
+Free for verified teachers and maintainers of popular open source projects.
+---
+USD
+per user / month
+---
+Audit logs
+Over 4.6x included monthly credits than Pro
+Max
+---
+USD
+per user / month
+---
+Early access to frontier models
+Over 13.3x included monthly credits than Pro
+BEST VALUE
+---
+Pricing plans
+---
+Free
+---
+$0
+---
+Get started
+---
+Pro
+---
+$10 per month
+---
+Get started
+---
+Pro+
+---
+$39 per month
+---
+Get started
+---
+Max
+---
+$100 per month
+---
+Get started
+GitHub AI Credits
+---
+Total GitHub AI Credits
+---
+Credits used when interacting with Copilot features. Chat, agent mode, code review, Copilot cloud agent, Copilot CLI, and Copilot Apps consume GitHub AI Credits. Free plan supports CLI and agent mode. Learn more
+---
+Limited chat and agent usage
+$15 per month
+$70 per month
+$200 per month
+---
+Base credits
+---
+Limited chat and agent usage
+$10 per month
+$39 per month
+$100 per month
+---
+Flex allotment
+---
+Variable additional usage on top of your base. Flex allotments may change over time.
+---
+Not included
+$5 per month
+$31 per month
+$100 per month
+---
+Pooled usage
+---
+Included AI credits are shared org-wide with admin controls for spending.
+---
+Purchase additional GitHub AI Credits1
+---
+2,000 per month
+Unlimited
+---
+Need human help? Let’s define how to propel your team into a new era.
+Contact sales
+Frequently asked questions
+---
+What is GitHub Copilot?
+Who is eligible to access GitHub Copilot for free?
+What languages, IDEs, and platforms does GitHub Copilot support?
+---
+Users who purchase Copilot Pro, Pro+, or Max through GitHub Mobile in-app purchase (IAP) can’t buy additional AI credits through GitHub Mobile.

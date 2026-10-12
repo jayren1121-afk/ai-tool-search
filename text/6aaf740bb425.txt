@@ -1,0 +1,436 @@
+Products
+Solutions
+Resources
+Enterprise
+Pricing
+Sign In
+BOOK A DEMO
+GET STARTED
+Warp
+Terminal and agents
+Warp Factories
+Automated software delivery
+Pricing for Warp
+Free
+
+ 
+
+$0
+/month
+
+For developers who want Warp’s modern terminal with the flexibility to use Warp’s AI or bring their own.
+
+DOWNLOAD NOW
+
+Includes core terminal features
+
+○
+
+State-of-the-art modern terminal
+
+○
+
+Warp Agent CLI access
+
+○
+
+Additional agent usage at pay-as-you-go rates
+
+○
+
+Bring your own AI inference*
+
+○
+
+Limited cloud agents access
+
+○
+
+Use any harness in the cloud (beta)
+
+○
+
+Individually configured data controls
+
+○
+
+Limited Warp Drive and collaboration feature access
+
+○
+
+Limited cloud conversation storage
+
+Purchase additional agent usage
+Build
+Recommended
+Monthly
+Annual
+
+Annual plan
+
+$18
+/month
+
+For developers who want flexible access to AI that scales with their usage
+
+START TODAY
+
+Everything in Free, plus:
+
+○
+
+$20 of agent usage included each month at API rates
+
+○
+
+Full Warp Agent access (frontier and open-source models from OpenAI, Anthropic, z.ai, and more)
+
+○
+
+Add-on agent usage, auto-reload, and team-wide spend cap
+
+○
+
+Extended cloud agents access
+
+○
+
+Highest codebase indexing limits
+
+○
+
+Unlimited Warp Drive objects and collaboration
+
+○
+
+Unlimited cloud conversation storage
+
+○
+
+Private email support
+
+Purchase additional agent usage
+Max
+Monthly
+Annual
+
+Annual plan
+
+$180
+/month
+
+For developers who need maximum AI capacity with all the flexibility of Build
+
+START TODAY
+
+Everything in Build, plus:
+
+○
+
+$200 of agent usage included each month (10× Build)
+
+○
+
+Add-on agent usage, auto-reload, and team-wide spend cap
+
+Purchase additional agent usage
+Business
+Monthly
+Annual
+
+Annual plan
+
+$45
+/user /month
+
+For teams scaling AI-powered development (up to 25 seats)
+
+START TODAY
+
+Everything in Build, plus:
+
+○
+
+$20 of agent usage included per seat each month at API rates
+
+○
+
+Team usage metrics
+
+○
+
+Admin-configurable data controls
+
+○
+
+Bring your own API keys and custom inference endpoints
+
+○
+
+SAML-based SSO
+
+Purchase additional agent usage
+Enterprise
+
+ 
+
+Custom
+
+For organizations needing advanced control, security, and scale
+
+CONTACT SALES
+
+Everything in Business, plus:
+
+○
+
+Unlimited seats
+
+○
+
+Custom shared usage pools and terms
+
+○
+
+Advanced spend controls
+
+○
+
+Enterprise admin controls
+
+○
+
+Enterprise data governance
+
+○
+
+Enterprise Analytics API
+
+○
+
+Multi-admin support
+
+○
+
+Route inference through your own cloud (BYOLLM)
+
+○
+
+Self-hosted cloud agents on your infrastructure
+
+○
+
+Custom codebase indexing
+
+○
+
+Cross-harness agent memory (Research Preview)
+
+○
+
+White-glove onboarding and implementation engineer support
+
+○
+
+Dedicated account manager and a shared Slack channel with your team
+
+	
+
+Free
+
+$0/mo
+
+DOWNLOAD NOW
+	
+
+Build
+
+Starts at $20/mo
+
+START TODAY
+	
+
+Max
+
+Starts at $200/mo
+
+START TODAY
+	
+
+Business
+
+Starts at $50/mo
+
+START TODAY
+	
+
+Enterprise
+
+Custom pricing
+
+CONTACT SALES
+
+Seats
+Team members	10	10	10	25	Unlimited
+Agents
+Included monthly usage	—	$20 (1,500 credits)	$240 (18,000 credits)	$20 (1,500 credits)	Custom
+Access to frontier and open-source models	With purchased credits or your own inference	All frontier + open-source models	All frontier + open-source models	All frontier + open-source models	Custom
+Warp Agent CLI					
+Reload credits	20% above paid-plan rates				Custom
+Auto-reload	—				Custom
+Bring your own API key	Individuals and orgs up to 10 people	Individuals and orgs up to 10 people	Individuals and orgs up to 10 people		
+Custom inference endpoint	Individuals and orgs up to 10 people	Individuals and orgs up to 10 people	Individuals and orgs up to 10 people		
+Inference in your cloud	—	—	—	—	
+Team-managed API keys and endpoints	—	—	—	—	
+Concurrent cloud agents	Limited	20	20	80	Custom
+Cloud agent compute resources	Limited	2 vCPU, 4 GiB RAM	4 vCPU, 8 GiB RAM	8 vCPU, 16 GiB RAM	Custom
+Self-hosting for cloud agents	—	—	—	—	
+Cross-harness agent memory	—	—	—	—	Research Preview
+Indexed codebases	3	40	40	80	Custom
+Files per codebase	3,000	100,000	100,000	100,000	Custom
+MCP support					
+Cloud conversation storage	30 conversations	Unlimited	Unlimited	Unlimited	Custom
+Terminal and Collaboration
+Shared Warp Drive	10 workflows, 3 notebooks	Unlimited	Unlimited	Unlimited	Custom
+Session sharing	Up to 5 shared sessions	Unlimited	Unlimited	Unlimited	Custom
+Admin and Security
+SOC 2 compliance					
+Model provider ZDR					
+Data controls	Individually configured	Individually configured	Individually configured	Admin-configurable	Enterprise data governance
+SAML-based SSO	—	—	—		
+Usage reporting	Individual only	Team aggregate	Team aggregate	Per-user and team aggregate	Advanced per-user + credit-type breakdowns
+Analytics and usage API	—	—	—	—	
+Cost controls	—	Team-wide spend cap	Team-wide spend cap	Team-wide spend cap	Team-wide and per-user spend limits
+Multi-admin controls	—	—	—	—	
+Domain capture	—	—	—	—	
+Individual AI controls					
+Admin-enforced AI controls	—	—	—	—	
+Model selection controls	Individual	Individual	Individual	Individual	Team-configurable
+Support
+Private email support	—				
+Implementation engineer support	—	—	—	—	
+White-glove onboarding and support	—	—	—	—	
+Dedicated account manager	—	—	—	—	
+Shared Slack support channel	—	—	—	—	
+MODELS
+The best for the job
+
+Access Fable 5, Claude Opus 5, GPT-5.6, Gemini 3.1 Pro, GLM 5.2, Kimi K3, and more. Pick the best model for the task. Run different tasks with different models in parallel, or switch between models for a given task, all without leaving your workflow.
+
+INTEGRATIONS
+Agents where you work
+
+Connect Warp to Slack, Linear, and GitHub to get AI help right inside your tools. Mention @Warp to investigate bugs, suggest fixes, or open PRs, all without context-switching. With real-time session links and shared visibility, anyone can see, guide, or review what the agent is doing.
+
+YOUR PRIVACY AND SECURITY
+Transparency and control at every touchpoint.
+Your data, secure and private
+
+Warp is SOC 2 compliant and has Zero Data Retention policies with all contracted LLM providers: no customer data is retained, stored, or used for training. App telemetry can be individually configured and automatically enforced for teams.
+
+Complete control of your agents
+
+Control exactly how much autonomy agents have, from approving every step to allowing full autonomy. Configurable at the individual and enterprise level.
+
+Full transparency
+
+You can read the list of high-level telemetry events sent for app analytics and monitor telemetry in real time with our native Network Log.
+
+EXPLORE PRIVACY AT WARP
+Pricing FAQ
+How is agent usage billed?
+Is the Warp Agent CLI included in my plan?
+Does Warp have a SOC 2 Type II attestation?
+Which AI models can I use in Warp?
+Can I bring my own AI inference?
+What's the difference between bringing my own API key (BYOK) and bringing my own LLM (BYOLLM)?
+Does Warp have Zero Data Retention agreements with LLM providers?
+How can I enable Zero Data Retention in Warp?
+Should I subscribe to the Build plan, Max plan, or the Business plan?
+How can I subscribe to a Warp Business or Enterprise plan?
+Can I purchase additional agent usage on any plan?
+When does included AI usage reset?
+How does additional agent usage work for teams?
+Are there any Warp discounts for students, non-profits, or open-source teams?
+What payment options are available?
+Have more questions?
+
+Talk to our team about which plan is right for you.
+
+CONTACT SALES
+VIEW DOCUMENTATION
+Get Warp Terminal
+
+Get early access to unreleased and experimental features with Warp Preview
+
+Mac
+macOS
+Version 10.14+
+$
+brew install --cask warp
+Linux
+.deb
+Debian, Ubuntu
+.rpm
+Red Hat, Fedora, SUSE
+.deb
+x64
+ARM64
+.rpm
+x64
+ARM64
+.tar.zst
+Arch Linux
+x64
+ARM64
+AppImage
+x64
+ARM64
+Windows
+.exe
+Windows 11/10 x64
+.exe
+Windows 11/10 ARM64
+$
+winget install Warp.Warp
+.exe
+x64
+ARM64
+PRODUCT
+Download
+Pricing
+Enterprise
+Changelog
+Docs
+Open Source
+Status
+RESOURCES
+Blog
+FAQ
+Community
+Support
+Do Things with Warp
+Terminus
+COMPANY
+About
+How We Work
+Careers
+Press
+Contact
+LEGAL
+Privacy Policy
+Terms of Service
+Security
+Cookie Notice
+Data Processing Addendum
+Enterprise License
+CONNECT
+X
+GitHub
+YouTube
+Slack
+LinkedIn
+Product Hunt 4.8★ (79)
+All Rights Reserved © 2026
+SOC 2 Certified
+All Systems Operational

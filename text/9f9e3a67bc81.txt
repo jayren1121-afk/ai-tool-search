@@ -1,0 +1,373 @@
+Skip to main content
+Why OpenAI
+Products
+Solutions
+Resources
+Customers
+Pricing
+Try OpenAI
+Contact sales
+Business Pricing | OpenAI
+Pricing
+
+See pricing for our business and enterprise plans.
+
+ChatGPT
+API
+Powered by our frontier models
+
+Our industry-leading models deliver advanced intelligence and multimodal capabilities.
+
+Choose your processing mode
+Standard
+Batch -50%
+Data residency +10%
+GPT-6 Astra
+
+Our most capable model, built for the hardest end-to-end work
+
+Price
+
+Input:
+$10.00 / 1M tokens
+Cached input:
+$1.00 / 1M tokens
+Output:
+$50.00 / 1M tokens
+
+GPT-6.1 Sol
+
+Built to power complex coding and agentic workflows at scale
+
+Price
+
+Input:
+$2.00 / 1M tokens
+Cached input:
+$0.10 / 1M tokens
+Output:
+$10.00 / 1M tokens
+
+GPT-6 Luna
+
+Our most efficient model for focused, high-volume tasks.
+
+Price
+
+Input:
+$0.10 / 1M tokens
+Cached input:
+$0.01 / 1M tokens
+Output:
+$0.50 / 1M tokens
+
+Pricing above reflects standard processing rates for context lengths under 272K.
+
+Learn more about Batch Processing⁠⁠
+(opens in a new window)
+ and Data residency & Regional Processing⁠
+(opens in a new window)
+.
+
+Explore detailed pricing
+(opens in a new window)
+Compare all features
+Image models
+
+Create, edit, and transform images with models built for high-fidelity generation, precise editing, and production creative workflows.
+
+Choose your processing mode
+Standard
+Batch -50%
+Data residency +10%
+GPT-Image-2.5 Sunburst
+
+For workflows where editing precision matters most.
+
+Price
+
+Image:
+$8.00 / 1M tokens for inputs
+$2.00 / 1M tokens for cached inputs
+$30.00 / 1M tokens for outputs
+Text:
+$5.00 / 1M tokens for inputs
+$1.25 / 1M tokens for cached inputs
+
+GPT-Image-2.5 Flare
+
+Our fastest model for high-quality, everyday image generation.
+
+Price
+
+Image:
+$8.00 / 1M tokens for inputs
+$2.00 / 1M tokens for cached inputs
+$30.00 / 1M tokens for outputs
+Text:
+$5.00 / 1M tokens for inputs
+$1.25 / 1M tokens for cached inputs
+
+Voice models
+
+Build voice experiences with models for natural, real-time conversation and transcription.
+
+Choose your processing mode
+Standard
+Batch -50%
+Data residency +10%
+GPT-Live-1
+
+Our premier model for natural, expressive voice conversations with smooth interruption handling.
+
+Price
+
+$0.05 per minute / $0.00083 per second
+
+GPT-Realtime-2.1
+
+Our most capable model for realtime voice interactions with advanced reasoning built in.
+
+Price
+
+Audio:
+$32.00 / 1M tokens for inputs
+$0.40 / 1M tokens for cached inputs
+$64.00 / 1M tokens for outputs
+Text:
+$4.00 / 1M tokens for inputs
+$0.40 / 1M tokens for cached inputs
+$24.00 / 1M tokens for outputs
+Image:
+$5.00 / 1M tokens for inputs
+$0.50 / 1M tokens for cached inputs
+
+GPT-Realtime-2.1 mini
+
+Our strongest mini model yet for realtime voice interactions with advanced reasoning built in.
+
+Price
+
+Audio:
+$10.00 / 1M tokens for inputs
+$0.30 / 1M tokens for cached inputs
+$20.00 / 1M tokens for outputs
+Text:
+$0.60 / 1M tokens for inputs
+$0.06 / 1M tokens for cached inputs
+$2.40 / 1M tokens for outputs
+Image:
+$0.80 / 1M tokens for inputs
+$0.08 / 1M tokens for cached inputs
+
+GPT-Live-Transcribe
+
+A streaming speech-to-text model that transcribes speech live as the speaker talks.
+
+Price
+
+$0.017 per minute / $0.00028 per second
+
+GPT-Transcribe
+
+A speech-to-text model for asynchronous and batch workloads.
+
+Price
+
+$0.0045 per minute / $0.00008 per second
+
+GPT-Realtime-Translate
+
+A model that translates speech in real time and keeps pace with the speaker.
+
+Price
+
+$0.034 per minute / $0.00057 per second
+
+Tools
+
+Extend model capabilities with built-in tools for retrieval, execution, and external data access.
+
+Web search
+
+Retrieve up-to-date information from the web to ground model responses.
+
+Price
+
+$10.00 / 1k calls
+Search content tokens are free.
+
+Containers
+
+Run code and tools in secure, scalable environments alongside your models.
+
+Price
+
+Now:
+1 GB for $0.03 / 64GB for $1.92 per container
+Starting March 31, 2026:
+1 GB for $0.03 / 64GB for $1.92 per 20-minute session per container
+
+Service tiers
+
+Balance performance, predictable costs, and availability based on your needs.
+
+Batch API
+
+Save 50% on inputs and outputs with the Batch API and run tasks asynchronously over 24 hours.
+
+Learn more
+(opens in a new window)
+Fast mode
+
+Offers reliable, high-speed performance with the flexibility to pay-as-you-go.
+
+Learn more
+Flex processing
+
+Provides lower costs for requests in exchange for slower response times and occasional resource unavailability. Ideal for non-production or lower priority tasks.
+
+Learn more
+(opens in a new window)
+Enterprise offerings
+
+Contact our sales team to learn more about Data residency⁠
+(opens in a new window)
+, Scale Tier⁠ and Reserved Capacity⁠ designed for cutting-edge customers running larger workloads.
+
+Contact sales
+FAQ
+Which model should I use?
+
+We recommend that developers use our large and mini GPT models for everyday tasks. Our large GPT models generally perform better on a wide range of tasks, while our mini GPT models are fast and inexpensive for simpler tasks.
+
+Our large and mini reasoning models are ideal for complex, multi-step tasks and STEM use cases that require deep thinking about tough problems. You can choose the mini reasoning model if you’re looking for a faster, more inexpensive option.
+
+We recommend experimenting with all of these models in the Playground⁠⁠
+(opens in a new window)
+ to explore which models provide the best price performance trade-off for your usage.
+
+Do you offer an enterprise package or SLAs?
+
+We offer different tiers of access to our enterprise customers that include SLAs, lower latency, and more. Please contact our sales team⁠ to learn more.
+
+Will I be charged for API usage in the Playground?
+
+Yes, we treat Playground usage the same as regular API usage. You will be billed at the per-token input and output prices mentioned above.
+
+How will I know how many tokens I’ve used each month?
+
+A token is a mathematical representation of natural language. Log in to your account to view your usage tracking dashboard⁠
+(opens in a new window)
+. This dashboard will show you how many tokens you’ve used during the current and past billing cycles.
+
+How can I manage my spending on the API platform?
+
+You can set a monthly budget in your billing settings⁠⁠
+(opens in a new window)
+, after which we’ll stop serving your requests. There may be a delay in enforcing the limit, and you are responsible for any overage incurred. You can also configure an email notification threshold to receive an email alert once you cross that threshold each month. We recommend checking your usage tracking dashboard⁠
+(opens in a new window)
+ regularly to monitor your spend.
+
+For customers managing work with Projects, you can set and manage billing restrictions per project⁠
+(opens in a new window)
+⁠ in the Dashboard.
+
+Is access to the API included in ChatGPT Plus, Business, Enterprise or Edu?
+
+No, OpenAI APIs are billed separately from ChatGPT Plus, Business, Enterprise and Edu. ChatGPT subscription pricing can be found at openai.com/chatgpt/pricing/⁠.
+
+How is pricing calculated for images?
+
+Images are converted into tokens and charged per token. Text models price image tokens at standard text token rates, while GPT Image and gpt-realtime uses a separate image token rate. Models like gpt-4.1-mini, gpt-4.1-nano, and o4-mini convert images into tokens differently. Learn more in our docs⁠
+(opens in a new window)
+.
+
+Start creating with OpenAI’s powerful models.
+Get started
+(opens in a new window)
+Contact sales
+Research
+Research Index
+Research Overview
+Economic Research
+Latest Advancements
+GPT-6.1 Sol
+GPT-6 Astra
+GPT-5.6
+GPT-5.5
+Safety
+Safety Approach
+Deployment Safety
+(opens in a new window)
+Security & Privacy
+Trust & Transparency
+Products
+ChatGPT
+(opens in a new window)
+ChatGPT Business
+(opens in a new window)
+ChatGPT Enterprise
+(opens in a new window)
+ChatGPT for Education
+(opens in a new window)
+Codex
+Dots
+(opens in a new window)
+Release Notes
+API Platform
+Overview
+API Log In
+(opens in a new window)
+Docs
+(opens in a new window)
+Business
+Overview
+Solutions
+Resources
+Plugins
+Customer Stories
+Partner Network
+Contact Sales
+Developers
+Apps SDK
+(opens in a new window)
+Open Models
+Docs
+(opens in a new window)
+Resources
+(opens in a new window)
+Developer Forum
+(opens in a new window)
+Company
+About Us
+Our Charter
+Careers
+News
+Support
+Help Center
+(opens in a new window)
+OpenAI Status
+(opens in a new window)
+More
+Stories
+Academy
+Supply Co.
+Livestreams
+Podcast
+RSS
+Terms & Policies
+Terms of Use
+Privacy Policy
+Other Policies
+(opens in a new window)
+(opens in a new window)
+(opens in a new window)
+(opens in a new window)
+(opens in a new window)
+(opens in a new window)
+(opens in a new window)
+OpenAI © 2015–2026
+Your privacy choices
+English
+United States

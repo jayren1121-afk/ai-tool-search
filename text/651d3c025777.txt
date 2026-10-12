@@ -1,0 +1,355 @@
+Skip to main content
+Platform
+Resources
+Solutions
+Customers
+Pricing
+Careers
+Log in
+Get a Demo
+Zero Click World Tour
+Join us in London, Sydney, and Singapore.
+Meet your AI Marketer
+
+Research, write, report, and collaborate with a superintelligent teammate who knows your brand.
+
+For brands
+For agencies
+Trial
+
+Free
+
+For companies who want to trial Profound before getting a demo
+
+Limited AI Marketer credits
+50 prompts run daily for 7 days
+ChatGPT, Gemini, Google AI Overviews
+Get Started
+Enterprise
+
+Custom
+
+Tailored packages
+
+For companies operationalizing AI Search insights and running marketing agents at scale
+
+AI Marketer credits for your whole team
+Tailored prompt tracking plan
+Up to 9 Answer Engines tracked
+Dedicated support
+SSO/SAML + SOC 2 compliance
+Get a Demo
+The brands we empower
+
+Feature
+
+Trial
+
+Free
+
+Get Started
+Enterprise
+
+Custom
+
+Get a Demo
+
+AI Marketer
+
+Your brand's superintelligent teammate
+
+Credits
+
+AI Marketer runs on credits
+
+Limited
+
+Custom
+
+Agents
+
+Build and reuse workflows for your team’s recurring marketing work
+
+Yes
+
+Yes
+
+Context Manager
+
+Power your AI Marketer with knowledge about your brand
+
+Yes
+
+Yes
+
+Opportunities
+
+AI Marketer proactively identifies opportunities for your brand
+
+Limited
+
+Unlimited
+
+Projects
+
+Shared spaces to work with your teammates
+
+No
+
+Yes
+
+Profound Sheets
+
+Run Agents at scale
+
+Yes
+
+Yes
+
+Answer Engine Insights
+
+Analyze how your brand and competitors appear in AI platforms
+
+Prompts tracked
+
+50 unique prompts
+
+Custom
+
+Prompt Frequency
+
+Daily for 7 days
+
+Daily
+
+Answer Engines tracked
+
+ChatGPT
+
+Gemini
+
+Google AI Overviews
+
+Capability for:
+
+ChatGPT
+
+Perplexity
+
+Google AI Mode
+
+Gemini
+
+Microsoft Copilot
+
+DeepSeek
+
+Anthropic Claude
+
+Google AI Overviews
+
+Exa Search
+
+Languages
+
+1
+
+Custom
+
+Regions
+
+1
+
+Custom
+
+ChatGPT Shopping
+
+No
+
+Yes
+
+Agent Analytics
+
+Track AI-sourced traffic and attribution across your domains
+
+Domains tracked
+
+Unlimited
+
+Unlimited
+
+Integrations
+
+Akamai
+
+AWS
+
+Cloudflare
+
+Fastly
+
+Google Analytics
+
+Google Cloud Platform
+
+Netlify
+
+Vercel
+
+Wordpress
+
+Custom with options for:
+
+Akamai
+
+AWS
+
+Cloudflare
+
+Fastly
+
+Google Analytics
+
+Google Cloud Platform
+
+Netlify
+
+Vercel
+
+Wordpress
+
+Prompt Volumes
+
+See what users are prompting AI Answer Engines
+
+Searches
+
+5
+
+Custom
+
+Data
+
+Power your reporting and workflows
+
+History
+
+None
+
+All time
+
+Exports
+
+None
+
+CSV, JSON
+
+API
+
+None
+
+Yes
+
+Organization
+
+Services for your team
+
+Seats
+
+Unlimited
+
+Unlimited
+
+Support
+
+None
+
+Custom with options for:
+
+Email
+
+Dedicated Slack
+
+Dedicated Specialist with 24 hour SLA
+
+SSO
+
+No
+
+Yes
+
+"We chose Profound because it seemed like the deepest and most complete tool in the market. We tried the others, and Profound was immediately the obvious choice"
+
+Skye Scofield
+Marketing Lead at Statsig
+Frequently asked questions
+Is Profound only for AI search?
+How does Profound measure AI visibility?
+Can I customize the prompts Profound runs?
+What happens if I exceed my prompt limit?
+Should I use Trial or Enterprise?
+How long does setup take?
+How does Profound Agents pricing work?
+What are credits?
+How should I estimate the number of credits I need?
+What happens if I go over my credit allotment?
+How can I track my credit usage?
+
+Platform
+
+Aim
+Projects
+Agents
+Documents
+Prompt Volumes
+Agent Analytics
+Answer Engine Insights
+Pages
+Shopping
+
+Resources
+
+Articles
+Events
+Webinars
+Help Center
+Customers
+Blog
+Brand Assets
+Engineering Blog
+AEO Report
+Integrations
+
+Company
+
+Enterprise
+Pricing
+Careers
+Newsroom
+Contact us
+Media
+Vulnerability Reporting
+AI Instructions
+Legal
+All services are online
+
+Solutions
+
+AEO Teams
+Content Teams
+PR & Brand Teams
+Agencies
+
+Data
+
+Profound Index
+Research Hub
+
+Social
+
+Twitter
+Linkedin
+
+© 2026 Profound
+
+All rights reserved.

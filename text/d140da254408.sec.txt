@@ -1,0 +1,81 @@
+POPULAR
+---
+STANDARD
+---
+$20/month
+---
+flat, no per-seat charge
+---
+One flat price for your whole team, up to 50 seats with $20 of usage included every month.
+---
+Try Cosmos
+$20/mo of usage across LLM, Context Engine & compute
+Up to 50 seats included
+Cosmos
+NEW
+---
+No AI training allowed
+---
+BUSINESS
+---
+$100/month
+---
+flat, no per-seat charge
+---
+One flat price for your whole team, up to 50 seats with $100 of usage included every month.
+---
+Try Cosmos
+$100/mo of usage across LLM, Context Engine & compute
+Up to 50 seats included
+Cosmos
+NEW
+---
+Contact sales
+Cosmos
+---
+Bespoke usage limits
+Volume-based annual discounts
+SSO, OIDC, & SCIM support
+---
+Compare plans
+---
+STANDARD
+---
+$20/month
+---
+flat, no per-seat charge
+---
+BUSINESS
+---
+$100/month
+---
+flat, no per-seat charge
+---
+ENTERPRISE
+---
+Custom
+---
+$20/mo of usage included
+Top-ups, pay as you go
+Up to 50 seats
+Context Engine
+$100/mo of usage included
+Top-ups, pay as you go
+Up to 50 seats
+Context Engine
+---
+Frequently asked questions
+01
+How does usage work on the Standard and Business plans?
+Standard includes $20 of usage every month, and Business includes $100. Usage is measured in dollars across LLMs, Context Engine, and compute:
+LLM: model inference, billed at the provider's public API list price
+Service fee: a flat 40% fee on LLM usage (no fee on compute)
+Compute: Cosmos compute time
+---
+Enterprise: Full SLA coverage with dedicated support on top of our standard commitments.
+Trials and beta use: Community support only; our SLA does not apply to trials or beta usage.
+Read the full SLA and Support Policy →
+---
+Press Kit
+Contact Sales
+Contact Support

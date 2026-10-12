@@ -1,0 +1,55 @@
+Blog
+Free trial
+Login
+---
+Monthly
+Yearly -20%
+Bronze plan
+---
+23
+/mo
+2 projects/folders
+---
+5 AI-monitored questions (Standard)
+15,000 AI credits
+Standard AI templates
+---
+45
+/mo
+5 projects/folders
+---
+7 AI-monitored questions (Standard)
+30,000 AI credits
+Standard AI templates
+---
+69
+/mo
+10 projects/folders
+---
+10 AI-monitored questions (Standard)
+45,000 AI credits
+Advanced + Custom AI templates
+---
+93
+/mo
+25 projects/folders
+---
+15 AI-monitored questions (Standard)
+60,000 AI credits
+Advanced + Custom AI templates
+---
+117
+/mo
+50 projects/folders
+---
+20 AI-monitored questions (Standard)
+75,000 AI credits
+Advanced + Custom AI templates
+---
+100
+250
+500
+1 000
+$9 / month
+---
+AI responses monitored in models:

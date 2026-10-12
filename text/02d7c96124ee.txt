@@ -1,0 +1,160 @@
+SheetAI App
+SheetAI
+Docs
+Pricing
+Blog
+Templates
+Compare
+Tools
+English
+▼
+Install Add-on
+SheetAI Pricing
+
+Free with your own API key — or hosted plans. Credits available below if you only need bulk runs.
+
+USD ($)
+INR (₹) · UPI
+BYOK
+Free
+
+Bring your own API key — unlimited AI in Sheets at your model cost
+
+$0forever
+
+Install free
+How to add your API key
+What's included
+Use your own OpenAI, Claude, Gemini, Grok keys
+Replicate: bulk images, video & music in Sheets
+Unlimited SHEETAI calls (via your key)
+Unlimited formula generation
+You only pay your AI / Replicate bill
+·
+Starter
+
+Hosted usage without managing keys — light daily use
+
+$12/month
+
+Get Starter
+What's included
+No API key required (hosted AI)
+Up to ~500 AI runs / month
+AI formulas & =SHEETAI functions
+BYOK + Replicate media models
+Formula generator (sidebar)
+Email support
+MOST POPULAR
+Pro
+
+Hosted power use + bulk media workflows for marketers
+
+$29/month
+
+Get Pro
+What's included
+No API key required (hosted AI)
+Higher AI usage (soft unlimited)
+Bulk image / video / music via Replicate
+Bulk fills, classify & summarize
+BYOK multimodel (OpenAI, Claude, Gemini, Grok)
+Priority support
+
+Save ~2 months
+
+Pro Yearly — $290/year
+
+Same as Pro monthly, billed once a year.
+
+Get Pro Yearly
+
+OR PAY AS YOU GO
+
+Credit packs
+
+One-time purchase for bulk jobs — no subscription. Like GPT for Work packs.
+
+From $29
+
+$29
+Up to 97M tokens
+Buy
+$79
+Up to 260M tokens
+Buy
+$139
+Up to 460M tokens
+Buy
+$299
+Up to 1B tokens
+Buy
+
+Need a team / domain license? Email support@sheetai.app
+
+Refund Policy
+“This is terrific! Very easy to use, extremely powerful. It's still a little rough around the edges, but with a little patience a great deal can be done with it.“
+mikeil - wrote this on 4 Jan 2022 on Google Workspace
+“I have utilized SheetAI to generative AI content for marketing purposes and have seen positive results. I believe it could potentially be beneficial for a range of uses and recommend giving it a try.“
+Eli Elad Cohen - wrote this on 28 Dec 2022 on Google Workspace
+“Wow, incredibly powerful. Works perfectly after some issues at first, but the developer was tireless in helping me sort it out.“
+Ralph Mettier (rmettier) - wrote this on 18 Dec 2022 on Google Workspace
+Frequently asked questions
+How to Manage Subscription?
+tell me more about this "use your own OpenAI API key" for $0.02 for 750 words?
+What do I actually receive after I purchase a license?
+Can someone else order the license on my behalf?
+What are tokens and how do they work?
+How is support provided and what does it include?
+What constitutes a user in terms of pricing?
+Does your company look at or share my data
+Can't find an answer to your question?
+SheetAI
+🪄
+
+AI with Brain 🧠 in your Google Sheets. Describe what you want in plain English, and watch the magic happen in your spreadsheet! ✨
+
+We also built
+MagicForm - GPT For Forms
+MagicSlides - PPT AI
+Chat with PDF
+Chat with Video
+BananaSlides - Presentation by AI
+SecondBrain - AI Memory for Mac
+BuildCheap — AI app builder
+Product
+Features
+Pricing
+Release Notes
+Google Sheets Addon
+Resources
+Get Started
+Help Center
+Blog
+Templates
+Compare
+Popular Blogs
+Google Sheets Cells Expand to Fit Text
+Rename a Column in Google Sheets
+Group Rows in Google Sheets
+Count Checkboxes in Google Sheets
+Quick Links
+Install Add-on
+Manage Subscription
+Join Affiliate Program
+Company
+About
+Send Mail Link
+YouTube
+TikTok
+Facebook
+Instagram
+Twitter
+
+© 2026 IndianAppGuy Tech Pvt Ltd
+
+·
+Privacy Policy
+Terms of Service
+Refund Policy
+GDPR

@@ -1,0 +1,52 @@
+New Chat
+
+Home
+
+About
+
+Privacy
+
+Help
+
+Settings
+
+Feedback
+
+Bug Report
+
+Community 
+
+About Andi AI 
+
+Download
+
+Made with ❤️
+
+v0.8.23
+
+Hello! I'm Andi, your friendly search assistant. What are you looking for? 🤗
+
+Apologies for search errors during recent upgrades! Please reload if any problems 🤗
+
+Getting Started
+
+Andi is an AI search agent that can answer anything, find everything, and create great content for you. It's like your AI brain for the web 🚀
+
+Accurate. Private and anonymous. No ads, spam or tracking.
+
+ Install Andi App Install Chrome Extension
+Get Instant, Accurate Answers
+Ask anything and get concise, reliable answers. Powered by cutting-edge AI that understands content deeply.
+Discover New Ways to Search
+Search smarter with AI-powered results. No more spam or ads. No tracking. Find exactly what you need, faster.
+Supercharge Your Writing
+Unlock your creativity with AI-assisted research and writing. Produce factual, high-quality content, with sources.
+Explore the Best of the Web
+Discover fascinating content with visual search results and smart summary cards. Fall in love with the internet all over again.
+Go to stackoverflow pages. Try 'go stackoverflow python tuples'
+Try these examples
+Try 'go instagram'. Allow popups for me to open it.
+Go to the Go game website. Try 'go usgo'
+Try 'go amazon'. Allow popups for me to open it.
+Ask questions. Try "when did Biden first become a Senator?"
+Go direct to website content. Try 'go youtube cute pandas'

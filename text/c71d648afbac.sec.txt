@@ -1,0 +1,134 @@
+Plans for teams of any size
+Get access to each LangSmith service - pay for what you use.
+Developer
+For solo users getting started.
+$0 / seat per month
+then pay as you go
+Start for free
+Up to 5k base traces / mo, then pay-as-you-go
+Community support
+1 seat
+Plus
+For teams building and deploying agents.
+$39 / seat per month
+then pay as you go
+Sign up
+Up to 10k base traces / mo, then pay-as-you-go
+Access to Deployment, Engine, and more
+---
+For teams with advanced hosting, security, and support needs.
+Custom pricing
+then pay as you go
+Contact sales
+Self-hosted and hybrid deployment options
+Custom SSO, ABAC, and RBAC
+Support SLA
+Custom seats and workspaces
+Small team just getting started?
+We offer discounted rates and credits for VC-backed startups. Get up to $10,000 in credits.
+LangSmith for Startups
+LangSmith Usage Calculator
+Estimate your monthly usage
+Tell us about your agent. Pay-as-you-go.
+LSU
+LangChain Standard Units. $1.00 / LSU
+Your agent stack
+Observability & Evals
+Engine
+---
+Know what your agents are really doing.
+Traces per month
+5,000
+---
+1m
+Seats
+−
++
+$39 / seat / mo · includes 10K traces total · 0.005 LSU / additional trace
+SUBTOTAL
+$39/ mo
+100% OF TOTAL
+Add product
+MONTHLY TOTAL
+LSU
+—
+$39 / mo
+---
+Estimate only. Actual LSU consumption varies with the work your agents perform.
+---
+Copy Estimate Link
+Contact Sales
+Get Started
+FEATURES
+Developer
+$0 / seat
+Plus
+$39 / seat
+Enterprise
+Custom pricing
+Pricing
+Pricing and list details per metric by plan. Use the usage calculator above to estimate your monthly bill.
+Users
+Maximum of 1 seat (free)
+Add unlimited seats $39 per seat/month
+Custom
+Trace volume  (Observability & Evaluation)
+5k base traces / mo included
+Pay as you go thereafter ⓘ
+10k base traces / mo included
+Pay as you go thereafter ⓘ
+---
+N/A
+1 free Serverless (Small) deployment included.
+Additional Serverless and Dedicated deployments available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found here. Metering rates as follows:
+---
+Storage · 0.000123 LSU / GiB-hr
+All rates billed per second.
+Includes 8 LSU of Sandbox usage / mo for free.
+Custom
+LLM Gateway
+Pay-as-you-go model usage via Gateway Credits. ⓘ
+LLM Gateway controls included. ⓘ
+Pay-as-you-go model usage via Gateway Credits. ⓘ
+Custom
+---
+View Gateway events in LangSmith traces
+Use models with Gateway Credits
+Hosting options
+---
+Billing
+Monthly, self-serve
+Monthly, self-serve
+Annual invoice
+Custom Terms
+---
+Our Developer plan is a great choice for personal projects. You will have 1 free seat with access to LangSmith (5k base traces/month included).
+---
+When will I be billed?
+---
+Yes, Developer plan users can easily upgrade to the Plus plan on the Plans and Billing page. For the Enterprise plan, please contact our sales team to discuss your needs.
+---
+What is an LSU?
+---
+LangChain Standard Units ("LSUs") are the standard unit of measure for usage consumption across all LangSmith products and features. The number of LSUs consumed depends on each product's metering rate and usage. 1 LSU = $1.
+---
+LangSmith Observability & Evaluation Questions
+What is a trace? Can it contain multiple events?
+---
+LangSmith Deployment Questions
+Does LangSmith Deployment include any free deployments?
+---
+Developer: 7 LSUs included per organization each month. After the allowance is used, Fleet pauses new runs until the allowance resets or the organization upgrades to Plus.
+Plus: 37 LSUs included per organization each month. Additional usage is billed.
+What are Fast, Pro, and Max?
+---
+LangSmith Engine Questions
+How is LangSmith Engine priced?
+---
+Engine is metered in LSUs (LangChain Standard Units), which are consumed during each Engine run. 1 LSU costs $1.
+---
+What does a LangChain Standard Unit (LSU) represent?
+---
+Plus plans: LSUs are an additional charge on top of your monthly license fee and any other product usage.
+---
+Enterprise plans: LSUs are charged against your committed LangChain credits.

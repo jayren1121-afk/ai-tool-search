@@ -1,0 +1,287 @@
+Skip to content
+Product
+Solutions
+Enterprise
+Pricing
+Docs
+Open app
+Talk to sales
+Pricing
+
+A path for every team at your company to build with AI.
+
+Monthly
+Annual
+·
+Save 2 months
+Monthly
+Annual
+·
+Save 2 months
+Free
+
+For getting started
+
+$0
+
+Free forever, no card
+
+Get started
+
+What you get
+
+1,000 credits a month
+Unlimited flows
+Up to 5 users
+Chat to automation
+Flows, Agents, Tables
+MCPs and API access
+Plus
+
+For daily builders
+
+$20
+
+flat per month
+
+Get started
+
+Everything in Free, plus
+
+10× the Free plan
+Then pay as you go
+Up to 5 users
+Bring your own AI keys
+Team
+
+For growing teams
+
+$200
+
+flat per month
+
+Get started
+
+Everything in Plus, plus
+
+5× the Plus plan
+Unlimited projects
+25 users included
+SSO and standard roles
+Global connections
+Email support
+Ultimate
+
+For enterprise scale
+
+Custom
+
+We shape it with you
+
+Talk to sales
+
+Everything in Team, plus
+
+Credits sized to you, yearly
+Dedicated workers
+Execution priority
+SCIM and custom roles
+Releases and Git Sync
+Audit logs and secrets
+Dedicated support
+Embed
+From $36k a year
+
+Put a flow builder, AI agents and 760+ integrations inside your own product, under your own brand.
+
+White-label builder
+·
+One SDK
+·
+Your pieces and templates
+Talk to sales
+Enterprise control
+Custom
+
+Run Activepieces on your own servers, or fully air-gapped, on your security team's terms.
+
+SSO and SCIM
+·
+Custom RBAC
+·
+Audit logs
+·
+Secret managers
+Talk to sales
+Everything you need to pick the right plan for your team.
+Features	
+Free
+Get started
+	
+Plus
+Get started
+	
+Team
+Get started
+	
+Ultimate
+Talk to sales
+
+				
+Pricing				
+Price
+Billed monthly
+	$0	$20/mo	$200/mo	Talk to us
+Hosting	Cloud or on-prem	Cloud or on-prem	Cloud or on-prem	Cloud or on-prem
+How to buy	Self-serve	Self-serve	Self-serve	Sales
+Credits				
+Credits included	1,000 a month	10,000 a month	50,000 a month	Sized with you
+Credit reset	Daily	Monthly	Monthly	Yearly
+Going over	Waits for tomorrow	$0.007/credit	$0.007/credit	Volume rates
+Limits				
+Users	Up to 5	Up to 5	25 users	Unlimited
+Flows	Unlimited	Unlimited	Unlimited	Unlimited
+Products				
+Flows	
+	
+	
+	
+
+Agents and Chat	
+	
+	
+	
+
+Tables	
+	
+	
+	
+
+MCPs	
+	
+	
+	
+
+Projects	—	—	Unlimited	Unlimited
+Capabilities				
+Bring your own AI keys	—	
+	
+	
+
+Global connections	—	—	
+	
+
+Team analytics	
+	
+	
+	
+
+API and SDK	
+	
+	
+	
+
+Releases and Git Sync	—	—	—	
+
+Priority execution	—	—	—	
+
+Per-project execution priority	—	—	—	
+
+Governance				
+SSO	—	—	
+	
+
+Standard roles	—	—	
+	
+
+SCIM	—	—	—	
+
+Custom RBAC	—	—	—	
+
+Secret managers	—	—	—	
+
+Audit logs	—	—	—	
+
+Event streaming	—	—	—	
+
+Private pieces	—	—	—	
+
+Credit usage by project	—	—	—	
+
+Branding	—	—	—	
+
+Platform governance	—	—	—	
+
+Custom terms and invoicing	—	—	—	
+
+Support				
+Support by humans	Community	Community	Email	Dedicated
+AI support	
+	
+	
+	
+Pricing questions.
+Is the free plan really free?
+
+Yes. No card, no time limit. It is meant for exploring the product and building lightweight automations. You get a fresh 1,000 credits every month, so if you use them all, you wait until the next month.
+
+What happens when I run out of credits?
+Why do AI steps cost more than one credit?
+Can I cancel, change plans, or add seats anytime?
+What payment methods do you accept?
+Why would I pay if I can self-host for free?
+What if my tool is not supported?
+Is my data secure?
+Pick a plan, and change it whenever.
+
+Start free with no card. Move up when a flow earns it, and run it on our cloud or your own servers either way.
+
+Start building
+Talk to sales
+Free to start
+No credit card
+Open source
+Product
+Workflow Builder
+AI Agents
+Tables
+Chat
+Pricing
+Build
+Docs
+Pieces
+MCP
+Embed
+GitHub
+Business teams
+Marketing
+Sales
+Customer Support
+Operations
+Finance
+Technical teams
+Engineering
+IT
+Internal Tools
+OSS Developers
+Company
+Blog
+Resources
+Support forum
+Talk to sales
+Security
+OSS friends
+Backed company
+
+© 2026 Activepieces. All rights reserved.
+
+Terms
+Privacy
+Cookie settings
+
+Cookies
+
+We use cookies to improve your experience and make the site better. Decline and analytics stay anonymous. Privacy policy.
+
+Decline
+Accept

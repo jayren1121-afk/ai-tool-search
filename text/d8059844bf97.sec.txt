@@ -1,0 +1,56 @@
+Log in
+Try for free
+Book a call
+---
+FOR DEVELOPERS
+---
+Start
+---
+2 credits + an inbound number ($15/mo value).
+---
+$0.14
+/min
+---
+$0 platform fee. No card required.
+---
+Start building
+$0.05/transfer min
+10 concurrent calls
+100 calls/day
+10 knowledge bases
+---
+Build
+---
+Lower per-minute rates. Higher rate limits.
+---
+$0.12
+/min
+---
+$299/month platform fee
+---
+Start building
+$0.04/transfer min
+50 concurrent calls
+2,000 calls/day
+50 knowledge bases
+---
+Compare plans
+Start	Build	Enterprise
+USAGE + SCALE
+Talk Time Rate	$0.14/min	$0.12/min	Custom
+Transfer Time Rate	$0.05/min	$0.04/min	Custom
+Daily Cap	100 calls	2,000 calls	Unlimited
+Hourly Cap	100 calls	1,000 calls	Unlimited
+Concurrent calls	10 calls	50 calls	Custom
+---
+Forward deployed engineers	—	—
+Frequently asked questions
+How do I get started?
+---
+Sign up on the Start plan and you get two credits plus an inbound number valued at $15/month, with no card required.
+---
+How does Bland's pricing compare to platforms like Vapi or Retell?
+---
+Their advertised per-minute rate is the platform fee only. Vapi lists $0.05/min and Retell lists about $0.07/min for their voice infrastructure. You then pay separately for the LLM, speech-to-text, text-to-speech, and telephony. Adding typi
+---
+Can we bring our own telephony provider?

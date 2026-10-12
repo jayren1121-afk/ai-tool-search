@@ -1,0 +1,438 @@
+Skip to content
+Search
+⌘
+K
+Models
+Benchmarks
+Chat
+Rankings
+Apps
+Ori
+Pricing
+Docs
+Sign Up
+ElevenLabs launch offer: every ElevenLabs model is 50% off through October 19, 2026. See ElevenLabs models
+Dismiss
+OPENROUTER PRICING
+Pricing
+
+Plans for indie hackers, AI native startups, growing teams, and enterprises
+
+Get started
+Talk to sales
+	Free	Standard
+Pay-as-you-go
+	Business
+Pay-as-you-go
+	Enterprise
+
+	Get started for free	Get started	Upgrade to Business	Contact sales
+Platform fees	
+Free
+N/A	
+Standard
+5.5%	
+Business
+8%	
+Enterprise
+Fee discounts available
+
+Models
+Explore all models →
+	
+Free
+25+ free models	
+Standard
+500+ models	
+Business
+500+ models	
+Enterprise
+500+ models
+
+Providers
+Explore all models →
+	
+Free
+4 free providers	
+Standard
+80+ providers	
+Business
+80+ providers	
+Enterprise
+80+ providers
+
+Chat and API Access
+Try chat now →
+	
+Free
+Yes
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+Activity logs & export	
+Free
+Yes
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Auto-routing, preferred vendor selections
+Learn more →
+	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+Budgets & Spend Controls	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Advanced notifications
+Learn more →
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Prompt Caching
+Learn more →
+	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Management API key
+Learn more →
+	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Admin Controls
+Enterprise features →
+	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Data Policy-Based Routing
+Model & provider policies
+	
+Free
+No
+	
+Standard
+Yes
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+EU in-region routing
+Learn more →
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+US in-region routing
+Learn more →
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Workload Identity Federation
+Learn more →
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+Yes
+	
+Enterprise
+Yes
+
+
+Workspace limit
+Learn more →
+	
+Free
+5	
+Standard
+5	
+Business
+1,000	
+Enterprise
+Custom
+DPA	
+Free
+Via Terms of Service	
+Standard
+Via Terms of Service	
+Business
+Via Terms of Service, signed copy on request	
+Enterprise
+Customizations available
+
+Managed Policy Enforcement
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+No
+	
+Enterprise
+Yes
+
+SSO/SAML	
+Free
+No
+	
+Standard
+No
+	
+Business
+No
+	
+Enterprise
+Yes
+
+Contractual SLAs	
+Free
+No
+	
+Standard
+No
+	
+Business
+No
+	
+Enterprise
+Yes
+
+Payment options	
+Free
+No
+	
+Standard
+Credit card, crypto & more	
+Business
+Credit card, crypto & more	
+Enterprise
+Invoicing options
+
+BYOK Limits
+Learn more →
+	
+Free
+No
+	
+Standard
+$25,000 of list price inference / month with no fees, 5% fee after	
+Business
+$25,000 of list price inference / month with no fees, 5% fee after	
+Enterprise
+Custom
+Rate limits	
+Free
+50 requests/day	
+Standard
+Passthrough from the provider(s)	
+Business
+Passthrough from the provider(s)	
+Enterprise
+Higher allowances available
+Support	
+Free
+Community support	
+Standard
+Email support	
+Business
+Email support	
+Enterprise
+Dedicated support team
+Frequently Asked Questions
+Billing and Pricing
+How are tokens billed?
+Do you mark up provider pricing?
+How is billing structured for Standard, Business, Enterprise and BYOK?
+Are failed or fallback attempts billed?
+Do you offer volume discounts or annual plans?
+Are streaming responses billed differently?
+What payment methods do you accept?
+Are taxes (VAT/GST) included in prices?
+Is there a minimum spend or lock-in on Standard?
+What does the Business plan fee apply to?
+Do I need to talk to sales to upgrade to Business?
+Usage and Rate Limits
+Do you enforce rate limits?
+Can I separate environments (dev/staging/production)?
+Do you enforce platform rate limits?
+Routing and Latency
+Can I make sure to send API requests in specific regions?
+Does routing affect latency?
+What happens if a model is deprecated or pricing changes?
+Can I pin specific model versions?
+Privacy and Security
+Do you train on customer data?
+Do you support SSO?
+Models and Features
+How do I migrate from OpenAI/Anthropic?
+Do you support function calling/tools?
+Reliability and Uptime
+What happens if a provider is down or a model errors?
+Where can I check uptime and incidents?
+Support
+What does the Enterprise dedicated support team include?
+Ready to get started?
+
+Join thousands of developers building with OpenRouter
+
+Sign up for free
+Contact sales
+Footer
+© 2026 OpenRouter, Inc
+Product
+Chat
+Rankings
+Benchmarks
+Apps
+Discover
+Models
+Ori
+Collections
+Providers
+Tools
+Pricing
+Business
+Enterprise
+Labs
+Company
+About
+Blog
+Careers
+Hiring
+Privacy
+Terms of Service
+Trust Center
+Support
+Works With OR
+Data
+Brand
+Developer
+Documentation
+API Reference
+Developer Platform
+Status
+AI Site Map
+Connect
+Discord
+GitHub
+LinkedIn
+X
+YouTube
+Join the OpenRouter newsletter
+
+Model usage data, product updates, and research reports. One email each week.
+
+Subscribe
+
+By subscribing you agree to receive the OpenRouter newsletter: model usage data, product updates, and research reports, about one email a week. Unsubscribe anytime via the link in every email. See our Privacy Policy.

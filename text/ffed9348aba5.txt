@@ -1,0 +1,282 @@
+Products
+Resources
+Community
+Customers
+Enterprise
+Pricing
+Request A Trial
+Get Started
+Pricing
+
+Start creating realtime 3D design experiences for free. Upgrade for extra features and collaboration with your team.
+
+Yearly
+SAVE UP TO 20%
+Monthly
+Hobby
+$12$15 / per seat / month
+Billed annually
+Save $36/seat/yr · 2 months free
+2,000 monthly credits · Included
+3,000 monthly credits · +$48 / year
+4,000 monthly credits · +$96 / year
+5,000 monthly credits · +$144 / year
+6,000 monthly credits · +$192 / year
+7,000 monthly credits · +$240 / year
+8,000 monthly credits · +$288 / year
+9,000 monthly credits · +$336 / year
+10,000 monthly credits · +$384 / year
+Upgrade
+
+Everything on Free, plus:
+
+Unlimited 3D & 2D files
+Upload video
+
+3D Files
+
+No watermark on web exports
+Higher resolution image exports
+Spline’s material & audio library
+Pro
+Popular
+$25$30 / per seat / month
+Billed annually
+Save $60/seat/yr · 2 months free
+3,000 monthly credits · Included
+4,000 monthly credits · +$48 / year
+5,000 monthly credits · +$96 / year
+6,000 monthly credits · +$144 / year
+7,000 monthly credits · +$192 / year
+8,000 monthly credits · +$240 / year
+9,000 monthly credits · +$288 / year
+10,000 monthly credits · +$336 / year
+Upgrade
+
+Everything on Hobby, plus:
+
+Unlimited folders and projects
+Video export
+
+3D Files
+
+Unlimited scenes per file
+Apple & Android exports
+Upload audio
+Unlimited Variables, APIs & Webhooks
+Variables local storage
+
+Design Files
+
+No watermark on web embeds
+Max
+$60$70 / per seat / month
+Billed annually
+Save $120/seat/yr · 2 months free
+10,000 monthly credits · Included
+11,000 monthly credits · +$48 / year
+12,000 monthly credits · +$96 / year
+13,000 monthly credits · +$144 / year
+14,000 monthly credits · +$192 / year
+15,000 monthly credits · +$240 / year
+16,000 monthly credits · +$288 / year
+17,000 monthly credits · +$336 / year
+18,000 monthly credits · +$384 / year
+19,000 monthly credits · +$432 / year
+20,000 monthly credits · +$480 / year
+Upgrade
+
+Everything on Pro, plus:
+
+10,000 AI credits / month included
+5x more media gen per week
+100MB max video size
+Higher MCP tool call limits
+Enterprise
+Custom Pricing
+Billed annually
+Custom AI credits
+Request a Trial
+
+Everything on Max, plus:
+
+Centralized licensing and billing
+Multiple teams with team privacy
+SAML Single Sign-On (SSO)
+Code & Self-hosted exports
+File version history
+Team Library
+Custom onboarding and training
+Priority support
+Legal and security onboarding support
+Spline Expert Partners (Optional)
+Designs tailored to your needs
+Custom requests / month
+Get started for free
+Limited Personal Files
+Unlimited file viewers
+Web exports with watermark
+Access to the Spline Library
+$0 / month
+Start for free
+Compare plans & features
+
+Overview of what’s included in our different plans.
+
+Free
+
+$0 / month
+
+Start for free
+Hobby
+
+$12 / mo billed yearly or $15 billed monthly
+
+Upgrade
+Pro
+
+$25 / mo billed yearly or $30 billed monthly
+
+Upgrade
+Max
+
+$60 / mo billed yearly or $70 billed monthly
+
+Upgrade
+Enterprise
+
+Custom Pricing
+Billed yearly
+
+Request a Trial
+3D Editor
+USAGE
+Creating files
+Limited
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+No watermark on web exports
+Android Exports
+Apple Exports
+App Generation (Apple, Android)
+Download Code Export
+Self-Hosted Export
+AI
+AI Agent
+AI 3D Generation
+AI Texture Generation
+CREATION
+Multi-Scenes
+Unlimited
+Unlimited
+Unlimited
+Unlock Audio Library
+Unlock Material Library
+Upload Video
+Upload Audio
+Export Video
+Export USDZ & STL
+Export GLTF with color & texture
+Unlimited Variables
+Variables Local Storage
+Unlimited APIs & Webhooks
+2D Editor
+USAGE
+Creating files
+Limited
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+No watermark on web embeds
+Upload Video
+Export Video
+AI
+AI Agent
+AI Image Generation
+Remove Background
+Upscale Image
+Workspace & Collab
+Included AI Credits
+2,000 / month
+3,000 / month
+10,000 / month
+Custom
+Unlimited Viewers
+Unlimited Folders
+Unlimited Projects
+Multi-Team Organization
+SAML Single Sign-On (SSO)
+Centralized licensing and billing
+Team Library
+File version history
+Priority support
+Contact Sales for Enterprise
+
+The platform for your team to build and ship multi-platform interactive 3D experiences.
+
+ISO 27001 & SOC 2 Compliance
+SAML SSO
+Priority Support
+Spline Expert Partners
+First Name
+Last Name
+Work Email
+Company
+Which use case best fits your needs?
+Pick a use case...
+Interactive websites
+Marketing and branding
+Web and mobile apps
+Product Design and prototyping
+AR/XR experiences
+Exploring AI tools
+How many licenses do you need?
+How can we help?
+Request a Trial
+Frequently Asked Questions
+Can I use Spline for free?
+Why should I upgrade to a Hobby, Pro or Max workspace?
+What payment methods can I use?
+How can I cancel my subscription?
+Can I change from monthly to yearly?
+How can I ask other questions about pricing?
+How do Spline AI credits work?
+Spline, a place to design and collaborate in 3D.
+Get Started
+Products
+3D Design
+Hana
+iOS
+Android
+Spline Mirror
+Pricing
+Download
+Download Spline Mirror
+AI 3D Generation
+Resources
+Contra
+Affiliate
+Hana Challenge
+Education
+Enterprise
+Solutions
+Docs
+Spline API
+Examples
+Academy
+Customers
+Spline Community
+Updates
+Company
+Blog
+Careers
+Terms & Conditions
+Privacy
+Security
+Contact
+help@spline.design
+jobs@spline.design
+© 2026 - Spline, Inc.

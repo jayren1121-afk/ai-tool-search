@@ -1,0 +1,34 @@
+Bionic cloud inference is US-hosted, with Zero data retention (ZDR)
+---
+Free
+$0
+---
+Run local LLMs on your machine
+---
+LM Link for up to 5 devices
+Limited web search
+Download Bionic
+Bionic+
+$20
+USD / month
+---
+Private, US-hosted OSS models.
+---
+Everything in Free, and:
+---
+Discounted bulk tokens
+Web search and page extraction
+Get Bionic+
+Pro
+$100
+USD / month
+---
+More included usage.
+---
+Can I use Bionic for free?
+---
+Yes. The Free plan includes Bionic Agent and local model support.
+---
+What are cloud credits for?
+---
+Cloud credits cover usage beyond the allowance included with your plan.

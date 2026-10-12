@@ -1,0 +1,158 @@
+Try OpenAI
+Contact sales
+Business Pricing | OpenAI
+---
+Price
+---
+Input:
+$10.00 / 1M tokens
+Cached input:
+$1.00 / 1M tokens
+Output:
+$50.00 / 1M tokens
+---
+GPT-6.1 Sol
+---
+Price
+---
+Input:
+$2.00 / 1M tokens
+Cached input:
+$0.10 / 1M tokens
+Output:
+$10.00 / 1M tokens
+---
+GPT-6 Luna
+---
+Price
+---
+Input:
+$0.10 / 1M tokens
+Cached input:
+$0.01 / 1M tokens
+Output:
+$0.50 / 1M tokens
+---
+Pricing above reflects standard processing rates for context lengths under 272K.
+---
+Price
+---
+Image:
+$8.00 / 1M tokens for inputs
+$2.00 / 1M tokens for cached inputs
+$30.00 / 1M tokens for outputs
+Text:
+$5.00 / 1M tokens for inputs
+$1.25 / 1M tokens for cached inputs
+---
+GPT-Image-2.5 Flare
+---
+Price
+---
+Image:
+$8.00 / 1M tokens for inputs
+$2.00 / 1M tokens for cached inputs
+$30.00 / 1M tokens for outputs
+Text:
+$5.00 / 1M tokens for inputs
+$1.25 / 1M tokens for cached inputs
+---
+Voice models
+---
+Our premier model for natural, expressive voice conversations with smooth interruption handling.
+---
+Price
+---
+$0.05 per minute / $0.00083 per second
+---
+GPT-Realtime-2.1
+---
+Price
+---
+Audio:
+$32.00 / 1M tokens for inputs
+$0.40 / 1M tokens for cached inputs
+$64.00 / 1M tokens for outputs
+Text:
+$4.00 / 1M tokens for inputs
+$0.40 / 1M tokens for cached inputs
+$24.00 / 1M tokens for outputs
+Image:
+$5.00 / 1M tokens for inputs
+$0.50 / 1M tokens for cached inputs
+---
+GPT-Realtime-2.1 mini
+---
+Price
+---
+Audio:
+$10.00 / 1M tokens for inputs
+$0.30 / 1M tokens for cached inputs
+$20.00 / 1M tokens for outputs
+Text:
+$0.60 / 1M tokens for inputs
+$0.06 / 1M tokens for cached inputs
+$2.40 / 1M tokens for outputs
+Image:
+$0.80 / 1M tokens for inputs
+$0.08 / 1M tokens for cached inputs
+---
+GPT-Live-Transcribe
+---
+A streaming speech-to-text model that transcribes speech live as the speaker talks.
+---
+Price
+---
+$0.017 per minute / $0.00028 per second
+---
+GPT-Transcribe
+---
+A speech-to-text model for asynchronous and batch workloads.
+---
+Price
+---
+$0.0045 per minute / $0.00008 per second
+---
+GPT-Realtime-Translate
+---
+A model that translates speech in real time and keeps pace with the speaker.
+---
+Price
+---
+$0.034 per minute / $0.00057 per second
+---
+Tools
+---
+Retrieve up-to-date information from the web to ground model responses.
+---
+Price
+---
+$10.00 / 1k calls
+Search content tokens are free.
+---
+Containers
+---
+Price
+---
+Now:
+1 GB for $0.03 / 64GB for $1.92 per container
+Starting March 31, 2026:
+1 GB for $0.03 / 64GB for $1.92 per 20-minute session per container
+---
+Service tiers
+---
+Contact sales
+FAQ
+---
+Yes, we treat Playground usage the same as regular API usage. You will be billed at the per-token input and output prices mentioned above.
+---
+You can set a monthly budget in your billing settings⁠⁠
+(opens in a new window)
+---
+(opens in a new window)
+Contact sales
+Research
+---
+Partner Network
+Contact Sales
+Developers

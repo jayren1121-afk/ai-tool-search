@@ -1,0 +1,473 @@
+PRODUCT SPOTLIGHT
+
+AgentSpot: Multiplayer AI for Your Teams - October 22
+
+Register Now
+GROUP DEMO
+
+See Embedded Analytics & AI in Action. Join Our Live Group Demo Every Tuesday
+
+Register Now
+Agents
+Agents
+Product
+Product
+Solutions
+Solutions
+Customers
+Customers
+Pricing
+Pricing
+Resources
+Resources
+Company
+Company
+Choose language
+English
+Deutsch
+日本語
+French
+Toggle
+GET DEMO
+FREE TRIAL
+ThoughtSpot Plans and Pricing
+Data to Decisions, Powered by Agents
+ThoughtSpot Analytics
+ThoughtSpot Embedded
+Choose your plan  →
+ESSENTIALS
+PRO
+ENTERPRISE
+ThoughtSpot Agentic Analytics Platform
+334 reviews on
+Pro
+
+Trusted AI analytics for growing businesses looking to drive rapid decisions and growth.
+
+
+
+
+Unlimited LLM tokens included.
+ThoughtSpot does not meter or charge for LLM tokens. Platform use is governed by your subscription. If you use your own LLM provider, that provider’s fees may apply.
+
+User
+User
+Usage
+ 
+Usage
+
+Starting as low as
+
+$50
+per user / per month (billed annually)
+
+AI-powered dashboards and automated insights
+Natural-language search and data exploration)
+Spotter AI Agents (25 queries/month per user)
+Up to 1000 users and 250M rows of data
+TRY FOR FREE
+Buy now →
+Compare full features and plans
+
+
+Data Pricing: User
+Get search & AI-driven insights on your company data
+	
+Essentials
+TRY FREE
+	
+Pro
+TRY FREE
+	
+Enterprise
+CONTACT US
+
+
+Agents at the Core
+
+AI agents for analytics
+
+	
+	
+	
+	
+
+Conversational analytics agent
+	
+	
+	
+	
+
+Data modeling agent
+	
+	
+	
+	
+
+Dashboard and visualization agent
+	
+	
+	
+	
+
+Coding agent
+	
+	
+	
+	
+
+Semantic layer built for agents
+	
+	
+	
+	
+
+MCP Connectors for full business context
+	
+	
+	
+	
+
+AI enabled highlights and summaries
+	
+	
+	
+	
+
+Automated change analysis
+	
+	
+	
+	
+
+Flexible LLM selection
+	
+	
+	
+	
+
+AI-suggested questions and recommendations
+	
+	
+	
+
+
+Platform Capabilities
+
+Dynamic, interactive dashboards
+
+	
+	
+	
+	
+
+Drilldowns with no pre-defined drillpath
+	
+	
+	
+	
+
+Automated KPI monitoring, anomaly detection & alerts
+	
+	
+	
+	
+
+Mobile for iOS and Android
+	
+	
+	
+	
+
+Live pre-built data connections - Snowflake, Databricks, Redshift...
+	
+	
+	
+	
+
+Row level security, data encryption and data isolation
+	
+	
+	
+	
+
+Personalized and actionable insights
+	
+	
+	
+	
+
+Natural language search
+	
+	
+	
+	
+
+System reporting & modeling
+	
+	
+	
+	
+
+Single sign-on via SAML, OAuth, and OIDC
+	
+	
+	
+	
+
+Custom domain config
+	
+	
+	
+	
+
+Enterprise Support - 1 hr SLA
+	
+	
+	
+	
+
+Unlimited users
+	
+	
+	
+	
+
+Unlimited data
+	
+	
+	
+	
+
+Unlimited permission groups
+	
+	
+	
+	
+
+Unlimited LLM tokens
+	
+	
+	
+	
+
+Multi Tenant by Organization
+	
+	
+	
+	
+
+Advanced data encryption
+	
+	
+	
+	
+
+VPN & VPC
+	
+	
+	
+
+
+Add-ons
+
+Embedded for internal enterprise applications (API & SDK)
+
+	
+	
+	
+add-on
+	
+
+Model Context Protocol (MCP) Server
+	
+	
+	
+add-on
+	
+
+Data prep, mashups, and modeling (Analyst Studio)
+	
+add-on
+	
+add-on
+	
+add-on
+	
+
+Advanced analysis with SQL, R, and Python (Analyst Studio)
+	
+add-on
+	
+add-on
+	
+add-on
+	
+
+In-memory data cache (Analyst Studio or Spotcache)
+	
+add-on
+	
+add-on
+	
+add-on
+	
+
+Unlimited Spotter
+	
+	
+add-on
+	
+add-on
+	
+
+"ThoughtSpot does not meter or charge for LLM tokens. Platform use is governed by your subscription (e.g., queries/users). If you use your own LLM provider, that provider’s fees may apply."
+
+Why ThoughtSpot?
+One view. Real-time
+clarity. Smarter decisions.
+
+Unify all your data and surface insights instantly, wherever business happens. ThoughtSpot connects insights seamlessly across every workflow, making your data instantly accessible and actionable, whether it lives in Snowflake, Databricks, or anywhere else
+
+Built for the
+AI era.
+
+ThoughtSpot lets anyone build intelligent, interactive apps that surface insights, automate decisions, and personalize the way work gets done. From KPI tracking to real-time alerts and guided workflows--all integrated directly into your daily tools.
+
+AI at the
+Core.
+
+Meet Spotter, your always-on AI Analyst. Fully integrated and transparent—not bolted on—Spotter learns, adapts, and proactively guides you, turning every interaction into smarter outcomes.
+
+“People are more able to look at patterns, rather than just repeating the same analysis. now time can be spent on what we can do for the market with this information, rather than waiting for the data to come through.”
+
+Patrick Callinan
+
+Director of Insights and Data Science
+
+CarTrawler
+
+Read CarTrawler’s story
+
+“My team is out of the dashboarding business. We focus on ensuring high quality data is available for users whenever they need it.”
+
+Juergen Kallinger
+
+VP, Reporting & Analytics
+
+HP
+
+Read HP's Story
+
+“Data is only as good as what you make of it. We wanted to leverage its infinite potential as a growth driver by ensuring all stakeholders could maximize its decision-making potential.”
+
+Ian Bass
+
+Head of Data Analytics
+
+Austin Capital Bank
+
+Read Austin Capital Bank’s story
+
+“Sales is using a new Liveboard that lets them track expected performance after they onboard a new account. They can insert that prediction onto their sales platform.”
+
+Elisa Morariu
+
+Data Analytics Manager
+
+OrderPay
+
+“I was sharing some data internally and our CEO wanted to see the data compared to last year. So, I just typed into the search bar and a visualization appeared. She said, ‘Oh my gosh—this is great!!’”
+
+Kelly Burdine
+
+Head of Data Science and Analytics
+
+Wellthy
+
+Read Wellthy story
+
+Ask AI for a summary about
+ThoughtSpot
+
+Follow us
+
+PRODUCT
+AI Agents
+Augmented Dashboards
+Analyst Studio
+Embedded Analytics
+Automated Insights
+Any Data, Anywhere
+Enterprise BI
+Actionable Insights
+Ecosystem
+What's New
+Pricing
+SOLUTIONS
+Business Leader
+Product Leader
+Data Leader
+Data Analyst
+Developer
+Sales Operations
+INDUSTRY
+Financial Services
+Retail & CPG
+Healthcare & Life Sciences
+Technology & Software
+Supply Chain
+Media & Telecom
+Procurement
+All Industries
+RESOURCES
+Glossary
+Data Trends
+The Data & AI Chief
+Analyst Reports
+SQL Tutorial
+Case Studies
+Ebooks
+Demo Videos
+Training
+Webinars
+Documentation
+Community
+Developer
+Events
+Brand
+FAQs
+HOW WE COMPARE
+Why ThoughtSpot
+ThoughtSpot vs Sigma
+ThoughtSpot vs Domo
+ThoughtSpot vs Omni
+ThoughtSpot vs Power BI
+ThoughtSpot vs Tableau
+ThoughtSpot vs Sisense
+COMPANY
+Our Team
+Press Releases
+Customers
+Support Center
+Partners
+Blog
+In The News
+Careers
+Legal
+Trust
+
+STAY IN TOUCH
+
+Get the latest from ThoughtSpot
+
+©2026 ThoughtSpot Inc. All Rights Reserved Terms of Use Privacy Statement Cookie Policy
+
+×
+PRODUCT SPOTLIGHT· OCT 22
+Build an AI agent live. Keep it and share it with your team.
+
+Real customer stories, live product demos, and a hands-on lab. No code, no IT ticket.
+
+October 22 - 8AM PT | 11AM ET | 4PM BST
+SAVE YOUR SEAT

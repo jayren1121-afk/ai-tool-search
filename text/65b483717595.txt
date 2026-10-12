@@ -1,0 +1,273 @@
+Skip to main content
+Power Platform
+Power Automate
+About Power Platform
+Products
+Pricing
+Partners
+More
+Buy now
+Start free
+Sign in
+Power Automate pricing
+Find the right low-code automation plan for your business.
+Pricing
+Compare plans
+Licensing guide
+ Contact us
+PRICING
+Explore Power Automate plans
+Power Automate plans
+Related products and add-ons
+Power Automate free trial
+Free
+Get started
+Start automating for free with a 30-day trial.
+Experiment with UI-based cloud flows and standard connectors.
+Power Automate Premium
+$15.00
+user/month, paid yearly
+Buy now
+Experience the power of automation with cloud flows, attended desktop flows, and process mining for individual users.
+Cloud flows (DPA)1
+Desktop flows (RPA) in attended mode2
+Process and task mining with 50 MB data stored3
+Microsoft Dataverse entitlements of 250 MB database and 2 GB file4
+Power Automate Process
+$150.00
+bot/month, paid yearly
+See terms5
+Buy now
+Automate core enterprise processes and run unattended automation.
+Cloud flows (DPA)1
+Desktop flows (RPA) in unattended mode
+Dataverse entitlements of 50 MB database and 200 MB file4
+Power Automate Hosted Process
+$215.00
+bot/month, paid yearly
+See terms5
+Buy now
+Automate core enterprise processes and run unattended automation with a virtual machine managed by Microsoft and hosted on Azure infrastructure.
+Cloud flows (DPA)1
+Desktop flows (RPA) in unattended mode
+Microsoft hosted virtual machine
+Dataverse entitlements of 50 MB database and 200 MB file4
+
+
+Back to tabs
+COMPARE PLANS
+Compare automation plans and pricing
+Power Automate free trial
+Free
+Get started
+Power Automate Premium
+$15.00
+user/month, paid yearly
+Buy now
+Power Automate Process
+$150.00
+bot/month, paid yearly
+Buy now
+Power Automate Hosted Process
+$215.00
+bot/month, paid yearly
+Buy now
+	
+
+Power Automate free trial
+
+	
+	
+	
+
+
+
+
+Features
+				
+
+Cloud flows (DPA)1
+	
+	
+	
+	
+
+
+Attended desktop flows (RPA)2
+	
+	
+	
+	
+
+
+Unattended desktop flows (RPA)
+	
+	
+	
+	
+
+
+Microsoft hosted virtual machine
+	
+	
+	
+	
+
+
+Standard, premium, and custom connectors
+	
+Standard connectors only
+	
+	
+	
+
+
+Process and task mining
+	
+	
+	
+	
+
+
+Process mining data storage entitlements3
+	
+	
+
+50 MB
+
+	
+	
+
+
+Dataverse database capacity4
+	
+	
+
+250 MB
+
+	
+
+50 MB
+
+	
+
+50 MB
+
+
+
+Dataverse file capacity4
+	
+	
+
+2 GB
+
+	
+
+200 MB
+
+	
+
+200 MB
+
+
+
+Managed environments
+	
+	
+	
+	
+Licensing guide
+Explore Power Platform licensing
+Learn more about applicable licenses, key features, and other essential information to streamline your choices and make informed decisions for your scenarios and solutions.
+Find the right plan for your business
+Enhance your plan with add-ons
+Learn about features included in your other Microsoft licenses
+Access Licensing Resources
+Contact us
+Learn more about our products, discuss use cases, or get pricing information.
+
+Available M-F 6 AM to 3 PM PT.
+Chat now
+
+    Call (800) 642 7676
+
+Prices shown are for marketing purposes only and may not be reflective of actual list price due to currency, country, regional, and organizational variant factors. Your actual price will be reflected at checkout. Contact a Microsoft representative for enterprise pricing and offers. All offers are subject to product service limits. Terms and conditions apply. Download the Power Platform licensing guide for more information.
+
+[1]
+Within service limits. Learn more about Power Platform requests and other limits.
+[2]
+Desktop flow authoring and bot orchestration and management are included.
+[3]
+Each per-user license comes with 50 MB of process mining up to a maximum of 100 GB per tenant.
+[4]
+Dataverse database and file capacity entitlements are pooled at the tenant level. Download the Power Platform licensing guide for more information.
+[5]
+Assigned to a machine, a bot can execute one unattended desktop flow run at a time. Multiple bots are required to execute concurrent desktop flow runs on a machine. Download the Power Platform licensing guide for more information.
+Follow Power Platform  
+What's new
+Surface Laptop Ultra
+Surface Pro
+Surface Laptop
+Surface RTX Spark Dev Box
+Explore Copilot
+Explore Microsoft products
+Windows 11 apps
+Microsoft Store
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Why buy from Microsoft Store
+Flexible Payments
+Education
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft Copilot
+Small Business
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Company
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+English (United States)
+Your Privacy Choices
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads
+© Microsoft 2026
+Ask Microsoft​
+Ask questions or make requests to the web AI assistant. Use the text input at the bottom to send messages.

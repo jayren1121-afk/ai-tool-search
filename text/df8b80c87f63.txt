@@ -1,0 +1,922 @@
+By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our Privacy Policy and Google's Privacy Policy for more information.
+Accept all
+Deny
+Open preferences
+Cookie policy
+Read more about cookies
+Necessary
+Strictly necessary cookies help make a website navigable by activating basic functions such as page navigation and access to secure website areas. Without these cookies, the website would not be able to work properly.
+Service: Cookie Information
+Purpose: Supports the website's technical functions.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConfig
+Vendor: policy.app.cookieinformation.com
+Service: Google Tag Manager
+Purpose: Supports the website's technical functions.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 6 months
+Name: __Secure-BUCKET
+Vendor: .youtube.com
+Service: Cookie Information
+Purpose: Used to share consent across domains.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConsent_xxx
+Vendor: policy.app.cookieinformation.com
+Service: Cookie Information
+Purpose: Supports the website's technical functions.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConsent
+Vendor: create.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: localization
+Vendor: store.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: _shopify_essential
+Vendor: store.rokoko.com
+Service: Shopify
+Purpose: Supports the integration of a third-party platform on the website.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: 14 days
+Name: cart_currency
+Vendor: store.rokoko.com
+Service: Shopify
+Purpose: Supports the integration of a third-party platform on the website.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: 14 days
+Name: cart_currency
+Vendor: eu.store.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: _shopify_essential
+Vendor: eu.store.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: localization
+Vendor: eu.store.rokoko.com
+Service: Cookie Information
+Purpose: Supports the website's technical functions.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConsent
+Vendor: www.rokoko.com
+Service: Cloudflare
+Purpose: Pending
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: Session
+Name: _cfuvid
+Vendor: .rokoko.com
+Service: Cookie Information
+Purpose: Supports the website's technical functions.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConsent
+Vendor: id.rokoko.com
+Service: Cookie Information
+Purpose: Supports the website's technical functions.
+Privacy policy: https://cookieinformation.com/cookie-and-privacy-policy/
+Expiry: a year
+Name: CookieInformationConsent
+Vendor: sdk.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: _shopify_essential
+Vendor: jp.store.rokoko.com
+Service: Shopify
+Purpose: Supports the integration of a third-party platform on the website.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: 14 days
+Name: cart_currency
+Vendor: jp.store.rokoko.com
+Service: Shopify
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.shopify.com/legal/privacy
+Expiry: a year
+Name: localization
+Vendor: jp.store.rokoko.com
+Functional
+Functional cookies make it possible to save information that changes the way the website appears or acts. For instance your preferred language or region.
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hs-analytics.net
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hubspot.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hs-scripts.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hsforms.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hubapi.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hsadspixel.net
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .hs-banner.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 26 minutes
+Name: __cf_bm
+Vendor: .linkedin.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 22 minutes
+Name: __cf_bm
+Vendor: .hsappstatic.net
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 30 minutes
+Name: __cf_bm
+Vendor: .hubspotusercontent-na1.net
+Service: Cloudflare
+Purpose: Required for the website to perform properly.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: a year
+Name: cf_clearance
+Vendor: .vimeo.com
+Service: Cloudflare
+Purpose: Supports the website's technical functions.
+Privacy policy: https://www.cloudflare.com/privacypolicy/
+Expiry: 15 minutes
+Name: __cf_bm
+Vendor: .vimeo.com
+Statistical
+Statistical cookies help the website owner understand how visitors interact with the website by collecting and reporting information.
+Service: Google Analytics
+Purpose:
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: a year
+Name: _ga_xxx
+Vendor: .rokoko.com
+Service: Google Analytics
+Purpose: Collects anonymous information about the users and their activity on the website for analytics and reporting purposes.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: a year
+Name: _ga
+Vendor: .rokoko.com
+Service: Google Analytics
+Purpose:
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: a year
+Name: _ga_xxx
+Vendor: .jp.store.rokoko.com
+Service: Google Analytics
+Purpose:
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: a year
+Name: _ga_xxx
+Vendor: .store.rokoko.com
+Marketing
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and interesting to the individual user and thus more valuable for publishers and third-party advertisers.
+Service: Youtube, Google
+Purpose: Collects information about the users and their activity on the website. The Information is used to track and analyze user behavior, to meet the individual user needs and to deliver targeted advertising.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 6 months
+Name: __Secure-YNID
+Vendor: .youtube.com
+Service: Youtube, Google
+Purpose: Collects information about the users and their activity on the website. The Information is used to track and analyze user behavior, to meet the individual user needs and to deliver targeted advertising.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 6 months
+Name: VISITOR_PRIVACY_METADATA
+Vendor: .youtube.com
+Service: Youtube, Google
+Purpose: Supports the integration of a third-party platform on the website.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 6 months
+Name: __Secure-ROLLOUT_TOKEN
+Vendor: .youtube.com
+Service: Youtube, Google
+Purpose: Collects information about the users and their activity on the website through embedded video players with the purpose of delivering targeted advertising.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 6 months
+Name: VISITOR_INFO1_LIVE
+Vendor: .youtube.com
+Service: Youtube, Google
+Purpose: Collects information about the users and their activity on the website through embedded video players with the purpose of delivering targeted advertising.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: Session
+Name: YSC
+Vendor: .youtube.com
+Service: Facebook
+Purpose: Identifies browsers for the purposes of providing advertising and site analytics services.
+Privacy policy: https://www.facebook.com/privacy/explanation
+Expiry: 3 months
+Name: _fbp
+Vendor: .rokoko.com
+Service: LinkedIn
+Purpose: Supports online marketing by collecting information about the users to promote products through partners and other platforms.
+Privacy policy: https://www.linkedin.com/legal/privacy-policy
+Expiry: 6 months
+Name: li_gc
+Vendor: .linkedin.com
+Service: HubSpot
+Purpose: Collects information about the users and their activity on the website. The information is used to track and analyze user behaviour and to deliver targeted advertising.
+Privacy policy: https://legal.hubspot.com/privacy-policy
+Expiry: 6 months
+Name: __hstc
+Vendor: .rokoko.com
+Service: HubSpot
+Purpose: Collects information about the users and their activity on the website. The information is used to track and analyze user behaviour and to deliver targeted advertising.
+Privacy policy: https://legal.hubspot.com/privacy-policy
+Expiry: Session
+Name: __hssrc
+Vendor: .rokoko.com
+Service: Google
+Purpose: Supports the integration of a third-party platform on the website to deliver targeted advertising.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 3 months
+Name: _gcl_au
+Vendor: .rokoko.com
+Service: HubSpot
+Purpose: Collects information about the users and their activity on the website. The information is used to track and analyze user behaviour and to deliver targeted advertising.
+Privacy policy: https://legal.hubspot.com/privacy-policy
+Expiry: 30 minutes
+Name: __hssc
+Vendor: .rokoko.com
+Service: LinkedIn
+Purpose: Supports online marketing by collecting information about the users to promote products through partners and other platforms.
+Privacy policy: https://www.linkedin.com/legal/privacy-policy
+Expiry: a year
+Name: bcookie
+Vendor: .linkedin.com
+Service: LinkedIn
+Purpose: Supports online marketing by collecting information about the users to promote products through partners and other platforms.
+Privacy policy: https://www.linkedin.com/legal/privacy-policy
+Expiry: a day
+Name: lidc
+Vendor: .linkedin.com
+Service: HubSpot
+Purpose: Collects information about the users and their activity on the website. The information is used to track and analyze user behaviour and to deliver targeted advertising.
+Privacy policy: https://legal.hubspot.com/privacy-policy
+Expiry: 6 months
+Name: hubspotutk
+Vendor: .rokoko.com
+Service: Google Marketing Platform
+Purpose: Used for online marketing by collecting information about the users and their activity on the website. The information is used to target advertising to the user across different channels and devices.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: 14 minutes
+Name: test_cookie
+Vendor: .doubleclick.net
+Service: Google Marketing Platform
+Purpose: Used for online marketing by collecting information about the users and their activity on the website. The information is used to target advertising to the user across different channels and devices.
+Privacy policy: https://policies.google.com/technologies/partner-sites?hl=en
+Expiry: a year
+Name: IDE
+Vendor: .doubleclick.net
+Powered By:
+Cookie Information
+Press Enter to skip navigation
+Capture tools
+Software
+Use cases
+Robotics
+Resources
+Get in touch
+Go to store
+Rokoko Pricing Plans
+
+A rich software ecosystem to capture, edit, export and live stream motion capture
+
+Billing cycle
+Annual (-30% off)
+Monthly
+
+ 
+
+Starter
+
+Get started with Studio
+
+$
+0
+
+free forever
+
+Try for free
+
+What’s included:
+
+Record & export mocap
+Access to clean-up filters
+Export to .FBX
+
+Rokoko Create:
+
+Vision AI video processing: 30s/month
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 5/month
+Cloud storage: 1 month
+
+ 
+
+Basic
+
+Optimized for AI mocap
+
+$
+10/m
+
+billed annually
+
+Get Basic
+
+All Starter features, plus:
+
+Import & retarget custom characters
+Export to .BHV + advanced  options
+Smoothing filter & loop segments
+
+Rokoko Create:
+
+Vision AI video processing: 600s/month (30s during trial)
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 100/month
+Cloud storage: Unlimited
+
+ 
+
+Plus
+
+Optimized for hardware tools
+
+$
+20/m
+
+billed annually
+
+Get Plus
+
+All Basic features, plus:
+
+Live stream to 3rd party tools
+Unlimited team members & user management
+Custom skeleton presets
+Chat & email support
+
+Rokoko Create:
+
+Vision AI video processing: 3000s/month (30s during trial)
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 1000/month
+Cloud storage: Unlimited
+
+Most popular
+
+Pro
+
+Access all
+features
+
+$
+50/m
+
+billed annually
+
+
+Get Pro
+
+All Plus features, plus:
+
+Face Capture
+Advanced command API
+UDP trigger messages
+Export to .CSV
+Designated Customer Success Manager
+
+Rokoko Create:
+
+Vision AI video processing: 15000s/month (30s during trial)
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: Unlimited
+Cloud storage: Unlimited
+
+ 
+
+Enterprise
+
+Access custom
+solutions
+
+
+$
+100/m
+
+starting from
+
+
+Contact us
+
+All Pro features, plus:
+
+Local storage, no cloud sync
+Extra offline days
+Custom support hours
+Custom onboarding plan
+Custom SLA
+
+If you have needs that we don’t cover in our plans, please don’t hesitate to reach out.
+
+We offer custom Enterprise solutions for studios and larger teams
+
+Enterprise plans are available with custom pricing, local storage, dedicated support, and tailored onboarding.
+
+
+Contact us
+Starter
+Try for free
+Basic
+Get Basic
+Plus
+Get Plus
+Pro
+Get Pro
+Capture
+Manage Rokoko mocap tools
+i
+Manage Rokoko mocap tools
+
+Connect the Smartsuit Pro II, Smartgloves, Coil Pro and Face Capture tools to visualize diagnostics, and get firmware updates
+
+Unlimited mocap data recording
+i
+Record mocap data
+
+Record as many motion capture takes as you want, keep your scenes and takes in organized folders
+
+Real-time mocap visualization
+i
+Real-time mocap visualization
+
+Visualize motion capture animations in real-time with little to no lag or latency, for immediate feedback on your motions
+
+Face Capture
+i
+Face Capture
+
+Record and live stream iOS based Face Capture (or Android Face Capture when using the Headcam) as a standalone or alongside body and finger tracking, for a Full Performance capture capability.
+
+Elevation tracking
+i
+Elevation tracking
+
+Enable multi-level locomotion (snap spacing) to capture changes in elevation. Correctly display your character's height on the Z plane to track motions on stairs, ladders and similar level field changes.
+
+Offline duration until reconnect
+i
+Offline duration until reconnect
+
+Amount of time you can remain disconnected from an internet connection before you need to connect (log in) again
+
+1 day
+3 days
+7 days
+21 days
+# of simultaneous mocap actors
+i
+# of simultaneous mocap actors
+
+Amount of actors wearing a Full Performance Capture kit (i.e. a Smartsuit Pro, Smartgloves and Face Capture) that can be captured in the same scene all at once and in sync, for interactive performances
+
+3
+3
+3
+3
+Cloud asset storage
+i
+# of cloud asset storage
+
+Amount of mocap animation and other assets you can store in the Rokoko cloud
+
+1 month for Text & Video-to-Motion
+Unlimited
+Unlimited
+Unlimited
+# of actor profile presets
+i
+# of actor profile presets
+
+Amount of actor measurement profiles you can save as presets (actor measurements allow for more precise motion capture data)
+
+3
+5
+10
+50
+Vision AI video processing
+i
+Vision AI video processing
+
+Generate motion from a video file, edit and clean up the data in Studio.
+
+30 sec/month
+600 sec/month
+3000 sec/month
+15000 sec/month
+Text-to-Motion clips added to scene
+i
+Text-to-Motion clips added to scene
+
+Number of generated Text-to-Motion clips that can be added to scene in Rokoko Studio.
+
+5 clips/month
+100 clips/month
+1000 clips/month
+Unlimited
+Command API
+i
+Command API
+
+Operate Studio through a range of commands: start/stop recording and calibrate (advanced options include attach tracker, scene info, reset actor etc.)
+
+Basic
+Basic
+Basic
+Advanced
+UDP trigger messages
+i
+UDP trigger messages
+
+Send and receive notifications when you start and stop a recording, allowing for synchronized screen captures with software like OBS and optical systems.
+
+Animate
+Import custom characters
+i
+Import custom characters
+
+Import your own custom characters: it supports .fbx files and a wide range of bone map formats
+
+Real-time retargeting
+i
+Retargeting
+
+Visualize your motion capture animations on other meshes (default ones for "Starter" plan, custom meshes for "Plus" plans and above)
+
+Default meshes only
+Custom characters
+Custom characters
+Custom characters
+Access to Motion Library
+i
+Access to Motion Library animations
+
+Find pre-recorded animations for free or at low cost in the world's biggest library of character animations. Export and use in any of your projects, including commercial ones.
+
+Smoothing filter (Studio Preview)
+i
+Studio Preview
+
+Access to Studio Preview - a separate framework for Rokoko Studio newest features like smoothing filter and loop segments.
+
+Loop segments (Studio Preview)
+i
+Studio Preview
+
+Access to Studio Preview - a separate framework for Rokoko Studio newest features like smoothing filter and loop segments.
+
+Live stream
+Unreal Engine
+i
+Unreal Engine
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Unreal Engine
+
+Unity
+i
+Unity
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Unity
+
+Blender
+i
+Blender
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Blender
+
+Maya
+i
+Maya
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Maya
+
+Cinema 4D
+i
+Cinema 4D
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Cinema 4D
+
+MotionBuilder
+i
+MotionBuilder
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in MotionBuilder
+
+iClone
+i
+iClone
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in iClone. Note: Reallusion licenses may be required and are not included in Rokoko software plans.
+
+Houdini
+i
+Houdini
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Houdini
+
+VRChat
+i
+VRChat
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in VRChat
+
+Cartoon Animator 4
+i
+Cartoon Animator 4
+
+Real-time plugin integration to use motion capture animations from the Smartsuit Pro, Smartgloves and Face Capture directly in Cartoon Animator 4
+
+Edit
+Locomotion filter
+i
+Locomotion filter
+
+Adjust foot locking keys to correct potential errors in motion capture recordings
+
+Treadmill filter
+i
+Treadmill filter
+
+Lock the character's hip to a fixed coordinate (horizontally and/or vertically) to capture motions in treadmill-like situations (very useful for animations used in game development)
+
+Toe bend filter
+i
+Toe bend filter
+
+Choose wether or not to enable toe bending detection in your motion capture animations
+
+Knee popping filter
+i
+Knee popping filter
+
+Add knee popping detection to correct potential errors in motion capture recordings related to knee popping
+
+Export
+Export to .FBX
+i
+Export to .fbx
+
+Export your motion capture animations to the .fbx file format
+
+Export to .BVH
+i
+Export to .BVH
+
+Export your motion capture animations to the .BVH file format
+
+Export to .CSV
+i
+Export to .CSV
+
+Export your motion capture animations to the .CSV file format
+
+Include mesh with skeleton export
+i
+Include mesh with skeleton export
+
+Add the mesh to the exporter alongside the skeleton when exporting your motion capture animations
+
+Choose skeleton preset
+i
+Choose skeleton preset
+
+Choose from a list of industry compatible skeleton preset option (Human IK, Mixamo etc.)
+
+Skeleton preset overrides
+i
+Skeleton preset overrides
+
+Override skeleton preset values: setting custom values for target skeleton, skeleton naming, reference pose and rest pose
+
+Advanced export options
+i
+Advanced export options
+
+Set a custom frame rate, export all actors as individual files, choose a specific .FBX version etc.
+
+Collaborate
+# of Creators (admin role)
+i
+# of Creators
+
+Admin role with advanced permissions. Each Creator seat added incurs a subscription fee.
+
+1
+1
+Unlimited
+Unlimited
+# of Members (editor role)
+i
+# of Members
+
+Editor role with limited permissions
+
+0
+0
+Unlimited
+Unlimited
+Team cloud asset storage
+i
+# of Team cloud asset storage
+
+Amount of mocap animation and other assets you can store in the Rokoko cloud and share with your Team
+
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+User management
+i
+User Management
+
+Manage users and assign user roles across your teams.
+
+Technical support
+Onboarding
+i
+Onboarding
+
+A dedicated contact person available for general queries, setup calls for equipment, and relevant workflow assistance.
+
+Support availability
+i
+Support availability
+
+The main sources available for your customer support questions.
+
+Help center, chatbot, community
+Help center, chatbot, community
+Email + Live chat
+Email + Live chat + 1 on 1 consultation
+General troubleshooting
+i
+General troubleshooting
+
+General troubleshooting for your Rokoko devices.
+
+No
+No
+Yes
+Yes
+Workflow assistance
+i
+Workflow
+
+We assist with supported third-party software integrations in the basic workflow.
+
+No
+No
+Basic mocap workflow
+Basic mocap workflow
+Rigging support
+i
+Rigging
+
+Studio provides retargeting features. We provide tech support only for the Rokoko-provided characters.
+
+No
+No
+Rokoko characters only
+Rokoko characters only
+Response time
+i
+Response time
+
+Team response time to your support questions and queries.
+
+N/A
+Max 4 business days
+Max 3 business days
+Max 2 business days
+Customer Success Manager
+i
+Customer Success Manager
+
+Dedicated team member from Rokoko to help with tech setup, support and troubleshooting.
+
+No
+No
+No
+Yes
+Frequently asked questions
+
+Can't find what you're looking for? Shoot us an email at support@rokoko.com
+
+
+Can I use your mocap tools without using Studio?
+Which 3D software does Rokoko Studio integrate with?
+What's the difference between Rokoko Studio free and paid plans?
+What export file formats does Rokoko Studio support?
+Start animating your characters, for free
+
+Capture, animate, edit, export and live stream character animations in a rich software ecosystem. Core features are free, forever.
+
+Capture your motions for free
+
+From capture to export, Rokoko's software suite has a free plan that covers the entire pipeline.
+
+Turn motion into magic.
+
+English
+Capture tools
+Full Performance Capture
+Smartsuit Pro II
+Smartgloves II
+Coil Pro
+Headcam
+Headrig
+Studio Software
+Rokoko Vision
+Motion Library
+Integrations
+Blender
+Unreal
+Unity
+iClone
+Cinema 4D
+Maya
+Houdini
+MotionBuilder
+Cartoon Animator 4
+See all integrations
+Use cases
+Animation, Film & VFX
+Game, AR & VR
+Academia & Education
+Robotics
+Motion data
+Contact
+Get in touch
+Book a demo
+Get a quote
+Get sponsored
+Learn
+Help center
+Video tutorials
+Support
+Free 3D resources
+Customer reviews
+Blog
+About
+Careers
+Our story
+Subscribe to our newsletter
+Instagram
+Facebook
+Twitter
+Linkedin
+TikTok
+Discord
+© Rokoko
+Terms of Service
+Privacy policy

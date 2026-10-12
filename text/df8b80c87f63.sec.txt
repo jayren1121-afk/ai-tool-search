@@ -1,0 +1,65 @@
+Billing cycle
+Annual (-30% off)
+Monthly
+---
+free forever
+---
+Try for free
+---
+Vision AI video processing: 30s/month
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 5/month
+Cloud storage: 1 month
+---
+billed annually
+---
+Vision AI video processing: 600s/month (30s during trial)
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 100/month
+Cloud storage: Unlimited
+---
+billed annually
+---
+Vision AI video processing: 3000s/month (30s during trial)
+Text-to-motion clips: Unlimited
+Text-to-motion clips Studio imports: 1000/month
+Cloud storage: Unlimited
+---
+billed annually
+---
+Vision AI video processing: 15000s/month (30s during trial)
+Text-to-motion clips: Unlimited
+---
+starting from
+---
+Enterprise plans are available with custom pricing, local storage, dedicated support, and tailored onboarding.
+---
+Starter
+Try for free
+Basic
+---
+30 sec/month
+600 sec/month
+3000 sec/month
+15000 sec/month
+Text-to-Motion clips added to scene
+---
+5 clips/month
+100 clips/month
+1000 clips/month
+Unlimited
+---
+Which 3D software does Rokoko Studio integrate with?
+What's the difference between Rokoko Studio free and paid plans?
+What export file formats does Rokoko Studio support?
+Start animating your characters, for free
+---
+Capture, animate, edit, export and live stream character animations in a rich software ecosystem. Core features are free, forever.
+---
+Capture your motions for free
+---
+From capture to export, Rokoko's software suite has a free plan that covers the entire pipeline.
+---
+Support
+Free 3D resources
+Customer reviews

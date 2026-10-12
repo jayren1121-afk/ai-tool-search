@@ -1,0 +1,30 @@
+Start free. Scale your orbs and team.
+---
+Hobby
+Free
+NEW
+---
+Pay-as-you-go for orbs
+Or use your own runners for free
+Use tokens from anywhere
+---
+No Amp token fees or limits
+Public/private repositories
+Sign Up
+Individual
+$20∕mo.
+Megawatt
+Gigawatt
+All product features, and:
+---
+User management, controls, and analytics
+Shared billing and pooled credits
+SAML/OIDC SSO
+---
+All Individual and Teams features, and:
+Pooled credits only, no paid user seats
+SCIM user directory sync
+---
+Questions & Answers
+Can I use Amp without a monthly tier?
+What am I paying for?

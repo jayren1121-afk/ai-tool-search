@@ -1,0 +1,260 @@
+Skip to main content
+Why Databricks
+Product
+Solutions
+Resources
+About
+Login
+Contact Us
+Try Databricks
+Databricks pricing
+
+One simple platform to unify all your data, analytics and AI workloads — across all your preferred clouds
+
+Start free trial
+Request a pricing quote
+How does Databricks pricing work?
+
+Pay as you go
+
+Databricks offers you a pay-as-you-go approach with no up-front costs. Only pay for the products you use at per second granularity.
+
+SAVE MORE WITH
+
+Committed Use Contracts
+
+Databricks offers you opportunities to access discounts and other benefits when you commit to certain levels of usage. The larger your usage commitments, the greater your benefits, including options to flexibly use commitments across multiple clouds. Contact us for details.
+
+Explore products
+Data Engineering
+
+Starting at $0.15 / DBU
+
+Orchestrate data processing, machine learning and analytics pipelines; Build streaming and batch pipelines; Ingest data from a wide variety of sources with in-built connectors
+
+Lakeflow Jobs
+Lakeflow Pipelines
+Lakeflow Connect
+
+Learn more
+Data Warehousing
+
+Starting at $0.22 / DBU
+
+Run SQL queries for BI reporting, analytics and visualization to get timely insights from data lakes. Available in both Classic and Serverless (managed) Compute.
+
+Learn more
+Interactive workloads
+
+Starting at $0.40 / DBU
+
+Run interactive data science and machine learning workloads. Build and deploy custom applications with the full security and governance of the Data + AI Platform.
+
+Compute for Data Science
+Databricks Apps
+
+Learn more
+Operational Database
+
+Starting at $0.069 / CU
+
+Fully-managed Postgres transactional database for serving data and features to support applications built on Databricks.
+
+Learn more
+Artificial Intelligence
+
+Starting at $0.07 / DBU
+
+Build production-quality GenAI or ML apps across any use case
+
+Unity Gateway
+Agent Bricks
+AI Functions
+Model Serving
+Foundation Model Serving 
+Proprietary Foundation Model Serving
+AI Search
+Agent Evaluation
+Model Training
+AI Runtime
+
+Learn more
+Genie
+
+Starting at $0.07 / DBUbeyond free usage
+
+AI assistance for every team, across code, analytics, and enterprise knowledge. Ask in natural language and get trusted, governed answers from your data.
+
+Genie One - Enterprise Knowledge
+Genie Agents - Natural Language Q&A
+Genie Code - AI Coding Assistant
+
+Learn more
+Platform
+
+Cross platform capabilities for governance, management and security. Managed services that automate the ongoing optimization and maintenance of your data lake
+
+Tiers and Add-ons
+Managed Services
+Data Transfer and Connectivity
+Storage
+Delta Share from SAP BDC
+Collaboration
+Learn more
+
+Note: Pricing for Azure Databricks is set by Microsoft and is provided for convenient reference - visit Azure.com for more information
+
+Key Definitions
+
+- Price List - To view a detailed list of the Databricks Data + AI Platform Services products/SKUs available on each Cloud Service Provider ("Price List"), explore the relevant category/ies above.
+
+- List Price - The Price List displays Databricks' undiscounted price for each SKU ("List Price"). Note that pricing displayed for SKUs identified as promotional is temporarily discounted.
+
+- SKU Group - To view details on the product SKUs included in a given Databricks Cross Service SKU Group or Service Specific SKU Group (each, also called a "SKU Group") visit our SKU Groups listing. Note that certain product exclusions may apply, as detailed in the SKU Groups.
+
+- Promotional Discount - From time to time, Databricks may provide generally-applicable promotional discount pricing for specific Databricks Services ("Promotional Discount"). Promotional Discounts (and related conditions) are identified on the Price List or communicated to eligible customers.
+
+Try Databricks for free
+Get started for free
+Schedule a demo
+FAQ
+
+What does the free trial include?
+
+Your trial includes free access to the Databricks Data + AI Platform, which allows you to manage all your data, analytics and AI in one place. You may also invite colleagues or collaborators to use your account during or after your trial.
+
+Please note that if you configure Databricks to work with your own cloud account, you will still be charged by your cloud provider for resources, like compute instances, used within your account during the free trial.
+
+Some trials include credits that can be spent on Databricks services. These credits are not transferable, cannot be combined with other promotions or negotiated terms, and are not available to customers who previously accepted them. A customer’s eligibility for credits under this offer, the amount of credits (if any), and when any credits expire are solely determined by Databricks following account creation. A customer’s trial ends when their credits are exhausted.
+
+What happens after the free trial?
+
+Is pricing based on usage or storage volume?
+
+Is pricing the same in every region?
+
+Is Databricks as cost effective as other cloud services or open source solutions?
+
+What is Databricks Community Edition?
+
+How will I be billed?
+
+Do you provide technical support?
+
+How are Promotional Discounts applied?
+
+What is a DBU?
+
+What is a DSU?
+
+How is a GB defined for data transfer and networking-related charges?
+
+How is an HOUR of Private Connectivity Endpoint calculated?
+
+Where can I find prices for Databricks in Azure China regions?
+
+Why Databricks
+Discover
+For App Developers
+For Executives
+For Startups
+Lakehouse Architecture
+Databricks AI Research
+Customers
+Customer Stories
+Partners
+Partner Overview
+Partner Program
+Find a Partner
+Partner Spotlight
+Cloud Providers
+Partner Solutions
+Product
+Databricks Data + AI Platform
+Platform Overview
+AI Assistant
+Application Development
+Artificial Intelligence
+Business Intelligence
+Customer Data Platform
+Data Engineering
+Data Warehousing
+Database
+Governance
+Neon
+Security
+Sharing
+Pricing
+Pricing Overview
+Pricing Calculator
+Open Source
+Integrations and Data
+Marketplace
+IDE Integrations
+Partner Connect
+Solutions
+Databricks For Industries
+Communications
+Financial Services
+Healthcare and Life Sciences
+Manufacturing
+Media and Entertainment
+Public Sector
+Retail
+View All
+Cross Industry Solutions
+AI Agents
+AI Governance
+Cybersecurity
+Marketing
+Data Migration
+Forward Deployed Engineering
+Solution Accelerators
+Resources
+Documentation
+Customer Support
+Community
+Learning
+Training
+Certification
+Free Edition
+University Alliance
+Databricks Academy Login
+Events
+Data + AI Summit
+Data + AI World Tour
+AI Days
+Event Calendar
+Blog and Podcasts
+Databricks Blog
+AI Blog
+Data Brew Podcast
+About
+Company
+Who We Are
+Our Team
+Databricks Ventures
+Contact Us
+Careers
+Open Jobs
+Working at Databricks
+Press
+Awards and Recognition
+Newsroom
+Security and Trust
+
+Databricks Inc.
+160 Spear Street, 15th Floor
+San Francisco, CA 94105
+1-866-330-0121
+
+See Careers
+at Databricks
+
+© Databricks 2026. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the Apache Software Foundation.
+
+Privacy Notice|Terms of Use|Modern Slavery Statement|California Privacy|Your Privacy Choices
+We Care About Your Privacy
+Databricks uses cookies and similar technologies to enhance site navigation, analyze site usage, personalize content and ads, and as further described in our Cookie Notice. To disable non-essential cookies, click “Reject All”. You can also manage your cookie settings by clicking “Manage Preferences.”
+Manage Preferences
+Reject All Accept All

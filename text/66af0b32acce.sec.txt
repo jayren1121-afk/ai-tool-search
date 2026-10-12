@@ -1,0 +1,59 @@
+Plans for wherever your process takes you.
+Free
+---
+$0
+---
+50 credits a month
+---
+Start free
+Solo
+---
+$12/mo
+---
+Explore prompts, variations, and early concepts
+A flexible starting point for creative testing
+---
+660 credits/mo
+---
+Get Solo
+Session
+RECOMMENDED
+---
+$30/mo
+---
+For regular sessions and creative iteration
+Stay in the flow through more revisions and takes
+---
+1,800 credits/mo
+---
+Get Session
+Producer
+---
+$90/mo
+---
+Generate at production volume across more work
+Maintain momentum through deeper experimentation
+---
+6,000 credits/mo
+---
+Get Producer
+Studio
+---
+$199/mo
+---
+Work at full creative speed, across every session
+For prolific creators, studios, and collaborators
+---
+14,000 credits/mo
+---
+The credit amount will reset to the monthly allocated amount every month.
+---
+Enterprise license.
+---
+Get flexible deployment for your commercial use cases. For enterprises with annual revenue over $1M interested in deploying our audio models on your own infrastructure, please contact our team to discuss licensing options.
+---
+Also available for enterprises:
+---
+Can I cancel my subscription at any time and what happens to my audio license when I cancel my subscription?
+How can I get more credits than my plan includes?
+Do my unused credits in one month roll over to the next?

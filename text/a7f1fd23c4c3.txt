@@ -1,0 +1,174 @@
+Skip to content
+Plans & pricing
+Learn SEO
+Blog
+Help
+About us
+Download FREE
+Login
+We’re simplifying our product portfolio: here’s what’s changing
+We’re simplifying our product portfolio: here’s what’s changing
+Why we are making this change
+What is included in the new plans? 
+What this means for current customers 
+We understand this is a change
+Questions?
+We’re simplifying our product portfolio: here’s what’s changing
+
+Big news from the Yoast team! We’re making it easier than ever to get all the essential tools you need for SEO in just two powerful plans. We’ve made the decision to simplify our WordPress product portfolio at Yoast to make choosing the right SEO product more straightforward.
+
+From July 1, 2025, instead of choosing between multiple separate plugins and bundles for your website, you’ll now find everything you need in just two complete, new, easy-to-understand subscriptions:  
+
+Yoast SEO Premium
+Yoast WooCommerce SEO   
+
+This change gives you simple choices, more powerful tools, and easier support, all in one place!
+
+Why we are making this change
+
+Our customer research made something clear: offering ten separate Yoast plans for WordPress added unnecessary complexity. It made it harder to choose the right tools and created more moving parts for everyone.
+
+At the same time, we’ve continued investing in new features, like collaborative content tools and AI-powered suggestions, while quietly absorbing rising costs to keep delivering value to our users.
+
+By bringing everything together into just two complete, easy-to-understand plans, we’re making things simpler and delivering more value and a better experience. This change allows us to focus our energy where it counts: improving the experience, releasing new features faster, and supporting you more effectively at every step.
+
+What is included in the new plans? 
+
+Each plan brings together the tools our customers already rely on, along with powerful extras that were previously sold separately, all under a single subscription. 
+
+Yoast SEO Premium
+
+Designed for in-house marketing teams, content creators, entrepreneurs, and niche publishers who need guidance, not guesswork, when it comes to SEO. 
+
+You’ll get:
+Everything in the free Yoast SEO plugin (including the new Yoast llms.txt feature released in June)
+Plus:
+Real-time Premium SEO content analysis to guide optimization directly in the WordPress editor
+Unlimited use of AI features (beta) to help generate and improve titles, meta descriptions, and more 
+Redirect Manager to fix or prevent broken links and maintain SEO value 
+Internal Linking Tool to suggest relevant links automatically and improve site structure 
+Social Preview Tool to control how content appears on Facebook and X 
+SEO Workouts that walk you through key SEO tasks, step-by-step 
+Premium Crawl Optimization Settings help search engines focus on your most important content and let you indicate which parts of your site shouldn’t be used to train language models (LLMs) 
+Front-end SEO Inspector to preview how your content performs 
+[new] 1 free seat for the Yoast SEO Google Docs Add-on, launched in June 2025, to optimize content before it hits WordPress 
+Yoast SEO Premium also now includes all former add-on plugins:
+Yoast Local SEO, helps you get found in “near me” searches by adding local structured data and keeping your name, address, and phone (NAP) info consistent. It also lets you create pages for each location. 
+Yoast News SEO, for faster indexing and rich results for publishers and news websites.
+Yoast Video SEO, for ensuring embedded videos are indexed and eligible for rich snippets
+
+Whether you’re running a law firm, a media outlet, or a content-heavy SaaS site, this plan brings together everything you need to optimize content with confidence, and without needing to be an SEO expert. 
+
+Yoast WooCommerce SEO 
+
+Made for online store owners, ecommerce marketers, and DTC brands using WooCommerce, this plan includes everything in Yoast SEO Premium, plus powerful tools built specifically for ecommerce websites.
+
+You’ll get:
+Everything in Yoast SEO Premium
+And on top of that:
+Product-optimized SEO tools, including ecommerce-specific content analysis that checks image alt tags, product identifiers (like SKUs or GTINs), and short descriptions 
+Smart product structured data that adds the right schema to help Google understand your products, prices, reviews, and availability 
+WooCommerce-specific XML sitemaps, automatically excluding pages that don’t need to appear in search (like variations or coupons), and prioritizing what does 
+Canonical management that ensures clean, consistent URLs so your product content ranks properly, without duplication issues 
+AI-generated metadata for product pages, helping you write better, click-worthy titles and descriptions in seconds
+
+Whether you’re running a growing online store or selling niche products to a global market, Yoast WooCommerce SEO helps your listings show up clean, rich, and clickable, without technical SEO expertise. 
+
+What this means for current customers 
+
+If you already enjoy a Yoast SEO Premium subscription, or any combination of Premium, Local SEO, News SEO, or Video SEO, your plan will automatically transition to the new, enhanced Yoast SEO Premium on July 31, 2025.
+
+All customers will receive personalized communication with details about how these changes affect their subscription.
+
+Here’s what to expect with renewals
+
+Depending on your current plan, this update may result in a slightly higher or lower renewal price. Either way, you’re getting significantly more value in a streamlined subscription that’s easier to manage. 
+
+Customers with bundles or multiple subscriptions will likely enjoy a price reduction, while those with individual plugins will gain access to enhanced tools and improvements that reflect our ongoing investment in your success.
+
+For now, you’ll continue to install each plugin separately—but managing your subscription just got a whole lot easier. No more juggling multiple licenses or renewal dates! We’re excited to bring you more value and a smoother experience every step of the way.
+
+Summary of changes
+
+All prices are shown without VAT. Subscriptions are billed annually. The changes apply to all available currencies ($, £ and €)  
+
+Old plan	New plan	Old price	New price
+Yoast SEO Premium	[new] Yoast SEO Premium	99/year	118.80/year
+Yoast SEO Local	[new] Yoast SEO Premium	79/year	118.80/year
+Yoast SEO Video	[new] Yoast SEO Premium	79/year	118.80/year
+Yoast SEO News	[new] Yoast SEO Premium	79/year	118.80/year
+Yoast Local Premium bundle	[new] Yoast SEO Premium	145/year	118.80/year
+Yoast Video Premium bundle	[new] Yoast SEO Premium	145/year	118.80/year
+Yoast News Premium bundle	[new] Yoast SEO Premium	145/year	118.80/year
+Yoast SEO WooCommerce	[new] Yoast SEO WooCommerce SEO	79/year	178.80/year
+Yoast WooCommerce Premium bundle	[new] Yoast SEO WooCommerce SEO	145/year	178.80/year
+All Yoast WordPress Plugins Subscription	[new] Yoast SEO WooCommerce SEO	229/year	178.80/year
+We understand this is a change
+
+We know that any change in pricing is sensitive, especially when it increases. We’ve done our best to reflect the added value in these new plans while keeping prices as reasonable as possible.  
+
+This update gives all customers access to new features like our AI tools and a seat to collaborate easier with our new Yoast SEO Google Docs add-on. It also positions us to deliver faster improvements and a smoother experience over time.   
+
+Questions?
+
+You can always reach our support team at support@yoast.com.  
+
+Thanks for growing your SEO with Yoast.  
+
+YOAST SEO
+About us
+Careers
+Werken bij Yoast (NL)
+Community
+Events
+Press
+Become a Yoast partner
+PRODUCTS
+Yoast SEO
+Yoast SEO for Shopify
+Yoast SEO Premium
+Yoast SEO AI+
+Yoast WooCommerce SEO
+Yoast SEO Google Docs Add-On
+Other platforms
+SUPPORT AND RESOURCES
+24/7 Premium Support
+Yoast SEO WordPress help
+Yoast SEO Shopify guide
+Yoast SEO training
+Developer Documentation
+SEO Checker
+LEARN SEO
+SEO basics
+SEO essentials
+SEO glossary
+SEO news
+Yoast SEO Academy
+Webinars
+Zo werkt Yoast SEO (NL boek)
+Some rights reserved
+Privacy notice
+Terms of service
+Terms of use
+Cookie notice
+Refund policy
+Review notice
+Report abuse
+Contact us
+Do not sell or share my personal information
+CURRENCY 
+USD ($)
+EUR (€)
+GBP (£)
+© 2003-2026 Yoast BV Yoast is a trademark of Yoast BV
+Facebook
+ 
+Youtube
+ 
+Instagram
+ 
+LinkedIn
+About Cookies
+By visiting this Site, you agree to our Terms of Use, including its choice of law, forum selection, dispute resolution, and class-action waiver provisions. You also agree to our use of cookies and other technologies that monitor your use of the Site. Your interactions on the Site may be recorded or monitored by us or a third party with which we work. If you do not agree to this, please do not use our Site. For more information, please read our Privacy Policy. Click “Got It” to agree or “Cookie Settings” to opt out.
+
+Cookies Settings Got It

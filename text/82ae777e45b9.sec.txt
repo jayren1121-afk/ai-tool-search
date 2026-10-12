@@ -1,0 +1,54 @@
+Custom
+ANNUAL · PO BURN-DOWN
+COMMITTED SPEND
+---
+CLOSED −5%+
+OPEN −10%+
+INCLUDES
+Dedicated forward-deployed engineer
+Implementation included, $0
+Dedicated single-tenant deployment
+Data residency
+SAML SSO, SCIM, RBAC · audit logs
+---
+Audit logs	✓
+Uptime SLA	Custom
+ENGINEERING & SUPPORT
+Forward-deployed engineering	Dedicated FDE
+Implementation	Included, $0
+Support	Custom SLAs
+DEPLOYMENT
+Cloud API	✓
+---
+MODEL	TYPE	CONTEXT	INPUT / 1M	OUTPUT / 1M	CACHE READ / 1M
+---
+MOONSHOTAI
+kimi-k3
+Text	1M	$3.00	$15.00	$0.30
+---
+ZAI
+glm-5.3
+Text	1M	$1.40	$4.40	$0.14
+---
+ALIBABA
+qwen3.8-max
+Text	262K	$2.00	$6.00	$0.25
+---
+DEEPSEEK
+deepseek-v4.1-flash
+Text	1M	$0.30	$1.20	$0.007
+---
+DEEPSEEK
+deepseek-v4-pro-0813
+Text	1M	$0.66	$1.98	$0.07
+---
+XIAOMI
+mimo-v2.6-pro
+Text	1M	$0.43	$0.87	$0.004
+$0.44
+BLENDED / 1M ON NEMOTRON 3 ULTRA · #1 SPEED
+2.7×
+CHEAPER THAN THE #2 FASTEST PROVIDER
+PER TOKEN
+METERED PER TOKEN, NOT PER SEAT
+300+

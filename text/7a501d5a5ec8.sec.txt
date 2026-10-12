@@ -1,0 +1,28 @@
+Annual commitment
+---
+Annual commitment
+---
+Annual commitment
+---
+Each platform comes with ten standard users and two developer users included. Annual subscriptions are available in one, two, and three-year terms.
+---
+These input and output data tokens are the basis for calculating monthly usage.
+---
+Included Input Data Tokens (monthly)
+---
+Included Output Data Tokens (monthly)
+---
+Google Cloud will provide at least 90 days advance notice via formal MSA communications before billing and quota enforcement begin.
+---
+After this date, usage that extends beyond the instances included monthly data token allocation will be subject to overage fees. These will be billed at the end of each month based on actual usage during the billing period.
+---
+Input data tokens: $3.00 per 1M tokens
+Output data tokens: $20.00 per 1M tokens
+Request a custom quote
+Connect with our sales team to get a custom quote for your organization.
+Contact sales
+Overview
+---
+Engage
+Contact sales
+Find a Partner

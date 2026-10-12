@@ -1,0 +1,431 @@
+Skip to main content
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+📊
+ 
+AI analytics use case:
+ how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+🤯
+ 
+Generative data apps:
+ Gorgeous, interactive dashboards and apps you can build with just a prompt
+📖
+ 
+State of Data Teams 2026
+ discover key insights from data leaders
+🙏
+ 
+It's just "Hex"!
+ Not "HEX" or "Hex dot tech"
+Platform
+Solutions
+Enterprise
+Resources
+Pricing
+Log In
+Get started
+Products
+Agentic notebooks
+Powerful, deep-dive analysis without the silos
+Conversational analytics
+Ask and explore data in plain language
+Context Studio
+Build trust in data with semantic models and AI governance
+Data apps
+Build and share interactive dashboards and reporting
+Hex CLI
+Control your analytics from the terminal
+Capabilities
+Exploratory analysis
+Go from quick question to deep analysis to data app in one place
+Business intelligence
+Governed self-serve and dashboards for the entire org
+Embedded analytics
+Ship secure, customer-facing data experiences
+Integrations
+Out-of-the-box connections and flexible APIs
+AI & agents
+Agentic workflows to empower your entire team
+Explore all solutions
+One connected system - infinite data answers
+By team
+Data leader
+Focus your team and scale answers
+Product
+Build your product with data, not gut feels
+Marketing
+Turn scattered data into clear growth opportunities
+Sales
+Clear pipeline. Confident forecasts
+Customer success
+Create a complete view of customer health
+Get started
+Switching to Hex
+A guide to getting started on agentic analytics
+Templates
+Jumpstart with pre-built projects
+Docs
+Resources and product guides
+Changelog
+Product updates
+Inspiration
+Blog
+From data teams to data teams
+Guides
+Learn how to do more with data, together
+Events
+Learn and connect with peers
+Customer stories
+Empowering the best data teams
+Partners
+Learn more about our partnerships
+Download
+The Data Leader's Guide to AI Analytics
+A practical roadmap for understanding and implementing AI to accelerate your data team and enable true self-service.
+Pricing
+
+Choose the right plan for you and your team. Don't know what you need? Get in touch.
+
+INDIVIDUAL PLANS
+Community
+
+For hobbyists completing small projects and showcasing work.
+
+Free
+Get started
+Features include:
+Hex agent trial
+Connect any data source
+Build with all cell types
+Small compute
+Professional
+
+For individuals accelerating data insights and solo workflows.
+
+$36 per Editor / month
+Get started
+Everything in Community, plus:
+Hex agent
+Standard credits
+Up to 5 published apps
+30-day version history
+Medium compute
+TEAM PLANS
+Team
+
+For companies collaborating with data and automating manual work.
+
+$75 per Editor / month
+Try 14 days free
+Everything in Professional, plus:
+Extended credits
+Unlimited published apps
+Visual exploration and drill down
+Unlimited version history
+Scheduled runs and alerts
+Shared components
+Shared collections
+Advanced compute add-ons
+Enterprise
+
+For organizations requiring advanced security, governance, and support.
+
+Custom
+Contact Sales
+Everything in Team, plus:
+Explorer seat add-on
+Audit logs
+Premium credits
+OAuth database connections
+Observability API
+OIDC SSO
+Bring Your Own Key (BYOK)
+Single tenant add-on
+HIPAA add-on
+Embedded analytics add-on
+Custom Docker image add-ons
+Dedicated support
+Behind the teams setting the standard for data-driven marketing
+"“Most data teams are stuck answering ad hoc questions. Hex flipped that for us. Now the business answers its own questions, and I focus on building systems that scale.” - Kenny Ning, Head of Data"
+Kenny Ning and David Dorman
+Head of Data and VP of Marketing and Growth
+"We’re regarded as top performers because the work we are doing is deemed more credible and more widely surfaced than before Hex."
+Kate Urquiola
+Director, Go-to-Market Analytics
+"We like to embed Hex dashboards where teams work."
+Ian Macomber
+Head of Data and Analytics Engineering
+"I built a Hex data app that lets leadership diagnose pipeline changes in minutes. It saved me weekly hours of investigation." - Caleb Stombaugh, Sr Sales Analytics Manager"
+Caleb Stombaugh
+Senior Sales Analytics Manager and Jillian Lellis, Senior Marketing Data Operations Manager, Algolia
+"Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks."
+Sai Srigiriaju
+Head of Growth Strategy & Ops at ClickUp
+""Hex is where we go to understand the deep nuances of what's happening — and then act on them before anyone else sees it coming.""
+Joshua Hanson
+Data Team Manager
+Compare plan features
+Compare
+plan features:
+Community
+Get started
+Professional
+Get started
+Team
+Try 14 days free
+Enterprise
+Contact Sales
+Unlimited users
+Hex agent
+Credits
+Limited
+Standard
+Extended
+Premium
+Published apps
+Up to 5
+Up to 5
+Unlimited
+Unlimited
+Explorer role
+Per seat add-on
+Data
+Project connections
+Workspace connections
+Data permissions
+Restrict editing
+Restrict editing
+Restrict editing & viewing
+Custom SQL formatting
+Explore & View data
+SSH
+Compute profiles
+Small
+Medium
+Advanced compute add-ons
+Advanced compute add-ons
+Environment
+Standard Python libraries
+Standard Python libraries
+Standard Python libraries
+Custom Docker image add-ons
+Semantic models
+Collaboration
+Collections
+Up to 3 shared collections
+Unlimited
+Unlimited
+Components
+Up to 3 shared components
+Unlimited
+Unlimited
+Auto-archive
+Scheduled runs & alerts
+Version history
+7-day
+30-day
+Unlimited
+Unlimited
+Reviews
+Custom labels
+Custom branding
+Up to 1 custom app theme
+Up to 5 custom app themes
+Snapshots
+Presentation mode
+Git project export and package import
+Administration
+User groups
+Usage reports
+Integrations
+Airflow, Dagster, dbt
+Airflow, Dagster, dbt
+REST APIs
+Observability API
+Marketplace offerings
+AWS Marketplace
+Snowflake Marketplace
+Security
+OIDC SSO
+OAuth
+Audit logging
+Bring Your Own Key (BYOK)
+OpenAI and Anthropic
+Deployment
+Multi-tenant
+Multi-tenant
+EU Multi-tenant (contract only) or multi-tenant
+Single, EU Multi-tenant or multi-tenant
+Support
+Support (9am-5pm PT M-F)
+Email
+Email
+Email, in-product messenger* with priority SLA
+*Available but not offered in all cases
+Email, in-product messenger, Slack*, Microsoft Teams* with Enterprise SLA
+*Available but not offered in all cases
+Learning & training
+Technical documentation, group learning sessions
+Technical documentation, group learning sessions
+Technical documentationgroup learning sessionslive training*
+*Available but not offered in all cases
+Technical documentationlive onboardingby-request product education sessionsdedicated Customer Engineer*dedicated Product Expert*
+*Available but not offered in all cases
+FAQ
+How does the free trial work?
+How do I cancel or change my plan?
+How do you handle security and compliance?
+How do credits work?
+Do you have a discount for students and educators?
+Do you have a discount for non-profits?
+
+Can't find your answer here? Get in touch.
+
+Made with
+🥟
+🍺
+🍰
+🔮
+🔒
+🥖
+🍷
+🛌
+💜
+🥨
+🛹
+🍤
+🧄
+🍞
+🥥
+⛳
+🤞
+✨
+🔊
+🎧
+🌊
+🍀
+🤠
+🎷
+🍩
+☕
+on 🌎.
+PLATFORM
+AI and agents
+Agentic notebooks
+Conversational analytics
+Context Studio
+Data apps
+Hex CLI
+Business intelligence
+Exploratory analysis
+Embedded analytics
+Integrations
+Changelog
+RESOURCES
+Pricing
+Switching to Hex
+Enterprise
+Docs
+Blog
+Events
+Templates
+Compare
+Trust Center
+Status
+COMPANY
+About
+Careers
+Customers
+Solutions
+Media kit
+Newsroom
+CONNECT
+Request a demo
+Technical support
+Contact us
+LinkedIn
+X (Twitter)
+YouTube
+© 2026 Hex Technologies Inc.
+Privacy policy
+Terms & conditions
+Modern slavery statement
+Opt out of tracking

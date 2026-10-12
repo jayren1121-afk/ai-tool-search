@@ -1,0 +1,510 @@
+Skip to content
+Platform
+
+LISTEN
+
+Frase Answers
+Capture the questions your visitors actually ask.
+
+CREATE
+
+RESEARCH
+
+SEO Research
+Content research that ends in a brief.
+Topic Clusters
+Map the cluster around every topic.
+
+WRITE
+
+AI Agent
+Draft with your brand in context.
+Brand Voice
+Keep every draft sounding like you.
+
+OPTIMIZE
+
+Content Optimization
+Score and lift pages for Google.
+GEO Optimization
+Tune content to get cited by AI.
+AI Visibility
+Monitor where AI search cites you.
+Site Audit
+Find and prioritize the gaps.
+
+PUBLISH
+
+FraseCMS
+Host and publish content that's built to rank.
+Integrations
+Publish to WordPress, Webflow, Sanity, and Wix.
+
+MONITOR & FIX
+
+Content Guard
+Catch ranking decay and ship the fix.
+Backlinks
+Find link gaps, draft the outreach.
+Platform Overview
+See how Frase runs the whole content loop in one place.
+Explore the platform
+Use Frase in your AI tools
+Run Frase from Claude, Cursor, and any MCP tool.
+MCP server, CLI & API
+Autonomy
+Let Frase publish on its own, keep every page under review, or anywhere in between. You set the dial.
+How autonomy works
+Multilingual
+Write natively in 70+ languages, never translated.
+See multilingual content
+Solutions
+
+BY TEAM
+
+For Content Marketers
+For SEO Teams
+
+BY SEGMENT
+
+For Agencies
+For Enterprise
+
+PROOF
+
+Customer Stories
+Resources
+
+LEARN
+
+Blog
+SEO + GEO Guide
+Help Center
+
+FREE TOOLS
+
+GEO Score Checker
+AI Visibility Checker
+Agent Readiness Checker
+All Free Tools
+
+COMPARE
+
+vs Semrush
+vs Surfer SEO
+All Comparisons
+Pricing
+Log in
+Start free trial →
+THE CONTENT OPERATING SYSTEM FOR AI SEARCH
+Plans and pricing.
+Pick the plan that matches your team.
+Monthly
+Yearly
+SAVE 20%
+
+Billed once a year. Switch back to monthly whenever you want.
+
+Starter
+
+Run the core loop on one site.
+
+Best for solos, freelancers, and single-site teams
+$39
+/mo
+
+billed yearly · $49/mo month to month
+
+Start free trial
+
+Free 7-day trial. No credit card.
+
+1 seat, 1 site
+10 articles and 50 audit pages each month
+Publish to WordPress, Webflow, Sanity, or Wix, or host on FraseCMS
+SEO and GEO scores, plus AI Visibility on ChatGPT and Google AI
+Content Guard watches 10 pages for Google decay
+The agent publishes on its own when you let it, on any content type
+Frase Answers, a free conversational widget that captures what your visitors want, so you can create content for it
+
+Running low on room? Upgrade in a click. Until you do, Starter holds at its monthly limits.
+
+MOST POPULAR
+Professional
+
+The whole loop, built for a content team.
+
+Best for in-house teams and growing SMBs
+$103
+/mo
+
+billed yearly · $129/mo month to month
+
+Start free trial
+
+Free 7-day trial. No credit card.
+
+Everything in Starter, plus:
+
+3 seats and 5 sites, with extra seats at $29/mo
+40 articles and 250 audit pages each month
+A content calendar, internal linking suggestions, and one piece turned into posts for every channel
+AI crawler monitoring, plus Perplexity added to AI Visibility
+Content Guard watches 75 pages for Google decay
+Optional pay-as-you-go when a month runs long, off by default
+
+Need more room? Add seats, audit pages, or AI prompts as you go.
+
+Scale
+
+Run the loop across many sites, with more done for you.
+
+Best for agencies and multi-site brands
+$239
+/mo
+
+billed yearly · $299/mo month to month
+
+Start free trial
+
+Free 7-day trial. No credit card.
+
+Everything in Professional, plus:
+
+5 seats and up to 10 domains, with extra seats at $29/mo
+100 articles and 1,000 audit pages each month
+Content Guard watches 300 pages, plus Claude and Gemini added to AI Visibility
+Client-ready reports you can export for every client
+Turn the agent loose across every site you run, not just one
+
+Need more room? Add seats, audit pages, or AI prompts as you go.
+
+Want white-label reports or a branded client portal? See Enterprise.
+
+Enterprise
+
+The loop at organization scale, on your terms.
+
+Best for large orgs and agencies needing security or white-label
+Custom
+
+scoped to your org
+
+Talk to sales
+Custom seats and domains
+White-label reports and a branded client portal
+SSO and SAML, a dedicated account manager, and an SLA
+Custom limits, custom API access, and two years of history
+
+Bring your own agent.
+
+Frase runs where you already work — Claude, ChatGPT, Codex, Cursor, your own terminal — through the MCP server and CLI, on every plan. Point it at your site and let it work.
+
+Prices in USD. Starter simply stops at its monthly limits, so a surprise bill is off the table. On Professional and Scale, pay-as-you-go is optional and off by default; turn it on only if you want to keep working past the cap. White-label reports and branded client portals are Enterprise only.
+
+Publish it anywhere. Or publish it on FraseCMS
+
+Frase pushes finished posts to WordPress, Webflow, Sanity or Wix. Or publish to FraseCMS: an agent-ready CMS, hosted or headless, with WebMCP so AI assistants can read your pages and act on them. Nothing to set up, no hosting bill, and every post keeps the research it came from.
+
+FREE
+
+$0
+
+100,000 page views a month
+
+25 GB bandwidth
+Live today, with a small Powered by Frase badge
+Structured data and llms.txt on every page
+
+BASICYOUR BLOG, YOUR BRAND
+
+$19/mo
+
+250,000 page views a month
+
+Publish at blog.yoursite.com or yoursite.com/blog — a subdirectory keeps the link authority on your main site
+No Frase badge, so the page reads as yours
+100 GB bandwidth
+
+PRO
+
+$99/mo
+
+1,000,000 page views a month
+
+Ten times the free allowance, for a site with real traffic
+500 GB bandwidth
+Dedicated support
+
+Every Frase plan includes FraseCMS hosting free, trial included. More room and no badge from $19/mo on top of your paid plan (plans from $39/mo), or $99/mo at a million page views. Yearly billing on FraseCMS saves two months. A page view counts each time a page is served to a reader or pulled through the API; past the cap, free pauses for the month while paid tiers keep serving. Higher volumes run on a Custom plan.
+
+See how FraseCMS works
+
+WHAT A MONTH ON FRASE LOOKS LIKE
+
+Frase ships finished work, not another idle login.
+
+A normal month: new articles go out, older pages get audited and patched, and good content stops quietly decaying. Rankings and AI citations build over the weeks after you publish, so Frase shows the work shipping now and the signals coming back later. No tool ranks you inside a trial, and Frase will not pretend otherwise.
+
+LISTEN · FRASE ANSWERS
+
+The loop starts on your own site
+
+Frase Answers sits on your site as a conversational front door and captures the real questions your visitors ask. The loop starts from first-party demand, and those questions tell Frase exactly what to create next.
+
+New content, researched and drafted
+
+Frase studies what already ranks for your topic, then drafts and optimizes the piece in your voice. You get a finished draft, not an outline.
+
+Published straight to your CMS
+
+Push each piece to WordPress, Webflow, Sanity, or Wix in a click. Or host it on FraseCMS, free for 100,000 page views a month.
+
+Existing pages audited and scored
+
+Frase scores the pages you already have for SEO, GEO, and AI visibility. You see exactly where you stand and what to fix first.
+
+Slipping pages caught and fixed
+
+When a live page starts losing rank on Google, Content Guard writes the revision and republishes it the moment you approve.
+
+Work ships now. Rankings build after.
+
+In a trial you see the work going out and the gaps Frase finds, plus your in-app scores moving as you apply fixes. Google rankings and AI citations are the slow part, and they keep compounding in the weeks after you publish.
+
+TRUSTED AT WORK
+
+Thousands of teams already run on Frase.
+4.8/5 on G2
+
+COMPARE PLANS
+
+Line by line, what you get at each tier.
+
+Every plan runs the whole loop, and the agent can publish on its own from the first one. What changes as you move up is how much you run, how many sites and people you run it for.
+
+Frase plan feature comparison across Starter, Professional, Scale, and Enterprise.
+FEATURE	
+Starter
+	
+Professional
+MOST POPULAR
+	
+Scale
+	
+Enterprise
+
+VOLUME EACH MONTH
+Articles	10	40	100	Custom
+Audit pages	50	250	1,000	Custom
+AI generations
+On-demand AI actions the agent runs for you, like idea expansions and image generation. Separate from your monthly article count.
+	25	100	350	Custom
+AI diagrams and infographics	
+	20	50	Custom
+Going over your limit
+Pay-as-you-go is optional and off by default. Leave it off and your plan holds at its limit, with no surprise bill. Turn it on to keep working past the cap; overages bill at the end of your cycle.
+	Holds at limit	Optional pay-as-you-go	Optional pay-as-you-go	Custom
+TEAM
+Seats included	1	3	5	Custom
+Extra seats	
+	$29/mo each	$29/mo each	Included
+Roles and permissions
+Admins manage the team and billing, Editors create and edit content, Viewers get read-only access.
+	Single seat	Owner, Admin, Editor, Viewer	Owner, Admin, Editor, Viewer	Owner, Admin, Editor, Viewer
+Domains	1	5	10	Custom
+THE LOOP IT RUNS
+Frase Answers (Listen)
+Every plan includes a free Answers widget, one per site. Higher conversation volume is a paid add-on.
+	Free tier + add-on	Free tier + add-on	Free tier + add-on	Free tier + add-on
+Research, writer, and images
+Each article can include a generated hero image, plus in-content visuals.
+	
+	
+	
+	
+
+Publish to your CMS or FraseCMS
+WordPress, Webflow, Sanity, Wix, or FraseCMS, our own hosted CMS that keeps each post connected to the research behind it. FraseCMS is free for 100,000 page views a month and included with any plan; Basic adds your own domain and 250,000 page views for $19/mo on top of your plan. Starter covers the core content formats; Professional and up unlock the full set.
+	
+	
+	
+	
+
+SEO and GEO scores	
+	
+	
+	
+
+Content calendar	
+	
+	
+	
+
+Internal linking suggestions	
+	
+	
+	
+
+AI crawler monitoring	
+	
+	
+	
+
+Agent drafts and auto-publishes content
+On every plan, on any content type, whenever you switch it on. Your monthly articles are the only limit. Separate from Content Guard, which waits for your approval unless you opt in.
+	All types	All types	All types	All types
+MONITOR AND FIX
+Content Guard pages watched
+Watches Google rank and traffic decay. Proposes the fix. Republishes on your approval.
+	10	75	300	Custom
+AI Visibility engines tracked
+Daily monitoring and alerts. AI Visibility does not auto-fix.
+	
+ChatGPT
+Google AI
+	
+ChatGPT
+Google AI
+Perplexity
+	
+ChatGPT
+Google AI
+Perplexity
+Claude
+Gemini
+	
+All named engines
+
+AI Visibility prompts tracked
+The questions you monitor to see whether AI engines cite you, like "best telehealth platform".
+	50	200	500	Custom
+REPORTING AND ACCESS
+Exportable client-ready reports	
+	
+	
+	
+
+Omni-channel atomization
+Turn one piece of content into channel-ready posts and snippets sized for each channel.
+	
+	
+	
+	
+
+API, MCP and CLI requests	5,000/mo	20,000/mo	50,000/mo	Custom
+Historical data
+How far back your reporting history goes. AI Visibility keeps its own history, from 30 days on Starter.
+	Current only	3 months	12 months	24 months
+ENTERPRISE ONLY
+White-label reports	
+	
+	
+	
+
+Branded client portal	
+	
+	
+	
+
+SSO and SAML	
+	
+	
+	
+
+Dedicated account manager and SLA	
+	
+	
+	
+Agencies and multi-brand teams
+
+Run the loop across every client site, share the workspace with your team, and export client-ready reports. Scale is fully self-serve, so you can have it running before your next client call.
+
+Start your Scale trial
+
+Free 7-day trial. No credit card.
+
+Enterprise
+
+White-label reports, a branded client portal, SSO and SAML, and a dedicated manager with an SLA. Custom seats and limits, scoped to your org.
+
+Talk to sales
+
+Custom limits and pricing.
+
+Questions, answered straight.
+What do I get in the 7-day free trial?
+What happens when I hit a monthly limit?
+How do add-ons work?
+Can I change plans later?
+What does Content Guard do, and what stays in my control?
+Which CMS platforms does Frase publish to?
+How much does FraseCMS cost?
+Is Scale enough for my agency, or do I need Enterprise?
+What can I realistically expect Frase to do?
+See it run on your own pages.
+
+Finish with real work behind you: content shipped, gaps found, slipping pages caught. It takes about a minute to start, and you keep the final say the whole way through.
+
+Start free trial
+
+Free 7-day trial. No credit card.
+
+The content operating system for AI search. Frase researches, writes, optimizes, publishes, and monitors content so it ranks on Google and gets cited by AI.
+
+SOC 2 Type II
+GDPR Compliant
+PLATFORM
+Platform Overview
+Frase Answers
+AI Agent
+Content Optimization
+GEO Optimization
+AI Visibility
+Content Guard
+Backlinks
+Site Audit
+FraseCMS
+Autonomy
+Use Frase in your AI tools
+SOLUTIONS
+Content Marketers
+SEO Teams
+Agencies
+Enterprise
+Customer Stories
+FREE TOOLS
+GEO Score Checker
+AI Visibility Checker
+Agent Readiness Checker
+All Free Tools
+COMPARE
+vs Semrush
+vs Surfer SEO
+vs Ahrefs
+vs Clearscope
+vs MarketMuse
+vs Conductor
+vs Otterly
+All Comparisons
+RESOURCES
+Blog
+SEO + GEO Guide
+Case Studies
+Reviews
+Help Center
+llms.txt
+COMPANY
+About
+Affiliate Program
+Contact
+Security
+Terms
+Privacy
+
+© 2026 Frase. All rights reserved.
+
+Privacy
+Terms
+llms.txt
+Contact

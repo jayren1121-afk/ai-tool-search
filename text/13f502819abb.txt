@@ -1,0 +1,630 @@
+Skip To Main Content
+
+This website is AudioEye enabled and is being optimized for accessibility. To open the AudioEye Toolbar, press "shift + =". Some assistive technologies may require the use of a passthrough function before this keystroke. For more information, activate the button labeled "Explore your accessibility options".
+
+PRODUCTS
+ENTERPRISE
+API PLATFORM
+RESEARCH
+VISION
+PRICING
+LOGIN
+GET STARTED
+PRICING
+Pricing Built to Scale
+
+
+Start building human-AI interactive experiences for free, with flexible pricing as you grow
+
+Free
+
+For users that want to get their feet wet
+
+Free
+
+No upfront payment
+
+GET STARTED
+What's included:
+Whitelabeled APIs + no-code platform
+20 free minutes of Conversational Video
+Access to stock faces
+Support for 42+ languages
+Developer docs + community
+
+Starter
+
+For builders starting to craft human-AI experiences
+
+$22/mo
+
+No pay as you go overage
+
+CHOOSE STARTER
+Everything in Free plus:
+60 minutes of Conversational Video
+1 custom Face slot
+1 Google Meet/Zoom configurations
+Full visibility into conversation transcripts
+1 concurrent session
+No watermark
+MOST POPULAR
+
+Builder
+
+For individuals, startups, & businesses that build to test
+
+$59/mo
+
++ pay as you go overage
+
+CHOOSE BUILDER
+Everything in previous plans plus:
+175 minutes of Conversational Video
+3 Custom Face slots
+Up to 3 concurrent sessions
+3 Google Meet/Zoom configurations
+Pay as you go usage
+Access to 25 stock faces
+No watermark
+
+Growth
+
+For teams productionizing AI conversation experiences
+
+$397/mo
+
++ pay as you go overage
+
+CHOOSE GROWTH
+Everything in previous plans plus:
+1,300 minutes of Conversational Video
+7 Custom Face slots
+Up to 10 concurrent sessions
+7 Google Meet/Zoom configurations
+Access to 100+ Stock Faces
+Conversation recordings
+No conversation duration limit
+No watermark
+
+Business
+
+For companies who are starting to scale, or want direct support
+
+$975/mo
+
++ pay as you go overage
+
+CHOOSE BUSINESS
+Everything in growth plus:
+4,000 minutes of Conversational Video
+15 Custom Face slots
+Up to 15 concurrent sessions
+15 Google Meet/Zoom configurations
+Access to 100+ Stock Faces
+Priority support and 1:1 onboarding call
+No watermark
+
+Enterprise
+
+For businesses with high volume and enterprise needs
+
+Custom
+
+Volume discounts
+
+CONTACT US
+Everything in growth plus:
+100% whitelabeled experience
+Access to dedicated Stock Faces
+Whitelabeled Google Team Domains (coming soon)
+Significant scaling discounts
+Custom concurrency limits
+Top tier technical support
+Enterprise-grade security and compliance
+SLAs for speed and compute
+Faster boot times
+Bespoke solutions and forward deployed
+Dedicated slack channel
+No watermark
+Trusted by the world's most innovative companies
+2B+
+Interactions powered
+42+
+Languages supported
+100,000+
+Users building
+Compare Plans
+
+Free
+
+Free
+GET STARTED
+
+Starter
+
+$22/mo
+GET STARTED
+
+Builder
+
+$59/mo
+GET STARTED
+
+Growth
+
+$397/mo
+GET STARTED
+
+Business
+
+$975/mo
+GET STARTED
+
+Enterprise
+
+Custom
+CONTACT US
+
+General Features
+
+API access
+
+End-to-end Conversational Video pipeline
+
+State of the Art Model Access
+
+Deployment ready prebuilt components
+
+No-code platform to create conversations
+
+No watermark
+
+-
+-
+
+Face API
+
+Stock Face library access
+
+10 Faces
+
+10 Faces
+
+25 Faces
+
+75+ Faces
+
+75+ Faces
+
+75+ Faces (including custom shoots)
+
+Custom Faces
+
+-
+
+Image to Face access
+
+-
+
+Included Custom Face slots
+
+-
+1
+3
+7
+15
+Unlimited
+
+White-labeled Face consent
+
+-
+-
+-
+-
+-
+
+Professionally optimized CVI Faces
+
+-
+-
+-
+-
+
+Dedicated support
+
+Conversational Video Interface (CVI)
+
+Usage & Scale
+
+Maximum concurrent sessions
+
+1
+
+1
+
+3
+
+10
+
+15
+
+Custom
+
+Included Conversational Video minutes
+
+20 min / month
+
+60 min / month
+
+175  min / month
+
+1,300 min / month
+
+4,000 min / month
+
+Custom
+
+Pay-as-you-go extra minutes
+
+-
+-
+
+$0.35 per minute
+
+$0.31 per minute
+
+$0.26 per minute
+
+Significant scaling discounts
+
+Maximum conversation duration
+
+5 min
+
+10 min
+
+15 min
+
+60 min
+
+60 min
+
+Custom
+
+Prioritized call starts
+
+-
+-
+-
+-
+Dedicated
+
+Pipeline & Models
+
+Pipeline modes available
+
+Audio only, audio + video
+
+Audio only, audio + video
+
+Audio only, audio + video
+
+Audio only, audio + video
+
+Audio only, audio + video
+
+Audio only, audio + video
+
+High resolution
+
+1080p
+
+1080p
+
+1080p
+
+1080p
+
+1080p
+
+1080p
+
+Highest fidelity audio
+
+24kHz
+
+24kHz
+
+24kHz
+
+24kHz
+
+24kHz
+
+24kHz
+
+42+ Languages
+
+Full face generation (Phoenix-4.5)
+
+Emotion control (Phoenix-4.5)
+
+Perception + Vision (Raven-1)
+
+Intelligent turn-taking (Sparrow-2)
+
+Dynamic audio generation
+
+Finetuned LLM or bring your own
+
+Features
+
+Knowledge Base (RAG)
+
+Memories
+
+Objectives and Guardrails
+
+Function Calling + Tools
+
+Pronunciation Dictionary
+
+Noise cancellation and speaker isolation
+
+Google Meet & Zoom Integration
+
+-
+
+Conversation transcripts
+
+Conversation recordings
+
+$0.03/min
+
+$0.03/min
+
+Scaling discounts
+
+3rd party integration
+
+Alpha channel video
+
+Support and Services
+
+Support
+
+Best-effort response times
+
+Best-effort response times
+
+Standard support
+
+Priority support
+
+Priority support + onboarding call
+
+Dedicated Priority Support
+
+Dedicated technical support, named account team, and private Slack
+
+-
+-
+-
+-
+-
+
+Hands on implementaton support
+
+-
+-
+-
+-
+-
+
+SOC 2 and HIPAA compliance
+
+-
+-
+-
+-
+-
+
+Zero Data Retention
+
+-
+-
+-
+-
+-
+
+Performance SLAs
+
+-
+-
+-
+-
+-
+
+Forward deployed development & integration
+
+-
+-
+-
+-
+-
+
+Async Video Generation
+
+Included video generation minutes
+
+-
+
+5 minutes per month
+
+15 minutes per month
+
+50 minutes per month
+
+250 minutes per month
+
+Custom
+
+Pay-as-you-go Video Generation overage
+
+-
+-
+
+$1 per minute
+
+$0.90  per minute
+
+$0.80  per minute
+
+Custom
+
+The full Conversational AI stack
+
+
+Everything you need to build an exceptional experience — from Free to Enterprise.
+
+INCLUDED
+
+GENERAL FEATURES
+API access
+End-to-end Conversational Video and Audio pipeline
+State of Art Models
+Deployment-ready prebuilt components
+Custom face creation
+Best in class support
+CONVERSATIONAL VIDEO INTERFACE
+All steps — LLM, TTS, WebRTC — included in price
+Lowest market latency
+1080p resolution, 24kHz fidelity
+Audio only and video pipeline modes
+Intelligent conversation flow
+Explicit and implicit emotion control
+Audio and visual perception
+Optimized Knowledge Base (RAG)
+Dynamic Memories
+Objectives and Guardrails
+Function Calling + Tools
+Custom Pronunciation Dictionary
+Advanced noise cancellation and speaker isolation
+Conversation transcripts and recordings
+Google Meet & Zoom Integration
+Pipecat and Livekit integrations
+FAQS
+Got questions?
+How do conversation minutes work?
+
+Conversation minutes measure live CVI usage — the time an AI human is actively in a session with a user, from the API call connect to disconnect. Each conversation is rounded to the nearest 6-second increment, and incurs a 30-second minimum charge regardless of duration.
+
+‍
+
+What's included in CVI? Are there additional services needed?
+A conversation through CVI includes everything you need, from LLM to Audio to WebRTC. There are no additional services or charges required to run an end to end conversation.
+
+It also includes all Tavus models: perception (Raven-1), conversation flow (Sparrow-2), and rendering (Phoenix-4.5).
+How to minimize CVI usage while testing?
+
+When a conversation creation request is sent, a conversation is initiated and billed, regardless of if a participant joins. As a safeguard in case a conversation isn’t properly closed, a conversation automatically closes after 5 minutes if a participant isn’t present, however these limits can be modified by setting the properties when creating a conversation.
+
+You can also enable test_mode = ‘TRUE’ to test the conversation creation process without incurring any costs.
+
+What happens if I go over my plan minutes?
+
+Most paid plans include the ability to have pay-as-you-go usage with no overage cap so you can use extra minutes. You’re billed only for what you use beyond your monthly allowance — never paused, never throttled. Additional usage is paid at the stated rate.
+
+What are concurrent sessions / streams?
+
+Concurrent sessions are the number of live CVI conversations that can run at the same time across your account. If you’re on a 3-session plan and a 4th user tries to start a conversation, they’ll need to wait for an active one to end. These limits are to ensure GPU availability for all users.
+
+There are many ways to gracefully handle concurrency limits such as waiting states or audio only modes.
+
+We often refer to this interchangeably between concurrency, streams, and sessions.
+
+Enterprise plans have custom limits — reach out if you need more capacity.
+
+What is async/video generation, and how is it different from CVI?
+
+CVI is Tavus’s primary product, and is a realtime conversational AI interface.
+
+Tavus also has video generation models available, which some customers use to additionally render MP4 videos as static assets (for ex: avatar video generation).
+
+‍
+
+What's the difference between audio-only and audio+video pipeline modes?
+
+Tavus CVI can be deployed with the same pipeline to either audio only use cases or audio + video use cases. Customers often use both pipelines. Pricing is the same, although discounts for audio only will be introduced shortly.
+
+What's a custom PAL face?
+Custom faces are built from a single image or two minutes of training video. You can use a personal likeness, a character, or a brand-built persona. Faces live in your library and can be deployed across any number of conversations.
+
+You have a certain number of custom faces available depending on your plan.
+The interface for The Human Computing era.
+
+Spin up your first PAL in under 5 minutes. No credit card required.
+
+START BUILDING FREE
+CONTACT US
+
+COMPANY
+
+Pricing
+Vision
+Enterprise
+Careers
+Partnerships
+
+RESOURCES
+
+Blog
+Perspectives
+Brand kit (download)
+Press kit
+Info for AIs
+
+DEVELOPERS
+
+Docs
+API reference
+PAL Maker
+Quickstart
+llms.txt
+
+RESEARCH
+
+Phoenix-4.5 (Rendering)
+Raven-1 (Perception)
+Sparrow-2 (Turntaking)
+Griffin (Preview)
+See all research
+
+SOCIALS
+
+LinkedIn
+X
+Discord
+
+LEGAL
+
+ADA
+Privacy policy
+Terms of service
+Website terms of service
+Acceptable use policy
+
+SUPPORT
+
+Discord
+Email support@tavus.io
+Support center
+Trust center
+💣
+TAVUS MINESWEEPER
+Mines: 108
+New Game
+Left click: reveal • Right click / long-press: flag
+EXPLORE WITH AI:
+© 2026 TAVUS   |  THE HUMAN COMPUTING COMPANY  |  ALL RIGHTS RESERVED

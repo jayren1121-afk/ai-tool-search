@@ -1,0 +1,454 @@
+Pricing - Tripo AI | Plans for Every 3D Creator
+Research
+Products
+Features
+Solution
+Pricing
+Creator Hub
+Resources
+Shop
+Try Tripo Studio
+Tripo Studio Pricing
+Game-ready Assets in 2s
+Industry-first True 8K Textures
+Smart Segmentation for Better Control
+Annually
+50% off
+Monthly
+
+Compare Plans
+
+FAQ
+
+Credits
+
+Currency
+USD
+Free
+
+Best for Explorers
+
+$0
+
+$0.00
+/ Month
+Included
+
+Credits
+
+200 Monthly Credits ≈ 13 Models
+
+Standard Efficiency
+
+1 Concurrent Task
+Standard Queue
+Public Models · Non-Commercial Use
+Limited Edit History, Storage & Exports
+
+Essential Quality
+
+Limited image generation Access 
+Essential Production Toolkit
+(HD Model Access, Up to 4k Texture Generation & Edit, Retopology)
+Pro
+
+Best for Creators
+
+$20.00
+
+$20.00
+/ Month
+
+billed annually as: $240.00 / year
+
+Get Pro
+
+Credits
+
+3000 Monthly Credits ≈ 200 Models ($0.16 Per Model)
+
+Boosted Efficiency
+
+10 Concurrent Tasks
+High Queue Priority
+Private Models · Commercial Use
+Batch Generation 
+7-day History · More Free Retries · Unlimited Storage 
+Unlimited Batch Exports · DCC Bridge 
+
+Maximum Quality
+
+Everything in Free, Plus:
+Unlimited image generation Access 
+Advanced Production Toolkit
+(HD Model Access, Smart Mesh Access, Multi-view to 3D, Smart Segmentation, Ultra Mesh Quality & More)
+Best Value
+Max
+
+Best for Professionals
+
+$90.00
+
+$90.00
+/ Month
+
+billed annually as: $1080.00 / year
+
+Get Max
+
+Credits
+
+25000 Monthly Credits ≈ 1660 Models ($0.09 Per Model)
+
+Boosted Efficiency
+
+100 Concurrent Tasks
+Dedicated Queue Priority
+Private Models · Commercial Use
+Advanced Batch Generation 
+Permanent Edit History · Unlimited Free Retries & Storage
+Unlimited Batch Exports · DCC Bridge 
+3 Free Pro Refine
+
+Maximum Quality
+
+Everything in Pro, Plus:
+Unlimited image generation Access with Discounted Generations 
+Unlimited Access to 8K Textures
+Early Access to Beta Features
+Exclusive Elite Club
+50% Off
+Team
+
+Best for Teams & Studios
+
+$110.00
+
+$55.00
+/ Mo / seat
+
+billed annually as: $1980.00 / year
+
+Get Team
+
+Credits
+
+90000 Monthly Credits ≈ 6000 Models
+
+Boosted Efficiency
+
+200 Concurrent Tasks
+Dedicated Queue Priority
+Private Models · Commercial Use
+Advanced Batch Generation 
+Permanent Edit History · Unlimited Free Retries & Storage
+Unlimited Batch Exports · DCC Bridge
+
+Maximum Quality
+
+Everything in Max, Plus:
+Unlimited image generation Access & Free Generations 
+Shared Workspace & Assets
+Centralized Billing & Administration
+More Team Features Coming Soon
+If you'd like to use a coupon other than the New User 50% Off First Month offer, please click the button to remove the current coupon from your account.
+Remove Coupon
+Purchase
+
+$10
+
+1000 credits
+
+Purchase
+
+$100
+
+10000 + 2000 credits
+
+Purchase
+
+$500
+
+50000 + 12000 credits
+
+Purchase
+
+$1000
+
+100000 + 30000 credits
+
+Purchase
+Compare Plans
+
+Get an overview of what's included in each plan and choose the one that suits you best.
+
+Save Up to 50%
+Free
+Best for Explorers
+$0.00
+/ Month
+Get Free
+Pro
+Best for Creators
+$20.00
+per month
+billed yearly
+$20.00 / monthly
+Get Pro
+Max
+Best for Professionals
+$90.00
+per month
+billed yearly
+$90.00 / monthly
+Get Max
+Team
+Best for Teams & Studios
+$55.00
+month / seat
+billed yearly
+$110.00 / month / seat
+Get Team
+Price
+Monthly: $0.00
+Yearly: $0.00
+Monthly: $20.00
+Yearly: $240.00
+Monthly: $90.00
+Yearly: $1080.00
+Monthly: $330.00
+Yearly: $1980.00
+Value Proposition
+Try Tripo
+Start Creating
+Create Better
+Create Together
+Monthly Credits
+200
+3000
+25000
+90000
+Estimated Output
+≈ 13 models
+≈ 200 models
+≈ 1660 models
+≈ 6000 models
+Performance & Productivity
+Concurrent Tasks
+1
+10
+100
+200
+Processing Priority
+Standard
+High Priority
+Dedicated Priority
+Dedicated Priority
+Batch Generation
+10
+30
+30
+Edit History
+1 Day
+7 Days
+Permanent
+Permanent
+Free Retry
+3
+Unlimited
+Unlimited
+Model Storage
+10
+Unlimited
+Unlimited
+Unlimited
+Exports
+15 (H2.5 only)
+Unlimited
+Unlimited
+Unlimited
+Batch Export
+Free Pro Refine
+3
+Privacy & Commercial Rights
+Private Models
+Commercial Use
+Model Access
+High Detail Model
+Smart Topology Mesh
+Limited Access
+Creation Features
+Image Generation
+Model Access
+Nano Banana only
+All tools
+Nano Banana
+Nano Banana Pro
+Nano Banana 2
+GPT Image 2
+Midjourney
+All tools
+Nano Banana
+Nano Banana Pro
+Nano Banana 2
+GPT Image 2
+Midjourney
+All tools
+Nano Banana
+Nano Banana Pro
+Nano Banana 2
+GPT Image 2
+Midjourney
+Credits Cost
+Standard
+Standard
+20 free/day + 80% off thereafter
+Free
+Better Quality
+8K Texture
+Limited Access
+Limited Access
+Unlimited Access
+Unlimited Access
+Multi-view to 3D
+Ultra Mesh Quality
+Smart Low Poly
+Rigging & Animation
+Faster Workflow
+DCC Bridge
+Blender, 3ds Max, Unity, Unreal, Maya, Cocos, Godot, ZBrush
+Blender, 3ds Max, Unity, Unreal, Maya, Cocos, Godot, ZBrush
+Blender, 3ds Max, Unity, Unreal, Maya, Cocos, Godot, ZBrush
+More Control
+Smart Segmentation
+Limited Access
+Unlimited Access
+Unlimited Access
+Unlimited Access
+Part-based Transform
+Part-based Retopology
+Part-based Texture Edit
+Texture Edit with Magic Brush
+Single-view to Multi-view
+Advanced Benefits
+Exclusive Elite Club
+Early Access to Beta Features
+Shared Workspace
+Centralized Billing
+Team Management
+FAQ
+How do Credits work in Tripo AI?
+
+Credits are the usage currency on Tripo. Each model generation and editing consume credits depending on complexity and settings (see the table below). Plans include monthly credits, and you can always purchase extra credits as needed.
+
+Feature
+HD Generate
+Smart Mesh
+Segmentation
+Retopology
+Texture Gen
+Auto Rig
+Credits
+15
+35
+5
+5
+10
+20
+Add-ons (Optional)
+Ultra (+15), Generate in Parts (+30), Texture Gen (+10), HD Texture (+10), Quad (+5)
+Smart Mesh P2.0 (+65)
+Part Completion (+5 / part)
+Quad (+5), Smart Lowpoly (+30)
+Style Reference (+5), PBR (+5), HD Texture (+10)
+-
+Can I use Tripo AI for free?
+How do I upgrade my subscription plan?
+How do I cancel my subscription?
+Can I get a refund?
+What payment methods does Tripo AI support?
+How does Tripo AI keep my payment information secure?
+How do I get receipts?
+Which Tripo AI plan is right for me?
+Looking to scale with our API or enterprise plans?
+Awards
+PRODUCT HUNT
+#1 Product of the Day
+WINNER 2024
+AI Tool Awards
+EDITOR'S PICK
+Creator Choice
+Ratings
+Follow
+Contact Us
+User Support
+support@tripo3d.ai
+Enterprise Support
+business@tripo3d.ai
+Ask AI about Tripo.
+Trusted & Secure
+ISO/IEC 27001: 2022 certified information security
+
+Products
+
+Tripo Studio
+Tripo API
+
+Features
+
+High Detail Model
+Smart Mesh
+Image to 3D Model
+Text to 3D Model
+AI Texturing
+AI Model Segmentation
+Auto Rigging
+
+Solution
+
+3D Printing
+Game Development
+3D Animation
+Interior Design
+E-Commerce
+Education
+
+Creator Hub
+
+Gallery
+Event
+Creator Program
+For Makers
+
+Plugins
+
+Blender
+3ds Max
+Unity
+Unreal
+Maya
+Cocos
+Godot
+ZBrush
+MetaTailor
+Roblox
+
+Resources
+
+Blog
+Announcement
+Tutorial
+Comparison
+Affiliate Program
+Referral Program
+Team Program
+3D Converter
+3D Viewer
+STL Repair
+STL Editor
+3D File Compressor
+Careers
+Terms of Service
+Privacy Policy
+Help Center
+© 2023-2026 Tripo. All rights reserved.

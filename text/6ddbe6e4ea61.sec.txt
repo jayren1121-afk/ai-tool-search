@@ -1,0 +1,67 @@
+Flexible plans for creators and teams
+Pay monthly
+Pay annually (save 20%)
+Plans
+API
+Free
+---
+For exploring AI features at a basic level. Personal use only.
+---
+$0
+Limited free credits
+Get started
+What's included:
+---
+Basic
+---
+For individual creators with core image generation needs.
+---
+$10
+per month
+billed annually $120
+1,000 credits per month
+Upgrade to Basic
+Everything in Free, plus:
+Nano Banana,
+---
+Pro
+---
+For professional creators who need scale and video generation.
+---
+$16
+per month
+billed annually $192
+2k
+4k
+8k
+16k
+2,000 credits per month
+Upgrade to Pro
+---
+Teams
+---
+For teams collaborating on shared creative workflows.
+---
+$18
+per month per seat
+billed annually $211
+2k
+4k
+8k
+16k
+2,000 credits per month per seat
+Add workspace
+or Contact sales
+Everything in Pro, plus:
+---
+Got questions?
+What’s the difference between subscription credits and top-up credits?
+Subscription credits are included in your plan and reset at the start of each billing cycle — unused credits don't roll over.
+---
+Your plan remains active until the end of the current billing period. After cancellation, images created during your paid subscription remain private and under your ownership.
+Who owns the images I generate on the Free plan?
+Images generated on the Free plan are owned by Recraft. They are publicly visible in the community gallery and are not licensed for commercial use. For example, they cannot typically be listed on stock platforms, which require proof of owne
+---
+All models across the V2, V3, V4 and V4.1 generations are available via the API. More information can be found in API documentation.
+How is API usage billed?
+API usage is billed based on API Units consumed per request. Pricing varies by operation and output type. Full details are available in the API pricing documentation.

@@ -1,0 +1,106 @@
+Talk to sales
+Free	Standard
+Pay-as-you-go
+---
+Get started for free	Get started	Upgrade to Business	Contact sales
+Platform fees
+Free
+N/A
+---
+Free
+25+ free models
+Standard
+---
+Free
+4 free providers
+Standard
+---
+Free
+Yes
+---
+Activity logs & export
+Free
+Yes
+---
+Free
+No
+---
+Budgets & Spend Controls
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+No
+---
+Free
+5
+---
+DPA
+Free
+Via Terms of Service
+---
+Free
+No
+---
+SSO/SAML
+Free
+No
+---
+Contractual SLAs
+Free
+No
+---
+Payment options
+Free
+No
+---
+Free
+No
+---
+Standard
+$25,000 of list price inference / month with no fees, 5% fee after
+Business
+$25,000 of list price inference / month with no fees, 5% fee after
+Enterprise
+Custom
+Rate limits
+Free
+50 requests/day
+---
+Support
+Free
+Community support
+---
+Billing and Pricing
+How are tokens billed?
+Do you mark up provider pricing?
+How is billing structured for Standard, Business, Enterprise and BYOK?
+Are failed or fallback attempts billed?
+Do you offer volume discounts or annual plans?
+Are streaming responses billed differently?
+What payment methods do you accept?
+---
+Sign up for free
+Contact sales
+Footer

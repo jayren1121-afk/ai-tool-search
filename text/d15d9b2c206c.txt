@@ -1,0 +1,421 @@
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Show details
+Allow all
+Customize
+Support
+Login
+Platform
+Solutions
+Resources
+Pricing
+Enterprise
+Free AI tools
+Sign up free
+Book a demo
+Videos and Courses, all-in-one
+
+Your single platform to create video-first, multimodal training and enablement content that engages and scales
+
+Starter
+
+For individual content creators
+
+Free
+$27/mo
+
+No credit card required
+
+Sign up free
+Access to all Colossyan AI
+avatars
+
+Video Minutes
+
+20 min/mo with
+NEO
+
+Everything to start creating:
+
+Video
+
+15 custom avatars + 3 voices
+Brand kits
+10 interactive videos/mo
+15 auto translations/mo
+...and more
+Unlimited viewers
+Multiple avatars
+Multilingual player
+
+Learn
+
+Unlimited course creation
+Most popular
+Professional
+Yearly
+-34%
+
+For professionals or small teams
+
+$59
+/mo
+
+$
+30
+/mo per additional member
+
+1 editor
+2 editors
+3 editors
+Try it free
+Buy now
+Access to all Colossyan AI
+avatars
+
+Video Minutes
+
+30 min/mo with
+NEO
+
+10 min/mo with
+NEO2
+
+Everything in Starter, plus more:
+
+Video
+
+Unlimited MP4 video downloads
+Watermark removal
+5 SCORM exports/mo (Streaming)
+AI image generation
+increased limits
+20 custom avatars + 5 voices
+20 auto translations/mo
+15 interactive videos/mo
+
+Learn
+
+5 SCORM exports/mo (Streaming)
+Enterprise
+
+Companies scaling training and enablement
+
+Let's talk
+Contact sales
+Access to all Colossyan AI
+avatars
+
+Video Minutes
+
+Unlimited min/mo with
+NEO
+
+Unlimited min/mo with
+NEO2
+
+Everything in Professional, plus:
+
+No gated features
+Use everything, with no limits
+Unlimited custom avatars + voices
+Unlimited SCORM exports
+Streaming + Self-contained
+Unlimited auto translations
+Custom number of editors
+Analytics
+Complete customization
+Tailor the platform to your brand
+Branded avatars
+Custom studio avatars
+Custom templates
+Dedicated partnership
+Support, security, and compliance
+Priority support 24/7
+Dedicated CSM
+Custom SSO/SAML
+SOC 2 Type II compliant
+EU or US Data residency
+
+COMPARE PLANS
+
+Not sure which plan fits?
+
+Compare all plans
+
+Trusted by industry leaders
+
+Compare plans
+1
+Preparation
+Starter
+Professional
+Enterprise
+1
+Preparation
+AI video and course creator
+Course outline editor
+PPT, PDF import
+2
+Creation
+Colossyan AI avatars
+300+ Stock Avatars
+Stock Voices
+700+ Stock Voices
+Video minutes with NEO
+20 min/mo
+30 min/mo
+Unlimited
+Video minutes with NEO2
+0.5 min/mo
+10 min/mo
+Unlimited
+Video duration limit
+20 min
+30 min monthly
+50 min yearly
+Custom
+Scene limit
+40 scenes
+40 scenes
+Custom
+Custom avatar
+15
+20
+Unlimited
+Cloned voice
+3
+5
+Unlimited
+Interactive videos
+10/mo
+15/mo
+Unlimited
+Course creation
+Unlimited
+Unlimited
+Unlimited
+Templates
+Custom templates
+–
+–
+Brand kits
+Pronunciation library
+Stock media assets
+AI image generation
+–
+Screen recorder
+Subtitles
+Branded avatars
+–
+–
+Conversational avatars
+–
+–
+1,000 min
+Custom studio avatars
+–
+–
+1 included
+API access
+–
+360 min/yr
+Custom
+3
+Review & Collaboration
+Unlimited viewers
+Maximum editor seats
+1
+3
+Custom
+Shared workspaces
+Commenting
+–
+Draft and Video sharing
+–
+Team permissions
+–
+–
+4
+Localisation
+Auto-translations
+15/mo
+20/mo
+Unlimited
+Language variants
+120+ supported languages
+5
+Publish
+Course SCORM export
+0
+5/mo
+Unlimited
+Video SCORM export
+0
+5/mo
+Unlimited
+Video resolution
+Up to 1080p
+Up to 1080p
+Up to 4k
+Watermark removal
+–
+Custom branded share page
+–
+HTML embedding
+–
+Multilingual videos
+Video analytics
+–
+–
+6
+Support & Security
+Knowledgebase
+Priority support 24/7
+–
+–
+Dedicated CSM
+–
+–
+Custom SSO/SAML
+–
+–
+EU or US Data residency
+–
+–
+Frequently asked questions
+How much does Colossyan cost?
+
+Our free plan gives you $27/month worth of value, including our entire 300+ avatar library with best-in-class avatars. When you need more, Professional is $59/month on an annual plan, giving you 30 minutes a month with NEO and 10 minutes a month with NEO2 generation.
+
+Can I try Colossyan for free before signing up?
+
+Yes. Colossyan has a generous free trial and a free plan, so you can explore the product and create your first AI video before you commit. Start a free account, or book a personal demo with our sales team to learn more.
+
+What's the difference between Starter, Professional, and Enterprise?
+
+Starter is free for individuals exploring AI video. Professional ($59/month annual) adds NEO2 minutes, SCORM export, AI image generation, and up to 3 editors for small teams. Enterprise unlocks unlimited minutes, unlimited SCORM, SSO, data residency, and a dedicated CSM. See Enterprise plans.
+
+Is Colossyan SOC 2 Type II compliant and GDPR ready?
+
+Yes. Colossyan is SOC 2 Type II certified and GDPR compliant, with EU or US data residency on Enterprise plans. Enterprise customers can request a full security packet including the SOC 2 report, penetration test summary, and DPA. See our security page.
+
+Does Colossyan use my videos to train AI models?
+
+No. Colossyan does not train AI models on customer content. Your scripts, recordings, and generated videos stay private to your workspace. Data processing terms are covered in the DPA, available for Enterprise plans.
+
+Does Colossyan support SCORM export and LMS integration?
+
+Yes. Professional includes 5 SCORM exports per month. Enterprise includes unlimited SCORM in streaming and self-contained formats, compatible with any SCORM 1.2 or 2004 LMS (Workday, Cornerstone, Docebo, Litmos, Absorb). Learn more about SCORM export and LMS integration.
+
+What languages does Colossyan support?
+
+Colossyan supports 120+ languages. Avatar narration, on-screen text, and interactive elements localize together in a single workflow, with lip-sync in every language. Explore our full avatar library.
+
+How much does a Colossyan custom avatar cost?
+
+Instant custom avatars are included in any active plan. However, studio custom avatars, which are filmed professionally using a green screen, are available as an add-on for $1000 per year.
+
+Can I purchase additional minutes?
+
+Yes. On a Professional yearly plan you can buy add-on minute packs: 600 extra NEO2 minutes for $1,500/year. Reach out to sales to add a pack.
+
+Do you offer migration support from another platform?
+
+Yes. Enterprise plans include a dedicated onboarding specialist who audits content from Synthesia, HeyGen, Articulate, or Camtasia and plans the migration. Most teams are productive within their first week. See how Colossyan compares to other platforms.
+
+Will my unused minutes roll over to the next month?
+
+No. If you are under your video minute limit at the end of a billing period, your unused minutes will not roll over.
+
+If I pay for an annual subscription, will I receive my entire minute allowance for the year all at once?
+
+Yes! You'll receive all of your minutes for the year upon purchasing an annual plan, giving you the flexibility to use them whenever you need them.
+
+What counts toward my minute allowance?
+
+Only generated videos count, based on their length. Drafts do not. Videos with a NEO2 avatar use your NEO2 minutes. Videos with a NEO avatar, and videos with no avatar at all, use your NEO minutes.
+
+Do my drafts count toward my minute allowance?
+
+No. Only generated videos count toward your allowance, so feel free to create as many drafts as you like!
+
+If I delete my generated videos, do I get my minutes back toward my allowance?
+
+No, deleting generated videos will not result in a credit of minutes to your allowance.
+
+Can I pause my Colossyan subscription?
+
+Yes, you can pause your account for up to 2 months for free. Reach out to us in the chat to do so.
+
+Can I cancel Colossyan at any time?
+
+Monthly plans can be canceled at any time. Annual plans can also be canceled, but since they are paid upfront for the year, your subscription stays active and fully accessible until the end of your current billing period. Unused months are not refunded.
+
+Is Colossyan a one-time payment?
+
+No, access to Colossyan requires a recurring subscription. Professional plans can be billed monthly or annually, and all Enterprise plans are billed annually.
+
+Get started today for free
+
+No credit card required: simply go into the editor, and try out AI video completely free for 14 days. Start creating effective video content now.
+
+Create your free video
+Product
+All Features
+Text to Speech
+AI Avatars
+Cartoon Avatars
+AI Voice Cloning
+Colossyan Learn
+Custom AI Avatars
+AI Video Generator
+More features
+▾
+Use Cases
+All Use Cases
+Employee onboarding
+Customer education
+Compliance training
+Sales enablement
+Internal communications
+Product explainers
+AI Training Video Generator
+Enterprise
+API
+Industries
+All Industries
+Manufacturing
+Technology & Software
+Healthcare
+Professional Services
+Retail
+Education & Training
+Resources
+Pricing
+Try on mobile
+Free AI Tools
+Community
+Alternatives
+Webinars
+Case studies
+Blog
+Glossary
+Video Learning Center
+Integrations
+Partnerships
+Affiliates
+Support
+Contact Sales
+Company
+About us
+Ethics
+Research
+Careers
+Press
+Security
+Privacy
+Terms
+Acceptable Use
+Refund Policy
+Status
+© 2026 Colossyan Inc.

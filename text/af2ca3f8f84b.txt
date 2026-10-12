@@ -1,0 +1,212 @@
+Skip to Content
+Stable Audio
+Models
+Audio
+Image
+Video
+3D
+Deployment
+Self-Hosted License
+Platform API
+Solutions
+Strategic Partnerships
+Learn
+Guides
+Research
+Customer Stories
+ROI Calculator
+News
+Company
+Careers
+Safety
+Partners
+Board of Directors
+Get in touch
+Select a license
+
+Our flexible licensing options allow you to deploy our models in your environment with advanced customization and full control over your data.
+
+Community
+
+For researchers, developers, small businesses, and creators with less than $1M in annual revenue.
+
+License includes:
+
+Stable Audio 3.0
+
+Stable Diffusion 3.5 Suite
+
+SDXL Turbo
+
+Stable Fast 3D
+
+View full list
+
+Free
+Get license
+Enterprise
+
+For enterprise, API providers, and businesses with annual revenue exceeding $1M.
+
+License includes:
+
+Commercial Use
+
+Implementation Support
+
+Available upgrades include:
+
+Custom Model Training
+
+Consulting Services
+
+Custom Pricing 
+
+Get in touch
+
+ 
+
+We build image, video, 3D, and audio generation tools that work where you do.
+Image
+
+Create and edit visuals with industry-leading image quality, prompt adherence, and style variety out of the box.
+
+Learn more
+Audio
+
+Compose music, create sound effects, or transform your original audio using natural language prompts.
+
+Learn more
+Video
+
+Produce high-quality video from still images, expand and extend existing video, or use text prompts to bring your vision to life.
+
+Learn more
+3D
+
+Generate and refine detailed 3D objects from single images or videos in seconds.
+
+Learn more
+Frequently Asked Questions
+Do I have to pay to self-host Stability’s Core Models?
+I’m a fine-tuner, do I need to pay a license fee to Stability? Even if I sell my models?
+I own a business that uses the Core Models in our products, services or internal business operations. Do I need to pay a license fee?
+I am an individual creator or enthusiast generating content from the Core Models at home. Do I need to pay a license fee?
+I am a researcher in a large company. Do I need to pay a license fee?
+I am part of an organization that just hit USD $1M of annual revenue. What should I do next in order to continue using the Core Models and Derivative Works?
+How do the Stability AI Core Models compare to other open generative AI models?
+What happens if I am unable to agree to an Enterprise License with Stability?
+I am a creator who made a LoRA derived from a Core Model. Can I use the outputs of my LoRA to train another one?
+The Community License places restrictions on creating competing “foundational models” using the Core Models, Derivative Works and their outputs. Does this mean I can’t make fine-tunes of the Core Models?
+Given Stability AI’s Community License is revocable, does this mean I could be forced to stop using or distributing finetunes, outputs and other Derivative Works of the Core Models with little or no prior notice?
+Can I use outputs generated from a fine-tune of a Core Model for commercial purposes? How do the Stability AI Core Models compare to other open generative AI models?
+
+Have a question that we haven't answered yet? We're here to help!
+
+Get in touch
+
+ 
+
+Let's keep in touch
+Email*
+Which of our products or services are you interested in?*
+Please Select
+Enterprise solutions
+Gaming
+Image generation & editing
+Audio generation & editing
+3D/4D models
+Video models
+Dream Studio
+Partnership opportunities
+
+Stability AI is unlocking the power of open-source generative AI to expand human creativity. We build world-class models that are accessible, adaptable, and designed to empower creators, developers, and enterprises everywhere.
+
+COMPANY
+
+Board of Directors
+
+Partners
+
+Safety
+
+Research
+
+Careers
+
+News
+
+Brand Resources
+
+MODELS
+
+Image
+
+Video
+
+Audio
+
+3D
+
+DEPLOYMENT
+
+Stability AI License
+
+Community License Agreement
+
+Platform API
+
+Cloud Platforms
+
+LEARN
+
+Guides
+
+Customer Stories
+
+Knowledge Base
+
+Explainers
+
+CONTACT US
+
+press@stability.ai
+
+partners@stability.ai
+
+Submit a Support Request
+
+LEGAL
+
+Acceptable Use Policy
+
+Privacy Policy
+
+Terms of Service
+
+Trust Center
+
+Your Privacy Choices
+
+APPLICATIONS
+
+Stable Audio
+
+JOIN THE MAILING LIST
+Email*
+Which of our products or services are you interested in?*
+Please Select
+Enterprise solutions
+Gaming
+Image generation & editing
+Audio generation & editing
+3D/4D models
+Video models
+Dream Studio
+Partnership opportunities
+
+© Stability AI Ltd, 2026
+
+By clicking “Accept All Cookies”, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.
+Cookies Settings
+Reject All Accept All Cookies

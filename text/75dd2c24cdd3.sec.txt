@@ -1,0 +1,26 @@
+Free Tier: Advanced capabilities at zero cost
+---
+Pro Tier: Expanded limits $19/mo. per user
+---
+Summary
+---
+Limited agentic requests per month
+---
+Everything included in the Free tier, with
+---
+Free
+---
+50 agentic requests per month
+---
+1,000 lines of code per month
+---
+4,000 lines of code per month per user pooled at account level. Extra lines of code available at $.003 per line of code submitted. *
+---
+Free Tier limits in the IDE are available only to Builder ID users.
+Free Tier limits apply at the account level when logged in as an IAM user, or at the user level for AWS Builder ID users.
+Only users with access to the AWS console can use the Amazon Q Developer Free Tier limits in the AWS Console.
+Chat interactions through the AWS Console Mobile Application, AWS Chatbot, and AWS marketing and documentation pages are currently exclusively governed by Free Tier limits.
+---
+Is the whole AWS IAM Identity Center group charged when one user activates their Amazon Q Developer Pro subscription?
+How is the Amazon Q Developer monthly subscription billed?
+What happens if I cancel my Amazon Q Developer Pro subscription mid-month?

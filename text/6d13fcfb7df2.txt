@@ -1,0 +1,128 @@
+Browser Use
+Agents
+Browsers
+Showcase
+Resources
+Pricing
+118k
+Log in
+Start for free
+Pay as you go.
+
+No subscription. Credits never expire.
+
+Browsers
+
+$0.02 / hour
+
+Residential proxy
+$5 / GB
+Browser agents
+
+Model cost + 20%
+
+Plus browser time and traffic.
+
+Get started
+→
+Email us
+↗
+Which model to choose?
+
+Price vs. quality. Very hard browser tasks.
+
+OpenAI
+Anthropic
+DeepSeek
+xAI
+MiniMax
+Z.ai
+
+Quality / 100 ↑
+
+10
+30
+50
+70
+90
+$0.05
+$0.1
+$0.5
+$1
+$5
+$10
+Opus 5.5
+DeepSeek V4.1
+GPT-6 Astra
+GPT-6 Luna
+GPT-6 Sol
+Grok 4.6
+MiniMax M3
+
+← Lower price per task (USD)
+
+GPT-6 Luna · high · 53.9/100 · ≥ $0.15 / task
+
+About this benchmark
+Model prices
+Concurrency tiers
+Billing details
+Custom model API
+Legacy pricing
+Product
+Browser Use Agents
+Browser Infrastructure
+Resources
+Pricing
+Benchmarks
+Documentation
+Developers
+Open Source
+Browser Harness
+OpenClaw
+Custom Models
+Proxies
+Blog
+Changelog
+Solutions
+Remote browser for Playwright
+CAPTCHA solving
+Anti-detect browser
+Browser for coding agents
+MCP server
+Web agent API
+Form filling
+Login automation
+Showcase
+All examples
+What people run
+Data extraction
+Shopping & checkout
+Travel & booking
+Testing & QA
+Research
+Companies & jobs
+Agent workflows
+Social & outreach
+Games & real-time
+Case studies
+Company
+Careers
+Enterprise
+SOC 2
+Terms
+Privacy
+DPA
+Contact
+Cookie Settings
+Connect
+GitHub
+Twitter
+LinkedIn
+Discord
+View as Markdown
+Current view: website.
+↗
+System status
+© 2026 Browser Use
+AI agents and crawlers: read browser-use.com/llms.txt for the product map and llms-full.txt for full context.

@@ -1,0 +1,174 @@
+How many minutes do you plan to use per month?
+0
+---
+1,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+By Usage
+---
+Included
+---
+$5 free credits to get you started
+2 organizations
+1 included Vapi phone number
+4 concurrent calls
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Pro
+---
+For scaling teams in production
+---
+$999
+---
+10% of Vapi hosting fee
+$999/mo minimum
+---
+10 organizations
+10 included Vapi phone numbers
+---
+Contact Sales
+---
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
+---
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+1,000 minutes
+$50
+Transcriber
+Deepgram
+$10
+Intelligence Model
+OpenAI
+$8 - $45
+Voice
+ElevenLabs
+$15 - $24
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+No Success Package
+$0
+Estimated Total
+$
+82
+---
+129
+/mo
+---
+Talk now
+Contact sales
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+$0
+---
+to start
+---
+Pre-paid, $0.05/min Vapi hosting.
+---
+Models pass-through at cost
+---
+Start building
+---
+$5 free credits to get you started
+---
+2 organizations
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Contact Sales
+---
+10%
+---
+of Vapi hosting fee
+---
+$999/mo minimum
+---
+Models pass-through at cost
+---
+Contact Sales
+---
+Contact sales
+---
+Own your voice agents.
+Contact sales
+Sign up

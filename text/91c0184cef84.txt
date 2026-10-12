@@ -1,0 +1,183 @@
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+Customise
+Reject All
+Accept All
+Powered by
+Archived
+Obviously AI is now Zams. This site is an archive of how it operated through 2025.
+Visit Zams →
+Software
+Service
+Pricing
+Use Cases
+Success Stories
+Resources
+Sign in
+Get Started
+Because data science shouldn’t feel like rocket science
+Our unique combination of Software and Human Data Scientists cover everything from data cleaning to advanced AI models.
+Software + Data Scientist
+Software Only
+Startup Plan
+Build AI agents, workflows and models quickly and affordably.
+Full access to No-Code AI Software
+Get Started
+Platform
+Agentic AI
+
+Modern AI stack that automates and solves almost every business problem.
+
+Predictive AI
+
+Classical AI stack that requires heavy duty data and traditional algorithms.
+
+Output
+AI Agents
+RPA Automations
+Recurring Reports
+Model Dashboard
+REST APIs
+Funtionality
+Model Finetuning
+Model Monitoring
+Up to 1 use case
+Processing
+Up to 100 MB of Files
+Up to 1 Million Rows of Data
+Support
+Dedicated AI Strategist
+Dedicated Data Scientist
+Video Call & Chat Support
+
+Your AI Strategist and Data Scientist join your team—chat on Slack or hop on a call!
+Advanced
+Governance
+SAML / SSO
+Logging & Audit Trails
+Data Residency
+Custom Data Sources
+Private Cloud Setup
+Get Started
+Popular
+SMB Plan
+Scale AI and Automations with more power and control.
+Full access to No-Code AI Software
+Get Started
+Platform
+Agentic AI
+
+Modern AI stack that automates and solves almost every business problem.
+
+Predictive AI
+
+Classical AI stack that requires heavy duty data and traditional algorithms.
+
+Output
+AI Agents
+RPA Automations
+Recurring Reports
+Model Dashboard
+REST APIs
+Funtionality
+Model Finetuning
+Model Monitoring
+Up to 3 use cases
+Processing
+Up to 1 GB of Files
+Up to 100 Million Rows of Data
+Support
+Dedicated AI Strategist
+Dedicated Data Scientist
+Video Call & Chat Support
+
+Your AI Strategist and Data Scientist join your team—chat on Slack or hop on a call!
+
+Advanced
+Governance
+SAML / SSO
+Logging & Audit Trails
+Data Residency
+Custom Data Sources
+Private Cloud Setup
+Get Started
+Enterprise Plan
+Deploy AI with enterprise-grade security and customization.
+Full access to No-Code AI Software
+Contact Us
+Platform
+Agentic AI
+
+Modern AI stack that automates and solves almost every business problem.
+
+Predictive AI
+
+Classical AI stack that requires heavy duty data and traditional algorithms.
+
+Output
+AI Agents
+RPA Automations
+Recurring Reports
+Model Dashboard
+REST APIs
+Funtionality
+Model Finetuning
+Model Monitoring
+Up to 5 use cases
+Processing
+Up to 10 GB of Files
+Up to 250 Million Rows of Data
+Support
+Dedicated AI Strategist
+Dedicated Data Scientist
+Video Call & Chat Support
+
+Your AI Strategist and Data Scientist join your team—chat on Slack or hop on a call!
+
+Advanced
+Governance
+SAML / SSO
+Logging & Audit Trails
+Data Residency
+Custom Data Sources
+Private Cloud Setup
+Contact Us
+Trusted by Top tier companies across the world
+Frequently asked questions
+
+Here are some questions we get all the time, rest assured, you're in good hands!
+
+How does the Software + Data Scientist plan work?
+
+In this plan you get matched with a Ph. D. Data Scientist who is at your disposal for a variety of tasks such as: creating an AI model, cleaning data, merging multiple data sources, conducting a data science audit or even just there to provide sound advice around AI and industry best practices. Think of them as an extension of your team, you can add them to your Slack, Microsoft Teams, instant messaging, etc. and book a call with them anytime. It's pretty much like adding a data scientist to your team, without additional cost or overhead!
+
+What is API access and how to use it?
+
+APIs enable you to export your predictions to your own app, internal tool, website, and much more. It is a way to get the predictions to display outside your account.
+
+What're the qualifications of a Dedicated Data Scientist?
+
+All of our Dedicated Data Scientists have a masters / Ph.D. degree and come with extensive experience working at companies like Google, Facebook, etc.
+
+What counts for a prediction?
+
+Every time you send a row or record to your ML model and it returns a result it counts as a single prediction. For example - Sending a single record via API and returning a result counts as a single prediction. Uploading a CSV with 100 rows of data and producing prediction results for each row counts at 100 predictions.
+
+The fastest, most precise No-Code AI tool in the world.
+
+© 2025 by Obviously AI, Inc.
+
+Product
+Data Requisites
+Algorithms
+Security
+Resources
+Help Center
+API Docs
+Status Page
+Company
+About
+Careers
+Contact Us

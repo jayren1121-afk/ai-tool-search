@@ -1,0 +1,527 @@
+AI Coworkers
+Solutions
+Platform
+Enterprise
+Pricing
+Resources
+En
+Sign in
+
+Book a demo
+
+Start free trial
+
+Hire your AI Coworkers
+
+Your AI Coworkers to solve the adaptation gap.
+
+Book a demo
+
+Start free trial
+
+Adapt
+
+Your Chief of Staff and content coworkers. You direct the work.
+
+STARTING AT
+$1,200
+/ year
+
+Billed annually
+
+Start free trial
+
+COWORKERS
+
+Chief of Staff
+Content Translator Coworker
+Content Creator Coworker
+
+INCLUDED
+
+All content types
+Unlimited users
+Linear workflows
+Standard SLA
+Accelerate
+
+A larger team, so the same work moves faster.
+
+STARTING AT
+$24,000
+/ year
+
+Billed annually
+
+Book a demo
+
+COWORKERS
+
+Chief of Staff
+Content Translator Coworker
+Content Creator Coworker
+Reviewer Coworker
++ Added
+Marketplace experts
++ Added
+
+INCLUDED
+
+Everything in Adapt, plus:
+Partner and vendor collaboration
+Marketplace access (500K+ experts)
+Priority SLA
+Most popular
+Anticipate
+
+Coworkers that run on their own and wait for your sign-off.
+
+STARTING AT
+$60,000
+/ year
+
+Billed annually
+
+Book a demo
+
+COWORKERS
+
+Chief of Staff
+Content Translator Coworker
+Content Creator Coworker
+Reviewer Coworker
+Marketplace experts
+Content Update Coworker
++ Added
+Quality Assurance Coworker
++ Added
+
+INCLUDED
+
+Everything in Accelerate, plus:
+API access
+SSO & 2FA
+Preconfigured reporting + ROI dashboard
+Autonomous
+
+A governed AI workforce across your whole organization.
+
+Custom
+
+Tailored to your needs
+
+Book a demo
+
+COWORKERS
+
+Chief of Staff
+Content Translator Coworker
+Content Creator Coworker
+Reviewer Coworker
+Marketplace experts
+Content Update Coworker
+Quality Assurance Coworker
+
+INCLUDED
+
+Everything in Anticipate, plus:
+Parallel workflows, branching, triggers
+7 workspaces with hierarchy
+Enterprise governance + Intelligence Fabric
+Custom reporting + ROI dashboard
+On-site support
+Trusted by Fortune 1000 brands to power global content.
+4.6
+4.6
+
+Your foundation coworker
+
+Every team starts with a Chief of Staff
+
+Every Smartcat user gets a dedicated Chief of Staff. It's the foundation coworker that manages your AI coworkers and holds the skills that are uniquely yours. It coordinates the coworkers you hire, learns your team's preferences, and gets more capable as you add more coworkers around it.
+
+Manages your AI coworkers
+Holds your personal skills
+Coordinates work across the coworkers you've hired
+Grows in capability as you scale
+Content Translator Coworker
+Content Creator Coworker
+Reviewer Coworker
+Marketplace experts
+Content Update Coworker
+Quality Assurance Coworker
+Compliance Coworker
+Chief of Staff
+Compare plans
+Plan	Adapt
+from $1,200 / yr
+	Accelerate
+from $24,000 / yr
+	Anticipate
+from $60,000 / yr
+	Autonomous
+Custom
+
+COWORKERS
+Chief of Staff 
+	
+	
+	
+	
+
+Content Translator Coworker 
+	
+	
+	
+	
+
+Content Creator Coworker 
+	
+	
+	
+	
+
+Reviewer Coworker 
+		
+	
+	
+
+Content Update Coworker 
+			
+	
+
+Quality Assurance Coworker 
+			
+	
+
+Compliance Coworker 
+				
+
+Marketplace 
+	Add-on	
+	
+	
+
+Custom coworkers 
+				
+
+SKILLS
+Number of Personal skills 
+	3	7	15	25
+Number of Global skills 
+	5	8	20	100
+AUTONOMY & ORCHESTRATION
+Workflow type 
+	Linear	Linear	Branching & loops	Branching & loops
+Event triggers 
+	Scheduled & on demand	Scheduled & on demand	Scheduled, on demand & on signal	Scheduled, on demand & on signal
+Global workflows 
+	1	2	6	30
+Personal workflows 
+		1	2	3
+Parallelization 
+	Sequential	Sequential	Add-on	Included
+INTELLIGENCE FABRIC
+Signal collection 
+	Via available integrations	Via available integrations	Via available integrations	Unlimited, via custom integrations
+Signal categories tracked 
+			1	2
+Recommended actions 
+			On qualified signals	On qualified signals
+Action on approval 
+			With your approval	Automatic, within your rules
+Fabric scope 
+	Single workspace	Single workspace	Cross-workspace	Org-wide
+GOVERNANCE
+SSO (SAML / OIDC) 
+			
+	
+
+2FA 
+			
+	
+
+Reports & apps 
+	Quick Translate	Quick Translate	ROI, translation review and Smartwords reports	Custom reports and apps (scoped)
+Organization Admin 
+				
+
+Data Residency 
+				
+
+Audit trail 
+	Standard	Standard	Full	Full
+MSA 
+	Standard	Standard	Customizable	Customizable
+Technical questionnaire 
+			
+	
+
+WORKSPACES & SCALE
+Sandbox workspaces 
+			1	1
+Workspaces included 
+	1	1	2	7
+Users 
+	Unlimited	Unlimited	Unlimited	Unlimited
+Smartwords included 
+	100K	1M	2M	6M
+Smartwords balance 
+	Workspace-bound	Workspace-bound	Shared across workspaces	Shared, with allocation by workspace
+Translation Memory 
+	Free (not charged)	Free (not charged)	Free (not charged)	Free (not charged)
+SUPPORT & SERVICES
+Support 
+	Help Center + email	Help Center + email	Help Center + email	Priority support, guaranteed response SLA, semi-annual EBR
+Onboarding & services 
+	Self-guided	Led by Account Manager	Led by Account Manager and Forward Deployed Engineer	Custom onboarding with Onsite Support
+SLA 
+	Standard	Priority	Enterprise SLA	Enterprise SLA + named escalation
+INTEGRATIONS
+Custom Integrations 
+			
+	
+
+API access 
+			
+	
+
+Integrations
+
+Plug into the stack your team already runs
+
+Your AI workforce shows up in the tools your team already uses. Smartcat connects to all of the major systems your team needs: content systems, design tools, and developer pipelines.
+
+Adapt
+
+Core productivity & cloud storage to translate everyday docs.
+
+Basic integrations
+
+PRODUCTIVITY & STORAGE
+
+Google Drive
+Google Sheets
+Chrome Extension
+OneDrive
+Accelerate
+
+Adds design & visual collaboration tools for cross-functional teams.
+
+All Adapt integrations, plus
+
+DESIGN
+
+Figma
+Canva
+Anticipate
+
+Adds CMS, dev pipelines & enterprise platforms for growing programs.
+
+All Accelerate integrations, plus
+
+DEVELOPER PIPELINES
+
+CLI
+GitHub
+
+WORKFLOWS
+
+Jira
+
+CMS
+
+Contentful (iHub)
+Contentful Plugin
+Optimizely
+Kontent.ai
+WPML (WordPress)
+Amplience
+Sanity
+Butter CMS
+Craft CMS
+Sharepoint CMS
+Drupal
+Adobe Experience Manager (AEM)
+Sitecore XM Cloud
+Sitecore XP
+
+FILE STORAGE & DOCS
+
+SharePoint Storage
+
+PIM
+
+Akeneo
+Salsify
+InRiver
+
+CUSTOMER EXPERIENCE
+
+Zendesk
+Salesforce Service Cloud
+
+COMMERCE
+
+Salesforce Commerce Cloud
+
+MARKETING
+
+Emarsys
+Salesforce Marketing Cloud
+
+L&D AND OTHER
+
+Paligo
+ServiceNow
+Autonomous
+
+Adds bespoke connectors for your unique enterprise systems.
+
+All Anticipate integrations, plus
+
+BESPOKE
+
+Custom integrations
+
+Customer stories
+
+Faster. Smarter. Without sacrificing quality.
+
+“
+Thanks to Smartcat, we were able to at least double our team's productivity.
+
+Michelle Quirke
+
+Topcon
+
+“
+Ever since using Smartcat, we have increased our project output by 30% using the same resources.
+
+Gina Gross
+
+Wunderman Thompson
+
+“
+We were able to reduce translation costs by up to 70%, significantly reduce the turnaround time, and keep quality consistent throughout.
+
+Josie Millis
+
+Stanley Black & Decker
+
+Pricing FAQ
+How do coworkers get assigned to my work?
+When you hire a tier, the coworkers in that tier are immediately available to your team. Your Chief of Staff coordinates which coworkers handle which tasks based on the workflow you define.
+What's included in implementation?
+Implementation is included at every tier. Options scale from a self-service experience for solo users and small teams to a fully managed rollout led by a Forward Deployed Engineer for enterprise customers. Your account manager will walk you through the options that fit your team.
+Can I add workspaces?
+Yes, from Anticipate up. Anticipate includes 2 workspaces and Autonomous includes 7, and you can add more at your plan's workspace add-on price. Adapt and Accelerate run in a single workspace, so if you need a second one you move up a tier.
+What if I outgrow my tier?
+You can upgrade anytime. Your existing setup, Smartwords balance, and skills come with you.
+What happens if I run out of Smartwords?
+Smartwords are an annual allowance. If you need more before renewal, you can top up at any point in your contract year without changing plan. On Anticipate and Autonomous your balance is shared across workspaces, so unused words aren't stranded in one team.
+Do I pay twice for content I've already translated?
+No. Translation memory matches and repetitions are free on every plan, including Adapt. Once a sentence has been approved, reusing it anywhere in your content costs no Smartwords — so your effective cost per word falls as your translation memory grows.
+Do you offer a free trial?
+Yes. 15-day free trial, including API access.
+How does the Marketplace work?
+Marketplace gives you on-demand access to 500K+ vetted human experts: linguists, copywriters, reviewers.
+What languages do you support?
+280+ languages across translation and content creation.
+Close the adaptation gap.
+Hire your workforce today.
+
+Book a demo
+
+Start free trial
+
+Product Tour
+
+Why Smartcat
+
+Enterprise
+
+For Vendors
+
+Pricing
+
+Product
+
+AI Translation
+Linguist Marketplace
+Website Translator
+Payment Automation
+Advanced CAT Tool
+Integrations
+
+Solutions by role
+
+L&D Manager
+Marketer
+Localization Manager
+Product Manager
+Government
+School Districts
+Language Service Provider
+
+Guides
+
+Document translation
+eLearning & SCORM
+Video translation
+Website translation
+AI translator
+Localization platform & TMS
+AI translation for business
+Translation by industry
+Translation software comparison
+
+Company
+
+About us
+Culture code
+Careers
+RFP
+
+Industries
+
+Life science
+Retail and consumer goods
+Manufacturing
+Automotive
+Technical
+
+Resources
+
+Blog
+Events
+Case studies
+Help center
+Support
+What’s new
+Authors
+Release notes
+Cookie Preferences
+Security
+Privacy Policy
+Terms of Service
+Status
+Report Illegal Content
+
+Follow us:
+
+AI summary
+
+Read reviews on
+
+4.6
+
+SOC II compliant organization
+
+© Smartcat Platform Inc. 2026 | 2810 N Church St PMB 50985, Wilmington, Delaware, 19802-4447, USA
+
+Do Not Sell or Share My Personal Information
+
+EN
+
+Book a demo

@@ -1,0 +1,291 @@
+Skip to main content
+English
+Contact us
+AWS Marketplace
+Support
+My account
+re:Invent
+Discover AWS
+Products
+Solutions
+Pricing
+Resources
+
+Search
+
+Sign in to console
+Create account
+
+Amazon Q Developer
+
+Overview
+Features
+Pricing
+Documentation
+Resources
+Get started
+Amazon Q
+Amazon Q Developer
+Pricing
+Amazon Q Developer pricing
+Pricing Overview
+
+Amazon Q Developer reimagines the experience across the entire software development lifecycle (SDLC), making it faster and easier to build, secure, manage, and optimize applications on or off of AWS. Amazon Q Developer offers two pricing tiers.
+
+	
+Free Tier: Advanced capabilities at zero cost
+	
+Pro Tier: Expanded limits $19/mo. per user
+
+
+Summary
+	
+Limited agentic requests per month
+
+Access latest Claude models
+Use in the IDE or CLI
+	
+
+Everything included in the Free tier, with
+
+Increased limits of agentic requests
+
+Increased limits for Java and .NET app transformation
+Identity center support with admin dashboards and controls
+IP indemnity
+
+Pricing Table
+Feature
+	
+Free
+	
+Pro
+
+
+IDE plugins and CLI
+	
+
+     
+
+	
+
+     
+
+
+
+Included agentic requests (Q&A chat, agentic coding)
+	
+
+50 agentic requests per month
+
+	
+
+Included (with limits)
+
+
+
+Amazon Q Developer transformation capability for Java upgrades *
+	
+
+1,000 lines of code per month
+
+	
+
+4,000 lines of code per month per user pooled at account level. Extra lines of code available at $.003 per line of code submitted. *
+
+
+
+Administration
+	
+
+     
+
+	
+
+     
+
+
+
+Admin dashboard with user and policy management**
+	
+
+No
+
+	
+
+Yes
+
+
+
+Security and privacy
+	
+
+     
+
+	
+
+     
+
+
+
+Reference tracking
+	
+
+Yes
+
+	
+
+Yes
+
+
+
+Suppress public code suggestions
+	
+
+Yes
+
+	
+
+Yes
+
+
+
+Data collection
+	
+
+Opt-out available
+
+	
+
+Automatically opted out
+
+
+
+IP indemnity
+	
+
+No
+
+	
+
+Yes
+
+
+
+AWS Console
+	
+
+   
+
+	
+
+     
+
+
+
+General Q&A
+	
+
+Yes
+
+	
+
+Yes
+
+
+
+Diagnose common errors in the console
+	
+
+Yes
+
+	
+
+Yes
+
+To maintain the performance of the service and to ensure appropriate usage of Amazon Q Developer, the usage for an account might be updated depending on regional factors, payment history, fraudulent usage, or approval of a quota increase request. To learn more, see service limits.
+
+*The Amazon Q Developer capabilities for Java upgrades are available to Amazon Q Developer Free Tier and Amazon Q Developer Pro Tier users. Pricing charges and usage are calculated against limits based on the number of lines of code (LOC) that you submit to Amazon Q. Only those submissions where you receive suggested upgrade code back are counted while those where you stop the job before completion or when a failure is encountered during the upgrade are not included. Noncode lines in repositories such as comments and empty lines are not counted.
+
+You can get started with the Amazon Q Developer transformation capability at no cost as part of the Amazon Q Developer Free Tier. Amazon Q Developer Free Tier users can upgrade 1,000 LOC per month, per user. If your code exceeds this limit, consider submitting a smaller buildable unit, like a module, or subscribe to the Amazon Q Developer Pro Tier for higher allocation limits and pay-per-use upgrades.
+
+Amazon Q Developer Pro subscription are allocated 4,000 LOC per month for upgrades using Amazon Q Developer transformation capabilities for Java upgrades. These allocations are aggregated at the AWS payer-account level every month. Thus, if you have 100 active Amazon Q subscriptions across all your linked AWS accounts, you can submit 400,000 LOC per month for upgrades before incurring additional charges. Usage that exceeds this allocation is charged $0.003 per LOC submitted.
+
+Amazon Q Developer offers a perpetual Free Tier with monthly limits available to users logged in as an AWS Identity and Access Management (IAM) user or AWS Builder ID user.
+
+Free Tier limits in the IDE are available only to Builder ID users.
+Free Tier limits apply at the account level when logged in as an IAM user, or at the user level for AWS Builder ID users.
+Only users with access to the AWS console can use the Amazon Q Developer Free Tier limits in the AWS Console.
+Chat interactions through the AWS Console Mobile Application, AWS Chatbot, and AWS marketing and documentation pages are currently exclusively governed by Free Tier limits.
+
+Members with subscriptions linked to an organization with IAM Identity Center benefit from Pro Tier limits at the user level. Note that Amazon Q Developer agent for code transformation limits are pooled at the payer account level for paid subscriptions.
+
+** Amazon Q Developer Free Tier users can upgrade to a personal Pro Tier subscription using their Builder ID and an AWS account. If upgrading with Builder ID and not the IAM Identity Center, you will not have access to this feature using Pro Tier. If you wish to utilize this feature, please sign up for Pro Tier using IAM Identity Center.
+
+Show more
+Amazon Q Developer Pricing FAQs
+9
+Amazon Q Developer Pricing FAQs
+Open all
+What is an agentic request?
+In which Identity Center regions are Amazon Q Developer subscriptions supported?
+What does it mean by activating the Amazon Q Developer Pro subscription?
+Is the whole AWS IAM Identity Center group charged when one user activates their Amazon Q Developer Pro subscription?
+How is the Amazon Q Developer monthly subscription billed?
+What happens if I cancel my Amazon Q Developer Pro subscription mid-month?
+How do I unsubscribe from the Amazon Q Developer subscription?
+How do overage charges for Amazon Q Developer work with my subscription?
+How can I manage my usage to avoid overage charges for Amazon Q Developer agents for transformation?
+Get started with Amazon Q Developer
+Getting started
+Check out ways to start using Amazon Q Developer
+Learn more
+Blog
+Understanding the personas of Amazon Q
+Learn more
+Create an AWS account
+Learn
+What Is AWS?
+What Is Cloud Computing?
+What Is Agentic AI?
+Cloud Computing Concepts Hub
+AWS Cloud Security
+What's New
+Blogs
+Press Releases
+Careers
+Resources
+Getting Started
+Training
+AWS Trust Center
+AWS Solutions Library
+Architecture Center
+Product and Technical FAQs
+Analyst Reports
+AWS Partners
+Developers
+Builder Center
+SDKs & Tools
+.NET on AWS
+Python on AWS
+Java on AWS
+PHP on AWS
+JavaScript on AWS
+Help
+Contact Us
+File a Support Ticket
+AWS re:Post
+Knowledge Center
+AWS Support Overview
+AWS Accessibility
+Legal
+Event Code of Conduct
+Event Terms & Conditions
+English
+Back to top
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. Veterans, military spouses, and people with disabilities are encouraged to apply.
+Privacy
+Site terms
+Your Privacy Choices
+Cookie Preferences
+© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.

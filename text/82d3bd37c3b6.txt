@@ -1,0 +1,257 @@
+Home
+Pricing
+Blog
+Typical Users
+Affiliate
+Sign in
+Sign up for free
+Home
+Pricing
+Blog
+Typical Users
+Affiliate
+Sign In
+Sign up for free
+Stay on top of your life
+Use Saner.AI to save time and level up your work
+YEARLY
+-20%
+MONTHLY
+Free
+$0
+/month
+For everyone
+Get Started
+30 AI messages/month
+100 Notes
+PDF: 1MB/file
+Storage: 100MB
+30 AI requests/month
+Community support
+Access to External AIs
+Access to task system
+Sync data from Google Drive, Email, Slack, Calendar
+OCR
+Multilingual support
+Chrome Extension
+Mobile app
+Preview access to Reasoning Mode
+Free Trial Bonus: 50 AI requests + PDF 10MB
+No CC Required
+Standard
+$16
+/month
+Most popular plan for professionals
+Get Started
+Unlimited* AI messages
+Unlimited Notes
+PDF: 10MB/file
+Storage: 100GB
+100 AI requests/day
+Founders support
+Access to External AIs
+Access to task system
+Sync data from Google Drive, Email, Slack, Calendar
+OCR
+Multilingual support
+Chrome Extension
+Mobile app
+Extended access to Reasoning Mode
+Starter
+$8
+/month
+The basic plan for newbies
+Get Started
+30 AI messages/day
+1000 Notes
+PDF: 5MB/file
+Storage: 5GB
+30 AI requests/day
+Team support
+Access to External AIs
+Access to task system
+Sync data from Google Drive, Email, Slack, Calendar
+OCR
+Multilingual support
+Chrome Extension
+Mobile app
+Limited access to Reasoning Mode
+*Usage must be reasonable and comply with our policies.
+Check the FAQ for more info
+Have a question?
+
+What is an AI request?
+
+AI messages include Skai, Online and AI-Search queries (not including Reasoning mode)
+
+AI requests include similar search queries, image description generation, AI tag generation, and other AI-generated requests.
+
+What are personal AI and External AIs?
+
+Personal AIs are customized AI models by Saner.AI for users, such as Skai and Online Search.
+
+External AIs are AI models created by other companies or organizations, such as GPT, Claude, or Gemini
+
+Access to 'External AIs' refers to the availability of the models. To use them, users need to pay or use their API keys separately.
+
+Is a message to External AI included in the package?
+
+No, messages to External AIs are not included in the message limit of each package. For instance, if you purchase the Standard package with 100 chat messages and only chat with External AI models, your message balance will remain at 100.
+
+Is the price of External AI included in the package price ?
+
+No, it doesn't.
+
+If you wish to utilize external AI models, you can (1) pay for them separately under a 'pay as you go' model or (2) use your own API Key (check the "My AIs" section in settings)
+
+What is the pricing for External AI?
+
+External AI pricing is calculated on a per-token basis. This pricing structure is separate from the cost of each package and should be considered an additional service.
+
+For details regarding token pricing, please refer to the 'External AIs' section within your account settings in the Saner.ai app
+
+What should I know about the unlimited usage?
+
+The Standard plan offers unlimited AI Messages & Notes. However, usage must adhere to our Terms of Service, which prohibits, among other things:
+
+Abusive usage, such as automatically or programmatically extracting data.
+Sharing your account credentials or making your account available to anyone else.
+Reselling access or using Saner.AI to power third-party services.
+
+We have guardrails in place to help prevent misuse and are continually working to improve our systems. If these guardrails are violated, it may sometimes result in a temporary restriction on your usage. If you think this might be a mistake, please don’t hesitate to reach out to us at contact@saner.ai. If policy-violating behavior is not found, your access will be restored.
+
+What are your accepted payment methods?
+
+We currently accept all major credit and debit card brands.
+
+What happens when I change plans?
+
+Upgrading your plan: Your account will be upgraded and charged immediately. The amount due will be reduced based on the percentage of the billing cycle left at the time the plan was changed.
+
+Downgrading your plan: Your account will be downgraded at the end of your billing cycle
+
+Does my subscription automatically charge each month?
+
+Yes
+
+How do I cancel my paid plan?
+
+You can cancel your plan by going to Saner.ai app -> Settings -> Subscription plan -> Manage subscription
+
+Where can I find my invoices?
+
+Your invoice will be automatically sent to your email
+
+How easy is it to cancel my subscription?
+
+Super easy. No hidden costs or obstacles. Just sign in to your account, go to Subscription Plan, select Manage, and cancel it.
+
+Feel free to email us if you encounter any issues
+
+How do you handle my data?
+
+We take data privacy seriously and handle your data with the utmost care.
+
+You can read more in detail in our data privacy here
+
+Your trust and privacy are of paramount importance to us.
+
+Do you have Student Program?
+
+Yes, you can read here
+
+Where can I contact for more information?
+
+You can email us at contact@saner.ai
+
+Loved by
+Entrepreneurs, ADHDers, Learners & Creators
+Jerry
+Information Security Manager
+
+The biggest benefit for me in using Saner is the Proactive AI. Staying on top of the constant flow of email and multiple calendars is challenging, and so far, Saner is the only AI-based tool that truly feels like a personal assistant. Many AI tools can read your email and calendar, but it's still manual to ask for summaries of schedules and get recommendations for what to work on next.
+
+Saner automatically does this and helps prioritize what emails to follow up on, what tasks to work on(either from notes or dedicated tasks), and highlights important subjects from meeting notes. It saves a lot of "friction" from jumping over to another tool when you can just talk to Saner.
+
+It's saved my butt many times, bringing things to my attention that I forgot about.
+
+Victor Jung
+Serial Entrepreneur
+
+This was the best spent 8 hours of any tool, I have used on Product Hunt in a long while. 
+
+For the current test case related to a Kickstarter launch of a product, to the knowledge base for research on a very technical and legal topic, and to the general second brain with Notion and Obsidian; I was thoroughly amazed at this beta version.
+
+The UI/UX experience is very user-friendly and is pretty intuitive, with nice humor embedded along your journey using the tool. I
+
+Yaseen.C
+
+I LOVE IT. It's just insane how efficient it is. The paid standard version is just amazingly awesome. It:
+
+Reads EVERY bit of information you give it (email streams, files etc.) and understands and connects them extremely well, stores everything into "note" objects
+Everything that comes to the system lands into a "inbox" space where you sort things out
+For each new item on inbox, AI suggests tasks by understanding and connecting everything
+AI Chat is just too smart and too aware of everything you give it
+The "feedback loop" is efficient: while chatting, you can ask AI to save relevant bits of new information that arises from the chat into the relevant "notes."
+Marlon K. Brownlee
+Information Management Specialist
+
+The user interface is very intuitive, and I've appreciated being able to give my feedback and see the responsiveness of the developers to my suggestions for improvement.
+
+I've used MANY different personal knowledge management tools, but this tool's marriage of AI and my personal documents opens up a whole new realm of opportunities to synthesize and leverage what I am interested in to find and create new insights based on that information!
+
+Duy Trieu
+Product Growth
+
+I used to use Notion, Google Docs, and Obsidian. But now it is Saner.AI 
+
+Past: Read interesting things or self-reflection -> note -> leave it there forever
+
+Now: Read interesting things or self-reflection -> draft -> Saner structures them, making them usable -> easily recall all knowledge I wrote
+
+Maria
+Marketer
+
+Totally great! I consider it as my life manager 😄
+
+It helps a lot to keep all tasks neatly organized.
+
+It definitely boosts efficiency and workflow! 🤩🦾✨
+
+Show more
+Simple yet Powerful
+Simplify your life, relieve your stress and improve your work
+Get started in minutes
+COMPANY
+About Us
+Product Updates
+Terms of service
+Privacy Policy
+Report A Bug
+Discord community
+Contact@saner.ai
+TYPICAL USERS
+Entrepreneurs
+Managers
+Researchers
+Content Creators
+Coach
+Writer
+RESOURCES
+Blog
+Help Center
+Ultimate Guide
+Features Introduction
+Video Academy
+Productivity Newsletter
+Slack feature
+ADHD SOLUTIONS
+Best AI Personal Assistant
+ALTERNATIVES
+NotebookLM Alternatives
+Motion Alternatives
+Jarvis Alternatives
+Mem Alternatives
+ClickUp Alternatives
+Todoist Alternatives
+AI Assistants Alternatives

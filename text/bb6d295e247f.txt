@@ -1,0 +1,568 @@
+Cloud Translation pricing
+Pricing examples
+Charged characters
+Charged projects
+Other Google Cloud costs
+What's next
+Cloud Translation pricing
+
+You are charged on a monthly basis for the amount of content that Cloud Translation processes. The rate you're charged depends on the API methods and which translation model you use. Prices are listed in US dollars (USD). If you pay in a currency other than USD, the prices listed in your currency on Cloud Platform SKUs apply.
+
+For pricing details, see Cloud Translation pricing for one of the following editions:
+
+Cloud Translation - Advanced (v3)
+Cloud Translation - Basic (v2)
+
+Cloud Translation - Advanced
+
+Cloud Translation - Advanced pricing is structured by the API method and model type. For example, text and document translations are metered differently, and are therefore, charged differently.
+
+For batch text and document translations, the number of characters or pages processed equals the number of characters or pages in the source language multiplied by the number of target languages. For example, in a batch translation request, if you submit 5,000 characters and include two target languages, the total number of characters to process is 10,000. If the operation fails, Cloud Translation only charges for the successful translations that were returned.
+
+The models you use during translations are also priced and metered differently. For the default Neural Machine Translation (NMT) and custom models, you are charged on the number of input characters per target language. For the specialized translation large language model (LLM), you are charged on the number of input and the output characters for each target language. The price per million characters depends on whether you are using the Adaptive Translation API, or TextTranslation (LLM) (see table below). Cloud Translation meters the number of input and output characters independently, so the number of input and output characters are likely to be different.
+
+Although translations against the default NMT model and AutoML Translation custom models are both charged based only on the number of input characters, they are metered separately. For example, the number of characters that are sent to the NMT model for translation don't count towards cost of custom model translations. If you use Translation LLM (LLM), then it is charged $10 per million characters input and $10 per million characters output, making it cost equivalent with NMT.
+
+The pricing information applies to the following methods:
+
+adaptiveMtTranslate
+batchTranslateDocument
+batchTranslateText
+detectLanguage
+romanizeText
+translateDocument
+translateText
+
+If you don't specify a source language for the translate method, Cloud Translation detects the source language for you. You are only charged for the text that you provided; there's no additional charge for the language detection in addition to the translation. For example, if you submit 1,000 characters for a text translation without specifying the source language, you are only charged for the 1,000 characters.
+
+Cloud Translation does not charge for other requests such as glossary creation.
+
+Show discount options
+
+Model
+
+	
+
+Method
+
+	
+
+Usage
+
+	
+
+Price (USD)
+
+*
+info
+	
+Gemini Enterprise Flexible Savings Plan - 1 Year* (USD)
+info
+	
+Gemini Enterprise Flexible Savings Plan - 3 Year* (USD)
+info
+
+
+
+NMT
+
+	
+
+Text translations, which includes:
+
+Language detection
+Text translation
+Batch text translation
+XLSX document translation
+Romanize text
+	
+
+First 500,000 characters per month
+
+	
+
+Free (applied as $10 credit every month)
+
+	-	-
+		
+
+Over 500,000 characters per month
+
+	$20.00	$18.00	$16.00
+	
+
+Document translation
+
+(DOCX, PPT, and PDF formats only)
+
+	
+
+Pages sent to the API per month
+
+	$0.08	$0.072	$0.064
+
+
+Custom models
+
+	
+
+Text translations, which includes:
+
+Text translation
+Batch text translation
+XLSX document translation
+		
+0 count to 250,000,000 count
+$80.00
+250,000,000 count to 2,500,000,000 count
+$60.00
+2,500,000,000 count to 4,000,000,000 count
+$40.00
+4,000,000,000 count and above
+$30.00
+	
+0 count to 250,000,000 count
+$72.00
+250,000,000 count to 2,500,000,000 count
+$54.00
+2,500,000,000 count to 4,000,000,000 count
+$36.00
+4,000,000,000 count and above
+$27.00
+	
+0 count to 250,000,000 count
+$64.00
+250,000,000 count to 2,500,000,000 count
+$48.00
+2,500,000,000 count to 4,000,000,000 count
+$32.00
+4,000,000,000 count and above
+$24.00
+
+	
+
+Document translation
+
+(DOCX, PPT, and PDF formats only)
+
+	
+
+Pages sent to the API per month
+
+	$0.25	$0.225	$0.20
+
+
+LLM
+
+	
+
+Adaptive translation
+
+	
+
+The number of input characters per month
+
+	$25.00	$22.50	$20.00
+		
+
+The number of output characters per month
+
+	$25.00	$22.50	$20.00
+	
+
+Text translation
+
+	
+
+The number of input characters per month
+
+	$10.00	-	-
+		
+
+The number of output characters per month
+
+	$10.00	-	-
+	
+
+Custom Text translation
+
+	
+
+The number of input characters per month
+
+	$10.00	$9.00	$8.00
+		
+
+The number of output characters per month
+
+	$10.00	$9.00	$8.00
+* Each consumption model has a unique ID. You may need to opt-in to be eligible for consumption model discounts. Click here to learn more.
+
+Custom model training costs
+
+Model training is charged by the hour. The time that is required to train your model depends on the size and complexity of your training data. If training fails for any reason, you aren't billed for that training time.
+
+The hourly rate for custom model training is $45.
+The maximum charge for each training job can't exceed $300.
+
+Estimated training times are given in the following table:
+
+Number of training pairs
+
+	
+
+Typical training time
+
+
+
+
+Fewer than 1,000
+
+	
+
+2 - 3 hours
+
+
+
+
+1,000 - 10,000
+
+	
+
+2 - 3 hours
+
+
+
+
+10,001 - 100,000
+
+	
+
+4 - 5.5 hours
+
+
+
+
+100,001 - 1,000,000
+
+	
+
+5 - 7 hours
+
+
+
+
+1,000,001 - 10,000,000
+
+	
+
+6 - 12 hours
+
+
+
+
+More than 10,000,000
+
+	
+
+12 hours or more
+
+Cloud Translation - Basic
+
+The following pricing information applies to the detect and the translate methods.
+
+If you don't specify a source language for the translate method, Cloud Translation detects the source language for you. You are only charged for the text that you provided; there's no additional charge for the detection in addition to the translation. For example, if you submit 1,000 characters for a text translation without specifying the source language, you are only charged for the 1,000 characters.
+
+Show discount options
+
+Feature
+
+	
+
+Metered usage
+
+	
+
+Price (USD)
+
+*
+info
+	
+Gemini Enterprise Flexible Savings Plan - 1 Year* (USD)
+info
+	
+Gemini Enterprise Flexible Savings Plan - 3 Year* (USD)
+info
+
+
+
+Total usage for language detection and text translation by using the NMT model
+
+	
+
+First 500,000 characters* per month
+
+	
+
+Free (applied as $10 credit every month)†
+
+	-	-
+	
+
+500,000 to 1 billion characters* per month
+
+	$20.00 / 1,000,000 byte	$18.00 / 1,000,000 byte	$16.00 / 1,000,000 byte
+	
+
+Over 1 billion characters* per month
+
+	
+
+Contact a sales representative to discuss discount pricing.
+
+	-	-
+* Each consumption model has a unique ID. You may need to opt-in to be eligible for consumption model discounts. Click here to learn more.
+
+* Price is per character sent to the API for processing. For details about counted characters, see Charged characters
+
+† Credit usage applies collectively to both Cloud Translation - Basic and Cloud Translation - Advanced. The credit is up to $10, based on your usage and does not roll over. This credit does not apply to formatted document translations.
+
+Pricing examples
+
+Prices are pro rata (proportional and incremental). Charges are scaled to the amount of content provided to Cloud Translation. In other words, if your usage exceeds 4 billion characters with custom model translations, you're still charged $80 per million characters for the first 500k to 250 million characters, $60 per million characters for the next 250 million characters to 2.5 billion characters, and so on.
+
+API method and model
+
+	
+
+Use case
+
+	
+
+Metered usage
+
+	
+
+Price (USD)
+
+
+
+
+translateText with NMT model to one target language
+
+	
+
+100 emails
+
+	
+
+3.1k characters input x 100 = 310,000
+
+	
+
+0.31 x $20 = $6.2
+
+
+
+
+translateText with custom (AutoML) model to one target language
+
+		
+
+3.1k characters input x 100 = 310,000
+
+	
+
+0.31 x $80 = $24.8
+
+
+
+
+adaptiveMtTranslate (LLM) to one target language
+
+		
+
+3.1k characters input x 100 = 310,000
+
+3.3k characters output x 100 = 330,000
+
+	
+
+0.31 x $25 = $7.75
+
+0.33 x $25 = $8.25
+
+
+
+
+TextTranslation (LLM) to one target language
+
+		
+
+3.1k characters input x 100 = 310,000
+
+3.3k characters output x 100 = 330,000
+
+	
+
+0.31 x $10 = $3.1
+
+0.33 x $10 = $3.3
+
+
+
+
+translateDocument with NMT model to one target language
+
+	
+
+4 PDFs with 250 pages each
+
+	
+
+1,000 pages
+
+	
+
+1,000 x $0.08 = $80
+
+
+
+
+translateDocument with custom model to one target language
+
+		
+
+1,000 pages
+
+	
+
+1,000 x $0.25 = $250
+
+Charged characters
+
+Cloud Translation counts usage on a per character basis, even if a character is multiple bytes. Each character corresponds to a code point.
+
+You are charged for all characters that you include in a Cloud Translation request, even untranslated characters. This includes, for example, whitespace characters. If you translate <p>こんにちは</p> to English, it counts as 12 characters for the purposes of billing.
+
+Cloud Translation also charges for empty queries. If you make a request without any content, Cloud Translation charges one character for the request.
+
+Adaptive translation uses LLMs, which Cloud Translation charges on both input and output characters.
+
+Charged projects
+
+For Cloud Translation - Basic, charges apply to the project that is associated with the private key that you used to make authenticated requests.
+
+For Cloud Translation - Advanced, charges apply to the project that contains the translation model that you use, not against the project that you used to make the request. For example, the following request was made in project-number-1. However, the caller has access to and used a model (custom or NMT model) that is located in project-number-2. In this case, Cloud Translation charges project-number-2.
+
+json
+1
+POST https://translation.googleapis.com/v3/projects//locations/us-central1:translateText
+2
+{
+3
+  "model":"projects//locations/us-central1/models/",
+4
+  "sourceLanguageCode": "en",
+5
+  "targetLanguageCode": "ru",
+6
+  "contents": ["Dr. Watson, please discard your trash."]
+7
+}
+8
+​
+content_copy
+
+Similarly, for a batch request that uses multiple models from multiple projects, the projects that contain the models are charged and not the project that makes the request.
+
+Other Google Cloud costs
+
+If you store documents to be translated in Cloud Storage, or use other Google Cloud resources in tandem with Cloud Translation, such as App Engine instances, then you are also billed for the use of those services. See the Google Cloud Pricing Calculator to determine other costs based on current rates.
+
+To view your current billing status in the API Console, including usage and your current bill, see the Billing page. For more details about managing your account, see the Cloud Billing documentation or billing support.
+
+What's next
+Read the Cloud Translation documentation.
+Get started with Cloud Translation.
+Try the Pricing calculator.
+Learn about Cloud Translation solutions and use cases.
+Request a custom quote
+With Google Cloud's pay-as-you-go pricing, you only pay for the services you use. Connect with our sales team to get a custom quote for your organization.
+Contact sales
+Overview
+Solutions
+Products
+Pricing
+Resources
+
+search
+send
+Docs
+Support
+Sign in
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Locations
+Customers and case studies
+Analyst reports
+Whitepapers
+Blog
+Products and pricing
+Google Cloud pricing
+Google Workspace pricing
+See all products
+Solutions
+Infrastructure modernization
+Databases
+Application modernization
+Smart analytics
+Artificial Intelligence
+Security
+Productivity & work transformation
+Industry solutions
+DevOps solutions
+Small business solutions
+See all solutions
+Resources
+Google Cloud Affiliate Program
+Google Cloud documentation
+Google Cloud quickstarts
+Google Cloud Marketplace
+Learn about cloud computing
+Support
+Code samples
+Cloud Architecture Center
+Training
+Certifications
+Google for Developers
+Google Cloud for Startups
+System status
+Release Notes
+Engage
+Contact sales
+Find a Partner
+Become a Partner
+Events
+Podcasts
+Developer Center
+Press Corner
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Follow on X
+Join User Research
+We're hiring. Join Google Cloud!
+Community forums
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+language
+‪English‬

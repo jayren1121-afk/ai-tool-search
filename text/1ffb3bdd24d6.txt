@@ -1,0 +1,381 @@
+Product
+Solutions
+Resources
+Agents
+DiagramGPT
+Enterprise
+Pricing
+Log in
+Try Eraser
+Pricing
+Pricing Plans
+
+Choose a pricing plan that suits you and your team the best.
+
+Free
+
+For getting started
+
+$0 / member / mo
+
+Free forever
+
+Try Eraser
+3 files
+3 AI diagrams
+7-day version history
+Unlimited guests
+Diagram-as-code
+Markdown notes
+GitHub, Notion, Confluence & VS Code
+Starter
+
+For advanced collaboration
+
+$15 / member / mo
+
+billed annually, or $20 monthly
+
+Get Started
+Unlimited files
+40 AI diagrams
+90-day version history
+Private files
+20 custom icons
+API calls
+
+Everything in Free
+
+MOST POPULAR
+Business
+
+For growing teams
+
+$45 / member / mo
+
+billed annually, or $60 monthly
+
+Get Started
+Unlimited files
+250 AI diagrams
+Unlimited version history
+SAML SSO
+100 custom icons
+Reference diagrams
+
+Everything in Starter
+
+Enterprise
+
+For your organization
+
+Custom
+
+Call us for pricing details
+
+Contact Us
+Unlimited files
+Unlimited AI diagrams
+Unlimited version history
+Flexible deployments
+Customer success manager
+ACH and wire transfer
+Usage reporting
+
+Everything in Business
+
+All prices per member / month. Unlimited free guests on every plan.
+
+Compare plans
+Every feature, side by side
+Features	Free	Starter	Business	Enterprise
+USAGE
+Number of files	3	Unlimited	Unlimited	Unlimited
+AI credits (diagrams & outlines)	3	40	250	Unlimited
+Guests	Unlimited	Unlimited	Unlimited	Unlimited
+Custom icons	–
+Not included
+	20	100	Unlimited
+Monthly API calls	–
+Not included
+	Usage-based	Usage-based	Usage-based
+AI FEATURES
+AI diagrams	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+AI documents	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+CANVAS
+Infinite canvas	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Diagram-as-code	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+3000+ tech icons	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Custom icons	–
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+NOTES
+Markdown support	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Embed canvas figures	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Wikilinks	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+COLLABORATION
+Commenting and tagging	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Real-time collaboration	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Export to file (PDF, PNG, SVG, MD)	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+INTEGRATIONS
+GitHub integration	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Notion integration	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Confluence integration	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+VS Code extension	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+ACCESS & CONTROLS
+Team files	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Publicly viewable files	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+Private files	–
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+Publicly editable files	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+SAML SSO	–
+Not included
+	–
+Not included
+	
+Included
+	
+Included
+
+Version history	7 days	90 days	Unlimited	Unlimited
+BILLING
+Flexible payments	–
+Not included
+	–
+Not included
+	–
+Not included
+	
+Included
+
+Custom contracts	–
+Not included
+	–
+Not included
+	–
+Not included
+	
+Included
+
+Customer success manager	–
+Not included
+	–
+Not included
+	–
+Not included
+	
+Included
+FAQ
+Frequently asked questions
+Do you offer discounts for education users and non profits?
+Can I use Eraser for free?
+What is a file?
+Who are members?
+Who are guests?
+How do AI diagrams work?
+What are private files?
+See you in the canvas
+
+Unlock your team’s collaborative super powers.
+
+Try Eraser
+
+AI for diagrams that matter.
+
+USE CASES
+Architecture Diagrams
+Design Docs
+Documentation
+Brainstorming
+Wireframes
+PRODUCTS
+AI diagrams
+Eraserbot
+Diagramming API
+AI documents
+Integrations
+Diagram-as-code→
+Open source
+RESOURCES
+Examples
+Decision Node
+Guides
+Agent Integrations
+DiagramGPT
+Free Diagram Maker
+Docs→
+DesignDocs.dev→
+FREE DIAGRAM MAKERS
+Architecture Diagrams
+Data Flow Diagrams
+Sequence Diagrams
+Network Diagrams
+Flowcharts
+ERDs
+ABOUT
+Pricing
+AI
+Enterprise
+Careers
+Slack Community→
+© 2026 Eraser Labs, Inc.
+Privacy Policy
+Terms
+Trust Portal

@@ -1,0 +1,168 @@
+Introducing Alexandria and our $75M Series B. Read the announcement →
+Products
+Resources
+Pricing
+---
+Flexible pricing
+Start for free, then scale as you grow.
+100,000
+credits/month
+1k
+Free
+5k
+---
+1M
+Scale
+Custom
+---
+Standard: $83/month
+---
+Prices shown are per month, billed annually.
+---
+USD
+Free Plan
+A lightweight way to get started. No cost, no card, no hassle.
+1,000 credits / month
+$0
+/month
+Get started
+500 searches or 1,000 pages scraped
+---
+Low rate limits
+Hobby
+Great for side projects and small tools. Fast, simple, no overkill.
+5,000 credits / month
+$16
+/month
+Billed yearly
+Save $38
+Subscribe
+2,500 searches or 5,000 pages scraped
+5
+concurrent requests
+Basic support
+1,000
+extra credits per
+$5
+Standard
+Recommended
+Perfect for scaling with less effort. Simple, solid, dependable.
+100,000 credits / month
+$83
+/month
+Billed yearly
+Save $198
+Subscribe
+50,000 searches or 100,000 pages scraped
+25
+concurrent requests
+Standard support
+2,000
+extra credits per
+$5
+Growth
+Built for high volume and speed. Firecrawl at full force.
+500,000 credits / month
+$333
+/month
+Billed yearly
+Save $798
+Subscribe
+250,000 searches or 500,000 pages scraped
+50
+concurrent requests
+Priority support
+2,500
+extra credits per
+$5
+Scale Plans
+---
+High-volume plans for teams that need more power and dedicated support. Get access to higher rate limits, more concurrent browsers, and priority support. Scale checks out instantly, no sales call needed.
+---
+Need more? Contact us
+Scale
+For teams scaling their data pipelines
+1,000,000 credits / month
+$599
+/month
+Billed yearly
+Save $1,798
+Subscribe
+500,000 searches or 1,000,000 pages scraped
+100
+concurrent requests
+Priority support
+5,000
+extra credits per
+$5
+Enterprise
+Power at your pace with custom solutions
+Custom credits
+Custom
+Contact sales
+Custom
+---
+Zero-data retention
+SSO & advanced security
+Pay-as-you-go
+---
+Keep accessing web data with search and scrape when your credits run out. We add credits in 5 USD increments, up to a monthly limit you set. Paid plans only.
+---
+Enable pay-as-you-go
+View pricing as Markdown
+---
+1 credit = 1 page on a basic scrape, crawl, or map. Search costs 2 credits per 10 results; Interact costs 2 credits per browser minute. On Scrape and Crawl, the JSON, Question, and Highlight formats add 4 credits per page; Monitor's determi
+Free tier
+1,000 credits every month, refreshed monthly, no credit card required.
+Entry plan
+Hobby: $19/month billed monthly, or $16/month billed annually, for 5,000 credits per month (2,500 searches or 5,000 pages scraped).
+Failed requests
+A scrape that returns no result is not charged. A page that responds with an error status such as 403 or 404 is still returned to you and costs 1 credit.
+---
+API Credits
+Credits are consumed for each API request, varying by endpoint and feature. These rates are the same on every plan.
+Features
+Credits
+Scrape
+---
+Agent
+5 daily runs free.
+Dynamic pricing
+---
+Limits and Performance, compared across every Firecrawl plan
+Feature	Free	Hobby	Standard	Growth	Scale	Enterprise
+Concurrent browsers
+---
+Team and Access, compared across every Firecrawl plan
+Feature	Free	Hobby	Standard	Growth	Scale	Enterprise
+Multi-team organizations
+---
+Support, compared across every Firecrawl plan
+Feature	Free	Hobby	Standard	Growth	Scale	Enterprise
+Support tier	Community	Basic	Standard	Priority	Priority	Dedicated
+---
+Billing and Usage, compared across every Firecrawl plan
+Feature	Free	Hobby	Standard	Growth	Scale	Enterprise
+Credit rollover
+Unused credits carry into the next period.
+–
+---
+Pay as you go
+You can manually load extra credits onto your account, or set a monthly spend limit.
+–
+---
+Custom
+Annual discount
+This is what you save on the annual price against twelve monthly payments.
+–
+---
+Security and Compliance, compared across every Firecrawl plan
+Feature	Free	Hobby	Standard	Growth	Scale	Enterprise
+SOC 2 Type II
+---
+Billing
+Is Firecrawl free?
+Firecrawl gives you 1,000 free credits every month, which covers about 1,000 pages, and no card is required. When you need more, choose Hobby, Standard, Growth, or Scale. Every paid plan runs on pay-as-you-go: you get the plan's monthly cre
+Is there a pay-per-use plan?
+Yes. Pay-as-you-go is how self-serve billing works. You start with 1,000 free credits every month. On Hobby, Standard, Growth, or Scale you get that plan's monthly credits, and we add more in 5 USD increments when you run out. A 5 USD incre
+Do credits roll over to the next month?

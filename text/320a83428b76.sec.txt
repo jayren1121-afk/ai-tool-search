@@ -1,0 +1,117 @@
+Contact sales
+Explore private deployments
+---
+Monthly rate per instance
+---
+Embed 5 Fast
+---
+Small
+---
+$3.00
+---
+$2,000
+---
+Embed 5 Fast
+---
+Medium
+---
+$5.00
+---
+$3,250
+---
+Embed 5 Pro
+---
+Small
+---
+$3.00
+---
+$2,000
+---
+Embed 5 Pro
+---
+Medium
+---
+$5.00
+---
+$3,250
+---
+Rerank 4 Fast
+---
+Medium
+---
+$5.00
+---
+$3,250
+---
+Rerank 4 Pro
+---
+Medium
+---
+$5.00
+---
+$3,250
+---
+Rerank 4 Pro
+---
+Large
+---
+$10.00
+---
+$6,500
+---
+Rerank 3.5
+---
+Medium
+---
+$5.00
+---
+$3,250
+---
+Parse 5
+---
+Medium
+---
+$4.00
+---
+$2,500
+---
+Parse 5
+---
+XL
+---
+$7.00
+---
+$4,300
+---
+Model Vault is our dedicated, fully managed platform to run Cohere models securely, at scale, and with guaranteed performance.
+---
+Model Vault is easy to set up for North or model deployments through your Cohere dashboard, or contact sales to learn more.
+---
+How do I get a Trial API key?
+---
+What’s the difference between a Trial API key and Production API key?
+---
+Your model selection reflects your relative prioritization of model performance and speed. Larger models offer better performance and are capable of more complex tasks, while smaller models have faster response times.
+---
+When do I get billed?
+---
+API calls made from a Trial API key will be free. API calls made from a Production key will be billed on a pay-as-you-go basis. Your bill will be issued at the end of every calendar month or when you reach $250 in outstanding balances.
+---
+The endpoint I’m using is billed by token. What is a token?
+---
+Where do I find pricing for our legacy models?
+---
+For existing customers:
+---
+Command pricing is $1.00/1M tokens for input and $2.00/1M tokens for output
+Command-light pricing is $0.30/1M tokens for input and $0.60/1M tokens for output
+Command R 03-2024 pricing is $0.50/1M tokens for input and $1.50/1M tokens for output
+Command R+ 04-2024 pricing is $3.00/1M tokens for input and $15.00/1M tokens for output
+---
+Command R+ 08-2024 pricing is $2.50/1M tokens for input and $10.00/1M tokens for output
+---
+What is the cost for accessing the research Aya models via the API?
+---
+Aya Expanse models (8B and 32B) on the API are charged at $0.50/1M tokens for input and $1.50/1M tokens for output. Find more information about the Aya models here.
+---
+How is a “search” defined for Rerank pricing?

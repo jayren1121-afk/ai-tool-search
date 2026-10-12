@@ -1,0 +1,338 @@
+Use Cases
+
+Solutions
+
+Pricing
+
+Resources
+
+Login
+
+Get Started
+
+Pricing
+
+Discover the pricing and plans built for how you present.
+
+Create slides with AI, keep presentations on brand, and rehearse your delivery with Loop.
+
+Pro
+
+Business
+
+Pro
+
+Everything you need to create stunning presentations, 10x faster.
+
+750 AI credits / month (~150 slides)
+
+Presentations & carousels
+
+PDF, PPT & PNG export
+
+One-click sharing
+
+Practice your delivery with Loop
+
+Version history
+
+Mobile access
+
+Annual
+
+Best Value
+
+Save $180/yr
+
+Get Pro
+
+$24.99
+
+$9.99
+
+/mo
+
+billed $119.88/year
+
+3-Month
+
+Save $60/yr
+
+Get Pro
+
+$24.99
+
+$19.99
+
+/mo
+
+billed $59.97/3 months
+
+Monthly
+
+Get Pro
+
+$24.99
+
+/mo
+
+billed $24.99/month
+
+Enterprise
+
+For organizations deploying
+
+Decktopus company-wide.
+
+Let's Talk
+
+Cancel any time
+
+4.8/5
+
+Loved by presenters
+
+4M+
+
+Users worldwide
+
+G2
+
+High Performer '26
+
+Capterra
+
+4.7/5 rated
+
+Not sure which plan?
+
+Tell us how you present
+
+Drag the slider to estimate your monthly earnings based on referrals.
+
+Presentations you create per month
+6
+1
+20
+* assumes
+slides per presentation on average — adjust if yours differ
+
+At ~6 presentation(s)/month (≈60 slides) you'll need about 900 AI credits — that fits Business (1,000/seat) better than Pro, better than your smaller plan option.
+
+Business
+Running low mid-month?
+
+Paid plans can top up credits anytime, right from account settings. Packs never expire and stack on top of your monthly credits — so a busy week never leaves you stuck.
+
+How Decktopus works
+
+One product, two modes: create in Studio, rehearse in Loop
+
+Every plan includes both — build the deck first, then walk in ready.
+
+Studio
+
+Where the deck gets made
+
+Enter a topic or upload a file. Studio generates a complete presentation or carousel — structure, content, and design together — and applies your brand automatically.
+
+AI presentation & carousel generation
+
+Edit with natural-language prompts
+
+Brand Kit applied from your website URL
+
+Export to PDF, PPT & PNG
+
+Start in Studio
+
+Loop
+
+Where you get ready to deliver it
+
+Once the deck's done, Loop coaches you through the actual presenting — four sequential AI agents, one persistent memory across sessions.
+
+Simulate audience questions
+
+Practise your delivery out loud
+
+AI feedback on pacing and clarity
+
+See how Loop works
+
+Included on Pro and above · Studio → Loop is the full workflow, not two separate purchases
+
+Compare plans
+
+See exactly what's included
+Pro
+Business
+Enterprise
+Deck Creation Features
+
+Create presentations
+
+Prompt-based slide editing
+
+AI credits included
+
+750 / mo
+
+1000 / mo
+
+Custom
+
+AI image generation
+
+PDF, PPT & PNG export
+
+Presentation Management
+
+Storage
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Private folders
+
+Version history
+
+Branding & Team Features
+
+Brand Kit
+
+Custom domain
+
+Team workspace
+
+Enterprise Features
+
+Custom branding systems
+
+Role-based access control
+
+Dedicated support
+
+Priority
+
+Dedicated
+
+Get Pro
+
+Get Business
+
+Book a Demo
+
+Social proof
+
+4M+ people already switched
+Loads on scroll
+LinkedIn
+Loads on scroll
+LinkedIn
+Loads on scroll
+LinkedIn
+Loads on scroll
+Instagram
+Loads on scroll
+Instagram
+Loads on scroll
+Instagram
+
+FAQ
+
+Questions, answered
+What is Decktopus AI?
+
+Decktopus AI is an end-to-end presentation platform powered by AI. Enter a topic or upload a file, and it generates a complete, ready-to-present deck with structure, content, and design included.
+
+What's the difference between Pro and Business?
+
+ Pro is for one person: 750 AI credits/month, full Loop access, all export options. Business adds team features — shared workspace, Brand Kit, slide analytics, custom domain, priority support — plus 1,000 AI credits per seat/month.
+
+Can I cancel anytime?
+
+ Yes. Cancel anytime from your account settings — no cancellation fees. You'll keep full access until the end of your current billing period, then your plan won't renew.
+
+Do you offer a student discount?
+
+Yes. Students get 50% off all plans with the code SUPPORTEDUCATION.
+
+Is my data used to train AI models?
+
+No. Your data is excluded from AI training by default.
+
+Why Decktopus
+
+What makes Decktopus AI different
+
+Most tools start with a template. Decktopus starts with your topic and builds the whole deck from scratch — structure, content, and design generated together. Paste your website URL and your brand is applied automatically. Then Loop helps you practice the delivery before you're in the room.
+
+No templates
+
+Fresh, every time
+
+Every deck is generated fresh from your prompt.
+
+Your brand, automatically
+
+No uploading, no configuring
+
+Paste your website URL and Decktopus pulls your visual identity.
+
+Practice built in
+
+The part other tools skip
+
+Loop coaches your delivery with real-time feedback.
+
+Ready to create your next presentation?
+
+Join 5M+ presenters who've stopped building slides from scratch.
+
+Create a Presentation
+
+Practise your Presentation
+
+Company
+
+About
+
+Media
+
+Blog
+
+Partners
+
+Affiliate Program
+
+Product
+
+Pricing
+
+Templates
+
+ChatGPT App
+
+MCP Server (Claude, Cursor)
+
+Case Study Templates
+
+Community Decks
+
+Support
+
+Help Center
+
+Contact Page
+
+Support Mail
+
+Privacy Policy
+
+Terms
+
+© 2026 Decktopus Inc.

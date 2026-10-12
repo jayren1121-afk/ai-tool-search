@@ -1,0 +1,56 @@
+RESOURCES
+Contact sales
+Sign up
+Greptile Pricing
+Start 14 day free trial
+Starter
+---
+Free
+---
+Pro
+---
+Best for teams
+---
+$30
+/seat/month
+Enterprise
+---
+Custom pricing
+---
+Get started for free
+Start 14 day free trial
+Talk to sales
+What's included
+50 credits per month
+1 active developer
+Unlimited repositories
+What's included
+50 credits per seat per month
+Extra credits at $1 each
+Custom review rules
+Unlimited seats
+Unlimited repositories
+---
+[ OPEN SOURCE ]
+Free for OSS projects
+---
+Greptile is free for qualified non-commercial projects with an OSI-approved license.
+---
+Apply for OSS
+[ STARTUP DISCOUNT ]
+50% off for early-stage startups
+---
+Pre-Series A startups with under $2M revenue in the past 12 months qualify for a 50% discount.
+---
+Apply for startup discount
+FAQ
+How does pricing work?
+---
+Starter is free for one active developer and includes unlimited repositories and 50 credits per month. Pro is $30 per seat per month and includes 50 credits per seat. Additional credits are $1 each.
+---
+Base review: 1 credit
+Plus review: 3 credits
+Apex review: 10 credits
+Can I prepay for a discount?
+We offer custom pricing for annual and multi-year contracts. Let's chat
+.

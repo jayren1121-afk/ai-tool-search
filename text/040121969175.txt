@@ -1,0 +1,498 @@
+Products
+
+API/MCP
+
+Pricing
+
+Resources
+
+Company
+
+Get started
+
+Liner pricing plan
+
+Monthly
+
+Annual
+
+Save 20%
+
+Free
+
+Begin your research with Liner
+
+$0.00
+
+Start for free
+
+100 credits per day
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+1 file upload/day (up to 25MB/file)
+
+Answers with ads
+
+Pro
+
+Powerful research tool for academics
+
+$17.99
+
+$14.99
+
+/month, billed annually
+
+Get Pro
+
+1,000 Agent credits/month
+
+One plan that applies across Liner, Liner Scholar, and Liner Write
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+20 file uploads/day (up to 100MB/file)
+
+Use of major AI models (ChatGPT, Gemini, Claude)
+
+Get answers without ads
+
+Max
+
+Most advanced tool for research
+
+$35.99
+
+$29.99
+
+/month, billed annually
+
+Get Max
+
+2,500 Agent credits/month
+
+One plan that applies across Liner, Liner Scholar, and Liner Write
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+Unlimited file uploads/day (up to 200MB/file)
+
+Use of major AI models (ChatGPT, Gemini, Claude)
+
+Get answers without ads
+
+Team
+
+2-20 members
+
+Premium for the whole team, at a better price
+
+$26.99
+
+/month, per seat
+
+Contact us
+
+Everything in Max and:
+
+Master account for centralized management and billing
+
+A secure, dedicated workspace with admin controls
+
+Team data excluded from AI training
+
+Early access to collaboration features
+
+View details
+
+Enterprise
+
+Built for large organizations looking for flexibility, scale, and governance.
+
+Contact Liner
+
+Everything in Team and:
+
+Dedicated manager for customized solutions
+
+Onboarding sessions
+
+Audit logs for secure usage
+
+Higher discount rates
+
+Why pro is built for serious research
+More sources and accurate answers
+Generate Deep Research
+Multiple file uploads
+Advanced Search: Trusted Accuracy
+
+Liner search achieves higher accuracy using more carefully selected sources. In OpenAI accuracy tests (SimpleQA), it scored higher than ChatGPT's advanced model and the Perplexity Pro model.
+
+Detailed insights for early research
+
+Use Deep Research to gather comprehensive information on any topic. It delivers detailed, organized answers in a clear report format, making it especially valuable during the early stages of research.
+
+Upload what is most relevant to you
+
+Do you already have research papers or PDFs you want to analyze? With Liner, you can upload your documents to receive clear summaries of key points and focused insights to help you grasp materials related to your work.
+
+Save 25% when you team up
+
+Everything on Liner Max plus enhanced security.
+
+Start team plan
+
+View details
+
+Credit deduction guide
+
+Products
+
+Features
+
+Credits deducted
+
+Liner
+
+Deep Research
+
+40 credits/request
+
+Liner
+
+Premium external models
+
+30 credits/request
+
+Liner
+
+Other external models, image generation
+
+20 credits/request
+
+Liner Scholar
+
+Hypothesis Evaluator, Survey Generator, Research Tracer
+
+30 credits/request
+
+Liner Scholar
+
+Literature Review
+
+40 credits/request
+
+Liner Scholar
+
+Citation Recommender
+
+50 credits/request
+
+Liner Scholar
+
+Hypothesis Generator, Peer Review
+
+60 credits/request
+
+Liner Scholar
+
+Survey Simulator
+
+80 credits/request
+
+Liner Write
+
+Task request
+
+Varies by request
+
+Compare Liner pricing plans
+
+Free
+
+$0.00
+
+Start for free
+
+Pro
+
+$14.99
+
+/month, billed annually
+
+Get Pro
+
+Max
+
+$29.99
+
+/month, billed annually
+
+Get Max
+
+Team
+
+$26.99
+
+/month, per seat
+
+Contact us
+
+Enterprise
+
+Custom
+
+Contact us
+
+Search smarter
+
+Search with confidence, not doubt
+
+Agent credits
+
+0
+
+1,000
+
+2,500
+
+2,500
+
+2,500
+
+Advanced Search
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Scholar Mode
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Line-by-Line Citation
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Latest Top AI Models
+
+File uploads
+
+Gather insights from any documents
+
+File Upload
+
+25MB × 1/question,
+once a day
+
+100MB × 5/question,
+20 times a day
+
+200MB × 20/question,
+Unlimited
+
+200MB × 20/question,
+Unlimited
+
+200MB × 20/question,
+Unlimited
+
+Manage your research workflow
+
+Stay organized, stay in flow
+
+Search history
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Research Assistant
+
+10/day
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Highlighting tool
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Access anywhere
+
+Work seamlessly across devices
+
+Web
+
+App
+
+Browser extension
+
+Privacy & Security
+
+All plans include secure encryption and privacy-first design
+
+Data protection
+
+Audit logs
+
+Customer success
+
+Dedicated support to optimize the onboarding and use of your customized AI solution
+
+Dedicated success manager
+
+Onboarding sessions
+
+Frequently Asked Questions
+
+Can I use Liner for free?
+Yes, but a free account offers limited credits which may run out quickly with just a few tasks. You can also access latest AI models, upload more files, search ad-free, and more when you upgrade.
+What payment methods do you accept?
+Liner accepts major credit cards. For more information, please contact us.
+Do you offer refunds?
+We do not offer refunds but you can cancel your subscription before it automatically renews or before your free trial ends. To cancel your subscription, please visit Settings - Subscription.
+How do I cancel my paid plan?
+If you paid with card, please visit the settings page on our website to cancel your plan. Subscription will be automatically started or renewed until you cancel the plan.
+If you paid but were not upgraded.
+Upgrade can take time depending on the network condition. Please wait 5-10 minutes or refresh the page. If your account is still not upgraded, please contact us.
+
+PRODUCTS
+
+Liner
+
+Liner Scholar
+
+Liner Write
+
+Pricing
+
+API/MCP
+
+Liner API
+
+Liner Model API
+
+Liner Actions API
+
+API pricing
+
+Search MCP
+
+Scholar MCP
+
+API/MCP blog
+
+AGENTS
+
+AI research with Agents
+
+Hypothesis Generator
+
+Hypothesis Evaluator
+
+Citation Recommender
+
+Literature Review
+
+Research Tracer
+
+Survey Generator
+
+Survey Simulator
+
+Survey Peer Review
+
+RESOURCES
+
+Paper reviews
+
+Learn
+
+Press
+
+Support
+
+DOWNLOAD
+
+For iOS
+
+For Android
+
+For Mac
+
+For Windows
+
+For Chrome
+
+For Edge
+
+COMPANY
+
+About us
+
+Careers
+
+Privacy Policy
+
+Terms of Service
+
+Usage Policy
+
+Safety
+
+© 2026 Liner. All Rights Reserved.
+
+Do not sell or share my personal information
+
+Select language,
+EN

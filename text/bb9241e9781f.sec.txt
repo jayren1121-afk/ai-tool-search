@@ -1,0 +1,14 @@
+Chat Prefix Completion（Beta）	✓	✓
+FIM Completion（Beta）	Non-thinking mode only	Non-thinking mode only
+Vision	✓	Not supported
+PRICING(2)	1M INPUT TOKENS
+(CACHE HIT)	OFF-PEAK	$0.003	$0.022
+PEAK	$0.006	$0.044
+1M INPUT TOKENS
+(CACHE MISS)	OFF-PEAK	$0.15	$0.66
+PEAK	$0.3	$1.32
+1M OUTPUT TOKENS	OFF-PEAK	$0.6	$1.98
+PEAK	$1.2	$3.96
+Concurrency Limit(3)	2500	500
+---
+(1) Use deepseek-flash as the model name. The legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are still accepted, but the corresponding models have been retired, their requests are served by the DeepSeek-V4.1-Flash model and

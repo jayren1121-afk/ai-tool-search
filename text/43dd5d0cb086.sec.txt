@@ -1,0 +1,80 @@
+Europe
+---
+Free
+---
+$0
+---
+/month
+---
+Includes 10K credits
+---
+Upgrade to starter for Pay-as-you-go credits
+---
+JOIN THOUSANDS OF USERS
+---
+Starter
+---
+$50
+---
+/month
+---
+Includes 40K credits
+---
+Pay-as-you-go up to 400K credits
+---
+Basic support
+---
+Pro
+---
+$500
+---
+/month
+---
+JOIN THE PROS
+---
+Includes 400k credits
+---
+Limited-time bonus: 800k credits ($1,000), one-time*
+---
+Pay-as-you-go up to $5,000/mo
+---
+100 users
+---
+* Business email domains only. Unused bonus credits expire immediately if you downgrade.
+---
+Volume discount on credits
+---
+Are you a startup? Apply to our startup program for free credits, dedicated support, community spotlights and more.
+---
+Credit Pricing & Usage
+---
+The LlamaIndex platform operates on a credit-based system, where each action—such as parsing, indexing, or extracting—costs a certain number of credits. 1,000 credits = $1.25.
+---
+READ MORE
+---
+FREE
+---
+CREDITS & BILLING
+---
+Included credits	10K	40K	400K	Custom
+Pay-as-you-go		up to $500/mo	up to $5,000/mo	Custom
+---
+PARSE
+---
+Smart result caching
+(re-parse = 0 credits)
+---
+START FOR FREE
+---
+CONTACT SALES
+---
+CONTACT SALES
+SIGN UP
+---
+How many credits does it cost to parse or extract one page?
+---
+CONTACT SALES
+SIGN UP
+Build document agents that understand, reason, and act
+CONTACT SALES
+SIGN UP

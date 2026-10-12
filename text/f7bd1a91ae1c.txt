@@ -1,0 +1,331 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.
+Allow all
+Customize
+Translate
+About Lara
+Pricing
+API & Agents
+Support
+Login
+Sign up
+World's Best Professional-Grade AI Translation
+
+Twice the accuracy of the largest generic LLMs. Five times faster. Better integrated.
+Translate in 200+ languages and 70+ file formats, with document layout fully preserved.
+Full access to text, documents, and interpreter.
+
+Monthly
+Annual
+Save up to 21%
+€
+(EUR)
+$
+(USD)
+Free
+
+$0
+
+Try all features on a few documents to get familiar with Lara.
+
+60,000 chars /month
+
+No extra usage available
+
+Select Free
+
+No credit card required
+
+Professional-grade quality
+Full privacy protection
+Preserve document formatting
+Explain translation choices
+Understand context
+Voice Interpreter
+Free API up to 10,000 chars /month
+Pro
+Billed annually
+
+$9.99
+/month
+
+330 pages included and less than $0.05 per extra page.
+
+500,000 chars /month
+
+Extra usage $0.30 / 10,000 chars
+
+Select Pro
+
+Cancel anytime
+
+All Free features, plus:
+Better quality
+Mobile Apps
+Automatically adapt to your style
+Scanned PDF support
+Lots of integrations
+CAT tool and API Usage $24.99 / 1M characters
+Team
+Billed annually
+
+$29.99
+/month
+
+You buy a quota and you get free unlimited users to share it.
+
+1.5M shared chars /month
+
+Extra usage $0.25 / 10,000 chars
+
+Select Team
+
+Cancel anytime
+
+All Pro features, plus:
+Even better quality
+Unlimited free users
+Advanced privacy settings
+Centralized billing
+Premium support
+CAT tool and API Usage $19.99 / 1M characters
+Enterprise
+
+Let's talk
+
+Built for security-conscious organizations at scale.
+
+Custom quota
+
+Custom extra usage pricing
+
+Talk to sales
+
+High volume discounts
+
+All Team features, plus:
+Data sovereignty and residency
+Enterprise-grade compliance
+Single-Sign-On (SSO)
+Guaranteed SLAs
+Dedicated Account Manager
+API personalized pricing
+How many characters do I need?
+
+Check our FAQ for examples by feature. If you're unsure, start free and upgrade when you need more.
+
+Find the right plan for you
+
+Text Translation
+
+Per character
+
+Instantly translate any text, from a single sentence to thousands of characters, in any language.
+
+Document Translation
+
+Per character (min. 20,000)
+
+Professional document translation that mirrors your original design, ready to use immediately.
+
+Image Translation
+
+10,000 characters / image
+
+Upload any image and get back a fully translated version, every detail exactly where it should be.
+
+Audio Translation
+
+40 characters / second
+
+Turn any audio into a translated recording, ready to share in your target language.
+
+Voice Interpreter
+
+400 characters / second
+
+Break language barriers in live conversations and meetings, in real time.
+
+Available on all plans
+
+Advanced Language Model
+
+The World's most reliable language model for AI translations.
+
+Translation styles
+
+Choose between faithful, fluid or creative styles.
+
+Alternative translations
+
+Generate multiple valid options for each segment.
+
+Add context
+
+Add information to improve translation accuracy.
+
+Incognito mode
+
+Your content is never stored, logged, or used for training.
+
+Web-pages translation
+
+Translate web pages preserving layout, images, and styles.
+
+Bulk file translation
+
+Translate multiple files in one batch for high-volume workflows.
+
+Enterprise-grade security
+
+Privacy and compliance at Lara are the foundation we built on.
+
+API, SDK, MCP, CLI
+
+Complex requirements or high-volume usage?
+
+Full API access across all plans
+Production-ready authentication
+Text, document, image and audio translation
+Talk to sales
+Human validation
+
+Combine the speed of AI with optional human review.
+For legal, financial, or other sensitive content, professional linguists review and refine the output to ensure accuracy.
+
+Talk to sales
+Custom solutions
+
+Need something beyond standard plans? We support large-scale projects, custom integrations, and specialized workflows.
+
+Talk to sales
+Over 350,000 customers trust Lara and Translated for their professional translation needs
+Detailed plans comparison
+Annual billing
+-21%
+Free
+
+$0
+
+60,000 chars /month
+Select
+Pro
+
+$9.99
+/month
+
+500,000 chars /month
+Select
+Team
+
+$29.99
+/month
+
+1.5M chars /month
+Select
+Enterprise
+
+Let's talk
+
+Talk to sales
+Translation
+Translation quota
+60,000 chars /month
+500,000 chars /month
+1.5M shared chars /month
+Custom chars quota
+Max document size
+Up to 10 MB
+Up to 200 MB
+Up to 200 MB
+Custom
+Contextual notes
+Lara Feedback
+Extra Usage
+–
+$0.30 / 10,000 chars
+$0.25 / 10,000 chars
+Custom extra usage pricing
+Security, Team & Admin
+Users included
+1
+1
+Unlimited
+Custom
+Maximum data security
+Team admin & roles
+Shared quota
+Shared glossaries
+Shared translation memory
+Centralized billing
+Single Sign-On (SSO)
+Customization & reuse
+Glossaries
+–
+1
+Unlimited
+Unlimited
+Entries per glossary
+–
+Unlimited
+Unlimited
+Unlimited
+Upload glossaries via file
+Learn from edits
+Translation memories
+API & Integrations
+CAT tool integration
+API access
+10,000 chars /month
+$24.99 / 1M chars
+$19.99 / 1M chars
+Based on volumes
+Enterprise services
+Custom Data Residency
+Enterprise Compliance Assistance
+Dedicated Account Manager
+Custom SLA & 99.9% uptime
+Priority API
+Payment via invoice and net terms
+Tailored Contract (MSA)
+Find the right plan for you
+
+Usage is measured in characters, a flexible unit used across all features, text translation, documents, interpretation, audio, and images.
+
+How are characters calculated?
+
+Who will use Lara?
+
+Just me
+My team
+How many documents do you translate per month?
+0
+3,000+
+
+A minimum of 20,000 characters is charged for each document.
+
+How many characters do you translate per month?
+0
+60M+
+
+Not sure how many characters you translate? Contact us
+
+Your estimated monthly usage
+
+0 chars / month
+
+Recommended plan
+
+Free
+
+$0
+
+60,000 chars / month
+
+Select Free
+Frequently asked questions
+How does the character-based system work?
+What happens if I exceed my monthly limit?
+Do you charge per user?
+How is API usage billed?
+How do I find the right plan for my needs?

@@ -1,0 +1,68 @@
+SWE-2, OUR LATEST MODEL, IS NOW AVAILABLE →
+INDIVIDUAL PLANS
+Free
+$0
+Download
+Light quota to code with agents
+Limited model availability
+Unlimited inline edits
+Unlimited Tab completions
+Pro
+POPULAR
+$20
+PER MONTH
+Select plan
+EVERYTHING IN FREE, PLUS:
+Increased quotas, including access to frontier models from OpenAI, Claude, Gemini, and SpaceXAI, plus leading open source models
+Full model availability
+Free use of SWE-2
+Free in Devin Desktop and CLI through October 16, 2026
+Access to cloud agents (Devin Cloud)
+Purchase extra usage at API pricing
+Max
+NEW
+$200
+PER MONTH
+Select plan
+EVERYTHING IN PRO, PLUS:
+Significantly higher quotas
+TEAM PLANS
+Teams
+$80
+/MONTH FOR TEAM PLAN + $40/MO PER FULL DEV SEAT
+Select plan
+EVERYTHING IN PRO, PLUS:
+Up to 200 users
+---
+every major model provider
+---
+Compare Plans
+Free
+$0/month
+Pro
+$20/month
+Max
+$200/month
+Team
+$80/month
+Enterprise
+Let's talk
+Members
+1
+1
+1
+Up to 200 users
+$40/month per full user
+Each full user includes their own generous quota and access to Devin Desktop
+Unlimited
+Devin Desktop
+---
+Fast context
+Free SWE-2
+Free in Devin Desktop and CLI through October 16, 2026
+Slow
+---
+The Max plan is for power users who need significantly higher usage quotas. It includes everything in Pro, plus significantly higher quotas.
+What is included in the Free plan?
+The Free plan includes a light quota to code with agents, limited model availability, unlimited inline edits, and unlimited Tab completions.
+Company

@@ -1,0 +1,372 @@
+Deepnote research:
+our notes on building agents 
+Platform
+Customers
+Resources
+Docs
+Pricing
+Enterprise
+Book a demo
+Get started
+Scale your team with the perfect plan.
+
+Teams that rely on Deepnote
+
+Yearly
+Monthly
+Free
+
+A free version for aspiring data analysts and scientists.
+
+Free
+forever
+Get started
+
+Free includes…
+
+Up to 3 editors
+Up to 5 projects
+Limited Deepnote AI
+Unlimited Basic machines with 5 GB RAM, 2 vCPU
+7 day revision history
+Team
+
+For data teams needing a powerful platform for seamless collaboration.
+
+$39
+-20%
+per editor/month billed yearly
+Try 14 days for free
+
+Everything in Free plus…
+
+Unlimited viewers & notebooks
+GPT-5.6 Sol and Sonnet 4.6 access
+Premium integrations
+Background execution
+Scheduled notebooks
+30 day revision history
+$39 worth of AI credits every month
+$280 worth of CPU every month
+$50 worth of GPU every month
+More powerful machines
+Discounted additional compute
+Enterprise
+
+For organizations building secure and auditable workspaces for humans and agents.
+
+Custom
+Talk to us
+
+Everything in Team plus…
+
+Custom contract & invoice
+Priority support
+Dedicated success manager
+Unlimited AI
+Permission groups
+SSO & directory sync
+Private docker images
+Bring your own LLM
+Audit logs
+Federated Authentication
+Single-tenancy
+Volume machine discounts
+Compare plans
+Free
+Team
+Enterprise
+Get started
+Try 14 days for free
+Talk to us
+Members
+Editors
+
+3
+
+Unlimited
+
+Unlimited
+
+Viewers
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Projects
+Number of projects
+
+5
+
+Unlimited
+
+Unlimited
+
+Deepnote AI
+AI code completion
+
+10 completions per month
+
+Deepnote Agent
+
+5 calls per month
+
+Generate code
+
+5 calls per month
+
+Edit code
+
+5 calls per month
+
+Explain code
+
+5 calls per month
+
+Bring your own LLM
+
+Core capabilities
+Code blocks
+
+SQL blocks
+
+Text blocks
+
+Chart blocks
+
+Autocomplete
+
+Scheduled runs
+
+Terminal
+
+Variable explorer
+
+Interactive apps & dashboards
+
+Import & export as .ipynb
+
+Folders
+
+Notebook API
+
+White-labeled notebooks
+
+Collaboration
+Real-time collaboration
+
+Commenting
+
+Public projects
+
+Revision history
+
+7 days
+
+30 days
+
+Unlimited
+
+Access controls
+
+Shared datasets
+
+Sync notebooks with git
+
+Machines
+Basic
+
+(5 GB RAM, 2 vCPU)
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Plus
+
+(16 GB RAM, 4 vCPU)
+
+Unlimited
+
+Unlimited
+
+Shared environments
+
+Public docker images
+
+Build docker images
+
+Private docker images (Docker Hub)
+
+Private docker images (GCR, ECR)
+
+Inactivity period
+
+15 minutes
+
+24 hours
+
+24 hours
+
+Free compute ($112/month worth)
+
+Basic
+
+Plus
+
+Plus
+
+Pay-as-you-go machines
+
+Performance
+
+(64 GB RAM, 16 vCPU)
+
+High memory
+
+(128 GB RAM, 16 vCPU)
+
+GPU
+
+(60 GB RAM, 12 GB K80 GPU)
+
+Custom machines
+
+Volume discounts
+
+Security
+SOC 2 Type II
+
+Encrypted data
+
+Static IPs
+
+HIPAA Compliance
+
+SSH Tunnels
+
+Audit log
+
+Single sign-on (SSO)
+
+Directory sync
+
+Enforced SSO provider
+
+Federated warehouse authentication
+
+Single-tenant deployments
+
+Contact us
+
+Private cloud (on-premise)
+
+Contact us
+
+Integrations
+Databases & data warehouses
+PostgreSQL
+
+MySQL
+
+ClickHouse
+
+MariaDB
+
+MindsDB
+
+BigQuery
+
+Snowflake
+
+Redshift
+
+Amazon Athena
+
+SQL Server / Azure SQL
+
+MongoDB
+
+Databricks
+
+Trino
+
+Dremio
+
+File storage & collaboration
+Google Drive
+
+GitHub
+
+GitLab
+
+Amazon S3
+
+Google Cloud Storage (GCS)
+
+Support
+Live chat support
+
+Dedicated success manager
+
+Custom contract and invoicing
+
+Unified billing across multiple workspaces
+
+Priority support
+
+Footer
+Solutions
+Notebook
+Data apps
+Machine learning
+Data teams
+Product
+Integrations
+Pricing
+Documentation
+Changelog
+Security
+Company
+Customers & reviews
+Careers
+Press kit
+Comparisons
+Jupyter
+Amazon Sagemaker
+Google Colab
+Mode
+Visual Studio Code
+Hex
+Resources
+Blog
+Explore
+Feedback
+Compare
+Tools
+Convert .ipynb to PDF
+AI chart generator
+Bar graph maker
+Line graph maker
+Pie chart maker
+Scatter plot maker
+Histogram maker
+Box plot maker
+Dot plot maker
+Radar chart maker
+Bubble chart maker
+Venn diagram maker
+Sankey diagram generator
+Stock heat map
+Footer
+Privacy
+Terms
+X
+LinkedIn
+
+© 2026 Deepnote. All rights reserved.

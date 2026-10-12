@@ -1,0 +1,151 @@
+Use Cases
+Free Tools
+Blog
+---
+Payment frequency
+Monthly
+Annual
+Save 20% with annual!
+Starter
+---
+$25
+/month
+---
+Get Started
+MCP server for your AI assistant
+KoalaWriter: 45,000 words per month
+500 credits per month
+Brand DNA: 1 brand
+Brand DNA agent: 25 messages/mo
+GPT-6 and Claude Sonnet 5
+---
+Professional
+---
+Most Popular
+---
+$49
+/month
+---
+Get Started
+---
+Everything in Starter
+KoalaWriter: 100,000 words per month
+1,000 credits per month
+Brand DNA: 1 brand
+Brand DNA agent: 50 messages/mo
+Your Search Console and Analytics, in one dashboard
+---
+KoalaMagnets
+Deep Research
+Boost
+---
+$99
+/month
+---
+Get Started
+---
+1 brand with the full Brand DNA experience
+KoalaWriter: 250,000 words per month
+2,500 credits per month
+Brand DNA agent with no message cap
+---
+Looking to scale your content production? Check out our higher volume plans:
+---
+Growth
+---
+$179
+/month
+---
+Get Started
+---
+Everything in Boost
+KoalaWriter: 500,000 words per month
+5,000 credits per month
+Brand DNA: 3 brands
+Elite
+---
+$350
+/month
+---
+Get Started
+---
+Everything in Boost
+KoalaWriter: 1,000,000 words per month
+10,000 credits per month
+Brand DNA: 7 brands
+Advanced
+---
+$500
+/month
+---
+Get Started
+---
+Everything in Boost
+KoalaWriter: 1,500,000 words per month
+12,500 credits per month
+Brand DNA: 12 brands
+Scale I
+---
+$750
+/month
+---
+Get Started
+---
+Everything in Boost
+KoalaWriter: 2,500,000 words per month
+15,000 credits per month
+Brand DNA: 20 brands
+3x faster bulk article creation
+Scale II
+---
+$1,250
+/month
+---
+Get Started
+---
+Everything in Scale I
+KoalaWriter: 5,000,000 words per month
+20,000 credits per month
+Brand DNA: 40 brands
+Scale III
+---
+$2,000
+/month
+---
+Get Started
+---
+Everything in Scale I
+KoalaWriter: 10,000,000 words per month
+25,000 credits per month
+Brand DNA: 75 brands
+---
+Anne Moss
+Yeys.com
+---
+I launched a brand new site and scaled it to over 500,000 monthly sessions and over $15,000 in monthly revenue — using Koala AI — in under a year.
+---
+Casey Botticello
+Blogging Guide
+---
+ChatGPT-style chat with live web data and commands built for SEO work, on the same credits.
+---
+Frequently Asked Questions
+Is there a free trial available?
+Yes. Every new account gets 5,000 free words and 25 credits, no credit card required. Just register and start creating. You can upgrade to a paid plan anytime.
+How long do the credits last?
+With an annual subscription you get all credits up front and they don't expire for an entire year! However, credits from monthly subscriptions expire after a month.
+What happens if I already have a monthly subscription and I buy an annual subscription?
+We will rollover all of your leftover credits and your monthly subscription will automatically be cancelled. You will have an entire year to spend any credits you have left.
+Can I buy another annual subscription if I already have one?
+Yes, the credits from your existing plan will remain separate and will retain their original expiration date. Credits for the new plan will not expire for an entire year. You can freely switch plans at anytime without losing any credits.
+---
+You can change your plan at any time from this page by buying a new plan. When you buy a new plan it will reset your subscription date and automatically cancel your old subscription. Your leftover credits will rollover. Upgrades are not pro
+What are Platform Credits and what can I use them for?
+Platform Credits are shared across KoalaChat, KoalaImages, KoalaLinks, KoalaMagnets, Brand DNA's agent, API Access, and MCP research from your AI assistant. For example, on the Professional plan you can use a total of 1,000 credits across a
+Do failed requests use credits?
+Failed lookups and incomplete fixed-price research calls cost no credits. Keyword ideas and variations charge only for successful unique seeds. A successful search with no matches still uses credits. Each page continuation is a separate fet
+---
+No. The MCP is included with every paid plan; there is no separate fee. Connect your assistant and it spends the same platform credits as the rest of Koala AI. Free accounts cannot connect an app.
+How do fractional credits work?
+You pay for what your assistant calls. A raw HTML fetch is 0.1 credits, a rendered page or screenshot 0.25, a live Google search 0.5, keyword and competitor lookups 1, an article edit 1, backlink lookups 2, keyword volume 3 and historical t
+What does my assistant get for free?

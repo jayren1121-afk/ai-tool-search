@@ -1,0 +1,83 @@
+Gallery
+Free Drops
+Pricing
+---
+Pay monthly
+Pay annually
+Save 20%
+Standard
+$24
+/month
+Paid yearly
+Subscribe
+2,000 Credits / month
+---
+Gallery Downloads
+Free Drops Downloads
+MOST POPULAR
+Pro
+$48
+/month
+Paid yearly
+Subscribe
+4,000 Credits / month
+---
+Fix Seams
+Vectorise Pattern (SVG)
+Upscale Pattern up to 4x
+Business
+$240
+/month
+Paid yearly
+Subscribe
+20,000 Credits / month
+---
+Compare features, credits, and tools to confidently choose the
+plan that matches your design process and business goals.
+---
+Business
+Credits
+2,000 / month
+4,000 / month
+20,000 / month
+Privacy
+---
+Included
+Free Drops Downloads
+Included
+---
+Can I try the tools before subscribing?
+Yes. New users get 100 free credits to test basic generation. Some advanced tools still require a paid plan.
+How does the free credit system work?
+New users receive a one-time balance of 100 free credits. These do not refresh daily or monthly.
+Where can I see the price of my subscription?
+---
+Yes, you can access your receipts and invoices from your profile under Manage My Subscription.
+How many credits does each tool use?
+---
+Credits reset monthly. Different tools consume different amounts of credits based on the computing power required.
+---
+Tool	Credits per output image
+Create From Text	10 credits
+Create From Image	10 credits
+Create From Elements	free
+Create From Elements (Create AI Element)	10 credits
+Edit	10 credits
+Recolor	10 credits
+Restyle	10 credits
+Remix	10 credits
+Fix Seams	10 credits
+Vectorise	30 credits
+Upscale	depends on upscaling factor
+Preview on Mockups	10 credits
+Check Seamlessness	free
+Gallery Downloads	free
+Free Drops Downloads	free
+Do my monthly credits roll over?
+No, credits reset at the start of each billing cycle.
+Can I buy more credits?
+Yes, you can buy more credits under your profile.
+I have credits. Why does the app still ask me to upgrade?
+Some tools are only available on paid plans even if you still have credits. Credits cover usage, but feature access depends on your plan tier. If the tool is plan-restricted, you'll still see the upgrade screen.
+---
+Your AI-powered platform for generating seamless, royalty-free patterns.

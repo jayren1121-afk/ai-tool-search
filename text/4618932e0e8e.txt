@@ -1,0 +1,222 @@
+Products
+Solutions
+Resources
+Customers
+Pricing
+Sign in
+See a demo
+Get started
+Find the right plan for your needs.
+
+Essentials
+
+
+For startups and growing companies
+
+
+$0 user/month
+
+Try Brex for free
+
+Global card acceptance and 1 local card program
+
+AI-powered custom rules
+
+Up to two entities (1 global entity)
+
+Accounting integrations
+
+Local currency wires
+
+Travel booking (free on Essentials)
+
+Real-time reporting
+
+Brex API access
+
+Bill pay
+
+Reimbursements
+
+Premium
+
+
+For mid-sized companies looking to scale
+
+
+$12 user/month
+
+Open an account
+
+Everything in Essentials plus:
+
+
+Multiple, customizable expense policies (category rules, role-based policy exceptions, and auto-approval rules)
+
+Dynamic expense review chains
+
+AI-powered compliance audit detection and insights
+
+Advanced approvals with dynamic Spend Limit approval chains
+
+Multi-entity (US & International)
+
+Customizable ERP integrations and HRIS integrations
+
+VAT documentation
+
+Group travel and advanced travel rules
+
+Live budgets
+
+Enterprise
+
+
+For global enterprises with custom needs
+
+
+Custom pricing
+
+Contact sales
+
+Everything in Premium plus:
+
+
+Unlimited US or global entities
+
+Local card issuance, collections, reimbursements, and policies
+
+Named account manager for personalized support
+
+Admin center
+
+Fully customizable implementation services
+
+Smart Card
+
+
+For companies that want to simplify procurement
+
+
+Custom pricing
+
+
+Global cards accepted worldwide
+
+Local-currency cards in 50+ countries
+
+Merchant card controls and custom approvals
+
+Contact sales
+Compare plans
+
+Features
+	
+Essentials
+
+Get started for free
+	
+Premium
+
+Get started for free
+	
+Enterprise
+
+Contact sales
+Corporate cards
+
+Unlimited global cards, accepted in 210+ countries and territories
+
+	
+	
+	
+
+
+
+Competitive card rewards
+
+	
+	
+	
+
+
+
+Local-currency cards and billing in 50+ countries
+
+	
+	
+	
+Expense management
+Brex business accounts
+Automated bill pay
+Travel and events
+Local currency and multi-entity
+Accounting automation
+Integrations
+Security and access
+Best-in-class support
+Product
+Corporate card
+Business banking
+Expense management
+Accounting automation
+Bill pay
+Travel
+Startups
+Release notes
+Platform
+Intelligence
+Global ready
+Native integrations
+Live Budgets
+Reporting
+Mobile app
+API
+Company
+About Brex
+Careers
+Contact
+Partner portal
+Press
+Security
+Resources
+Customer Hub
+Help center
+Resource center & blog
+Spend trends
+Accounting services
+Status
+Implementation services
+Legal
+Privacy
+Your Privacy Choices
+†
+
+The “total treasury return” posted (between 3.56% and 3.91%) is not the DGVXX 7-day yield, it is an annualized compounded number based on the current 7-day yield for the BNY Dreyfus Government Cash Management Fund (DGVXX) (3.50%) and the additional return paid by Brex Treasury LLC, and assumes (1) that yield will remain static, and (2) all dividends and distributions will be reinvested and held for one year, compounding at that static rate.
+
+The additional-return rate is a Brex-set nominal rate based on your applicable balance tier and is an annualized, compounded figure. This means that if additional returns are not held for a year, the realized additional return will be lower than the displayed rate. Your tier is determined daily based on your total Brex balance across Checking, Treasury, and Vault. It may change as that balance changes; Brex may also change the tier schedule at any time. Actual payouts are calculated daily and may be lower or higher.
+
+The total return shown is an annualized estimate. It assumes the current DGVXX yield and your applicable additional return rate remain unchanged for one year, and that monthly payouts are reinvested. Actual returns will vary because fund yields, your balance tier, and your Treasury balance may change. Additional return is calculated daily and paid monthly on funds invested in Treasury. More information can be found here.
+
+DGVXX yields fluctuate daily, and past yields are not indicative of future yields. This means that if dividends and additional returns are not held for a year, or if rates fall, the actual realized total treasury return will be lower than the rate displayed.
+
+The posted rate is based on customers who are eligible for the highest-tier rate on their Brex business account. Yield and additional return are variable and are earned only on invested funds in Treasury. They are calculated daily, provided monthly, and automatically reinvested. Investing in securities involves risk, including the risk of loss. An investment in DGVXX is not a bank deposit and is not insured or guaranteed by the FDIC or any other government agency. Although the fund seeks to preserve the value of your investment at $1.00 per share, it cannot guarantee it will do so, and you may lose money by investing in the fund.
+
+Brex LLC is a wholly owned subsidiary of Capital One, N.A. 
+
+Brex LLC | 2261 Market Street STE 85844 | San Francisco, CA 94114
+
+Brex LLC | 650 S 500W Suite 300 | Salt Lake City, UT 84101
+
+The Brex business account consists of Checking, a commercial checking account provided by Column N.A., Member FDIC (an unaffiliated institution), and Treasury and Vault, cash management services provided by Brex Treasury LLC, Member FINRA/SIPC and a Capital One company.
+
+Securities are offered through Brex Treasury LLC. Funds in Treasury are not FDIC-insured. Funds in Vault at program banks are eligible for FDIC insurance. Funds are not FDIC-insured until they arrive at program banks. Conditions apply. 
+
+Investing in securities involves risk and loss of money. Yield and return are variable and fluctuate. Past performance is not a guarantee of future results. This is not an offer to, or implied offer, or a solicitation to, buy or sell any securities. Brex Treasury LLC does not provide legal, tax, or investment advice. The latest statement of financial condition for Brex Treasury LLC is available here. You could lose money by investing in the Fund. Although the Fund seeks to preserve the value of your investment at $1.00 per share, it cannot guarantee it will do so. An investment in the Fund is not insured or guaranteed by the FDIC or any other government agency.
+
+The Brex Mastercard® Corporate Credit Card is issued by Emigrant Bank, Fifth Third Bank N.A., or Airwallex (Netherlands) B.V. (all unaffiliated institutions), pursuant to licenses by Mastercard International Inc. Mastercard is a registered trademark, and the circles design is a trademark of Mastercard International Inc. The Brex Commercial Card is issued by Sutton Bank (an unaffiliated institution), pursuant to a license from Visa® U.S.A. Inc. Can be used where Visa® cards are accepted. No ATM access. All loans are subject to approval, including underwriting, credit, and collateral approval, as well as availability restrictions. Nothing herein should be construed as a commitment to lend.
+
+
+Certain payment services are provided by Brex Payments LLC, a licensed money transmitter (NMLS #2035354) and a Capital One company.
+
+Some Brex products have associated fees. Plans start at $0 per user, per month, and more advanced features are available for $12 per user, per month.

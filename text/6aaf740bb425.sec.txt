@@ -1,0 +1,110 @@
+Pricing for Warp
+Free
+---
+$0
+/month
+---
+For developers who want Warp’s modern terminal with the flexibility to use Warp’s AI or bring their own.
+---
+Recommended
+Monthly
+Annual
+---
+Annual plan
+---
+$18
+/month
+---
+For developers who want flexible access to AI that scales with their usage
+---
+Everything in Free, plus:
+---
+○
+---
+$20 of agent usage included each month at API rates
+---
+○
+---
+Max
+Monthly
+Annual
+---
+Annual plan
+---
+$180
+/month
+---
+For developers who need maximum AI capacity with all the flexibility of Build
+---
+Everything in Build, plus:
+---
+○
+---
+$200 of agent usage included each month (10× Build)
+---
+○
+---
+Business
+Monthly
+Annual
+---
+Annual plan
+---
+$45
+/user /month
+---
+For teams scaling AI-powered development (up to 25 seats)
+---
+Everything in Build, plus:
+---
+○
+---
+$20 of agent usage included per seat each month at API rates
+---
+○
+---
+CONTACT SALES
+---
+Free
+---
+$0/mo
+---
+DOWNLOAD NOW
+---
+Build
+---
+Starts at $20/mo
+---
+START TODAY
+---
+Max
+---
+Starts at $200/mo
+---
+START TODAY
+---
+Business
+---
+Starts at $50/mo
+---
+START TODAY
+---
+Custom pricing
+---
+CONTACT SALES
+---
+Seats
+Team members	10	10	10	25	Unlimited
+Agents
+Included monthly usage	—	$20 (1,500 credits)	$240 (18,000 credits)	$20 (1,500 credits)	Custom
+Access to frontier and open-source models	With purchased credits or your own inference	All frontier + open-source models	All frontier + open-source models	All frontier + open-source models	Custom
+Warp Agent CLI
+Reload credits	20% above paid-plan rates				Custom
+Auto-reload	—				Custom
+---
+Pricing FAQ
+How is agent usage billed?
+Is the Warp Agent CLI included in my plan?
+---
+CONTACT SALES
+VIEW DOCUMENTATION

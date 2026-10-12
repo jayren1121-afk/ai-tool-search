@@ -1,0 +1,191 @@
+Skip to content
+Cursor
+Models
+↓
+Product
+↓
+Enterprise
+Pricing
+Resources
+↓
+Sign in
+Contact sales
+Download
+Pricing
+Monthly
+Yearly
+Hobby
+
+For the tinkerer
+
+Free
+
+Includes:
+
+✓
+No credit card required
+✓
+Limited Agent requests
+✓
+Access to Composer
+Try Cursor
+Individual
+
+For the agent-curious
+
+$20
+ / mo.
+
+Pro
+Pro+
+Ultra
+
+Everything in Hobby, plus:
+
+✓
+Extended limits on Agent
+✓
+Generous limits for Grok
+✓
+Access to frontier models
+✓
+Grok Bot access
+✓
+MCPs, skills, and hooks
+✓
+Cloud agents
+✓
+Bugbot on usage-based billing
+Get Pro
+Teams
+
+For teams that ship together
+
+$40
+ / user / mo.
+
+Standard
+Premium
+
+Everything on Individual, plus:
+
+✓
+Centralized team billing and administration
+✓
+Team marketplace for internal rules, skills, and plugins
+✓
+Cloud agents and automations with shared team context
+✓
+Grok Bot access
+✓
+Agentic code reviews with Bugbot
+✓
+Usage analytics to understand team behavior
+✓
+Team-wide privacy mode
+✓
+SAML/OIDC SSO
+Get Teams
+Enterprise
+
+For scaled organizations
+
+Custom
+
+Everything on Teams, plus:
+
+✓
+Pooled usage
+✓
+Invoice/PO billing
+✓
+SCIM seat management
+✓
+Repository, model, and MCP access controls
+✓
+Auto-run, browser, and network controls
+✓
+Audit logs and service accounts
+✓
+AI code tracking API
+✓
+Access, network, and audit controls for Grok Bot
+✓
+Priority support and account management
+Contact sales
+Trusted every day by teams that build world-class software.
+Questions & Answers
+What is the right plan for me?
+↓
+What are my payment options?
+↓
+How does usage-based pricing work?
+↓
+Are prices inclusive of taxes?
+↓
+How can I see and manage Cursor's usage in my organization?
+↓
+How does Cursor use my data?
+↓
+Can I buy Cursor from a reseller or third party?
+↓
+Where can I ask more questions?
+↓
+Get started with Cursor.
+Download
+⤓
+Contact Sales
+Product
+Agents
+Teams
+Enterprise
+Pricing
+Code Review
+CLI
+Cloud Agents
+Composer
+Marketplace ↗
+Resources
+Download
+Changelog
+Docs
+Learn ↗
+Forum ↗
+Help ↗
+Workshops
+Status ↗
+Company
+Careers
+Blog
+Community
+Students
+Brand
+Future
+Anysphere ↗
+Legal
+Terms of Service
+Acceptable Use Policy
+Grok Bot Terms
+Privacy Policy
+Cookie Policy
+Data Use
+Security
+Privacy choices
+Connect
+X ↗
+LinkedIn ↗
+YouTube ↗
+© 2026 Anysphere, Inc.
+🛡 SOC 2 | ISO27001 | ISO42001 | AIUC-1 Certified
+🖥
+☉
+☾
+🌐
+English
+↓
+
+Essential cookies keep the site working and stay on. Optional cookies help with performance and advertising — accept, reject, or manage them. Learn more in our Cookie Policy, Privacy Policy, and Terms of Service.
+
+Cookies Settings
+Reject All
+Accept All Cookies

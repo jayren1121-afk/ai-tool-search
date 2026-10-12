@@ -1,0 +1,107 @@
+Log in
+Try free
+---
+Start analyzing for free
+---
+Your question carries into your free workspace
+---
+Clean, standardize, merge, reshape, and organize raw data from multiple sources into analysis-ready formats.
+---
+Feb
+$42k
+Mar
+85000
+Jan
+$120k
+Apr
+67,000
+Mon
+Amt
+Jan
+$42k
+Feb
+$85k
+Mar
+$120k
+Apr
+$67k
+Code Transparency
+---
+See the exact code generated for every request. Verify, learn, and export for your own use.
+---
+STATE
+PROFIT
+2
+California
+$45,200.00
+3
+New York
+$38,900.50
+4
+Texas
+$32,100.00
+5
+Florida
+$28,500.25
+---
+WORKS WITH SLACK
+BETA
+---
+Start analyzing for free
+---
+Start free, upgrade when you need more power and usage.
+---
+→
+Monthly (Save 50%)
+Annually
+Compare all features →
+STARTER
+Regular monthly price: $20 per month. Discounted first-month price: $10 per month.
+$20
+$10
+First month, then $20 per month
+---
+AI data analysis with premium models and enhanced computing power for files, dashboards, and recurring work.
+---
+Chat messages
+250 / month
+Choose Starter
+250 chat messages/month
+2,500 AI Actions: PDF to Excel, enrichments, deep research, formula generations
+---
+1 Data Flow, weekly refresh (Google Sheets only)
+Show more features
+Best for power users & teams
+MAX
+Regular monthly price: $40 per user per month. Discounted first-month price: $20 per user per month.
+$40
+$20
+First month, then $40 per month
+---
+For power users and teams that need unlimited analysis, automated dashboards, connected data, and a shared workspace. Pricing is per user.
+---
+Unlimited chat messages
+5,000 AI Actions/user
+10 automated dashboards
+---
+500MB file uploads (25 files / chat)
+5 Data Flows, daily refresh (Sheets + databases)
+Show more features
+BUSINESS
+Regular monthly price: $80 per user per month. Discounted first-month price: $40 per user per month.
+$80
+$40
+First month, then $80 per month
+---
+Maximum capacity, white-label embeds, and dynamic per-user row-level security for organizations with advanced data requirements. Pricing is per user.
+---
+Unlimited chat messages
+15,000 AI Actions/user
+20 automated dashboards
+---
+Analyze your data free
+---
+No credit card required. Free forever plan included.
+---
+Analyze your data free
+The all-in-one analytics app

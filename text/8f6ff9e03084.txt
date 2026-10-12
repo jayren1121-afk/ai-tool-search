@@ -1,0 +1,431 @@
+AI Features
+Explore
+Plans
+Enterprise
+What's new
+Log in
+Download
+Start for free
+Which Evernote plan is right for you?
+
+Whether you're managing your own projects or supporting an entire organization, there's a plan built for the way you work.
+
+Monthly
+Annual
+Save up to 40%
+See full plan comparison
+For individuals
+Starter
+$8.25
+/ month
+Pay $99.00 / year
+
+Capture ideas, stay organized, and keep projects moving—all in one place.
+
+Choose Starter
+
+Key features:
+
+Up to 1000 notes
+Up to 20 notebooks
+Up to 1000 attachments
+Up to 3 devices
+AI features
+Advanced
+$20.83
+/ month
+Pay $249.99 / year
+
+For power users who want to accomplish more in less time with a streamlined and efficient workflow
+
+Choose Advanced
+
+Key features:
+
+Unlimited notes
+Unlimited notebooks
+Unlimited attachments
+Unlimited devices to sync
+AI features
+For teams & business organizations
+BEST FOR YOUR COMPANY
+Flexible
+from
+$10
+/ month / seat
+Best for growing teams
+
+For teams that want to capture, organize, and share knowledge more effectively.
+
+Choose Flexible
+
+Key features:
+
+Pay for what you use
+Team collaboration & shared spaces
+Centralized admin console
+Scale seats up or down as you grow
+Enterprise
+Talk to sales
+Best for larger organizations (10+ seats)
+
+For organizations that need to operate with greater scalability, control, and security.
+
+Talk to our sales team
+
+Everything in Flexible, plus:
+
+Company ownership of all business data
+Dedicated Customer Success Manager
+Advanced account and content administration
+Enhanced security and compliance
+Single Sign-On (SSO) and User Provisioning (SCIM)
+Customizable plan limits based on your organization’s needs
+Free
+$0
+
+Capture ideas and find them quickly
+
+Core features:
+Create up to 50 notes
+Create 1 notebook
+Connect 1 device
+1 GB monthly uploads
+1 GB max. note size
+Access to Tasks, Calendar, Web Clipper, and more
+Access to advanced tools like image and document search, offline mode, PDF annotations, and more
+Start For Free
+Compare plans
+Plan
+	
+Free
+Start now
+	
+Starter
+Choose
+	
+Advanced
+Choose
+	
+Flexible
+Choose
+	
+Unlimited
+Choose
+
+
+Notes
+50	1000	Unlimited	From 500, up to unlimited	Unlimited
+
+Notebooks
+1	20	Unlimited *	From 50, up to unlimited	Unlimited
+
+Spaces
+5	10	Unlimited	From 500, up to unlimited	Unlimited
+
+Tags
+20	100	Unlimited	Unlimited	Unlimited
+
+Attachments
+200	1000	Unlimited	1 GB	Unlimited
+
+Sync across devices
+1 device	3 devices	Unlimited *	From 4 per seat, up to unlimited	Unlimited
+
+Storage
+1GB	5GB	Unlimited	From 250 MB, up to unlimited	Unlimited
+
+Apps for iOS, Android, Web, Windows, and Mac
+	
+	
+	
+	
+
+Core Features
+
+Tasks
+Add dates, set reminders, assign tasks to others
+	
+	
+	
+	
+
+
+Evernote Calendar
+Access and create events
+	
+	
+	
+	
+
+
+External calendars
+Connect your Google or Microsoft Office calendars
+1	5	5	5 per user	5 per user
+
+Advanced search
+Find anything in your account with Boolean, geographic, and filtered searches
+	
+	
+	
+	
+
+
+Advanced organization
+Add tags and reminders to notes
+	
+	
+	
+	
+
+
+Offline notes
+Access your notes from anywhere
+	
+	
+	
+	
+
+
+Easy sharing
+Email content into Evernote, export notes and notebooks as PDFs
+	
+	
+	
+	
+
+AI Features
+
+AI Assistant
+Search, organize, and enrich your notes from a chat.
+	
+	
+	
+	
+
+
+Semantic Search
+Find related notes based on their content.
+	
+	
+	
+	
+
+
+AI Transcribe
+Record, summaries and transcript your meetings.
+	
+	
+	
+	
+
+
+AI Edit
+Use AI to write, summarize, tidy, and translate your notes
+	
+	
+	
+	
+
+
+AI Cleanup
+Make your notes cleaner and neater. Available only on mobile.
+	
+	
+	
+	
+
+
+Connect Evernote to AI tools (MCP)
+Use your notes from Claude, ChatGPT, and any MCP-compatible AI tool.
+	
+	
+	
+	
+
+Integrations
+
+Google (Gmail, Drive, Calendar)
+	
+	
+	
+	
+
+
+Microsoft Outlook (Email, Calendar)
+	
+	
+	
+	
+
+
+Slack
+	
+	
+	
+	
+
+Security
+
+Two-factor authentication
+	
+	
+	
+	
+
+
+In-note encryption (Mac & Windows)
+	
+	
+	
+	
+
+Support
+
+Help & Learning center
+	
+	
+	
+	
+
+
+Community forum
+	
+	
+	
+	
+
+
+File a support ticket
+	
+	
+	
+	
+
+
+Dedicated Customer Success Manager
+	
+	
+	
+	
+
+
+Priority Queue
+	
+	
+	
+	
+
+Enterprise
+
+Maintain business data ownership
+Control all the information in your account
+	
+	
+	
+	
+
+
+Centralized account administration & user management
+Access information on billing, users, and permissions
+	
+	
+	
+	
+
+
+User activity history with detailed logs
+Get complete oversight of your team's usage history
+	
+	
+	
+	
+
+
+Single Sign-On (SSO)
+Use existing credentials for a faster log in experience
+	
+	
+	
+	
+*With the exception of safeguard limits applied to ensure performance and prevent abuse.
+Frequently Asked Questions
+How long is the free trial for paid plans?
+Unless otherwise specified, free trials of Evernote last for 7 days. If you cancel before the trial ends, your credit card will not be charged
+How do I switch plans?
+To upgrade your plan from Free to Starter or Advanced:
+Go to your account settings in Evernote Web, then click ‘Manage Subscription’ on the ‘Account Summary’ page.
+Select the plan you wish to upgrade to (Starter or Advanced).
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+To upgrade your plan from Starter to Advanced:
+Go to your account settings in Evernote Web, then click ‘Evernote Starter’ at the top of the ‘Account Summary’ page.
+Select the Advanced plan.
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+The process for downgrading your plan to Free depends on your payment method. For detailed instructions, please see this Help & Learning article.
+Note: If you are subscribed to Evernote through iTunes or Google Play, you will need to manage your subscription through them.
+How do I change my payment method?
+To change your payment method:
+Go to your account settings in Evernote Web, then click ‘Billing’ on the left side of the page.
+Click ‘Update’ next to your existing payment method.
+Enter your new credit card or PayPal information.
+Click 'Update.'
+Note: If you subscribed to Evernote through iTunes or Google Play, you will need to manage your subscription through them.
+Do you offer a student discount?
+Yes! Eligible college students can get 40% off a one-year subscription to Evernote Advanced. Learn more.
+Is there a free trial of Evernote Enterprise?
+You can try Enterprise free for 14 days. Visit our Enterprise trial page to get started.
+I have an Evernote account. How do I upgrade to the Enterprise plan?
+To upgrade to Enterprise, please contact sales. They’ll be glad to get you up and running and answer any further questions you might have.
+How do I change my payment method?
+To change your payment method:
+Go to your account settings in Evernote Web, then click ‘Billing’ on the left side of the page
+Click ‘Update’ next to your existing payment method
+Enter your new credit card information
+Click ‘Update.’
+I'm a student. Should I get Evernote Enterprise for my work group?
+While you can use Evernote Enterprise with your group, our Advanced plan also features easy ways to share information with others. Visit our Student Discount page to see if Evernote Advanced is right for you.
+Choose a language:
+English
+Solutions
+Why Evernote
+Note taking
+Self organization
+Productivity
+Enterprise
+Students
+Compare plans
+Explore
+AI features
+Collaboration
+Web Clipper
+Advanced search
+Document scanning
+Personalization
+Calendar
+Tasks
+Integrations
+Sitemap
+Resources
+Evernote news
+Product Updates
+Release Notes
+Help & learning
+Templates
+Forum
+Find an Expert
+Developers
+Contact us
+Careers
+About Bending Spoons
+Get Started
+Sign up for free
+Log in
+Download
+© 2026 Bending Spoons US Inc. All rights reserved.
+Your Privacy Choices
+Security
+Legal
+Privacy
+We use cookies
+We use cookies and similar technologies to process information about your interactions on our website, including to perform analytics, improve your experience, show advertising, and enable website functionality in accordance with our Privacy Policy. By continuing to use our website, you agree to the use of these technologies. See Your Privacy Choices for opt-out options.
+Your Privacy Choices

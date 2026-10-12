@@ -1,0 +1,248 @@
+Introducing Gumloop Browser
+Learn more
+Solutions
+Solutions
+Resources
+Resources
+Enterprise
+Enterprise
+Pricing
+Pricing
+Connectors
+Connectors
+Careers
+Careers
+Book a demo
+Get Started
+Pricing that scales with you
+	
+Pro
+Starts at $37 / month
+Start 14-day free trial
+	
+Enterprise
+Custom Pricing
+Contact sales
+
+
+Agents
+	Unlimited	Unlimited
+
+Models
+	35+	35+ and custom proxy support
+
+Bring Your Own API Keys
+	
+	
+
+
+Included Credits
+	20k per month	Custom
+
+Orchestration Fee
+	8%	Discounts available
+Company Data		
+
+Company Brain
+	
+	
+
+
+GitHub Skill Sync
+	
+	
+
+Collaboration		
+
+Seats
+	Unlimited	Unlimited
+
+Teams
+	Unlimited	Unlimited
+
+Shared Credentials
+	
+	
+
+Support		
+
+Gumloop University
+	
+	
+
+
+Email Support
+	
+	
+
+
+Dedicated Slack Support
+	
+	
+
+
+Embedded Gumloop Expert
+	
+	Optional
+Admin & Security		
+
+Virtual Private Cloud
+	
+	Optional
+
+Connector Policies & Guardrails
+	Agent-scoped	Org-wide
+
+MCP Server Hosting
+	1	Custom
+
+MCP Server Proxying
+	
+	
+
+
+AI Spend Insights
+	
+	
+
+
+Usage Analytics Agent
+	
+	
+
+
+Role-Based Access Control
+	
+	
+
+
+SCIM/SAML Support
+	
+	
+
+
+Admin Dashboard
+	
+	
+
+
+Audit Logs
+	
+	
+
+
+Custom Data Retention Rules
+	
+	
+
+
+Regular Security Reports
+	
+	
+
+
+Data Exports
+	
+	
+
+
+Incognito Mode
+	
+	
+
+
+AI Model Access Control
+	
+	
+
+Developer		
+
+Gumloop MCP
+	
+	
+
+
+Gumloop CLI
+	
+	
+
+Workflows (Legacy)		
+
+Concurrent Workflow Runs
+	5	Custom
+
+Concurrent Agent Chats
+	25	Custom
+
+Workflow Queuing
+	
+	
+Frequently asked questions
+What is a credit?
+How are credit costs calculated?
+Can I bring my own API key(s)?
+Do unused credits roll over to the next month?
+What happens if I spend more than 20k credits mid-month?
+Can I collaborate with others?
+Why upgrade to Enterprise?
+What's a team?
+How much does Enterprise cost?
+Build your team of agents
+
+Create AI agents that understand your business, work across your tools, and take work from idea to outcome.
+
+Explore agents
+Use Cases
+Ad Campaign Management
+Call Analysis Agent
+Competitor Analysis
+Content Creation
+CRM Agent
+Data Analysis Agent
+Lead Generation Agent
+Lead Qualification Agent
+Meeting Prep Agent
+SEO Automation
+Shopify Stores
+Support Agent
+See all
+Popular
+Changelog
+Templates
+Blog
+Connectors
+CLI
+Company
+About
+Careers
+Wall of Love
+Handbook
+Terms of Service
+Privacy Policy
+Security
+Resources
+Docs
+Open Source AI Models
+Customer Stories
+University
+Learning Cohorts
+Workshops
+Hire an Expert
+Creators
+Forum
+Social
+YouTube
+Twitter
+LinkedIn
+Compare
+ChatGPT Agent
+Claude Cowork
+Dust
+Glean
+Grok Bot
+n8n
+Relevance AI
+Zapier
+© 2026 AgentHub Inc.
+Privacy Policy
+Terms & Conditions

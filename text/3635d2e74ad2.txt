@@ -1,0 +1,286 @@
+Product
+Product
+Chrome Extension
+Frames
+Integrations
+Solutions
+DEPARTMENTS
+Sales
+Customer Support
+Marketing & Content
+Engineering
+Data & Analytics
+Knowledge
+IT
+Legal
+People
+Productivity
+INDUSTRIES
+B2B SaaS
+Consulting
+Financial Services
+Insurance
+Marketplaces
+Retail & E-commerce
+Resources
+BUILD
+Get Started
+Guides & Tutorials
+Academy
+EXPLORE
+Blog
+Online Events
+Events
+Customer Stories
+CONNECT
+Slack Community
+Support
+Become a Partner
+Security
+Pricing
+Sign in
+Try for free
+Contact sales
+The economics of multiplayer AI
+Pricing that scales
+with the work you get done
+
+Choose self-serve plan for your team, or talk to us about enterprise-ready deployment, governance, and support
+
+Business
+
+For teams up to 100 people
+
+Start for free
+Yearly
+Save 20%
+Monthly
+Free
+$0
+500 credits · Lifetime
+Pro
+$24
+8,000 credits /seat/mo
+Max
+$120
+40,000 credits /seat/mo
+
+Excluding VAT
+
+20+ frontier models — GPT, Claude, Gemini, Mistral, DeepSeek
+Custom agents with your skills, knowledge & tools
+Multi-agent workflows on schedules & triggers
+Connect Slack, Notion, GitHub, Drive + 20 more — or any tool via MCP
+Team collaboration workspaces
+SSO with Okta, Entra ID & Jumpcloud
+US & EU data residency
+Enterprise
+
+For AI at scale
+
+Talk to sales
+
+Everything in Business plus:
+
+Unlimited connectors & MCP servers
+Workspace-pooled credits & volume pricing
+SCIM, audit logs & custom data retention
+US & EU data residency & single-tenant deployment
+Dedicated CSM, priority support & SLA
+Custom legal terms (MSA, DPA)
+Compare plans feature by feature
+	
+Business
+Start for free
+	
+Enterprise
+Talk to sales
+
+
+Features
+
+
+20+ frontier models (GPT, Claude, Gemini, Mistral, DeepSeek) + multi-modal input
+	
+	
+
+
+Custom agents with skills + knowledge & tools
+	
+	
+
+
+Multi-agent orchestration & triggers (scheduled + event-driven)
+	
+	
+
+
+MCP servers (native + remote)
+	5 remote	
+
+
+Frames (interactive dashboards & apps)
+	Standard	White-labelled
+
+Pods (collaborative workspaces with shared context)
+	
+	
+
+
+Company data
+
+
+Connectors to 20+ data sources
+	Up to 3	
+
+
+Search + query & extract across all company data
+	
+	
+
+
+Spaces for data segmentation & permissions
+	5	
+
+
+Security & admin
+
+
+SOC 2 Type II
+	
+	
+
+
+SSO (Okta, Entra ID, Jumpcloud)
+	5+ seats on demand	
+
+
+SCIM provisioning
+	
+	
+
+
+Audit logs & advanced security controls
+	
+	
+
+
+Data residency
+	US / EU	US / EU
+
+Single-tenant deployment
+	
+	
+
+
+Custom legal terms (MSA, DPA)
+	
+	
+
+
+Usage analytics & adoption reporting
+	
+	
+
+
+Support
+
+
+Support tier
+	Email	Priority + SLA
+
+Dedicated CSM & onboarding
+	
+	
+
+
+Developer tools
+
+
+Developer API
+	Conversation API	+ Data Source API
+
+Automation platforms (Zapier, Make, n8n, Power Automate)
+	
+	
+
+
+Programmatic usage rate
+	$0.01 / credit	Custom
+Frequently asked questions
+What is a credit?
+A credit is Dust's unit for measuring AI usage. Credit consumption depends on the model used, the complexity of the task, and any tools the agent uses, such as search, data retrieval, code execution, or actions in connected apps. Learn more about credits.
+How are credits consumed?
+Credits are charged per message, based on the model used and the actions performed. Basic chat with a token-efficient model like Claude Sonnet will consume few credits, while a deep research task that requires complex, multi-step orchestration and tool use will consume more. You'll be able to track your credit usage in Dust so that you can understand how different workflows consume credits. Learn more about managing credits.
+Do unused credits roll over?
+No. Each seat's monthly credit allocation resets at the start of every billing period. This keeps pricing predictable and makes it easier for teams to plan.
+What happens when I run out of credits?
+If an agent is already generating a response, it will finish; you won't be cut off mid-response. After that, additional usage depends on your seat type and workspace settings. Pro and Max users will be able to continue through workspace overage if enabled by an admin up to a capped amount. Free users are prompted to request an upgrade.
+What's the difference between Free, Pro, and Max seats?
+
+These are seat types within the Business plan. Admins assign one to each user based on that individual's expected usage:
+
+Free: $0, 500 credits lifetime. Best for occasional users or people trying Dust.
+Pro: $30/month, or $24/month billed yearly, with 8,000 credits/month. Best for most team members.
+Max: $150/month, or $120/month billed yearly, with 40,000 credits/month. Best for power users running complex automations, Deep research, or tool-heavy workflows regularly.
+
+You can mix and match seat types across your workspace and reassign them anytime as usage changes. Learn more about seats.
+
+How does billing work when I add or remove members?
+Adding a member mid-cycle is prorated: they get their full credit allocation immediately, and you're charged only for the remaining days in the period on your next invoice. Removing a member frees the seat for reassignment. Monthly seats can be cancelled anytime; annual seats stay available for reassignment until their commitment ends.
+Which AI models are included?
+All plans include access to 20+ models from OpenAI, Anthropic, Google, Mistral, and DeepSeek. You choose the model per agent. No model is locked behind a higher plan, though higher-capability models may consume more credits per message.
+When should I consider Enterprise?
+Enterprise is best for organizations that need advanced security and admin controls, dedicated support, custom terms, or more flexible usage arrangements at scale. This includes needs like SCIM, audit logs, SLAs, hands-on onboarding, and Customer Success support.
+THE PLATFORM FOR AI OPERATORS
+The best teams aren't just using AI.
+They're running it.
+
+There's a new kind of person emerging in fast-moving companies; someone who doesn't wait for an AI tool to be handed to them. They build it with judgment, deploy it, and run it for their whole team. We call them AI Operators.
+
+Work is being rewritten. The pen is in the hands of AI Operators.
+We're building the platform for them.
+
+We're hiring →
+ONLINE EVENT
+Dust for GTM Engineers with 1Password
+October 14 · 12:00pm ET / 9:00am PT
+Register Now
+→
+Cookies and session replay
+
+With your consent, we use analytics cookies and PostHog session replay to understand how visitors use our marketing website. Session replay records your clicks, scrolling and page interactions so we can review and optimise the visitor experience. Form entries are masked before being sent to PostHog.
+
+‘Accept all’ enables both analytics cookies and session replay. Choose ‘Customise’ to select them separately, or ‘Reject all’ to decline both. You can change your choices at any time through Cookie Settings. View our Privacy Policy for more information.
+
+Reject all
+Customise
+Accept all
+PRODUCT
+Product
+Chrome Extension
+Pricing
+Security
+DEVELOPERS
+Developer Platform
+Dust for Engineers
+Platform Documentation
+Github Repo
+COMPANY
+About Us
+Jobs
+We're hiring
+Brand resources
+Support
+Become a Partner
+CONNECT
+Slack Community
+X
+LinkedIn
+YouTube
+LEGAL
+Terms & Policies
+Privacy Policy
+Trust Center
+Vulnerability Disclosure
+Cookie Settings

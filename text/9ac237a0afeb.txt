@@ -1,0 +1,436 @@
+Features
+Solutions
+Pricing
+Resources
+Log In
+Start Free
+CORE PLATFORM
+AI LMS
+White Label LMS
+Document to Course
+AI TOOLS
+AI Quiz Generator
+AI Flashcard Maker
+AI Training Video Generator
+AI Tutor
+AI Grading
+AI Rubrics
+AI Images
+INTEGRATIONS & STANDARDS
+Integrations
+SCORM
+Sell with Coursebox
+FOR EDUCATION & TRAINING
+Training Providers
+Accredited Training Providers
+Instructional Designers
+Creators
+Colleges & Universities
+FOR BUSINESS
+Corporate onboarding & Inductions
+Sales
+HR Training Software
+Compliance Training Software
+BY INDUSTRY
+Healthcare
+Hospitality
+Non Profits
+Blog
+Demo
+Case Studies
+Reviews
+Help Center
+MyCoursebox
+My LMS
+Pricing
+Unlimited learners on every plan.
+Yearly (2 months free)
+Monthly
+Free
+
+Try the full course builder. No card needed.
+
+$0
+USD
+free forever
+Start free
+✓
+3 mini courses, with the AI to build them
+AI-generated courses are limited to 3 courses, with up to 5 pages per course.
+✓
+Unlimited learners
+✓
+AI course generation
+• 150 AI page credits
+• 2 AI images
+• 100 AI tutor messages
+• 1 minute of AI video
+• 10 voice minutes
+✓
+Published with Coursebox watermark
+Your courses show a 'Created with Coursebox' label. Any paid plan removes it.
+Creator
+
+For individuals building and selling their own courses.
+
+$25/m
+USD
+$300 billed yearly
+Get Creator
+✓
+More AI Credits (~120 courses a year)
+• 6,000 AI page credits per year
+• 240 AI images per year
+• 12,000 AI tutor messages per year
+• 60 minutes of AI video per year
+• 600 voice minutes per year
+✓
+Remove Coursebox watermark
+On all paid plans, your courses no longer show the 'Created with Coursebox' label anywhere.
+✓
+Certificates
+Certificates are auto-sent on completion. Each is customisable with its own design per course.
+✓
+Export: PDF, HTML & SCORM
+PDF: a print-ready copy of your whole course, with a cover page, contents, every lesson's images and layout, clickable links including YouTube videos, and all quiz questions.
+SCORM: Integrate any published course into another LMS via our dynamic SCORM connection. An active subscription is required for it to keep running.
+✓
+Basic reports
+See who's enrolled, how far learners progress in each section, and their assessment scores.
+✓
+1 admin seat
+Any user who can create/edit courses or manage grades (not a learner) counts as an admin.
+Pro
+$83/m
+Pro + LMS
+$250/m
+Pro + LMS
+Most popular
+
+For teams building and running a fully branded learning platform.
+
+$250/m
+USD
+$3,000 billed yearly
+Get Pro + LMS
+
+1 admin seat included. Extra seats $83/mo each.
+Anyone who creates or edits courses counts as an admin.
+Add seats at checkout or any time from Payments. Every seat adds a full AI credit allowance to your account.
+
+✓
+Everything in Creator
+✓
+14× the AI credits of Creator
+• 84,000 AI page credits per year
+• 3,600 AI images per year
+• 120,000 AI tutor messages per year
+• 900 minutes of AI video per year
+• 6,000 voice minutes per year
+✓
+Your logo & colours on your portal
+Add your logo and brand colours to your portal and every course. You also get your own domain on Pro + LMS.
+✓
+Export: self-hosted SCORM & LTI
+Self-hosted SCORM: a standalone copy of your course that runs on your own LMS or server with no connection to Coursebox, so it works offline and keeps working even if you cancel. It leaves out features that need a live connection, such as the AI tutor, listen mode, short answer questions, assignment submissions and discussions, and it won't update when you edit the course.
+LTI: launch your live Coursebox course inside any LTI 1.3 LMS, with grades and progress sent back to its gradebook.
+✓
+SCORM import
+Upload a SCORM file made in another tool and embed it on any course page in Coursebox.
+Includes your branded LMS
+✓
+Your own domain — full white label
+Customise your platform URL with your own domain. Must be owned via a registrar like GoDaddy first.
+✓
+Learner & group management
+Invite learners one at a time or in bulk by CSV, organise them into groups, and enrol a whole group in a course at once.
+✓
+Learning pathways
+Group related courses into a guided sequence so learners always know what to take next.
+✓
+Gamification: points & badges
+Award points and badges when learners complete courses, and show a leaderboard of how they rank.
+✓
+Resource library & calendar
+Store and share files like PDFs, slides and videos in folders, and add events like webinars and deadlines to a shared calendar.
+✓
+Advanced reporting & CSV export
+✓
+Announcements & questions
+Enterprise
+
+For organisations with security, scale and compliance requirements.
+
+Custom
+annual agreement
+Talk to us
+✓
+Everything in Pro + LMS
+✓
+AI capacity sized to your rollout
+• 4,200,000 AI page credits per year
+• 15,000 AI images per year
+• 2,000,000 AI tutor messages per year
+• 3,000 minutes of AI video per year
+• 18,000 voice minutes per year
+✓
+SSO
+Log into Coursebox via your existing platform. Enabled as a paid add-on at $3,000 USD/year.
+✓
+Multiple portals
+✓
+API
+Connect Coursebox to your other systems, like a CRM or HR platform, to add users, enrol learners in courses and pull course and learner data automatically.
+✓
+99.9% uptime SLA
+✓
+Choose your hosting region
+Data is hosted in France by default. Custom locations available on Enterprise plans.
+✓
+MSA, DPA & security review
+Security questionnaires, vendor risk assessments, MSAs, DPAs and insurance certificates are handled as part of Enterprise contracting. Self-serve plans are sold under standard published terms with our published security documentation.
+✓
+Dedicated support contact
+Need more admins?
+−
+3
++
+admins on
+Pro
+Pro + LMS
+$417/m $5,000 billed yearly
+Get Pro + LMS with 3 admins
+Compare every feature ↓
+
+Self-serve plans: cancel anytime, no contract, no setup fee. Need a signed contract, an SLA or a security questionnaire? That's Enterprise. How Enterprise works >
+
+Compare Plans
+AI Credits
+AI Features
+Courses
+Branding
+Users
+Communities
+Marketing
+Sell Courses
+Mobile Apps
+Support
+Reporting
+Resources
+Integrations
+Languages
+Hosting
+Free
+$0
+USD
+Start Free
+Creator
+$25/m
+USD
+$300 billed yearly
+Get Started
+Pro
+$83/m
+USD
+$1,000 billed yearly
+Get Started
+Pro + LMS
+$250/m
+USD
+$3,000 billed yearly
+Get Started
+Enterprise
+Book a Demo
+Add-ons
+Standard AI video minutes (monthly) (shared credit pool)
+1 (once)
+5
+75
+75
+250
+Custom AI video minutes (monthly) (shared credit pool)
+Upload any person's photo as your AI video avatar instead of choosing from 500+ standard avatars.
+N/A
+N/A
+12
+12
+40
+N/A
+Standard AI video minutes (yearly) (shared credit pool)
+–
+60
+900
+900
+3,000
+Custom AI video minutes (yearly) (shared credit pool)
+Upload any person's photo as your AI video avatar instead of choosing from 500+ standard avatars.
+N/A
+10
+150
+150
+480
+N/A
+AI page credits (monthly)
+150 (once)
+500
+7,000
+7,000
+350,000
+AI page credits (yearly)
+–
+6,000
+84,000
+84,000
+4,200,000
+N/A
+AI images (monthly)
+2 (once)
+20
+300
+300
+1,250
+N/A
+AI images (yearly)
+–
+240
+3,600
+3,600
+15,000
+N/A
+AI tutor messages (monthly)
+100 (once)
+1,000
+10,000
+10,000
+180,000
+AI tutor messages (yearly)
+–
+12,000
+120,000
+120,000
+2,000,000
+AI text to voice minutes (monthly)
+10 (once)
+50
+500
+500
+1,500
+N/A
+AI text to voice minutes (yearly)
+-
+600
+6,000
+6,000
+18,000
+N/A
+AI Units of Competency (monthly)
+-
+3
+40
+40
+300
+N/A
+AI Units of Competency (yearly)
+-
+36
+480
+480
+3,600
+N/A
+Trusted by Users Worldwide
+
+Darren Lewis
+
+Institute of Economics and Peace
+
+Coursebox has helped a lot to scale our business.
+
+Daniela Endara Montenegro
+
+HR & DEI Culture, Inclusiva LATAM
+
+Darren Oemcke
+
+Marketing Director - Hydra Consulting
+
+What blows me away is that we literally created the first module of that course in under five minutes. It is a game changer.
+
+John Henry
+
+Scott Brown Media Group
+
+Jennifer Harland
+
+University of Adelaide
+
+Coursebox has been going well, I am loving the scenario feature. I added it for the first time to one of our courses last week and the feedback I received from my test group was very positive.
+
+Jaime Pinnock
+
+Director of Regional Operations, Western Alberta Regional Victim Serving Society
+
+The platform is amazing. With competency-based courses, it is very difficult to find something you can customise like this.
+
+Faviola L. Morales
+
+Director of Instructional Design, InterLearn
+
+Coursebox is a thousand times faster at creating courses than using Canvas LMS.
+
+Julie Holliday
+
+HitSA Training & Employment
+
+Sign Up Free
+Frequently Asked Questions
+Is there a free version of Coursebox available?
+
+Coursebox includes a free plan that allows users to start building courses and exploring the core AI features at no cost, with unlimited learners and no credit card required to begin.
+
+Does Coursebox offer an enterprise plan?
+
+Yes. Enterprise is our contract channel, built for universities, government and large organisations. It is sold under a signed agreement with a minimum 2-year initial term, and it is the only plan that includes MSAs, DPAs, SLAs, vendor security assessments, single sign-on and a custom hosting location. Every other plan is self-serve: bought online by card under our standard published terms. To explore Enterprise, book a demo or email support@coursebox.ai.
+
+Are there limits on learners with Coursebox plans?
+
+Coursebox allows unlimited learners on all plans, including the free plan, allowing you to train small teams or large organisations without seat-based fees.
+
+How does Coursebox price AI usage?
+
+Coursebox plans include a set number of AI credits or generated text, images, and videos per month or year, with higher tiers providing larger allowances for heavier usage.
+
+Can I cancel my plan at any time?
+
+Yes, on self-serve plans. You can cancel anytime from your account settings in a couple of clicks, with no lock-in contracts. Cancelling stops future billing and your account stays active, so your courses are not deleted. If you want to try Coursebox risk free first, start on the free plan, no credit card required. Enterprise is different: it is sold under a signed agreement with a minimum 2-year initial term.
+
+Product
+AI Course Creator
+AI Video
+AI Quiz
+AI Tutor
+AI Grading
+White-label LMS
+Integrations
+Resources
+Blog
+Case Studies
+Free AI course
+Demo
+User manual
+What's new
+Company
+About
+Contact
+Privacy
+Terms of use
+Private portal agreement
+
+Build professional online courses with AI. Used by 150,000+ course creators and training companies in 180+ countries.
+
+English
+
+4.7
+
+4.7
+
+Copyright © Coursebox Pty Ltd.

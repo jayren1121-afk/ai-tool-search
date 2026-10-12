@@ -1,0 +1,9 @@
+Sign In
+New to Flowise? Sign up for an account.
+Sign in with Github
+Sign in with Google
+or
+Email Address
+Password
+Forgot Password?
+Sign In

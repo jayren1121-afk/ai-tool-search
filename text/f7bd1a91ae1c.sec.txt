@@ -1,0 +1,141 @@
+Monthly
+Annual
+Save up to 21%
+---
+$
+(USD)
+Free
+---
+$0
+---
+Try all features on a few documents to get familiar with Lara.
+---
+60,000 chars /month
+---
+Select Free
+---
+Voice Interpreter
+Free API up to 10,000 chars /month
+Pro
+Billed annually
+---
+$9.99
+/month
+---
+330 pages included and less than $0.05 per extra page.
+---
+500,000 chars /month
+---
+Extra usage $0.30 / 10,000 chars
+---
+Select Pro
+---
+All Free features, plus:
+Better quality
+Mobile Apps
+Automatically adapt to your style
+Scanned PDF support
+Lots of integrations
+CAT tool and API Usage $24.99 / 1M characters
+Team
+Billed annually
+---
+$29.99
+/month
+---
+You buy a quota and you get free unlimited users to share it.
+---
+1.5M shared chars /month
+---
+Extra usage $0.25 / 10,000 chars
+---
+Select Team
+---
+Even better quality
+Unlimited free users
+Advanced privacy settings
+Centralized billing
+Premium support
+CAT tool and API Usage $19.99 / 1M characters
+Enterprise
+---
+Let's talk
+---
+Check our FAQ for examples by feature. If you're unsure, start free and upgrade when you need more.
+---
+Detailed plans comparison
+Annual billing
+-21%
+Free
+---
+$0
+---
+60,000 chars /month
+Select
+Pro
+---
+$9.99
+/month
+---
+500,000 chars /month
+Select
+Team
+---
+$29.99
+/month
+---
+1.5M chars /month
+Select
+---
+Translation quota
+60,000 chars /month
+500,000 chars /month
+1.5M shared chars /month
+Custom chars quota
+---
+Contextual notes
+Lara Feedback
+Extra Usage
+–
+$0.30 / 10,000 chars
+$0.25 / 10,000 chars
+Custom extra usage pricing
+Security, Team & Admin
+Users included
+---
+API & Integrations
+CAT tool integration
+API access
+10,000 chars /month
+$24.99 / 1M chars
+$19.99 / 1M chars
+Based on volumes
+Enterprise services
+Custom Data Residency
+---
+My team
+How many documents do you translate per month?
+0
+---
+How many characters do you translate per month?
+0
+---
+Your estimated monthly usage
+---
+0 chars / month
+---
+Recommended plan
+---
+Free
+---
+$0
+---
+60,000 chars / month
+---
+Select Free
+Frequently asked questions
+How does the character-based system work?
+What happens if I exceed my monthly limit?
+Do you charge per user?
+How is API usage billed?
+How do I find the right plan for my needs?

@@ -1,0 +1,164 @@
+Product
+Resources
+Solutions
+Templates
+Enterprise
+Pricing
+Try for free
+Login
+Try for free
+Try for free
+Pricing
+
+Looking for enterprise pricing? Email enterprise@chroniclehq.com
+
+Contact Sales
+Contact Sales
+
+Pay annually (save 20%)
+
+Free
+$0
+
+Upgrade to unlock AI features
+
+Up to 10 decks
+Professional grade editing tools
+Basic preset themes
+Publish to web
+Export to PDF & socials
+3 guest editors
+Try for free
+Try for free
+Pro
+$15
+per user / month
+
+Everything in Free, and:
+
+500 tokens per seat / month
+Each AI-powered feature uses a certain number of tokens
+Unlimited decks
+Larger video upload limit
+Remove Chronicle watermark
+Custom themes
+Shared workspace
+Export to PDF and socials
+Up to 10 guest editors
+Get Pro
+Get Pro
+Plus
+Popular
+$30
+per user / month
+
+Everything in Pro, and:
+
+1000 tokens per seat / month
+Muse agent → make edits with AI
+High quality AI image models
+Save + generate from templates
+Export to PowerPoint
+Unlimited guest editors
+Get Plus
+Get Plus
+Max
+$59
+per user / month
+
+Everything in Plus, and
+
+2000 tokens per user / month
+Advanced custom branding
+Custom fonts
+Priority support
+Get Max
+Get Max
+
+Need more capabilities for your business?
+
+Contact us for a demo
+Contact us for a demo
+
+Trusted by 5000+ teams for high‑stakes presentations
+
+What are tokens?
+
+Tokens are how we measure usage of AI features in Chronicle.
+
+Here are how many approximate tokens are needed for different actions in Chronicle:
+
+Remix = ~1 token
+
+Generate presentation = ~10 tokens + 1 token per chapter
+
+Rewrite content = ~1 token
+
+ 
+
+Check out Settings → Billing for the most up to date token count per plan.
+
+Are tokens shared within a workspace?
+
+No, tokens are unique to each user in the workspace.
+
+How can I get more tokens?
+
+The easiest way to get more tokens is by upgrading to a Pro or Plus plan.
+
+Soon, you will be able to purchase additional tokens as add-ons.
+
+Do unused tokens expire?
+
+Unused tokens expire at the end of each month.
+
+Can I change my plan or cancel at any time?
+
+You can cancel or downgrade at any time.
+
+If you downgrade from a paid plan, your content remains yours and you will maintain access to all your created content, but some features may be limited. For instance, when you downgrade from a Plus plan, your collaborators will lose access to the workspace.
+
+Is there a discount on annual billing?
+
+Yes! You can save up to 20% by choosing an annual plan compared to monthly billing.
+
+How do I get charged when adding a member to my workspace?
+
+You can add as many members to your workspace as you’d like on the Plus plan. You will be charged for an additional seat for each member who accepts their invitation.
+
+What AI models does Chronicle use?
+
+We leverage a variety of world-class AI models to provide you with the best possible outputs for content and image creation.
+
+We currently work with models from Anthropic and OpenAI, alongside our own custom-built tools.
+
+We continually evaluate and update our model stack to ensure you’re getting the highest-quality outputs in Chronicle. The models we use may evolve as new models emerge.
+
+Create a presentation you’re proud of
+Try
+Chronicle
+Try
+Chronicle
+
+ChronicleHQ Inc.
+
+Getting Started
+Chronicle API + MCP
+Templates
+Integrations
+Solutions
+Pricing
+PowerPoint Alternatives
+Chronicle vs. Gamma
+Chronicle vs. Prezi
+Enterprise
+Academy
+Chronicle 101
+Trust Center
+Docs
+Privacy Policy
+Terms of Service
+Instagram
+Twitter
+LinkedIn
+YouTube

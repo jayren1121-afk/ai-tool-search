@@ -1,0 +1,92 @@
+Login
+Contact sales
+Try Claude
+---
+API
+Free
+---
+Try Claude
+---
+$0
+---
+Free for everyone
+---
+Claude Code included
+---
+For everyday work
+---
+$17
+---
+Per month with annual subscription discount ($200 billed up front). $20 if billed monthly.
+---
+Try Claude
+---
+Everything in Free, plus:
+---
+Claude Code included
+---
+For people who work with Claude all day
+---
+From $100
+---
+Per month
+---
+Choose 5x or 20x more usage than Pro*
+Higher output limits for all tasks
+Early access to advanced Claude features
+Priority access at high traffic times
+$100 to $200/month in API credits to build on the Claude Platform†
+---
+Usage limits apply. Prices shown don’t include applicable tax. Price and plans are subject to change at Anthropic's discretion.
+---
+Search
+Free
+Try Claude
+---
+Features and capabilities
+Features	Free	Pro	Max 5x	Max 20x
+@Claude
+---
+Security and administration
+Features	Free	Pro	Max 5x	Max 20x
+Single sign-on (SSO) and domain capture
+---
+Payment options
+Features	Free	Pro	Max 5x	Max 20x
+Credit card
+---
+n/a
+Monthly and annual
+Monthly
+Monthly
+Adding seats midterm
+---
+Models and usage
+Features	Free	Pro	Max 5x	Max 20x
+Fable
+---
+No
+Usage credits
+50% of weekly limits*
+---
+varies by model
+Usage credits
+More information
+---
+Yes
+NEW Monthly API credits†
+No
+No
+$100/month
+$200/month
+Priority access at high traffic times
+No
+No
+---
+Claude Code is included in all paid plans. It shares the same usage limits as the rest of your plan, so your work in the terminal and your chats draw from one pool. For heavy coding sessions, you can also switch to pay-as-you-go API credits
+---
+How much does the Claude Enterprise plan cost?
+---
+The Claude Enterprise plan is built for large businesses operating at scale. Pricing is $20 per seat per month plus usage billed at API rates, so cost scales with the models and tasks your team runs. Enterprise is billed annually and includ
+---
+© 2026 Anthropic PBC

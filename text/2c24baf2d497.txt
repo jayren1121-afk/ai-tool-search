@@ -1,0 +1,117 @@
+Vanna AI
+Why Vanna
+Configure
+Docs
+Pricing
+Star
+23.8k
+Simple, transparent pricing
+
+Choose the plan that fits your team.
+
+Most Popular
+Explorer
+
+For small teams of 2-3 people
+
+$50
+per month
+
+Everything you need to get started:
+
+✓
+20 questions/day
+✓
+Admin features included in either Vanna OSS or Vanna Cloud
+✓
+API available
+✓
+Same day email support
+Team
+
+For small companies or large teams
+
+$500
+per month
+
+Everything in Explorer, plus:
+
+✓
+300 questions/day
+✓
+Setup support
+✓
+Same day live support
+Enterprise
+
+For large companies
+
+Custom
+contact sales
+
+Unlimited scale
+
+✓
+Unlimited questions
+✓
+On-prem deployment support
+✓
+SAML SSO
+✓
+Admin API for user provisioning & management
+✓
+Advanced integrations
+✓
+Custom work
+Use Cloud
+Self Host
+Frequently Asked Questions
+What happens if I exceed my daily limits?
+
+Daily throughput limits reset every 24 hours. If you exceed your limit, requests will be rate-limited until the next reset. You can upgrade to a higher tier at any time for immediate access to higher limits.
+
+Can I start with the open source version and upgrade later?
+
+Yes! All tiers use the same core framework. You can start self-hosting with the open source version, then seamlessly upgrade to our managed cloud platform or enterprise deployment without rewriting your code.
+
+How does Enterprise pricing work?
+
+Enterprise pricing is custom based on your deployment needs (on-prem, VPC, or private cloud), desired SLAs, and support requirements. Contact our sales team to discuss your specific requirements.
+
+Do you offer annual discounts?
+
+Yes! Annual subscriptions receive a 20% discount. Contact sales or select annual billing during checkout.
+
+Ready to get started?
+
+Get started with Vanna today. Upgrade anytime as your needs grow.
+
+Use Cloud
+Self Host
+Vanna AI
+
+The fastest way to get accurate answers from your data using AI-powered SQL generation.
+
+🐙
+🐦
+💼
+Products
+Vanna Core
+Vanna Cloud
+Enterprise
+Resources
+Documentation
+Quickstart
+Company
+Contact
+Terms
+Privacy
+Open Source
+Production Ready
+No Vendor Lock-in
+Why We Built This
+
+© 2025 Vanna AI. All rights reserved.
+
+Terms
+Privacy

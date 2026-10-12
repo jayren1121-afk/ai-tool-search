@@ -1,0 +1,347 @@
+Skip to main content
+taskade
+Create
+Connect
+Clone
+Pricing
+Login
+Sign up for free →
+Choose your plan
+
+Build AI apps, agents, and automations in real time.
+
+Monthly
+/
+Yearly
+Save 50%
+Pro
+Popular
+$10
+/mo
+10 users included
+Get Pro
+Everything in Free, plus:
+Taskade AI
+Unlimited AI apps
+Unlimited AI agents
+Unlimited workspaces
+Unlimited AI automations
+Train agents with your data
+Remove Taskade watermark
+View 9 more
+100 GB AI storage
+Background AI agents
+Always-on automations
+Connect 100+ integrations
+Web search and scraping
+Private & public apps
+Frontier models from top AI labs
+Password-protected sharing
+Pay-as-you-go credits
+Business
+Custom domains
+$25
+/mo
+Unlimited users included
+Get Business
+Everything in Pro, plus:
+Taskade AI
+Unlimited AI teams
+Multi-agent workflows
+Custom domains
+Advanced analytics
+White-label branding
+SAML single sign-on
+View 6 more
+API and 100+ integrations
+1 TB AI storage
+Admin controls
+Priority processing
+Admin dashboard
+Priority support
+Max
+High capacity
+$100
+/mo
+Unlimited users and teams
+Get Max
+Everything in Business, plus:
+Taskade AI
+Autonomous agents
+Agentic AI workflows
+Extended thinking modes
+Per-agent model selection
+Always-on agent orchestration
+Enterprise
+Custom SLA
+$250
+/mo
+Unlimited users · custom SLA
+Get Enterprise
+Everything in Max, plus:
+Taskade AI
+SCIM user provisioning
+Bring your own key (BYOK)
+Dedicated onboarding
+Volume credit pricing
+1 TB AI storage
+Free
+$0
+/mo
+Free forever · 2 users included
+Get Started
+Includes:
+Free AI
+Up to 3 apps
+Clone community apps
+Desktop and mobile apps
+Extra Credits
+Add-on
+$5
+/pack
+Stacks on included monthly credits
+Buy credits
+Use it to:
+Build when credits run out
+Fuel AI in apps, agents, flows
+Buy only what you need
+Keep unused credits forever
+Custom Domains
+Add-on
+$5
+/year
+Buy a domain or bring yours free
+Buy a domain
+How it works:
+Bring your own for free
+Or buy one inside Taskade
+Your brand in the address bar
+Included with Business and up
+Loved by teams at...
+Compare all features
+// FEATURE
+Free
+Pro
+POPULAR
+Business
+Max
+Enterprise
+AI Apps
+3
+∞
+∞
+∞
+∞
+Team members
+2
+10
+∞
+∞
+∞
+Workspaces
+1
+∞
+∞
+∞
+∞
+AI Agents
+1
+∞
+∞
+∞
+∞
+AI Teams
+AI Automations
+3
+∞
+∞
+∞
+∞
+AI credits
+Earn or buy
+50K
+150K
+400K
+1.1M
+AI knowledge base
+250 MB
+100 GB
+1 TB
+1 TB
+1 TB
+Frontier models from top AI labs
+100+ integrations
+MCP Integration
+Remove Taskade watermark
+API access
+White-label branding
+Custom domain
+SAML SSO
+Autonomous agents
+Extended thinking
+Bring your own key (BYOK)
+View all features
+Frequently asked questions.
+
+Build apps, run agent teams, and automate workflows
+in one workspace.
+
+Do I need to know how to code?
+What is Taskade Genesis?
+What can I build with Taskade Genesis?
+Why upgrade from Free to Pro?
+Which AI models does Taskade use?
+Does Pro include unlimited apps?
+How do AI credits work?
+How far do my monthly credits go?
+Do my apps keep running if I use all my credits?
+What stops a build from using all my credits at once?
+Which plan includes integrations?
+Which plan is best for teams building internal tools?
+Which plan is best for agencies building client apps?
+Which plan includes custom domains?
+When is Taskade branding removed?
+Can I upgrade later without losing my work?
+Who owns the apps, agents, and content I create?
+Is my data private and secure?
+Who uses Taskade?
+How do I choose the right AI model for my task?
+How do I make sure I never run out of credits?
+Can I earn free credits?
+How can I save on a paid plan?
+Build an app, agent, or workflow from a prompt
+
+Free to start. Browse apps to clone.
+
+Loved by 1M+ users
+Hosting 150,000+ apps
+Deploying 500K+ AI agents
+Running 1M+ automations
+Backed by Y Combinator
+Powered by TSK-1
+TASKADE
+Apps
+TSK-1
+Builder
+Pricing
+Features
+Contact us
+See all
+▾
+LEARN
+Genesis
+Projects
+AI Agents
+Automation
+Connectors
+Video Tutorials
+See all
+▾
+COMMUNITY APPS
+Featured
+Quick Apps
+Tools
+See all
+▾
+DOWNLOADS
+Mobile apps
+Desktop apps
+Android
+See all
+▾
+COMPARE
+vs Cursor
+vs Bolt
+vs Lovable
+See all
+▾
+AI AGENTS
+Featured
+Project Management
+Productivity
+See all
+▾
+AUTOMATIONS
+Featured
+AI Workflows
+Logic
+Automations
+See all
+▾
+PROMPTS
+Client Portals
+Document Intake
+Field Service
+See all
+▾
+TEMPLATES
+Featured
+ChatGPT
+Table
+See all
+▾
+GENERATORS
+AI Software
+No-Code AI App
+AI App
+See all
+▾
+TASKADE AI
+Video Guide
+AI App Builder
+Vibe Coding
+See all
+▾
+CONVERTERS
+AI
+Featured
+Converters
+AI
+PDF
+Converters
+AI
+CSV
+Converters
+See all
+▾
+WIKI
+Taskade Genesis
+AI
+Agent Examples
+Living DNA
+See all
+▾
+DOCS
+Getting Started
+REST API
+Action API
+See all
+▾
+BLOG
+Introducing Taskade TSK-1: The System Kernel Behind Every App (2026)
+Best Writing Prompt Generators 2026: 14 Tools Sorted by Type
+History of Shopify: From a Snowboard Shop to Agentic Commerce, and How Tobi Lütke Runs It (2026)
+See all
+▾
+CHANGELOG
+Builds That Keep Going & App Kit Remix (Oct 9, 2026)
+Copy Shared Projects After Sign-Up (Oct 8, 2026)
+Pick Your App's Address & Edit Code in Your App (Oct 8, 2026)
+See all
+▾
+INTEGRATIONS
+Slack
+Automation
+Gmail
+Automation
+Google Sheets
+Automation
+See all
+▾
+© 2026 TASKCADE INC.
+Privacy
+Terms
+Security
+Made with
+for
+Makers

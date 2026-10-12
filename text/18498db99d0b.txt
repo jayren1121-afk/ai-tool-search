@@ -1,0 +1,214 @@
+Product
+Use Cases
+Tools
+Community
+Pricing
+Log in
+Get Started
+PRICING
+Plans for every kind of creator
+
+Free to start. Upgrade and enjoy unlimited generations. Cancel anytime.
+
+Monthly
+Annual
+save 20%
+Guest
+
+Preview before you buy
+
+$0
+/mo, billed yearly
+
+Preview before you buy:
+
+1 AI 3D generation per day
+Download community models
+Unlimited template customization in-browser
+Standard export formats (GLB, OBJ)
+Personal-use license
+Preview generation
+Most popular
+Sloyd Plus
+2 months free
+
+Unlimited generations
+
+$15/mo
+$12.50
+/mo, billed yearly
+
+Billed yearly — $150 today
+
+Unlimited Generations:
+
+Text and image to 3D
+AI rigging and animation
+Image creation, editing, and apps
+AI retexturing and 4K texture editing
+Skybox generation
+
+50 Monthly Credits:
+
+Video and text to motion
+Multi-image to 3D
+Split to parts
+Image to Scene
+Ultra generations, 500K poly
+2 Parallel Generations
+1 Custom Art Style
+Plugin access (Unity, Unreal, Blender)
+Commercial Use
+Upgrade to Plus
+Sloyd Pro
+2 months free
+
+Highest priority, best value at high scales
+
+$50/mo
+$41.67
+/mo, billed yearly
+
+Billed yearly — $500 today
+
+Unlimited Generations:
+
+Text and image to 3D
+AI rigging and animation
+Image creation, editing, and apps
+AI retexturing and 4K texture editing
+Skybox generation
+
+350 Monthly Credits:
+
+Video and text to motion
+Multi-image to 3D
+Split to parts
+Image to Scene
+Ultra generations, 500K poly
+5 Parallel Generations
+Unlimited Custom Art Styles
+Plugin access (Unity, Unreal, Blender)
+Commercial Use & Reselling
+Priority Queue
+Priority support
+Go Pro
+Show all plan features
+
+Compare generators, exports, plugin access, support, and licensing across Sloyd plans.
+
+AI generation
+	Guest	Plus	Pro
+Text to 3D	1 daily	Unlimited	Unlimited
+Image to 3D	1 daily	Unlimited	Unlimited
+AI skybox	—	Unlimited	Unlimited
+AI texturing	—	Unlimited	Unlimited
+4K textures	—	✓	✓
+AI animation and rigging	—	Unlimited	Unlimited
+AI image creation	—	Unlimited	Unlimited
+AI image edit	—	Unlimited	Unlimited
+AI image Apps	—	Unlimited	Unlimited
+Custom AI styles	—	1	Unlimited
+Monthly AI credits	—	50	350
+AI split to parts	—	20 credits	20 credits
+Image to Scene	—	30 credits	30 credits
+Text to animation	—	30 credits	30 credits
+Video to animation	—	30 credits	30 credits
+Multi-image to 3D	—	20 credits	20 credits
+Ultra high generations (500K tris)	—	5 credits	5 credits
+Workflow and exports
+	Guest	Plus	Pro
+Scene Editor	✓	✓	✓
+Template editor	✓	✓	✓
+Use all templates	✓	✓	✓
+Image exports	✓	✓	✓
+Exports	Community models only	Unlimited	Unlimited
+Plugin access	—	Game engines, 3D tools, print slicers	Game engines, 3D tools, print slicers
+Licensing
+	Guest	Plus	Pro
+Commercial use	Personal-use license	Included	Included
+Redistribution and marketplace reselling	Not allowed	Not allowed	Allowed
+AI training with models	Not allowed	Not allowed	Contact us
+Frequently Asked Questions
+Is it really unlimited?
+▾
+Is there really a free plan?
+▾
+What's the difference between Plus and Pro?
+▾
+Can I switch or cancel anytime?
+▾
+What happens if I cancel my subscription?
+▾
+Does this include API access?
+▾
+Do paid plans include a commercial license?
+▾
+What game engines do you support?
+▾
+How can I get support?
+▾
+What payment methods do you accept?
+▾
+Start creating in under a minute
+Try Sloyd free
+
+Unlimited AI 3D creation from text and images. Game-ready assets in seconds.
+
+Product
+Text-to-3D
+Image-to-3D
+Text-to-Image
+AI Image Editing
+Animations
+AI Image Apps
+Skybox AI
+API
+Plugins
+Pricing
+Tools
+File Converter
+3D Model Viewer
+3D Logos
+Roblox Avatars
+Human Generator
+Face Swap
+Spritesheet Generator
+Templates
+Use Cases
+Game Development
+3D Printing
+Roblox
+E-Commerce
+Film Production
+Interior Design
+Resources
+Blog
+3D Glossary
+Free 3D Models
+Documentation
+Discord
+Affiliate
+Company
+About
+Contact
+Terms of Use
+Privacy Policy
+Ask an AI about Sloyd
+ChatGPT
+Claude
+Copilot
+Google AI Mode
+Grok
+Perplexity
+Language
+English
+Español
+Português
+Deutsch
+日本語
+Français
+한국어
+Italiano
+© 2026 Sloyd. All rights reserved.
+Made for creators.

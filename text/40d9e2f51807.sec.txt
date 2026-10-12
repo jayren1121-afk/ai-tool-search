@@ -1,0 +1,74 @@
+All plans include unlimited users & workflows and every integration.
+Pricing based on monthly workflow executions, regardless of complexity.
+---
+Monthly
+---
+Annually (Save 17%)
+---
+Starter
+---
+Build and run your first workflows and agents.
+---
+$20
+/mo, billed annually
+---
+2.5k
+---
+with unlimited steps
+Start free trial
+No credit card required
+---
+Agents, MCP and AI nodes
+1,600 Assistant credits/month
+AI models without API keys
+---
+Pro
+---
+For solo builders and small teams running automations in production.
+---
+$50
+/mo, billed annually
+---
+10k
+---
+with unlimited steps
+Start free trial
+No credit card required
+---
+7 days of insights
+Up to 9,600 Assistant credits/month
+Admin roles
+---
+Business
+---
+For companies with < 100 employees needing collaboration and scale.
+---
+$800
+/mo, billed annually
+---
+40k
+---
+with unlimited steps
+Start free trial
+Self-hosted only
+---
+Contact Sales
+Custom number of workflow executions
+Contact sales
+Hosted by n8n
+---
+On request
+Assistant credits (preview)
+1,600/month
+Up to 9,600/month
+N/A
+---
+Hosted and embedded chat
+Gateway credits
+Test and monitor AI
+---
+Sales assisted procurement
+What’s included in the n8n free trial?
+What are executions (and why are they more powerful than on other products)?
+How do Assistant credits work?
+How can I assess how many production executions I need?

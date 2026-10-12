@@ -1,0 +1,130 @@
+TRY IT FOR FREE
+HUB
+---
+DESKTOP
+TRY FREE
+Choose a plan
+---
+MONTHLY
+YEARLY (UP TO 20% OFF)
+---
+Start Comfy Cloud for free. Upgrade when ready.
+---
+5 free runs on real GPUs — no credit card required.
+---
+TRY FREE
+STANDARD
+$16
+$20
+/month
+---
+$192 billed yearly
+---
+What's included:
+---
+Included:
+Add more credits anytime
+50,400 credits per year
+---
+SUBSCRIBE TO STANDARD
+CREATOR
+MOST POPULAR
+$28
+$35
+/month
+---
+$336 billed yearly
+---
+Everything in Standard, plus:
+---
+Import your own models
+88,800 credits per year
+---
+Generates ~8,040 5s videos*
+---
+SUBSCRIBE TO CREATOR
+PRO
+$80
+$100
+/month
+---
+$960 billed yearly
+---
+Everything in Creator, plus:
+---
+Longer workflow runtime (up to 1 hr)
+253,200 credits per year
+---
+TEAM
+---
+Built for teams collaborating on workflows together.
+---
+$630
+$700
+/month
+Save 10% ($70)
+---
+$7,560 billed yearly
+---
+42.2K
+84.4K
+---
+527.5K
+1,772,400 credits per year
+---
+All plans will include a monthly pool of credits that are spent on active workflow runtime and Partner Nodes like Nano Banana Pro.
+---
+Add more credits anytime
+---
+Purchase additional credits at any time. Unused top-ups roll over to the next month automatically for up to 1 year.
+---
+Learn More
+---
+GPU	VRAM	PRICE	COMFY CREDITS
+RTX PRO 6000	96 GB	$4.54/hr
+957.94/hr
+---
+H100 SXM	80 GB	$6.23/hr
+1314.53/hr
+---
+H200 SXM	141 GB	$7.71/hr
+1626.81/hr
+---
+B200	180 GB	$11.23/hr
+2369.53/hr
+---
+Billed by the GPU second
+---
+STORAGE	PRICE	COMFY CREDITS
+---
+Network Storage
+---
+$0.20/GB/mo
+42.20/GB/mo
+---
+Models live on persistent network storage shared across a deployment's workers. For example: 20 GB of models = $4.00/mo + GPU time.
+---
+LIMIT	STANDARD	CREATOR	PRO	TEAM
+Total releases limit	5	5	10	40
+---
+For running MiniMax models locally. Comfy Cloud already includes commercial use. Enterprise on an annual agreement, priced to your volume. Video, audio, and music under one license.
+---
+PROFESSIONAL	ENTERPRISE
+Price	From $5,000 / month	Contact sales
+Video-seconds included	~46,250	Custom
+Price per video-second (in bundle)	$0.108	Contact sales
+Overage per video-second	$0.036	Contact sales
+Licensed users	Up to 10	No cap
+Domains	1	Custom
+Commercial use of outputs	Yes, full commercial rights	Yes, full commercial rights
+---
+Model versions	Distilled open-weight versions	Open weights, including all updates as released.
+Term	Monthly	12-month minimum
+---
+What's a credit worth? How far does it go?
+What happens when I run out of credits?
+Do unused credits roll over?
+What's the difference between Standard, Creator, and Pro?
+How does the Team Plan work?
+Can I control how my team spends credits?
+Is Team pricing per-seat? Can I add a freelancer just for a project?

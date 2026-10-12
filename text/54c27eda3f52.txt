@@ -1,0 +1,289 @@
+LTX 2.5 IS HERE・SEE WHAT'S CHANGED 
+Studio
+Studio
+Solutions
+Models
+Resources
+Company
+Pricing
+Login
+BOOK A DEMO
+Pick your plan
+
+Whether you’re a professional creator, marketer or filmmaker, we have a plan that matches your creative needs.
+
+OUR NEW MODEL LTX-2.5 IS NOW AVAILABLE ON ALL PLANS
+Enterprise Plans
+Yearly (20% off)
+Monthly
+Free
+$0
+Forever
+No billing
+800 CREDITS (ONE TIME)
+Start for free
+Image and video generation
+LTX-2.5 video model
+LTX-2.3 video model
+Z-image image model
+Advanced camera controls
+Blank Storyboards
+Audio-to-Video generation
+SDR to HDR video enhancement
+Flows, node-based automation
+Video-to-Video Control
+Personal use license
+Lite
+$15
+$12
+/month
+Billed yearly $144
+8,000 CREDITS/MONTH
+Subscribe
+Everything in Free, plus...
+Image and video upscales
+Editing tools
+No watermarking
+Standard
+POPULAR
+$35
+$28
+/month
+Billed yearly $336
+28,000 CREDITS/MONTH
+Subscribe
+Everything in Lite, plus...
+Nano Banana 2 and Pro image models
+FLUX.2 Pro image model
+Kling 2.6 Pro video model
+
+Kling 3.0 Pro video model
+
+Seedance 2.0 video generation models
+
+ChatGPT Images 2.0 model
+
+Save and create consistent Elements
+Flows, advanced node-based automation
+AI Storyboards
+Pitch Decks
+Purchase additional Credits
+Commercial use license
+Pro
+$125
+$100
+/month
+Billed yearly $1,200
+110,000 CREDITS/MONTH
+Subscribe
+Everything in Standard, plus...
+Veo 3.1, Veo 3.1 Fast, Veo 3.1 Lite generation models
+
+Maximum quality & control
+
+3 collaborators per project
+On-demand credit top-ups
+Enterprise
+
+Tailor a plan to your organization’s needs - unlimited access to all features, privacy and onboarding services, and additional benefits.
+
+CUSTOM CREDIT VOLUME
+Talk to Sales
+Everything in Pro, plus...
+Custom LTX-2.3 model training
+Centralized brand management and controls
+Org-wide credit allocation and usage reports
+Multi-language video versioning
+Access to AI creative strategists
+Unlimited collaborators across teams
+SSO login
+Org-wide onboarding and training with a dedicated Account Manager
+SLA support & priority support
+Security & compliance (SOC2, ISO, GDPR)
+
+Centralized billing & flexible payments (ACH, wire)
+
+Enhanced data privacy
+
+* We reserve the right to update, modify, or replace the available models from time to time, and do not guarantee the continued availability of any specific model.
+
+Compare plans
+
+Yearly
+
+Monthly
+
+Free
+$0
+Forever
+No billing
+800 CREDITS (ONE TIME)
+Start for free
+Lite
+$12
+/month
+Billed yearly $144
+8,000 CREDITS/MONTH
+Subscribe
+Standard
+$28
+/month
+Billed yearly $336
+28,000 CREDITS/MONTH
+Subscribe
+Pro
+$100
+/month
+Billed yearly $1,200
+110,000 CREDITS/MONTH
+Subscribe
+Enterprise
+Custom billing
+Billed yearly
+CUSTOM CREDIT VOLUME
+Talk to Sales
+Features
+Image & Video generation
+Advanced camera controls
+Image and video upscales
+Create & save Elements
+AI Storyboards
+Audio-to-Video generation
+SDR to HDR video enhancement
+Video-to-Video Control
+Flows, node-based automation
+Advanced
+Advanced
+Project collaboration
+3 collaborators per project
+Unlimited collaborators
+Pitch decks
+Editing packages
+Editing space
+Dubbing
+Captions
+Brand Kit
+Organization Management
+Models
+LTX-2.5 Pro video model
+LTX-2.5 Fast video model
+LTX-2.3 Pro video model
+LTX-2.3 Fast video model
+Nano Banana Pro image model
+Nano Banana 2 image model
+Z-Image model
+FLUX.2 Pro image model
+Veo 3.1 video generation model
+Veo 3.1 Fast video model
+Veo 3.1 Lite video model
+Kling 2.6 Pro video generation model
+Kling 3.0 Pro video generation model
+Seedance 2.0 video generation models
+ChatGPT Images 2.0 model
+Custom model options
+Credits
+Credits
+800 credits (one time)
+8,000 credits per month
+28,000 credits per month
+110,000 credits per month
+Custom credit volumes
+Purchase additional credits
+Data & Licensing
+Personal use license
+Commercial use license
+Enhanced data privacy
+Compliance (SOC2, ISO, GDPR)
+Custom legal terms
+FAQs
+What are Credits?
+
+Credits are the resources you use when generating videos and images. Different actions you perform on LTX Studio - such as rendering videos, changing character appearance, or creating new shots - consume different amounts of credits. We measure your usage with credits to ensure you make the most out of your plan and are billed for the actual resources you use.
+
+How do I track my credit usage?
+
+Your current credit balance is shown at the top of the app and updates in real time after each action.
+
+Can I switch subscription plans?
+
+Yes! You can switch between subscription plans at any time to suit your changing creative needs. Simply go to the 'Pricing' tab in your Account Settings, where you can view all available plans. Click 'Subscribe' on your new preferred plan or use the 'Change Plan' button in the 'Manage account' tab.
+
+Upgrading your plan: When you upgrade, the change will take effect immediately, and you will be offered a prorated price based on the remaining time in your current cycle.
+
+Downgrading your plan: Downgrades will only take effect at the end of your current billing cycle.
+
+How do I cancel my subscription?
+
+You can cancel your subscription easily from the "Manage account" tab in your Account Settings. There, you will find a "Cancel Plan" button within the "Your Plan" section. When you choose to cancel, your subscription will remain active until the end of your current billing period. This way, you can continue creating until the last day of your subscription. For more information, please visit our refund policy.
+
+What is your refund policy?
+
+You can request a refund by contacting us at here. Refunds are typically granted for requests made within 14 days of payment, provided that usage does not exceed 1200 credits. We are committed to user satisfaction and strive to ensure that if our platform doesn't meet your expectations early on, you can get your money back. For more information, please visit our refund policy.
+
+What is included under 'Personal Use'?
+
+"Personal Use" refers to using LTX Studio for creating content that you can post on your personal social media profiles and personal websites. It does not include any promotional activities for businesses, services, or products, nor does it cover content that is sponsored or created in partnership with third parties. Your usage should be strictly non-commercial and not affiliated with any business-oriented objectives. If you're unsure whether your intended use qualifies, feel free to contact our support team for clarification.
+
+What is included under 'Commercial Use'?
+
+"Commercial Use" for LTX Studio subscribers allows businesses, marketers, and professional creators to leverage the platform’s capabilities for commercial purposes. This includes the creation and distribution of content that promotes a business, product, or service across various media channels. Commercial use also covers sponsored content, content created in partnership with third parties, and any use where you are paid or compensated for the content produced using LTX Studio.
+
+What is included under 'Enhanced data privacy'?
+
+The user's input and output won’t be used to train our model.
+
+Why do I now see "credits" instead of "computing seconds" in the platform?
+
+We renamed computing seconds to credits to better reflect how generation works and make the experience more intuitive. It's the same balance—just a clearer name.
+
+START LTX NOW 
+Don’t miss what’s next.
+Join our community of creative professionals.
+Solutions
+TV & Media Networks
+Advertising Agencies
+Brand Studios
+Resources
+Blog
+Academy
+AI Video Examples
+Glossary
+LTX vs. Alternatives
+By Use Case
+AI Storyboard Generator
+Music Video Maker
+AI Trailer Maker
+AI Image to Video
+AI Movie Maker
+AI Ad Generator
+AI Text to Video
+Cartoon Video Maker
+AI Promo Maker
+AI Script to Video
+AI Animation Generator
+See All
+Partnership & Awards
+
+Lightricks is a pioneer in innovative technology that bridges the gap between imagination and creation. As an AI-first company, we aim to enable content creators and brands to produce engaging, top-performing content.
+
+Company
+About Lightricks
+Contact Support
+Book a Demo
+FAQs
+Newsroom
+User Reviews
+Ambassadors
+Our Products
+LTX
+LTX API
+LTX Desktop
+Privacy Policy
+Terms of Use
+Cookie Preferences
+CCPA Privacy Notice
+Trust Center
+Accessibility
+© 2026 All rights reserved
+We use cookies to enhance your experience, analyze site usage and performance, provide social media features and personalize content and ads. You can opt out at any time by clicking Cookies Settings
+OK

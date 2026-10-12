@@ -1,0 +1,289 @@
+Cookie Settings
+
+Our website uses some cookies and records your IP address for the purposes of accessibility, security, and managing your access to the telecommunication network. You can disable data collection and cookies by changing your browser settings, but it may affect how this website functions. Learn more
+
+With your consent, JetBrains may also use cookies and your IP address to collect individual statistics and provide you with personalized offers and ads subject to the Privacy Notice and the Terms of Use. JetBrains may use third-party services for this purpose. You can adjust or withdraw your consent at any time by visiting the Opt-Out.
+
+Accept All
+Manage Settings
+Products
+For Business
+Education
+Solutions
+Support
+Pricing
+AI in IDEs
+What’s new
+FAQ
+Pricing
+JetBrains AI Plans & Pricing
+Yearly billing
+save 2 months
+Monthly billing
+AI Free
+
+Ideal if you want IDE-native code completion alongside your own models or agents.
+
+3 AI Credits per 30 days
+Free
+Get Started
+Don’t have a JetBrains IDE? Choose your IDE
+30 days of AI Pro included
+AI Pro
+Individuals
+Organizations
+
+Designed for regular AI-enhanced IDE workflows, with enough credits for occasional agent use.
+
+10 AI Credits per 30 days
+Anytime top-ups
+$100.00
+/per user, per year
+Buy
+AI Ultimate
+Individuals
+Organizations
+
+Best suited for frequent coding agent use.
+
+35 AI Credits per 30 days
+Anytime top-ups
+$300.00
+/per user, per year
+Buy
+AI Enterprise
+
+The maximum number of credits, enterprise security, and custom AI integrations.
+
+$720.00
+/per user, per year
+Request a demo
+
+Learn more
+
+Part of IDE Services
+All Products Pack
+Individuals
+Organizations
+
+Unlock the full power of JetBrains IDEs and .NET tools, supercharged with JetBrains AI Pro.
+
+10 IDEs, Air, and extra .NET tools
+10 AI Credits per 30 days
+Anytime top-ups
+$299.00
+first year
+
+second year
+
+$239.00
+
+third year onwards
+
+$179.00
+
+Buy
+
+Learn more
+
+Best value
+dotUltimate
+Individuals
+Organizations
+
+Complete developer toolkit to cover all your needs for .NET and game development, supercharged with JetBrains AI Pro.
+
+Rider, ReSharper and 4 extra .NET tools
+10 AI Credits per 30 days
+Anytime top-ups
+$219.00
+first year
+
+second year
+
+$175.00
+
+third year onwards
+
+$131.00
+
+Buy
+
+Learn more
+
+Taxes may still be added. The tax rate depends on your country tax rules, entered tax identification number (e.g. VAT ID), and selected purchase method.
+
+Prices shown are approximate. Your final price is displayed at checkout.
+
+Running low on your monthly quota?
+
+Top up AI Credits in any amount to continue using AI features without interruption.
+
+Top Up AI Credits
+1 AI Credit is worth USD 1.00 (charged in your local currency).
+AI Credits are valid for 12 months from their purchase date.
+Features
+	AI Free	AI Pro	AI Ultimate	AI Enterprise
+
+Code completion
+				
+
+Next Edit Suggestions
+				
+
+AI chat
+				
+
+AI workflows
+inline docs, commit messages, rename refactoring, and more
+
+
+Junie, the coding agent by JetBrains
+available in IntelliJ IDEA Ultimate, PyCharm with a PyCharm Pro subscription, WebStorm, GoLand, PhpStorm, Rider, RubyMine, and RustRover
+				
+
+Claude Agent
+				
+
+Codex
+				
+AI models
+You can connect your own API keys from supported AI providers or use your preferred AI agent via ACP – with no JetBrains AI subscription required.
+	AI Free	AI Pro	AI Ultimate	AI Enterprise
+
+Third-party cloud AI models via JetBrains AI
+OpenAI, Anthropic, Google, and xAI
+				
+
+Bring your own key (BYOK)
+OpenAI and Anthropic
+				
+
+Local AI models
+via OpenAI-compatible APIs, including Ollama and LM Studio
+				
+
+On-premises LLMs
+via Hugging Face or OpenAI-compatible APIs
+				
+
+AI provider keys (BYOK) for the entire organization
+OpenAI Platform, Azure OpenAI, Amazon Bedrock, and Google Vertex AI
+				
+Availability in editors and IDEs
+A free 30-day trial of the AI Pro plan is available across all supported products.
+	AI Free	AI Pro	AI Ultimate	AI Enterprise
+
+JetBrains IDEs
+				
+
+ReSharper
+				
+
+Android Studio
+				
+Security and administration
+	AI Free	AI Pro	AI Ultimate	AI Enterprise
+
+Data excluded from training
+				
+
+Zero data retention
+
+
+Content exclusion with .aiignore
+
+
+Enable/disable AI for organization
+
+
+On-premises, cloud, and hybrid deployment
+				
+
+Advanced user and group access management
+SSO, SCIM
+
+
+AI audit logs
+For details about the AI subscription plans, visit our FAQ
+Learn more
+We’re always ready to help!
+Do you have any questions about our products, pricing, licensing models, or how best to address your developers’ needs? We’d love to help!
+Contact us
+AI
+JetBrains AI
+AI Assistant
+Junie
+AI in IDEs
+AI Enterprise
+AI News
+Developer Tools
+All Products
+IDEs
+.NET and Visual Studio
+Team Tools
+Plugin Marketplace
+Toolbox App
+Solutions
+Business
+Data
+IDE Services
+Remote Development
+Game Development
+DevOps
+Initiatives
+Kotlin
+Open Source
+JetBrains Research
+JetBrains Mono
+MPS
+Education
+Students
+Teachers
+Teams
+Course Catalog
+University Programs
+Store
+Plans and Pricing
+All Products Pack
+dotUltimate
+Partners and Resellers
+Customers and Awards
+Support
+Technical Support
+Contact Sales
+Documentation
+JetBrains Account
+Resources
+Blog
+Early Access
+Events and Livestreams
+Newsletters
+Industry Reports
+Inspectopedia
+Desktop Art
+AI Agents Hub
+Community
+Developer Communities
+Open-Source Partnerships
+Developer Recognition
+Content Creators
+Course Creators
+Company
+About
+Contacts
+Careers
+Brand Assets
+Merchandise
+Trust Center
+United States
+English
+Privacy and Security
+Privacy Notice
+Terms of Use
+Attributions
+Legal
+Genuine Tools
+Opt-Out
+Copyright © 2000-2026 JetBrains s.r.o.
+Developed with drive and IntelliJ IDEA

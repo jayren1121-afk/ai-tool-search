@@ -1,0 +1,248 @@
+Platform
+Use cases
+Pricing
+Resources
+Login
+Try for free
+Book Demo
+Supercharge your content and data workflow with Hypotenuse AI
+Ecommerce
+Product descriptions, bulk workflows, digital shelves and more
+Basic
+For ecommerce sites with smaller catalogs and fewer than 100 products.
+Custom
+‍
+
+
+Try for free
+
+1 seat
+
+40+ languages
+
+Access to product description generator
+
+Access to 20+ other ecommerce content types (meta title and descriptions, category pages, blog articles and more)
+
+
+Contact us for more seats or words
+
+
+Ecommerce Enterprise
+For large teams with complex workflows, scale, and compliance requirements.
+Custom
+  
+Request for demo
+
+Everything in Ecommerce Pro
+
+Custom seats
+
+Product attribute enrichment
+
+
+Product tagging and categorization
+
+
+Product information and taxonomy management
+
+
+Bulk AI image editor
+
+
+Bespoke AI models
+
+
+AI checker for channel and brand guidelines
+
+
+Custom PIM/ERP integrations
+
+
+Team access controls
+
+
+Dedicated account manager and onboarding
+
+
+Trusted by leading global brands and Fortune 500 ecommerce teams
+Compare all features
+Basic
+
+Custom
+Ecommerce Enterprise
+
+Custom
+General
+User seats
+1
+Custom
+Team access control
+40+ languages
+AI models
+Knowledge
+AI references your company knowledge in your content.
+Bespoke brand voice
+AI trained to generate content following your brand guidelines.
+Product content
+SEO and GEO optimization
+Discover relevant keywords and optimize product content for search engines and AI-driven discovery.
+Product attribution enrichment
+Fill in missing product details with AI enrichment from image, webpage scraping, UPC, or factsheets.
+
+Product tagging and categorization
+Apply accurate tags and classify products using your custom taxonomy.
+Taxonomy management
+Standardize categories and attributes across complex catalogs.
+Product information management
+Manage product data, content, and images in a centralized source of truth.
+Custom formatting
+Customize word count, structure, and style for multiple brands and retailers.
+AI guideline checker
+Validate content against brand, legal, and channel guidelines before publishing.
+AI image editing
+Replace backgrounds, upscale, crop, and generate in-context product images at scale.
+Bulk workflows
+Access to bulk tools
+Bulk generate product descriptions, meta titles and descriptions, Instagram captions, and more.
+Bulk import via CSV and XLSX
+Import and export in CSV and XLSX formats.
+
+Import using our format
+Import in your own format
+Site integrations
+Publish directly to your website or sales channel.
+
+Custom
+PIM integration
+Custom integration with a PIM you use.
+
+Analytics
+SEO monitoring
+Track how your PDP is performing across Google, Amazon, Walmart, and other retailers
+
+Digital asset management
+Manage your teams' assets in one central place.
+
+Custom review workflows
+Workflows tailored to how your team works.
+
+Custom
+Content toolbox
+HypoChat
+AI chat with real-time web research.
+
+Limited
+Unlimited*
+Document uploads
+Upload PDF/DOC to HypoChat as a reference.
+
+30 docs
+Custom
+HypoArt
+Text-to-image generator.
+
+1,000 images on premium algorithm
+Custom
+Blog article
+Access to SEO-optimized blog articles.
+
+Social media and ads content
+Access to Facebook captions, Instagram captions, Google ads.
+
+General writing
+Summarizer, rewriting, ask AI anything.
+
+Website content
+Access to headlines, category page, landing page, meta title and descriptions.
+
+Custom content type
+
+Support
+Support channels
+Email and live chat
+Dedicated account manager
+Onboarding and training
+Help guides and tutorials
+Dedicated onboarding session
+Privacy and security
+Own the content you create
+
+Data is securely stored
+
+Data does not train the AI model
+
+SOC 2 compliant security and privacy
+
+A lot of tools promise to boost productivity, but Hypotenuse AI has literally tripled our team's output, and with better quality! We were onboarding hundreds of products a week with little to no usable information. Hypotenuse turned this into a scalable workflow where every PDP goes live with complete, accurate, and AEO/SEO‑ready content that drives stronger conversion performance.
+Elaine Ngo
+Head of Ecommerce, Crunchyroll
+Frequently Asked Questions
+What languages does Hypotenuse AI support?
+
+Arabic, Bulgarian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English (Canadian), English (UK), English (US), Estonian, Finnish, French, French (Canadian), German, Greek, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Malay, Myanmar (Burmese), Norwegian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Slovak, Slovenian, Spanish, Spanish (Latin America), Swedish, Tagalog (Filipino), Tamil, Thai, Turkish, Ukrainian, Vietnamese, and more.
+
+How does Hypotenuse AI fit into my current workflow?
+
+Hypotenuse AI is designed to fit naturally into existing ecommerce workflows, without adding unnecessary complexity.
+
+Teams connect Hypotenuse AI to their PIM, ERP, or ecommerce systems to enrich product data, generate and validate content, and prepare images in one shared workspace. Product information flows in, AI-powered enrichment and content generation happen in parallel, and approved outputs move back to downstream systems or channels.
+
+For teams without a PIM or DAM, Hypotenuse AI serves as the primary system for managing product content, attributes, and images, providing a centralized workspace to prepare and govern product information before distribution.
+
+How many SKUs can Hypotenuse AI handle?
+
+There’s no fixed cap. We work with enterprise retailers and distributors managing anywhere from a few thousand to millions of SKUs. Our AI agents specialize in managing large catalogs with bulk workflows built in to scale with your catalog, so you can enrich, tag, and generate content in bulk without hitting bottlenecks.
+
+What's the difference between the Hypotenuse Basic AI model and a Bespoke AI model?
+
+The Basic model applies general ecommerce best practices. A Bespoke model is configured for your catalog, including your taxonomy, attribute rules, brand voice and channel requirements, so both content and product data follow your guidelines.
+
+Book a demo to see how a Bespoke model is set up.
+
+How does Hypotenuse AI handle data security and compliance?
+
+Your data remains your own and is used only to power your workflows in Hypotenuse AI. It is never shared with third parties or used to train public AI models.
+
+Hypotenuse AI is SOC 2 Type II compliant, with controls covering security, availability, and confidentiality. All data is encrypted in transit and at rest, with role-based access controls and enterprise-grade security practices. We support security reviews and compliance questionnaires as part of procurement.
+
+How is enterprise pricing scoped?
+
+Pricing depends on your catalog size, languages, channels and integrations. Book a demo and we’ll scope a plan with your team.
+
+Ready to harness the power of generative AI for your team?
+Join 500,000+ ecommerce brands & marketers on Hypotenuse AI.
+
+Book demo
+Backed by
+Company
+Pricing
+Integrations
+Contact us
+Careers
+Product content
+Category description generator
+Image editor
+Product description generator
+Meta title generator
+Meta description generator
+Product image description generator
+Features
+AI product tagging
+AI attribute mapping
+AI bulk translate
+AI brand voice
+Bulk content generation
+Product data enrichment
+Product categorization
+SEO & GEO
+AI PIM Solution
+Resources
+Tools
+Blog
+Customer stories
+Help center
+© 2026 Hypotenuse AI. All rights reserved.
+Accessibility
+Privacy policy
+Terms of service

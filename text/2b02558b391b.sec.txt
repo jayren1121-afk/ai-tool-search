@@ -1,0 +1,60 @@
+Resources
+Contact Sales
+Get started
+---
+2K
+4K
+DESCRIPTION
+FLUX 3 Image
+$0.041/img
+$0.048/img
+$0.07/img
+$0.10/img
+$0.607/img
+Text to image and image to image
+*
+Pricing is per image generated. Charges are based on the resolution tier selected in the request, regardless of the resolution at which the image is processed internally, and apply equally to text-to-image and image-to-image generations.
+---
+4K
+Number of Images*
+Price Calculation
+Rate:
+$0.048 / image
+Images:
+1
+Total Price:
+$0.048
+ENTERPRISE
+Building at scale?
+---
+Custom pricing, volume discounts, SLA guarantees, and dedicated support for high-throughput workloads.
+---
+Contact Sales
+View Enterprise
+---
+FLUX.2 [klein] models
+10K images / month
+1 domain
+---
+FLUX.2 [klein] 9B + FLUX.2 [dev]
+100K images / month
+1 domain
+---
+FLUX.2 [dev]
+100K images / month
+Up to 3 domains
+---
+Fine-tuning & LoRA rights
+Contact Sales
+Enterprise
+---
+API + Weights combo pricing
+Contact Sales
+Synthetic Data
+---
+Fine-tuning & LoRA rights
+Contact Sales
+What hasn’t been can now be.
+---
+LEARN MORE
+CONTACT SALES

@@ -1,0 +1,79 @@
+RESOURCES
+SIGN IN
+DOWNLOADS
+Pricing
+Get $20 credited toward your subscription when you first upgrade to a paid plan using social login or AWS Builder ID.
+KIRO FREE
+$0
+per month
+50 credits
+Access to open weight models* and Claude Sonnet 4.5
+Download now
+FOR TEAMS UP TO 500
+KIRO PRO
+$20
+per user / month
+1,000 credits
+Access to premium models**
+Add-on credits ($0.04/credit)
+Sign up / upgrade
+FOR TEAMS UP TO 500
+KIRO PRO+
+$40
+per user / month
+2,000 credits
+Access to premium models**
+Add-on credits ($0.04/credit)
+Sign up / upgrade
+FOR TEAMS UP TO 500
+KIRO PRO MAX
+$100
+per user / month
+5,000 credits
+Access to premium models**
+Add-on credits ($0.04/credit)
+Sign up / upgrade
+FOR TEAMS UP TO 500
+KIRO POWER
+$200
+per user / month
+10,000 credits
+Access to premium models**
+Add-on credits ($0.04/credit)
+Sign up / upgrade
+Kiro for enterprise
+Centralized billing, SSO, usage analytics, and enterprise security controls.
+Contact sales
+Enterprise features
+---
+Which models does Kiro use under the hood?
+By default, your prompts are processed by Auto, an agent that uses a mix of different frontier models, combined with specialized models that are experts in specific tasks, intent detection, caching, and other techniques to give you a better
+How does the sign-up bonus work?
+How does the sign-up bonus work?
+The first time you upgrade to any Kiro paid plan, you get $20 credited towards your subscription when using Kiro via social login or Builder ID (not AWS Identity Center). Upgrading to a paid subscription requires a valid credit card. Kiro p
+What is a credit?
+What is a credit?
+A credit is a unit of work in response to user prompts. Simple prompts can consume less than 1 credit. More complex prompts, such as executing a spec task, typically cost more than 1 credit. Additionally, different models consume credits at
+What can I use credits for?
+What can I use credits for?
+Any prompt you ask Kiro to execute, whether in vibe mode or spec mode, as well as spec refinement, task execution, and agent hook execution, will consume credits.
+---
+How do Kiro workflows affect credit usage?
+[Workflows](/docs/workflows/) use the same Kiro credit model as other agent work. Credit usage depends on the agent work they run, so more complex workflows can use more credits. You can guide how Kiro divides the work through your prompt o
+Can I buy more credits?
+Can I buy more credits?
+Yes — how it works depends on your plan: **When signing in with social login or AWS Builder ID (Pro, Pro+, Pro Max, Power):** Purchase add-on credits to continue working. Credits cost $0.04 each, are billed immediately when you buy a pack, 
+Can I share my Kiro subscription with my team?
+Can I share my Kiro subscription with my team?
+For team usage, each developer needs their own subscription. Learn about [team billing and management features](/docs/enterprise/billing/).
+---
+Kiro subscriptions can be used with Kiro IDE, Kiro CLI, Kiro Web, Kiro Crew, ACP compatible IDEs, and automation in software development (ex: reviews during CI/CD). Use through third-party automation harnesses (such as OpenClaw) that route 
+What happens if I don’t use all my monthly credits?
+What happens if I don’t use all my monthly credits?
+Usage limits reset at the start of each billing month. Unused credits do not roll over to the next month.
+What payment methods do you accept?
+---
+Yes, Kiro pricing in [AWS GovCloud](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-kiro.html) (US) Regions is approximately 20% higher than standard commercial region pricing. All Kiro subscription tiers (Pro, Pro+, Pro M
+Is the free tier available for Enterprise or AWS GovCloud (US) Regions?
+Is the free tier available for Enterprise or AWS GovCloud (US) Regions?
+No. The free tier is not available in Kiro Enterprise or AWS GovCloud (US) Regions. Both require a paid subscription plan (Pro, Pro+, Pro Max, or Power) and enterprise authentication via AWS IAM Identity Center or an external identity provi

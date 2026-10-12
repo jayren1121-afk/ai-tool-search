@@ -1,0 +1,204 @@
+AI2SQL
+Product
+MCP
+Desktop App
+Blog
+Sign in
+Try for free
+Plans & pricing
+
+Generate, fix and optimize SQL in seconds. Every plan starts with a 7-day free trial, $0 today.
+
+Monthly
+Annual
+Save 25%
+Start
+
+$9
+/mo
+
+✓ 7-day free trial included
+
+What's included:
+
+✓
+100 SQL queries/month
+✓
+Basic SQL generation
+✓
+Explain SQL queries
+✓
+Fix syntax errors
+✓
+Chat support
+Start Free Trial
+
+✓ $0 due today. Charged only after your 7-day trial. Cancel anytime.
+
+MOST POPULAR
+Pro
+
+$19
+/mo
+
+✓ 7-day free trial included
+
+Everything in Start, plus:
+
+✓
+Unlimited SQL queries
+✓
+Advanced AI model
+✓
+Query optimization & explanation
+✓
+Connect your own database
+✓
+Run queries from Claude, ChatGPT & Cursor (MCP)
+✓
+Priority support
+✓
+Desktop App (Windows & Mac)
+Start Free Trial
+
+✓ $0 due today. Your card is charged only if you keep Pro after the 7-day trial.
+
+Team
+
+$39
+/mo
+
+✓ 7-day free trial included
+
+Everything in Pro, plus:
+
+✓
+5 users included
+✓
+Shared query library
+✓
+Role-based access control
+✓
+Execution priority
+✓
+Advanced analytics
+Start Free Trial
+
+✓ $0 due today. Charged only after your 7-day trial. Cancel anytime.
+
+Lifetime — $29 once
+
+Full access forever. 500 AI queries/month, all databases, no recurring charge.
+
+Get lifetime access
+
+$0 today. Card required to start your 7-day trial. Cancel before it ends and you will not be charged.
+
+Compare features
+Feature	Start	Pro	Team
+SQL queries / month	100	Unlimited	Unlimited
+AI model	Basic	Advanced	Advanced
+Supported databases	MySQL, PostgreSQL	All (MySQL, PG, MSSQL, Oracle, SQLite…)	All
+Connect your own database	—	✓	✓
+Query optimization & explain	—	✓	✓
+Claude / ChatGPT / Cursor via MCP	SQL writing	SQL writing + live queries	SQL writing + live queries
+Desktop app (Win & Mac)	—	✓	✓
+Priority support	Email	✓	✓
+Users included	1	1	5
+Shared query library	—	—	✓
+Role-based access control	—	—	✓
+Still deciding?
+
+Pick the line that sounds most like you.
+
+Choose Start
+
+if you only need occasional SQL help — school, side projects, or learning.
+
+100 queries / month
+
+BEST VALUE
+Choose Pro
+
+if you connect databases or write SQL weekly. Unlimited queries, advanced model, optimization.
+
+Unlimited + DB connectors
+
+Choose Team
+
+if more than one person will use it — shared library, role-based access, 5 seats.
+
+5 users + shared library
+
+Frequently asked questions
+How much does AI2SQL cost?
+
+Start is $9 per month, Pro is $19 per month and Team is $39 per month. Billed annually, they are $7, $14 and $29 per month (save 25%). There is also a one-time Lifetime plan for $29.
+
+Is there a free plan?
+
+Yes. The Free plan includes 3 SQL queries a day on a demo database. Paid plans add more queries, SQL explanations and fixes; connecting your own database is part of Pro and Team.
+
+How does the free trial work?
+
+Every paid plan starts with a 7-day trial with full access to the plan you pick. A credit card is required to start the trial, and $0 is charged today. Cancel anytime before the trial ends and you pay nothing.
+
+Can I cancel anytime?
+
+Yes. Cancel from your Account page in one click. No penalties, no hidden fees.
+
+Is my data secure?
+
+Yes. Industry-standard encryption in transit and at rest. Database credentials are encrypted; your queries and schemas are never sold or used to train models.
+
+Which databases are supported?
+
+MySQL, PostgreSQL, SQL Server, Oracle, SQLite, Snowflake, BigQuery and more. Pro and Team can connect a live database for schema-aware generation and read-only queries.
+
+Can I use AI2SQL inside Claude or ChatGPT?
+
+Yes. Every plan can write SQL through the AI2SQL MCP server; Pro and Team can also run read-only queries on connected databases from Claude, ChatGPT, Cursor and VS Code. Setup takes two minutes on the MCP page.
+
+Do I need to know SQL to use AI2SQL?
+
+Not at all. Describe what you need in plain English and AI2SQL generates the correct SQL for you. Perfect for beginners and non-technical team members.
+
+Using Claude, ChatGPT or Cursor? Set up the AI2SQL MCP server.
+
+Start your 7-day free trial
+Start Free Trial →
+$0 today · card required · cancel anytime
+AI2SQL
+
+The data layer for AI agents.
+Schema-aware, governed, metered.
+
+Product
+
+Claude & ChatGPT (MCP)
+Agents & API (Gateway)
+API & docs
+SQL toolbox
+AI2SQL Desktop (on-premise)
+Connector
+Databases
+Jev table selection (soon)
+Pricing
+
+Resources
+
+Blog
+Learn SQL
+Converters
+SQL error codes
+
+Company
+
+Contact
+Affiliate program
+Privacy policy
+Terms
+
+© 2026 AI2SQL. All rights reserved.
+
+X · LinkedIn · GitHub

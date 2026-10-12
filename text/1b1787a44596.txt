@@ -1,0 +1,332 @@
+ 
+Skip to main content
+PRODUCTS
+SOLUTIONS FOR YOU
+SUPPORT
+BUY NOW
+ PRODUCT SIGN-IN
+TOP
+Lexis+ with Protégé: Legal AI software for drafting, research, and analysis
+Lexis+® with Protégé™
+Legal AI, built on authority
+Request a trial Explore what's new 
+Overview
+Research & Strategy
+Drafting & Agentic Work
+Productivity & Integrations
+More
+What is Lexis+ with Protégé legal AI software?
+
+Lexis+ with Protégé* is a legal AI solution built for drafting, research, and analysis. It combines the LexisNexis Protégé™ AI assistant with trusted LexisNexis content and purpose-built workflows to help legal professionals deliver complex legal work with confidence.
+
+*Formerly Lexis+ AI
+
+New ways to bring legal work together
+See what’s new
+Legal AI Drafting
+Legal AI Drafting
+Full legal document drafting 
+
+Draft and refine transactional agreements and contracts, as well as litigation motions, briefs, complaints, and client communications.
+
+Start draftingSee how it works
+Legal AI Research
+Connect trusted sources, drive better results
+
+Accelerate research and surface insights with AI grounded in your organization’s knowledge, authoritative LexisNexis legal content, and web sources—so results are verified and traceable.
+
+Start researchingSee how it works
+Legal AI tools to streamline legal work
+Productivity Features
+Streamline your work 
+
+Move seamlessly from research and analysis to drafting and review in a connected AI-powered experience.
+
+Start streamliningSee how it works
+Core Legal AI Features & Sources
+Core Features & Legal Sources
+What powers Lexis+ with Protégé
+
+Integrate advanced AI with authoritative, exclusive LexisNexis sources and your organization’s documents in one workspace.
+
+Protégé
+
+LexisNexis Protégé is the AI assistant embedded across LexisNexis solutions — powering research, drafting, and analysis workflows.
+
+Explore Protégé
+Primary law and exclusive secondary sources
+
+Access one of the world's most comprehensive repositories of authoritative case law, statutes, regulations, and exclusive secondary sources.
+
+Practical Guidance
+
+Leverage expert-authored practice notes, annotated forms, and drafting guidance across 25 practice areas.
+
+Shepard’s citations
+
+Validate citations and confirm the status and treatment of authorities directly within your research and drafting workflow.
+
+Web and news sources
+
+Incorporate real-time news and web content when timely context is required.
+
+Your organization’s documents
+
+Connect to iManage, SharePoint, NetDocuments, and other DMS platforms to ask and draft from your organization’s knowledge.
+
+Explore integration
+Secure document Vault
+
+Securely store and analyze large document sets. Preserve context across sessions for drafting, review, and analysis.
+
+Customer stories
+Customer Stories
+Trusted by leading legal teams
+Amplifying talent and client relationships
+Watch the video
+Why trusted data is critical for legal AI
+Watch the video
+New Lexis+ with Protégé legal AI features
+Recently Announced in Lexis+ with Protégé
+Bring your legal work together, with verification built in
+Shepard’s Verify
+Agent skills
+Review tables
+Workrooms
+Vault
+Verify legal authority as you work
+
+Shepard’s Verify checks citations in AI responses, documents, and drafts—surfacing legal authority and flagging unsupported statements.
+
+Read the post
+Scale your expertise
+
+Build reusable AI agent skills from your templates and processes, then share them across your organization. Browse a library of skills from LexisNexis and Claude to start from proven approaches.
+
+Read the post
+Extract insights across large document sets
+
+Efficiently surface key terms and facts from large document sets in AI-powered review tables designed for structured legal analysis. Linked sources ensure confidence in the results.
+
+Read the post
+Collaborate securely across legal teams
+
+Keep your team aligned in secure, shared Workrooms where AI work, documents, and discussions stay connected, with transparent permissions and activity history to reduce rework.
+
+Read the post
+Work from the full record
+
+Save thousands of documents, spreadsheets, images, videos, and more in secure Vaults. Use them to support analysis, drafting, and review.
+
+Read the post
+How legal professionals use legal AI in practice
+Tutorials
+How legal professionals use Lexis+ with Protégé
+
+Explore how Protégé supports legal drafting, research, review, and preparation.
+
+1 min watch
+Draft a transactional document
+
+Turn a term sheet into a customized agreement using pre-built workflows. Generate drafts grounded in trusted LexisNexis and organizational documents, then refine with integrated editing tools.
+
+Turn a term sheet into a customized agreement using pre-built workflows. Generate drafts grounded in trusted LexisNexis and organizational documents, then refine with integrated editing tools.
+1 min watch
+Draft a litigation document
+
+Generate a tailored complaint using pre-built workflows. Upload client materials, enter case-specific instructions, and produce a review-ready draft grounded in authoritative legal sources.
+
+Generate a tailored complaint using pre-built workflows. Upload client materials, enter case-specific instructions, and produce a review-ready draft grounded in authoritative legal sources.
+Watch all tutorials
+The Business Impact of Lexis+ with Protégé
+Business Impact
+Lexis+ with Protégé is transforming the business of law
+
+Note: Lexis+ AI was renamed Lexis+ with Protégé in February 2026. Some materials may reference the former name.
+
+The Business Impact of Legal AI
+
+Independent economic analysis quantifies the return on investment and operational gains for legal teams from generative artificial intelligence (genAI).
+
+Read the findings
+Law Firms: 344% ROI over 3 years
+
+Forrester Consulting conducted a Total Economic Impact™ study for large law firms, commissioned by LexisNexis in May 2025.
+
+Read the study
+How Gibbons and Rupp Pfalzgraf are driving client impact with AI
+
+A strategic approach to legal AI has allowed these firms to increase caseload, focus on advanced analysis, and deliver exceptional value to clients.
+
+Read the case studies
+Corporate Legal Departments: 284% ROI over 3 years
+
+Forrester Consulting conducted a Total Economic Impact™ study for corporate legal departments, commissioned by LexisNexis in June 2025.
+
+Read the study
+Schenck Price: The AI play helping a suburban firm hit harder
+
+Schenck Price made a deliberate bet that trusted data and disciplined adoption would help the firm compete smarter.
+
+Read the case study
+Willkie: A more human-centered, grounded path to legal AI
+
+For Willkie, adopting AI had to be practical, authoritative, and worthy of attorney trust.
+
+Read the story
+Data Security, Privacy, and Governance
+Security and privacy you can count on
+Privacy by design
+
+LexisNexis protects customer data wherever it is stored, sent, or accessed. We apply privacy by design principles at every stage of our systems, products, and business processes to ensure security and compliance are built in from the start. Our advanced encryption and rigorous compliance protect your sensitive information.
+
+Strict security protocols
+
+LexisNexis systems meet the highest standards for information security. We partner with trusted, enterprise-grade cloud providers, continuously monitor and improve our infrastructure, and undergo regular third-party audits to maintain industry-leading certifications.
+
+Responsibly developed AI
+
+LexisNexis follows the RELX Responsible AI Framework to ensure our AI protects privacy, is transparent and explainable, avoids unfair bias, includes human oversight, and is designed for real-world impact.
+
+We never use customer data to train AI models and maintain robust data retention and deletion policies. Identifiable information is removed from AI interactions so that we can improve performance without compromising privacy.
+
+Explore the LexisNexis Trust Center
+Who is Lexis+ with Protégé for?
+
+Lexis+ with Protégé helps legal professionals across the public, private, and academic sectors accelerate and enhance their work.
+
+Don’t see who you’re looking for? Contact us for a demo related to your unique needs.
+
+Small law firms
+Large law firms
+Corporate legal departments
+Government entities
+Academic institutions
+Awards and recognition
+
+LexisNexis is committed to innovation, leadership, and excellence in delivering cutting-edge technology.
+
+2025 CODiE Award
+
+LexisNexis Protégé: Best AI Tool for Lawyers
+Read More
+
+AI Breakthrough Awards 2024
+
+LexisNexis: Best Overall AI Company
+Read More
+FAQs about Lexis+ with Protégé
+Frequently asked questions
+Is Lexis+ AI now called Lexis+ with Protégé?
+Yes. As of February 2026, Lexis+ AI® has been renamed Lexis+® with Protégé™.
+
+The platform has evolved to become a fully legal AI workflow solution for legal drafting, research, and analysis powered by the LexisNexis Protégé AI assistant. The new name reflects the expanded capabilities and deeper integration of AI-powered drafting, research, and analysis workflows.
+
+If you previously used Lexis+ AI, you now have access to Lexis+ with Protégé.
+Why should you trust the answers from Lexis+ with Protégé?
+What is the difference between Protégé and Lexis+ with Protégé?
+What steps have you taken to ensure data security and privacy in Lexis+ with Protégé?
+How does LexisNexis leverage customer data when developing AI products?
+What are the capabilities of the Vault in Lexis+ with Protégé?
+What AI models are available in Lexis+ with Protégé?
+How much does Lexis+ with Protégé cost?
+Get your 2-day free trial
+See how Lexis+ with Protégé helps you draft from precedent, validate citations, and accelerate research — grounded in trusted legal sources and your organization’s knowledge.
+
+LexisNexis, a division of RELX Inc., may contact you in your professional capacity with information about our other products, services, and events that we believe may be of interest. You can manage your communication preferences via our Preference Center. You can learn more about how we handle your personal data and your rights by reviewing our Privacy Policy.
+
+First Name
+Last Name
+Email
+Organization Type
+Organization Type
+Small Law Firm (1-2 att.)
+Mid-Law Firm (3-50 att.)
+Large Law Firm (50+ att.)
+In-House Counsel
+Legal - State/Local Government
+Legal - Federal
+Intelligence - SME/Corporate
+Other
+Zip Code
+*required fields
+Sign Up 
+By submitting, you agree to LexisNexis Terms of Use
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+Related solutions
+Protégé
+
+Legal AI assistant, integrated in LexisNexis solutions.
+
+Lexis Create+
+
+Legal drafting in Microsoft 365, powered by AI.
+
+DMS integration
+
+Secure link to your document management system and LexisNexis.
+
+Protégé API
+
+LexisNexis sources integrated into your internal systems.
+
+UNITED STATES 
+COPYRIGHT © 2026 LEXISNEXIS
+Contact Sales
+888-AT-LEXIS
+Online Form
+Contact Support
+800-543-6862
+Support Page
+Security Freeze
+800-456-6004
+Service Portal
+
+Please visit our Training & Support Center or Contact Us for assistance
+
+ABOUT US
+Our Company
+Our Leadership
+Careers at LexisNexis
+News & Events
+Our Values
+Advancing the Rule of Law
+TOP PRODUCTS
+Lexis+® with Protégé™
+Lexis+®
+Practical Guidance
+Law360®
+Nexis+™ with Protégé™
+Nexis®
+Litigation Analytics
+VIEW ALL
+PRODUCT SIGN-IN
+Lexis+® with Protégé™
+Lexis+®
+Lexis®
+Practical Guidance
+Law School Portal
+Nexis+™ with Protégé™
+Nexis®
+VIEW ALL
+SUPPORT & TRAINING
+Lexis+® Support
+Lexis® Support
+Practical Guidance Support
+Nexis® Support
+Training on the Go
+LexisNexis University
+Request Training
+POLICIES
+Privacy Policy
+Consumer Access
+Trust Center
+Accessibility
+Cookie Settings
+Ad Choices
+Your Privacy Choices 
+FOLLOW US
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. You can manage your cookie preferences using the Cookie Settings link and opt out of personalized advertising via Ad Choices. For more information, see our Cookie Policy.
+Cookie Settings

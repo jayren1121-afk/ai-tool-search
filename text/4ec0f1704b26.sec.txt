@@ -1,0 +1,87 @@
+Pricing
+Sign in
+Pricing
+Free
+$0
+---
+Use any cloud model with pay-as-you-go usage credits.
+---
+Run models locally
+Starter usage credits included
+Includes access to starter models
+Add credits to unlock all models
+No service fees
+Download
+Pro
+Pro
+Max
+$20 / mo. or $200/yr billed annually
+---
+For shorter, well-defined day-to-day tasks
+---
+Everything in Free, plus:
+---
+$60 of usage credits per month
+Access to larger pro models
+Run multiple models concurrently
+Fast mode (coming soon)
+Get Pro
+Team
+Early access
+$500 / mo.
+---
+For teams scaling with open models
+---
+Everything in Pro, plus:
+---
+Unlimited users
+$1,000 of usage credits per month, shared across the team
+Centralized billing and administration
+Priority support
+Shared projects, skills, and instructions (coming soon)
+---
+Pay as you go with usage credits. Prices are per million tokens. Off-peak pricing apply outside 12:00 and 18:00 UTC on weekdays and all day on weekends.
+---
+Model	Input	Cached input	Output
+deepseek-v4.1-flash	$0.30	$0.006	$1.20
+deepseek-v4.1-flash (Off-Peak)	$0.15	$0.003	$0.60
+deepseek-v4-pro	$1.32	$0.044	$3.96
+deepseek-v4-pro (Off-Peak)	$0.66	$0.022	$1.98
+gemma4	$0.14	$0.05	$0.40
+glm-5.3	$1.40	$0.26	$4.40
+glm-5.3-flash	$0.15	$0.03	$0.50
+glm-5.2	$1.40	$0.26	$4.40
+gpt-oss:120b	$0.15	$0.014	$0.60
+gpt-oss:20b	$0.07	$0.035	$0.30
+kimi-k3	$3.00	$0.30	$15.00
+kimi-k2.7-code	$0.95	$0.19	$4.00
+kimi-k2.6	$0.95	$0.16	$4.00
+minimax-m3	$0.60	$0.12	$2.40
+minimax-m2.7	$0.30	$0.06	$1.20
+mistral-large-4	$0.68	$0.07	$2.09
+mistral-large-3	$0.50	-	$1.50
+nemotron-3-nano	$0.06	-	$0.24
+nemotron-3-super	$0.015	$0.015	$0.60
+nemotron-3-ultra	$0.10	$0.10	$3.00
+Frequently asked questions
+Team
+Who is the Team plan for?
+---
+The Team plan is for teams that want shared usage, billing, and administration across the whole team.
+---
+How does Team billing work?
+---
+Team starts at $500 per month with unlimited users and $1,000 of usage credits included each month, shared across the team.
+---
+Usage beyond the included credits draws from a shared team balance billed as you go. You can add a set amount to the balance and turn off automatic usage billing.
+---
+Usage
+How does monthly usage work?
+---
+When does my monthly included usage reset?
+---
+No. Instead, your included amount refreshes at each monthly reset.
+---
+How do usage credits work?
+---
+Check your usage here anytime. On paid plans, Ollama sends an email reminder at 90% of your included monthly usage. You can turn this off in settings.

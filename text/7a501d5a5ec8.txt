@@ -1,0 +1,281 @@
+Looker pricing
+Looker (Google Cloud core) pricing overview
+Platform editions
+User licensing
+Looker pricing
+
+This document explains Looker pricing details. If you pay in a currency other than USD, the prices listed in your currency on Cloud Platform SKUs apply.
+
+Looker (Google Cloud core) pricing overview
+
+Looker (Google Cloud core) pricing has two main components:
+
+Platform pricing is the cost to run a Looker (Google Cloud core) instance and includes platform administration, integrations, and semantic modeling capabilities.
+User pricing is the cost for licensing individual users to access the Looker platform. These costs will vary based on the type of user and their permissions within the Looker (Google Cloud core) platform.
+
+Every Looker (Google Cloud core) instance that you create has a billing account attached to it. Any charges incurred by creating a new instance and/or adding named users to that instance are billed to the attached billing account.
+
+Platform editions
+
+Looker (Google Cloud core) offer three platform editions:
+
+Standard: A Looker (Google Cloud core) product for small organizations or teams with fewer than 50 users that includes one production instance, 10 Standard Users, 2 Developer Users, upgrades, up to 1,000 query-based API calls per month, and up to 1,000 administrative API calls per month.
+Enterprise: A Looker (Google Cloud core) product with enhanced security features for a wide variety of internal BI and analytics use cases that includes one production instance, 10 Standard Users, 2 Developer Users, upgrades, up to 100,000 query-based API calls per month, and up to 10,000 administrative API calls per month.
+Embed: A Looker (Google Cloud core) product for deploying and maintaining external analytics and custom applications at scale that includes one production instance, 10 Standard Users, 2 Developer Users, upgrades, up to 500,000 query-based API calls per month, and up to 100,000 administrative API calls per month.
+
+Standard edition
+
+The following table shows the cost of the Standard edition Looker (Google Cloud core) platform.
+
+Commitment model
+
+	
+
+Cost
+
+	
+
+Details
+
+
+
+
+Annual commitment
+
+	
+
+Call sales
+
+	
+
+Work with sales to identify a solution that works for you.
+
+Enterprise edition
+
+The following table shows the cost of the Enterprise edition Looker (Google Cloud core) platform.
+
+Commitment model
+
+	
+
+Cost
+
+	
+
+Details
+
+
+
+
+Annual commitment
+
+	
+
+Call sales
+
+	
+
+Work with sales to identify a solution that works for you.
+
+Embed platform
+
+The following table shows the cost of the Embed variant of the Looker (Google Cloud core) platform.
+
+Commitment model
+
+	
+
+Cost
+
+	
+
+Details
+
+
+
+
+Annual commitment
+
+	
+
+Call sales
+
+	
+
+Work with sales to identify a solution that works for you.
+
+Each platform comes with ten standard users and two developer users included. Annual subscriptions are available in one, two, and three-year terms.
+
+User licensing
+
+There are three different types of Looker user licenses:
+
+Developer User: An End User provisioned on a Looker (Google Cloud core) platform for access to any combination of Looker interfaces including Administration, LookML Models (including Development Mode), Folders, Boards, Dashboards, Looks (individual reports & charts), Explore, SQL Runner, Scheduling, the Looker API interfaces, and access to Support.
+Standard User: An End User provisioned on a Looker (Google Cloud core) platform for access to Folders, Boards, Dashboards, Looks (individual reports & charts), Explore, SQL Runner, and Scheduling Looker interfaces. Standard User privileges include data filtering, drill-to-row-level-detail, data downloads, Dashboard or Look creation, and view-only access to LookML. Standard User privileges do not include access to Development Mode, Administration, the Looker API interfaces, or Support.
+Viewer User: An End User provisioned on a Looker (Google Cloud core) platform for access to Folders, Boards, Dashboards, and Looks (individual reports & charts) Looker interfaces. Viewer User privileges include data filtering, drill-to-row-level-detail, Scheduling, data downloads, and view-only access to LookML. Viewer User privileges do not include Dashboard or Look creation, or access to Development Mode, Administration, SQL Runner, Explore, the Looker API interfaces, or Support.
+
+Unless otherwise specified in a subscription to Looker (Google Cloud core), Google reserves the right to issue additional invoices or charges to Customer in arrears if Customer's use of Looker (Google Cloud core) exceeds allowed usage under the subscription, with the pricing listed at the Fees URL applying to that excess usage.
+
+A detailed list of Looker (Google Cloud core) platform features and user entitlements can be found in the documentation.
+
+Conversational Analytics in Looker
+
+Conversational Analytics usage is measured in data tokens, which quantify the advanced data processing and model orchestration driving your insights. This includes translating the natural language into a Looker query, routing to specialized tools, and synthesizing secure context. Managed at the Looker instance level, usage is categorized into input data tokens (context, history, and metadata instructions) and output data tokens (visualizations and natural language response).
+
+Input Data Tokens: These are the data tokens sent to the model for processing. This might include things like:
+Prompts sent to the Agent
+The conversational history of a session
+Any relevant context (like metadata and agent instructions)
+Output Data Tokens: These are the tokens the model generates and sends back as part of a response. This might include:
+A natural language response to a question
+The API call or SQL query generated to retrieve data
+Any other text generated by the model as part of the response
+Thoughts and reasoning shown in Thinking mode
+A visualization created by the model
+
+These input and output data tokens are the basis for calculating monthly usage.
+
+Data token allocations are applied at the instance level as an aggregated pool shared across all authenticated users on that instance. Each Looker platform subscription comes with a monthly data token quota for usage of Looker's conversational analytics capabilities.
+
+Platform Subscription Tier
+
+	
+
+Included Input Data Tokens (monthly)
+
+	
+
+Included Output Data Tokens (monthly)
+
+
+
+
+Standard
+
+	
+
+60M
+
+	
+
+1.2M
+
+
+
+
+Enterprise / Advanced
+
+	
+
+300M
+
+	
+
+6M
+
+
+
+
+Embed / Elite
+
+	
+
+1.2B
+
+	
+
+24M
+
+All non-production and add-on instances receive a flat, baseline allocation of 6M input data tokens and 0.12M output data tokens per month to support development and testing.
+
+Data token allocations will reset every month and unused tokens will not roll over. These tokens are ring-fenced specifically to Looker and are not fungible across other Data Cloud surfaces.
+
+As part of the Conversational Analytics launch, customers currently enjoy promotional access without quota limits or overage fees (within fair usage limits). We are extending this promotional period to allow organizations additional time to baseline usage patterns using Looker’s new observability tooling and system activity dashboards.
+
+Conversational Analytics is an evolving capability, and customers can expect continuous feature improvements—including enhanced enterprise governance controls.
+
+Google Cloud will provide at least 90 days advance notice via formal MSA communications before billing and quota enforcement begin.
+
+After this date, usage that extends beyond the instances included monthly data token allocation will be subject to overage fees. These will be billed at the end of each month based on actual usage during the billing period.
+
+Input data tokens: $3.00 per 1M tokens
+Output data tokens: $20.00 per 1M tokens
+Request a custom quote
+Connect with our sales team to get a custom quote for your organization.
+Contact sales
+Overview
+Solutions
+Products
+Pricing
+Resources
+
+search
+send
+Docs
+Support
+Sign in
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Locations
+Customers and case studies
+Analyst reports
+Whitepapers
+Blog
+Products and pricing
+Google Cloud pricing
+Google Workspace pricing
+See all products
+Solutions
+Infrastructure modernization
+Databases
+Application modernization
+Smart analytics
+Artificial Intelligence
+Security
+Productivity & work transformation
+Industry solutions
+DevOps solutions
+Small business solutions
+See all solutions
+Resources
+Google Cloud Affiliate Program
+Google Cloud documentation
+Google Cloud quickstarts
+Google Cloud Marketplace
+Learn about cloud computing
+Support
+Code samples
+Cloud Architecture Center
+Training
+Certifications
+Google for Developers
+Google Cloud for Startups
+System status
+Release Notes
+Engage
+Contact sales
+Find a Partner
+Become a Partner
+Events
+Podcasts
+Developer Center
+Press Corner
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Follow on X
+Join User Research
+We're hiring. Join Google Cloud!
+Community forums
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+language
+‪English‬

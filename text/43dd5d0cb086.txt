@@ -1,0 +1,297 @@
+Introducing Extract v2.5: Next-Gen Document Extraction Agents ->
+BOOK A DEMO
+SIGN IN
+Product
+Solutions
+Company
+Docs
+Customers
+Blog
+Pricing
+BOOK A DEMO
+SIGN IN
+Choose the LlamaParse plan for your team
+
+Flexible Plans for All Your Document Ingestion Needs. Empower Your Workflows with LlamaIndex.
+
+US
+
+Europe
+
+Free
+
+$0
+
+/month
+
+GET STARTED
+
+Includes 10K credits
+
+Upgrade to starter for Pay-as-you-go credits
+
+100 users
+
+Basic support
+
+JOIN THOUSANDS OF USERS
+
+Starter
+
+$50
+
+/month
+
+GET STARTED
+
+Includes 40K credits
+
+Pay-as-you-go up to 400K credits
+
+100 users
+
+Basic support
+
+Pro
+
+$500
+
+/month
+
+JOIN THE PROS
+
+Includes 400k credits
+
+Limited-time bonus: 800k credits ($1,000), one-time*
+
+Pay-as-you-go up to $5,000/mo
+
+100 users
+
+Priority Slack support
+
+* Business email domains only. Unused bonus credits expire immediately if you downgrade.
+
+Enterprise
+
+Custom
+
+TALK TO SALES
+
+Volume discount on credits
+
+5x higher rate limits
+
+Enterprise SSO
+
+SaaS or Hybrid cloud deployment
+
+Dedicated account manager
+
+Are you a startup? Apply to our startup program for free credits, dedicated support, community spotlights and more.
+
+Credit Pricing & Usage
+
+The LlamaIndex platform operates on a credit-based system, where each action—such as parsing, indexing, or extracting—costs a certain number of credits. 1,000 credits = $1.25.
+
+READ MORE
+
+PRICING
+
+Compare plans
+
+PLAN
+	
+FREE
+	
+STARTER
+	
+PRO
+	
+ENTERPRISE
+
+
+CREDITS & BILLING
+
+Included credits	10K	40K	400K	Custom
+Pay-as-you-go		up to $500/mo	up to $5,000/mo	Custom
+
+PARSE
+
+Concurrent parse jobs	5	5	20	100
+Multiple parse tiers
+(Cost Effective, Agentic, Agentic Plus)
+				
+Auto Mode — smart tier routing per page (saves up to 80%)				
+Saved parse configs & model versioning				
+
+PARSING CAPABILITIES
+
+Advanced table extraction				
+Advanced chart & graph extraction				
+Advanced image understanding & in-line images in markdown				
+Layout detection with precise bounding boxes				
+Structured JSON output
+(parse to custom schema)
+				
+80+ languages supported				
+
+OUTPUT FORMATS
+
+Markdown, Plain Text, JSON (per-page), XLSX, HTML Tables, Annotated PDF				
+
+FILE TYPES
+
+130+ formats
+PDF, Office (DOCX, DOC, PPTX, PPT…), Spreadsheets (XLSX, CSV…), Images (PNG, JPG…) and more
+				
+
+EXTRACT
+
+Extraction agents				
+Concurrent extract jobs	5	5	20	100
+Extract tiers (Cost Effective & Agentic)				
+Extraction targets
+(per document, per page, per table row)
+				
+Citations & confidence scores				
+
+CLASSIFY & SPLIT
+
+Classification & splitting				
+Concurrent classify jobs	5	5	20	100
+Concurrent split jobs	5	5	20	100
+
+AGENTS
+
+Builder
+Natural language to code workflows builder
+				
+Starter templates
+(SEC Insights, Invoice Matching, etc.)
+				
+Single-click deploy of agentic workflows from GitHub repos				
+
+INDEX & RAG
+
+Indexes	5	50	100	
+Files per index	50	500	2,000	
+Concurrent index jobs	5	5	20	100
+External data sources	File upload only	50	100	
+
+PLATFORM
+
+Users	100	100	100	
+Projects	1	1	5	
+Webhooks & API callbacks				
+Smart result caching
+(re-parse = 0 credits)
+				
+99.9% uptime				
+
+SECURITY & COMPLIANCE
+
+SaaS				
+SOC2, HIPAA, and GDPR compliance				
+VPC				
+SSO & MFA				
+Custom BAAs				
+
+SUPPORT
+
+Support level	Community	Basic (email support)	Priority (Slack Connect)	Dedicated
+	
+
+START FOR FREE
+
+	
+
+START GROWING TODAY
+
+	
+
+JOIN THE PROS
+
+	
+
+CONTACT SALES
+
+SELECT YOUR PLAN AND JOIN 10,000+ HAPPY TEAMS
+
+Any questions? We're here to help!
+
+Curious how it all works? Wondering if Llamaindex is the right fit? Our FAQs have the details, but nothing beats seeing it live – let's show you!
+
+CONTACT SALES
+SIGN UP
+FAQ
+
+01
+
+Is LlamaParse Open Source?
+
+02
+
+How many credits does it cost to parse or extract one page?
+
+03
+
+Does LlamaParse deploy on premises?
+
+04
+
+What compliance certifications does LlamaParse have?
+
+Start building your first document agent today
+
+LlamaIndex gets you from raw data to real automation — fast.
+
+CONTACT SALES
+SIGN UP
+Build document agents that understand, reason, and act
+CONTACT SALES
+SIGN UP
+
+Explore AI Summary
+
+SOLUTIONS
+Engineering & R&D
+Administrative Operations
+Financial Analysts
+Developers
+Insurance
+Finance
+Manufacturing
+Healthcare & Pharma
+Finance Due Diligence
+Invoice Processing
+Technical Document Search
+Customer Support
+PRODUCTS
+LlamaParse
+Parse
+Extract
+Index
+LlamaIndex
+Workflows
+RESOURCES
+Customer Stories
+Glossary
+Applications
+Insights
+COMPANY
+Pricing
+Blog
+About us
+Careers
+Brand
+Trust center
+WEEKLY NEWSLETTER
+
+Get a weekly roundup of the latest news and insights on the world of LLMs and word on the newest features of the LlamaIndex libraries.
+
+© 2026 LlamaIndex
+
+Privacy Notice
+Terms of Service
+Data Processing Addendum

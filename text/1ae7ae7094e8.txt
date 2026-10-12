@@ -1,0 +1,318 @@
+Product
+Resources
+Pricing
+Request a demo
+Log in
+Get Notion free
+One tool to run your company.
+Trusted by teams at
+Select payment mode:
+Pay monthly
+Pay yearly
+Save up to 20% with yearly
+Price in
+USD
+Essentials for staying organized.
+Free
+$0
+per member / month
+
+For individuals to organize personal projects and life.
+
+Sign up
+
+Includes:
+
+Trial of Notion AI
+Basic forms
+Basic sites
+Notion Calendar
+Databases including subtasks, dependencies, custom properties and more
+Plus
+$10
+per member / month
+
+For small teams and professionals to work together.
+
+Get started
+
+Everything in Free, and:
+
+Trial of Notion AI
+Custom forms
+Custom sites
+Unlimited charts
+Unlimited collaborative blocks
+Unlimited file uploads
+Basic connections
+The AI workspace for work that matters.
+Business
+Recommended
+$20
+per member / month
+
+For growing businesses to streamline teamwork.
+
+Get started
+
+Everything in Plus, and:
+
+Notion Agent
+AI Meeting Notes
+Enterprise Search
+Beta
+SAML SSO
+Granular database permissions
+Verify any page
+Private teamspaces
+Domain verification
+Premium connections
+Enterprise
+Custom pricing
+
+For organizations to operate with scalability, control, and security.
+
+Contact Sales
+
+Everything in Business, and:
+
+Zero data retention with LLM providers
+User provisioning (SCIM)
+Advanced security & controls
+Audit log
+Customer success manager
+Security & Compliance connections (DLP, SIEM)
+Domain management
+Advanced connections
+Custom Agents
+
+AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.
+
+Workers
+Beta
+
+Extend Notion with custom code to build agent tools, sync external data, and trigger Notion workflows from anywhere. Learn more→
+
+There’s power in a single platform where you can do all your work out of. Notion is that single place.
+Nick Erdenberger
+GTM, OpenAI
+Watch video
+→
+Plans and features
+Free
+$0 per seat/month
+Sign up
+Plus
+$10 per seat/month
+Get started
+Business
+$20 per seat/month
+Get started
+Enterprise
+Contact us→
+Content
+Pages & blocks
+Unlimited for individuals
+limited for 2+ members
+Unlimited
+Unlimited
+Unlimited
+File uploads
+Up to 5 MB
+Unlimited
+Unlimited
+Unlimited
+Page history
+7 days
+30 days
+90 days
+Unlimited
+Verify any page
+Offline
+Choose pages to download for offline use.
+Recents and Favorites auto-download for offline use.
+Recents and Favorites auto-download for offline use.
+Recents and Favorites auto-download for offline use.
+Sharing & collaboration
+External guest limit
+10
+Unlimited guests
+Unlimited guests
+Unlimited guests
+Teamspaces (open & closed)
+Teamspaces (private)
+Permission groups
+Advanced teamspace permissions
+Granular database permissions
+Notion AI
+Notion Agent (chat, generate, autofill, translate)
+Limited Trial
+Limited Trial
+Meeting notes
+Limited Trial
+Limited Trial
+Enterprise Search
+Research modeBeta
+Limited Trial
+Limited Trial
+Data retention
+30 day retention
+30 day retention
+30 day retention
+Zero data retention
+Custom Agents
+Requires Notion credits
+Requires Notion credits
+Database features
+Subtasks and dependencies
+Custom properties and filtering
+Charts
+1
+Unlimited
+Unlimited
+Unlimited
+Forms
+Basic
+Custom
+Custom
++ conditional logic
+Custom
++ conditional logic
+Dashboards
+Developer platform
+CLI
+WorkersBeta
+Requires Notion credits
+Requires Notion credits
+API automations & integrations
+Public API
+Webhooks
+Embeds and link previews
+Connected properties
+Same as business
+Automations
+Basic
+buttons only
+Custom
+database automations
+Same as plus
+Same as plus
+1-way database syncs
+Same as business
+Web publishing
+Unlimited published pages
+notion.site domains
+1
+5
+5
+5
+Search engine indexing (SEO)
+Basic
+Advanced
+Advanced
+Advanced
+Site customizations
+Custom domains and branding
+Pay per domain
+Pay per domain
+Pay per domain
+Admin & security
+Export entire workspace as HTML, Markdown, & CSV
+2-step verification
+Export entire workspace as PDF
+SAML single sign-on (SSO)
+User provisioning (SCIM)
+Advanced workspace & teamspace security controls
+Organization level controls
+Workspace analytics
+Granular admin roles
+Audit log
+Admin content search
+Domain Management
+Workspace consolidation
+Custom
+Managed users dashboard & controls
+Security & Compliance connections
+Guest invite requests
+Custom data retention settings
+AI Meeting Notes transcript deletion
+Support
+Priority support
+Premium support
+Custom
+Customer success manager
+Custom
+Questions & answers
+
+How does Notion AI use my data?
+
+Where can I find my invoices?
+
+What are your accepted payment methods?
+
+What is a block?
+
+What happens when I go over the block storage limit on a Free Plan?
+
+Do you offer student discounts?
+
+What do the different analytics tiers mean?
+
+How is pricing calculated for the paid plans?
+
+How do I get charged when I add members to my workspace?
+
+How does adding and removing members work?
+
+How are paid seats counted?
+
+What happens when I change plans?
+
+How do I cancel my paid plan?
+
+What happens if my payment fails? Like if my credit card expires?
+
+Can I change my payment method?
+
+How do refunds work?
+
+What if I live in a region with a mandatory refund policy?
+
+Still have more questions?
+Learn more in our help center.
+
+We shape our tools,
+and thereafter our tools shape us.
+Marshall McLuhan
+Product
+Features
+What's New
+Notion AI
+Pricing
+Request a demo
+Download
+Explore more→
+Resources
+Customer stories
+Connections
+Marketplace
+Help Center
+Academy
+Community
+Company
+About us
+Careers
+Security
+Status
+Terms & privacy
+Your privacy rights
+Notion for
+Enterprise
+Small businesses
+Startups
+Developers
+English (US)
+Do Not Sell or Share My Info
+Cookie settings
+
+© 2026 Notion Labs, Inc.

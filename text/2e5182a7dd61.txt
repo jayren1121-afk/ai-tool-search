@@ -1,0 +1,225 @@
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”
+Accept
+Product
+Industries
+Resources
+About Rev
+Pricing
+Login
+Talk to a Specialist
+Try Rev Free
+Pricing Plans For Legal And Investigative Work
+“The biggest game changer of any software I've come across.”
+Subscribe to Rev's Investigative Intelligence Platform — or order transcription services à la carte.
+INVESTIGATIVE PLATFORM
+HUMAN-VERIFIED SERVICES
+Monthly
+Annual · 2 months free
+Free
+Explore Rev with limited access. Need more? Upgrade to Essentials or Pro. 
+Free
+Limited Free Access
+Includes:
+English only transcription
+Analyze up to 5 files at a time
+Document editor BETA
+Page:line citations for depositions NEW
+Mobile app for dictation and recording on the go
+45 AI transcription & caption minutes/month  ·  1 user
+View All Features
+Essentials
+The quick, reliable starting point for solo practitioners and small firms. 
+$25.49 per seat/month
+2 months free · $305.90 billed annually
+Get Started
+Everything in Free, plus:
+English and Spanish transcription for bilingual cases and interviews
+Analyze up to 10 files at once
+Prebuilt workflow templates
+10% off human-verified transcription services
+5,000 AI transcription & caption minutes/user/month  ·  3 users
+View All Features
+MOST POPULAR
+Pro
+For investigative teams who need more seats, more minutes, and smarter workflows.
+$47.99 per seat/month
+2 months free · $575.88 billed annually
+Get Started
+Everything in Essentials, plus:
+37+ languages, including Spanglish
+Analyze up to 50 files at once
+Custom workflow templates
+Image analysis NEW
+Clio Manage integration NEW
+15% off human-verified transcription
+10,000 AI transcription & caption minutes/user/month  ·  5 users
+View All Features
+Unlimited
+For firms and agencies running complex investigations where the stakes are highest.
+Custom
+Talk To a Specialist
+Everything in Pro, plus:
+CJIS and HIPAA compliance with advanced privacy controls
+SSO for access management across your team
+Analyze up to 500 files at once
+A dedicated investigative workflow specialist
+Custom discount on human-verified transcription services
+Unlimited AI transcription & caption minutes/user/month  ·  Unlimited users
+View All Features
+Compare Our Plans
+Plans
+Monthly
+Annual · 2 months free
+Free
+Essentials
+$25.49 per seat/month
+Get Started
+Pro
+$47.99 per seat/month
+Get Started
+Unlimited
+Custom
+Talk To a Specialist
+Usage
+AI Transcription Minutes (per user per month)
+45
+5,000
+10,000
+Unlimited
+Languages
+English
+English & Spanish
+37+ Languages (includes Spanglish)
+37+ Languages (includes Spanglish)
+Multi-File Analysis
+5 files
+10 files
+50 files
+500 files
+Max Number of Seats (priced per seat)
+1
+3
+5
+Unlimited*
+Discounts on Human Transcription, Captions, & Subtitles
+10%
+15%
+Custom
+Platform Features
+Verbatim AI Transcription
+Bulk Download
+Document Editor BETA
+ZIP File Upload
+Optical Character Recognition (OCR)
+Image Analysis BETA
+Prebuilt Workflow Templates
+Custom Workflow Templates
+Video Platform Integrations
+AI Notetaker
+API Access
+Google Drive Integration
+Clio Integration NEW
+Side-By-Side Foreign Language Translation BETA
+Page:line Citations for Depositions NEW
+Security & User Management
+GDPR Compliance
+SOC 2 Type II Compliance
+SSO Integration
+HIPAA Compliance
+CJIS Compliance
+Support & Billing
+FAQ
+Email Support
+Phone Support
+Dedicated Workflow Specialist
+Subscription FAQ
+Are There Restrictions On When You Can Cancel Your Subscription?
+
+No, you can cancel your subscription at any time without any penalty. Simply go to the “Manage Subscription” page to cancel your subscription. If you are on a shared account, only the Admin and Billing Manager can access this page. You can click on your name in the top right corner and select “Manage Subscription” from the dropdown menu to navigate to your Plan Management page. Here you can view the current details of your plan, change to a different plan, update your payment method, and cancel your paid subscription. Reach out to support for more information.
+
+When There Is More Than One User (Seat) Within A Subscription Are The Minutes Shared Between Seats?
+
+Yes. Entitlements within seat subscriptions are pooled at the account level. If an individual user goes over their allotted seat entitlements they simply start consuming from the account's pooled available entitlement.
+
+What Other Rev Products (I.E., Human Transcription, Captions, Subtitles) Are Included In The Subscription?
+
+All subscribers can access both AI transcripts and AI captions as part of their monthly AI minutes. As a paid subscriber, you also get a discount on Human Transcription – 3% for those on the monthly Essentials plan, 10% for those on the annual Essentials plan, 5% for those on the monthly Pro plan, 15% for those on the annual Pro plan, and custom discounts for those on the Unlimited plan.
+
+Does Rev Offer Discounts On Human-Generated Services?
+
+Yes, you can subscribe to Rev to receive discounts on Human Transcription. As a paid subscriber, you can get discounts depending on what plan you subscribe to:
+
+Essentials: 3% monthly / 10% annual
+Pro: 5% monthly / 15% annual‍
+Unlimited: Custom discounts
+How Does Rev Ensure The Security Of My Account?
+
+Rev offers multiple layers of account security. We support Single Sign-On (SSO) using SAML 2.0, which can be enforced across a domain or team. We also offer Multi-Factor Authentication (MFA) as an optional setting for all user accounts. Additionally, we provide domain claiming, allowing organizations to manage access across their domain.
+
+Rev takes data privacy very seriously. We do not sell customer data or allow for customer data to be used to train external LLMs, ensuring your content remains private.
+
+See full FAQ on our Help Center.
+PRODUCT
+Multi-File Evidence Analysis
+Document Editor
+Image Analysis
+Transcript Editor & Clipping
+AI Templates
+Mobile App
+Pricing
+HUMAN-VERIFIED
+Human Transcription
+Human Captions
+Legal Rough Draft
+Legal Premium Transcript
+Court Reporting Self-Service
+Global Subtitles
+SmartDepo
+INDUSTRIES
+Criminal Prosecution
+Criminal Defense
+Law Enforcement
+Civil Law
+Court Reporting Agencies
+Research & Consulting
+Newsrooms & Journalists
+Education
+Video Distribution & Accessibility
+RESOURCES
+Blog
+Reports & Guides
+Learning Center
+Transcript Library
+Success Stories
+Webinars
+Reviews
+Apps & Tools
+Services By Location
+DEVELOPERS
+API ↗
+Documentation ↗
+API Status ↗
+Changelog ↗
+ABOUT
+Company
+Careers
+Press
+Partners
+Security
+Freelancers
+Support
+Visit Rev on Facebook
+Visit Rev on X
+Visit Rev on Instagram
+Visit Rev on LinkedIn
+Visit Rev on YouTube
+Download on the App Store
+Get it on Google Play
+© rev.com
+Legal
+Security
+Terms
+Privacy
+CA Privacy Policy
+Sitemap
+Login

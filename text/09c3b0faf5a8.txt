@@ -1,0 +1,483 @@
+Features
+
+Notepad
+
+The AI notepad for people in back-to-back meetings
+
+Chat
+
+AI chat that already knows what you're working on
+
+Granola for mobile
+
+Meeting notes on the go and for your phone calls
+
+Granola for Apple Watch
+Learn more →
+Enterprise
+Pricing
+Blog
+Careers
+Talk to sales
+Download
+Granola how you wanna
+
+Get the Granola plan that's right for you and your team, so everyone can be on the same page.
+
+Basic
+
+Great for a free taste of Granola
+
+$0
+per user per month
+Download for Mac
+
+AI meeting notes
+
+See limited meeting history
+
+AI chat within and across meetings
+
+Shared folders for collaboration
+
+Customized note templates
+
+Multi-language support
+
+Opt out of model training any time
+
+Business
+
+Great for individuals or small teams
+
+$14
+per user per month
+Download for Mac
+
+Everything in Basic, plus
+
+Unlimited meeting notes and history
+
+Access to advanced AI thinking models and features
+
+Advanced integrations with Attio, Notion, HubSpot, Affinity, and Zapier
+
+Centralized billing & user management
+
+MCP integration in all your apps
+
+API access
+
+Enterprise
+
+Great for larger companies
+
+$35
+per user per month
+Sign-up in app
+Learn more
+
+Everything included in Business
+
+Enterprise-grade security & admin controls
+
+Single sign-on (SSO)
+
+Priority support and usage analytics
+
+Org-wide auto-deletion periods
+
+Admin controls for sharing & API access
+
+Opt out of model training for everyone in your team
+
+Org-wide notification that Granola is being usedPILOT
+
+Granola contributes 1.5% of your subscription to remove CO₂ from the atmosphere through Stripe Climate.
+"As we rebuild Brex into an AI-native company, we need tools that move fast without ever compromising accuracy. Granola earned our trust by delivering precise, reliable summaries, and helped strengthen our written culture."
+Pedro Franceschi
+
+Founder and CEO, Brex
+
+Read the case study
+Compare plans
+Features	
+Basic
+Get started
+	
+Business
+Get started
+	
+Enterprise
+Learn more
+
+CAPTURE & NOTES
+AI meeting notes	
+Included
+	
+Included
+	
+Included
+
+Bot-free, device-audio capture	
+Included
+	
+Included
+	
+Included
+
+Desktop, iOS, Android & Apple Watch apps	
+Included
+	
+Included
+	
+Included
+
+Speaker tagging	
+Included
+	
+Included
+	
+Included
+
+Customized note templates	
+Included
+	
+Included
+	
+Included
+
+
+Multi-language support
+	
+Included
+	
+Included
+	
+Included
+
+
+Recipes
+	
+Included
+	
+Included
+	
+Included
+
+Pre-meeting briefs	–
+Not included
+	
+Included
+	
+Included
+
+Follow-up emails	–
+Not included
+	
+Included
+	
+Included
+
+Workspace-wide dictionary	–
+Not included
+	
+Included
+	
+Included
+
+Let people know you’re using Granola	Per user	Per user	Admin-enforceable
+HISTORY & SEARCH
+Meeting history	30 days	Unlimited	Unlimited
+AI chat across meetings	Auto only	Auto + model selection	Auto + model selection
+Workspace usage analytics	–
+Not included
+	–
+Not included
+	
+Included
+
+COLLABORATION & INTEGRATIONS
+Shared folders	
+Included
+	
+Included
+	
+Included
+
+Integrations with Slack	
+Included
+	
+Included
+	
+Included
+
+Integrations (Notion, Zapier, HubSpot & more)	–
+Not included
+	
+Included
+	
+Included
+
+Advanced integrations (e.g. Salesforce)	–
+Not included
+	–
+Not included
+	
+Included
+
+MCP (Claude, ChatGPT, etc.)	Personal notes from the last 30 days	Personal and public workspace notes	Admin-configurable personal and public workspace notes
+API access	–
+Not included
+	
+Included
+	
+Included
+
+Admin controls for MCP, API & integrations	–
+Not included
+	–
+Not included
+	
+Included
+
+Centralized billing & user management	–
+Not included
+	
+Included
+	
+Included
+
+TRUST & CONTROL
+Configurable transcript retention & auto-deletion	Per user	Per user	Workspace-wide admin policy
+Workspace-wide sharing settings	–
+Not included
+	–
+Not included
+	
+Included
+
+Model training opt-out	Per user	Per user	Workspace-wide
+Audio deleted after transcription	
+Included
+	
+Included
+	
+Included
+
+SOC 2 Type II certified	
+Included
+	
+Included
+	
+Included
+
+HIPAA-compliant workspaces	–
+Not included
+	–
+Not included
+	
+Included
+
+DPA available	
+Included
+	
+Included
+	
+Included
+
+Single sign-on (SSO)	–
+Not included
+	–
+Not included
+	
+Included
+
+SCIM group provisioning	–
+Not included
+	–
+Not included
+	
+Included
+
+MDM/Intune app wrapping (iOS)	–
+Not included
+	–
+Not included
+	
+Included
+
+Audit API	–
+Not included
+	–
+Not included
+	
+Included
+
+SUPPORT
+Join Labs (early access)	
+Included
+	
+Included
+	
+Included
+
+Support level	Standard	Standard	Dedicated
+Things worth noting
+
+What's the difference between Enterprise and Business?
+
+What admin controls will I have?
+
+What are your integration capabilities?
+
+Do you train any models on my data?
+
+Is Granola SOC 2 / HIPAA compliant?
+
+Does Granola have SSO?
+
+What SSO providers do you support?
+
+How do you notify other participants that Granola is being used?
+
+Resources
+Security
+
+How we secure your data & privacy
+
+Policies
+
+Everything you need to know our terms
+
+Other FAQs
+
+All other questions you may have
+
+What people are saying about Granola
+Nat Friedman
+@natfriedman
+·
+Follow
+
+Been using granola.so a bit lately; it generates the best meeting notes of anything I've tried so far. Not sure how they did that.
+
+1:55 PM · Jun 20, 2024
+554
+Reply
+Copy link
+Read 24 replies
+Soleio
+@soleio
+·
+Follow
+
+I get uncharacteristically excited about group Zoom meetings now
+
+Why? Because the payoff is seeing @meetgranola really work its magic and generate incredible meeting notes seconds after we adjourn
+
+1:36 PM · Aug 8, 2024
+44
+Reply
+Copy link
+Read 3 replies
+Chris Pedregal
+@cjpedregal
+·
+Follow
+
+Time magazine selected @meetgranola as one of the best AI tools for note-taking!
+
+time.com/charter/698752…
+
+2:19 PM · Jun 13, 2024
+54
+Reply
+Copy link
+Read 4 replies
+Guillermo Rauch
+@rauchg
+·
+Follow
+
+Write bare notes → ai enhances them
+Very clever ai-native ux: granola.so
+
+Watch on X
+7:42 PM · May 22, 2024
+311
+Reply
+Copy link
+Read 9 replies
+Dan Shipper
+@danshipper
+·
+Follow
+
+If you aren’t using @meetgranola for your meetings you are seriously missing out. 
+
+Incredible product.
+
+9:03 PM · Jun 3, 2024
+37
+Reply
+Copy link
+Read 4 replies
+MDS
+@mds
+·
+Follow
+
+I love Granola (the AI note taking app)
+
+5:34 PM · Sep 19, 2024
+24
+Reply
+Copy link
+Read 7 replies
+Helping the world's best product teams focus more on their meetings
+Ready for 
+calmer
+, more productive meetings?
+
+Try Granola for a few meetings today. It's free to get started.
+
+Download for Mac
+Download for Mobile
+Features
+Notepad
+Chat
+Mobile
+Product
+Pricing
+Enterprise
+Integrations
+AI notepad vs notetaker
+For sales
+For product management
+MCP
+Explore more…
+Company
+Customers
+Careers
+Press
+Events
+Startup program
+Student program
+Nonprofit program
+Resources
+Blog
+Security
+Transparency
+Help Center
+Status
+Affiliates
+Contact us
+Terms
+Privacy
+License
+© Granola, Inc. 2026
+Made with ♥ in Shoreditch
+Notice at collection
+Your Privacy Choices
+Your consent preferences for tracking technologies

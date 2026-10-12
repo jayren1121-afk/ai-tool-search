@@ -1,0 +1,485 @@
+Webinar: discover the new localization workspace for marketers. 
+Save your seat
+Solution
+AI stackCustom AI profilesAI scoringMCP server
+Long form contentAutomated WorkflowsTranslation APIContext ManagementReporting and analyticsCompliance and securityEnterprise
+All integrationsFigmaGithubGitlabJiraContentfulWebflowWordpress
+Use cases
+Product managersLocalization managersDevelopersDesignersMarketers
+Software translationWebsite translationMobile app translation
+Pricing
+Resources
+BlogCase studiesWebinarsReports
+Localization courses
+Help centerChangelogShipped by LokaliseAlternativesDeveloper hub
+Company
+CareersAbout usFind a partnerBecome a partnerInnovation & research plan
+Log in
+Try it free
+1:1 demo
+Interactive demo
+Talk to Sales
+
+Solution
+
+Use cases
+
+Pricing
+
+Resources
+
+Company
+
+Log in
+
+Try it free
+Demo
+
+New packages to 
+fuel your revenue growth*
+
+* No hidden fees, transparent pricing guaranteed. 
+
+All plans come with a free 14-day trial, no credit card required. 
+
+Talk to Sales
+
+Lokalise is loved by large global companies
+
+Billed monthly
+Billed yearly
+Explorer
+Growth
+Advanced
+Enterprise
+
+For teams that want the essentials, done right and fast
+
+For scaling teams that need better automation and control
+
+For teams with complex, multi-product workflow and setups
+
+For global orgs with bespoke security and support needs
+
+$149/mo
+
+with annual billing
+
+$379/mo
+
+with annual billing
+
+$1049/mo
+
+starting at, with annual billing
+
+Get an estimate - contact us
+
+Try free
+Try free
+Book a demo
+Book a demo
+
+Everything to get started, plus
+
+Unlimited hosted words
+
+24/7 customer support
+
+Limited workflow templates
+
+Document localization
+
+Tasks
+
+Everything in Explorer, plus
+
+40k/yr Pro AI translated words, total
+
+Unlimited Standard AI/MT translated words
+
+Unlimited projects
+
+Unlimited languages
+
+Basic workflow templates
+
+Glossary & translation memory
+
+Everything in Growth, plus
+
+150k/yr Pro AI translated words, total
+
+Custom AI Profiles (limited)
+
+Style guide
+
+User groups
+
+Flexible workflow automations
+
+Branching and versioning
+
+2FA and secure password configuration
+
+Everything in Advanced, plus
+
+400k/yr Pro AI translated words, total
+
+Custom AI Profiles 
+
+Unlimited integrations 
+
+Custom workflows
+
+Priority support and dedicated CSM manager
+
+Audit logs
+
+SSO
+
+Compare all features & allowances
+Explorer
+Growth
+Advanced
+Enterprise
+Try free
+Try free
+Book a demo
+Book a demo
+Capacity & usage
+Hosted words
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Standard AI/MT translated words
+
+240K/yr
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Projects
+
+5
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Languages
+
+10
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Standard seats
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Processed words
+
+from 60K/year
+
+Add-on bundles available
+
+from 225K/yr
+
+Add-on bundles available
+
+from 1M/yr
+
+Add-on bundles available
+
+Custom
+
+Pro AI translated words
+
+Add-on only
+
+Add-on bundles available
+
+from 40k/yr
+
+Add-on bundles available
+
+from 150k/yr
+
+Add-on bundles available
+
+Custom
+
+Advanced seats
+
+5
+
+Extra seat $100/yr
+
+10
+
+Extra Seats on demand
+
+15
+
+Extra Seats on demand
+
+Custom
+
+Integrations
+
+2
+
+3
+
+Incl. Figma for 1 project
+
+5
+
+Incl. Figma
+
+Unlimited
+
+Incl. Figma, SFDC
+
+Automations
+
+25
+
+50
+
+100
+
+Custom
+
+OTA calls
+
+Unlimited requests 
+
+10 GB/mo data transfer
+
+Add-on bundles available
+
+Unlimited requests 
+
+50 GB/mo data transfer
+
+Add-on bundles available
+
+Unlimited requests 
+
+200 GB/mo data transfer
+
+Add-on bundles available
+
+Custom
+
+AI features
+Context-aware
+Scoring
+Multi-LLM Smart Routing
+Custom AI profiles (RAG)
+
+Only TM-based 
+
+profile available
+
+Vantage
+NEW
+Contextual Text Grouping
+In-Context Previews
+Smart HITL Routing
+Translation management
+Paged documents (Microsoft, HTML)
+Spelling/ Grammar
+Glossary
+Translation memory
+Translation history
+Paged documents (Adobe Formats)
+In-context editors (web, mobile)
+Screenshots
+Shared Glossary
+Translation memory management
+Styleguide
+Auto snapshots
+Collaboration / Project Management
+Collaborative web-based editor
+Tasks
+Task locks
+Custom translation statuses
+Versioning of documents
+Chained tasks
+Branching
+Workflow Automation and Customization
+Workflow triggers
+
+Daily
+
+Daily
+
+Daily, Weekly
+
+Daily, Weekly, Hourly
+
+Workflow templates
+
+Limited
+
+Basic
+
+With Translation Memory
+
+Advanced
+
+With AI Scoring
+
+Advanced
+
+With AI Scoring
+
+Custom workflows
+Reporting & Analysis
+Translation quality dashboard
+Usage dashboard
+Tasks insights
+Audit logs
+Vendor rate profiles
+Ability to download granular tasks data
+Additional filters by project and contributors
+AI scoring
+Security & Permissions
+Permissions management (access control)
+User groups
+Secure password configuration
+2FA
+Single Sign-On (SAML)
+Support
+24/7 support
+Digital success services
+Priority support
+Dedicated CSM manager
+Regular business reviews
+Private communication channel
+Solutions engineer
+Premium success
+
+Contact sales
+
+Workflow audits
+
+Contact sales
+
+Case studies
+
+Behind the scenes of localization with one of Europe’s leading digital health providers
+
+Read more
+Case studies
+Product
+
+AI translation
+
+AWS Marketplace
+
+Integrations
+
+Security
+
+Pricing
+
+Analytics
+
+Support
+
+Contact
+
+Documentation
+
+Status
+
+Product updates
+
+CLI tool
+
+API reference
+
+iOS SDK
+
+Android SDK
+
+Supported file formats
+
+Talk to Sales
+Company
+
+About
+
+Blog
+
+Careers 🚀
+
+Library
+
+Partners
+
+Case studies
+
+Media kit
+
+Subscription Preferences
+
+Localization Courses
+
+Legal
+
+Terms of service
+
+Privacy policy
+
+Cookie policy
+
+Cookies settings
+
+DPA
+
+List of sub-processors
+
+Candidates privacy notice
+
+Imprint
+
+Dev Hub Terms
+
+AI Statement
+
+Follow
+
+Localization workflow for your web and mobile apps, games and digital content.
+
+©2017-2026
+
+All Rights Reserved.
+
+We use cookies to personalize content and ads, to analyze our traffic. We also share information about your use of our site with our advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. For more detailed information please check ourCookie Policy
+Cookies settings
+Reject all Accept cookies

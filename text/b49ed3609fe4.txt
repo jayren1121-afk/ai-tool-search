@@ -1,0 +1,212 @@
+Products
+Apps
+Docs
+Pricing
+Contact us
+Log in
+Sign up
+Pricing
+
+Free to build. Pay when your integrations go to production.
+
+Free
+
+$0
+
+Free, no credit card required
+
+Everything you need to build and test
+
+Get started
+
+Includes:
+
+Every feature, in development
+3,000+ connectors
+10,000+ prebuilt tools and triggers
+Unlimited team members
+Community support
+Startup
+Monthly
+Annual
+
+$99 per month
+$ 
+0
+1
+9
+0
+1
+2
+3
+4
+5
+9
+0
+
+per month, billed annually
+
+Ship your integrations and agents to production
+
+Start building
+
+Everything in Free, plus:
+
+Run in production
+100 users included, then $2 per user
+10,000 usage credits included
+Email support
+Business
+
+Custom
+
+Annual billing
+
+Volume pricing, enterprise security, SLAs, and dedicated support
+
+Contact us
+
+Everything in Startup, plus:
+
+Volume pricing for users and usage
+SSO, SCIM, and HIPAA
+Dedicated static egress IPs
+SLAs and dedicated Slack support
+Compare plans
+Feature
+	Free	Startup	Business
+Build
+Managed auth for 3,000+ APIs	
+Included
+	
+Included
+	
+Included
+
+10,000+ prebuilt tools & triggers	
+Included
+	
+Included
+	
+Included
+
+MCP servers	
+Included
+	
+Included
+	
+Included
+
+Connect proxy	
+Included
+	
+Included
+	
+Included
+
+Custom OAuth clients	
+Included
+	
+Included
+	
+Included
+
+Team members	Unlimited	Unlimited	Unlimited
+Production & usage
+Production environment	—
+Not included
+	
+Included
+	
+Included
+
+External users	Development only	100 included, then $2 each	Volume pricing
+Usage credits	Development only	10,000 included, then $0.012 each	Volume pricing
+Billing	Free	Monthly or annual	Annual contract
+Security & compliance
+SOC 2 Type 2 and GDPR	
+Included
+	
+Included
+	
+Included
+
+Single sign-on (SSO)	—
+Not included
+	—
+Not included
+	
+Included
+
+SCIM provisioning	—
+Not included
+	—
+Not included
+	
+Included
+
+HIPAA	—
+Not included
+	—
+Not included
+	
+Included
+
+Dedicated static egress IPs	—
+Not included
+	—
+Not included
+	
+Included
+
+Support
+Support channel	Community	Email	Dedicated Slack
+SLAs	—
+Not included
+	—
+Not included
+	Priority
+Secure by design.
+
+Credentials are encrypted at rest, scoped per project, and never exposed to your app — revoke any account with one API call.
+
+Read the security docs →
+
+JOIN THOUSANDS OF TEAMS BUILDING ON PIPEDREAM
+
+Questions
+What counts as an external user?
+What happens when I pass 100 external users?
+What are usage credits?
+What's the difference between development and production?
+How do I cancel or downgrade?
+
+Need something else? Talk to us.
+
+Start building for free
+
+Full access in development — no credit card, no paid plan until you move to production.
+
+Start building
+Read the docs →
+
+Pipedream is the integration layer for AI agents
+
+PRODUCT
+Connect
+Conduit
+Apps
+Pricing
+DEVELOPERS
+Documentation
+TypeScript SDK
+Tool Registry
+Status
+COMPANY
+Support
+Security
+Terms
+Privacy
+Contact us
+
+© 2026 Pipedream, Inc.

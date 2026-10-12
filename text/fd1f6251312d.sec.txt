@@ -1,0 +1,54 @@
+Free
+Get started
+Features include:
+Hex agent trial
+Connect any data source
+---
+Professional
+---
+For individuals accelerating data insights and solo workflows.
+---
+$36 per Editor / month
+Get started
+Everything in Community, plus:
+Hex agent
+Standard credits
+Up to 5 published apps
+---
+Team
+---
+For companies collaborating with data and automating manual work.
+---
+$75 per Editor / month
+Try 14 days free
+Everything in Professional, plus:
+Extended credits
+Unlimited published apps
+---
+Custom
+Contact Sales
+Everything in Team, plus:
+---
+Audit logs
+Premium credits
+OAuth database connections
+---
+Team
+Try 14 days free
+Enterprise
+Contact Sales
+Unlimited users
+Hex agent
+Credits
+Limited
+---
+Explorer role
+Per seat add-on
+Data
+---
+FAQ
+How does the free trial work?
+How do I cancel or change my plan?
+How do you handle security and compliance?
+How do credits work?
+Do you have a discount for students and educators?

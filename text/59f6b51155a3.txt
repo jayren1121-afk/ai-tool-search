@@ -1,0 +1,954 @@
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+Customize
+Reject All
+Accept All
+Product
+Solutions
+Resources
+AI
+Customers
+Pricing
+Contact
+Log In
+Sign Up
+Simple, transparent pricing
+
+Choose the plan that fits your team. Start free and scale as you grow.
+
+For individuals and teams
+Monthly
+Annual
+2 months FREE
+Free
+
+Start localizing your content for free, all essential features for translators included.
+
+$0/mo
+Get Started
+Hosted words:
+60K
+Private projects:
+1
+
+Free plan includes:
+
+Crowdin AI
+Unlimited public projects
+1 integration
+Unlimited translators
+
+*Users on a free plan donate translations to Crowdin's translation memory.
+
+Pro
+
+Create private projects to localize your product. Unlimited translator seats are included.
+
+from $50/mo
+
+Billed annually ($600/year)
+
+Subscribe
+60K hosted words
+
+Pro plan includes:
+
+Crowdin AI
+Unlimited public projects
+Unlimited translators
+2 integrations
+2 private projects
+Security Keys and Passkey Sign-in
+Team
+
+Add managers who will be able to upload files, invite people, and connect integrations.
+
+from $150/mo
+
+Billed annually ($1,800/year)
+
+Subscribe
+100K hosted words
+5 managers included
+
+All features from Pro plan, plus:
+
+Crowdin AI
+Developer / Translation Requestor role
+Language coordinator role
+3 integrations
+Unlimited private projects
+Task-based access control
+
+Our prices exclude VAT, GST, or any other taxes that may be applicable in your region.
+
+For organizations
+Annual billing only
+Team+
+
+Get your own private organization, create project groups and set up workflow automation.
+
+from $450/mo
+
+Annual billing only ($5,400)
+
+Contact Sales
+500K hosted words
+5 managers included
+
+All features from Team plan, plus:
+
+Crowdin AI
+Unlimited integrations
+Data Residency
+Project groups
+Invoice-based payment
+Advanced workflows
+Only 2FA sign-in
+Enhanced user management
+Custom Properties
+More apps available (like LQA)
+Custom QA Checks & Custom Placeholders
+Client↔Vendor collaboration
+Reports at organizational level
+Business
+
+Securely manage large, multi-team localization projects with enterprise flexibility & control.
+
+Contact Sales
+
+All features from Team+ plan, plus:
+
+Crowdin AI
+Permissions granularity
+Data Residency
+Teams
+Custom Properties
+Single Sign-On (SAML SSO)
+SCIM user provisioning
+SIEM
+Priority support & SLAs
+High volume pricing
+IP allowlist
+Slack support
+Unlimited activity history
+
+Our prices exclude VAT, GST, or any other taxes that may be applicable in your region.
+
+Add-ons
+CDN for Translations
+
+Crowdin SDK for Android and iOS apps provides over-the-air content delivery, real-time translation preview, screenshots upload and tagging.
+
+Pricing
+
+Requests
+$ 3 / 1M
+Data transfer
+$ 2 / 10GB
+If you have up to 1M requests and 10GB of data transfer, it's free.
+Managed Services
+
+Managed Balance lets you prepay for additional services in Crowdin without needing external accounts or subscriptions.
+
+Machine Translation (e.g., DeepL, Google Translate)
+AI content generation and proofreading
+Professional translation services from Crowdin Language Services
+Compare Plans
+
+Choose the plan that meets your requirements feature-wise.
+
+Feature	
+	
+
+
+Free
+Free
+	
+Pro
+from $50/mo
+	
+Team
+from $150/mo
+	
+Team+
+from $450/mo
+	
+Business
+Contact Sales
+
+THE BASICS
+
+
+Hosted words
+	Up to 60K	Starting at 60K	Starting at 100K	Starting at 500K	Custom
+
+Translators
+	Public projects only	Unlimited	Unlimited	Unlimited	Unlimited
+
+Public projects
+	Unlimited	Unlimited	Unlimited	Unlimited	Unlimited
+
+Private projects
+	1	2	Unlimited	Unlimited	Unlimited
+
+Managers included
+	
+Not included
+	
+Not included
+	5	5	10
+
+Developer / Translation Requestor role
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Language coordinator role
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Task-based access control
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+TEAM COOPERATION
+
+
+Translation vendor marketplace
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Invite own translators
+	Public projects only	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Moderated project joining
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Basic reports
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Advanced reports
+Cost Estimate, Translation Cost
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Activity stream
+History and versions, undos
+	
+Not included
+	
+Not included
+	1 year	1 year	Unlimited
+
+Permissions granularity
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+TRANSLATOR'S EFFICIENCY
+
+
+QA checks
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Screenshots
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Glossary
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Machine translation engines
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Crowdin AI
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Automatic glossary suggestions
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Translation Memory
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+In-Context visual editor
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Custom QA Checks & Custom Placeholders
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+Source text review
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+SECURITY & MANAGEMENT
+
+
+Security log
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Custom domain name
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Only 2FA sign-in
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+G Suite OAuth
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+Invoice-based payment
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+IP allowlist
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+
+Single Sign-On (SAML SSO)
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+
+SCIM user provisioning
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+
+SIEM
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+
+High volume pricing
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+WORKFLOW AUTOMATION
+
+
+Advanced workflows
+	
+Not included
+	
+Not included
+	Pre-translation	Advanced	Advanced
+
+Organization
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+Project groups
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+Teams
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+INTEGRATIONS
+
+
+Number of integrations
+	1	2	3	Unlimited	Unlimited
+
+Enterprise integrations
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+
+
+API
+	Crowdin API	Crowdin API	Crowdin API	Enterprise API	Enterprise API
+
+CLI
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Android / iOS SDK
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Branches
+	1	2	Unlimited	Unlimited	Unlimited
+
+Webhooks
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+File formats
+	3	5	15	Unlimited	Unlimited
+
+Custom file formats
+	
+Not included
+	
+Not included
+	1	
+Included
+	
+Included
+
+SUPPORT
+
+
+Support
+	Community / Knowledge Base	Email / Knowledge Base	Email / Chat	Email / Chat	Priority
+
+Support calls
+* Onboarding during the first month is available on all plans
+Request a call
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+
+
+Custom development
+Contact Sales
+	
+Not included
+	Paid add-on	Paid add-on	Paid add-on	Paid add-on
+
+Custom SLA
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+
+Custom agreements
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Not included
+	
+Included
+
+ADD-ONS
+
+
+Additional quota for over-the-air delivery
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Additional hosted words
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+	
+Included
+
+
+Additional managers
+	
+Not included
+	
+Not included
+	
+Included
+	
+Included
+	
+Included
+Calculate your price
+
+Choose the plan that meets your requirements feature-wise. Then customize by adding managers and hosted words to it.
+
+Select a Plan
+Pro
+Team
+Crowdin.com
+Team+
+Business
+Crowdin Enterprise
+Managers not available
+10
+25
+40
+55
+70
+85
+100
+
+The Language Coordinator role counts as a manager in the total number of managers available.
+
+60,000 hosted words
+60K
+80K
+110K
+160K
+360K
+560K
+1.06M
+Monthly
+AnnualSave 15%
+
+Total cost
+
+$
+50
+/mo
+
+Billed annually ($ 600/year)
+
+Subscribe
+
+The monthly cost is calculated based on the core plan plus the add-ons you choose.
+
+To discuss your subscription or any extra limits, contact our team. We'll make sure to come up with a solution that is right for you.
+
+Connect 700+ apps & integrations
+
+Automate translation & localization of your content. Send source texts automatically to Crowdin, translate, and sync translations back. No copy-pasting or sending files via email. Automate content sync and focus on other tasks.
+
+View 700+ Apps & Integrations
+Open Source Program
+Crowdin for Open Source
+
+We support the open source community. If you're building awesome non-profit projects that could use the power of Crowdin, we're happy to help with this free option. Make your content multilingual to reach a global audience.
+
+Request Open Source License
+Frequently Asked Questions
+
+Can't find the answer you're looking for? Reach out to our support team.
+
+Contact Support
+What are hosted words?
+Should I choose Crowdin or Crowdin Enterprise?
+Can I get a free trial?
+Can I change my plan?
+Can I get an additional project or source strings?
+Do you accept payments by international wire transfer?
+Do you have plans for open-source projects and educational institutions?
+What is the money back guarantee?
+Is there a limit to the number of translators and proofreaders?
+Ready to transform your localization?
+
+Join thousands of teams already localizing with Crowdin
+
+Start Free Trial
+Contact Sales
+Main
+Pricing
+
+Products
+
+Why Crowdin?
+Crowdin Enterprise
+Book Demo Call
+Apps and Integrations
+Explore Public Projects
+Pricing
+
+Localization Use Cases
+
+Software Localization
+UI Translations
+Mobile App Localization
+Game Translation
+Multilingual Marketing
+Website Translation
+Translate Documents, KB
+Subtitles & Dialogs
+E-Commerce, DB, UGC
+
+Technologies
+
+AI Translation
+AI Context Enrichment
+Data Sync
+Vendor Integrations
+OTA Content Delivery
+Translator's Workbench
+In-Context Translations
+Localization Analytics
+Quality Assurance
+Workload Management
+
+Resources
+
+Blog
+Help Center
+Developer Portal
+Resources
+Community
+
+Podcasts
+
+Company
+
+About Us
+Customers
+Case Studies
+Security
+Contact Us
+
+Follow Us
+
+Legal
+
+Terms and Conditions
+Privacy Policy
+Information Security Policy
+Cookies Statement
+Sub-processors
+•
+Status
+•

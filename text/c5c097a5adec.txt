@@ -1,0 +1,487 @@
+Platform
+Platform
+Solutions
+Solutions
+Resources
+Resources
+Company
+Company
+Pricing
+Pricing
+Log In
+Free Trial
+Get A Demo
+Get A Demo
+Get the AI built for better marketing results
+
+Jasper’s plans & pricing are designed to meet your needs as you grow
+
+Monthly
+Yearly
+Save ~20%
+Pro
+$
+59
+month/
+seat
+
+Powerful AI to help you stay on-brand, even at scale.
+
+Start Free 7-Day Trial
+Start Free 7-Day Trial
+
+Plan includes:
+
+Includes 1 seat
+Canvas platform for accelerated, on-brand content creation
+
+Agents for core marketing workflows
+Smart customization with 2 Brand Voices, 5 Knowledge assets and 3 Audiences
+
+Business
+custom
+pricing
+
+The AI platform built to elevate your brand and accelerate the impact of your team.
+
+Contact Sales
+Contact Sales
+
+Plan includes everything in Pro, plus:
+
+Agents for complex marketing workflows, including GEO, translations, and deep research
+No-code builder to create Custom AI Agents
+Jasper Grid for scaled systematic content execution
+Unlimited IQ customization: Brand Voices, Knowledge, Audiences
+API access
+Enterprise-grade governance: Admin controls and Groups
+Dedicated account management & priority support
+Secure and flexible deployment options
+
+Pro
+
+Start Free Trial
+Start Free Trial
+
+Business
+
+Contact Sales
+Contact Sales
+Jasper IQ
+
+Audiences
+
+Transform static personas into dynamic, actionable AI inputs, to define, manage, and apply audience insights across every asset.
+
+3 audiences
+Unlimited
+
+Brand Voice
+
+Let AI analyze your content's tone of voice, then set tone and formatting rules so Jasper's writing always sounds like you.
+
+2 voices
+Unlimited voices
+
+Marketing Best Practices
+
+Jasper’s proprietary marketing knowledge layer deeply understands marketing, and sits atop the general purpose LLM to deliver outputs fine-tuned to marketing best practices.
+
+Multi-Modal Company Knowledge
+
+Ensure all outputs are grounded in your company's institutional knowledge by uploading text, video, image, data, or audio assets for Jasper to ingest and reference.
+
+5 multi-modal knowledge assets
+Unlimited multi-modal knowledge assets
+
+Style Guide
+
+Maintain a series of rules in a style guide that ensures you're always on-brand, and see these style guide updates visually in the editor with x-ray view.
+
+-
+
+Visual Guidelines
+
+Eliminate design bottlenecks and accelerate time to market by ensuring that content is high-quality and on-brand.
+
+-
+Unlimited
+Jasper's LLM-Optimized Architecture
+
+LLM Routing & Maintenance
+
+Jasper's AI Engine leverages several large language models, fine tuned for marketing-specific needs, so you get the highest quality outputs and superior uptime.
+
+30+ Languages
+
+Easily create or repurpose content in over 30 languages.
+
+Jasper Platform
+
+Jasper Studio
+
+Design and deploy context-rich, no-code AI agents and workflows that transform your marketing processes.
+
+-
+
+Custom Workflows & Agents
+
+Let our team create custom Agents and Workflows to fit your business needs.
+
+-
+
+100+ Purpose-Built Marketing Agents
+
+Enable every marketer, across every function, to accelerate AI adoption and time to value with pre-built Agents fine-tuned for marketing use-cases.
+
+Custom Agents
+
+Build and publish a Custom Agent that maps any marketing task to your company’s unique processes to accelerate business impact and create consistency across your team.
+
+-
+
+Document Collaboration
+
+Built-in features that allow for real-time interaction among your team members.
+
+-
+
+Remix Content
+
+Repurpose existing content into new assets for other marketing channels.
+
+Plagiarism Checker
+
+Scan your content for sources using our add-on for Copyscape, the best plagiarism search on the web.
+
+Marketing Editor
+
+Write, edit, and format all of your content inside our user-friendly document editor.
+
+Rephrase & Rewrite
+
+Highlight text and with 1-click you can improve your writing, change the tone, adjust the length, or repurpose for a different channel.
+
+Chat
+
+Our chatbot can assist you with tasks, do research quickly, and answer questions all through a human-like conversation.
+
+Visual & Multimodal Functionality
+
+The Jasper AI Image Suite
+
+Integrate state of the art image processing & AI capabilities directly in your products.
+
+Image Generation & Editing
+
+Create new campaign imagery and update existing assets using natural language while maintaining a cohesive visual brand everywhere.
+
+Replace Image Background
+
+Replace the background of an image automatically or using a prompt.
+
+Image Upscaling
+
+Boost image resolution while preserving every detail. Quickly create sharper, more impactful visuals with ease.
+
+Packshot Compositing
+
+Create studio style product photographs with life-like shadows on a branded background.
+
+Remove Image Background
+
+Quickly and accurately remove backgrounds while keeping high-quality image details.
+
+Remove Image Text
+
+Repurpose any image by removing text with ease.
+
+Make Image Square
+
+Uncrop your photos to fit into square formats.
+
+Extensions, Integrations & API
+
+API Access
+
+Build a custom integration or automate manual processes with Jasper's API.
+
+-
+
+API Integration
+
+Get on-brand AI wherever you work using Jasper API-powered integrations like BigQuery, Google Sheets, Zapier, Make and more.
+
+-
+
+Integrations
+
+Tap into our growing integrations marketplace to level-up your AI processes with Webflow, Google Docs, Slack and more.
+
+Browser Extension
+
+Use AI everywhere you work by adding the Jasper extension to your Chrome or Edge browser.
+
+Account Management & Organization
+
+User Logins
+
+Collaborate on content with your team.
+
+Single user
+Large teams
+
+Team Usage & Analytics
+
+See valuable data on team usage over time including total generations, active users, hours saved & more.
+
+-
+
+Advanced Admin Controls
+
+Gain 100% control over your Jasper instance with the ability to toggle on or off core features like image generation at the workspace level.
+
+-
+
+Sharing & Project Management
+
+Share documents between your team and apply status labels to quickly know what's ready for review.
+
+-
+
+User Management
+
+Control who can access documents in your workspace with user-specific permission settings to make them private, view-only, editable, or available to everyone in your workspace.
+
+-
+
+Personal Usage Analytics
+
+See data on your individual usage over time including total generations, hours saved & more.
+
+History & Backups
+
+Automatically saves your content in the document editor with the ability to view and restore previous versions of the document going back 7 days.
+
+Save, Star, Tag
+
+Save your prompts & outputs for later, or star your favorites for a more organized workspace.
+
+Data Security & Privacy
+
+SSO
+
+Single sign-on to securely authenticate all users’ logins.
+
+-
+
+Enterprise Security
+
+Your data is not only protected from threats, but also completely under your control.
+
+-
+
+SCIM
+
+Easily provision and manage user identities across different applications.
+
+-
+
+Role-Based Permissions
+
+Set up users in your workspace with admin, manager, or member roles, and permissions to create Groups, Brand Voices, Audiences, Knowledge, Style Guide rules, and Visual Guidelines, and permission to publish Studio agents.
+
+-
+
+Security
+
+Built with robust enterprise access control and regular security audits.
+
+SOC2 Compliant
+
+Jasper is SOC 2 certified to meet the strict technical and organizational requirement for protecting customer data and follows best practices for cybersecurity.
+
+Reliability
+
+We’re proud to have 99% uptime thanks to our multi-model interoperability and enterprise-grade infrastructure.
+
+Data Privacy
+
+Your data and outputs are safe with Jasper - we never permit third parties to train their AI models with Jasper customer data, and data is encrypted in transit and at rest.
+
+Onboarding & Support
+
+Dedicated Customer Success Manager
+
+Your organization will be assigned a dedicated Customer Success Manager to create an action plan, and implement AI into you workflows, and train your team on best practices.
+
+-
+
+Product training
+
+Attend live workshops or watch our on-demand series Jasper Jumpstart to learn how to use Jasper to its fullest potential.
+
+Support
+
+Get your questions answered from our global customer success team.
+
+Email
+Priority Support
+
+Trust Foundation
+
+Enterprise-grade security, quality outputs
+
+Enterprise-grade security and an LLM-agnostic architecture prioritize your data protection & privacy while providing superior quality marketing outputs.
+
+Explore Trust & Safety
+Explore Trust & Safety
+FAQs
+Questions about Jasper Basics
+How much does Jasper cost?
+
+Jasper's pricing is transparent and meets your business needs as you grow. There are two plans to choose from:
+
+Business: (custom pricing tailored for your company's needs. Includes personalized AI features with additional control, security, team training & tech support.)
+Pro: $59/month billed yearly or $69/month billed monthly (cancel anytime). Includes advanced AI features to create content for multiple brands & collaborate on campaigns.
+
+The most popular plan is the Business plan for its rich feature-set and ability to add teammates into your workspace. If you need personalized AI features with additional control, security, team training & tech support, then The Business Plan is for you.
+If you prefer to explore Jasper on your own, start a free trial and see for yourself how Jasper is the better AI for business.
+
+
+What is Jasper?
+Why should I choose Jasper?
+Common Billing Questions
+How do Jasper credits work?
+
+Some usage-based features, like the GEO Hub and Agents, run on credits, which sit alongside seat-based pricing on the Business plan. Credits are consumed per action (for example, each GEO Hub report run), and admins can view and govern their workspace's credit allocation. Standard content creation in Chat and Canvas is not what drives credit usage. You can see current rates on the Jasper credits rate card.
+
+What’s the cost of additional users?
+What payment methods do you support?
+What’s the cancellation policy?
+What’s the commitment?
+What currencies does Jasper accept?
+Do you offer yearly price plans?
+Do you offer free trials?
+I am a nonprofit. Do you offer any discounts?
+Do you offer Enterprise plans?
+Can I upgrade to a different plan at a later time?
+Common Product Questions
+Does Jasper support SSO and SAML?
+
+Yes. Single sign-on (SSO) is available on the Business plan and supports SAML 2.0, including Okta, Azure AD, and Google Workspace. Role-based access controls and an in-app AI audit log are also included, so admins can govern who has access and how the platform is used across their team.
+
+What security and compliance certifications does Jasper have?
+What does Jasper do with my data?
+What is Jasper’s Fair Use Policy?
+Can I use Jasper for my client’s sites?
+Have additional questions?
+Read help articles & FAQs
+
+Explore the Help Center
+
+Get customer support
+
+Email hey@Jasper.ai
+
+Learn more about Jasper
+
+Get a demo
+
+Jasper Closing CTA
+Share
+Start creating with Jasper today
+Start Free Trial
+Start Free Trial
+Get A Demo
+Get A Demo
+Platform
+GEO & AI Optimization
+Agents
+Research
+Translation
+Content Pipelines
+AI Studio
+Jasper Grid
+Canvas
+Marketing AI Editor
+Jasper Chat
+Image Pipelines
+Jasper APIs
+Jasper MCP
+Image APIs
+Jasper IQ
+Marketing IQ
+Product IQ
+Knowledge Base
+Brand IQ
+Brand Voice
+Visual Guidelines
+Style Guide
+Solutions
+Solutions by Use Case
+GEO
+SEO & AEO
+Personalization
+Campaigns
+Solutions by Role
+Product Marketing
+Content Marketing
+Performance Marketing
+Field & Events Marketing
+Brand Marketing
+PR & Communications
+Solutions by Industry
+Financial Services
+Healthcare & Life Sciences
+Technology
+Retail & Consumer Goods
+Media & Entertainment
+Professional Services
+Resources
+Diagnostics & Tools
+GEO Diagnostic
+Brand Compliance
+Jasper ROI Calculator
+Discover
+Blog
+Customer Stories
+Events & Webinars
+Prompt Library
+The State of AI in Marketing 2026
+Jasper vs Profound
+Learn
+Courses
+Explore Jasper Workflows
+Get Support
+Contact Support
+FAQ & Help Articles
+Hire a Professional Partner
+Company
+Information
+About Jasper
+Newsroom
+Careers at Jasper
+Legal Information
+Company Logos
+Browser Extensions
+Integrations
+Trust Foundation
+LLM-Optimized Architecture
+Security
+Governance
+Compliance
+Ethics at Jasper
+Become a Partner
+Become a Solutions Partner
+Become a Tech Partner
+Pricing
+Enterprise
+Get A Demo
+Get A Demo
+Start Free Trial
+Start Free Trial
+© 2026 Jasper AI, INC.
+Privacy Policy
+Terms of Service
+Legal Center
