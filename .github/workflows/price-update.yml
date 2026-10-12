@@ -6,7 +6,7 @@ name: 價格資料每日更新
 
 on:
   schedule:
-    - cron: "27 12 * * *"   # UTC 12:27 = 台灣時間 20:27
+    - cron: "0 4 * * *"   # UTC 04:00 = 台灣時間 16:00
   workflow_dispatch:
     inputs:
       new_round:
