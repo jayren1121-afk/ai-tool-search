@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { releaseText } from "@/lib/i18n";
+import PriceReviewSection, { type PriceReviewData } from "./PriceReviewSection";
 import HealthSection, { type HealthItem, type HealthRun, type HealthStats } from "./HealthSection";
 import { CATEGORIES } from "@/lib/types";
 
@@ -76,7 +77,7 @@ function Card({ t, onDone }: { t: PendingTool; onDone: (msg: string) => void }) 
 
 export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs: HealthRun[]; error: string | null; movedReady?: boolean; moved?: HealthItem[] };
 
-export default function AdminPanel({ pending, runs, setupError, health }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData }) {
+export default function AdminPanel({ pending, runs, setupError, health, prices }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData; prices?: PriceReviewData }) {
   const router = useRouter();
   const [msg, setMsg] = useState(""); const [running, setRunning] = useState(false);
   const last = runs[0];
@@ -111,6 +112,8 @@ export default function AdminPanel({ pending, runs, setupError, health }: { pend
         <button onClick={runNow} disabled={running} className="mt-3 w-full rounded-lg bg-indigo-600 px-4 py-3 font-medium text-white disabled:opacity-50 sm:w-auto">{running ? "執行中…" : "立即執行一次自動發現"}</button>
         <p className="mt-1 text-xs text-slate-400">每天最多自動新增 1 筆；今天已新增過時會顯示「略過」。</p>
       </section>
+
+      {prices && <PriceReviewSection data={prices} />}
 
       {health && <HealthSection items={health.items} stats={health.stats} runs={health.runs} error={health.error} movedReady={health.movedReady} moved={health.moved} />}
 
