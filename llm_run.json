@@ -1,0 +1,38 @@
+{
+ "started": "2026-10-13 17:07:44 +0800",
+ "providers_order": [
+  "groq",
+  "openrouter"
+ ],
+ "skipped_no_key": [
+  "cerebras",
+  "mistral"
+ ],
+ "per_provider": {
+  "groq": {
+   "model": "openai/gpt-oss-120b",
+   "primary": true,
+   "down": null,
+   "calls": 3,
+   "ok": 3,
+   "tokens": 5793,
+   "rl429": 0,
+   "errors": 0
+  },
+  "openrouter": {
+   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+   "primary": false,
+   "down": null,
+   "calls": 0,
+   "ok": 0,
+   "tokens": 0,
+   "rl429": 0,
+   "errors": 0
+  }
+ },
+ "stopped_reason": "達到 LLM_LIMIT=3",
+ "pages_done": 3,
+ "upgraded": 0,
+ "errors": 0,
+ "finished": "2026-10-13 17:07:49 +0800"
+}

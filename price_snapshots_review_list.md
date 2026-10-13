@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：21 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：180 筆
+- 可批次核准（無旗標）：22 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：184 筆
 
 核准單筆範本：
 ```sql
@@ -186,7 +186,11 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **iask**（iAsk）旗標：llm_fallback_model, name_diff；資料集方案 ['Unlimited'] vs 新 ['iAsk Free', 'iAsk Pro']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://iask.ai/pricing；擷取 2026-10-12T13:40:43+08:00
 - **languagetool**（LanguageTool）旗標：has_promo, name_far_from_price, name_missing, price_near_quote；None: name_missing; None: name_missing; None: name_missing; For Teams: name_far_from_price；來源 https://languagetool.org/pricing；擷取 2026-10-12T13:40:44+08:00
 - **smartlead**（Smartlead）旗標：llm_fallback_model, name_diff, period_ambiguous_toggle, price_change；資料集方案 ['Basic', 'Pro', 'Unlimited', 'Premium', 'Free'] vs 新 ['Base', 'Pro', 'Unlimited Smart', 'Unlimited Prime']; Unlimited: 資料集 $174.0/月 → 官網 $315.0; Base: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Unlimited Smart: period_ambiguous_toggle; Unlimited Prime: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.smartlead.ai/pricing；擷取 2026-10-12T13:40:46+08:00
+- **xmind-ai**（Xmind）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://xmind.com/pricing；擷取 2026-10-12T13:40:53+08:00
+- **landbot**（Landbot）旗標：dropped_fields, has_promo, period_ambiguous_toggle；Professional WA: period_ambiguous_toggle；來源 https://landbot.io/pricing；擷取 2026-10-12T13:41:00+08:00
 - **pixlr**（Pixlr）旗標：period_ambiguous_toggle, price_change；Ultra: 資料集 $24.99/月 → 官網 $49.99; Plus: period_ambiguous_toggle; Premium: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; Ultra MAX: period_ambiguous_toggle；來源 https://pixlr.com/pricing；擷取 2026-10-12T13:41:00+08:00
+- **coderabbit**（CodeRabbit）旗標：dropped_fields, period_ambiguous_toggle；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.coderabbit.ai/pricing；擷取 2026-10-12T13:41:06+08:00
+- **tana**（Tana）旗標：has_promo；；來源 https://tana.inc/pricing；擷取 2026-10-12T13:41:15+08:00
 - **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-12T13:41:58+08:00
 - **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Ultra: period_ambiguous_toggle; Max: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-12T13:42:06+08:00
 - **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-12T13:42:52+08:00
