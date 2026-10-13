@@ -246,3 +246,8 @@ LLM 結束： 所有已設定的提供者今天額度都用完了（明天自動
 2 ok openai/gpt-oss-120b https://www.coderabbit.ai/pricing 1943
 3 ok openai/gpt-oss-120b https://tana.inc/pricing 1637
 LLM 結束： 達到 LLM_LIMIT=3 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 3, "ok": 3, "tokens": 5793, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://agpt.co/pricing 1682
+2 ok openai/gpt-oss-120b https://www.visme.co/pricing 2136
+3 ok openai/gpt-oss-120b https://deepnote.com/pricing 1544
+LLM 結束： 達到 LLM_LIMIT=3 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 3, "ok": 3, "tokens": 5362, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}

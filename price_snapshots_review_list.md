@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：22 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：184 筆
+- 可批次核准（無旗標）：23 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：186 筆
 
 核准單筆範本：
 ```sql
@@ -191,6 +191,8 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **pixlr**（Pixlr）旗標：period_ambiguous_toggle, price_change；Ultra: 資料集 $24.99/月 → 官網 $49.99; Plus: period_ambiguous_toggle; Premium: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; Ultra MAX: period_ambiguous_toggle；來源 https://pixlr.com/pricing；擷取 2026-10-12T13:41:00+08:00
 - **coderabbit**（CodeRabbit）旗標：dropped_fields, period_ambiguous_toggle；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.coderabbit.ai/pricing；擷取 2026-10-12T13:41:06+08:00
 - **tana**（Tana）旗標：has_promo；；來源 https://tana.inc/pricing；擷取 2026-10-12T13:41:15+08:00
+- **beautiful-tables**（Visme）旗標：period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.visme.co/pricing；擷取 2026-10-12T13:41:24+08:00
+- **deepnote**（Deepnote）旗標：has_promo；；來源 https://deepnote.com/pricing；擷取 2026-10-12T13:41:30+08:00
 - **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-12T13:41:58+08:00
 - **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Ultra: period_ambiguous_toggle; Max: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-12T13:42:06+08:00
 - **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-12T13:42:52+08:00

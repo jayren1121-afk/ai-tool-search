@@ -1,5 +1,5 @@
 {
- "started": "2026-10-13 17:07:44 +0800",
+ "started": "2026-10-13 17:15:20 +0800",
  "providers_order": [
   "groq",
   "openrouter"
@@ -15,7 +15,7 @@
    "down": null,
    "calls": 3,
    "ok": 3,
-   "tokens": 5793,
+   "tokens": 5362,
    "rl429": 0,
    "errors": 0
   },
@@ -34,5 +34,5 @@
  "pages_done": 3,
  "upgraded": 0,
  "errors": 0,
- "finished": "2026-10-13 17:07:49 +0800"
+ "finished": "2026-10-13 17:15:24 +0800"
 }

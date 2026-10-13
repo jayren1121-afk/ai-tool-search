@@ -27753,11 +27753,94 @@
  {
   "id": "autogpt",
   "name": "AutoGPT",
-  "status": "pending_llm",
+  "status": "ok",
   "source_url": "https://agpt.co/pricing",
   "fetched_at": "2026-10-12T13:41:24+08:00",
-  "note": "robots 允許；LLM 尚未處理",
-  "rendered_text_len": 8354
+  "note": "robots 允許",
+  "rendered_text_len": 8354,
+  "extracted": {
+   "plans": [
+    {
+     "name": "Pro",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "billed monthly",
+     "evidence_quote": "Pro … $50.00 / month billed monthly",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 50.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    },
+    {
+     "name": "Max",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "billed monthly",
+     "evidence_quote": "Max … $320.00 / month billed monthly",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 320.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    }
+   ],
+   "free_tier": {
+    "available": true,
+    "limits": "7 days",
+    "evidence_quote": "Start free for 7 days",
+    "quote_verified": true
+   },
+   "price_summary": "Pro costs $50.00 per month billed monthly; Max costs $320.00 per month billed monthly. Both offer a 7‑day free trial.",
+   "display_region_note": null
+  },
+  "verify_stats": {
+   "plans_total": 2
+  },
+  "evidence": [
+   {
+    "evidence_quote": "Pro … $50.00 / month billed monthly",
+    "plan": "Pro",
+    "source_url": "https://agpt.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   },
+   {
+    "evidence_quote": "Max … $320.00 / month billed monthly",
+    "plan": "Max",
+    "source_url": "https://agpt.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   },
+   {
+    "evidence_quote": "Start free for 7 days",
+    "plan": "free_tier",
+    "source_url": "https://agpt.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [],
+   "needs_review": false,
+   "details": [],
+   "auto_approvable": true
+  },
+  "price_note": "價格來源：官網價格頁（https://agpt.co/pricing），2026-10-12 擷取"
  },
  {
   "id": "metaso",
@@ -27794,20 +27877,214 @@
  {
   "id": "beautiful-tables",
   "name": "Visme",
-  "status": "pending_llm",
+  "status": "ok",
   "source_url": "https://www.visme.co/pricing",
   "fetched_at": "2026-10-12T13:41:24+08:00",
-  "note": "robots 允許；networkidle 未達；LLM 尚未處理",
-  "rendered_text_len": 5487
+  "note": "robots 允許；networkidle 未達",
+  "rendered_text_len": 5487,
+  "extracted": {
+   "plans": [
+    {
+     "name": "Basic",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "per person",
+     "evidence_quote": "Basic … US $0 /month per person",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote",
+      "price_yearly_total": "in_quote"
+     },
+     "price_monthly": 0.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": 0.0,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    },
+    {
+     "name": "Starter",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "per person",
+     "evidence_quote": "Starter … US $12.25 /month per person",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote",
+      "price_yearly_total": "near_quote"
+     },
+     "price_monthly": 12.25,
+     "price_yearly_per_month": null,
+     "price_yearly_total": 147.0,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [
+      "period_ambiguous_toggle"
+     ]
+    },
+    {
+     "name": "Pro",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "per person",
+     "evidence_quote": "Pro … US $24.75 /month per person",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote",
+      "price_yearly_total": "near_quote"
+     },
+     "price_monthly": 24.75,
+     "price_yearly_per_month": null,
+     "price_yearly_total": 297.0,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [
+      "period_ambiguous_toggle"
+     ]
+    },
+    {
+     "name": "Enterprise",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": null,
+     "evidence_quote": "Enterprise … Custom Pricing",
+     "quote_verified": true,
+     "price_check": {},
+     "price_monthly": null,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    }
+   ],
+   "free_tier": {
+    "available": true,
+    "limits": "Unlimited projects",
+    "evidence_quote": "US $0 /month per person",
+    "quote_verified": true
+   },
+   "price_summary": "Basic is free, Starter $12.25/month (or $147/year), Pro $24.75/month (or $297/year), Enterprise custom pricing",
+   "display_region_note": "US"
+  },
+  "verify_stats": {
+   "plans_total": 4,
+   "price_near_quote": 2,
+   "issue_period_ambiguous_toggle": 2
+  },
+  "evidence": [
+   {
+    "evidence_quote": "Starter … US $12.25 /month per person",
+    "plan": "Starter",
+    "source_url": "https://www.visme.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   },
+   {
+    "evidence_quote": "Pro … US $24.75 /month per person",
+    "plan": "Pro",
+    "source_url": "https://www.visme.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   },
+   {
+    "evidence_quote": "US $0 /month per person",
+    "plan": "free_tier",
+    "source_url": "https://www.visme.co/pricing",
+    "fetched_at": "2026-10-12T13:41:24+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [
+    "period_ambiguous_toggle",
+    "price_near_quote"
+   ],
+   "needs_review": true,
+   "details": [
+    "Starter: period_ambiguous_toggle",
+    "Pro: period_ambiguous_toggle"
+   ],
+   "auto_approvable": false
+  },
+  "price_note": "價格來源：官網價格頁（https://www.visme.co/pricing），2026-10-12 擷取"
  },
  {
   "id": "deepnote",
   "name": "Deepnote",
-  "status": "pending_llm",
+  "status": "ok",
   "source_url": "https://deepnote.com/pricing",
   "fetched_at": "2026-10-12T13:41:30+08:00",
-  "note": "robots 允許；networkidle 未達；LLM 尚未處理",
-  "rendered_text_len": 3963
+  "note": "robots 允許；networkidle 未達",
+  "rendered_text_len": 3963,
+  "extracted": {
+   "plans": [
+    {
+     "name": "Team",
+     "currency": "USD",
+     "is_promo": true,
+     "billing_note": "per editor/month billed yearly",
+     "evidence_quote": "Team … $39 -20% per editor/month billed yearly",
+     "quote_verified": true,
+     "price_check": {
+      "price_yearly_per_month": "in_quote"
+     },
+     "price_monthly": null,
+     "price_yearly_per_month": 39.0,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    }
+   ],
+   "free_tier": {
+    "available": true,
+    "limits": null,
+    "evidence_quote": "Free",
+    "quote_verified": true
+   },
+   "price_summary": "Team plan costs $39 per editor per month when billed yearly, with a 20% discount. Free plan is available.",
+   "display_region_note": null
+  },
+  "verify_stats": {
+   "plans_total": 1
+  },
+  "evidence": [
+   {
+    "evidence_quote": "Team … $39 -20% per editor/month billed yearly",
+    "plan": "Team",
+    "source_url": "https://deepnote.com/pricing",
+    "fetched_at": "2026-10-12T13:41:30+08:00"
+   },
+   {
+    "evidence_quote": "Free",
+    "plan": "free_tier",
+    "source_url": "https://deepnote.com/pricing",
+    "fetched_at": "2026-10-12T13:41:30+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [
+    "has_promo"
+   ],
+   "needs_review": true,
+   "details": [],
+   "auto_approvable": false
+  },
+  "price_note": "價格來源：官網價格頁（https://deepnote.com/pricing），2026-10-12 擷取"
  },
  {
   "id": "jan",
