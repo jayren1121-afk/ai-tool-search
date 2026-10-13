@@ -237,3 +237,7 @@ LLM 結束： 所有已設定的提供者今天額度都用完了（明天自動
 192 ok openrouter:nvidia/nemotron-3-super-120b-a12b:free https://www.smartlead.ai/pricing 7284
 停用 openrouter ： openrouter 每日額度用盡（429）：{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-R
 LLM 結束： 所有已設定的提供者今天額度都用完了（明天自動接續） {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": "groq 每日額度用盡（429）：{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4cpekmnez7s57xjy0dnkkqv` service tier `on_demand` on tokens per ", "calls": 148, "ok": 148, "tokens": 304020, "rl429": 1, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": "openrouter 每日額度用盡（429）：{\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-R", "calls": 52, "ok": 43, "tokens": 285050, "rl429": 1, "errors": 1}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://auphonic.com/pricing 2388
+2 ok openai/gpt-oss-120b https://xmind.com/pricing 1903
+3 ok openai/gpt-oss-120b https://www.quadratichq.com/pricing 1805
