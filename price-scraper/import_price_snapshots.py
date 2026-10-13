@@ -6,9 +6,12 @@
   1) price_snapshots_import.sql        — UPSERT，reviewed 一律 false（只含 status='ok' 的工具）。先在 Supabase SQL Editor 執行這份。
   2) price_snapshots_approve_safe.sql  — 只核准「diff_flag 無任何旗標、證據驗證通過」的工具（reviewed=true）。預設不自動執行；請先抽查再手動執行。
   3) price_snapshots_review_list.md    — 需要人工逐筆核對的清單（有旗標者）與核准範本。
+（update22 起：設定 GitHub Secrets 後，publish_prices.py 會自動把安全價格上線、其餘送到 /admin 審核；這些 SQL 僅供備查）
 核准其他工具：用範本 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = '...' and fetched_at = '...';
 """
 import json, sys, os, re
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from safety import is_row, is_safe
 src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "results.json")
 out = sys.argv[2] if len(sys.argv) > 2 else os.path.dirname(os.path.abspath(src))
 res = json.load(open(src, encoding="utf-8"))
@@ -19,7 +22,7 @@ def lit(v):
     return "'" + str(v).replace("\x00", "").replace("'", "''") + "'"
 def jlit(v): return lit(json.dumps(v, ensure_ascii=False)) + "::jsonb"
 
-rows = [r for r in res if r.get("status") == "ok" and r.get("extracted") and r.get("fetched_at") and r.get("source_url")]
+rows = [r for r in res if is_row(r)]
 imp = ["-- price_snapshots 匯入（reviewed=false；不會自動公開）。需先執行 supabase_migration_007_price_snapshots.sql",
        f"-- 來源：{os.path.basename(src)}，共 {len(rows)} 筆。同一 (tool_id, fetched_at) 重複匯入會更新內容並把 reviewed 重設為 false。",
        "begin;"]
@@ -37,7 +40,7 @@ for r in rows:
         "on conflict (tool_id, fetched_at) do update set plans = excluded.plans, free_tier = excluded.free_tier, price_summary = excluded.price_summary, display_region_note = excluded.display_region_note,\n"
         "  source_url = excluded.source_url, evidence = excluded.evidence, status = excluded.status, diff_flag = excluded.diff_flag, reviewed = false, reviewed_at = null;")
     # 批次核准清單：無旗標、v2 提示詞、120b 模型、證據驗證全過（有任何被丟棄的欄位會帶 dropped_fields 旗標）
-    ok_safe = df.get("auto_approvable") and str(r.get("prompt_version", "")).startswith("v2") and r.get("llm_model") == "openai/gpt-oss-120b" and r.get("llm_provider", "groq") == "groq" and "llm_fallback_model" not in (df.get("flags") or [])
+    ok_safe = is_safe(r)  # 規則在 safety.py（與 publish_prices.py 自動上線共用）
     (safe if ok_safe else flagged).append(r)
 imp.append("commit;")
 open(os.path.join(out, "price_snapshots_import.sql"), "w", encoding="utf-8").write("\n".join(imp) + "\n")
