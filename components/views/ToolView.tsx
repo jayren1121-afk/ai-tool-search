@@ -4,9 +4,11 @@ import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import DiagnoseButton from "@/components/DiagnoseButton";
 import HealthBadge from "@/components/HealthBadge";
+import PriceSnapshotSection from "@/components/PriceSnapshotSection";
 import ToolCommunity from "@/components/ToolCommunity";
 import VoteSummary from "@/components/VoteSummary";
 import { jsonLd, langAlternates, siteName, SITE_SHORT, SITE_URL } from "@/lib/site";
+import { getPriceSnapshot, type PriceSnapshot } from "@/lib/price-snapshots";
 import { getPublicStats, getTool, getHealthByCategory, getToolHealth, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
 import { validToolId } from "@/lib/security";
 import {
@@ -50,12 +52,20 @@ export async function toolMetadata(id: string, locale: Locale): Promise<Metadata
   };
 }
 
+/** 已核准的官網價格快照 → JSON-LD offers（只收 USD、月付、非促銷、>0） */
+function snapOffers(s: PriceSnapshot | null) {
+  if (!s) return [];
+  return s.plans.filter((p) => p.currency === "USD" && !p.is_promo && typeof p.price_monthly === "number" && p.price_monthly > 0);
+}
+
 export default async function ToolView({ id, locale }: { id: string; locale: Locale }) {
   const L = t(locale); const NA = L.unknown;
   const x = await load(id, locale);
   if (!x) notFound();
   const [relatedAll, health] = await Promise.all([getToolsByCategory(x.category, 13, locale).catch(() => []), getToolHealth(x.id)]); // 官網檢查結果取不到時為 null（不顯示標籤）
   const related = relatedAll.filter((r) => r.id !== x.id).slice(0, 12);
+  const snap = await getPriceSnapshot(x.id, locale); // 已上線的官網價格快照；沒有或 migration 未執行 = null → 顯示原本內容
+  const snapPriced = snapOffers(snap);
   const priced = trustedPlans(x);
   const [ps, relHealth] = await Promise.all([getPublicStats([x.id, ...related.map((r) => r.id)], 86400), related.length ? getHealthByCategory(x.category, 200) : Promise.resolve({} as Awaited<ReturnType<typeof getHealthByCategory>>)]); // 同分類健康資料（與分類頁共用快取）；失敗為空物件
   const st = ps[x.id];
@@ -72,7 +82,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
       applicationCategory: cat, operatingSystem: x.platforms?.length ? x.platforms.join(", ") : "Web",
       ...(x.company ? { publisher: { "@type": "Organization", name: x.company } } : {}),
       ...(st && st.review_count > 0 && st.rating_avg ? { aggregateRating: { "@type": "AggregateRating", ratingValue: Number(st.rating_avg), reviewCount: st.review_count, bestRating: 5, worstRating: 1 } } : {}),
-      ...(priced.length ? { offers: priced.map((p) => ({ "@type": "Offer", name: trPlanName(locale, p.name), price: p.price_usd_month, priceCurrency: "USD", url: x.pricing_url ?? x.url })) } : {}),
+      ...(snapPriced.length ? { offers: snapPriced.map((p) => ({ "@type": "Offer", name: p.name, price: p.price_monthly, priceCurrency: "USD", url: snap!.source_url })) } : priced.length ? { offers: priced.map((p) => ({ "@type": "Offer", name: trPlanName(locale, p.name), price: p.price_usd_month, priceCurrency: "USD", url: x.pricing_url ?? x.url })) } : {}),
     },
     {
       "@context": "https://schema.org", "@type": "BreadcrumbList", inLanguage: HTML_LANG[locale],
@@ -106,11 +116,12 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
         </div>
 
         <h2 className="mt-6 border-b pb-1 text-lg font-semibold">{L.pricingPlans}</h2>
+        {snap && <PriceSnapshotSection snap={snap} locale={locale} />}
         <dl className="mt-2 grid grid-cols-[8rem_1fr] gap-y-2 text-sm">
           <dt className="text-slate-500">{L.pricingModel}</dt><dd>{pricingName(locale, x.pricing_model) ?? NA}</dd>
-          <dt className="text-slate-500">{L.paidPlans}</dt>
-          <dd>{x.paid_plans?.length ? <ul className="list-disc pl-5">{x.paid_plans.map((p, i) => <li key={i}>{trPlanName(locale, p.name)}{locale === "en" ? ": " : "："}{p.price_usd_month != null ? `US$${p.price_usd_month}${L.perMonth}` : NA}{p.notes ? <span className="text-xs text-slate-400">{paren(trNote(locale, p.notes)!)}</span> : null}</li>)}</ul> : NA}</dd>
-          <dt className="text-slate-500">{L.freeTier}</dt><dd>{trFree(locale, x.free_tier) || NA}</dd>
+          {!snap && <dt className="text-slate-500">{L.paidPlans}</dt>}
+          {!snap && <dd>{x.paid_plans?.length ? <ul className="list-disc pl-5">{x.paid_plans.map((p, i) => <li key={i}>{trPlanName(locale, p.name)}{locale === "en" ? ": " : "："}{p.price_usd_month != null ? `US$${p.price_usd_month}${L.perMonth}` : NA}{p.notes ? <span className="text-xs text-slate-400">{paren(trNote(locale, p.notes)!)}</span> : null}</li>)}</ul> : NA}</dd>}
+          {!(snap?.free_tier && snap.free_tier.available != null) && <><dt className="text-slate-500">{L.freeTier}</dt><dd>{trFree(locale, x.free_tier) || NA}</dd></>}
           <dt className="text-slate-500">{L.pricingPage}</dt><dd>{x.pricing_url ? <a href={x.pricing_url} target="_blank" rel="nofollow noopener noreferrer" className="break-all text-indigo-600 hover:underline">{x.pricing_url}</a> : NA}</dd>
         </dl>
 
