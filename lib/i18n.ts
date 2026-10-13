@@ -194,6 +194,11 @@ const zh = {
   // v10 推出日期／最新上架
   sortNewest: "最新上架", released: "推出日期",
   releasedHint: "依公開來源可查到的最早日期，不一定是官方正式發售日",
+  // update22 官網價格快照
+  officialPrice: (d: string) => `官網價格（截至 ${d}）`, snapPlan: "方案", snapMonthly: "月付", snapYearlyPerMonth: "年付（折合每月）", snapYearTotal: "年付總額", snapNote: "備註",
+  snapPromo: "促銷價", snapContact: "洽詢報價", snapRegular: (p: string) => `原價 ${p}`, snapUnclear: "（頁面未註明月付或年付）", perYear: "/年", snapFreeYes: "有免費方案", snapFreeNo: "無免費方案（頁面未列出）",
+  snapSource: "價格來源", snapSourceLabel: "官網價格頁", snapFetched: (d: string) => `，${d} 擷取`, snapEvidence: "查看官網原文證據",
+  snapDisclaimer: "價格可能因地區與時間不同，請以官網為準。",
   // v14 官網健康檢查
   healthLive: "官網可連線", healthDown: "官網異常", healthChecked: (d: string) => `最近檢查：${d}`,
   healthHint: "僅代表官網連線狀態，不代表產品品質或價格正確。",
@@ -248,6 +253,10 @@ const en: Dict = {
   dateLocale: "en-US", breadcrumb: "Breadcrumb",
   sortNewest: "Newest releases", released: "Released",
   releasedHint: "Earliest date found in public sources; not necessarily the official launch date",
+  officialPrice: (d) => `Official pricing (as of ${d})`, snapPlan: "Plan", snapMonthly: "Monthly", snapYearlyPerMonth: "Yearly (per month)", snapYearTotal: "Yearly total", snapNote: "Notes",
+  snapPromo: "Promo", snapContact: "Contact sales", snapRegular: (p) => `regular ${p}`, snapUnclear: "(billing period not stated on the page)", perYear: "/yr", snapFreeYes: "Free plan available", snapFreeNo: "No free plan listed",
+  snapSource: "Price source", snapSourceLabel: "Official pricing page", snapFetched: (d) => `, fetched ${d}`, snapEvidence: "Show verbatim quotes from the official page",
+  snapDisclaimer: "Prices may vary by region and over time; please check the official website.",
   healthLive: "Website reachable", healthDown: "Website unreachable", healthChecked: (d) => `Last checked: ${d}`,
   healthHint: "Shows website connectivity only. It does not reflect product quality or pricing accuracy.",
   healthDownNote: "Recent checks suggest this website may not be working properly (temporary outage, moved, or discontinued); please verify yourself.",
