@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import AdminLogin from "@/components/admin/AdminLogin";
 import AdminPanel, { type HealthData, type JobRun, type PendingTool } from "@/components/admin/AdminPanel";
 import type { HealthItem, HealthRun } from "@/components/admin/HealthSection";
+import type { PriceReviewData, PriceReviewItem } from "@/components/admin/PriceReviewSection";
 import { ADMIN_COOKIE, adminConfigured, sessionOk } from "@/lib/admin-auth";
 import { isMissingColumn } from "@/lib/published";
 import { supabaseAdmin } from "@/lib/supabase-admin";
@@ -30,7 +31,7 @@ export default async function AdminPage() {
     db.from("job_runs").select("id,started_at,finished_at,status,message,details").eq("job", "discover").order("started_at", { ascending: false }).limit(5),
   ]);
   const setupError = pend.error ? `讀取待審核資料失敗：${pend.error.message}（請確認已在 Supabase 執行 supabase_migration_005.sql）` : runs.error ? `讀取排程紀錄失敗：${runs.error.message}` : null;
-  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} />;
+  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} prices={await loadPrices(db)} />;
 }
 
 /** 官網檢查區塊的資料；資料表尚未建立（migration 008）時只在該區塊顯示提示，不影響其他後台功能 */
@@ -72,4 +73,23 @@ async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthD
     moved: ((movedR?.data ?? []) as unknown as HealthItem[]).filter((m) => !visible.some((v) => v.tool_id === m.tool_id)), // 已在上方清單的不重複列出
     runs: (runs.data ?? []) as HealthRun[], error: runs.error ? `讀取官網檢查紀錄失敗：${runs.error.message}` : null,
   };
+}
+
+/** 價格審核區塊：每個工具只列最新一筆「待審核」；資料表或欄位尚未建立（migration 010）時只在該區塊顯示提示 */
+async function loadPrices(db: ReturnType<typeof supabaseAdmin>): Promise<PriceReviewData> {
+  const COLS = "id,tool_id,plans,free_tier,source_url,fetched_at,diff_flag,llm_model,review_status,ai_tools!inner(name)";
+  const [list, stat] = await Promise.all([
+    db.from("price_snapshots").select(COLS).eq("review_status", "pending").eq("status", "ok").order("fetched_at", { ascending: false }).limit(500),
+    db.from("price_snapshots").select("tool_id,review_status").limit(10000),
+  ]);
+  const err = list.error || stat.error;
+  if (err) {
+    const missing = err.code === "42P01" || err.code === "PGRST205" || isMissingColumn(err) || /price_snapshots|review_status/.test(err.message || "");
+    return { items: [], counts: null, error: missing ? "尚未建立價格審核需要的資料表／欄位，請先在 Supabase 執行 supabase_migration_010_price_publish.sql。" : `讀取價格審核資料失敗：${err.message}` };
+  }
+  const seen = new Set<string>(), items: PriceReviewItem[] = [];
+  for (const r of (list.data ?? []) as unknown as PriceReviewItem[]) { if (!seen.has(r.tool_id) && Array.isArray(r.plans)) { seen.add(r.tool_id); items.push(r); } }
+  const rows = (stat.data ?? []) as { tool_id: string; review_status: string }[];
+  const tools = (s: string) => new Set(rows.filter((r) => r.review_status === s).map((r) => r.tool_id)).size;
+  return { items: items.slice(0, 200), counts: { pending: items.length, approved: tools("approved"), rejected: tools("rejected") }, error: null };
 }
