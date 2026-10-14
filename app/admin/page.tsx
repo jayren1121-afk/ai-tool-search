@@ -75,11 +75,11 @@ async function loadHealth(db: ReturnType<typeof supabaseAdmin>): Promise<HealthD
   };
 }
 
-/** 價格審核區塊：每個工具只列最新一筆「待審核」；資料表或欄位尚未建立（migration 010）時只在該區塊顯示提示 */
+/** 價格區塊（update26 全部自動上線）：每個工具只列最新一筆快照（已上線／已拒絕／舊的待審核），依上線時間新到舊；資料表或欄位尚未建立（migration 010）時只在該區塊顯示提示 */
 async function loadPrices(db: ReturnType<typeof supabaseAdmin>): Promise<PriceReviewData> {
-  const COLS = "id,tool_id,plans,free_tier,source_url,fetched_at,diff_flag,llm_model,review_status,ai_tools!inner(name)";
+  const COLS = "id,tool_id,plans,free_tier,source_url,fetched_at,diff_flag,llm_model,review_status,decided_by,reviewed_at,ai_tools!inner(name)";
   const [list, stat] = await Promise.all([
-    db.from("price_snapshots").select(COLS).eq("review_status", "pending").eq("status", "ok").order("fetched_at", { ascending: false }).limit(500),
+    db.from("price_snapshots").select(COLS).eq("status", "ok").order("fetched_at", { ascending: false }).limit(3000),
     db.from("price_snapshots").select("tool_id,review_status").limit(10000),
   ]);
   const err = list.error || stat.error;
@@ -91,5 +91,8 @@ async function loadPrices(db: ReturnType<typeof supabaseAdmin>): Promise<PriceRe
   for (const r of (list.data ?? []) as unknown as PriceReviewItem[]) { if (!seen.has(r.tool_id) && Array.isArray(r.plans)) { seen.add(r.tool_id); items.push(r); } }
   const rows = (stat.data ?? []) as { tool_id: string; review_status: string }[];
   const tools = (s: string) => new Set(rows.filter((r) => r.review_status === s).map((r) => r.tool_id)).size;
-  return { items: items.slice(0, 200), counts: { pending: items.length, approved: tools("approved"), rejected: tools("rejected") }, error: null };
+  const t = (r: PriceReviewItem) => Date.parse(r.reviewed_at || r.fetched_at) || 0;
+  items.sort((a, b) => t(b) - t(a));
+  const latest = (s: string) => items.filter((r) => r.review_status === s).length;
+  return { items: items.slice(0, 300), counts: { pending: latest("pending"), approved: tools("approved"), rejected: latest("rejected") }, error: null };
 }
