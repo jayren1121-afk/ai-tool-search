@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Pricing</title>
+<style>.tab{cursor:pointer} .active{font-weight:bold}</style></head><body>
+<nav><a href="/signup">Sign up monthly</a> <a href="other.html">Yearly</a></nav>
+<h1>Pricing</h1>
+<div role="tablist">
+  <button role="tab" id="m" aria-selected="false" onclick="setMode('m')">Monthly</button>
+  <button role="tab" id="y" aria-selected="true" class="active" onclick="setMode('y')">Yearly (save 20%)</button>
+</div>
+<button onclick="location.href='checkout.html'">Start monthly trial</button>
+<form action="pay.html"><button>Pay yearly</button></form>
+<div id="plans"></div>
+<script>
+let mode='y';
+function setMode(x){mode=x;document.getElementById('m').setAttribute('aria-selected',x==='m');document.getElementById('y').setAttribute('aria-selected',x==='y');render();}
+function render(){document.getElementById('plans').innerText = mode==='y'
+ ? 'Pro\n$10 /month\nbilled annually ($120/year)\nTeam\n$20 /user/month\nbilled annually'
+ : 'Pro\n$12 /month\nbilled monthly\nTeam\n$25 /user/month\nbilled monthly';}
+render();
+</script></body></html>

@@ -111,5 +111,14 @@ for r in rows():
     k=(2 if r.get('llm_status')=='ok' and r.get('provider','groq')=='groq' else 1 if r.get('llm_status')=='ok' else 0)
     if r['url'] not in best or k>=best[r['url']]: best[r['url']]=k
 check(all(v==2 for v in best.values()) and run['upgraded']==7,f"Groq 恢復後全部改用 120b（重做 {run['upgraded']} 頁）")
+# 7) 價格頁重抓後文字改變（sec_hash 不同）→ 重新整理一次；整理過後不再重做
+sc=[json.loads(l) for l in open(os.path.join(DATA,'scrape.jsonl'))]
+u=[r for r in sc if r['status']=='scraped'][0]
+open(os.path.join(DATA,'scrape.jsonl'),'a').write(json.dumps(dict(u,sec_hash='new1',prev_sec_hash='old0',scrape_version='v3-billing-toggle'))+'\n')
+k=len(rows()); out,run=runllm(dict(GROQ_API_KEY='FAKE-GROQ'),1)
+new=rows()[k:]
+check(len(new)==1 and new[0]['url']==u['url'] and new[0].get('sec_hash')=='new1',f"文字改變的頁面被重新整理：{[(r['url'],r.get('sec_hash')) for r in new]}")
+k=len(rows()); out,run=runllm(dict(GROQ_API_KEY='FAKE-GROQ'),1)
+check(not any(r['url']==u['url'] for r in rows()[k:]),'整理過後不會再重做')
 print('\n'.join(['','全部通過' if not fails else f'{len(fails)} 項失敗：{fails}']))
 sys.exit(1 if fails else 0)
