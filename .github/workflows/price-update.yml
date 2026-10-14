@@ -93,6 +93,8 @@ jobs:
           NEW_ROUND: ${{ github.event.inputs.new_round == 'true' && '1' || '0' }}
           RUN_MAX_MIN: "115"
           SCRAPE_MAX_MIN: "70"
+          RESCRAPE_PER_RUN: ${{ vars.RESCRAPE_PER_RUN }}
+          BILLING_TOGGLE: ${{ vars.BILLING_TOGGLE }}
         run: bash price-scraper/run_actions.sh
 
       - name: 安全價格自動上線＋其餘送後台審核
