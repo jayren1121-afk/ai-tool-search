@@ -4,7 +4,7 @@ import json, os, sys, threading, copy, urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.dirname(HERE))
 import publish_prices as P
-from safety import is_safe
+from safety import is_safe, is_publishable
 
 def mk(i, safe=True, model="openai/gpt-oss-120b", price=10.0, flags=None):
     flags = flags if flags is not None else ([] if safe else ["has_promo"])
@@ -36,24 +36,35 @@ srv = ThreadingHTTPServer(("127.0.0.1", 0), H); threading.Thread(target=srv.serv
 api = P.Rest(f"http://127.0.0.1:{srv.server_port}", "KEY")
 st = lambda i: DB["snap"][(i, P.ts_key("2026-10-12T13:24:51+08:00"))]
 
-DB["tools"] = {"a", "b", "c", "d"}
-res = [mk("a"), mk("b", safe=False), mk("c", model="nemotron"), mk("d", safe=False), mk("zz")]
-r1 = P.publish(res, api); assert r1["written"] == 4 and r1["missing"] == ["zz"], r1
-assert st("a")["review_status"] == "approved" and st("a")["reviewed"] is True and st("a")["source_url"] and st("a")["fetched_at"]
-assert st("b")["review_status"] == "pending" and st("b")["reviewed"] is False and st("c")["review_status"] == "pending"
+DB["tools"] = {"a", "b", "c", "d", "e", "f"}
+nop = mk("e"); nop["extracted"]["plans"][0]["price_monthly"] = None      # 沒有價格 → 不上線
+noq = mk("f"); noq["extracted"]["plans"][0]["evidence_quote"] = ""       # 沒有逐字原文 → 不上線
+res = [mk("a"), mk("b", safe=False), mk("c", model="nemotron"), mk("d", safe=False), mk("zz"), nop, noq]
+r1 = P.publish(res, api); assert r1["written"] == 4 and r1["missing"] == ["zz"] and r1["skipped_no_price"] == 2, r1
+for i in "abcd": assert st(i)["review_status"] == "approved" and st(i)["reviewed"] is True and st(i)["decided_by"] == "auto" and st(i)["source_url"] and st(i)["fetched_at"], (i, st(i))
+assert ("e", P.ts_key("2026-10-12T13:24:51+08:00")) not in DB["snap"] and ("f", P.ts_key("2026-10-12T13:24:51+08:00")) not in DB["snap"]
+assert r1["flagged_total"] == 3 and "llm_fallback_model" in st("c")["diff_flag"]["flags"]   # 備援/有旗標也上線，但旗標保留
 # 1) 每日重跑：不重複、不寫入
 n = len(DB["snap"]); r2 = P.publish(res, api); assert r2["written"] == 0 and len(DB["snap"]) == n, r2
-# 2) 後台核准 b、拒絕 d → 重跑保留
-st("b").update(review_status="approved", reviewed=True, decided_by="admin"); st("d").update(review_status="rejected", reviewed=False, decided_by="admin")
-r3 = P.publish(res, api); assert r3["stats"]["admin_kept"] == 2 and st("b")["reviewed"] and st("d")["review_status"] == "rejected", r3
-# 3) 備援模型 c 後來被 Groq 重做且安全 → 自動上線
-res[2] = mk("c", price=12.0); r4 = P.publish(res, api); assert st("c")["review_status"] == "approved" and st("c")["decided_by"] == "auto", r4
-# 4) b 內容變了（仍有旗標）→ 回到待審核
-res[1] = mk("b", safe=False, price=99.0); P.publish(res, api); assert st("b")["review_status"] == "pending" and st("b")["reviewed"] is False
+# 2) 後台拒絕 d → 重跑保留拒絕
+st("d").update(review_status="rejected", reviewed=False, decided_by="admin")
+r3 = P.publish(res, api); assert r3["stats"]["admin_kept"] == 1 and st("d")["review_status"] == "rejected", r3
+# 2b) d 重新抓取（日期不同）但內容一樣 → 新快照也維持拒絕
+d2 = mk("d", safe=False); d2["fetched_at"] = "2026-11-12T10:00:00+08:00"
+P.publish(res + [d2], api); k2 = ("d", P.ts_key(d2["fetched_at"]))
+assert DB["snap"][k2]["review_status"] == "rejected" and DB["snap"][k2]["reviewed"] is False, DB["snap"][k2]
+# 2c) d 內容變了 → 重新自動上線
+d3 = mk("d", safe=False, price=15.0); d3["fetched_at"] = "2026-12-12T10:00:00+08:00"
+P.publish(res + [d2, d3], api); assert DB["snap"][("d", P.ts_key(d3["fetched_at"]))]["review_status"] == "approved"
+# 3) 備援模型 c 後來被 Groq 重做 → 內容更新、仍自動上線
+res[2] = mk("c", price=12.0); r4 = P.publish(res, api); assert st("c")["review_status"] == "approved" and st("c")["decided_by"] == "auto" and "llm_fallback_model" not in st("c")["diff_flag"]["flags"], r4
+# 4) 以前待審核（pending）的列 → 自動改成上線
+k = ("b", P.ts_key("2026-10-12T13:24:51+08:00")); DB["snap"][k].update(review_status="pending", reviewed=False, decided_by=None)
+P.publish(res, api); assert st("b")["review_status"] == "approved"
 # 5) 真實資料（選填）
 if len(sys.argv) > 1:
     real = json.load(open(sys.argv[1])); DB["tools"] = {r["id"] for r in real}; DB["snap"] = {}
-    rr = P.publish(real, api); print("真實 results.json：", rr["stats"], "安全", rr["safe_total"], "待審", rr["review_total"])
-    assert rr["safe_total"] == sum(1 for r in real if is_safe(r)); assert P.publish(real, api)["written"] == 0
+    rr = P.publish(real, api); print("真實 results.json：", rr["stats"], "上線", rr["published_total"], "其中有旗標", rr["flagged_total"], "無價格略過", rr["skipped_no_price"])
+    assert rr["published_total"] == sum(1 for r in real if is_publishable(r)); assert P.publish(real, api)["written"] == 0
     assert all(v["source_url"].startswith("http") and v["fetched_at"] for v in DB["snap"].values())
 print("OK：publish_prices 測試全部通過")
