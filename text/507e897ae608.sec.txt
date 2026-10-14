@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
 ---
 Yearly
@@ -33,6 +34,207 @@ $44
 per month
 ---
 credits per month
+---
+Start Free Trial
+---
+Unused credits rollover for 12 months
+---
+Try it for free
+---
+Free Tools
+---
+Free Story Generator
+---
+Free Live Classes
+=== 計費模式: 月繳 (monthly) ===
+Monthly
+---
+Yearly
+---
+Up to 50% off
+---
+$19
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
++30 industry-leading models
+---
+Most popular
+---
+$29
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+1,000,000
+---
+2X as much!
+---
+$59
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+Unused credits rollover for 12 months
+---
+Try it for free
+---
+Free Tools
+---
+Free Story Generator
+---
+Free Live Classes
+=== 計費模式: 月繳 (monthly) #2 ===
+Monthly
+---
+Yearly
+---
+Up to 50% off
+---
+$19
+---
+per month
+---
+credits per month
+---
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
+---
+Start Free Trial
+---
++30 industry-leading models
+---
+Most popular
+---
+$29
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+1,000,000
+---
+2X as much!
+---
+$59
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+Unused credits rollover for 12 months
+---
+Try it for free
+---
+Free Tools
+---
+Free Story Generator
+---
+Free Live Classes
+=== 計費模式: 月繳 (monthly) #3 ===
+Monthly
+---
+Yearly
+---
+Up to 50% off
+---
+$19
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
++30 industry-leading models
+---
+Most popular
+---
+$29
+---
+per month
+---
+credits per month
+---
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
+---
+Start Free Trial
+---
+1,000,000
+---
+2X as much!
+---
+$59
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+Unused credits rollover for 12 months
+---
+Try it for free
+---
+Free Tools
+---
+Free Story Generator
+---
+Free Live Classes
+=== 計費模式: 月繳 (monthly) #4 ===
+Monthly
+---
+Yearly
+---
+Up to 50% off
+---
+$19
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
++30 industry-leading models
+---
+Most popular
+---
+$29
+---
+per month
+---
+credits per month
+---
+Start Free Trial
+---
+1,000,000
+---
+2X as much!
+---
+$59
+---
+per month
+---
+credits per month
+---
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
 ---
 Start Free Trial
 ---

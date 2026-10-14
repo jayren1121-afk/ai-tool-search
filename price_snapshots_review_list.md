@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：23 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：188 筆
+- 可批次核准（無旗標）：33 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：227 筆
 
 核准單筆範本：
 ```sql
@@ -18,40 +18,39 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **grok**（Grok）旗標：name_diff, name_missing；資料集方案 ['SuperGrok'] vs 新 ['', 'Heavy']; None: name_missing；來源 https://grok.com/plans；擷取 2026-10-12T13:24:58+08:00
 - **mistral-le-chat**（Le Chat）旗標：has_promo；；來源 https://mistral.ai/pricing；擷取 2026-10-14T09:20:30+08:00
 - **perplexity**（Perplexity）旗標：has_promo, llm_fallback_model, name_diff；資料集方案 ['Pro', 'Max'] vs 新 ['Advanced answers and top AI models', 'Unlimited usage and top performance']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.perplexity.ai/pro；擷取 2026-10-12T13:25:29+08:00
-- **consensus**（Consensus）旗標：has_promo, period_ambiguous_toggle, price_near_quote, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: period_ambiguous_toggle; Deep: period_ambiguous_toggle；來源 https://consensus.app/pricing；擷取 2026-10-14T09:20:44+08:00
-- **elicit**（Elicit）旗標：has_promo, price_near_quote, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理；來源 https://elicit.com/pricing；擷取 2026-10-14T09:20:46+08:00
+- **consensus**（Consensus）旗標：period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Deep: period_ambiguous_toggle；來源 https://consensus.app/pricing；擷取 2026-10-14T09:20:44+08:00
+- **elicit**（Elicit）旗標：dropped_fields, has_promo；；來源 https://elicit.com/pricing；擷取 2026-10-14T09:20:46+08:00
 - **midjourney**（Midjourney）旗標：has_promo, llm_fallback_model, period_ambiguous_toggle；Basic: period_ambiguous_toggle; Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Mega: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://docs.midjourney.com/hc/en-us/articles/27870484040333；擷取 2026-10-14T09:20:48+08:00
-- **krea**（Krea）旗標：billing_section_mismatch, dropped_fields, llm_fallback_model, price_change, stale_text；Max: 資料集 $21.0/月 → 官網 $63.0; 價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: billing_section_mismatch; Max: billing_section_mismatch; Business: billing_section_mismatch; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.krea.ai/pricing；擷取 2026-10-14T09:20:54+08:00
+- **krea**（Krea）旗標：price_change；Max: 資料集 $21.0/月 → 官網 $63.0；來源 https://www.krea.ai/pricing；擷取 2026-10-14T09:20:54+08:00
 - **runway**（Runway）旗標：has_promo, yearly_gt_monthly；Standard: yearly_gt_monthly; Pro: yearly_gt_monthly; Max: yearly_gt_monthly；來源 https://runwayml.com/pricing；擷取 2026-10-14T10:43:05+08:00
 - **veo**（Google Veo (Flow)）旗標：name_far_from_price, price_change, shared_page；Pro: 資料集 $199.99/月 → 官網 $19.99; 與 ['gemini'] 共用同一價格頁，結果複製自同一次擷取; YouTube Premium Lite: name_far_from_price；來源 https://gemini.google/subscriptions/；擷取 2026-10-14T09:20:12+08:00
-- **pika**（Pika）旗標：price_near_quote, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理；來源 https://pika.art/pricing；擷取 2026-10-14T10:43:05+08:00
-- **luma**（Luma Dream Machine）旗標：llm_fallback_model, period_ambiguous_toggle, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://lumalabs.ai/dream-machine/pricing；擷取 2026-10-14T10:43:16+08:00
-- **synthesia**（Synthesia）旗標：has_promo, llm_fallback_model, price_near_quote, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.synthesia.io/pricing；擷取 2026-10-14T10:43:20+08:00
-- **heygen**（HeyGen）旗標：llm_fallback_model, name_diff, period_ambiguous_toggle, stale_text；資料集方案 ['Creator', 'Advanced', 'Business', 'Plus', 'Pro'] vs 新 ['Free', 'Creator', 'Pro']; 價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.heygen.com/pricing；擷取 2026-10-14T10:43:31+08:00
-- **descript**（Descript）旗標：llm_fallback_model, name_far_from_price, price_unclear, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Creator: name_far_from_price; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.descript.com/pricing；擷取 2026-10-14T10:43:33+08:00
+- **luma**（Luma Dream Machine）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Ultra: period_ambiguous_toggle；來源 https://lumalabs.ai/dream-machine/pricing；擷取 2026-10-14T10:43:16+08:00
+- **synthesia**（Synthesia）旗標：has_promo, yearly_gt_monthly；Starter: yearly_gt_monthly；來源 https://www.synthesia.io/pricing；擷取 2026-10-14T10:43:20+08:00
+- **heygen**（HeyGen）旗標：has_promo, name_diff, period_ambiguous_toggle；資料集方案 ['Creator', 'Advanced', 'Business', 'Plus', 'Pro'] vs 新 ['Free', 'Creator', 'Pro']; Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.heygen.com/pricing；擷取 2026-10-14T10:43:31+08:00
+- **descript**（Descript）旗標：name_far_from_price；Creator: name_far_from_price；來源 https://www.descript.com/pricing；擷取 2026-10-14T10:43:33+08:00
 - **opus-clip**（OpusClip）旗標：dropped_fields, has_promo；；來源 https://www.opus.pro/pricing；擷取 2026-10-14T10:43:34+08:00
 - **elevenlabs**（ElevenLabs）旗標：has_promo, price_near_quote；；來源 https://elevenlabs.io/pricing；擷取 2026-10-14T10:43:44+08:00
-- **otter**（Otter.ai）旗標：dropped_fields, period_ambiguous_toggle, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://otter.ai/pricing；擷取 2026-10-14T10:43:56+08:00
-- **fireflies**（Fireflies.ai）旗標：has_promo, price_near_quote, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理；來源 https://fireflies.ai/pricing；擷取 2026-10-14T10:43:57+08:00
+- **otter**（Otter.ai）旗標：dropped_fields, has_promo；；來源 https://otter.ai/pricing；擷取 2026-10-14T10:43:56+08:00
+- **fireflies**（Fireflies.ai）旗標：has_promo, price_near_quote；；來源 https://fireflies.ai/pricing；擷取 2026-10-14T10:43:57+08:00
 - **suno**（Suno）旗標：has_promo；；來源 https://suno.com/pricing；擷取 2026-10-14T10:44:05+08:00
 - **aiva**（AIVA）旗標：has_promo, non_usd；；來源 https://www.aiva.ai/pricing；擷取 2026-10-14T10:44:06+08:00
-- **soundraw**（Soundraw）旗標：has_promo, name_missing, period_ambiguous_toggle, stale_text；價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://soundraw.io/pricing；擷取 2026-10-14T10:44:12+08:00
-- **github-copilot**（GitHub Copilot）旗標：llm_fallback_model, price_change；Pro: 資料集 $10.0/月 → 官網 $39.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://github.com/features/copilot/plans；擷取 2026-10-12T13:27:17+08:00
-- **cursor**（Cursor）旗標：dropped_fields, llm_fallback_model, name_diff, period_ambiguous_toggle；資料集方案 ['Pro'] vs 新 ['Individual', 'Teams']; Individual: period_ambiguous_toggle; Teams: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://cursor.com/pricing；擷取 2026-10-12T13:27:17+08:00
-- **windsurf**（Windsurf）旗標：dropped_fields, llm_fallback_model, price_change；Team: 資料集 $40.0/月 → 官網 $80.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://windsurf.com/pricing；擷取 2026-10-12T13:27:18+08:00
+- **soundraw**（Soundraw）旗標：name_missing, period_ambiguous_toggle；None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://soundraw.io/pricing；擷取 2026-10-14T10:44:12+08:00
+- **github-copilot**（GitHub Copilot）旗標：price_change；Pro: 資料集 $10.0/月 → 官網 $39.0；來源 https://github.com/features/copilot/plans；擷取 2026-10-14T12:11:57+08:00
+- **cursor**（Cursor）旗標：dropped_fields, name_diff；資料集方案 ['Pro'] vs 新 ['Free', 'Plus', 'Premium', 'Super', 'Teams', 'Enterprise']；來源 https://cursor.com/pricing；擷取 2026-10-14T12:11:58+08:00
+- **windsurf**（Windsurf）旗標：dropped_fields, llm_fallback_model, price_change；Team: 資料集 $40.0/月 → 官網 $80.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://windsurf.com/pricing；擷取 2026-10-14T12:11:59+08:00
 - **claude-code**（Claude Code）旗標：has_promo, name_diff, period_ambiguous_toggle, price_near_quote, shared_page；資料集方案 ['Scale', 'Pro', 'Max', 'Plus', 'Premium'] vs 新 ['Free', 'Pro', 'Max', 'Enterprise']; 與 ['claude'] 共用同一價格頁，結果複製自同一次擷取; Max: period_ambiguous_toggle；來源 https://claude.com/pricing；擷取 2026-10-14T09:20:11+08:00
-- **replit**（Replit）旗標：dropped_fields, has_promo, llm_fallback_model, price_near_quote；使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://replit.com/pricing；擷取 2026-10-12T13:27:24+08:00
-- **lovable**（Lovable）旗標：llm_fallback_model, period_ambiguous_toggle；Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://lovable.dev/pricing；擷取 2026-10-12T13:27:24+08:00
-- **bolt**（Bolt.new）旗標：llm_fallback_model；使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://bolt.new/pricing；擷取 2026-10-12T13:27:26+08:00
-- **v0**（v0）旗標：has_promo, llm_fallback_model, name_diff；資料集方案 ['Team'] vs 新 ['Free', 'Plus', 'Business']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://v0.app/pricing；擷取 2026-10-12T13:27:32+08:00
-- **devin**（Devin）旗標：price_change；Team: 資料集 $40.0/月 → 官網 $80.0；來源 https://devin.ai/pricing；擷取 2026-10-12T13:27:33+08:00
-- **codeium-jetbrains-ai**（JetBrains AI Assistant）旗標：dropped_fields；；來源 https://www.jetbrains.com/ai-ides/buy/；擷取 2026-10-12T13:27:37+08:00
-- **grammarly**（Grammarly）旗標：llm_fallback_model, price_unclear；Pro: price_unclear; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.grammarly.com/plans；擷取 2026-10-12T13:27:37+08:00
-- **jasper**（Jasper）旗標：dropped_fields, llm_fallback_model, name_diff；資料集方案 ['Team'] vs 新 ['Pro']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.jasper.ai/pricing；擷取 2026-10-12T13:27:39+08:00
-- **copy-ai**（Copy.ai）旗標：llm_fallback_model；使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.copy.ai/prices；擷取 2026-10-12T13:27:44+08:00
-- **writesonic**（Writesonic）旗標：dropped_fields, has_promo, llm_fallback_model, non_subscription_hint；STARTER: non_subscription_hint; BASIC: non_subscription_hint; GROWTH: non_subscription_hint; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://writesonic.com/pricing；擷取 2026-10-12T13:27:47+08:00
-- **surfer**（Surfer SEO）旗標：has_promo, name_missing；None: name_missing; None: name_missing; None: name_missing; None: name_missing; None: name_missing；來源 https://surferseo.com/pricing；擷取 2026-10-12T13:27:47+08:00
-- **sudowrite**（Sudowrite）旗標：name_diff, name_missing, period_ambiguous_toggle；資料集方案 ['Free', 'Hobby', 'Professional', 'Max'] vs 新 ['', '', '']; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.sudowrite.com/pricing；擷取 2026-10-12T13:27:50+08:00
+- **replit**（Replit）旗標：has_promo；；來源 https://replit.com/pricing；擷取 2026-10-14T12:12:06+08:00
+- **lovable**（Lovable）旗標：has_promo；；來源 https://lovable.dev/pricing；擷取 2026-10-14T12:12:11+08:00
+- **bolt**（Bolt.new）旗標：dropped_fields, name_diff；資料集方案 ['Unlimited', 'Teams'] vs 新 ['Free', 'Pro']；來源 https://bolt.new/pricing；擷取 2026-10-14T12:12:17+08:00
+- **v0**（v0）旗標：has_promo, llm_fallback_model, name_diff；資料集方案 ['Team'] vs 新 ['Free', 'Plus', 'Business']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://v0.app/pricing；擷取 2026-10-14T12:12:23+08:00
+- **devin**（Devin）旗標：price_change；Team: 資料集 $40.0/月 → 官網 $80.0；來源 https://devin.ai/pricing；擷取 2026-10-14T12:12:27+08:00
+- **codeium-jetbrains-ai**（JetBrains AI Assistant）旗標：dropped_fields；；來源 https://www.jetbrains.com/ai-ides/buy/；擷取 2026-10-14T12:12:29+08:00
+- **grammarly**（Grammarly）旗標：llm_fallback_model, price_unclear；Pro: price_unclear; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.grammarly.com/plans；擷取 2026-10-14T12:12:30+08:00
+- **jasper**（Jasper）旗標：name_diff, price_near_quote；資料集方案 ['Team'] vs 新 ['Pro']；來源 https://www.jasper.ai/pricing；擷取 2026-10-14T12:12:33+08:00
+- **copy-ai**（Copy.ai）旗標：llm_fallback_model；使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.copy.ai/prices；擷取 2026-10-14T12:12:41+08:00
+- **writesonic**（Writesonic）旗標：dropped_fields, has_promo, llm_fallback_model, non_subscription_hint；STARTER: non_subscription_hint; BASIC: non_subscription_hint; GROWTH: non_subscription_hint; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://writesonic.com/pricing；擷取 2026-10-14T12:12:45+08:00
+- **surfer**（Surfer SEO）旗標：name_far_from_price；Discovery: name_far_from_price; Create or Optimize 10 Documents: name_far_from_price；來源 https://surferseo.com/pricing；擷取 2026-10-14T12:12:47+08:00
+- **sudowrite**（Sudowrite）旗標：name_diff, name_missing；資料集方案 ['Free', 'Hobby', 'Professional', 'Max'] vs 新 ['', '', '']; None: name_missing; None: name_missing; None: name_missing；來源 https://www.sudowrite.com/pricing；擷取 2026-10-14T12:12:52+08:00
 - **notion-ai**（Notion AI）旗標：dropped_fields, llm_fallback_model, period_ambiguous_toggle；Plus: period_ambiguous_toggle; Business: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.notion.com/pricing；擷取 2026-10-12T13:27:53+08:00
 - **microsoft-365-copilot**（Microsoft 365 Copilot）旗標：llm_fallback_model, name_diff, period_ambiguous_toggle；資料集方案 ['Business add-on'] vs 新 ['Microsoft 365 Copilot', 'Microsoft 365 Copilot']; Microsoft 365 Copilot: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.microsoft.com/microsoft-365/copilot/enterprise；擷取 2026-10-12T13:25:16+08:00
 - **gemini-workspace**（Gemini for Google Workspace）旗標：dropped_fields, has_promo, llm_fallback_model；使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://workspace.google.com/pricing；擷取 2026-10-12T13:27:57+08:00
@@ -90,7 +89,9 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **jenni**（Jenni AI）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://jenni.ai/pricing；擷取 2026-10-12T13:30:44+08:00
 - **undetectable**（Undetectable AI）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；None: name_missing; None: name_missing; None: name_missing; None: name_missing, period_ambiguous_toggle；來源 https://undetectable.ai/pricing；擷取 2026-10-12T13:30:49+08:00
 - **ahrefs**（Ahrefs）旗標：name_diff；資料集方案 ['Teams', 'Basic', 'Growth', 'Scale', 'Unlimited'] vs 新 ['Lite', 'Standard', 'Advanced', 'Enterprise', 'Brand Radar AI']；來源 https://ahrefs.com/pricing；擷取 2026-10-12T13:30:55+08:00
+- **slidesai**（SlidesAI）旗標：period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://www.slidesai.io/pricing；擷取 2026-10-12T13:31:05+08:00
 - **tableau-gpt**（ThoughtSpot）旗標：name_diff, name_missing；資料集方案 ['Unlimited'] vs 新 ['']; None: name_missing；來源 https://www.thoughtspot.com/pricing；擷取 2026-10-12T13:31:11+08:00
+- **openart**（OpenArt）旗標：has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Wonder: period_ambiguous_toggle；來源 https://openart.ai/pricing；擷取 2026-10-12T13:31:20+08:00
 - **designs-ai**（Designs.ai）旗標：has_promo；；來源 https://designs.ai/pricing；擷取 2026-10-12T13:31:24+08:00
 - **tripo**（Tripo AI）旗標：dropped_fields, period_ambiguous_toggle, price_change, price_near_quote, yearly_total_mismatch；Pro: 資料集 $0.16/月 → 官網 $20.0; Max: 資料集 $0.09/月 → 官網 $90.0; Team: yearly_total_mismatch, period_ambiguous_toggle；來源 https://www.tripo3d.ai/pricing；擷取 2026-10-12T13:31:28+08:00
 - **fliki**（Fliki）旗標：has_promo, price_near_quote；；來源 https://fliki.ai/pricing；擷取 2026-10-12T13:31:30+08:00
@@ -102,6 +103,7 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **wordtune**（Wordtune）旗標：has_promo；；來源 https://www.wordtune.com/pricing；擷取 2026-10-12T13:31:44+08:00
 - **clay**（Clay）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Launch: period_ambiguous_toggle; Growth: period_ambiguous_toggle；來源 https://www.clay.com/pricing；擷取 2026-10-12T13:31:46+08:00
 - **frase**（Frase）旗標：has_promo, name_far_from_price, period_ambiguous_toggle；Enterprise: name_far_from_price; BASIC: period_ambiguous_toggle; PRO: period_ambiguous_toggle；來源 https://www.frase.io/pricing；擷取 2026-10-12T13:31:51+08:00
+- **decktopus**（Decktopus）旗標：dropped_fields, has_promo, price_near_quote, price_unclear；Pro: price_unclear；來源 https://www.decktopus.com/pricing；擷取 2026-10-12T13:31:58+08:00
 - **smartcat**（Smartcat）旗標：abnormal_price；Anticipate: abnormal_price；來源 https://www.smartcat.com/pricing；擷取 2026-10-12T13:32:06+08:00
 - **polymer**（Polymer）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Teams: period_ambiguous_toggle；來源 https://www.polymersearch.com/pricing；擷取 2026-10-12T13:32:06+08:00
 - **veed**（VEED）旗標：dropped_fields, llm_fallback_model, period_ambiguous_toggle；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Studio: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.veed.io/pricing；擷取 2026-10-12T13:32:13+08:00
@@ -111,8 +113,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **rytr**（Rytr）旗標：period_ambiguous_toggle；Unlimited: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://rytr.me/pricing；擷取 2026-10-12T13:32:35+08:00
 - **clearscope**（Clearscope）旗標：name_diff；資料集方案 ['Advanced'] vs 新 ['ESSENTIALS', 'BUSINESS']；來源 https://www.clearscope.io/pricing；擷取 2026-10-12T13:32:41+08:00
 - **freed**（Freed）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Core: period_ambiguous_toggle; Premier: period_ambiguous_toggle；來源 https://www.getfreed.ai/pricing；擷取 2026-10-12T13:32:42+08:00
+- **presentations-ai**（Presentations.AI）旗標：dropped_fields, price_change；Pro: 資料集 $50.0/月 → 官網 $20.0；來源 https://www.presentations.ai/pricing；擷取 2026-10-12T13:32:48+08:00
 - **lokalise-ai**（Lokalise）旗標：name_diff, name_missing；資料集方案 ['Teams'] vs 新 ['Explorer', '', '']; None: name_missing; None: name_missing；來源 https://lokalise.com/pricing；擷取 2026-10-12T13:32:53+08:00
 - **tidio**（Tidio Lyro）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Plus: period_ambiguous_toggle；來源 https://www.tidio.com/pricing；擷取 2026-10-12T13:33:07+08:00
+- **seaart**（SeaArt）旗標：price_unclear；SVIP: price_unclear；來源 https://www.seaart.ai/pricing；擷取 2026-10-12T13:33:06+08:00
 - **tavus**（Tavus）旗標：dropped_fields, name_diff；資料集方案 ['Plus', 'Max', 'Teams', 'Basic', 'Growth'] vs 新 ['Starter', 'Builder', 'Growth', 'Business']；來源 https://www.tavus.io/pricing；擷取 2026-10-12T13:33:27+08:00
 - **taskade**（Taskade）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle; Max: period_ambiguous_toggle; Enterprise: period_ambiguous_toggle；來源 https://www.taskade.com/pricing；擷取 2026-10-12T13:33:28+08:00
 - **anyword**（Anyword）旗標：dropped_fields, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Data-Driven: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.anyword.com/pricing；擷取 2026-10-12T13:33:34+08:00
@@ -123,13 +127,16 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **musicfy**（Musicfy）旗標：dropped_fields, has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://musicfy.lol/pricing；擷取 2026-10-12T13:34:16+08:00
 - **neuronwriter**（NeuronWriter）旗標：name_diff, name_missing, period_ambiguous_toggle；資料集方案 ['Business', 'Team'] vs 新 ['Bronze', '', '', '', '']; Bronze: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://neuronwriter.com/pricing；擷取 2026-10-12T13:34:30+08:00
 - **glass-health**（Glass Health）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://glass.health/pricing；擷取 2026-10-12T13:34:40+08:00
+- **kickresume**（Kickresume）旗標：period_ambiguous_toggle, price_near_quote, price_unclear；Quarterly: price_unclear; Monthly: period_ambiguous_toggle；來源 https://www.kickresume.com/pricing；擷取 2026-10-12T13:34:48+08:00
 - **getimg**（getimg.ai）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Entry: period_ambiguous_toggle; Core: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Ultra: period_ambiguous_toggle；來源 https://getimg.ai/pricing；擷取 2026-10-12T13:35:01+08:00
 - **deepbrain**（DeepBrain AI (AI Studios)）旗標：period_ambiguous_toggle；Personal: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.deepbrain.io/pricing；擷取 2026-10-12T13:35:15+08:00
 - **riffusion**（Riffusion）旗標：has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Member: period_ambiguous_toggle；來源 https://www.riffusion.com/pricing；擷取 2026-10-12T13:35:22+08:00
 - **lindy**（Lindy）旗標：dropped_fields, price_change；Team: 資料集 $29.99/月 → 官網 $49.99；來源 https://www.lindy.ai/pricing；擷取 2026-10-12T13:35:24+08:00
 - **regie**（Regie.ai）旗標：has_promo, period_ambiguous_toggle, yearly_gt_monthly；Pro: yearly_gt_monthly, period_ambiguous_toggle; Team: yearly_gt_monthly, period_ambiguous_toggle；來源 https://www.regie.ai/pricing；擷取 2026-10-12T13:35:35+08:00
 - **koala**（Koala AI）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Boost: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Elite: period_ambiguous_toggle; Advanced: period_ambiguous_toggle; Scale I: period_ambiguous_toggle; Scale II: period_ambiguous_toggle; Scale III: period_ambiguous_toggle；來源 https://koala.sh/pricing；擷取 2026-10-12T13:35:40+08:00
+- **rezi**（Rezi）旗標：price_unclear；Lifetime Plan: price_unclear；來源 https://www.rezi.ai/pricing；擷取 2026-10-12T13:35:57+08:00
 - **chronicle**（Chronicle）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://chroniclehq.com/pricing；擷取 2026-10-12T13:36:05+08:00
+- **lara**（Lara Translate）旗標：dropped_fields；；來源 https://laratranslate.com/pricing；擷取 2026-10-12T13:36:07+08:00
 - **roo-code**（Roo Code）旗標：name_diff；資料集方案 ['Free'] vs 新 ['11–50 users', '51–100 users']；來源 https://roocode.com/pricing；擷取 2026-10-12T13:36:16+08:00
 - **polycam**（Polycam）旗標：price_near_quote；；來源 https://poly.cam/pricing；擷取 2026-10-12T13:36:20+08:00
 - **vidyo**（vidyo.ai (quso)）旗標：price_near_quote；；來源 https://quso.ai/pricing；擷取 2026-10-12T13:36:26+08:00
@@ -167,6 +174,7 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **obsidian-copilot**（Obsidian）旗標：llm_fallback_model, price_unclear；Catalyst: price_unclear; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://obsidian.md/pricing；擷取 2026-10-12T13:39:00+08:00
 - **novelcrafter**（Novelcrafter）旗標：llm_fallback_model, period_ambiguous_toggle；Scribe: period_ambiguous_toggle; Hobbyist: period_ambiguous_toggle; Artisan: period_ambiguous_toggle; Specialist: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.novelcrafter.com/pricing；擷取 2026-10-12T13:39:11+08:00
 - **lattice-ai**（Lattice）旗標：dropped_fields, llm_fallback_model, name_far_from_price；Grow: name_far_from_price; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://lattice.com/pricing；擷取 2026-10-12T13:39:18+08:00
+- **docyt**（Docyt）旗標：period_ambiguous_toggle；Accounting Suite: period_ambiguous_toggle; Catch-Up Accounting: period_ambiguous_toggle；來源 https://docyt.com/pricing；擷取 2026-10-12T13:39:25+08:00
 - **eraser**（Eraser）旗標：dropped_fields, llm_fallback_model, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Business: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.eraser.io/pricing；擷取 2026-10-12T13:39:28+08:00
 - **typingmind**（TypingMind）旗標：has_promo, llm_fallback_model, name_far_from_price, price_unclear；Standard: price_unclear; Extended: price_unclear, name_far_from_price; Premium: price_unclear; Bulk license: price_unclear; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://www.typingmind.com/pricing；擷取 2026-10-12T13:39:34+08:00
 - **picsart-ai**（Picsart）旗標：has_promo, period_ambiguous_toggle；Ultra: period_ambiguous_toggle；來源 https://picsart.com/pricing；擷取 2026-10-12T13:39:36+08:00
@@ -195,8 +203,39 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **deepnote**（Deepnote）旗標：has_promo；；來源 https://deepnote.com/pricing；擷取 2026-10-12T13:41:30+08:00
 - **greptile**（Greptile）旗標：name_diff；資料集方案 ['Unlimited', 'Free'] vs 新 ['Pro', 'Enterprise']；來源 https://www.greptile.com/pricing；擷取 2026-10-12T13:41:38+08:00
 - **genmo**（Genmo）旗標：period_ambiguous_toggle；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle；來源 https://www.genmo.ai/pricing；擷取 2026-10-12T13:41:44+08:00
+- **rev**（Rev）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.rev.com/pricing；擷取 2026-10-12T13:41:49+08:00
+- **craft**（Craft）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://www.craft.do/pricing；擷取 2026-10-12T13:41:57+08:00
 - **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-12T13:41:58+08:00
 - **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Ultra: period_ambiguous_toggle; Max: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-12T13:42:06+08:00
+- **vectorizer**（Vectorizer.AI）旗標：name_missing；None: name_missing；來源 https://vectorizer.ai/pricing；擷取 2026-10-12T13:42:14+08:00
+- **scenario**（Scenario）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Starter', 'Free', 'Teams'] vs 新 ['Starter', 'Pro', 'Max']; Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://www.scenario.com/pricing；擷取 2026-10-12T13:42:19+08:00
+- **ltx-studio**（LTX Studio）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://ltx.studio/pricing；擷取 2026-10-12T13:42:20+08:00
+- **saner**（Saner.AI）旗標：period_ambiguous_toggle；Standard: period_ambiguous_toggle; Starter: period_ambiguous_toggle；來源 https://www.saner.ai/pricing；擷取 2026-10-12T13:42:25+08:00
+- **mathgpt**（Mathos AI）旗標：dropped_fields, price_unclear；Basic: price_unclear; Prime: price_unclear；來源 https://www.mathgptpro.com/pricing；擷取 2026-10-12T13:42:27+08:00
+- **jotform-ai**（Jotform AI Agents）旗標：dropped_fields；；來源 https://www.jotform.com/ai/agents/pricing；擷取 2026-10-12T13:42:35+08:00
+- **patterned**（Patterned AI）旗標：period_ambiguous_toggle；Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.patterned.ai/pricing；擷取 2026-10-12T13:42:37+08:00
+- **warp**（Warp）旗標：dropped_fields, period_ambiguous_toggle, price_change；Business: 資料集 $20.0/月 → 官網 $50.0; Build: period_ambiguous_toggle; Max: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.warp.dev/pricing；擷取 2026-10-12T13:42:39+08:00
+- **higgsfield**（Higgsfield）旗標：has_promo, price_near_quote；；來源 https://higgsfield.ai/pricing；擷取 2026-10-12T13:42:43+08:00
 - **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-12T13:42:52+08:00
+- **ai2sql**（AI2SQL）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_unclear；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle; Lifetime: price_unclear；來源 https://www.ai2sql.io/pricing；擷取 2026-10-12T13:42:53+08:00
+- **imagine-art**（Imagine Art）旗標：dropped_fields, period_ambiguous_toggle；Basic: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle; Creator: period_ambiguous_toggle；來源 https://www.imagine.art/pricing；擷取 2026-10-12T13:43:00+08:00
+- **fontjoy**（Kittl）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.kittl.com/pricing；擷取 2026-10-12T13:43:05+08:00
+- **activepieces**（Activepieces）旗標：dropped_fields, period_ambiguous_toggle；Plus: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.activepieces.com/pricing；擷取 2026-10-12T13:43:21+08:00
+- **wan**（Wan (通義萬相)）旗標：has_promo, llm_fallback_model, price_near_quote, yearly_gt_monthly；Pro: yearly_gt_monthly; Premium: yearly_gt_monthly; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://wan.video/pricing；擷取 2026-10-12T13:43:32+08:00
+- **spark-mail**（Spark Mail）旗標：has_promo, name_diff, period_ambiguous_toggle, price_near_quote；資料集方案 ['Teams'] vs 新 ['Plus', 'Pro']; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://sparkmailapp.com/pricing；擷取 2026-10-12T13:43:42+08:00
+- **pipedream**（Pipedream）旗標：dropped_fields, name_diff, period_ambiguous_toggle；資料集方案 ['Team', 'Plus'] vs 新 ['Free', 'Startup']; Startup: period_ambiguous_toggle；來源 https://pipedream.com/pricing；擷取 2026-10-12T13:43:45+08:00
+- **artbreeder**（Artbreeder）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing；來源 https://www.artbreeder.com/pricing；擷取 2026-10-12T13:43:55+08:00
+- **leonardo-motion**（Clipfly）旗標：has_promo；；來源 https://www.clipfly.ai/pricing；擷取 2026-10-12T13:43:59+08:00
+- **vapi**（Vapi）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Core', 'Pro']；來源 https://vapi.ai/pricing；擷取 2026-10-12T13:44:01+08:00
+- **browse-ai**（Browse AI）旗標：price_change, price_near_quote；Personal: 資料集 $48.0/月 → 官網 $19.0；來源 https://www.browse.ai/pricing；擷取 2026-10-12T13:44:09+08:00
 - **codeium**（Codeium）旗標：dropped_fields, llm_fallback_model, price_change；Team: 資料集 $40.0/月 → 官網 $80.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准；來源 https://codeium.com/pricing；擷取 2026-10-12T13:44:14+08:00
+- **vmake**（Vmake）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://vmake.ai/pricing；擷取 2026-10-12T13:44:16+08:00
+- **bland**（Bland AI）旗標：name_diff；資料集方案 ['Plus'] vs 新 ['Build']；來源 https://www.bland.ai/pricing；擷取 2026-10-12T13:44:20+08:00
+- **sunsama**（Sunsama）旗標：dropped_fields, name_diff, name_missing；資料集方案 ['Free', 'Unlimited'] vs 新 ['', '']; None: name_missing; None: name_missing；來源 https://www.sunsama.com/pricing；擷取 2026-10-12T13:44:21+08:00
+- **dust**（Dust）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://dust.tt/pricing；擷取 2026-10-12T13:44:24+08:00
 - **buffer-ai**（Buffer）旗標：period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://buffer.com/pricing；擷取 2026-10-12T13:44:27+08:00
+- **firecrawl**（Firecrawl）旗標：dropped_fields, name_far_from_price；；來源 https://www.firecrawl.dev/pricing；擷取 2026-10-12T13:44:32+08:00
+- **comfyui**（ComfyUI）旗標：has_promo, name_far_from_price, period_ambiguous_toggle, price_near_quote；Standard: period_ambiguous_toggle, name_far_from_price; Creator: period_ambiguous_toggle, name_far_from_price; Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.comfy.org/pricing；擷取 2026-10-12T13:44:33+08:00
+- **akiflow**（Akiflow）旗標：dropped_fields；；來源 https://akiflow.com/pricing；擷取 2026-10-12T13:44:43+08:00
+- **mem0**（Mem0）旗標：dropped_fields, label_name, name_diff；資料集方案 ['Scale', 'Pro', 'Starter', 'Hobby'] vs 新 ['Starter', 'Popular']; Popular: label_name；來源 https://mem0.ai/pricing；擷取 2026-10-12T13:44:46+08:00
+- **coursebox**（Coursebox）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro + LMS: period_ambiguous_toggle；來源 https://www.coursebox.ai/pricing；擷取 2026-10-12T13:44:46+08:00

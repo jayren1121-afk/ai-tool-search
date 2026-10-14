@@ -24,66 +24,67 @@ For individuals
 For businesses
 Free
 
-For lightweight chats
+For getting started with GitHub Copilot.
 
 $
 0
 USD
 
-Start for free
+Get started
 Open in VS Code
 What's included:
-Access to entry level models
 2,000 completions per month
+Access to Haiku 4.5, GPT-5 mini, and more
+Copilot CLI
 Community Support
 
-No credit card required. Verified students have access to the GitHub Copilot Student plan.
+No credit card required. Verified students have access to the GitHub Copilot Student plan. Learn more
 
 Pro
 
-For medium agent tasks
+For everyday coding with agents in GitHub Copilot.
 
 $
 10
 USD
 per user / month
 
-Choose Pro
+Get started
 Everything in Free and:
-Access to medium-complexity models
-Unlimited code completion and next edit suggestions
+Access to Cloud agent and code review4
+Unlimited code completion and next edit suggestions5
 Access to 3rd party agents (Claude Code and Codex)
-1,500 monthly AI credits ($15 value)
-
-Free for verified teachers and maintainers of popular open source projects.
-
+Model selection
+$15 monthly total credits for Pro6
 Pro+
 
-For complex tasks
+For more complex development with premium models.
 
 $
 39
 USD
 per user / month
 
-Choose Pro+
+Get started
 Everything in Pro and:
-Access to frontier models
+Access to premium models, including Opus
 Audit logs
-Over 4.6x included monthly credits than Pro
+4x+ included usage than Pro
+$70 monthly total credits for Pro+6
 Max
 
-For sustained, high-volume tasks
+For sustained, high-volume agent workflows with GitHub Copilot.
 
 $
 100
 USD
 per user / month
 
-Choose Max
+Get started
 Everything in Pro+ and:
-Early access to frontier models
-Over 13.3x included monthly credits than Pro
+Priority access to new models and features
+2.9x+ included usage than Pro+
+$200 monthly total credits for Max6
 BEST VALUE
 
 GitHub Copilot is available on your favorite platforms:
@@ -377,6 +378,7 @@ Google Gemini 3.5 Flash
 Google Gemini 3.6 Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
+Google Gemini 4 Argon
 xAI Grok 4.5
 xAI Grok 4.6
 xAI Grok 4.7
@@ -414,6 +416,7 @@ Google Gemini 3.5 Flash
 Google Gemini 3.6 Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
+Google Gemini 4 Argon
 xAI Grok 4.5
 xAI Grok 4.6
 xAI Grok 4.7
@@ -451,6 +454,7 @@ Google Gemini 3.5 Flash
 Google Gemini 3.6 Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
+Google Gemini 4 Argon
 xAI Grok 4.5
 xAI Grok 4.6
 xAI Grok 4.7
@@ -488,6 +492,7 @@ Google Gemini 3.5 Flash
 Google Gemini 3.6 Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
+Google Gemini 4 Argon
 xAI Grok 4.5
 xAI Grok 4.6
 xAI Grok 4.7
@@ -588,6 +593,12 @@ Users who purchase Copilot Pro, Pro+, or Max through GitHub Mobile in-app purcha
 Runs on GitHub Actions and consumes Actions minutes. 
 
 Authentication with SAML single sign-on (SSO) available for organizations using GitHub Enterprise Cloud.
+
+Code review will incur Actions usage.
+
+Response times may vary during periods of high usage. Requests may be subject to rate limiting.
+
+Flex allotments will vary over time.
 
 Site-wide Links
 THE DEVELOPER NEWSLETTER

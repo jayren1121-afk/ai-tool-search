@@ -1,34 +1,82 @@
 Sign in
 Contact sales
 Download
-Pricing
-Monthly
-Yearly
-Hobby
----
-Free
 ---
 Individual
+Teams
+Free
 ---
-For the agent-curious
+$0
+/month
 ---
-$20
-/ mo.
+Get started
 ---
-Pro
+✓
+Post, reply, and follow
+Plus
+---
+$8
+/month
+---
+Get Plus
+---
+Premium
+Most popular
+---
+$30
+/month
+---
+Get Premium
+---
+✓
+Ad-free scrolling on most surfaces
+✓
+---
+*3rd party models are available in Cursor, billed separately by usage
+---
+Super
+---
+$100
+/month
+---
+Get Super
+---
+*3rd party models are available in Cursor, billed separately by usage
+---
+Compare features across plans
+Feature
+---
+Free
+$0/month
+Get started
+---
+Plus
+$8/month
+Get Plus
+---
+Premium
+$30/month
+Get Premium
+---
+Super
+$100/month
+Get Super
+---
+Ultra
+$200/month
+Get Ultra
 ---
 Teams
+$30+/user/month
+Get Teams
 ---
-For teams that ship together
+Enterprise
+Custom
+Contact Sales
 ---
-$40
-/ user / mo.
----
-Standard
----
-Priority support and account management
-Contact sales
-Trusted every day by teams that build world-class software.
+3% with Direct Deposit	3%	3%	3%	3%	By seat tier	By seat tier
+Ad-free scrolling	—	Some surfaces	Most surfaces	Most surfaces	Most surfaces	Most surfaces	Most surfaces
+Get paid to post	—	✓	✓	✓	✓	✓	✓
 ---
 ⤓
 Contact Sales

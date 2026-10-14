@@ -15,6 +15,7 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'prezi-ai' and fetched_at = '2026-10-12T13:33:54+08:00'::timestamptz;  -- Prezi
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'gumloop' and fetched_at = '2026-10-12T13:34:22+08:00'::timestamptz;  -- Gumloop
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'undermind' and fetched_at = '2026-10-12T13:34:27+08:00'::timestamptz;  -- Undermind
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'rodin' and fetched_at = '2026-10-12T13:35:08+08:00'::timestamptz;  -- Hyper3D Rodin
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lumen5' and fetched_at = '2026-10-12T13:35:08+08:00'::timestamptz;  -- Lumen5
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'visily' and fetched_at = '2026-10-12T13:36:14+08:00'::timestamptz;  -- Visily
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'final-round' and fetched_at = '2026-10-12T13:36:40+08:00'::timestamptz;  -- Final Round AI
@@ -23,5 +24,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'quadratic' and fetched_at = '2026-10-12T13:40:54+08:00'::timestamptz;  -- Quadratic
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'autogpt' and fetched_at = '2026-10-12T13:41:24+08:00'::timestamptz;  -- AutoGPT
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'power-automate' and fetched_at = '2026-10-12T13:25:51+08:00'::timestamptz;  -- Power Automate
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'copysmith' and fetched_at = '2026-10-12T13:42:30+08:00'::timestamptz;  -- Ocoya
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'vanna' and fetched_at = '2026-10-12T13:42:30+08:00'::timestamptz;  -- Vanna AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'factory' and fetched_at = '2026-10-12T13:43:10+08:00'::timestamptz;  -- Factory
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cartesia' and fetched_at = '2026-10-12T13:43:14+08:00'::timestamptz;  -- Cartesia
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'shortwave' and fetched_at = '2026-10-12T13:43:16+08:00'::timestamptz;  -- Shortwave
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'gptzero' and fetched_at = '2026-10-12T13:43:24+08:00'::timestamptz;  -- GPTZero
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'augment' and fetched_at = '2026-10-12T13:43:28+08:00'::timestamptz;  -- Augment Code
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'displayr' and fetched_at = '2026-10-12T13:43:52+08:00'::timestamptz;  -- Displayr
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hootsuite-owlywriter' and fetched_at = '2026-10-12T13:44:06+08:00'::timestamptz;  -- Hootsuite
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'mutable' and fetched_at = '2026-10-12T13:44:38+08:00'::timestamptz;  -- Pieces
 commit;

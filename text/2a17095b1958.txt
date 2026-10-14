@@ -211,11 +211,11 @@ We’re always ready to help!
 Do you have any questions about our products, pricing, licensing models, or how best to address your developers’ needs? We’d love to help!
 Contact us
 AI
-JetBrains AI
-AI Assistant
+JetBrains Air
 Junie
-AI in IDEs
-AI Enterprise
+Air in IDEs
+Air Governance
+Air Teams
 AI News
 Developer Tools
 All Products
@@ -226,8 +226,6 @@ Plugin Marketplace
 Toolbox App
 Solutions
 Business
-Data
-IDE Services
 Remote Development
 Game Development
 DevOps
@@ -261,7 +259,6 @@ Events and Livestreams
 Newsletters
 Industry Reports
 Inspectopedia
-Desktop Art
 AI Agents Hub
 Community
 Developer Communities

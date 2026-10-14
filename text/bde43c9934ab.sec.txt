@@ -1,38 +1,47 @@
 For businesses
 Free
 ---
-Start for free
-Open in VS Code
----
-Access to entry level models
+What's included:
 2,000 completions per month
-Community Support
+Access to Haiku 4.5, GPT-5 mini, and more
 ---
 USD
 per user / month
 ---
-Choose Pro
+Get started
 Everything in Free and:
-Access to medium-complexity models
-Unlimited code completion and next edit suggestions
+Access to Cloud agent and code review4
+Unlimited code completion and next edit suggestions5
 Access to 3rd party agents (Claude Code and Codex)
-1,500 monthly AI credits ($15 value)
+Model selection
+$15 monthly total credits for Pro6
+Pro+
 ---
-Free for verified teachers and maintainers of popular open source projects.
+For more complex development with premium models.
 ---
 USD
 per user / month
 ---
+Everything in Pro and:
+Access to premium models, including Opus
 Audit logs
-Over 4.6x included monthly credits than Pro
+4x+ included usage than Pro
+$70 monthly total credits for Pro+6
 Max
 ---
+For sustained, high-volume agent workflows with GitHub Copilot.
+---
 USD
 per user / month
 ---
-Early access to frontier models
-Over 13.3x included monthly credits than Pro
+Get started
+Everything in Pro+ and:
+Priority access to new models and features
+2.9x+ included usage than Pro+
+$200 monthly total credits for Max6
 BEST VALUE
+---
+GitHub Copilot is available on your favorite platforms:
 ---
 Pricing plans
 ---

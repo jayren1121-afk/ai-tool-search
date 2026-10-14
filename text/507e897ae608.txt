@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Muse
 
 FAQ
@@ -86,6 +87,1291 @@ per month
 2,000,000
 
 credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+For authors who publish multiple times a year
+
+Max
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Get developmental edits, line edits, and beta reads
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Unused credits rollover for 12 months
+
+EZ Cancel Guarantee
+
+We want you to use Sudowrite because you love it, not because it's annoying to cancel. 
+
+So we make it very easy to upgrade, downgrade, take a break, try it again, or cancel forever.
+
+It’s your choice.
+
+Made by writers, for writers
+
+With you every step from idea to final draft
+
+Get started easily with Brainstorm
+
+Go from outline to rough draft with Expand
+
+Bust through writer's block with Write
+
+Get started easily with Brainstorm
+
+Write faster and have more fun with Earth’s most advanced long-form writing app
+
+Writer’s block - Banished!
+
+An always-available brainstorm buddy
+
+Alternates for "ripple"
+
+Find the perfect word
+with a couple clicks
+
+Our AI follows instructions
+
+Generate an outline
+
+Beta feedback without having to find beta readers
+
+Rephrase tricky dialogue
+
+More show, not tell? More inner conflict? We got you.
+
+Speaks 30+ languages
+
+Does your laundry for you
+
+Generate new characters
+
+Getting started? Easy
+
+Wanna see how it all comes together?
+Watch our demo video.
+
+Try it for free
+
+DON’T TAKE OUR WORD FOR IT
+
+Feedback hall of fame
+
+These are some nice things people who use Sudowrite have said
+
+WORDS WE LIVE BY
+
+There are no bad questions
+
+We hope we’ve answered all of yours below. 
+If not, we’re only an email away.
+
+What does Sudowrite do, really? 
+Here's a video below explaining everything.
+
+Sudowrite Simplified - Learn to Use AI Writing Tools in 11 Minutes
+11:05
+
+What languages does Sudowrite work in?
+You can write text in almost any language, click Write, and Sudowrite will match your language when it offers suggestions. When using other features, Sudowrite may fall back on English when it isn’t sure. Try it out in our free trial to see how it works for you!
+
+Is this magic?
+Yes. But so is life, isn’t it?
+
+Do you claim any rights or ownership over what I write in Sudowrite?
+We claim no rights over anything you put into Sudowrite, nor anything Sudowrite generates for you.
+
+Can Sudowrite plagiarize?
+The short answer is, Sudowrite won't plagiarize unless you explicitly force it to plagiarize, which is against our terms of service.
+
+The AI works by guessing one word at a time, based on general concepts it has learned from billions of samples of text. So it's extremely unlikely to produce the same words verbatim, or even ever again. It does not copy and paste chunks of text, it guesses each word (technically, parts of words), one at a time.
+
+The only way to get Sudowrite to plagiarize is to put in text it’s seen before verbatim, like the lyrics of an popular song, or the first paragraph of an extremely popular book like Harry Potter. As long as your own writing is original, you'll get more original writing out of Sudowrite. We encourage you to try plagiarism checkers to verify your results.
+
+Is this cheating?
+Sudowrite is a tool for creativity. It's not intended to write for you, but can help you vastly improve and speed up your writing. Just as a great writing partner can help you bust through when you're stuck or be a sounding board to bounce ideas off of, Sudowrite makes writing more fun, faster, and less solitary.
+
+What public language models does Sudowrite use?
+We use dozens of AI models, including the latest Claude models by Anthropic, multiple open source models, in-house models made expressly for fiction, like Muse, and several models created by OpenAI. We pair these models with a variety of proprietary narrative model-based and algorithmic pre- and post-processing to enable AI writing features not available anywhere else.
+
+Does Sudowrite learn and improve from my writing?
+We are constantly listening to writers' feedback to improve Sudowrite. However, we do not use your writing to train Sudowrite or OpenAI's AI models.
+
+Before I sign up, how do I cancel?
+It’s easy. Go to your subscription page and hit cancel. No phone calls, no nonsense.
+
+If I cancel, do I lose access to what I’ve written in Sudowrite?
+You can always access and work on your projects in Sudowrite, but won’t be able to use AI features without a paid plan. We will never hold your writing hostage.
+
+Didn't see your question here?
+Contact us directly!
+
+Free Tools
+
+AI Novelist
+
+Writing Assistant
+
+Creative Writing Assistant
+
+Fandom Super Generator
+
+AI Novel Generator
+
+Write a Book
+
+AI for Writing
+
+Fandom Helper
+
+Story Generator
+
+Plot Generator
+
+Story Plot Generator
+
+Narrative Generator
+
+AI Book Generator
+
+Storyline Generator
+
+Adult Writing Generator
+
+AI Story Writing Generator
+
+Story Writer AI
+
+Fan Fiction Fandom Story Generator
+
+Novel Generator
+
+Book Writer
+
+Book Writing Tool
+
+Novelist AI
+
+Writing AI
+
+Adult Story Generator
+
+Story Prompt Generator
+
+AI Story Generator
+
+Book Outline Generator
+
+AI Story Line Generator
+
+Free Story Generator
+
+AI Writing Assistant
+
+Learn
+
+Changelog
+
+Free Live Classes
+
+Our Blog
+
+FAQ
+
+Connect
+
+Join our Discord
+
+Become an Affiliate
+
+Follow on X
+
+Email Us
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+💼  We’re hiring a 👩‍💻 Senior Mobile Engineer and a 🎨 Product Designer.
+
+“There is no greater agony than bearing an untold story inside you.”
+
+— Maya Angelou
+
+     
+Help
+
+=== 計費模式: 月繳 (monthly) ===
+Muse
+
+FAQ
+
+Pricing
+
+Log in
+
+Say goodbye to writer’s block
+
+Use the #1 Creative Writing AI and make writing fun again.
+
+Monthly
+
+Yearly
+
+Up to 50% off
+
+$19
+
+per month
+
+225,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Perfect for people who write for fun or for school
+
+Hobby & Student
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Most popular
+
+$29
+
+per month
+
+450,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Good for longer works, like a novel or screenplay
+
+Professional
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Get developmental edits, line edits, and beta reads
+
+1,000,000
+
+2X as much!
+
+$59
+
+per month
+
+2,000,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+For authors who publish multiple times a year
+
+Max
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Get developmental edits, line edits, and beta reads
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Unused credits rollover for 12 months
+
+EZ Cancel Guarantee
+
+We want you to use Sudowrite because you love it, not because it's annoying to cancel. 
+
+So we make it very easy to upgrade, downgrade, take a break, try it again, or cancel forever.
+
+It’s your choice.
+
+Made by writers, for writers
+
+With you every step from idea to final draft
+
+Get started easily with Brainstorm
+
+Go from outline to rough draft with Expand
+
+Bust through writer's block with Write
+
+Get started easily with Brainstorm
+
+Write faster and have more fun with Earth’s most advanced long-form writing app
+
+Writer’s block - Banished!
+
+An always-available brainstorm buddy
+
+Alternates for "ripple"
+
+Find the perfect word
+with a couple clicks
+
+Our AI follows instructions
+
+Generate an outline
+
+Beta feedback without having to find beta readers
+
+Rephrase tricky dialogue
+
+More show, not tell? More inner conflict? We got you.
+
+Speaks 30+ languages
+
+Does your laundry for you
+
+Generate new characters
+
+Getting started? Easy
+
+Wanna see how it all comes together?
+Watch our demo video.
+
+Try it for free
+
+DON’T TAKE OUR WORD FOR IT
+
+Feedback hall of fame
+
+These are some nice things people who use Sudowrite have said
+
+WORDS WE LIVE BY
+
+There are no bad questions
+
+We hope we’ve answered all of yours below. 
+If not, we’re only an email away.
+
+What does Sudowrite do, really? 
+Here's a video below explaining everything.
+
+Sudowrite Simplified - Learn to Use AI Writing Tools in 11 Minutes
+11:05
+
+What languages does Sudowrite work in?
+You can write text in almost any language, click Write, and Sudowrite will match your language when it offers suggestions. When using other features, Sudowrite may fall back on English when it isn’t sure. Try it out in our free trial to see how it works for you!
+
+Is this magic?
+Yes. But so is life, isn’t it?
+
+Do you claim any rights or ownership over what I write in Sudowrite?
+We claim no rights over anything you put into Sudowrite, nor anything Sudowrite generates for you.
+
+Can Sudowrite plagiarize?
+The short answer is, Sudowrite won't plagiarize unless you explicitly force it to plagiarize, which is against our terms of service.
+
+The AI works by guessing one word at a time, based on general concepts it has learned from billions of samples of text. So it's extremely unlikely to produce the same words verbatim, or even ever again. It does not copy and paste chunks of text, it guesses each word (technically, parts of words), one at a time.
+
+The only way to get Sudowrite to plagiarize is to put in text it’s seen before verbatim, like the lyrics of an popular song, or the first paragraph of an extremely popular book like Harry Potter. As long as your own writing is original, you'll get more original writing out of Sudowrite. We encourage you to try plagiarism checkers to verify your results.
+
+Is this cheating?
+Sudowrite is a tool for creativity. It's not intended to write for you, but can help you vastly improve and speed up your writing. Just as a great writing partner can help you bust through when you're stuck or be a sounding board to bounce ideas off of, Sudowrite makes writing more fun, faster, and less solitary.
+
+What public language models does Sudowrite use?
+We use dozens of AI models, including the latest Claude models by Anthropic, multiple open source models, in-house models made expressly for fiction, like Muse, and several models created by OpenAI. We pair these models with a variety of proprietary narrative model-based and algorithmic pre- and post-processing to enable AI writing features not available anywhere else.
+
+Does Sudowrite learn and improve from my writing?
+We are constantly listening to writers' feedback to improve Sudowrite. However, we do not use your writing to train Sudowrite or OpenAI's AI models.
+
+Before I sign up, how do I cancel?
+It’s easy. Go to your subscription page and hit cancel. No phone calls, no nonsense.
+
+If I cancel, do I lose access to what I’ve written in Sudowrite?
+You can always access and work on your projects in Sudowrite, but won’t be able to use AI features without a paid plan. We will never hold your writing hostage.
+
+Didn't see your question here?
+Contact us directly!
+
+Free Tools
+
+AI Novelist
+
+Writing Assistant
+
+Creative Writing Assistant
+
+Fandom Super Generator
+
+AI Novel Generator
+
+Write a Book
+
+AI for Writing
+
+Fandom Helper
+
+Story Generator
+
+Plot Generator
+
+Story Plot Generator
+
+Narrative Generator
+
+AI Book Generator
+
+Storyline Generator
+
+Adult Writing Generator
+
+AI Story Writing Generator
+
+Story Writer AI
+
+Fan Fiction Fandom Story Generator
+
+Novel Generator
+
+Book Writer
+
+Book Writing Tool
+
+Novelist AI
+
+Writing AI
+
+Adult Story Generator
+
+Story Prompt Generator
+
+AI Story Generator
+
+Book Outline Generator
+
+AI Story Line Generator
+
+Free Story Generator
+
+AI Writing Assistant
+
+Learn
+
+Changelog
+
+Free Live Classes
+
+Our Blog
+
+FAQ
+
+Connect
+
+Join our Discord
+
+Become an Affiliate
+
+Follow on X
+
+Email Us
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+💼  We’re hiring a 👩‍💻 Senior Mobile Engineer and a 🎨 Product Designer.
+
+“There is no greater agony than bearing an untold story inside you.”
+
+— Maya Angelou
+
+     
+Help
+
+=== 計費模式: 月繳 (monthly) #2 ===
+Muse
+
+FAQ
+
+Pricing
+
+Log in
+
+Say goodbye to writer’s block
+
+Use the #1 Creative Writing AI and make writing fun again.
+
+Monthly
+
+Yearly
+
+Up to 50% off
+
+$19
+
+per month
+
+225,000
+
+credits per month
+
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Perfect for people who write for fun or for school
+
+Hobby & Student
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Most popular
+
+$29
+
+per month
+
+450,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Good for longer works, like a novel or screenplay
+
+Professional
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Get developmental edits, line edits, and beta reads
+
+1,000,000
+
+2X as much!
+
+$59
+
+per month
+
+2,000,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+For authors who publish multiple times a year
+
+Max
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Get developmental edits, line edits, and beta reads
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Unused credits rollover for 12 months
+
+EZ Cancel Guarantee
+
+We want you to use Sudowrite because you love it, not because it's annoying to cancel. 
+
+So we make it very easy to upgrade, downgrade, take a break, try it again, or cancel forever.
+
+It’s your choice.
+
+Made by writers, for writers
+
+With you every step from idea to final draft
+
+Get started easily with Brainstorm
+
+Go from outline to rough draft with Expand
+
+Bust through writer's block with Write
+
+Get started easily with Brainstorm
+
+Write faster and have more fun with Earth’s most advanced long-form writing app
+
+Writer’s block - Banished!
+
+An always-available brainstorm buddy
+
+Alternates for "ripple"
+
+Find the perfect word
+with a couple clicks
+
+Our AI follows instructions
+
+Generate an outline
+
+Beta feedback without having to find beta readers
+
+Rephrase tricky dialogue
+
+More show, not tell? More inner conflict? We got you.
+
+Speaks 30+ languages
+
+Does your laundry for you
+
+Generate new characters
+
+Getting started? Easy
+
+Wanna see how it all comes together?
+Watch our demo video.
+
+Try it for free
+
+DON’T TAKE OUR WORD FOR IT
+
+Feedback hall of fame
+
+These are some nice things people who use Sudowrite have said
+
+WORDS WE LIVE BY
+
+There are no bad questions
+
+We hope we’ve answered all of yours below. 
+If not, we’re only an email away.
+
+What does Sudowrite do, really? 
+Here's a video below explaining everything.
+
+Sudowrite Simplified - Learn to Use AI Writing Tools in 11 Minutes
+11:05
+
+What languages does Sudowrite work in?
+You can write text in almost any language, click Write, and Sudowrite will match your language when it offers suggestions. When using other features, Sudowrite may fall back on English when it isn’t sure. Try it out in our free trial to see how it works for you!
+
+Is this magic?
+Yes. But so is life, isn’t it?
+
+Do you claim any rights or ownership over what I write in Sudowrite?
+We claim no rights over anything you put into Sudowrite, nor anything Sudowrite generates for you.
+
+Can Sudowrite plagiarize?
+The short answer is, Sudowrite won't plagiarize unless you explicitly force it to plagiarize, which is against our terms of service.
+
+The AI works by guessing one word at a time, based on general concepts it has learned from billions of samples of text. So it's extremely unlikely to produce the same words verbatim, or even ever again. It does not copy and paste chunks of text, it guesses each word (technically, parts of words), one at a time.
+
+The only way to get Sudowrite to plagiarize is to put in text it’s seen before verbatim, like the lyrics of an popular song, or the first paragraph of an extremely popular book like Harry Potter. As long as your own writing is original, you'll get more original writing out of Sudowrite. We encourage you to try plagiarism checkers to verify your results.
+
+Is this cheating?
+Sudowrite is a tool for creativity. It's not intended to write for you, but can help you vastly improve and speed up your writing. Just as a great writing partner can help you bust through when you're stuck or be a sounding board to bounce ideas off of, Sudowrite makes writing more fun, faster, and less solitary.
+
+What public language models does Sudowrite use?
+We use dozens of AI models, including the latest Claude models by Anthropic, multiple open source models, in-house models made expressly for fiction, like Muse, and several models created by OpenAI. We pair these models with a variety of proprietary narrative model-based and algorithmic pre- and post-processing to enable AI writing features not available anywhere else.
+
+Does Sudowrite learn and improve from my writing?
+We are constantly listening to writers' feedback to improve Sudowrite. However, we do not use your writing to train Sudowrite or OpenAI's AI models.
+
+Before I sign up, how do I cancel?
+It’s easy. Go to your subscription page and hit cancel. No phone calls, no nonsense.
+
+If I cancel, do I lose access to what I’ve written in Sudowrite?
+You can always access and work on your projects in Sudowrite, but won’t be able to use AI features without a paid plan. We will never hold your writing hostage.
+
+Didn't see your question here?
+Contact us directly!
+
+Free Tools
+
+AI Novelist
+
+Writing Assistant
+
+Creative Writing Assistant
+
+Fandom Super Generator
+
+AI Novel Generator
+
+Write a Book
+
+AI for Writing
+
+Fandom Helper
+
+Story Generator
+
+Plot Generator
+
+Story Plot Generator
+
+Narrative Generator
+
+AI Book Generator
+
+Storyline Generator
+
+Adult Writing Generator
+
+AI Story Writing Generator
+
+Story Writer AI
+
+Fan Fiction Fandom Story Generator
+
+Novel Generator
+
+Book Writer
+
+Book Writing Tool
+
+Novelist AI
+
+Writing AI
+
+Adult Story Generator
+
+Story Prompt Generator
+
+AI Story Generator
+
+Book Outline Generator
+
+AI Story Line Generator
+
+Free Story Generator
+
+AI Writing Assistant
+
+Learn
+
+Changelog
+
+Free Live Classes
+
+Our Blog
+
+FAQ
+
+Connect
+
+Join our Discord
+
+Become an Affiliate
+
+Follow on X
+
+Email Us
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+💼  We’re hiring a 👩‍💻 Senior Mobile Engineer and a 🎨 Product Designer.
+
+“There is no greater agony than bearing an untold story inside you.”
+
+— Maya Angelou
+
+     
+Help
+
+=== 計費模式: 月繳 (monthly) #3 ===
+Muse
+
+FAQ
+
+Pricing
+
+Log in
+
+Say goodbye to writer’s block
+
+Use the #1 Creative Writing AI and make writing fun again.
+
+Monthly
+
+Yearly
+
+Up to 50% off
+
+$19
+
+per month
+
+225,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Perfect for people who write for fun or for school
+
+Hobby & Student
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Most popular
+
+$29
+
+per month
+
+450,000
+
+credits per month
+
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Good for longer works, like a novel or screenplay
+
+Professional
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Get developmental edits, line edits, and beta reads
+
+1,000,000
+
+2X as much!
+
+$59
+
+per month
+
+2,000,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+For authors who publish multiple times a year
+
+Max
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Get developmental edits, line edits, and beta reads
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Unused credits rollover for 12 months
+
+EZ Cancel Guarantee
+
+We want you to use Sudowrite because you love it, not because it's annoying to cancel. 
+
+So we make it very easy to upgrade, downgrade, take a break, try it again, or cancel forever.
+
+It’s your choice.
+
+Made by writers, for writers
+
+With you every step from idea to final draft
+
+Get started easily with Brainstorm
+
+Go from outline to rough draft with Expand
+
+Bust through writer's block with Write
+
+Get started easily with Brainstorm
+
+Write faster and have more fun with Earth’s most advanced long-form writing app
+
+Writer’s block - Banished!
+
+An always-available brainstorm buddy
+
+Alternates for "ripple"
+
+Find the perfect word
+with a couple clicks
+
+Our AI follows instructions
+
+Generate an outline
+
+Beta feedback without having to find beta readers
+
+Rephrase tricky dialogue
+
+More show, not tell? More inner conflict? We got you.
+
+Speaks 30+ languages
+
+Does your laundry for you
+
+Generate new characters
+
+Getting started? Easy
+
+Wanna see how it all comes together?
+Watch our demo video.
+
+Try it for free
+
+DON’T TAKE OUR WORD FOR IT
+
+Feedback hall of fame
+
+These are some nice things people who use Sudowrite have said
+
+WORDS WE LIVE BY
+
+There are no bad questions
+
+We hope we’ve answered all of yours below. 
+If not, we’re only an email away.
+
+What does Sudowrite do, really? 
+Here's a video below explaining everything.
+
+Sudowrite Simplified - Learn to Use AI Writing Tools in 11 Minutes
+11:05
+
+What languages does Sudowrite work in?
+You can write text in almost any language, click Write, and Sudowrite will match your language when it offers suggestions. When using other features, Sudowrite may fall back on English when it isn’t sure. Try it out in our free trial to see how it works for you!
+
+Is this magic?
+Yes. But so is life, isn’t it?
+
+Do you claim any rights or ownership over what I write in Sudowrite?
+We claim no rights over anything you put into Sudowrite, nor anything Sudowrite generates for you.
+
+Can Sudowrite plagiarize?
+The short answer is, Sudowrite won't plagiarize unless you explicitly force it to plagiarize, which is against our terms of service.
+
+The AI works by guessing one word at a time, based on general concepts it has learned from billions of samples of text. So it's extremely unlikely to produce the same words verbatim, or even ever again. It does not copy and paste chunks of text, it guesses each word (technically, parts of words), one at a time.
+
+The only way to get Sudowrite to plagiarize is to put in text it’s seen before verbatim, like the lyrics of an popular song, or the first paragraph of an extremely popular book like Harry Potter. As long as your own writing is original, you'll get more original writing out of Sudowrite. We encourage you to try plagiarism checkers to verify your results.
+
+Is this cheating?
+Sudowrite is a tool for creativity. It's not intended to write for you, but can help you vastly improve and speed up your writing. Just as a great writing partner can help you bust through when you're stuck or be a sounding board to bounce ideas off of, Sudowrite makes writing more fun, faster, and less solitary.
+
+What public language models does Sudowrite use?
+We use dozens of AI models, including the latest Claude models by Anthropic, multiple open source models, in-house models made expressly for fiction, like Muse, and several models created by OpenAI. We pair these models with a variety of proprietary narrative model-based and algorithmic pre- and post-processing to enable AI writing features not available anywhere else.
+
+Does Sudowrite learn and improve from my writing?
+We are constantly listening to writers' feedback to improve Sudowrite. However, we do not use your writing to train Sudowrite or OpenAI's AI models.
+
+Before I sign up, how do I cancel?
+It’s easy. Go to your subscription page and hit cancel. No phone calls, no nonsense.
+
+If I cancel, do I lose access to what I’ve written in Sudowrite?
+You can always access and work on your projects in Sudowrite, but won’t be able to use AI features without a paid plan. We will never hold your writing hostage.
+
+Didn't see your question here?
+Contact us directly!
+
+Free Tools
+
+AI Novelist
+
+Writing Assistant
+
+Creative Writing Assistant
+
+Fandom Super Generator
+
+AI Novel Generator
+
+Write a Book
+
+AI for Writing
+
+Fandom Helper
+
+Story Generator
+
+Plot Generator
+
+Story Plot Generator
+
+Narrative Generator
+
+AI Book Generator
+
+Storyline Generator
+
+Adult Writing Generator
+
+AI Story Writing Generator
+
+Story Writer AI
+
+Fan Fiction Fandom Story Generator
+
+Novel Generator
+
+Book Writer
+
+Book Writing Tool
+
+Novelist AI
+
+Writing AI
+
+Adult Story Generator
+
+Story Prompt Generator
+
+AI Story Generator
+
+Book Outline Generator
+
+AI Story Line Generator
+
+Free Story Generator
+
+AI Writing Assistant
+
+Learn
+
+Changelog
+
+Free Live Classes
+
+Our Blog
+
+FAQ
+
+Connect
+
+Join our Discord
+
+Become an Affiliate
+
+Follow on X
+
+Email Us
+
+Legal
+
+Terms & Conditions
+
+Privacy Policy
+
+💼  We’re hiring a 👩‍💻 Senior Mobile Engineer and a 🎨 Product Designer.
+
+“There is no greater agony than bearing an untold story inside you.”
+
+— Maya Angelou
+
+     
+Help
+
+=== 計費模式: 月繳 (monthly) #4 ===
+Muse
+
+FAQ
+
+Pricing
+
+Log in
+
+Say goodbye to writer’s block
+
+Use the #1 Creative Writing AI and make writing fun again.
+
+Monthly
+
+Yearly
+
+Up to 50% off
+
+$19
+
+per month
+
+225,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Perfect for people who write for fun or for school
+
+Hobby & Student
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Most popular
+
+$29
+
+per month
+
+450,000
+
+credits per month
+
+Start Free Trial
+
+No credit card, cancel anytime
+
+Good for longer works, like a novel or screenplay
+
+Professional
+
+Write, Rewrite, Describe, and Expand with story intelligence
+
+Match your writing style
+
+Ensure continuity across a series
+
+Brainstorm, research & edit with the best AI chat for fiction
+
+Use Muse & Ballad, Sudowrite’s AI models just for fiction
+
++30 industry-leading models
+
+Get developmental edits, line edits, and beta reads
+
+1,000,000
+
+2X as much!
+
+$59
+
+per month
+
+2,000,000
+
+credits per month
+
+What’s a credit?
+Sudowrite features use credits based on the AI model and the number of words read from your text and written for you.
 
 Start Free Trial
 

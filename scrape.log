@@ -424,3 +424,21 @@ SCRAPE DONE
 0 15 scraped https://suno.com/pricing 15.7
 舊版頁面還要重抓： 308 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+2 1 scraped https://windsurf.com/pricing 6.9
+1 2 scraped https://cursor.com/pricing 12.7
+0 3 scraped https://github.com/features/copilot/plans 19.8
+2 4 scraped https://replit.com/pricing 17.1
+0 5 scraped https://bolt.new/pricing 10.6
+2 6 scraped https://v0.app/pricing 5.9
+1 7 scraped https://lovable.dev/pricing 19.7
+0 8 scraped https://devin.ai/pricing 5.9
+1 9 scraped https://www.grammarly.com/plans 10.9
+2 10 scraped https://www.jetbrains.com/ai-ides/buy/ 15.7
+1 11 scraped https://www.copy.ai/prices 6.2
+0 12 scraped https://www.jasper.ai/pricing 18.2
+2 13 scraped https://writesonic.com/pricing 7.0
+1 14 scraped https://surferseo.com/pricing 15.7
+0 15 scraped https://www.sudowrite.com/pricing 12.4
+舊版頁面還要重抓： 293 個（每次最多 15 個）
+SCRAPE DONE

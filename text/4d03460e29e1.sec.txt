@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Book a demo
 Start for Free
 Pricing & Plans for teams that want to win AI search — not guess it
@@ -69,6 +70,84 @@ Peace of Mind
 ---
 USD
 /month billed yearly
+Start for Free
+Why choose?
+---
+If I have the annual plan, do my credits reset yearly or monthly?
+---
+If I choose the annual plan, do I have to pay upfront for the entire year?
+=== 計費模式: 年繳 (yearly) ===
+Book a demo
+Start for Free
+Pricing & Plans for teams that want to win AI search — not guess it
+---
+95
+USD
+per month
+Billed yearly
+Save $156
+Track your brand's visibility across ChatGPT, Gemini, AI Overviews, and other AI models.
+Start for Free
+Includes:
+---
+119
+USD
+per month
+Billed yearly
+Save $240
+Align your team with a unified workflow and start growing your visibility in AI search.
+Start for Free
+Includes:
+---
+219
+USD
+per month
+Billed yearly
+Save $444
+Secure your authority, fix technical conflicts, and manage AI perception at scale.
+Start for Free
+Everything in Standard, plus:
+---
+359
+USD
+per month
+Billed yearly
+Save $720
+Dominate the market with uncapped optimization, API access, and VIP support.
+Start for Free
+Everything in Pro, plus:
+---
+59
+USD
+per month
+Billed yearly
+Save $120
+Draft and optimize content to establish a baseline presence in Google and AI search results.
+Start for Free
+Create or Optimize 10 Documents
+---
+USD
+/month
+Start for Free
+Discovery
+---
+USD
+/month
+Start for Free
+Standard
+---
+USD
+/month
+Start for Free
+Pro
+---
+USD
+/month
+Start for Free
+Peace of Mind
+---
+USD
+/month
 Start for Free
 Why choose?
 ---
