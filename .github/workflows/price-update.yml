@@ -1,7 +1,7 @@
 # 價格資料每日更新（台灣時間每天 20:27 自動執行，也可手動按 Run workflow）
 # - 程式在 main 分支的 price-scraper/；進度與結果存到獨立的 price-data 分支（不會推到 main，不會觸發網站正式部署）
 # - 安全價格（Groq 主模型、沒有任何旗標）自動寫進網站資料庫並上線；其餘送到 /admin「價格審核」由你核准或拒絕
-# - 金鑰放在 Settings > Secrets and variables > Actions：GROQ_API_KEY、OPENROUTER_API_KEY、SUPABASE_URL、SUPABASE_SERVICE_ROLE_KEY（選填：CEREBRAS_API_KEY、MISTRAL_API_KEY）
+# - 金鑰放在 Settings > Secrets and variables > Actions：GROQ_API_KEY、OPENROUTER_API_KEY、SUPABASE_URL、SUPABASE_SERVICE_ROLE_KEY（選填：GEMINI_API_KEY、CEREBRAS_API_KEY、MISTRAL_API_KEY）
 name: 價格資料每日更新
 
 on:
@@ -81,9 +81,11 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || secrets.OPENROUTER_MODEL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           CEREBRAS_MODEL: ${{ vars.CEREBRAS_MODEL }}
           MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL }}
           LLM_PROVIDERS: ${{ vars.LLM_PROVIDERS }}
