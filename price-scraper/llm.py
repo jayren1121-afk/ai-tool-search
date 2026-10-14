@@ -1,5 +1,5 @@
 """GitHub Actions 版 LLM 結構化（提示詞 v2b，與 box 版相同）。
-- 提供者鏈：見 providers.py（Groq → OpenRouter → Cerebras → Mistral，沒設 key 的跳過；每日額度用盡自動換下一家）。
+- 提供者鏈：見 providers.py（Groq → OpenRouter → Gemini → Cerebras → Mistral，沒設 key 的跳過；每日額度用盡自動換下一家）。
 - checkpoint：PRICE_DATA_DIR/llm.jsonl（逐行追加；已完成的網址不重送）。
 - 只有 Groq gpt-oss-120b 的結果可進自動核准；其他家的結果 model 欄位記成 '<provider>:<model>'，final.py 會標 llm_fallback_model。
 - 之後 Groq 有額度時，會把「只有備援模型結果」的頁面用 120b 重做一次（LLM_UPGRADE_FALLBACK=0 可關閉）。

@@ -1,4 +1,4 @@
-"""LLM 提供者鏈。依 LLM_PROVIDERS 順序（預設 groq,openrouter,cerebras,mistral）；沒有設定 API key 的那家自動跳過。
+"""LLM 提供者鏈。依 LLM_PROVIDERS 順序（預設 groq,openrouter,gemini,cerebras,mistral）；沒有設定 API key 的那家自動跳過。
 每家的「每日額度用盡」(429 per-day / TPD / 402 額度不足) 或 key 無效 → 本次執行不再用該家，自動換下一家。
 只有 groq + openai/gpt-oss-120b 的結果算「主要模型」；其他家一律記成 '<provider>:<model>'，final.py 會標 llm_fallback_model、不進自動核准清單。
 新增一家：在 PROVIDERS 加一筆（OpenAI 相容的 chat/completions 端點），並在 workflow 的 env 加上對應的 secret。"""
@@ -14,6 +14,8 @@ PROVIDERS={
              tpm=7400,min_interval=0,style='groq'),
  'openrouter':dict(key='OPENROUTER_API_KEY',base='OPENROUTER_BASE_URL',url='https://openrouter.ai/api/v1',model_env='OPENROUTER_MODEL',
              model='nvidia/nemotron-3-super-120b-a12b:free',tpm=0,min_interval=3.5,style='openrouter'),   # 免費模型 20 次/分鐘
+ 'gemini':dict(key='GEMINI_API_KEY',base='GEMINI_BASE_URL',url='https://generativelanguage.googleapis.com/v1beta/openai',model_env='GEMINI_MODEL',
+             model='gemini-3.8-flash',tpm=0,min_interval=6.5,style='gemini'),   # Google Gemini 免費方案（OpenAI 相容端點）；免費額度每分鐘次數少，每次間隔 6.5 秒
  'cerebras':dict(key='CEREBRAS_API_KEY',base='CEREBRAS_BASE_URL',url='https://api.cerebras.ai/v1',model_env='CEREBRAS_MODEL',
              model='gpt-oss-120b',tpm=50000,min_interval=2.2,style='cerebras'),
  'mistral':dict(key='MISTRAL_API_KEY',base='MISTRAL_BASE_URL',url='https://api.mistral.ai/v1',model_env='MISTRAL_MODEL',
@@ -57,6 +59,7 @@ class Provider:
         if attempt==0: b["response_format"]={"type":"json_object"}
         if st=='groq': b.update(max_tokens=1800 if attempt==0 else 3000,reasoning_effort="low")
         elif st=='openrouter': b.update(max_tokens=6000 if attempt==0 else 9000,reasoning={"effort":"low"})
+        elif st=='gemini': b.update(max_tokens=6000 if attempt==0 else 9000,reasoning_effort="low")
         elif st=='cerebras': b.update(max_completion_tokens=3000 if attempt==0 else 5000,reasoning_effort="low")
         else: b.update(max_tokens=3000)
         return b
@@ -91,10 +94,14 @@ def pick_free_model(models,exclude=()):
     return c[0]['id'] if c else None
 
 DAILY=re.compile(r'per[ -]day|tpd|rpd|daily|free-models-per-day|quota',re.I)
-def classify_429(body,headers):
+MINUTE=re.compile(r'per ?minute|PerMinute',re.I)
+def classify_429(body,headers,style=None):
     ra=headers.get('retry-after') if headers else None
     try: ra=float(ra) if ra else None
     except ValueError: ra=None
+    if style=='gemini':   # Gemini：429 RESOURCE_EXHAUSTED / quota → 視為今天免費額度用完（除非明確寫每分鐘限制）
+        if MINUTE.search(body or '') and not re.search(r'per ?day|PerDay',body or '',re.I): return 'minute',ra
+        return 'daily',ra
     if DAILY.search(body or '') or (ra is not None and ra>900): return 'daily',ra
     return 'minute',ra
 
@@ -128,11 +135,12 @@ def call_page(pv,sys_prompt,prompt,sleep=time.sleep):
             b=b or str(getattr(e,'msg',''))
             last_err=f'HTTP {e.code} {b[:200]}'
             if e.code==429:
-                pv.stats['rl429']+=1; kind,ra=classify_429(b,e.headers)
+                pv.stats['rl429']+=1; kind,ra=classify_429(b,e.headers,pv.cfg['style'])
                 if kind=='daily': raise ProviderDown(f'{pv.name} 每日額度用盡（429）：{b[:160]}')
                 if attempt>=4: raise ProviderDown(f'{pv.name} 連續被限流：{b[:160]}')
                 sleep((ra or 20)+1); continue
             if e.code in (401,403): raise ProviderDown(f'{pv.name} 金鑰無效或沒有權限（HTTP {e.code}）：{b[:160]}')
+            if e.code==400 and re.search(r'API[ _]?key',b,re.I): raise ProviderDown(f'{pv.name} 金鑰無效或沒有權限（HTTP 400）：{b[:160]}')
             if e.code==402: raise ProviderDown(f'{pv.name} 額度/點數不足（HTTP 402）：{b[:160]}')
             if e.code==404 or (e.code==400 and re.search(r'model|endpoint',b,re.I) and not re.search(r'json',b,re.I)):
                 if pv.autopick(): continue
@@ -148,7 +156,7 @@ def call_page(pv,sys_prompt,prompt,sleep=time.sleep):
     raise PageError('retries exhausted: '+last_err)
 
 def build_chain(log=print):
-    order=[x.strip() for x in (_env('LLM_PROVIDERS') or 'groq,openrouter,cerebras,mistral').split(',') if x.strip()]
+    order=[x.strip() for x in (_env('LLM_PROVIDERS') or 'groq,openrouter,gemini,cerebras,mistral').split(',') if x.strip()]
     chain=[];skipped=[]
     for n in order:
         if n not in PROVIDERS: log(f'未知的提供者 {n}，略過'); continue

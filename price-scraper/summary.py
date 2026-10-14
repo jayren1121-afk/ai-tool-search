@@ -44,6 +44,7 @@ f"- AI 整理（需要整理的 {len(need_llm)} 頁）：**已完成 {len(prim)+
 f"  - 其中用主要模型 Groq gpt-oss-120b：{len(prim)} 頁；用備援模型（需人工看、Groq 有額度時會自動重做）：{len(fb)} 頁",
 f"- 今天這次處理了 {run.get('pages_done',0)} 頁（其中 {run.get('upgraded',0)} 頁是把備援結果改用 120b 重做），失敗 {run.get('errors',0)} 頁（下次會再試）",
 f"- 今天用了哪幾家：{'；'.join(used) if used else '沒有呼叫任何 AI（可能已全部完成或沒有設定金鑰）'}",
+f"- 備援順序（有設定金鑰的）：{' → '.join(run.get('providers_order') or []) or '無'}",
 f"- 沒設定金鑰所以跳過：{', '.join(run.get('skipped_no_key') or []) or '無'}",
 f"- 停止原因：{run.get('stopped_reason') or '—'}",
 f"- 目前結果：可直接匯入的價格 {st.get('ok',0)} 個工具；其中可批次核准 {auto} 個；其餘需人工看",

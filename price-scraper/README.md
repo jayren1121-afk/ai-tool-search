@@ -94,7 +94,7 @@ vercel.json                         ← 用來取代專案裡原本的 vercel.js
    - 按 **Add secret**
 6. **OpenRouter 必做的一個設定**：打開 https://openrouter.ai/settings/privacy ，確認允許使用免費模型（有些免費模型的提供者會記錄輸入內容；我們送出去的只是公開的官網價格頁文字，沒有個人資料）。如果沒有開，免費模型會回「找不到可用的端點」。
 
-（選填）以後想多加備援的 AI 公司，一樣在這裡新增：`CEREBRAS_API_KEY`、`MISTRAL_API_KEY`。**有設定才會用，沒設定會自動跳過**，不會出錯。
+（選填）以後想多加備援的 AI 公司，一樣在這裡新增：`GEMINI_API_KEY`（Google Gemini 免費方案）、`CEREBRAS_API_KEY`、`MISTRAL_API_KEY`。**有設定才會用，沒設定會自動跳過**，不會出錯。
 
 ## 步驟 5：手動執行一次測試
 
@@ -142,7 +142,7 @@ Actions → 點某一次執行 → 頁面往下捲，會看到中文摘要：
 
 1. **Groq**（`openai/gpt-oss-120b`，主要模型）：免費額度大約每天 95 頁。
 2. Groq 當天額度用完時，自動換 **OpenRouter 免費模型**。預設模型：**`nvidia/nemotron-3-super-120b-a12b:free`**（2026-10-12 查 OpenRouter 免費模型清單挑選：1200 億參數、可讀 26 萬字元等級的長文、支援 JSON 格式輸出）。OpenRouter 免費模型沒有儲值時每天約 50 次。
-3. 之後有設定 `CEREBRAS_API_KEY`、`MISTRAL_API_KEY` 的話，再依序使用。
+3. 之後有設定 `GEMINI_API_KEY`、`CEREBRAS_API_KEY`、`MISTRAL_API_KEY` 的話，再依序使用。
 
 規則：
 - 不是 Groq gpt-oss-120b 整理的結果，會標記 **llm_fallback_model**，**不會**放進可批次核准清單，只能人工看。
@@ -192,4 +192,4 @@ Actions → 價格資料每日更新 → Run workflow → 勾選「**開始新�
 - 時間控制：job 150 分鐘、主要步驟 130 分鐘；抓取最多 70 分鐘、AI 整理在開始後 115 分鐘自動停止，剩餘時間存檔；存檔步驟 `if: always()`，就算前面失敗也會保存已完成的進度。
 - 資料集：`price-scraper/ai_tools.json` 是 2026-10-08 版本的靜態複本；資料集更新時要一併替換此檔（新工具的價格頁會在下次執行時自動抓）。
 - 離線測試：`python3 price-scraper/tests/test_chain.py <資料複本資料夾>`（本機假伺服器模擬 429/404/金鑰錯誤，不用真金鑰）。
-- 可調的 Variables：`OPENROUTER_MODEL`、`CEREBRAS_MODEL`（預設 gpt-oss-120b）、`MISTRAL_MODEL`（預設 mistral-small-latest）、`LLM_PROVIDERS`（預設 `groq,openrouter,cerebras,mistral`）。
+- 可調的 Variables：`OPENROUTER_MODEL`、`GEMINI_MODEL`（預設 gemini-3.8-flash）、`CEREBRAS_MODEL`（預設 gpt-oss-120b）、`MISTRAL_MODEL`（預設 mistral-small-latest）、`LLM_PROVIDERS`（預設 `groq,openrouter,gemini,cerebras,mistral`）。
