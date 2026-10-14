@@ -10,10 +10,10 @@ export const dynamic = "force-dynamic";
 const str = (v: unknown, max: number) => (typeof v === "string" ? v.replace(/\s+/g, " ").trim().slice(0, max) : "");
 
 /**
- * 後台「價格審核」（只接受 POST；需登入 cookie 與合法 origin）：
- *  approve 核准：review_status=approved、reviewed=true → 網站顯示這筆價格
+ * 後台「價格」（update26：價格全部自動上線，這裡主要用來拒絕；只接受 POST；需登入 cookie 與合法 origin）：
+ *  approve 核准／恢復上線：review_status=approved、reviewed=true → 網站顯示這筆價格
  *  reject  拒絕：review_status=rejected、reviewed=false → 網站不顯示（會改顯示這個工具較早已上線的價格，若有）
- * 都會記錄 decided_by=admin；之後每日自動更新只要內容沒變就不會改掉你的決定。需要 migration 010。
+ * 都會記錄 decided_by=admin；之後每日自動更新只要內容沒變就不會改掉你的決定（拒絕過的同樣內容，重新抓取後也維持拒絕）。需要 migration 010。
  */
 export async function POST(req: NextRequest) {
   const bad = guard(req);
