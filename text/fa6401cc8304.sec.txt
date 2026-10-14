@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Earn Credits
 Labs
@@ -47,6 +48,79 @@ $24
 Saves $72 by billing yearly!
 Taxes calculated at checkout
 Subscribe
+Access to Suno Studio - now with MIDI, effects, automation, and design-your-own-plugins
+10,000 credits per month
+60 song downloads per month
+Access to our best models
+---
+Early access to new features
+Ability to purchase additional credits and downloads
+Priority queue; up to 10 songs at once
+---
+Do I get commercial use rights to my songs?
+What happens if I exhaust my monthly credits?
+Can I upgrade or downgrade my plan?
+Compare Suno plans
+Free Plan
+Pro Plan
+---
+Available models
+Best free model (v6-mini)
+Advanced models (v6 and v6-wild)
+---
+10 in a Priority queue
+Add-on credits
+Not available
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Earn Credits
+Labs
+More
+Start making music for free
+Plans for every creator
+Monthly
+Annual
+SAVE 20%
+Free
+Our starter plan.
+$0
+/month
+Sign Up
+Access to our free models
+50 credits per day
+Standard features only
+---
+Shared creation queue
+No monthly song downloads
+No commercial rights
+---
+No stem separation
+Pro
+MOST POPULAR
+Access to our best models and editing tools.
+$10
+/month
+Save by paying annually!
+Taxes calculated at checkout
+---
+Access to our best models
+2,500 credits per month
+20 song downloads per month
+Commercial use rights
+---
+Early access to new features
+Ability to purchase additional credits and downloads
+Priority queue; up to 10 songs at once
+---
+Create custom models
+Premier
+BEST VALUE
+Maximum credits and every feature unlocked.
+$30
+/month
+Save by paying annually!
+Taxes calculated at checkout
+---
 Access to Suno Studio - now with MIDI, effects, automation, and design-your-own-plugins
 10,000 credits per month
 60 song downloads per month

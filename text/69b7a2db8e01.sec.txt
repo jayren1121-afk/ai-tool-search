@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 For Individuals
 For Businesses
 Free
@@ -33,6 +34,84 @@ Yearly
 Pro
 ---
 $49 / mo
+---
+Built for advanced individuals creating premium content at scale. Unlock flexible usage and export in stunning 4K video quality.
+---
+Get started
+1,000 credits
+Video Generation:
+---
+Everything in Creator, plus:
+Customizable monthly usage
+Edit & proofread translation script
+---
+For Businesses
+Free
+Get started →
+---
+You can try HeyGen for free, no credit card required. The Free plan includes up to 3 videos per month, and limited trial access to premium features like Avatar IV, Video Agent, and lip-sync translation, so you can experience the product bef
+---
+How much does HeyGen cost?
+---
+You can use HeyGen for free and generate up to 3 videos a month, no credit card required. Paid plans include a monthly credit allocation you spend across all features. For solo creators, the Creator plan costs $29/month (or $24/month if you
+---
+What are credits?
+---
+Do credits roll over?
+---
+How can I get more credits?
+---
+Creator and Pro users can upgrade to a higher plan or tier for more credits. Business users can purchase one-time credit packs or enable auto-reload. Upgrades take effect immediately, with prorated billing and credits added to your account 
+---
+What's the difference between Pro plan tiers?
+---
+All Pro tiers include the same features: only the monthly credit allocation changes. Tiers range from 1,000 credits/mo at $49 to 100,000 credits/mo at $4,300. You can switch tiers anytime.
+---
+What is the difference between a monthly & yearly subscription?
+---
+Localization
+Contact Sales
+COMPANY
+=== 計費模式: 年繳 (yearly) ===
+For Individuals
+For Businesses
+Free
+---
+$0/mo
+---
+Ideal entry point for creators and marketers looking to test the waters with AI tools, like HeyGen’s AI video maker.
+---
+Video Generation:
+3 videos per month
+Videos up to 1 min
+---
+30+ languages
+Monthly
+Yearly
+Creator
+---
+$24 / mo$29
+---
+$288 billed yearly
+---
+Generative AI video creation for solo creators. Provides access to advanced features like the AI video generator and AI voice over.
+---
+Get started
+600 credits
+Video Generation:
+---
+Watermark removal
+Everything in Free, plus
+Voice Cloning
+---
+Credit rollovers
+Monthly
+Yearly
+Pro
+---
+$41 / mo$49
+---
+$488 billed yearly
 ---
 Built for advanced individuals creating premium content at scale. Unlock flexible usage and export in stunning 4K video quality.
 ---

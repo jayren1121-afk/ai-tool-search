@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Start for free
 Choose the plan that's right for you
@@ -41,6 +42,107 @@ user/month
 Buy now
 Business
 $19.99
+user/month
+Buy now
+Enterprise
+---
+5
+5 billed users
+25 billed users
+Unlimited
+---
+Live transcription via RTMP (additional fees apply)
+Meeting & recording transcription monthly limit (no rollover)
+300 minutes per user*
+1,200 minutes per user*
+Unlimited
+Unlimited
+Imported file transcription monthly limit (no rollover)
+300 minutes per user*
+1,200 minutes per user*
+6,000 minutes per user
+6,000 minutes per user
+Max transcription time per conversation
+---
+Max number of pre-recorded audio/video files for import and transcription
+3 lifetime per user
+10 monthly per user
+Unlimited
+---
+mp3, txt, pdf, docx, srt; bulk export
+Max monthly queries for Otter AI Chat
+20 per user
+(3 per conversation)
+50 per user
+200 per user
+200 per user
+MCP server integration for AI assistants
+---
+Custom AI Meeting Templates usage limits
+5 meetings per user
+15 meetings per user
+30 meetings per user
+Unlimited
+---
+We accept credit and debit cards on the Otter.ai website, as well as in-app purchases billed through the Apple App Store or Google Play.
+---
+Do you offer student discounts?
+---
+Yes, we offer a 20% discount on Otter Pro Monthly and Otter Pro Annual plans for individual students and teachers using an email address ending with .edu. The discounted prices are as follows:
+---
+Otter Pro Annual: $6.67 USD per month (billed $79.99 annually)
+Otter Pro Monthly: $13.59 USD per month
+---
+To subscribe:
+1. Sign up for Otter Basic (or login) using an email address ending with .edu (e.g., john.smith@stanford.edu).
+---
+The world's smartest AI Notetaker
+Start for free
+Demo it live
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Start for free
+Choose the plan that's right for you
+Monthly
+Annual
+save 51%
+---
+For those who want to give it a try
+Free
+Get started
+---
+300 monthly transcription minutes
+---
+NEW
+Otter MCP server
+Pro
+For individuals and small teams
+$16.99
+/user/month
+Buy now
+---
+10 monthly audio/video file imports
+---
+Salesforce*, HubSpot*, Zapier integrations
+Business
+BEST VALUE
+For medium-sized teams
+$30
+$24
+/user/month
+20% off for 3 months+
+Buy now
+---
+Basic
+Free
+forever
+Get started
+Pro
+$16.99
+user/month
+Buy now
+Business
+$24
 user/month
 Buy now
 Enterprise

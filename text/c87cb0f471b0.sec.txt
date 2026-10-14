@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 API
 MONTHLY
 YEARLY
@@ -133,44 +134,281 @@ Up to 360 minutes of video / year, deducted from the plan's usage limits
 Limited royalty-free content including videos and images from Pexels and music from Soundstripe
 ---
 Royalty-free content including videos and images from Getty Images and Pexels, music from Soundstripe and icons from Icons8
+=== 計費模式: 月繳 (monthly) ===
+API
+MONTHLY
+YEARLY
+Save up to 4 months with yearly
+Basic
+---
+$0 per month
+---
+500 CREDITS / MONTH
+Get started
+Free allowance
+Syren
+---
+Starter
+---
+Billed monthly.
+---
+$19 per month
+---
+1,250 CREDITS / MONTH
+Get started
+CREDITS
+Videoup to~12min
+---
+Surveysup to3responses
+On top of the free allowance
+Roleplays
+---
+MOST POPULAR
+---
+Billed monthly.
+---
+$89 per month
+---
+6,000 CREDITS / MONTH
+Get started
+CREDITS
+Videoup to~60min
+---
+Surveysup to17responses
+On top of the free allowance
+Roleplays
+---
+29
+/ learner / month
+Add learner seats to plan
+---
+Video minutes
+30 min / mo
+100 credits per minute · first 10 min included on every plan
+Dubbing minutes
+0 min / mo
+76 credits per minute
+Survey responses
+0 responses / mo
+350 credits per response · first 3 included on every plan
+---
+OUR RECOMMENDATION
+Pro
+6,000credits / month
+$89/month, billed monthly
+6,000 credits / month included
+Everything in Starter + more
+Scale up or down anytime
+Start Pro - $89/mo
+Compare plans
+Basic
+---
+$0/mo
+---
+try for free
+Get started
+Starter
+---
+$19/mo
+---
+billed monthly
+Get started
+Pro
+---
+$89/mo
+---
+billed monthly
+Get started
+---
+10 minutes of video / month
+---
+Up to ~12 minutes of video / month, on top of the free allowance
+Up to ~60 minutes of video / month, on top of the free allowance
+---
+10 sessions / month
+---
+10 sessions / month
+---
+10 sessions / month
+---
+25 sessions / month. Shared across all organisation workspaces.
+---
+Studio Avatars
+---
+Paid add-on ($1,000/year)
+---
+Dialogue
+Customizable Avatars
+---
+Access
+Promo credits
+2,000 credits, limited time only
+2,000 credits, limited time only
+2,000 credits, limited time only
+2,000 credits per user, limited time only
+Video length
+---
+10 minutes of dubbing / month
+---
+Up to 16 minutes of dubbing / month, on top of the free allowance
+Up to 78 minutes of dubbing / month, on top of the free allowance
+---
+Up to 360 minutes of video / year, deducted from the plan's usage limits.
+---
+360 minutes of video / year included. (Additional usage available as a paid add-on)
+---
+3 / month
+---
+Limited royalty-free content including videos and images from Pexels and music from Soundstripe
 ---
 Royalty-free content including videos and images from Getty Images and Pexels, music from Soundstripe and icons from Icons8
 ---
 Royalty-free content including videos and images from Getty Images and Pexels, music from Soundstripe and icons from Icons8
+=== 計費模式: 年繳 (yearly) ===
+API
+MONTHLY
+YEARLY
+Save up to 4 months with yearly
+Basic
 ---
-Frequently asked questions about AI video.
-Can I use Synthesia for free?
+$0 per month
 ---
-Free AI video: You can generate an AI video for free here.
+500 CREDITS / MONTH
+Get started
+Free allowance
+Syren
 ---
-Free sales demo: If you're interested in testing Synthesia for a larger Enterprise, you can book a personal demo with our sales team here.
+Pre-built libraries, templates, roleplays, surveys
+Videos carry a Synthesia watermark
+See all features
+Starter
+$19Billed yearly.
 ---
-What happens if I go over my plan's monthly limit?
+$14 per month
 ---
-How and when are credits consumed?
+15,000 CREDITS / YEAR
+Get started
+CREDITS
+Videoup to~150min
 ---
-Credits are used when something is generated, never while you're editing or previewing. What each product uses:
+Surveysup to42responses
+On top of the free allowance
+Roleplays
 ---
-Dubbing - per minute of video dubbed: 80 credits with lip-sync, 40 without. Your 10 included minutes each month can be used for dubbing as well as video creation.
-Surveys - 350 credits per response, after the 3 responses included every month. Building and publishing a survey is free.
-B-roll - clips and images you generate in the AI Playground or Media Library are charged per asset; the cost depends on the model and is shown before you generate.
-Interactive Avatars (API) - per minute of conversation: 10 credits for the avatar only, 20 with the full widget.
-Can I upgrade my account at any time?
+Chat/email support
+See all features
+Pro
+MOST POPULAR
+$89Billed yearly.
 ---
-Yes. Change plans, switch to annual billing or adjust your Pro credit level any time from Settings → Plan & billing. For Enterprise, contact our sales team.
+$59 per month
 ---
-No, the payment for using Synthesia is recurring. For Starter and Pro plan users, the billing cycle can be monthly or annual.
+72,000 CREDITS / YEAR
+72,000 / YR
+$59
+144,000 / YR
+-1.25%
+$117
+288,000 / YR
+-2.5%
+$230
+432,000 / YR
+-3.75%
+$341
+576,000 / YR
+-5%
+$448
+Get started
+CREDITS
+Videoup to~720min
 ---
-No. Synthesia is based on monthly and yearly subscriptions.
+Surveysup to205responses
+On top of the free allowance
+Roleplays
 ---
-Get started for free
-Book demo
+25
+/ learner / month
+Add learner seats to plan
 ---
-Custom Avatars
-Free AI Video Generator
-Free AI Image Generator
-AI Video Editor
+Video minutes
+30 min / mo
+100 credits per minute · first 10 min included on every plan
+Dubbing minutes
+0 min / mo
+76 credits per minute
+Survey responses
+0 responses / mo
+350 credits per response · first 3 included on every plan
 ---
-Legal
-Contact Sales
-Affiliates
+OUR RECOMMENDATION
+Pro
+72,000credits / year
+$59/month, billed yearly
+72,000 credits / year included
+Everything in Starter + more
+Scale up or down anytime
+Start Pro - $59/mo
+Compare plans
+Basic
+---
+$0/mo
+---
+try for free
+Get started
+Starter
+---
+$14/mo
+---
+billed yearly
+Get started
+Pro
+---
+$59/mo
+---
+billed yearly
+Get started
+---
+10 minutes of video / month
+---
+Up to ~150 minutes of video / year, on top of the free allowance
+Up to ~720 minutes of video / year, on top of the free allowance
+---
+10 sessions / month
+---
+10 sessions / month
+---
+10 sessions / month
+---
+25 sessions / month. Shared across all organisation workspaces.
+---
+Studio Avatars
+---
+Paid add-on ($1,000/year)
+---
+Paid add-on ($1,000/year)
+---
+Paid add-on ($1,000/year)
+---
+Dialogue
+Customizable Avatars
+---
+Access
+Promo credits
+2,000 credits, limited time only
+2,000 credits, limited time only
+2,000 credits, limited time only
+2,000 credits per user, limited time only
+Video length
+---
+120 minutes of dubbing / year
+---
+Up to 197 minutes of dubbing / year, on top of the free allowance
+Up to 947 minutes of dubbing / year, on top of the free allowance
+---
+Up to 360 minutes of video / year, deducted from the plan's usage limits
+---
+360 minutes of video / year included. (Additional usage available as a paid add-on)
+---
+3 / month
+---
+Limited royalty-free content including videos and images from Pexels and music from Soundstripe

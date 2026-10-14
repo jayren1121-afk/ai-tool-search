@@ -406,3 +406,21 @@ SCRAPE DONE（沒有新網址）
 1 15 scraped https://www.krea.ai/pricing 28.5
 舊版頁面還要重抓： 323 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+0 1 scraped https://pika.art/pricing 11.0
+1 2 scraped https://runwayml.com/pricing 15.0
+0 3 scraped https://lumalabs.ai/dream-machine/pricing 15.6
+2 4 no_price_found https://klingai.com/membership 26.6
+1 5 scraped https://www.synthesia.io/pricing 13.9
+0 6 scraped https://www.heygen.com/pricing 12.3
+2 7 scraped https://www.descript.com/pricing 15.6
+1 8 scraped https://www.opus.pro/pricing 22.1
+2 9 scraped https://murf.ai/pricing 8.7
+0 10 scraped https://elevenlabs.io/pricing 21.3
+2 11 scraped https://fireflies.ai/pricing 8.7
+1 12 scraped https://otter.ai/pricing 15.7
+2 13 scraped https://www.aiva.ai/pricing 7.7
+1 14 scraped https://soundraw.io/pricing 9.1
+0 15 scraped https://suno.com/pricing 15.7
+舊版頁面還要重抓： 308 個（每次最多 15 個）
+SCRAPE DONE

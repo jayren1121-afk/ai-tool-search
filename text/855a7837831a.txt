@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Store BGM
 Generate Music
 License
@@ -6,105 +7,6 @@ For Businesses
 Pricing
 Log In
 Sign Up
-
-THE SAFEST AI BEAT-MAKER FOR CREATORS & ARTISTS
-
-100% Copyright-Safe AI Music Generator
-
-
-No scraped songs, no gray areas — SOUNDRAW’s AI is trained only on music we create in-house. Every beat is legally yours to use, monetize, and share.
-
-Try it for free
-
-TRUSTED BY
-
-EDIT AND PERSONALIZE YOUR TRACKS
-
-Fine-Tune Every Bar—No DAW Needed
-
-Use the Mixer to toggle instruments, tweak intensity, set the perfect length, and more. SOUNDRAW rebuilds your track on the spot.
-
-Start Creating
-
-BLEND GENRES, UNLOCK FRESH NEW SOUNDS
-
-Create Unique Beats with AI
-
-Choose any genres—Hip-Hop + Orchestra, Trap + Lo-Fi—and our AI fuses them into royalty free, studio-ready tracks in seconds.
-
-Generate richer, unpredictable mixes
-Mix any genres in one click
-Discover truly one-of-a-kind tracks
-Customize energy and length
-
-NEED MUSIC THAT KEEPS UP?
-
-Trusted by Millions of Creatives
-
-From solo creators to production teams, people use SOUNDRAW to make original music faster, without compromising on quality.
-
-Dan Noskin
-Product Team at Captions
-Music brings video to life, and SOUNDRAW has been key to that story at Captions. Integrating SOUNDRAW into our editor was seamless. That makes it easy for our users to add dynamic music to their videos.
-Read Dan Noskin's Full Testimonial →
-Bill Wang
-Founder of Gameology Space
-SOUNDRAW cut the time I spent sourcing and editing background music dramatically. Customizable duration, loop options, and quick adjustments were invaluable for social media and app store videos.
-Read Bill Wang's Full Testimonial →
-Candy Kilo
-Emerging artist and songwriter
-I created the beat for 'Losing Time' on my lunch break and recorded the whole song in one day. SOUNDRAW gave me the speed to compete in the RAW RAP CHALLENGE, winners perform at On The Radar.
-Read Candy Kilo's Full Testimonial →
-ENDLESS TRACKS, READY IN SECONDS
-Generate Unlimited Royalty Free AI Music
-
-Create unlimited background scores, podcast intros, and rap-ready beats with our AI music generator. Download high-quality WAV or separate STEMS, publish anywhere, and keep 100 % of the royalties for life.
-
-Start Creating
-
-TRAINED ONLY ON SOUNDRAW ORIGINALS
-
-Royalty Free, For Real
-
-Every beat on SOUNDRAW is generated from music our own producers write and record—never scraped from other artists. Because the AI learns only from this in-house catalog, every track you create carries a rock solid, worldwide license for commercial use.
-
-Learn more
-
-AI MUSIC GENERATION
-
-Hear SOUNDRAW In Action
-
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-GENERATE
-
-AI MUSIC FOR EVERY PROJECT
-
-Music for Creators & Artists
-SOUNDRAW for Creators
-Royalty free background music for videos, podcasts, apps & games
-Commercial & personal use—no strikes ever
-Unlimited downloads across 30 + genres
-Pricing
-SOUNDRAW for Artists
-Easy to understand license—you always know what’s allowed
-Distribute on Spotify, Apple Music, TikTok & more
-Collect 100 % of your song royalties
-Pricing
-REAL ARTISTS, REAL AI BEATS
-SOUNDRAW’s Biggest Hip-Hop Collabs
-French Montana - Ride the Wave
-Fivio Foreign - Doin Me
-Trippie Redd - #RBDG
 WE COVER ALL YOUR NEEDS
 Paid Plans
 
@@ -169,86 +71,93 @@ mp3, wav, stems
 API
 
 Learn more about licenses >
-
-FAQ
-
-FAQ
-Is the music I create with SOUNDRAW really royalty free and safe for monetization?
-
-Yes. SOUNDRAW's AI is trained only on songs our in-house producers write and record, so every beat you generate comes with a worldwide, perpetual license. Post your track on YouTube, Spotify, TikTok, or anywhere else and keep 100% of the revenue—no copyright claims, ever.
-
-Can I download individual STEMS and edit them in my DAW?
-What makes SOUNDRAW different from other AI music generators?
-Do I need any music experience to use SOUNDRAW?
-How does the subscription pricing work—are downloads really unlimited?
-
-PUSH BEYOND YOUR LIMITS
-
-SOUNDRAW Business Plans
-
-API tools, enterprise licenses and more. Find the perfect music for your business.
-
-API Plans
-
-Generate and embed high-quality music instantly through our API
-
-Explore our API Plans
-Enterprise Plan
-
-Create unlimited, royalty-free tracks in any genre or mood via our webapp
-
-Explore our Enterprise Plan
-SpaceMusic AI
-
-The spatial background music for your store, café, and more
-
-Explore SpaceMusic AI
-PASSIONATE ABOUT MUSIC
-Our Commitment to Artists & 100 % Royalty Free AI Music
-
-SOUNDRAW is an AI music generator built by musicians for the purpose of making music creation easy and accessible to everyone. Every beat, melody, and stem you create here is powered by proprietary algorithms trained exclusively on music produced in-house by our professional team.
-That means:
-
-
-No scraped songs, no legal gray areas – we own the master recordings and publishing rights to every note that trains our AI.
-Instant, copyright-free beats for YouTube, podcasts, games, and commercial releases. Keep 100 % of the royalties, forever.
-Download full stems or mix directly in our browser-based mixer to fine-tune tempo, key, and instrument layers.
-Because we control the entire catalog, you can create with confidence—no takedown notices, no hidden licenses, just limitless creativity.
-
-We are proud to be a supporter of aiformusic, alongside Roland and UMG. Aiformusic is an initiative with principles centered around the responsible use of AI in music.
-
-Products
-Generate Music
-Edit Music
-Pricing
-SOUNDRAW API
-SOUNDRAW for Schools
-SOUNDRAW for Business
-BGM For Physical Spaces
-Tutorials
-Licensing Explained
-AI Music
-AI Music Use Cases
-Testimonials
-Company
-About Us
-Press Releases
-Affiliate Program
-Blog
-Ethical AI Music
-Support & Legal
+See SOUNDRAW Grid pricing >
+English
+日本語
 Help Center
 Privacy Policy
 Terms of Service
 GDPR Privacy Policy
-Explore Genres
-Trap
-Hip Hop
-Drill
-Rock
-Acoustic
-Pop
-All AI Music Genres
+© SOUNDRAW 2026
+
+=== 計費模式: 年繳 (yearly) ===
+Store BGM
+Generate Music
+License
+FAQ
+For Businesses
+Pricing
+Log In
+Sign Up
+WE COVER ALL YOUR NEEDS
+Paid Plans
+
+Get up to 67% off with Annual
+
+Annual
+Monthly
+Plan
+Creator
+Artist Starter
+Artist Pro
+Artist Unlimited
+Enterprise
+Perfect for
+Individuals & Small companies (<10 employees)
+10+ employees
+Content creators
+Music artists / producers
+Everyone
+Pricing
+$19.99/mo
+$12.99/mo
+Subscribe
+$39.99/mo
+$25.99/mo
+Subscribe
+$59.99/mo
+$38.99/mo
+Subscribe
+$99.99/mo
+$64.99/mo
+Subscribe
+Ask
+Contact
+
+Commercial use
+
+Use as background music
+
+Videos, podcasts...
+
+Distribute & monetize songs
+
+Spotify, Apple Music...
+
+Monthly downloads
+
+Unlimited
+10
+20
+Unlimited
+Unlimited
+
+Format
+
+mp3
+mp3
+mp3, wav, stems
+mp3, wav, stems
+mp3, wav, stems
+
+API
+
+Learn more about licenses >
+See SOUNDRAW Grid pricing >
 English
 日本語
+Help Center
+Privacy Policy
+Terms of Service
+GDPR Privacy Policy
 © SOUNDRAW 2026

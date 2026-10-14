@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Try for free
 Contact Sales
 ---
@@ -31,6 +32,55 @@ Start Now
 Ultra
 ---
 $300/month
+---
+Start Now
+---
+150,000 credits
+15x usage with the Luma Agents
+---
+Usage analytics
+Shared team credits
+SSO
+=== 計費模式: 年繳 (yearly) ===
+Try for free
+Contact Sales
+---
+Share credits and manage usage in one place.
+---
+Try Luma free
+CREATIVE AGENTS
+---
+Save up to 20% with yearly
+---
+Monthly
+Yearly
+Individual plans
+Plus
+---
+$25/month
+---
+$300 billed yearly
+---
+Start Now
+10,000 credits
+Luma and third-party image and video models
+Edit access for guest collaborators
+Commercial use
+Pro
+---
+$75/month
+---
+$900 billed yearly
+---
+Start Now
+---
+40,000 credits
+4x usage with the Luma Agents
+Ultra
+---
+$250/month
+---
+$3,000 billed yearly
 ---
 Start Now
 ---

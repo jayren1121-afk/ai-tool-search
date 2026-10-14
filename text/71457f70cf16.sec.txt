@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Meet Fireflies Talk: Free, unlimited dictation wherever you type. See Now
 ---
 Flexible plans for teams of all sizes. Upgrade to get unlimited transcripts, summaries, and video recordings.
@@ -36,6 +37,98 @@ $29
 $19
 ---
 per seat / month, billed annually
+---
+30 AI credits
+---
+Rate Limits
+Enterprise
+For large scale enterprises
+$39
+$39
+ANNUAL ONLY
+---
+per seat / month, billed annually
+---
+50 AI credits
+---
+Free
+Free forever
+Get Started
+Pro
+$10 per seat / month, billed annually
+Get Started
+Business
+POPULAR
+$19 per seat / month, billed annually
+Get Started
+Enterprise
+ANNUAL ONLY
+$39 per seat / month, billed annually
+Contact Us
+Usage
+Transcript
+---
+400 mins/team
+8,000 mins/seat
+Unlimited
+---
+AI & Meeting Notes
+AI credits
+20 credits
+30 credits
+50 credits
+AI summary
+---
+What is counted as a seat?
+What are my monthly transcription credits?
+What languages do you support for transcription?
+---
+Do you have any volume discounts?
+What's the difference between the Free tier & Premium Tiers?
+How secure is Fireflies?
+---
+Unlock The Knowledge Buried Inside Your Conversations
+Try Fireflies For Free
+Request Demo
+=== 計費模式: 年繳 (yearly) ===
+Meet Fireflies Talk: Free, unlimited dictation wherever you type. See Now
+---
+Flexible plans for teams of all sizes. Upgrade to get unlimited transcripts, summaries, and video recordings.
+Monthly
+Annual
+Save up to 44%
+Free
+For individuals starting out
+$0
+$0
+---
+Free forever
+---
+20 AI credits
+---
+API access
+---
+Pro
+For professional individuals and small teams
+$18
+$10
+---
+per seat / month, billed monthly
+---
+8,000 mins of storage/seat
+---
+20 AI credits
+---
+Everything in Free, plus..
+---
+Rate Limits
+MOST POPULAR
+Business
+For fast growing businesses
+$29
+$19
+---
+per seat / month, billed monthly
 ---
 30 AI credits
 ---

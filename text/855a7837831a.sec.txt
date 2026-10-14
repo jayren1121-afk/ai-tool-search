@@ -1,16 +1,4 @@
-Try it for free
----
-Choose any genres—Hip-Hop + Orchestra, Trap + Lo-Fi—and our AI fuses them into royalty free, studio-ready tracks in seconds.
----
-ENDLESS TRACKS, READY IN SECONDS
-Generate Unlimited Royalty Free AI Music
----
-Royalty Free, For Real
----
-SOUNDRAW for Creators
-Royalty free background music for videos, podcasts, apps & games
-Commercial & personal use—no strikes ever
----
+=== 計費模式: 預設畫面 (default) ===
 Get up to 67% off with Annual
 ---
 Annual
@@ -37,15 +25,30 @@ Ask
 Contact
 ---
 Monthly downloads
+=== 計費模式: 年繳 (yearly) ===
+Get up to 67% off with Annual
 ---
-FAQ
-Is the music I create with SOUNDRAW really royalty free and safe for monetization?
+Annual
+Monthly
+Plan
 ---
-Create unlimited, royalty-free tracks in any genre or mood via our webapp
+Content creators
+Music artists / producers
+Everyone
+Pricing
+$19.99/mo
+$12.99/mo
+Subscribe
+$39.99/mo
+$25.99/mo
+Subscribe
+$59.99/mo
+$38.99/mo
+Subscribe
+$99.99/mo
+$64.99/mo
+Subscribe
+Ask
+Contact
 ---
-PASSIONATE ABOUT MUSIC
-Our Commitment to Artists & 100 % Royalty Free AI Music
----
-No scraped songs, no legal gray areas – we own the master recordings and publishing rights to every note that trains our AI.
-Instant, copyright-free beats for YouTube, podcasts, games, and commercial releases. Keep 100 % of the royalties, forever.
-Download full stems or mix directly in our browser-based mixer to fine-tune tempo, key, and instrument layers.
+Monthly downloads

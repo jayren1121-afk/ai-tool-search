@@ -1610,35 +1610,41 @@
   "name": "Runway",
   "status": "ok",
   "source_url": "https://runwayml.com/pricing",
-  "fetched_at": "2026-10-12T13:26:18+08:00",
-  "note": "robots 允許；重新導向到 runway.com",
-  "rendered_text_len": 5577,
+  "fetched_at": "2026-10-14T10:43:05+08:00",
+  "note": "robots 允許；計費切換：monthly、yearly；重新導向到 runway.com",
+  "rendered_text_len": 17276,
   "extracted": {
    "plans": [
     {
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month",
+     "billing_note": "monthly: $0/mo; yearly: $0/mo billed annually",
      "evidence_quote": "Free … $0 /month",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote"
      },
      "price_monthly": 0.0,
-     "price_yearly_per_month": null,
+     "price_yearly_per_month": 0.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly",
+      "yearly"
+     ]
     },
     {
      "name": "Standard",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month",
+     "billing_note": "monthly $12/mo (promo); yearly $15/mo billed annually",
      "evidence_quote": "Standard … $15 $12 /month",
      "quote_verified": true,
      "price_check": {
@@ -1647,21 +1653,25 @@
       "list_price": "in_quote"
      },
      "price_monthly": 12.0,
-     "price_yearly_per_month": 12.0,
+     "price_yearly_per_month": 15.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": 15.0,
      "regular_price_monthly": 15.0,
      "list_price_unit": "month",
      "issues": [
-      "period_ambiguous_toggle"
+      "yearly_gt_monthly"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Pro",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month",
+     "billing_note": "monthly $28/mo (promo); yearly $35/mo billed annually",
      "evidence_quote": "Pro … $35 $28 /month",
      "quote_verified": true,
      "price_check": {
@@ -1670,21 +1680,25 @@
       "list_price": "in_quote"
      },
      "price_monthly": 28.0,
-     "price_yearly_per_month": 28.0,
+     "price_yearly_per_month": 35.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": 35.0,
      "regular_price_monthly": 35.0,
      "list_price_unit": "month",
      "issues": [
-      "period_ambiguous_toggle"
+      "yearly_gt_monthly"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Max",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month",
+     "billing_note": "monthly $76/mo (promo); yearly $95/mo billed annually",
      "evidence_quote": "Max … $95 $76 /month",
      "quote_verified": true,
      "price_check": {
@@ -1693,75 +1707,77 @@
       "list_price": "in_quote"
      },
      "price_monthly": 76.0,
-     "price_yearly_per_month": 76.0,
+     "price_yearly_per_month": 95.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": 95.0,
      "regular_price_monthly": 95.0,
      "list_price_unit": "month",
      "issues": [
-      "period_ambiguous_toggle"
+      "yearly_gt_monthly"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     }
    ],
    "free_tier": {
     "available": true,
-    "limits": "125 credits per month",
-    "evidence_quote": "$0 /month 125 credits",
+    "limits": "125 credits (one-time)",
+    "evidence_quote": "Free … $0 … /month",
     "quote_verified": true
    },
-   "price_summary": "Free: $0/month. Standard: $12/month month-to-month, $12/month billed annually (list $15/month). Pro: $28/month month-to-month, $28/month billed annually (list $35/month). Max: $76/month month-to-month, $76/month billed annually (list $95/month).",
+   "price_summary": "Free plan is $0/month. Standard: $12/mo (promo, original $15) monthly, $15/mo yearly. Pro: $28/mo (promo, original $35) monthly, $35/mo yearly. Max: $76/mo (promo, original $95) monthly, $95/mo yearly.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
-   "issue_period_ambiguous_toggle": 3
+   "issue_yearly_gt_monthly": 3
   },
   "evidence": [
    {
     "evidence_quote": "Standard … $15 $12 /month",
     "plan": "Standard",
     "source_url": "https://runwayml.com/pricing",
-    "fetched_at": "2026-10-12T13:26:18+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    },
    {
     "evidence_quote": "Pro … $35 $28 /month",
     "plan": "Pro",
     "source_url": "https://runwayml.com/pricing",
-    "fetched_at": "2026-10-12T13:26:18+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    },
    {
     "evidence_quote": "Max … $95 $76 /month",
     "plan": "Max",
     "source_url": "https://runwayml.com/pricing",
-    "fetched_at": "2026-10-12T13:26:18+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    },
    {
-    "evidence_quote": "$0 /month 125 credits",
+    "evidence_quote": "Free … $0 … /month",
     "plan": "free_tier",
     "source_url": "https://runwayml.com/pricing",
-    "fetched_at": "2026-10-12T13:26:18+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    }
   ],
-  "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
-  "llm_provider": "openrouter",
-  "prompt_version": "v2b",
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "has_promo",
-    "llm_fallback_model",
-    "period_ambiguous_toggle"
+    "yearly_gt_monthly"
    ],
    "needs_review": true,
    "details": [
-    "Standard: period_ambiguous_toggle",
-    "Pro: period_ambiguous_toggle",
-    "Max: period_ambiguous_toggle",
-    "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
+    "Standard: yearly_gt_monthly",
+    "Pro: yearly_gt_monthly",
+    "Max: yearly_gt_monthly"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://runwayml.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://runwayml.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "sora",
@@ -1927,9 +1943,9 @@
   "name": "Pika",
   "status": "ok",
   "source_url": "https://pika.art/pricing",
-  "fetched_at": "2026-10-12T13:26:20+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 4540,
+  "fetched_at": "2026-10-14T10:43:05+08:00",
+  "note": "robots 允許；計費切換：yearly",
+  "rendered_text_len": 9131,
   "extracted": {
    "plans": [
     {
@@ -1949,7 +1965,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Starter",
@@ -1969,7 +1989,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Creator",
@@ -1979,16 +2003,21 @@
      "evidence_quote": "Creator … $35",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
      "price_monthly": 35.0,
-     "price_yearly_per_month": null,
+     "price_yearly_per_month": 28.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Fancy",
@@ -2005,7 +2034,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     }
    ],
    "free_tier": {
@@ -2020,26 +2053,26 @@
   "verify_stats": {
    "plans_total": 4,
    "price_near_quote": 1,
-   "price_dropped_unverified": 1
+   "price_other_section": 1
   },
   "evidence": [
    {
     "evidence_quote": "Starter … $10",
     "plan": "Starter",
     "source_url": "https://pika.art/pricing",
-    "fetched_at": "2026-10-12T13:26:20+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    },
    {
     "evidence_quote": "Creator … $35",
     "plan": "Creator",
     "source_url": "https://pika.art/pricing",
-    "fetched_at": "2026-10-12T13:26:20+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    },
    {
     "evidence_quote": "0 credits / month · packs only",
     "plan": "free_tier",
     "source_url": "https://pika.art/pricing",
-    "fetched_at": "2026-10-12T13:26:20+08:00"
+    "fetched_at": "2026-10-14T10:43:05+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -2047,21 +2080,23 @@
   "prompt_version": "v2b",
   "diff_flag": {
    "flags": [
-    "dropped_fields",
-    "price_near_quote"
+    "price_near_quote",
+    "stale_text"
    ],
    "needs_review": true,
-   "details": [],
+   "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理"
+   ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://pika.art/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://pika.art/pricing），2026-10-14 擷取"
  },
  {
   "id": "kling",
   "name": "Kling AI",
   "status": "no_price_found",
   "source_url": "https://klingai.com/membership",
-  "fetched_at": "2026-10-12T13:26:24+08:00",
+  "fetched_at": "2026-10-14T10:43:07+08:00",
   "note": "robots 允許；networkidle 未達；價格未出現，額外輪詢 12s",
   "rendered_text_len": 11097
  },
@@ -2070,9 +2105,9 @@
   "name": "Luma Dream Machine",
   "status": "ok",
   "source_url": "https://lumalabs.ai/dream-machine/pricing",
-  "fetched_at": "2026-10-12T13:26:26+08:00",
-  "note": "robots 允許；networkidle 未達",
-  "rendered_text_len": 7239,
+  "fetched_at": "2026-10-14T10:43:16+08:00",
+  "note": "robots 允許；networkidle 未達；計費切換：yearly",
+  "rendered_text_len": 14597,
   "extracted": {
    "plans": [
     {
@@ -2094,6 +2129,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -2115,6 +2153,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -2136,6 +2177,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
@@ -2153,19 +2197,19 @@
     "evidence_quote": "Plus … $30/month",
     "plan": "Plus",
     "source_url": "https://lumalabs.ai/dream-machine/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:16+08:00"
    },
    {
     "evidence_quote": "Pro … $90/month",
     "plan": "Pro",
     "source_url": "https://lumalabs.ai/dream-machine/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:16+08:00"
    },
    {
     "evidence_quote": "Ultra … $300/month",
     "plan": "Ultra",
     "source_url": "https://lumalabs.ai/dream-machine/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:16+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -2174,10 +2218,12 @@
   "diff_flag": {
    "flags": [
     "llm_fallback_model",
-    "period_ambiguous_toggle"
+    "period_ambiguous_toggle",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "Plus: period_ambiguous_toggle",
     "Pro: period_ambiguous_toggle",
     "Ultra: period_ambiguous_toggle",
@@ -2185,7 +2231,7 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://lumalabs.ai/dream-machine/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://lumalabs.ai/dream-machine/pricing），2026-10-14 擷取"
  },
  {
   "id": "hailuo",
@@ -2200,9 +2246,9 @@
   "name": "Synthesia",
   "status": "ok",
   "source_url": "https://www.synthesia.io/pricing",
-  "fetched_at": "2026-10-12T13:26:26+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 13038,
+  "fetched_at": "2026-10-14T10:43:20+08:00",
+  "note": "robots 允許；計費切換：monthly、yearly",
+  "rendered_text_len": 39207,
   "extracted": {
    "plans": [
     {
@@ -2222,7 +2268,12 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly",
+      "yearly"
+     ]
     },
     {
      "name": "Starter",
@@ -2242,7 +2293,11 @@
      "list_price": 19.0,
      "regular_price_monthly": 19.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Pro",
@@ -2262,7 +2317,11 @@
      "list_price": 89.0,
      "regular_price_monthly": 89.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     }
    ],
    "free_tier": {
@@ -2283,19 +2342,19 @@
     "evidence_quote": "Starter … $14 per month",
     "plan": "Starter",
     "source_url": "https://www.synthesia.io/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:20+08:00"
    },
    {
     "evidence_quote": "Pro … $59 per month",
     "plan": "Pro",
     "source_url": "https://www.synthesia.io/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:20+08:00"
    },
    {
     "evidence_quote": "500 CREDITS / MONTH",
     "plan": "free_tier",
     "source_url": "https://www.synthesia.io/pricing",
-    "fetched_at": "2026-10-12T13:26:26+08:00"
+    "fetched_at": "2026-10-14T10:43:20+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -2305,24 +2364,26 @@
    "flags": [
     "has_promo",
     "llm_fallback_model",
-    "price_near_quote"
+    "price_near_quote",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.synthesia.io/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.synthesia.io/pricing），2026-10-14 擷取"
  },
  {
   "id": "heygen",
   "name": "HeyGen",
   "status": "ok",
   "source_url": "https://www.heygen.com/pricing",
-  "fetched_at": "2026-10-12T13:26:35+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 9506,
+  "fetched_at": "2026-10-14T10:43:31+08:00",
+  "note": "robots 允許；計費切換：yearly",
+  "rendered_text_len": 19115,
   "extracted": {
    "plans": [
     {
@@ -2342,7 +2403,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Creator",
@@ -2362,8 +2427,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
      ]
     },
     {
@@ -2385,6 +2452,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
@@ -2399,26 +2469,26 @@
   },
   "verify_stats": {
    "plans_total": 3,
-   "issue_period_ambiguous_toggle": 2
+   "issue_period_ambiguous_toggle": 1
   },
   "evidence": [
    {
     "evidence_quote": "Creator … $29/month (or $24/month if you",
     "plan": "Creator",
     "source_url": "https://www.heygen.com/pricing",
-    "fetched_at": "2026-10-12T13:26:35+08:00"
+    "fetched_at": "2026-10-14T10:43:31+08:00"
    },
    {
     "evidence_quote": "Pro … $49 / mo",
     "plan": "Pro",
     "source_url": "https://www.heygen.com/pricing",
-    "fetched_at": "2026-10-12T13:26:35+08:00"
+    "fetched_at": "2026-10-14T10:43:31+08:00"
    },
    {
     "evidence_quote": "3 videos per month",
     "plan": "free_tier",
     "source_url": "https://www.heygen.com/pricing",
-    "fetched_at": "2026-10-12T13:26:35+08:00"
+    "fetched_at": "2026-10-14T10:43:31+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -2428,27 +2498,28 @@
    "flags": [
     "llm_fallback_model",
     "name_diff",
-    "period_ambiguous_toggle"
+    "period_ambiguous_toggle",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
     "資料集方案 ['Creator', 'Advanced', 'Business', 'Plus', 'Pro'] vs 新 ['Free', 'Creator', 'Pro']",
-    "Creator: period_ambiguous_toggle",
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "Pro: period_ambiguous_toggle",
     "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.heygen.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.heygen.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "descript",
   "name": "Descript",
   "status": "ok",
   "source_url": "https://www.descript.com/pricing",
-  "fetched_at": "2026-10-12T13:26:41+08:00",
-  "note": "robots 允許；networkidle 未達",
-  "rendered_text_len": 7993,
+  "fetched_at": "2026-10-14T10:43:33+08:00",
+  "note": "robots 允許；networkidle 未達；計費切換：monthly",
+  "rendered_text_len": 16044,
   "extracted": {
    "plans": [
     {
@@ -2469,8 +2540,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
@@ -2492,8 +2565,11 @@
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "period_ambiguous_toggle",
       "name_far_from_price"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
@@ -2514,8 +2590,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
@@ -2537,6 +2615,10 @@
      "list_price_unit": null,
      "issues": [
       "price_unclear"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     }
    ],
@@ -2551,7 +2633,6 @@
   },
   "verify_stats": {
    "plans_total": 4,
-   "issue_period_ambiguous_toggle": 3,
    "issue_name_far_from_price": 1,
    "issue_price_unclear": 1
   },
@@ -2560,25 +2641,25 @@
     "evidence_quote": "Hobbyist … $16 … $24 … per person / month",
     "plan": "Hobbyist",
     "source_url": "https://www.descript.com/pricing",
-    "fetched_at": "2026-10-12T13:26:41+08:00"
+    "fetched_at": "2026-10-14T10:43:33+08:00"
    },
    {
     "evidence_quote": "Creator … $24 … $35 … per person / month",
     "plan": "Creator",
     "source_url": "https://www.descript.com/pricing",
-    "fetched_at": "2026-10-12T13:26:41+08:00"
+    "fetched_at": "2026-10-14T10:43:33+08:00"
    },
    {
     "evidence_quote": "Business … $50 … $65 … per person / month",
     "plan": "Business",
     "source_url": "https://www.descript.com/pricing",
-    "fetched_at": "2026-10-12T13:26:41+08:00"
+    "fetched_at": "2026-10-14T10:43:33+08:00"
    },
    {
     "evidence_quote": "$0 … Get started on your creative journey",
     "plan": "free_tier",
     "source_url": "https://www.descript.com/pricing",
-    "fetched_at": "2026-10-12T13:26:41+08:00"
+    "fetched_at": "2026-10-14T10:43:33+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -2588,19 +2669,18 @@
    "flags": [
     "llm_fallback_model",
     "name_far_from_price",
-    "period_ambiguous_toggle",
-    "price_unclear"
+    "price_unclear",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
-    "Hobbyist: period_ambiguous_toggle",
-    "Creator: period_ambiguous_toggle, name_far_from_price",
-    "Business: period_ambiguous_toggle",
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
+    "Creator: name_far_from_price",
     "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.descript.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.descript.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "capcut",
@@ -2615,9 +2695,9 @@
   "name": "OpusClip",
   "status": "ok",
   "source_url": "https://www.opus.pro/pricing",
-  "fetched_at": "2026-10-12T13:26:42+08:00",
+  "fetched_at": "2026-10-14T10:43:34+08:00",
   "note": "robots 允許；networkidle 未達",
-  "rendered_text_len": 8180,
+  "rendered_text_len": 8207,
   "extracted": {
    "plans": [
     {
@@ -2677,19 +2757,19 @@
     "evidence_quote": "Starter … $15 USD/mo",
     "plan": "Starter",
     "source_url": "https://www.opus.pro/pricing",
-    "fetched_at": "2026-10-12T13:26:42+08:00"
+    "fetched_at": "2026-10-14T10:43:34+08:00"
    },
    {
     "evidence_quote": "Pro … $174 billed annually",
     "plan": "Pro",
     "source_url": "https://www.opus.pro/pricing",
-    "fetched_at": "2026-10-12T13:26:42+08:00"
+    "fetched_at": "2026-10-14T10:43:34+08:00"
    },
    {
     "evidence_quote": "$0 USD/mo",
     "plan": "free_tier",
     "source_url": "https://www.opus.pro/pricing",
-    "fetched_at": "2026-10-12T13:26:42+08:00"
+    "fetched_at": "2026-10-14T10:43:34+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -2704,23 +2784,23 @@
    "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.opus.pro/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.opus.pro/pricing），2026-10-14 擷取"
  },
  {
   "id": "elevenlabs",
   "name": "ElevenLabs",
   "status": "ok",
   "source_url": "https://elevenlabs.io/pricing",
-  "fetched_at": "2026-10-12T13:26:50+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 4844,
+  "fetched_at": "2026-10-14T10:43:44+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 9297,
   "extracted": {
    "plans": [
     {
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month",
+     "billing_note": "monthly",
      "evidence_quote": "Free … $0 per month",
      "quote_verified": true,
      "price_check": {
@@ -2733,13 +2813,17 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     },
     {
      "name": "Starter",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month",
+     "billing_note": "monthly, promo",
      "evidence_quote": "Starter … $1 per month",
      "quote_verified": true,
      "price_check": {
@@ -2753,15 +2837,17 @@
      "list_price": 6.0,
      "regular_price_monthly": 6.0,
      "list_price_unit": "month",
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Creator",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month",
+     "billing_note": "monthly, promo",
      "evidence_quote": "Creator … $11 per month",
      "quote_verified": true,
      "price_check": {
@@ -2775,15 +2861,17 @@
      "list_price": 22.0,
      "regular_price_monthly": 22.0,
      "list_price_unit": "month",
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Pro",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month",
+     "billing_note": "monthly",
      "evidence_quote": "Pro … $99 per month",
      "quote_verified": true,
      "price_check": {
@@ -2796,15 +2884,17 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Scale",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month",
+     "billing_note": "monthly",
      "evidence_quote": "Scale … $299 per month",
      "quote_verified": true,
      "price_check": {
@@ -2817,15 +2907,17 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Business",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month",
+     "billing_note": "monthly",
      "evidence_quote": "Business … $990 per month",
      "quote_verified": true,
      "price_check": {
@@ -2838,95 +2930,106 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
+    },
+    {
+     "name": "Enterprise",
+     "currency": null,
+     "is_promo": false,
+     "billing_note": "custom pricing",
+     "evidence_quote": "Enterprise … Custom pricing",
+     "quote_verified": true,
+     "price_check": {},
+     "price_monthly": null,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     }
    ],
    "free_tier": {
     "available": true,
     "limits": "10k credits per month",
-    "evidence_quote": "10k credits per month",
+    "evidence_quote": "Free $0 per month",
     "quote_verified": true
    },
-   "price_summary": "Free $0/mo; Starter $1/mo (first month 83% off, regular $6/mo); Creator $11/mo (first month 50% off, regular $22/mo); Pro $99/mo; Scale $299/mo; Business $990/mo; Enterprise custom pricing.",
-   "display_region_note": "Monthly and yearly billing options available."
+   "price_summary": "Free $0/mo; Starter $1/mo (promo from $6); Creator $11/mo (promo from $22); Pro $99/mo; Scale $299/mo; Business $990/mo; Enterprise custom pricing.",
+   "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 7,
-   "price_near_quote": 2,
-   "issue_period_ambiguous_toggle": 5,
-   "plan_dropped_quote": 1
+   "price_near_quote": 2
   },
   "evidence": [
    {
     "evidence_quote": "Starter … $1 per month",
     "plan": "Starter",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    },
    {
     "evidence_quote": "Creator … $11 per month",
     "plan": "Creator",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    },
    {
     "evidence_quote": "Pro … $99 per month",
     "plan": "Pro",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    },
    {
     "evidence_quote": "Scale … $299 per month",
     "plan": "Scale",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    },
    {
     "evidence_quote": "Business … $990 per month",
     "plan": "Business",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    },
    {
-    "evidence_quote": "10k credits per month",
+    "evidence_quote": "Free $0 per month",
     "plan": "free_tier",
     "source_url": "https://elevenlabs.io/pricing",
-    "fetched_at": "2026-10-12T13:26:50+08:00"
+    "fetched_at": "2026-10-14T10:43:44+08:00"
    }
   ],
-  "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
-  "llm_provider": "openrouter",
-  "prompt_version": "v2b",
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
-    "dropped_fields",
     "has_promo",
-    "llm_fallback_model",
-    "period_ambiguous_toggle",
     "price_near_quote"
    ],
    "needs_review": true,
-   "details": [
-    "Starter: period_ambiguous_toggle",
-    "Creator: period_ambiguous_toggle",
-    "Pro: period_ambiguous_toggle",
-    "Scale: period_ambiguous_toggle",
-    "Business: period_ambiguous_toggle",
-    "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
-   ],
+   "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://elevenlabs.io/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://elevenlabs.io/pricing），2026-10-14 擷取"
  },
  {
   "id": "murf",
   "name": "Murf AI",
   "status": "no_price_found",
   "source_url": "https://murf.ai/pricing",
-  "fetched_at": "2026-10-12T13:26:54+08:00",
-  "note": "robots 允許；networkidle 未達",
+  "fetched_at": "2026-10-14T10:43:48+08:00",
+  "note": "robots 允許",
   "rendered_text_len": 4139,
   "extracted": {
    "plans": [],
@@ -2945,7 +3048,7 @@
     "evidence_quote": "Free Trial … Get access to all API endpoints. Explore, build, and test without barriers … Get Started No credit card required $10 FREE for API calls 150+ voices in 35+ languages and styles 5 concurrent requests 24x7 chat support",
     "plan": "free_tier",
     "source_url": "https://murf.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:54+08:00"
+    "fetched_at": "2026-10-14T10:43:48+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -2964,9 +3067,9 @@
   "name": "Otter.ai",
   "status": "ok",
   "source_url": "https://otter.ai/pricing",
-  "fetched_at": "2026-10-12T13:26:57+08:00",
-  "note": "robots 允許；networkidle 未達",
-  "rendered_text_len": 7864,
+  "fetched_at": "2026-10-14T10:43:56+08:00",
+  "note": "robots 允許；networkidle 未達；計費切換：monthly",
+  "rendered_text_len": 15798,
   "extracted": {
    "plans": [
     {
@@ -2988,6 +3091,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -3009,6 +3115,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
@@ -3031,19 +3140,19 @@
     "evidence_quote": "Pro … $8.33 /user/month",
     "plan": "Pro",
     "source_url": "https://otter.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:57+08:00"
+    "fetched_at": "2026-10-14T10:43:56+08:00"
    },
    {
     "evidence_quote": "Business … $19.99 /user/month",
     "plan": "Business",
     "source_url": "https://otter.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:57+08:00"
+    "fetched_at": "2026-10-14T10:43:56+08:00"
    },
    {
     "evidence_quote": "300 monthly transcription minutes",
     "plan": "free_tier",
     "source_url": "https://otter.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:57+08:00"
+    "fetched_at": "2026-10-14T10:43:56+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -3052,16 +3161,18 @@
   "diff_flag": {
    "flags": [
     "dropped_fields",
-    "period_ambiguous_toggle"
+    "period_ambiguous_toggle",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "Pro: period_ambiguous_toggle",
     "Business: period_ambiguous_toggle"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://otter.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://otter.ai/pricing），2026-10-14 擷取"
  },
  {
   "id": "whisper",
@@ -3084,9 +3195,9 @@
   "name": "Fireflies.ai",
   "status": "ok",
   "source_url": "https://fireflies.ai/pricing",
-  "fetched_at": "2026-10-12T13:26:58+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 9304,
+  "fetched_at": "2026-10-14T10:43:57+08:00",
+  "note": "robots 允許；計費切換：yearly",
+  "rendered_text_len": 18663,
   "extracted": {
    "plans": [
     {
@@ -3106,7 +3217,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     },
     {
      "name": "Pro",
@@ -3127,8 +3242,10 @@
      "list_price": 18.0,
      "regular_price_monthly": 18.0,
      "list_price_unit": "month",
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
      ]
     },
     {
@@ -3150,8 +3267,10 @@
      "list_price": 29.0,
      "regular_price_monthly": 29.0,
      "list_price_unit": "month",
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
      ]
     },
     {
@@ -3171,7 +3290,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "yearly"
+     ]
     }
    ],
    "free_tier": {
@@ -3185,33 +3308,32 @@
   },
   "verify_stats": {
    "plans_total": 4,
-   "price_near_quote": 4,
-   "issue_period_ambiguous_toggle": 2
+   "price_near_quote": 4
   },
   "evidence": [
    {
     "evidence_quote": "Pro … $10 per seat / month, billed annually",
     "plan": "Pro",
     "source_url": "https://fireflies.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:58+08:00"
+    "fetched_at": "2026-10-14T10:43:57+08:00"
    },
    {
     "evidence_quote": "Business … $19 per seat / month, billed annually",
     "plan": "Business",
     "source_url": "https://fireflies.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:58+08:00"
+    "fetched_at": "2026-10-14T10:43:57+08:00"
    },
    {
     "evidence_quote": "Enterprise … $39 per seat / month, billed annually",
     "plan": "Enterprise",
     "source_url": "https://fireflies.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:58+08:00"
+    "fetched_at": "2026-10-14T10:43:57+08:00"
    },
    {
     "evidence_quote": "Free forever",
     "plan": "free_tier",
     "source_url": "https://fireflies.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:58+08:00"
+    "fetched_at": "2026-10-14T10:43:57+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -3220,118 +3342,143 @@
   "diff_flag": {
    "flags": [
     "has_promo",
-    "period_ambiguous_toggle",
-    "price_near_quote"
+    "price_near_quote",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
-    "Pro: period_ambiguous_toggle",
-    "Business: period_ambiguous_toggle"
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://fireflies.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://fireflies.ai/pricing），2026-10-14 擷取"
  },
  {
   "id": "suno",
   "name": "Suno",
   "status": "ok",
   "source_url": "https://suno.com/pricing",
-  "fetched_at": "2026-10-12T13:27:04+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 2945,
+  "fetched_at": "2026-10-14T10:44:05+08:00",
+  "note": "robots 允許；networkidle 未達；計費切換：monthly",
+  "rendered_text_len": 5941,
   "extracted": {
    "plans": [
     {
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "Free … $ … 0 … /month",
+     "billing_note": "monthly $0/mo; yearly $0/mo billed annually",
+     "evidence_quote": "Free … $0 /month",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote"
      },
      "price_monthly": 0.0,
-     "price_yearly_per_month": null,
+     "price_yearly_per_month": 0.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     },
     {
      "name": "Pro",
      "currency": "USD",
-     "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "Pro … $ … 8 … /month",
+     "is_promo": true,
+     "billing_note": "monthly $10/mo; yearly $8/mo billed annually",
+     "evidence_quote": "Pro … $10 /month",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
-     "price_monthly": 8.0,
-     "price_yearly_per_month": null,
+     "price_monthly": 10.0,
+     "price_yearly_per_month": 8.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle",
-      "name_far_from_price"
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
+    },
+    {
+     "name": "Premier",
+     "currency": "USD",
+     "is_promo": true,
+     "billing_note": "monthly $30/mo; yearly $24/mo billed annually",
+     "evidence_quote": "Premier … $30 /month",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_name_other_billing_section"
+     },
+     "price_monthly": 30.0,
+     "price_yearly_per_month": 24.0,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [],
+     "billing_sections": [
+      "monthly"
      ]
     }
    ],
    "free_tier": {
     "available": true,
-    "limits": "50 credits per day, shared creation queue, no monthly song downloads, no commercial rights, no stem separation",
+    "limits": "50 credits per day",
     "evidence_quote": "Free Our starter plan. $0 /month",
     "quote_verified": true
    },
-   "price_summary": "Free: $0/month; Pro: $8/month ($6/month billed annually, $72/year); Premier: $24/month ($18/month billed annually, $216/year). All prices in USD.",
-   "display_region_note": "Prices shown in USD; toggle between Monthly and Annual billing; annual plans save 20%."
+   "price_summary": "Free plan is $0/month. Pro is $10/month month‑to‑month or $8/month when billed annually. Premier is $30/month month‑to‑month or $24/month when billed annually, both with annual discounts.",
+   "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 3,
-   "price_dropped_unverified": 2,
-   "issue_period_ambiguous_toggle": 1,
-   "issue_name_far_from_price": 1,
-   "plan_dropped_quote": 1
+   "price_other_section": 2
   },
   "evidence": [
    {
-    "evidence_quote": "Pro … $ … 8 … /month",
+    "evidence_quote": "Pro … $10 /month",
     "plan": "Pro",
     "source_url": "https://suno.com/pricing",
-    "fetched_at": "2026-10-12T13:27:04+08:00"
+    "fetched_at": "2026-10-14T10:44:05+08:00"
+   },
+   {
+    "evidence_quote": "Premier … $30 /month",
+    "plan": "Premier",
+    "source_url": "https://suno.com/pricing",
+    "fetched_at": "2026-10-14T10:44:05+08:00"
    },
    {
     "evidence_quote": "Free Our starter plan. $0 /month",
     "plan": "free_tier",
     "source_url": "https://suno.com/pricing",
-    "fetched_at": "2026-10-12T13:27:04+08:00"
+    "fetched_at": "2026-10-14T10:44:05+08:00"
    }
   ],
-  "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
-  "llm_provider": "openrouter",
-  "prompt_version": "v2b",
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
-    "dropped_fields",
-    "llm_fallback_model",
-    "name_far_from_price",
-    "period_ambiguous_toggle"
+    "has_promo"
    ],
    "needs_review": true,
-   "details": [
-    "Pro: period_ambiguous_toggle, name_far_from_price",
-    "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
-   ],
+   "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://suno.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://suno.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "udio",
@@ -3346,7 +3493,7 @@
   "name": "AIVA",
   "status": "ok",
   "source_url": "https://www.aiva.ai/pricing",
-  "fetched_at": "2026-10-12T13:27:10+08:00",
+  "fetched_at": "2026-10-14T10:44:06+08:00",
   "note": "robots 允許",
   "rendered_text_len": 2432,
   "extracted": {
@@ -3407,19 +3554,19 @@
     "evidence_quote": "Standard Annually … €11 / month+ VAT",
     "plan": "Standard",
     "source_url": "https://www.aiva.ai/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:06+08:00"
    },
    {
     "evidence_quote": "Pro Annually … €33 / month+ VAT",
     "plan": "Pro",
     "source_url": "https://www.aiva.ai/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:06+08:00"
    },
    {
     "evidence_quote": "Free, Forever €0",
     "plan": "free_tier",
     "source_url": "https://www.aiva.ai/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:06+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -3434,16 +3581,16 @@
    "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.aiva.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.aiva.ai/pricing），2026-10-14 擷取"
  },
  {
   "id": "soundraw",
   "name": "Soundraw",
   "status": "ok",
   "source_url": "https://soundraw.io/pricing",
-  "fetched_at": "2026-10-12T13:27:10+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 6440,
+  "fetched_at": "2026-10-14T10:44:12+08:00",
+  "note": "robots 允許；計費切換：yearly",
+  "rendered_text_len": 1810,
   "extracted": {
    "plans": [
     {
@@ -3467,6 +3614,9 @@
      "issues": [
       "name_missing",
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -3490,6 +3640,9 @@
      "issues": [
       "name_missing",
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -3513,6 +3666,9 @@
      "issues": [
       "name_missing",
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -3536,53 +3692,46 @@
      "issues": [
       "name_missing",
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
-   "free_tier": {
-    "available": true,
-    "limits": "Try it for free",
-    "evidence_quote": "Try it for free",
-    "quote_verified": true
-   },
+   "free_tier": null,
    "price_summary": "Annual pricing offers lower monthly rates than Monthly pricing.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
    "issue_name_missing": 4,
-   "issue_period_ambiguous_toggle": 4
+   "issue_period_ambiguous_toggle": 4,
+   "free_dropped_quote": 1
   },
   "evidence": [
    {
     "evidence_quote": "$16.99/mo $11.04/mo",
     "plan": null,
     "source_url": "https://soundraw.io/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:12+08:00"
    },
    {
     "evidence_quote": "$29.99/mo $19.49/mo",
     "plan": null,
     "source_url": "https://soundraw.io/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:12+08:00"
    },
    {
     "evidence_quote": "$35.99/mo $23.39/mo",
     "plan": null,
     "source_url": "https://soundraw.io/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:12+08:00"
    },
    {
     "evidence_quote": "$50/mo $32.50/mo",
     "plan": null,
     "source_url": "https://soundraw.io/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
-   },
-   {
-    "evidence_quote": "Try it for free",
-    "plan": "free_tier",
-    "source_url": "https://soundraw.io/pricing",
-    "fetched_at": "2026-10-12T13:27:10+08:00"
+    "fetched_at": "2026-10-14T10:44:12+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -3592,10 +3741,12 @@
    "flags": [
     "has_promo",
     "name_missing",
-    "period_ambiguous_toggle"
+    "period_ambiguous_toggle",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "None: name_missing, period_ambiguous_toggle",
     "None: name_missing, period_ambiguous_toggle",
     "None: name_missing, period_ambiguous_toggle",
@@ -3603,7 +3754,7 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://soundraw.io/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://soundraw.io/pricing），2026-10-14 擷取"
  },
  {
   "id": "github-copilot",

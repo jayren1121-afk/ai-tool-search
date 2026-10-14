@@ -1,5 +1,5 @@
 {
- "started": "2026-10-14 09:21:23 +0800",
+ "started": "2026-10-14 10:44:21 +0800",
  "providers_order": [
   "groq",
   "openrouter",
@@ -16,7 +16,7 @@
    "down": null,
    "calls": 3,
    "ok": 3,
-   "tokens": 7698,
+   "tokens": 10800,
    "rl429": 0,
    "errors": 0
   },
@@ -43,7 +43,7 @@
  },
  "stopped_reason": "達到 LLM_LIMIT=3",
  "pages_done": 3,
- "upgraded": 1,
+ "upgraded": 3,
  "errors": 0,
- "finished": "2026-10-14 09:22:29 +0800"
+ "finished": "2026-10-14 10:45:29 +0800"
 }
