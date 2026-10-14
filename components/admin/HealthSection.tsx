@@ -169,11 +169,13 @@ export default function HealthSection({ items, stats, runs, error, movedReady = 
           {items.length === 0 ? <p className="mt-1 text-slate-500">目前沒有需要人工檢查的工具。</p> : <ul className="mt-2 space-y-3">{items.map((h) => <Row key={h.tool_id} h={h} onDone={done} movedReady={movedReady} />)}</ul>}
           {!movedReady && <p className="mt-3 rounded-lg bg-amber-50 p-2 text-amber-800">想使用「已轉址／已改名」提示，請先在 Supabase 執行 supabase_migration_009_tool_health_moved.sql。</p>}
           {movedReady && moved.length > 0 && (
-            <>
-              <h3 className="mt-4 font-semibold">已設定「已轉址／已改名」提示的工具（{moved.length}）</h3>
+            <details className="mt-4">
+              <summary className="cursor-pointer font-semibold text-slate-900 marker:text-slate-900">
+                已設定「已轉址／已改名」提示的工具（{moved.length}）
+              </summary>
               <p className="mt-1 text-xs text-slate-500">這些工具目前在公開頁面顯示轉址／改名提示；要修改或清除，在這裡操作（選「無」再儲存即清除）。</p>
               <ul className="mt-2 space-y-3">{moved.map((h) => <MovedRow key={h.tool_id} h={h} onDone={done} />)}</ul>
-            </>
+            </details>
           )}
           <p className="mt-3 text-xs text-slate-400">
             「確認正常」：標為可連線，之後同樣的狀況不會再放回清單（出現新的狀況或新的失敗才會再出現）。「確認異常」：鎖定顯示為異常，直到自動檢查看到網站恢復。「略過 7 天」：只是暫時從清單隱藏，不改變前台顯示。
