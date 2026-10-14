@@ -1,6 +1,6 @@
 """GitHub Actions 版 LLM 結構化（提示詞 v2b，與 box 版相同）。
 - 提供者鏈：見 providers.py（Groq → OpenRouter → Gemini → Cerebras → Mistral，沒設 key 的跳過；每日額度用盡自動換下一家）。
-- checkpoint：PRICE_DATA_DIR/llm.jsonl（逐行追加；已完成的網址不重送）。
+- checkpoint：PRICE_DATA_DIR/llm.jsonl（逐行追加；已完成的網址不重送；抓取文字指紋 sec_hash 改變的網址會重送）。
 - 只有 Groq gpt-oss-120b 的結果可進自動核准；其他家的結果 model 欄位記成 '<provider>:<model>'，final.py 會標 llm_fallback_model。
 - 之後 Groq 有額度時，會把「只有備援模型結果」的頁面用 120b 重做一次（LLM_UPGRADE_FALLBACK=0 可關閉）。
 - 環境變數：LLM_FIRST（優先處理的工具 id，逗號分隔）、LLM_LIMIT（本次最多處理幾頁）、LLM_DEADLINE（epoch 秒，到了就停，留時間存檔）。
@@ -17,11 +17,12 @@ UPGRADE=os.environ.get('LLM_UPGRADE_FALLBACK','1')!='0'
 SC=f'{BASE}/scrape.jsonl'; OUT=os.environ.get('LLM_OUT',f'{BASE}/llm.jsonl'); RUN=f'{BASE}/llm_run.json'
 
 def is_primary_row(r): return r.get('llm_status')=='ok' and r.get('model',PRIMARY_MODEL)==PRIMARY_MODEL and r.get('provider','groq')=='groq'
-def load_best():
+def load_best(sc_rows=None):
     """每個網址取最好的結果：120b ok > 其他 ok > skipped > error"""
     best={}
     if not os.path.exists(OUT): return best
-    rank=lambda r:(3 if is_primary_row(r) else 2 if r.get('llm_status')=='ok' else 1 if r.get('llm_status')!='error' else 0)
+    sc_rows=sc_rows or {}
+    rank=lambda r:(1 if fresh(r,sc_rows.get(r['url'])) else 0, 3 if is_primary_row(r) else 2 if r.get('llm_status')=='ok' else 1 if r.get('llm_status')!='error' else 0)
     for l in open(OUT):
         try: r=json.loads(l)
         except Exception: continue
@@ -43,18 +44,22 @@ def main():
         ids=u['tool_ids']
         f=min([FIRST.index(i) for i in ids if i in FIRST] or [10**6])
         return (f,min([IDX[i] for i in ids if i in IDX] or [10**6]))
-    best=load_best(); n=0; tried_now=set(); consec_err={p.name:0 for p in chain}
+    def load_sc():
+        rows={}
+        for l in open(SC):
+            try: r=json.loads(l); rows[r['url']]=r
+            except Exception: pass
+        return rows
+    best=load_best(load_sc()); n=0; tried_now=set(); consec_err={p.name:0 for p in chain}
     while True:
         if DEADLINE and time.time()>DEADLINE: run['stopped_reason']='到達本次時間上限（下次自動接續）'; break
         if LIMIT and n>=LIMIT: run['stopped_reason']=f'達到 LLM_LIMIT={LIMIT}'; break
         live=[p for p in chain if not p.down]
         if not live: run['stopped_reason']='所有已設定的提供者今天額度都用完了（明天自動接續）'; break
-        rows={}
-        for l in open(SC):
-            try: r=json.loads(l); rows[r['url']]=r
-            except Exception: pass
+        rows=load_sc()
         scraped=sorted([r for r in rows.values() if r['status']=='scraped' and r['url'] not in tried_now],key=order)
-        pending=[r for r in scraped if r['url'] not in best or best[r['url']].get('llm_status')=='error']
+        # 沒做過、上次失敗、或抓取文字已改變（例如新版加了月繳/年繳切換）→ 重新整理
+        pending=[r for r in scraped if r['url'] not in best or best[r['url']].get('llm_status')=='error' or not fresh(best[r['url']],r)]
         upgrade=[r for r in scraped if UPGRADE and r['url'] in best and best[r['url']].get('llm_status')=='ok' and not is_primary_row(best[r['url']])]
         pv=live[0]; job=None
         if pending: job=pending[0]
@@ -62,7 +67,7 @@ def main():
         if job is None:
             run['stopped_reason']='全部頁面都已處理完成' if not upgrade else '剩下的只有「備援模型結果待 120b 重做」，但今天 Groq 已不可用'; break
         url=job['url']; sec=open(f"{BASE}/text/{uhash(url)}.sec.txt").read() if os.path.exists(f"{BASE}/text/{uhash(url)}.sec.txt") else ''
-        if len(sec)<20: out=dict(url=url,llm_status='skipped_empty')
+        if len(sec)<20: out=dict(url=url,llm_status='skipped_empty',sec_hash=job.get('sec_hash'))
         else:
             prompt=f"Product page: {url}\n<<<PAGE_TEXT_BEGIN>>>\n{sec}\n<<<PAGE_TEXT_END>>>"
             out=None
@@ -70,13 +75,13 @@ def main():
                 if job in upgrade and not p.is_primary: break   # 重做只用主要模型
                 try:
                     obj,usage,att,fin=call_page(p,SYS,prompt)
-                    out=dict(url=url,llm_status='ok',model=p.label,provider=p.name,prompt_version=PROMPT_VERSION,result=obj,usage=usage,attempts=att,finish=fin)
+                    out=dict(url=url,llm_status='ok',model=p.label,provider=p.name,prompt_version=PROMPT_VERSION,sec_hash=job.get('sec_hash'),result=obj,usage=usage,attempts=att,finish=fin)
                     p.stats['ok']+=1; consec_err[p.name]=0; break
                 except ProviderDown as e:
                     p.down=str(e); print('停用',p.name,'：',e,flush=True); continue
                 except PageError as e:
                     p.stats['errors']+=1; consec_err[p.name]+=1
-                    out=dict(url=url,llm_status='error',provider=p.name,model=p.label,error=str(e)[:300])
+                    out=dict(url=url,llm_status='error',provider=p.name,model=p.label,error=str(e)[:300],sec_hash=job.get('sec_hash'))
                     if consec_err[p.name]>=5: p.down=f'{p.name} 連續 5 頁失敗：{e}'; print('停用',p.name,flush=True)
                     break
             if out is None: continue   # 所有家都停用了，回到迴圈開頭結束
@@ -85,7 +90,7 @@ def main():
         tried_now.add(url)
         if out['llm_status']=='error':
             run['errors']+=1
-            if url not in best: best[url]=out
+            if url not in best or not fresh(best[url],job): best[url]=out
         else:
             if job in upgrade: run['upgraded']+=1
             best[url]=out

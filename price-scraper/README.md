@@ -153,6 +153,24 @@ Actions → 點某一次執行 → 頁面往下捲，會看到中文摘要：
 Settings → Secrets and variables → Actions → 上方切到 **Variables** 分頁 → **New repository variable** → Name 填 `OPENROUTER_MODEL`，Value 填模型名稱（例如 `google/gemma-4-31b-it:free`）→ Add variable。
 可用的免費模型可以在 https://openrouter.ai/models?max_price=0 查到（名稱結尾通常是 `:free`）。如果設定的模型不存在，程式也會自動從免費清單挑一個可用的。
 
+## 月繳/年繳切換（update24）
+
+很多價格頁一打開只顯示一種計費（常常是比較便宜的年繳），要按「Monthly / Yearly」、「月繳 / 年繳」才看得到另一種價格。
+現在抓取程式會：
+1. 先存下打開時的畫面文字；
+2. 找出看起來像「計費切換」的按鈕、分頁、開關（文字像 Monthly、Yearly、Annual、Billed yearly、月繳、年繳、按月、按年…）；
+3. 一個一個點，畫面有變就再存一份，前面加上標記，例如 `=== 計費模式: 月繳 (monthly) ===`；
+4. **不會點**：會跳到別頁的連結、註冊／登入／購買／結帳／試用／聯絡業務等按鈕；點擊期間會攔下所有換頁與彈出視窗；每頁最多 20 秒、8 次點擊；
+5. 頁面沒有切換 → 跟以前完全一樣。
+
+AI 整理（提示詞 v2c）會把月繳價格放 `price_monthly`、年繳的「每月約當」放 `price_yearly_per_month`、年繳總價放 `price_yearly_total`，不會混在一起；引文一樣必須是頁面上的原文。
+如果 AI 把年繳段落的數字當成月繳，會被標記 `billing_section_mismatch`，要人工看。
+
+**舊頁面怎麼重抓？** 每天的排程會自動把「舊版程式抓的頁面」重抓一些（預設每次 15 個，可在 Variables 設 `RESCRAPE_PER_RUN`；設 0 就不重抓）。
+重抓後文字有變的頁面會自動重新請 AI 整理（用文字指紋比對）；整理好之前，舊結果會標記 `stale_text`，不會自動上線。
+想一次全部重抓：Run workflow 時勾選「開始新一輪」（new round），但會用掉比較多 AI 額度、要好幾天才整理完。
+要關掉切換功能：Variables 設 `BILLING_TOGGLE` = `0`。
+
 ## 關於 Vercel 預覽部署
 
 - 程式只會把資料推到 **price-data** 分支，不會推到 main，所以**不會觸發網站正式部署**。

@@ -4,11 +4,16 @@ from datetime import datetime
 from collections import OrderedDict
 from playwright.sync_api import sync_playwright
 from common import *
+from billing_toggle import capture_billing_states,SCRAPE_VERSION
+import hashlib
 # GitHub Actions 版：瀏覽器路徑可設定（未設定＝用 playwright install 安裝的 chromium）；SCRAPE_DEADLINE（epoch 秒）到了就停止，下次接續
 CHROME=os.environ.get('CHROME_PATH') or None
 DEADLINE=float(os.environ.get('SCRAPE_DEADLINE') or 0)
 WORKERS=int(os.environ.get('SCRAPE_WORKERS') or 3)
 OUT=f'{BASE}/scrape.jsonl'
+TOGGLE=os.environ.get('BILLING_TOGGLE','1')!='0'             # 點月繳/年繳切換（BILLING_TOGGLE=0 關閉）
+TOGGLE_SECS=float(os.environ.get('BILLING_TOGGLE_SECS') or 20)
+RESCRAPE=int(os.environ.get('RESCRAPE_PER_RUN') or 15)        # 每次最多重抓幾個「舊版抓取」的頁面（0＝不重抓）
 BLOCK=re.compile(r'just a moment|verify (?:you are|that you are) human|checking your browser|captcha|attention required|access denied|are you a robot|unusual traffic|enable javascript and cookies|request blocked|cf-chl',re.I)
 LOGIN=re.compile(r'\b(log ?in|sign ?in)\b',re.I)
 done={}
@@ -66,6 +71,13 @@ def do(url,ctx,tid):
                 time.sleep(2); polls+=1
                 txt=pg.evaluate("document.body?document.body.innerText:''") or ''
             if polls: r['note']+=f'；價格未出現，額外輪詢 {polls*2}s'
+            if TOGGLE and AMT.search(txt):
+                try:
+                    txt,bi=capture_billing_states(pg,txt,time_limit=TOGGLE_SECS)
+                    if bi['states']: r['billing_states']=bi['states']; r['note']+=f"；計費切換：{'、'.join(bi['states'])}"
+                    if bi['toggles']: r['billing_toggles']=bi['toggles'][:6]
+                    if bi['note']: r['note']+=bi['note']
+                except Exception as e: r['note']+=f'；計費切換失敗 {type(e).__name__}'
             r['final_url']=pg.url
         finally:
             pg.close()
@@ -74,10 +86,12 @@ def do(url,ctx,tid):
             st2,why2=robots(f"{fu.scheme}://{fu.netloc}",r['final_url'])
             if st2!='ok': r['status']=st2; r['note']+=f'；重新導向到 {fu.netloc}：{why2}，丟棄內容'; return r
             r['note']+=f'；重新導向到 {fu.netloc}'
-        r['text_len']=len(txt)
+        r['text_len']=len(txt); r['scrape_version']=SCRAPE_VERSION
+        oldsec=f'{BASE}/text/{uhash(url)}.sec.txt'
+        if os.path.exists(oldsec): r['prev_sec_hash']=sec_hash(open(oldsec).read())
         open(f'{BASE}/text/{uhash(url)}.txt','w').write(txt)
         sec=price_section(txt); r['section_len']=len(sec)
-        open(f'{BASE}/text/{uhash(url)}.sec.txt','w').write(sec)
+        open(f'{BASE}/text/{uhash(url)}.sec.txt','w').write(sec); r['sec_hash']=sec_hash(sec)
         hs=r.get('http_status')
         if hs in (401,403,429,503) or BLOCK.search(txt[:800]) or (len(txt)<800 and BLOCK.search(txt)):
             r['status']='blocked'; r['note']+=f'；HTTP {hs} 或驗證頁，不重試'
@@ -91,8 +105,10 @@ def do(url,ctx,tid):
     finally:
         r['secs']=round(time.time()-t0,1)
     return r
-todo_n=sum(1 for u in urls if u not in done)
-print('待抓取網址：',todo_n,'（已完成',len(done),'）',flush=True)
+def old_version(r): return r.get('status') in ('scraped','no_price_found') and r.get('scrape_version')!=SCRAPE_VERSION
+rescrape=set([u for u in urls if u in done and old_version(done[u])][:RESCRAPE])
+todo_n=sum(1 for u in urls if u not in done or u in rescrape)
+print('待抓取網址：',todo_n,'（已完成',len(done),'；其中舊版重抓',len(rescrape),'）',flush=True)
 if todo_n==0:
     print('SCRAPE DONE（沒有新網址）',flush=True); sys.exit(0)
 gq=queue.Queue()
@@ -107,11 +123,20 @@ def worker(k):
             except queue.Empty: break
             last=0
             for u in us:
-                if u in done: continue
+                if u in done and u not in rescrape: continue
+                rescrape.discard(u)
                 if DEADLINE and time.time()>DEADLINE: print('到達時間上限，停止抓取（下次接續）',flush=True); break
                 w=3.2-(time.time()-last)
                 if w>0: time.sleep(w)
+                old=done.get(u) if u in done else None; bak={}
+                if old:
+                    for ext in ('txt','sec.txt'):
+                        f=f'{BASE}/text/{uhash(u)}.{ext}'
+                        if os.path.exists(f): bak[f]=open(f).read()
                 r=do(u,ctx,k); last=time.time()
+                if old and old.get('status')=='scraped' and r['status']!='scraped':   # 重抓失敗：保留舊內容，不再重試
+                    for f,c in bak.items(): open(f,'w').write(c)
+                    r=dict(old,scrape_version=SCRAPE_VERSION,note=(old.get('note') or '')+f"；{datetime.now():%Y-%m-%d} 新版重抓失敗（{r['status']}），保留舊內容",rescrape_failed=True)
                 save(r); cnt[0]+=1
                 print(k,cnt[0],r['status'],u,r.get('secs'),flush=True)
         br.close()
@@ -119,4 +144,5 @@ ts=[threading.Thread(target=worker,args=(i,)) for i in range(WORKERS)]
 for t in ts: t.start(); time.sleep(1)
 for t in ts: t.join()
 left=sum(1 for u in urls if u not in done)
+print('舊版頁面還要重抓：',sum(1 for u in urls if u in done and old_version(done[u])),'個（每次最多',RESCRAPE,'個）',flush=True)
 print('SCRAPE DONE' if not left else f'SCRAPE PAUSED，剩 {left} 個網址',flush=True)

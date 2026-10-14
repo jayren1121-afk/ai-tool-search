@@ -9,17 +9,18 @@ def load(p):
             try: r=json.loads(l); d[r['url']]=r
             except: pass
     return d
+SC=load(f'{BASE}/scrape.jsonl')
 def load_llm(p):
     # 同一網址有多筆時取最好的：Groq 120b ok > 其他模型 ok > 其他 > error（避免較新的錯誤行蓋掉成功結果）
     d={}
-    def rank(r): return (3 if r.get('llm_status')=='ok' and r.get('model','openai/gpt-oss-120b')=='openai/gpt-oss-120b' and r.get('provider','groq')=='groq' else 2 if r.get('llm_status')=='ok' else 0 if r.get('llm_status')=='error' else 1)
+    def rank(r): return (1 if fresh(r,SC.get(r['url'])) else 0,)+(3 if r.get('llm_status')=='ok' and r.get('model','openai/gpt-oss-120b')=='openai/gpt-oss-120b' and r.get('provider','groq')=='groq' else 2 if r.get('llm_status')=='ok' else 0 if r.get('llm_status')=='error' else 1,)
     if os.path.exists(p):
         for l in open(p):
             try: r=json.loads(l)
             except: continue
             if r['url'] not in d or rank(r)>=rank(d[r['url']]): d[r['url']]=r
     return d
-SC=load(f'{BASE}/scrape.jsonl'); LL2=load_llm(f'{BASE}/llm.jsonl'); LL1=load(f'{BASE}/llm_v1.jsonl')  # v2（新提示詞）優先；沒處理到的網址沿用 v1 並標 old_prompt
+LL2=load_llm(f'{BASE}/llm.jsonl'); LL1=load(f'{BASE}/llm_v1.jsonl')  # v2（新提示詞）優先；沒處理到的網址沿用 v1 並標 old_prompt
 Z=re.compile('[\u200b-\u200f\u2060\ufeff]')
 def nrm(s): return re.sub(r'\s+',' ',Z.sub('',(s or '').replace('\xa0',' ').replace('\u2009',' ').replace('\u200a',' '))).strip()
 def num(v):
@@ -107,12 +108,21 @@ def verify(res,txt):
             if n is None: out[f]=None; continue
             if num_in(q,n): out[f]=n; out['price_check'][f]='in_quote'
             elif num_in(near,n): out[f]=n; out['price_check'][f]='near_quote'; st['price_near_quote']+=1
+            elif MARK_IN.search(N) and p.get('name') and any(num_in(N[o:o+250],n) for o in [m.start() for m in re.finditer(re.escape(p['name']),N)] if billing_sections(N[:o+len(p['name'])],p['name'])):
+                out[f]=n; out['price_check'][f]='near_name_other_billing_section'; st['price_other_section']+=1   # 月繳/年繳在不同段落：找同方案名稱附近
             else: out[f]=None; st['price_dropped_unverified']+=1
         u=p.get('list_price_unit'); out['list_price_unit']=u if u in('month','year') else None
         if out.get('list_price') is None and out.get('regular_price_monthly') is not None: out['list_price']=out['regular_price_monthly']; out['list_price_unit']='month'
         out['regular_price_monthly']=out['list_price'] if out['list_price_unit']=='month' else None
         out['issues']=check_plan(out,q)
-        if re.search(r'\bmonthly\b.{0,60}\b(yearly|annual(ly)?)\b|\b(yearly|annual(ly)?)\b.{0,60}\bmonthly\b',N[:6000],re.I|re.S) and out['price_monthly'] is not None and out['price_monthly']>0 and not re.search(r'billed monthly|month[- ]to[- ]month|monthly billing|billed \$?[\d.]+/month',near,re.I):
+        secs=billing_sections(N,q)
+        if secs:   # 頁面有「計費模式」段落：月繳價格必須出現在月繳段落，年繳價格必須出現在年繳段落
+            out['billing_sections']=sorted(secs)
+            hasm=out['price_monthly'] is not None; hasy=out['price_yearly_per_month'] is not None or out['price_yearly_total'] is not None
+            only=lambda k: k in secs and not (secs-{k}-{'toggled'})
+            if (hasm and not hasy and only('yearly')) or (hasy and not hasm and only('monthly')) or (hasm and hasy and only('yearly') and num_in(q,out['price_monthly']) and not num_in(q,out['price_yearly_per_month'] or out['price_yearly_total'] or -1)):
+                out['issues'].append('billing_section_mismatch')
+        if (not secs or secs<={'default','toggled'}) and re.search(r'\bmonthly\b.{0,60}\b(yearly|annual(ly)?)\b|\b(yearly|annual(ly)?)\b.{0,60}\bmonthly\b',N[:6000],re.I|re.S) and out['price_monthly'] is not None and out['price_monthly']>0 and not re.search(r'billed monthly|month[- ]to[- ]month|monthly billing|billed \$?[\d.]+/month',near,re.I):
             out['issues'].append('period_ambiguous_toggle')   # 頁面有月/年切換，無法確定顯示的是哪一種
         if 'non_subscription_hint' in out['issues']: out['list_price']=None; out['list_price_unit']=None; out['regular_price_monthly']=None
         if nfar and 'name_not_in_quote' not in out['issues']: out['issues'].append('name_far_from_price')
@@ -183,6 +193,7 @@ def build():
         if others: flags=sorted(set(flags+['shared_page'])); det.append(f"與 {others} 共用同一價格頁，結果複製自同一次擷取")
         if st.get('plan_dropped_quote') or st.get('price_dropped_unverified'): flags=sorted(set(flags+['dropped_fields'])); 
         r['llm_model']=l.get('model','openai/gpt-oss-120b'); r['llm_provider']=l.get('provider','groq'); r['prompt_version']='v1' if legacy else l.get('prompt_version','v2')
+        if not fresh(l,s): flags=sorted(set(flags+['stale_text'])); det.append('價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理')
         if legacy: flags=sorted(set(flags+['old_prompt'])); det.append('尚未用新提示詞重跑（沿用舊結果，每日額度不足留待續跑）')
         for pl in ex['plans']:
             if legacy: pl['issues']=[i for i in pl.get('issues',[]) if i not in ('name_not_in_quote','period_ambiguous_toggle','name_far_from_price')]  # v1 沒有 name_quote，這幾項新規則不適用
