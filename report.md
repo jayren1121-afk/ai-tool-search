@@ -1,6 +1,6 @@
 # 全部工具價格擷取報告（第二階段，只寫 staging）
 
-- 產生時間：2026-10-14 08:59（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
+- 產生時間：2026-10-14 09:22（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
 - 抓取：Playwright + 系統 Chrome 無頭；UA `jAytalPriceBot/1.0 (+https://www.jaytaimark.com)`；3 個 worker（不同網域並行）、同網域序列且間隔 ≥3.2 秒；每個網址只載入 1 次、逾時 30 秒、載入後等待價格出現（最多再輪詢約 12 秒）。
 - robots：讀取失敗/403/逾時 → robots_unknown 跳過；禁止 → robots_disallowed；驗證頁/captcha/登入牆 → blocked，不重試。
 - LLM（v2，新提示詞 v2b＋新後處理）：Groq `openai/gpt-oss-120b`，送入『價格區段』（含價格的段落＋上下文，≤約 4500 字元）。方案以 name_quote（方案名）＋price_quote（含價格與計費文字）各自逐字驗證且須彼此靠近；月付/年付折算/年付總額/原價(list_price)/不明週期(price_unclear) 分欄；程式後處理檢查標籤式名稱、名稱缺失、月年矛盾、價格 0 或 >2000/月、非訂閱金額、月/年切換不明等並旗標。
@@ -22,18 +22,18 @@
 - 排除『合規跳過』（robots/blocked）後：211/350 = 60.3%。
 
 ## 1b. 本次執行的 LLM 提供者
-- groq（openai/gpt-oss-120b）：本次呼叫 3 次、成功 3 頁、token 5,152
+- groq（openai/gpt-oss-120b）：本次呼叫 3 次、成功 3 頁、token 7,698
 - openrouter（openrouter:nvidia/nemotron-3-super-120b-a12b:free）：本次呼叫 0 次、成功 0 頁、token 0
 - gemini（gemini:gemini-3.8-flash）：本次呼叫 0 次、成功 0 頁、token 0
 - 未設定金鑰而略過：cerebras, mistral
 - 停止原因：達到 LLM_LIMIT=3
-- 累計使用備援模型（非 Groq 120b，帶 llm_fallback_model、不進自動核准）的頁面：78（{'openrouter:nvidia/nemotron-3-super-120b-a12b:free': 78}）；Groq 有額度時會自動用 120b 重做。
+- 累計使用備援模型（非 Groq 120b，帶 llm_fallback_model、不進自動核准）的頁面：77（{'openrouter:nvidia/nemotron-3-super-120b-a12b:free': 77}）；Groq 有額度時會自動用 120b 重做。
 
 ## 2. 效能與 Groq 用量
-- 抓取：平均每個網址 9.5 秒（中位數 7.5）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-12T13:44:46+08:00。
-- Groq v2：成功處理 240 / 296 個頁面（120b），token 720,370；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
+- 抓取：平均每個網址 9.6 秒（中位數 7.5）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-14T09:20:54+08:00。
+- Groq v2：成功處理 240 / 296 個頁面（120b），token 720,812；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
 - 限流：每分鐘 8K token 以送出前節流避開；**120b 每日 token 額度（200,000，漏桶式連續回補，約 2.3 token/秒 ≈ 每小時 8.3K）是瓶頸**——v1 全量與本輪驗證已耗盡，之後每小時只能再處理約 4 個頁面（每頁約 2,100 token）。TPD 型 429 皆依 retry-after 等待或停止，沒有降級成 20b 當正式資料。
-- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 733, 'price_near_quote': 111, 'issue_price_unclear': 19, 'issue_name_far_from_price': 18, 'plan_dropped_quote': 80, 'issue_name_missing': 67, 'issue_period_ambiguous_toggle': 244, 'free_dropped_quote': 18, 'price_dropped_unverified': 19, 'issue_non_subscription_hint': 8, 'issue_zero_price': 5, 'issue_name_not_in_quote': 1, 'issue_yearly_total_mismatch': 1, 'issue_abnormal_price': 1, 'issue_yearly_gt_monthly': 2}
+- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 731, 'price_near_quote': 111, 'issue_period_ambiguous_toggle': 243, 'issue_name_far_from_price': 16, 'issue_name_missing': 67, 'free_dropped_quote': 18, 'plan_dropped_quote': 78, 'issue_billing_section_mismatch': 3, 'price_dropped_unverified': 19, 'issue_price_unclear': 17, 'issue_non_subscription_hint': 8, 'issue_zero_price': 5, 'issue_name_not_in_quote': 1, 'issue_yearly_total_mismatch': 1, 'issue_abnormal_price': 1, 'issue_yearly_gt_monthly': 2}
 
 ## 3. 被跳過 / 失敗的工具與原因
 | id | status | 原因 |
@@ -89,18 +89,18 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, kling, murf, ca
 
 | id | 旗標 | 細節 | 來源 |
 |---|---|---|---|
-| claude | has_promo, name_diff, name_far_from_price, price_near_quote, price_unclear, shared_page | 資料集方案 ['Pro', 'Max', 'Plus', 'Premium', 'Scale'] vs 新 ['Free', 'Pro', 'Max 5x', 'Enterprise']; 與 ['claude-code'] 共用同一價格頁，結果複製自同一次擷取; Max 5x: price_unclear, name_far_from_price | https://claude.com/pricing |
-| gemini | dropped_fields, name_far_from_price, price_change, shared_page | Pro: 資料集 $199.99/月 → 官網 $19.99; 與 ['veo'] 共用同一價格頁，結果複製自同一次擷取; YouTube Premium Lite plan: name_far_from_price | https://gemini.google/subscriptions/ |
+| claude | has_promo, name_diff, period_ambiguous_toggle, price_near_quote, shared_page | 資料集方案 ['Pro', 'Max', 'Plus', 'Premium', 'Scale'] vs 新 ['Free', 'Pro', 'Max', 'Enterprise']; 與 ['claude-code'] 共用同一價格頁，結果複製自同一次擷取; Max: period_ambiguous_toggle | https://claude.com/pricing |
+| gemini | name_far_from_price, price_change, shared_page | Pro: 資料集 $199.99/月 → 官網 $19.99; 與 ['veo'] 共用同一價格頁，結果複製自同一次擷取; YouTube Premium Lite: name_far_from_price | https://gemini.google/subscriptions/ |
 | copilot-microsoft | llm_fallback_model, name_diff, name_missing | 資料集方案 ['Microsoft 365 Personal/Family 含 Copilot'] vs 新 ['', '', '']; None: name_missing; None: name_missing; None: name_missing; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://www.microsoft.com/microsoft-365/copilot |
 | grok | name_diff, name_missing | 資料集方案 ['SuperGrok'] vs 新 ['', 'Heavy']; None: name_missing | https://grok.com/plans |
 | mistral-le-chat | has_promo |  | https://mistral.ai/pricing |
 | perplexity | has_promo, llm_fallback_model, name_diff | 資料集方案 ['Pro', 'Max'] vs 新 ['Advanced answers and top AI models', 'Unlimited usage and top performance']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://www.perplexity.ai/pro |
-| consensus | has_promo, period_ambiguous_toggle, price_near_quote | Pro: period_ambiguous_toggle; Deep: period_ambiguous_toggle | https://consensus.app/pricing |
-| elicit | has_promo, price_near_quote |  | https://elicit.com/pricing |
+| consensus | has_promo, period_ambiguous_toggle, price_near_quote, stale_text | 價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: period_ambiguous_toggle; Deep: period_ambiguous_toggle | https://consensus.app/pricing |
+| elicit | has_promo, price_near_quote, stale_text | 價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理 | https://elicit.com/pricing |
 | midjourney | has_promo, llm_fallback_model, period_ambiguous_toggle | Basic: period_ambiguous_toggle; Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Mega: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://docs.midjourney.com/hc/en-us/articles/27870484040333 |
-| krea | dropped_fields, llm_fallback_model, period_ambiguous_toggle, price_change | Max: 資料集 $21.0/月 → 官網 $63.0; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle; Business: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://www.krea.ai/pricing |
+| krea | billing_section_mismatch, dropped_fields, llm_fallback_model, price_change, stale_text | Max: 資料集 $21.0/月 → 官網 $63.0; 價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理; Pro: billing_section_mismatch; Max: billing_section_mismatch; Business: billing_section_mismatch; 使用非 120b 模型 openrouter:nvid | https://www.krea.ai/pricing |
 | runway | has_promo, llm_fallback_model, period_ambiguous_toggle | Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://runwayml.com/pricing |
-| veo | dropped_fields, name_far_from_price, price_change, shared_page | Pro: 資料集 $199.99/月 → 官網 $19.99; 與 ['gemini'] 共用同一價格頁，結果複製自同一次擷取; YouTube Premium Lite plan: name_far_from_price | https://gemini.google/subscriptions/ |
+| veo | name_far_from_price, price_change, shared_page | Pro: 資料集 $199.99/月 → 官網 $19.99; 與 ['gemini'] 共用同一價格頁，結果複製自同一次擷取; YouTube Premium Lite: name_far_from_price | https://gemini.google/subscriptions/ |
 | pika | dropped_fields, price_near_quote |  | https://pika.art/pricing |
 | luma | llm_fallback_model, period_ambiguous_toggle | Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://lumalabs.ai/dream-machine/pricing |
 | synthesia | has_promo, llm_fallback_model, price_near_quote | 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://www.synthesia.io/pricing |
@@ -116,7 +116,7 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, kling, murf, ca
 | github-copilot | llm_fallback_model, price_change | Pro: 資料集 $10.0/月 → 官網 $39.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://github.com/features/copilot/plans |
 | cursor | dropped_fields, llm_fallback_model, name_diff, period_ambiguous_toggle | 資料集方案 ['Pro'] vs 新 ['Individual', 'Teams']; Individual: period_ambiguous_toggle; Teams: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://cursor.com/pricing |
 | windsurf | dropped_fields, llm_fallback_model, price_change | Team: 資料集 $40.0/月 → 官網 $80.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://windsurf.com/pricing |
-| claude-code | has_promo, name_diff, name_far_from_price, price_near_quote, price_unclear, shared_page | 資料集方案 ['Scale', 'Pro', 'Max', 'Plus', 'Premium'] vs 新 ['Free', 'Pro', 'Max 5x', 'Enterprise']; 與 ['claude'] 共用同一價格頁，結果複製自同一次擷取; Max 5x: price_unclear, name_far_from_price | https://claude.com/pricing |
+| claude-code | has_promo, name_diff, period_ambiguous_toggle, price_near_quote, shared_page | 資料集方案 ['Scale', 'Pro', 'Max', 'Plus', 'Premium'] vs 新 ['Free', 'Pro', 'Max', 'Enterprise']; 與 ['claude'] 共用同一價格頁，結果複製自同一次擷取; Max: period_ambiguous_toggle | https://claude.com/pricing |
 | replit | dropped_fields, has_promo, llm_fallback_model, price_near_quote | 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://replit.com/pricing |
 | lovable | llm_fallback_model, period_ambiguous_toggle | Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://lovable.dev/pricing |
 | v0 | has_promo, llm_fallback_model, name_diff | 資料集方案 ['Team'] vs 新 ['Free', 'Plus', 'Business']; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://v0.app/pricing |
@@ -274,4 +274,4 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, kling, murf, ca
 | codeium | dropped_fields, llm_fallback_model, price_change | Team: 資料集 $40.0/月 → 官網 $80.0; 使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准 | https://codeium.com/pricing |
 | buffer-ai | period_ambiguous_toggle, price_near_quote | Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle | https://buffer.com/pricing |
 
-旗標統計：{'has_promo': 65, 'name_diff': 35, 'name_far_from_price': 18, 'price_near_quote': 41, 'price_unclear': 14, 'shared_page': 4, 'dropped_fields': 52, 'price_change': 19, 'llm_fallback_model': 68, 'name_missing': 26, 'period_ambiguous_toggle': 94, 'non_usd': 1, 'non_subscription_hint': 3, 'zero_price': 5, 'name_not_in_quote': 1, 'yearly_total_mismatch': 1, 'abnormal_price': 1, 'yearly_gt_monthly': 1}
+旗標統計：{'has_promo': 65, 'name_diff': 35, 'period_ambiguous_toggle': 95, 'price_near_quote': 41, 'shared_page': 4, 'name_far_from_price': 16, 'price_change': 19, 'llm_fallback_model': 68, 'name_missing': 26, 'stale_text': 3, 'billing_section_mismatch': 1, 'dropped_fields': 50, 'price_unclear': 12, 'non_usd': 1, 'non_subscription_hint': 3, 'zero_price': 5, 'name_not_in_quote': 1, 'yearly_total_mismatch': 1, 'abnormal_price': 1, 'yearly_gt_monthly': 1}

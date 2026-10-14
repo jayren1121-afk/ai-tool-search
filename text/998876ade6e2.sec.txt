@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Pricing
 Monthly
 Annual
@@ -36,6 +37,55 @@ For researchers or clinicians conducting frequent Literature Reviews.
 $45/mo
 $540 annually
 Saving $240/yr
+Upgrade to Deep
+---
+Everything in Pro
+---
+200 Deep reviews per month
+---
+Search, analysis, citation graph, and more
+---
+2,000 API & MCP uses included per month
+---
+$0.05/use after included, up to 10,000 per month
+Student, Faculty, or Clinician? Claim your discount!
+---
+Students and faculty with a valid school email and US HCPs with a valid NPI number can get up to 40% off a subscription.
+=== 計費模式: 月繳 (monthly) ===
+Save 40%
+Monthly
+Annual
+Individual
+Team and Enterprise
+Free
+Keep using basic paper search for free, without any AI analysis.
+$0/mo
+Try for free
+---
+Basic Paper search
+---
+10 Pro messages per month
+---
+Up to 3 Deep reviews per month
+---
+More comprehensive and thorough Lit Reviews of many studies
+Pro
+Upgrade for unlimited Pro messages. Cited AI analysis of peer-reviewed research.
+$20/mo
+Upgrade to Pro
+---
+Everything in Free
+---
+15 Deep reviews per month
+---
+Search, analysis, citation graph, and more
+---
+500 API & MCP uses included per month
+---
+$0.05/use after included, up to 1,000 per month
+Deep
+For researchers or clinicians conducting frequent Literature Reviews.
+$65/mo
 Upgrade to Deep
 ---
 Everything in Pro

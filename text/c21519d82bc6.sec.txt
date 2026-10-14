@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Enterprise
 Sign up for free
 Log in
@@ -11,6 +12,12 @@ Free
 ---
 Get Free
 Krea Agent
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+5,000 units /month
 ---
 Bulk discounts on compute unit packs
 Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
@@ -51,6 +58,12 @@ $0/month
 ---
 Get Free
 ---
+Basic
+---
+$5.25/month
+---
+Upgrade
+---
 Pro
 ---
 $21/month
@@ -66,6 +79,181 @@ Upgrade
 Business
 ---
 $160/month
+---
+Try Business
+---
+Contact Sales
+Krea
+=== 計費模式: 月繳 (monthly) ===
+Enterprise
+Sign up for free
+Log in
+---
+Monthly
+Yearly
+Save 40% on yearly plans
+Model Licensing
+Looking for API?
+Free
+---
+Get Free
+Krea Agent
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+5,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+20,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+60,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+80k units /month
+---
+Up to 50 seats included
+One flat price covers your entire workspace – up to 50 members get full Business benefits at no extra cost per seat.
+Business Terms of Service
+---
+Custom pricing
+---
+Contact Sales
+Krea Agent
+---
+Credits are added instantly after purchase and expire after 90 days.
+---
+Annual
+---
+Save 40% with annual
+---
+Free
+---
+$0/month
+---
+Get Free
+---
+Basic
+---
+$9/month
+---
+Upgrade
+---
+Pro
+---
+$35/month
+---
+Upgrade
+---
+Max
+---
+$105/month
+---
+Upgrade
+---
+Business
+---
+$200/month
+---
+Try Business
+---
+Contact Sales
+Krea
+=== 計費模式: 月繳 (monthly) #2 ===
+Sign up to generate for free
+Continue with Google
+---
+Enterprise
+Sign up for free
+Log in
+---
+Monthly
+Yearly
+Save 40% on yearly plans
+Model Licensing
+Looking for API?
+Free
+---
+Get Free
+Krea Agent
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+5,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+20,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+60,000 units /month
+---
+Bulk discounts on compute unit packs
+Get volume discounts when purchasing additional compute unit packs beyond your monthly allocation.
+Unlimited relaxed generations
+---
+80k units /month
+---
+Up to 50 seats included
+One flat price covers your entire workspace – up to 50 members get full Business benefits at no extra cost per seat.
+Business Terms of Service
+---
+Custom pricing
+---
+Contact Sales
+Krea Agent
+---
+Credits are added instantly after purchase and expire after 90 days.
+---
+Annual
+---
+Save 40% with annual
+---
+Free
+---
+$0/month
+---
+Get Free
+---
+Basic
+---
+$9/month
+---
+Upgrade
+---
+Pro
+---
+$35/month
+---
+Upgrade
+---
+Max
+---
+$105/month
+---
+Upgrade
+---
+Business
+---
+$200/month
 ---
 Try Business
 ---

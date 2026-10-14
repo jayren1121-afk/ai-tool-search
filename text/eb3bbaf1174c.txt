@@ -19,7 +19,6 @@ Read what changed
 (opens in new tab)
 Pricing
 Individual
-Developer
 Team & Enterprise
 API
 Free
@@ -38,7 +37,6 @@ Connect your apps and tools
 Create Artifacts
 Claude Design, Slides, Docs
 Pro
-Claude Code included
 
 For everyday work
 
@@ -53,12 +51,12 @@ Everything in Free, plus:
 More usage*
 Hand off and schedule tasks
 Claude Dashboards (beta)
+Claude Code
 Claude Science
 Projects
 More Claude models
 Claude in Chrome and Microsoft 365
 Max
-Claude Code included
 
 For people who work with Claude all day
 
@@ -503,4 +501,5 @@ Terms of service: Consumer
 Terms of Service: US K-12
 Data Processing Agreement: US K-12
 Usage Policy
+Add to Preferred Sources
 English

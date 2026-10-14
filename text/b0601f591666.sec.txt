@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Industry
 Monthly
 Yearly
@@ -29,6 +30,33 @@ Save 39%
 Per user/month, billed as $2,028 annually
 ---
 5x usage for Research Agent, Research Reports, and Systematic Literature Reviews
+---
+Save time, think better.
+Try Elicit for free
+=== 計費模式: 月繳 (monthly) ===
+Industry
+Monthly
+Yearly
+---
+Free
+---
+Try for free
+---
+Pro
+---
+For systematic reviews
+---
+$75
+---
+Per user/month, billed monthly
+---
+Scale
+---
+For collaboration
+---
+$279
+---
+Per user/month, billed monthly
 ---
 Save time, think better.
 Try Elicit for free

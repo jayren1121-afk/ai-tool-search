@@ -388,3 +388,21 @@ SCRAPE DONE（沒有新網址）
 SCRAPE DONE（沒有新網址）
 待抓取網址： 0 （已完成 378 ）
 SCRAPE DONE（沒有新網址）
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://claude.com/pricing 6.3
+2 2 scraped https://gemini.google/subscriptions/ 6.5
+0 3 scraped https://openai.com/api/pricing 13.4
+0 4 scraped https://api-docs.deepseek.com/quick_start/pricing 6.9
+1 5 scraped https://www.microsoft.com/microsoft-365/copilot 18.5
+0 6 scraped https://mistral.ai/pricing 6.0
+0 7 scraped https://you.com/plans 7.8
+2 8 scraped https://grok.com/plans 14.5
+1 9 scraped https://www.perplexity.ai/pro 12.9
+2 10 scraped https://elicit.com/pricing 6.8
+0 11 scraped https://consensus.app/pricing 9.4
+1 12 scraped https://docs.midjourney.com/hc/en-us/articles/27870484040333 6.5
+0 13 scraped https://bfl.ai/pricing 5.8
+2 14 scraped https://stability.ai/license 7.8
+1 15 scraped https://www.krea.ai/pricing 28.5
+舊版頁面還要重抓： 323 個（每次最多 15 個）
+SCRAPE DONE

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Skip to main content
 
 Solutions
@@ -117,6 +118,184 @@ Integration with custom data sources and creation of custom templates
 Unlimited API access
 
 Talk to Sales
+
+Save time, think better.
+Try Elicit for free
+
+Sign up
+
+ Talk to Sales
+
+SOLUTIONS
+
+Research agent
+
+Literature Review
+
+Paper Search
+
+Library
+
+Routines
+
+Reports
+
+INDUSTRIES
+
+Pharma
+
+Academia
+
+Medtech
+
+Consumer goods
+
+RESOURCES
+
+Customers
+
+Blog
+
+Help center ↗
+
+API ↗
+
+Digital garden
+
+Mechanisms of Action
+
+MORE
+
+Team
+
+Careers
+
+© 2026 Elicit, inc.
+
+Privacy policy
+
+Terms of service
+
+Policies
+
+     
+
+=== 計費模式: 月繳 (monthly) ===
+Skip to main content
+
+Solutions
+
+Industries
+
+Resources
+
+Customers
+
+Pricing
+
+Sign in
+
+Sign up
+
+Pricing
+Pick a plan that's right for you
+Industry
+Monthly
+Yearly
+
+Basic
+
+For casual exploration
+
+Free
+
+Limited usage for Research Agent and Research Reports
+
+Unlimited search across more than 138 million papers
+
+Unlimited summaries across as many papers as you want
+
+Unlimited chat with papers with full-text access
+
+View sources for answers
+
+Import from Zotero
+
+Try for free
+
+Pro
+
+For systematic reviews
+
+$75
+
+Per user/month, billed monthly
+
+Standard usage for Research Agent, Research Reports, and Systematic Literature Reviews
+
+Dedicated Systematic Review Workflow that can screen 5,000 papers
+
+Add 20 columns to your tables at a time
+
+Reports extract from up to 135 data sources
+
+Access to Routines
+
+Custom extractions from uploaded papers 
+
+Explanations for AI-generated answers 
+
+Multiple output templates 
+
+API access
+
+Sign up
+
+Scale
+
+For collaboration
+
+$279
+
+Per user/month, billed monthly
+
+5x usage for Research Agent, Research Reports, and Systematic Literature Reviews
+
+Extract and interpret from figures in research papers
+
+Live editing and real-time collaboration with your team
+
+Reports extract from up to 200 data sources
+
+Add 30 columns to your tables at a time
+
+Admin panel with usage tracking and seat management 
+
+Sign up
+
+Enterprise
+
+For companies & schools
+
+Custom
+
+Custom usage for Research Agent, Research Reports, and Systematic Literature Reviews
+
+No training on your data by default
+
+Greater scale: screen 40,000 papers and extract 40 columns 
+
+PRISMA-grade screening and extraction accuracy
+
+Enterprise-level security and controls, including SSO & SAML, 2FA, user analytics, domain verification, and custom deployments (e.g. single-tenancy)
+
+Dedicated customer success team providing training, onboarding, and success planning
+
+Integration with custom data sources and creation of custom templates
+
+Unlimited API access
+
+Contact us
 
 Save time, think better.
 Try Elicit for free

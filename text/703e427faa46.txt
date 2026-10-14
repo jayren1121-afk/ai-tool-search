@@ -1,4 +1,4 @@
-College students get a free Pro plan for one year. Learn more
+Looking for Gemini 4 Argon? Select AI Pro or AI Ultra below to get access starting today. Upgrade now.
 Close
 Skip to main content
 For Students
@@ -8,7 +8,6 @@ Image Generation
 Video Generation
 Music Generation
 Deep Research
-Gemini Spark
 Personal Intelligence
 Daily Brief
 Canvas
@@ -38,7 +37,7 @@ Get started
 Gemini app
 Your personal, proactive and powerful AI Assistant
 
-Access to 3.5 Flash-Lite
+Access to our Flash-Lite model
 
 Image generation and editing
 
@@ -56,7 +55,6 @@ Gemini Notebook
 Research and writing assistant
 Storage
 15 GB of cloud storage across Gmail, Drive, and Photos
-New Features Added
 Google AI Plus1
 
 Get more access to new and powerful features to boost your productivity and creativity.
@@ -67,9 +65,7 @@ Get started
 Everything in Free and:
 Gemini app
 
-Access to 3.6 Flash
-
-Access to 3.1 Pro
+Access to our Flash model
 
 Get 2x higher usage limits2 than Free and access to more features like video generation and Daily Brief.
 
@@ -86,7 +82,7 @@ Storage
 
 Google AI Plus is available in more than 160 countries and territories - see full list of countries.
 
-New Features Added
+Includes Gemini 4 Argon
 Google AI Pro1
 
 Get higher access to new and powerful features to boost your productivity and creativity.
@@ -97,16 +93,18 @@ Get started
 Everything in Free and:
 Gemini app
 
-Access to 3.8 Flash
+Access to Gemini 4 Argon
 
-Access to 3.1 Pro
+Access to our Pro model
+
+Access to our Flash model
 
 Get 4x higher usage limits2 than Free and access to more features like video generation and Daily Brief.
 
 Google Flow3
 Get 1,000 Google Flow Credits to use across our AI creative studio to create cinematic scenes and stories with access to Gemini Omni Flash and custom tool creation.
 Google Search4
-Higher access to Gemini 3 Pro, Deep Search, agentic capabilities, and more.
+Higher access to Gemini 4 Argon, Nano Banana, agentic capabilities, and more.
 Jules9
 Higher limits to our asynchronous coding agent for software developers
 Google Antigravity
@@ -119,13 +117,14 @@ Google Home Premium (Standard plan)5
 30 days of event history and Gemini features
 Gemini in Chrome
 Access Chrome auto browse to help complete tasks for you
-YouTube Premium Lite plan6
+YouTube Premium Lite plan7
 Most videos ad-free, offline, and in the background
 Storage
 5 TB of cloud storage across Gmail, Drive, and Photos
 
 Google AI Pro is available in more than 150 countries and territories - see full list of countries.
 
+Includes Gemini 4 Argon
 Google AI Ultra1
 
 Unlock the highest level of access to the best of Google AI and exclusive features.
@@ -138,16 +137,18 @@ Get started
 Everything in Google AI Pro and:
 Gemini app
 
-Access to 3.8 Flash
+Access to Gemini 4 Argon
 
-Access to 3.1 Pro
+Highest access to our Pro model
 
-Get up to 20x higher usage limits2 in Gemini than the Pro plan, plus first access to advanced features like Deep Think and Gemini Spark (in select countries).
+Highest access to our Flash model
+
+Get up to 20x higher usage limits2 in Gemini than the Pro plan, plus first access to advanced features like Tasks in Gemini (in select countries).
 
 Google Flow3
 Get 10,000 or 25,000 Google Flow Credits to use across our AI creative studio to create cinematic scenes and stories with access to Gemini Omni Flash and custom tool creation.
 Google Search4
-Highest access to Gemini 3 Pro, Deep Search, agentic capabilities, and more.
+Highest access to Gemini 4 Argon, Nano Banana, agentic capabilities, and more.
 Jules9
 Highest limits to our asynchronous coding agent for software developers
 Google Antigravity
@@ -161,7 +162,7 @@ Google Home Premium (Advanced plan)5
 24/7 video history, event descriptions, and more
 Gemini in Chrome
 Highest access to Chrome auto browse to help complete tasks for you
-Project Genie7
+Project Genie6
 Create and explore interactive worlds in realtime with our breakthrough Genie 3 world model
 YouTube Premium individual plan8
 YouTube ad-free, offline, and in the background
@@ -245,11 +246,11 @@ Requires Google Home app, Wi-Fi, and internet connection. Features subject to ch
 
 6.
 
-The YouTube Premium Lite plan included in this bundle won’t activate if you already have an equivalent or YouTube Premium subscription. Learn more. Already have a YouTube membership? Learn more about managing memberships.
+Project Genie is available in more than 140 countries — see full list of countries. Only available with a Google AI Ultra plan.
 
 7.
 
-Project Genie is available in more than 140 countries — see full list of countries. Only available with a Google AI Ultra plan.
+The YouTube Premium Lite plan included in this bundle won’t activate if you already have an equivalent or YouTube Premium subscription. Learn more. Already have a YouTube membership? Learn more about managing memberships.
 
 8.
 
@@ -265,7 +266,6 @@ Image Generation
 Video Generation
 Music Generation
 Deep Research
-Gemini Spark
 Personal Intelligence
 Daily Brief
 Canvas

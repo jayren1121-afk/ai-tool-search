@@ -11,7 +11,7 @@ $0
 ---
 Free for everyone
 ---
-Claude Code included
+Pro
 ---
 For everyday work
 ---
@@ -23,7 +23,7 @@ Try Claude
 ---
 Everything in Free, plus:
 ---
-Claude Code included
+Max
 ---
 For people who work with Claude all day
 ---

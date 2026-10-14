@@ -17,9 +17,9 @@
   "name": "Claude",
   "status": "ok",
   "source_url": "https://claude.com/pricing",
-  "fetched_at": "2026-10-12T13:24:51+08:00",
+  "fetched_at": "2026-10-14T09:20:11+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 7920,
+  "rendered_text_len": 7905,
   "shared_page_with": [
    "claude-code"
   ],
@@ -29,7 +29,7 @@
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "per month",
      "evidence_quote": "Free … $0",
      "quote_verified": true,
      "price_check": {
@@ -48,51 +48,49 @@
      "name": "Pro",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month, annual discount",
-     "evidence_quote": "Pro … $17 Per month with annual subscription discount ($200 billed up front).",
+     "billing_note": "per month with annual subscription discount ($200 billed up front); $20 if billed monthly",
+     "evidence_quote": "Pro … $17",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "near_quote",
       "price_yearly_per_month": "in_quote",
-      "price_yearly_total": "in_quote",
-      "list_price": "near_quote"
+      "price_yearly_total": "near_quote"
      },
      "price_monthly": 20.0,
      "price_yearly_per_month": 17.0,
      "price_yearly_total": 200.0,
      "price_unclear": null,
-     "list_price": 20.0,
-     "regular_price_monthly": 20.0,
-     "list_price_unit": "month",
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
      "issues": []
     },
     {
-     "name": "Max 5x",
+     "name": "Max",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "Max 5x … From $100 Per month",
+     "billing_note": "per month",
+     "evidence_quote": "Max … $100",
      "quote_verified": true,
      "price_check": {
-      "price_unclear": "in_quote"
+      "price_monthly": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 100.0,
      "price_yearly_per_month": null,
      "price_yearly_total": null,
-     "price_unclear": 100.0,
+     "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "price_unclear",
-      "name_far_from_price"
+      "period_ambiguous_toggle"
      ]
     },
     {
      "name": "Enterprise",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per seat per month, billed annually",
+     "billing_note": "billed annually, plus usage billed at API rates",
      "evidence_quote": "Enterprise … $20 per seat per month",
      "quote_verified": true,
      "price_check": {
@@ -110,75 +108,73 @@
    ],
    "free_tier": {
     "available": true,
-    "limits": "Free for everyone",
-    "evidence_quote": "Free for everyone",
+    "limits": null,
+    "evidence_quote": "Free",
     "quote_verified": true
    },
-   "price_summary": "Free plan is $0. Pro costs $20 month‑to‑month or $17 per month with annual billing ($200 yearly). Max 5x starts from $100 per month. Enterprise is $20 per seat per month, billed annually.",
+   "price_summary": "Free plan is $0/month. Pro is $20/month or $17/month billed annually ($200 yearly). Max starts at $100/month. Enterprise is $20 per seat per month billed annually, with additional usage fees.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
    "price_near_quote": 2,
-   "issue_price_unclear": 1,
-   "issue_name_far_from_price": 1
+   "issue_period_ambiguous_toggle": 1
   },
   "evidence": [
    {
-    "evidence_quote": "Pro … $17 Per month with annual subscription discount ($200 billed up front).",
+    "evidence_quote": "Pro … $17",
     "plan": "Pro",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
-    "evidence_quote": "Max 5x … From $100 Per month",
-    "plan": "Max 5x",
+    "evidence_quote": "Max … $100",
+    "plan": "Max",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
     "evidence_quote": "Enterprise … $20 per seat per month",
     "plan": "Enterprise",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
-    "evidence_quote": "Free for everyone",
+    "evidence_quote": "Free",
     "plan": "free_tier",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "has_promo",
     "name_diff",
-    "name_far_from_price",
+    "period_ambiguous_toggle",
     "price_near_quote",
-    "price_unclear",
     "shared_page"
    ],
    "needs_review": true,
    "details": [
-    "資料集方案 ['Pro', 'Max', 'Plus', 'Premium', 'Scale'] vs 新 ['Free', 'Pro', 'Max 5x', 'Enterprise']",
+    "資料集方案 ['Pro', 'Max', 'Plus', 'Premium', 'Scale'] vs 新 ['Free', 'Pro', 'Max', 'Enterprise']",
     "與 ['claude-code'] 共用同一價格頁，結果複製自同一次擷取",
-    "Max 5x: price_unclear, name_far_from_price"
+    "Max: period_ambiguous_toggle"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://claude.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://claude.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "gemini",
   "name": "Google Gemini",
   "status": "ok",
   "source_url": "https://gemini.google/subscriptions/",
-  "fetched_at": "2026-10-12T13:24:52+08:00",
+  "fetched_at": "2026-10-14T09:20:12+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 9785,
+  "rendered_text_len": 9887,
   "shared_page_with": [
    "veo"
   ],
@@ -188,7 +184,7 @@
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Free … $0/ month with a Google Account",
      "quote_verified": true,
      "price_check": {
@@ -207,7 +203,7 @@
      "name": "Google AI Plus",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Google AI Plus … $4.99/ month",
      "quote_verified": true,
      "price_check": {
@@ -226,7 +222,7 @@
      "name": "Google AI Pro",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Google AI Pro … $19.99/ month",
      "quote_verified": true,
      "price_check": {
@@ -242,11 +238,11 @@
      "issues": []
     },
     {
-     "name": "YouTube Premium Lite plan",
+     "name": "YouTube Premium Lite",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "Starting at",
-     "evidence_quote": "YouTube Premium Lite plan … $99.99/ month",
+     "billing_note": "monthly",
+     "evidence_quote": "YouTube Premium Lite … $99.99/ month",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote"
@@ -265,50 +261,48 @@
    ],
    "free_tier": {
     "available": true,
-    "limits": "Get everyday help from Google AI to tackle tasks at work, school or home.",
-    "evidence_quote": "Free",
+    "limits": null,
+    "evidence_quote": "$0/ month with a Google Account",
     "quote_verified": true
    },
-   "price_summary": "Free plan is $0/month; Google AI Plus $4.99/month; Google AI Pro $19.99/month; YouTube Premium Lite starts at $99.99/month (with a $199.99/month option).",
+   "price_summary": "Free plan is $0/month; Google AI Plus $4.99/month; Google AI Pro $19.99/month; YouTube Premium Lite starts at $99.99/month.",
    "display_region_note": "United States"
   },
   "verify_stats": {
-   "plans_total": 5,
-   "issue_name_far_from_price": 1,
-   "plan_dropped_quote": 1
+   "plans_total": 4,
+   "issue_name_far_from_price": 1
   },
   "evidence": [
    {
     "evidence_quote": "Google AI Plus … $4.99/ month",
     "plan": "Google AI Plus",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
     "evidence_quote": "Google AI Pro … $19.99/ month",
     "plan": "Google AI Pro",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
-    "evidence_quote": "YouTube Premium Lite plan … $99.99/ month",
-    "plan": "YouTube Premium Lite plan",
+    "evidence_quote": "YouTube Premium Lite … $99.99/ month",
+    "plan": "YouTube Premium Lite",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
-    "evidence_quote": "Free",
+    "evidence_quote": "$0/ month with a Google Account",
     "plan": "free_tier",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
-    "dropped_fields",
     "name_far_from_price",
     "price_change",
     "shared_page"
@@ -317,18 +311,18 @@
    "details": [
     "Pro: 資料集 $199.99/月 → 官網 $19.99",
     "與 ['veo'] 共用同一價格頁，結果複製自同一次擷取",
-    "YouTube Premium Lite plan: name_far_from_price"
+    "YouTube Premium Lite: name_far_from_price"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://gemini.google/subscriptions/），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://gemini.google/subscriptions/），2026-10-14 擷取"
  },
  {
   "id": "copilot-microsoft",
   "name": "Microsoft Copilot",
   "status": "ok",
   "source_url": "https://www.microsoft.com/microsoft-365/copilot",
-  "fetched_at": "2026-10-12T13:24:57+08:00",
+  "fetched_at": "2026-10-14T09:20:17+08:00",
   "note": "robots 允許；networkidle 未達",
   "rendered_text_len": 4858,
   "extracted": {
@@ -410,19 +404,19 @@
     "evidence_quote": "$9.99 /month",
     "plan": null,
     "source_url": "https://www.microsoft.com/microsoft-365/copilot",
-    "fetched_at": "2026-10-12T13:24:57+08:00"
+    "fetched_at": "2026-10-14T09:20:17+08:00"
    },
    {
     "evidence_quote": "$23.50 user/month, paid yearly",
     "plan": null,
     "source_url": "https://www.microsoft.com/microsoft-365/copilot",
-    "fetched_at": "2026-10-12T13:24:57+08:00"
+    "fetched_at": "2026-10-14T09:20:17+08:00"
    },
    {
     "evidence_quote": "$30.00 user/month, paid yearly",
     "plan": null,
     "source_url": "https://www.microsoft.com/microsoft-365/copilot",
-    "fetched_at": "2026-10-12T13:24:57+08:00"
+    "fetched_at": "2026-10-14T09:20:17+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -444,7 +438,7 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.microsoft.com/microsoft-365/copilot），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.microsoft.com/microsoft-365/copilot），2026-10-14 擷取"
  },
  {
   "id": "grok",
@@ -452,7 +446,7 @@
   "status": "ok",
   "source_url": "https://grok.com/plans",
   "fetched_at": "2026-10-12T13:24:58+08:00",
-  "note": "robots 允許；networkidle 未達",
+  "note": "robots 允許；networkidle 未達；2026-10-14 新版重抓失敗（no_price_found），保留舊內容",
   "rendered_text_len": 1119,
   "extracted": {
    "plans": [
@@ -541,7 +535,7 @@
   "name": "DeepSeek",
   "status": "no_price_found",
   "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
-  "fetched_at": "2026-10-12T13:25:13+08:00",
+  "fetched_at": "2026-10-14T09:20:23+08:00",
   "note": "robots 允許",
   "rendered_text_len": 2670,
   "extracted": {
@@ -580,9 +574,9 @@
   "name": "Le Chat",
   "status": "ok",
   "source_url": "https://mistral.ai/pricing",
-  "fetched_at": "2026-10-12T13:25:22+08:00",
+  "fetched_at": "2026-10-14T09:20:30+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 5795,
+  "rendered_text_len": 5800,
   "extracted": {
    "plans": [
     {
@@ -642,19 +636,19 @@
     "evidence_quote": "Team … $24.99 /user/mo",
     "plan": "Team",
     "source_url": "https://mistral.ai/pricing",
-    "fetched_at": "2026-10-12T13:25:22+08:00"
+    "fetched_at": "2026-10-14T09:20:30+08:00"
    },
    {
     "evidence_quote": "Mistral Pro for $5.99 / month (normally $14.99)",
     "plan": "Pro",
     "source_url": "https://mistral.ai/pricing",
-    "fetched_at": "2026-10-12T13:25:22+08:00"
+    "fetched_at": "2026-10-14T09:20:30+08:00"
    },
    {
     "evidence_quote": "Free",
     "plan": "free_tier",
     "source_url": "https://mistral.ai/pricing",
-    "fetched_at": "2026-10-12T13:25:22+08:00"
+    "fetched_at": "2026-10-14T09:20:30+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -668,7 +662,7 @@
    "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://mistral.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://mistral.ai/pricing），2026-10-14 擷取"
  },
  {
   "id": "qwen",
@@ -718,7 +712,7 @@
   "status": "ok",
   "source_url": "https://www.perplexity.ai/pro",
   "fetched_at": "2026-10-12T13:25:29+08:00",
-  "note": "robots 允許；networkidle 未達",
+  "note": "robots 允許；networkidle 未達；2026-10-14 新版重抓失敗（blocked），保留舊內容",
   "rendered_text_len": 10912,
   "extracted": {
    "plans": [
@@ -816,9 +810,9 @@
   "name": "You.com",
   "status": "no_price_found",
   "source_url": "https://you.com/plans",
-  "fetched_at": "2026-10-12T13:25:42+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 6271,
+  "fetched_at": "2026-10-14T09:20:36+08:00",
+  "note": "robots 允許；計費切換：yearly",
+  "rendered_text_len": 12727,
   "extracted": {
    "plans": [],
    "free_tier": {
@@ -836,16 +830,20 @@
     "evidence_quote": "Free tier",
     "plan": "free_tier",
     "source_url": "https://you.com/plans",
-    "fetched_at": "2026-10-12T13:25:42+08:00"
+    "fetched_at": "2026-10-14T09:20:36+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
   "prompt_version": "v2b",
   "diff_flag": {
-   "flags": [],
-   "needs_review": false,
-   "details": [],
+   "flags": [
+    "stale_text"
+   ],
+   "needs_review": true,
+   "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理"
+   ],
    "auto_approvable": false
   },
   "price_note": ""
@@ -863,9 +861,9 @@
   "name": "Consensus",
   "status": "ok",
   "source_url": "https://consensus.app/pricing",
-  "fetched_at": "2026-10-12T13:25:48+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 2208,
+  "fetched_at": "2026-10-14T09:20:44+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 4426,
   "extracted": {
    "plans": [
     {
@@ -885,7 +883,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     },
     {
      "name": "Pro",
@@ -908,6 +910,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
@@ -931,6 +936,9 @@
      "list_price_unit": null,
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
@@ -953,19 +961,19 @@
     "evidence_quote": "Pro … $12/mo",
     "plan": "Pro",
     "source_url": "https://consensus.app/pricing",
-    "fetched_at": "2026-10-12T13:25:48+08:00"
+    "fetched_at": "2026-10-14T09:20:44+08:00"
    },
    {
     "evidence_quote": "Deep … $45/mo",
     "plan": "Deep",
     "source_url": "https://consensus.app/pricing",
-    "fetched_at": "2026-10-12T13:25:48+08:00"
+    "fetched_at": "2026-10-14T09:20:44+08:00"
    },
    {
     "evidence_quote": "Keep using basic paper search for free, without any AI analysis.",
     "plan": "free_tier",
     "source_url": "https://consensus.app/pricing",
-    "fetched_at": "2026-10-12T13:25:48+08:00"
+    "fetched_at": "2026-10-14T09:20:44+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -975,25 +983,27 @@
    "flags": [
     "has_promo",
     "period_ambiguous_toggle",
-    "price_near_quote"
+    "price_near_quote",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
     "Pro: period_ambiguous_toggle",
     "Deep: period_ambiguous_toggle"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://consensus.app/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://consensus.app/pricing），2026-10-14 擷取"
  },
  {
   "id": "elicit",
   "name": "Elicit",
   "status": "ok",
   "source_url": "https://elicit.com/pricing",
-  "fetched_at": "2026-10-12T13:25:50+08:00",
-  "note": "robots.txt 404（無規則，視為允許）",
-  "rendered_text_len": 2390,
+  "fetched_at": "2026-10-14T09:20:46+08:00",
+  "note": "robots.txt 404（無規則，視為允許）；計費切換：monthly",
+  "rendered_text_len": 4807,
   "extracted": {
    "plans": [
     {
@@ -1014,7 +1024,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "yearly"
+     ]
     },
     {
      "name": "Scale",
@@ -1034,7 +1047,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "yearly"
+     ]
     }
    ],
    "free_tier": {
@@ -1055,19 +1071,19 @@
     "evidence_quote": "Pro … $49",
     "plan": "Pro",
     "source_url": "https://elicit.com/pricing",
-    "fetched_at": "2026-10-12T13:25:50+08:00"
+    "fetched_at": "2026-10-14T09:20:46+08:00"
    },
    {
     "evidence_quote": "Scale … $169",
     "plan": "Scale",
     "source_url": "https://elicit.com/pricing",
-    "fetched_at": "2026-10-12T13:25:50+08:00"
+    "fetched_at": "2026-10-14T09:20:46+08:00"
    },
    {
     "evidence_quote": "Try for free",
     "plan": "free_tier",
     "source_url": "https://elicit.com/pricing",
-    "fetched_at": "2026-10-12T13:25:50+08:00"
+    "fetched_at": "2026-10-14T09:20:46+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -1076,13 +1092,16 @@
   "diff_flag": {
    "flags": [
     "has_promo",
-    "price_near_quote"
+    "price_near_quote",
+    "stale_text"
    ],
    "needs_review": true,
-   "details": [],
+   "details": [
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理"
+   ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://elicit.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://elicit.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "notebooklm",
@@ -1114,7 +1133,7 @@
   "name": "Midjourney",
   "status": "ok",
   "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333",
-  "fetched_at": "2026-10-12T13:25:55+08:00",
+  "fetched_at": "2026-10-14T09:20:48+08:00",
   "note": "robots 允許",
   "rendered_text_len": 2738,
   "extracted": {
@@ -1226,25 +1245,25 @@
     "evidence_quote": "Basic Plan … Monthly Price $10 $30 $60 $120 Annual Price $96 ($8 / month) $288 ($24 / month) $576 ($48 / month) $1,152 ($96 / month)",
     "plan": "Basic",
     "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333",
-    "fetched_at": "2026-10-12T13:25:55+08:00"
+    "fetched_at": "2026-10-14T09:20:48+08:00"
    },
    {
     "evidence_quote": "Standard Plan … Monthly Price $10 $30 $60 $120 Annual Price $96 ($8 / month) $288 ($24 / month) $576 ($48 / month) $1,152 ($96 / month)",
     "plan": "Standard",
     "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333",
-    "fetched_at": "2026-10-12T13:25:55+08:00"
+    "fetched_at": "2026-10-14T09:20:48+08:00"
    },
    {
     "evidence_quote": "Pro Plan … Monthly Price $10 $30 $60 $120 Annual Price $96 ($8 / month) $288 ($24 / month) $576 ($48 / month) $1,152 ($96 / month)",
     "plan": "Pro",
     "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333",
-    "fetched_at": "2026-10-12T13:25:55+08:00"
+    "fetched_at": "2026-10-14T09:20:48+08:00"
    },
    {
     "evidence_quote": "Mega Plan … Monthly Price $10 $30 $60 $120 Annual Price $96 ($8 / month) $288 ($24 / month) $576 ($48 / month) $1,152 ($96 / month)",
     "plan": "Mega",
     "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333",
-    "fetched_at": "2026-10-12T13:25:55+08:00"
+    "fetched_at": "2026-10-14T09:20:48+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -1266,16 +1285,16 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://docs.midjourney.com/hc/en-us/articles/27870484040333），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://docs.midjourney.com/hc/en-us/articles/27870484040333），2026-10-14 擷取"
  },
  {
   "id": "dall-e",
   "name": "DALL·E / GPT Image (ChatGPT)",
   "status": "no_price_found",
   "source_url": "https://openai.com/api/pricing",
-  "fetched_at": "2026-10-12T13:25:06+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 8722,
+  "fetched_at": "2026-10-14T09:20:10+08:00",
+  "note": "robots 允許；networkidle 未達",
+  "rendered_text_len": 8962,
   "extracted": {
    "plans": [],
    "free_tier": null,
@@ -1284,17 +1303,13 @@
   },
   "verify_stats": {},
   "evidence": [],
-  "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
-  "llm_provider": "openrouter",
-  "prompt_version": "v2b",
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2c",
   "diff_flag": {
-   "flags": [
-    "llm_fallback_model"
-   ],
+   "flags": [],
    "needs_review": false,
-   "details": [
-    "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
-   ],
+   "details": [],
    "auto_approvable": false
   },
   "price_note": ""
@@ -1304,7 +1319,7 @@
   "name": "Stable Diffusion",
   "status": "no_price_found",
   "source_url": "https://stability.ai/license",
-  "fetched_at": "2026-10-12T13:25:59+08:00",
+  "fetched_at": "2026-10-14T09:20:53+08:00",
   "note": "robots 允許",
   "rendered_text_len": 4529,
   "extracted": {
@@ -1327,7 +1342,7 @@
     "evidence_quote": "For researchers, developers, small businesses, and creators with less than $1M in annual revenue.",
     "plan": "free_tier",
     "source_url": "https://stability.ai/license",
-    "fetched_at": "2026-10-12T13:25:59+08:00"
+    "fetched_at": "2026-10-14T09:20:53+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -1369,7 +1384,7 @@
   "name": "FLUX (Black Forest Labs)",
   "status": "no_price_found",
   "source_url": "https://bfl.ai/pricing",
-  "fetched_at": "2026-10-12T13:26:11+08:00",
+  "fetched_at": "2026-10-14T09:20:53+08:00",
   "note": "robots 允許",
   "rendered_text_len": 3584,
   "extracted": {
@@ -1409,9 +1424,9 @@
   "name": "Krea",
   "status": "ok",
   "source_url": "https://www.krea.ai/pricing",
-  "fetched_at": "2026-10-12T13:26:17+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 14565,
+  "fetched_at": "2026-10-14T09:20:54+08:00",
+  "note": "robots 允許；計費切換：monthly、monthly",
+  "rendered_text_len": 49234,
   "extracted": {
    "plans": [
     {
@@ -1431,7 +1446,11 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "monthly",
+      "yearly"
+     ]
     },
     {
      "name": "Pro",
@@ -1451,7 +1470,10 @@
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "period_ambiguous_toggle"
+      "billing_section_mismatch"
+     ],
+     "billing_sections": [
+      "yearly"
      ]
     },
     {
@@ -1472,7 +1494,10 @@
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "period_ambiguous_toggle"
+      "billing_section_mismatch"
+     ],
+     "billing_sections": [
+      "yearly"
      ]
     },
     {
@@ -1493,7 +1518,10 @@
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "period_ambiguous_toggle"
+      "billing_section_mismatch"
+     ],
+     "billing_sections": [
+      "yearly"
      ]
     }
    ],
@@ -1508,7 +1536,7 @@
   },
   "verify_stats": {
    "plans_total": 5,
-   "issue_period_ambiguous_toggle": 3,
+   "issue_billing_section_mismatch": 3,
    "plan_dropped_quote": 1
   },
   "evidence": [
@@ -1516,25 +1544,25 @@
     "evidence_quote": "Pro … $21/month",
     "plan": "Pro",
     "source_url": "https://www.krea.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:17+08:00"
+    "fetched_at": "2026-10-14T09:20:54+08:00"
    },
    {
     "evidence_quote": "Max … $63/month",
     "plan": "Max",
     "source_url": "https://www.krea.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:17+08:00"
+    "fetched_at": "2026-10-14T09:20:54+08:00"
    },
    {
     "evidence_quote": "Business … $160/month",
     "plan": "Business",
     "source_url": "https://www.krea.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:17+08:00"
+    "fetched_at": "2026-10-14T09:20:54+08:00"
    },
    {
     "evidence_quote": "$0/month",
     "plan": "free_tier",
     "source_url": "https://www.krea.ai/pricing",
-    "fetched_at": "2026-10-12T13:26:17+08:00"
+    "fetched_at": "2026-10-14T09:20:54+08:00"
    }
   ],
   "llm_model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -1542,22 +1570,24 @@
   "prompt_version": "v2b",
   "diff_flag": {
    "flags": [
+    "billing_section_mismatch",
     "dropped_fields",
     "llm_fallback_model",
-    "period_ambiguous_toggle",
-    "price_change"
+    "price_change",
+    "stale_text"
    ],
    "needs_review": true,
    "details": [
     "Max: 資料集 $21.0/月 → 官網 $63.0",
-    "Pro: period_ambiguous_toggle",
-    "Max: period_ambiguous_toggle",
-    "Business: period_ambiguous_toggle",
+    "價格頁已重新抓取（內容有變，例如加入月繳/年繳切換），這是舊文字的整理結果，等待重新整理",
+    "Pro: billing_section_mismatch",
+    "Max: billing_section_mismatch",
+    "Business: billing_section_mismatch",
     "使用非 120b 模型 openrouter:nvidia/nemotron-3-super-120b-a12b:free，不納入批次核准"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.krea.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.krea.ai/pricing），2026-10-14 擷取"
  },
  {
   "id": "playground",
@@ -1747,9 +1777,9 @@
   "name": "Google Veo (Flow)",
   "status": "ok",
   "source_url": "https://gemini.google/subscriptions/",
-  "fetched_at": "2026-10-12T13:24:52+08:00",
+  "fetched_at": "2026-10-14T09:20:12+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 9785,
+  "rendered_text_len": 9887,
   "shared_page_with": [
    "gemini"
   ],
@@ -1759,7 +1789,7 @@
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Free … $0/ month with a Google Account",
      "quote_verified": true,
      "price_check": {
@@ -1778,7 +1808,7 @@
      "name": "Google AI Plus",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Google AI Plus … $4.99/ month",
      "quote_verified": true,
      "price_check": {
@@ -1797,7 +1827,7 @@
      "name": "Google AI Pro",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly",
      "evidence_quote": "Google AI Pro … $19.99/ month",
      "quote_verified": true,
      "price_check": {
@@ -1813,11 +1843,11 @@
      "issues": []
     },
     {
-     "name": "YouTube Premium Lite plan",
+     "name": "YouTube Premium Lite",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "Starting at",
-     "evidence_quote": "YouTube Premium Lite plan … $99.99/ month",
+     "billing_note": "monthly",
+     "evidence_quote": "YouTube Premium Lite … $99.99/ month",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote"
@@ -1836,50 +1866,48 @@
    ],
    "free_tier": {
     "available": true,
-    "limits": "Get everyday help from Google AI to tackle tasks at work, school or home.",
-    "evidence_quote": "Free",
+    "limits": null,
+    "evidence_quote": "$0/ month with a Google Account",
     "quote_verified": true
    },
-   "price_summary": "Free plan is $0/month; Google AI Plus $4.99/month; Google AI Pro $19.99/month; YouTube Premium Lite starts at $99.99/month (with a $199.99/month option).",
+   "price_summary": "Free plan is $0/month; Google AI Plus $4.99/month; Google AI Pro $19.99/month; YouTube Premium Lite starts at $99.99/month.",
    "display_region_note": "United States"
   },
   "verify_stats": {
-   "plans_total": 5,
-   "issue_name_far_from_price": 1,
-   "plan_dropped_quote": 1
+   "plans_total": 4,
+   "issue_name_far_from_price": 1
   },
   "evidence": [
    {
     "evidence_quote": "Google AI Plus … $4.99/ month",
     "plan": "Google AI Plus",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
     "evidence_quote": "Google AI Pro … $19.99/ month",
     "plan": "Google AI Pro",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
-    "evidence_quote": "YouTube Premium Lite plan … $99.99/ month",
-    "plan": "YouTube Premium Lite plan",
+    "evidence_quote": "YouTube Premium Lite … $99.99/ month",
+    "plan": "YouTube Premium Lite",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    },
    {
-    "evidence_quote": "Free",
+    "evidence_quote": "$0/ month with a Google Account",
     "plan": "free_tier",
     "source_url": "https://gemini.google/subscriptions/",
-    "fetched_at": "2026-10-12T13:24:52+08:00"
+    "fetched_at": "2026-10-14T09:20:12+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
-    "dropped_fields",
     "name_far_from_price",
     "price_change",
     "shared_page"
@@ -1888,11 +1916,11 @@
    "details": [
     "Pro: 資料集 $199.99/月 → 官網 $19.99",
     "與 ['gemini'] 共用同一價格頁，結果複製自同一次擷取",
-    "YouTube Premium Lite plan: name_far_from_price"
+    "YouTube Premium Lite: name_far_from_price"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://gemini.google/subscriptions/），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://gemini.google/subscriptions/），2026-10-14 擷取"
  },
  {
   "id": "pika",
@@ -3976,9 +4004,9 @@
   "name": "Claude Code",
   "status": "ok",
   "source_url": "https://claude.com/pricing",
-  "fetched_at": "2026-10-12T13:24:51+08:00",
+  "fetched_at": "2026-10-14T09:20:11+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 7920,
+  "rendered_text_len": 7905,
   "shared_page_with": [
    "claude"
   ],
@@ -3988,7 +4016,7 @@
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "per month",
      "evidence_quote": "Free … $0",
      "quote_verified": true,
      "price_check": {
@@ -4007,51 +4035,49 @@
      "name": "Pro",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per month, annual discount",
-     "evidence_quote": "Pro … $17 Per month with annual subscription discount ($200 billed up front).",
+     "billing_note": "per month with annual subscription discount ($200 billed up front); $20 if billed monthly",
+     "evidence_quote": "Pro … $17",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "near_quote",
       "price_yearly_per_month": "in_quote",
-      "price_yearly_total": "in_quote",
-      "list_price": "near_quote"
+      "price_yearly_total": "near_quote"
      },
      "price_monthly": 20.0,
      "price_yearly_per_month": 17.0,
      "price_yearly_total": 200.0,
      "price_unclear": null,
-     "list_price": 20.0,
-     "regular_price_monthly": 20.0,
-     "list_price_unit": "month",
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
      "issues": []
     },
     {
-     "name": "Max 5x",
+     "name": "Max",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "Max 5x … From $100 Per month",
+     "billing_note": "per month",
+     "evidence_quote": "Max … $100",
      "quote_verified": true,
      "price_check": {
-      "price_unclear": "in_quote"
+      "price_monthly": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 100.0,
      "price_yearly_per_month": null,
      "price_yearly_total": null,
-     "price_unclear": 100.0,
+     "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "price_unclear",
-      "name_far_from_price"
+      "period_ambiguous_toggle"
      ]
     },
     {
      "name": "Enterprise",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per seat per month, billed annually",
+     "billing_note": "billed annually, plus usage billed at API rates",
      "evidence_quote": "Enterprise … $20 per seat per month",
      "quote_verified": true,
      "price_check": {
@@ -4069,66 +4095,64 @@
    ],
    "free_tier": {
     "available": true,
-    "limits": "Free for everyone",
-    "evidence_quote": "Free for everyone",
+    "limits": null,
+    "evidence_quote": "Free",
     "quote_verified": true
    },
-   "price_summary": "Free plan is $0. Pro costs $20 month‑to‑month or $17 per month with annual billing ($200 yearly). Max 5x starts from $100 per month. Enterprise is $20 per seat per month, billed annually.",
+   "price_summary": "Free plan is $0/month. Pro is $20/month or $17/month billed annually ($200 yearly). Max starts at $100/month. Enterprise is $20 per seat per month billed annually, with additional usage fees.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
    "price_near_quote": 2,
-   "issue_price_unclear": 1,
-   "issue_name_far_from_price": 1
+   "issue_period_ambiguous_toggle": 1
   },
   "evidence": [
    {
-    "evidence_quote": "Pro … $17 Per month with annual subscription discount ($200 billed up front).",
+    "evidence_quote": "Pro … $17",
     "plan": "Pro",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
-    "evidence_quote": "Max 5x … From $100 Per month",
-    "plan": "Max 5x",
+    "evidence_quote": "Max … $100",
+    "plan": "Max",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
     "evidence_quote": "Enterprise … $20 per seat per month",
     "plan": "Enterprise",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    },
    {
-    "evidence_quote": "Free for everyone",
+    "evidence_quote": "Free",
     "plan": "free_tier",
     "source_url": "https://claude.com/pricing",
-    "fetched_at": "2026-10-12T13:24:51+08:00"
+    "fetched_at": "2026-10-14T09:20:11+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "has_promo",
     "name_diff",
-    "name_far_from_price",
+    "period_ambiguous_toggle",
     "price_near_quote",
-    "price_unclear",
     "shared_page"
    ],
    "needs_review": true,
    "details": [
-    "資料集方案 ['Scale', 'Pro', 'Max', 'Plus', 'Premium'] vs 新 ['Free', 'Pro', 'Max 5x', 'Enterprise']",
+    "資料集方案 ['Scale', 'Pro', 'Max', 'Plus', 'Premium'] vs 新 ['Free', 'Pro', 'Max', 'Enterprise']",
     "與 ['claude'] 共用同一價格頁，結果複製自同一次擷取",
-    "Max 5x: price_unclear, name_far_from_price"
+    "Max: period_ambiguous_toggle"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://claude.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://claude.com/pricing），2026-10-14 擷取"
  },
  {
   "id": "openai-codex",

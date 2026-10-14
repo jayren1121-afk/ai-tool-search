@@ -1,5 +1,6 @@
-Privacy Policy
-Terms and Conditions
+=== 計費模式: 預設畫面 (default) ===
+Accept
+Deny Non-Essential
 Skip to main content
 ---
 NEW Knowledge for Web Search: live stock prices, crypto, weather, and prediction markets. Same $5/1K calls.
@@ -111,7 +112,7 @@ $5
 ---
 Ranked web and news results your model reads and reasons over. You keep full control of synthesis — ideal for RAG.
 ---
-$100 FREE CREDIT = 20,000 SEARCHES
+$10 FREE CREDIT = 2,000 SEARCHES
 ---
 View docs
 Get an API key
@@ -125,4 +126,134 @@ Are there rate limits?
 How do the Research effort tiers differ, and which should I use?
 Is the MCP server billed separately?
 Do you offer volume or annual discounts?
+Can I get a DPA? Is there zero data retention?
+=== 計費模式: 年繳 (yearly) ===
+Accept
+Deny Non-Essential
+Skip to main content
+---
+NEW Knowledge for Web Search: live stock prices, crypto, weather, and prediction markets. Same $5/1K calls.
+---
+Learn More →
+APIs
+---
+Blog
+Contact Sales
+C
+---
+Free
+---
+Web Search API
+Free tier
+---
+Web Search API
+Free
+---
+Free
+---
+Full endpoint access: Highlights, Knowledge, extraction, and domain filters. Built for production traffic at scale.
+---
+p50 ~0.4s
+---
+$5
+---
+/1K CALLS
+---
+Give it URLs you already have, get back clean Markdown or HTML per page. Use it when you know which pages you want and just need them parsed, not searched.
+---
+1-10s per page
+---
+$1
+---
+/1K PAGES
+---
+One call turns a question into a cited answer with the sources it used. Choose this over Web Search when you want the answer written for you, not a list of links to synthesize yourself.
+---
+p50 ~2.7s
+---
+$5
+---
+/1K CALLS
+---
+Simple factual lookups in a single pass. No structured output.
+---
+Under 2s
+---
+$12
+---
+/1K CALLS
+---
+Balanced depth for most production research
+---
+10-30s
+---
+$50
+---
+/1K CALLS
+---
+Complex questions that span several sources and need cross-referencing.
+---
+Under 2min
+---
+$100
+---
+/1K CALLS
+---
+High-stakes questions where claims get verified across dozens of sources.
+---
+Under 5min
+---
+$450
+---
+/1K CALLS
+---
+Research too long to finish inside a request. Background mode only.
+---
+~5min
+---
+$1,200
+---
+/1K CALLS
+---
+Earnings summaries, competitive benchmarking, and multi-quarter trends.
+---
+Under 2 min
+---
+$110
+---
+/1K CALLS
+---
+Full 10-K analysis, due diligence, and cross-market research.
+---
+Under 5 min
+---
+$500
+---
+/1K CALLS
+---
+WEB SEARCH
+---
+Web Search API
+---
+$5
+---
+/1K CALLS
+---
+Ranked web and news results your model reads and reasons over. You keep full control of synthesis — ideal for RAG.
+---
+$10 FREE CREDIT = 2,000 SEARCHES
+---
+View docs
+Get an API key
+---
+Get custom pricing, higher rate limits, enterprise security, and dedicated support.
+---
+Do I need a credit card to start?
+Do credits expire?
+What happens if I run out of credits mid-run?
+Are there rate limits?
+How do the Research effort tiers differ, and which should I use?
+Is the MCP server billed separately?
+Do you offer volume or annual discounts?
+Yes. For usage above 1M calls per month, contact sales for custom pricing. Enterprise plans include negotiated rates, custom QPS limits, and dedicated support.
 Can I get a DPA? Is there zero data retention?
