@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """把 results.json 的價格寫進 Supabase 的 price_snapshots（update22）。
-- 安全價格（safety.is_safe：Groq 主模型、無任何旗標）→ review_status='approved'、reviewed=true（網站直接顯示）
-- 其他（有旗標、備援模型、舊提示詞…）→ review_status='pending'、reviewed=false（到 /admin「價格審核」由你核准或拒絕）
+- update26：不再人工審核。只要有至少一個真實價格＋來源網址＋擷取時間＋逐字原文（safety.is_publishable），
+  一律 review_status='approved'、reviewed=true、decided_by='auto'（包含備援模型、有旗標的）。沒有價格/錯誤的列不寫。
+- 你在後台「拒絕」過的內容：同一工具之後出現「內容完全相同」（content_hash 相同）的新快照也維持拒絕；內容變了才重新自動上線。
 - 用 (tool_id, fetched_at) 做 upsert：每天重跑不會重複新增。
 - 你在後台做過的決定（decided_by='admin'）只要內容沒變（content_hash 相同）就不會被覆蓋；
   內容變了（例如備援模型的結果後來被 Groq 重做）就重新判斷：安全 → 自動上線；否則回到待審核。
@@ -10,7 +11,7 @@
 import json, os, sys, hashlib, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from safety import is_row, is_safe
+from safety import is_row, is_safe, is_publishable
 
 PLAN_KEYS = ("name", "price_monthly", "price_yearly_per_month", "price_yearly_total", "price_unclear", "list_price", "list_price_unit", "billing_note", "currency", "is_promo", "evidence_quote")
 BATCH = 50
@@ -33,18 +34,22 @@ def build_row(r):
     return dict(tool_id=r["id"], **content, fetched_at=r["fetched_at"], evidence=r.get("evidence") or [], status="ok",
                 diff_flag=r.get("diff_flag") or {}, content_hash=h, llm_model=f"{r.get('llm_provider', 'groq')}:{r.get('llm_model')}")
 
-def decide(row, safe, existing, now):
-    """回傳 (要寫入的 row 或 None=不用寫, 分類)。existing：資料庫中同 (tool_id, fetched_at) 的列或 None"""
+def decide(row, safe, existing, now, rejected_hashes=()):
+    """回傳 (要寫入的 row 或 None=不用寫, 分類)。
+    existing：資料庫中同 (tool_id, fetched_at) 的列或 None；rejected_hashes：這個工具被你在後台拒絕過的內容指紋。
+    safe 參數保留相容（現在全部自動上線）。"""
     if existing and existing.get("decided_by") == "admin" and existing.get("content_hash") == row["content_hash"] and existing.get("review_status") in ("approved", "rejected"):
         return None, "admin_kept"  # 你做過決定、內容沒變：完全不動
-    if safe:
-        st = dict(review_status="approved", reviewed=True, decided_by="auto")
+    if row["content_hash"] in rejected_hashes:   # 同樣內容你拒絕過（例如重抓後日期不同但內容一樣）→ 維持拒絕
+        st = dict(review_status="rejected", reviewed=False, decided_by="admin")
+        kind = "admin_kept"
     else:
-        st = dict(review_status="pending", reviewed=False, decided_by=None)
+        st = dict(review_status="approved", reviewed=True, decided_by="auto")
+        kind = "approved"
     if existing and existing.get("content_hash") == row["content_hash"] and existing.get("review_status") == st["review_status"] and existing.get("decided_by") == st["decided_by"]:
         return None, "unchanged"
-    st["reviewed_at"] = now if safe else None
-    return {**row, **st}, ("approved" if safe else "pending")
+    st["reviewed_at"] = now
+    return {**row, **st}, kind
 
 class Rest:
     def __init__(self, url, key):
@@ -70,7 +75,8 @@ class Rest:
 
 def publish(res, api, now=None):
     now = now or datetime.now(timezone.utc).isoformat()
-    rows = [r for r in res if is_row(r)]
+    rows = [r for r in res if is_publishable(r)]
+    skipped = sum(1 for r in res if is_row(r) and not is_publishable(r))
     tool_ids = {t["id"] for t in api.get_all("/ai_tools?select=id")}
     rows_in = [r for r in rows if r["id"] in tool_ids]
     missing = sorted({r["id"] for r in rows} - tool_ids)
@@ -80,17 +86,19 @@ def publish(res, api, now=None):
         q = urllib.parse.quote(",".join(ids[i:i + 100]), safe=",-_.")
         for e in api.get_all(f"/price_snapshots?select=tool_id,fetched_at,content_hash,review_status,decided_by&tool_id=in.({q})"):
             ex[(e["tool_id"], ts_key(e["fetched_at"]))] = e
+    rej = {}
+    for e in ex.values():
+        if e.get("review_status") == "rejected" and e.get("decided_by") == "admin" and e.get("content_hash"): rej.setdefault(e["tool_id"], set()).add(e["content_hash"])
     stats = {"approved": 0, "pending": 0, "unchanged": 0, "admin_kept": 0}
-    writes, auto_list, pend_list = [], [], []
+    writes, flagged = [], 0
     for r in rows_in:
-        safe = is_safe(r)
-        w, kind = decide(build_row(r), safe, ex.get((r["id"], ts_key(r["fetched_at"]))), now)
+        safe = is_safe(r); flagged += 0 if safe else 1
+        w, kind = decide(build_row(r), safe, ex.get((r["id"], ts_key(r["fetched_at"]))), now, rej.get(r["id"], ()))
         stats[kind] += 1
-        (auto_list if safe else pend_list).append(r["id"])
         if w: writes.append(w)
     for i in range(0, len(writes), BATCH):
         api.req("POST", "/price_snapshots?on_conflict=tool_id,fetched_at", writes[i:i + BATCH], {"Prefer": "resolution=merge-duplicates,return=minimal"})
-    return dict(stats=stats, written=len(writes), total=len(rows), missing=missing, safe_total=len(auto_list), review_total=len(pend_list))
+    return dict(stats=stats, written=len(writes), total=len(rows), missing=missing, published_total=len(rows_in), flagged_total=flagged, skipped_no_price=skipped)
 
 def main():
     base = os.path.abspath(os.environ.get("PRICE_DATA_DIR") or os.path.dirname(os.path.abspath(__file__)))
@@ -114,9 +122,9 @@ def main():
         out(["## 價格上線：失敗", "", "```", msg[:800], "```"]); return 1
     s = r["stats"]
     lines = ["## 價格上線結果", "",
-             f"- 自動上線（安全價格）：{r['safe_total']} 筆（本次新寫入 {s['approved']}）",
-             f"- 送到後台待審核：{r['review_total']} 筆（本次新寫入 {s['pending']}）→ 到 /admin 的「價格審核」處理",
-             f"- 已經是最新、不用寫：{s['unchanged']} 筆；你在後台決定過且內容沒變（保留你的決定）：{s['admin_kept']} 筆",
+             f"- 自動上線：{r['published_total']} 筆（本次新寫入 {s['approved']}；其中 {r['flagged_total']} 筆有疑點旗標或用備援 AI，也已上線，可到 /admin「價格」區塊拒絕）",
+             f"- 沒有可用價格、略過：{r['skipped_no_price']} 筆",
+             f"- 已經是最新、不用寫：{s['unchanged']} 筆；你在後台決定過且內容沒變（保留你的決定，含拒絕）：{s['admin_kept']} 筆",
              f"- 本次實際寫入資料庫：{r['written']} 筆"]
     if r["missing"]: lines.append(f"- 網站資料庫沒有這些工具，略過：{', '.join(r['missing'][:30])}{' …' if len(r['missing']) > 30 else ''}")
     out(lines)
