@@ -28114,29 +28114,255 @@
  {
   "id": "greptile",
   "name": "Greptile",
-  "status": "pending_llm",
+  "status": "ok",
   "source_url": "https://www.greptile.com/pricing",
   "fetched_at": "2026-10-12T13:41:38+08:00",
-  "note": "robots 允許；LLM 尚未處理",
-  "rendered_text_len": 2342
+  "note": "robots 允許",
+  "rendered_text_len": 2342,
+  "extracted": {
+   "plans": [
+    {
+     "name": "Pro",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": "per seat per month",
+     "evidence_quote": "Pro … $30 /seat/month",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 30.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    },
+    {
+     "name": "Enterprise",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": null,
+     "evidence_quote": "Enterprise … Custom pricing",
+     "quote_verified": true,
+     "price_check": {},
+     "price_monthly": null,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    }
+   ],
+   "free_tier": {
+    "available": true,
+    "limits": "free for one active developer and includes unlimited repositories and 50 credits per month",
+    "evidence_quote": "Starter is free for one active developer and includes unlimited repositories and 50 credits per month.",
+    "quote_verified": true
+   },
+   "price_summary": "Starter is free; Pro costs $30 per seat per month; Enterprise has custom pricing.",
+   "display_region_note": null
+  },
+  "verify_stats": {
+   "plans_total": 2
+  },
+  "evidence": [
+   {
+    "evidence_quote": "Pro … $30 /seat/month",
+    "plan": "Pro",
+    "source_url": "https://www.greptile.com/pricing",
+    "fetched_at": "2026-10-12T13:41:38+08:00"
+   },
+   {
+    "evidence_quote": "Starter is free for one active developer and includes unlimited repositories and 50 credits per month.",
+    "plan": "free_tier",
+    "source_url": "https://www.greptile.com/pricing",
+    "fetched_at": "2026-10-12T13:41:38+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [
+    "name_diff"
+   ],
+   "needs_review": true,
+   "details": [
+    "資料集方案 ['Unlimited', 'Free'] vs 新 ['Pro', 'Enterprise']"
+   ],
+   "auto_approvable": false
+  },
+  "price_note": "價格來源：官網價格頁（https://www.greptile.com/pricing），2026-10-12 擷取"
  },
  {
   "id": "rokoko",
   "name": "Rokoko Vision",
-  "status": "pending_llm",
+  "status": "no_price_found",
   "source_url": "https://www.rokoko.com/pricing",
   "fetched_at": "2026-10-12T13:41:43+08:00",
-  "note": "robots 允許；LLM 尚未處理",
-  "rendered_text_len": 24746
+  "note": "robots 允許",
+  "rendered_text_len": 24746,
+  "extracted": {
+   "plans": [],
+   "free_tier": {
+    "available": true,
+    "limits": "free forever",
+    "evidence_quote": "free forever",
+    "quote_verified": true
+   },
+   "price_summary": null,
+   "display_region_note": null
+  },
+  "verify_stats": {
+   "plans_total": 2,
+   "plan_dropped_quote": 2
+  },
+  "evidence": [
+   {
+    "evidence_quote": "free forever",
+    "plan": "free_tier",
+    "source_url": "https://www.rokoko.com/pricing",
+    "fetched_at": "2026-10-12T13:41:43+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [
+    "dropped_fields"
+   ],
+   "needs_review": true,
+   "details": [],
+   "auto_approvable": false
+  },
+  "price_note": ""
  },
  {
   "id": "genmo",
   "name": "Genmo",
-  "status": "pending_llm",
+  "status": "ok",
   "source_url": "https://www.genmo.ai/pricing",
   "fetched_at": "2026-10-12T13:41:44+08:00",
-  "note": "robots 允許；networkidle 未達；LLM 尚未處理",
-  "rendered_text_len": 939
+  "note": "robots 允許；networkidle 未達",
+  "rendered_text_len": 939,
+  "extracted": {
+   "plans": [
+    {
+     "name": "Free",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": null,
+     "evidence_quote": "Free … $0/month",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 0.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": []
+    },
+    {
+     "name": "Lite",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": null,
+     "evidence_quote": "Lite … $10/month",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 10.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [
+      "period_ambiguous_toggle"
+     ]
+    },
+    {
+     "name": "Standard",
+     "currency": "USD",
+     "is_promo": false,
+     "billing_note": null,
+     "evidence_quote": "Standard … $30/month",
+     "quote_verified": true,
+     "price_check": {
+      "price_monthly": "in_quote"
+     },
+     "price_monthly": 30.0,
+     "price_yearly_per_month": null,
+     "price_yearly_total": null,
+     "price_unclear": null,
+     "list_price": null,
+     "regular_price_monthly": null,
+     "list_price_unit": null,
+     "issues": [
+      "period_ambiguous_toggle"
+     ]
+    }
+   ],
+   "free_tier": {
+    "available": true,
+    "limits": "250 lifetime credits — unlock by adding a payment method (never charged)",
+    "evidence_quote": "250 lifetime credits — unlock by adding a payment method (never charged)",
+    "quote_verified": true
+   },
+   "price_summary": "Free $0/month, Lite $10/month, Standard $30/month",
+   "display_region_note": null
+  },
+  "verify_stats": {
+   "plans_total": 3,
+   "issue_period_ambiguous_toggle": 2
+  },
+  "evidence": [
+   {
+    "evidence_quote": "Lite … $10/month",
+    "plan": "Lite",
+    "source_url": "https://www.genmo.ai/pricing",
+    "fetched_at": "2026-10-12T13:41:44+08:00"
+   },
+   {
+    "evidence_quote": "Standard … $30/month",
+    "plan": "Standard",
+    "source_url": "https://www.genmo.ai/pricing",
+    "fetched_at": "2026-10-12T13:41:44+08:00"
+   },
+   {
+    "evidence_quote": "250 lifetime credits — unlock by adding a payment method (never charged)",
+    "plan": "free_tier",
+    "source_url": "https://www.genmo.ai/pricing",
+    "fetched_at": "2026-10-12T13:41:44+08:00"
+   }
+  ],
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "v2b",
+  "diff_flag": {
+   "flags": [
+    "period_ambiguous_toggle"
+   ],
+   "needs_review": true,
+   "details": [
+    "Lite: period_ambiguous_toggle",
+    "Standard: period_ambiguous_toggle"
+   ],
+   "auto_approvable": false
+  },
+  "price_note": "價格來源：官網價格頁（https://www.genmo.ai/pricing），2026-10-12 擷取"
  },
  {
   "id": "rev",

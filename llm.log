@@ -251,3 +251,8 @@ LLM 結束： 達到 LLM_LIMIT=3 {"groq": {"model": "openai/gpt-oss-120b", "prim
 2 ok openai/gpt-oss-120b https://www.visme.co/pricing 2136
 3 ok openai/gpt-oss-120b https://deepnote.com/pricing 1544
 LLM 結束： 達到 LLM_LIMIT=3 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 3, "ok": 3, "tokens": 5362, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://www.greptile.com/pricing 1758
+2 ok openai/gpt-oss-120b https://www.rokoko.com/pricing 1663
+3 ok openai/gpt-oss-120b https://www.genmo.ai/pricing 1731
+LLM 結束： 達到 LLM_LIMIT=3 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 3, "ok": 3, "tokens": 5152, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}

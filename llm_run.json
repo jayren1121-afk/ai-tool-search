@@ -1,8 +1,9 @@
 {
- "started": "2026-10-13 17:15:20 +0800",
+ "started": "2026-10-14 08:59:31 +0800",
  "providers_order": [
   "groq",
-  "openrouter"
+  "openrouter",
+  "gemini"
  ],
  "skipped_no_key": [
   "cerebras",
@@ -15,12 +16,22 @@
    "down": null,
    "calls": 3,
    "ok": 3,
-   "tokens": 5362,
+   "tokens": 5152,
    "rl429": 0,
    "errors": 0
   },
   "openrouter": {
    "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+   "primary": false,
+   "down": null,
+   "calls": 0,
+   "ok": 0,
+   "tokens": 0,
+   "rl429": 0,
+   "errors": 0
+  },
+  "gemini": {
+   "model": "gemini:gemini-3.8-flash",
    "primary": false,
    "down": null,
    "calls": 0,
@@ -34,5 +45,5 @@
  "pages_done": 3,
  "upgraded": 0,
  "errors": 0,
- "finished": "2026-10-13 17:15:24 +0800"
+ "finished": "2026-10-14 08:59:35 +0800"
 }
