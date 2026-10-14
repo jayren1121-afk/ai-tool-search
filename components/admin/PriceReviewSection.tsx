@@ -95,13 +95,21 @@ export default function PriceReviewSection({ data }: { data: PriceReviewData }) 
   const done = (m: string) => { setMsg(m); router.refresh(); };
   return (
     <section className="mb-4 rounded-xl bg-white p-4 text-sm shadow-sm">
-      <h2 className="mb-2 font-semibold text-slate-900">價格（自動上線）</h2>
-      <p className="text-slate-600">每天自動抓官網價格，有價格和官網原文的都會直接上線。下面是最近上線的價格（新的在前）。請對照「官網原文」和來源網址，不對就按「拒絕」，網站就不顯示這筆；之後官網內容沒變也會維持拒絕。</p>
-      {data.counts && <p className="mt-1 text-slate-500">已上線 {data.counts.approved} 個工具；已拒絕 {data.counts.rejected} 筆{data.counts.pending ? `；舊的待審核 ${data.counts.pending} 筆（下次自動更新會上線）` : ""}（每個工具只列最新一筆）</p>}
-      <div className="mt-2 flex flex-wrap gap-2">{tab("all", "最近上線")}{tab("flagged", "有疑點的")}{tab("rejected", "已拒絕")}</div>
-      {data.error && <p className="mt-2 rounded-lg bg-amber-50 p-3 text-amber-800">{data.error}</p>}
-      {msg && <p className="mt-2 rounded-lg bg-slate-100 p-3 text-slate-800">{msg}</p>}
-      {!data.error && (shown.length === 0 ? <p className="mt-2 text-slate-500">這裡目前沒有資料。</p> : <ul className="mt-3 space-y-3">{shown.map((it) => <Row key={it.id} it={it} onDone={done} />)}</ul>)}
+      <details>
+        <summary className="cursor-pointer font-semibold text-slate-900 marker:text-slate-900">
+          價格（自動上線）
+          {data.counts && (
+            <span className="font-normal text-slate-500">
+              {" "}已上線 {data.counts.approved} 個工具；已拒絕 {data.counts.rejected} 筆
+            </span>
+          )}
+        </summary>
+        <p className="mt-2 text-slate-600">每天自動抓官網價格，有價格和官網原文的都會直接上線。下面是最近上線的價格（新的在前）。請對照「官網原文」和來源網址，不對就按「拒絕」，網站就不顯示這筆；之後官網內容沒變也會維持拒絕。</p>
+        <div className="mt-2 flex flex-wrap gap-2">{tab("all", "最近上線")}{tab("flagged", "有疑點的")}{tab("rejected", "已拒絕")}</div>
+        {data.error && <p className="mt-2 rounded-lg bg-amber-50 p-3 text-amber-800">{data.error}</p>}
+        {msg && <p className="mt-2 rounded-lg bg-slate-100 p-3 text-slate-800">{msg}</p>}
+        {!data.error && (shown.length === 0 ? <p className="mt-2 text-slate-500">這裡目前沒有資料。</p> : <ul className="mt-3 space-y-3">{shown.map((it) => <Row key={it.id} it={it} onDone={done} />)}</ul>)}
+      </details>
     </section>
   );
 }
