@@ -1,6 +1,6 @@
 # 價格資料每日更新（台灣時間每天 20:27 自動執行，也可手動按 Run workflow）
 # - 程式在 main 分支的 price-scraper/；進度與結果存到獨立的 price-data 分支（不會推到 main，不會觸發網站正式部署）
-# - 安全價格（Groq 主模型、沒有任何旗標）自動寫進網站資料庫並上線；其餘送到 /admin「價格審核」由你核准或拒絕
+# - 所有有真實價格（含來源網址、擷取日期、逐字原文）的結果都自動寫進網站資料庫並上線（含備援 AI、有疑點的）；不對的到 /admin「價格」區塊拒絕
 # - 金鑰放在 Settings > Secrets and variables > Actions：GROQ_API_KEY、OPENROUTER_API_KEY、SUPABASE_URL、SUPABASE_SERVICE_ROLE_KEY（選填：GEMINI_API_KEY、CEREBRAS_API_KEY、MISTRAL_API_KEY）
 name: 價格資料每日更新
 
@@ -97,7 +97,7 @@ jobs:
           BILLING_TOGGLE: ${{ vars.BILLING_TOGGLE }}
         run: bash price-scraper/run_actions.sh
 
-      - name: 安全價格自動上線＋其餘送後台審核
+      - name: 價格自動上線（全部有價格的結果）
         # 需要 GitHub Secrets：SUPABASE_URL、SUPABASE_SERVICE_ROLE_KEY（沒設定就自動略過，不算失敗）
         if: always()
         env:
