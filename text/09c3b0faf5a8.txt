@@ -453,6 +453,7 @@ Pricing
 Enterprise
 Integrations
 AI notepad vs notetaker
+AI meeting assistant
 For sales
 For product management
 MCP

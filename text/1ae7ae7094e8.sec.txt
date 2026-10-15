@@ -20,7 +20,7 @@ Basic forms
 Basic sites
 Notion Calendar
 Databases including subtasks, dependencies, custom properties and more
-Plus
+Plus*
 $10
 per member / month
 ---
@@ -40,7 +40,7 @@ per member / month
 ---
 For growing businesses to streamline teamwork.
 ---
-Enterprise
+Enterprise*
 Custom pricing
 ---
 Contact Sales
@@ -54,19 +54,19 @@ AI agents handle repetitive tasks autonomously, so your team doesn’t have to. 
 Workers
 Beta
 ---
-Watch video
-→
+* Plans may not be available for every workspace.
+---
 Plans and features
 Free
 $0 per seat/month
 Sign up
-Plus
+Plus*
 $10 per seat/month
 Get started
 Business
 $20 per seat/month
 Get started
-Enterprise
+Enterprise*
 Contact us→
 ---
 Notion Agent (chat, generate, autofill, translate)

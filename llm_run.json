@@ -1,5 +1,5 @@
 {
- "started": "2026-10-14 12:13:04 +0800",
+ "started": "2026-10-15 12:12:09 +0800",
  "providers_order": [
   "groq",
   "openrouter",
@@ -13,20 +13,20 @@
   "groq": {
    "model": "openai/gpt-oss-120b",
    "primary": true,
-   "down": "groq 每日額度用盡（429）：{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4cpekmnez7s57xjy0dnkkqv` service tier `on_demand` on tokens per ",
-   "calls": 75,
-   "ok": 75,
-   "tokens": 192929,
-   "rl429": 2,
+   "down": null,
+   "calls": 68,
+   "ok": 68,
+   "tokens": 160062,
+   "rl429": 0,
    "errors": 0
   },
   "openrouter": {
    "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
    "primary": false,
    "down": null,
-   "calls": 1,
-   "ok": 1,
-   "tokens": 7611,
+   "calls": 0,
+   "ok": 0,
+   "tokens": 0,
    "rl429": 0,
    "errors": 0
   },
@@ -41,9 +41,9 @@
    "errors": 0
   }
  },
- "stopped_reason": "剩下的只有「備援模型結果待 120b 重做」，但今天 Groq 已不可用",
- "pages_done": 76,
- "upgraded": 11,
+ "stopped_reason": "全部頁面都已處理完成",
+ "pages_done": 68,
+ "upgraded": 64,
  "errors": 0,
- "finished": "2026-10-14 12:50:50 +0800"
+ "finished": "2026-10-15 12:41:02 +0800"
 }

@@ -28,7 +28,7 @@ Basic forms
 Basic sites
 Notion Calendar
 Databases including subtasks, dependencies, custom properties and more
-Plus
+Plus*
 $10
 per member / month
 
@@ -67,7 +67,7 @@ Verify any page
 Private teamspaces
 Domain verification
 Premium connections
-Enterprise
+Enterprise*
 Custom pricing
 
 For organizations to operate with scalability, control, and security.
@@ -98,17 +98,20 @@ Nick Erdenberger
 GTM, OpenAI
 Watch video
 →
+
+* Plans may not be available for every workspace.
+
 Plans and features
 Free
 $0 per seat/month
 Sign up
-Plus
+Plus*
 $10 per seat/month
 Get started
 Business
 $20 per seat/month
 Get started
-Enterprise
+Enterprise*
 Contact us→
 Content
 Pages & blocks
@@ -242,6 +245,9 @@ Premium support
 Custom
 Customer success manager
 Custom
+
+* Plans may not be available for every workspace.
+
 Questions & answers
 
 How does Notion AI use my data?

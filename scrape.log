@@ -442,3 +442,21 @@ SCRAPE DONE
 0 15 scraped https://www.sudowrite.com/pricing 12.4
 舊版頁面還要重抓： 293 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+2 1 scraped https://workspace.google.com/pricing 8.4
+1 2 scraped https://www.notion.com/pricing 10.5
+0 3 scraped https://www.microsoft.com/microsoft-365/copilot/enterprise 11.9
+2 4 scraped https://www.usemotion.com/pricing 9.4
+1 5 scraped https://reclaim.ai/pricing 12.8
+0 6 scraped https://www.granola.ai/pricing 12.8
+2 7 scraped https://www.canva.com/pricing/ 6.8
+0 8 scraped https://www.photoroom.com/pricing 12.4
+2 9 scraped https://www.remove.bg/pricing 10.7
+1 10 scraped https://www.figma.com/pricing/ 19.5
+0 11 scraped https://uizard.io/pricing/ 10.3
+0 12 scraped https://pitch.com/pricing 6.7
+1 13 scraped https://www.beautiful.ai/pricing 16.6
+2 14 scraped https://magnific.ai/pricing 25.0
+0 15 scraped https://www.napkin.ai/pricing 13.8
+舊版頁面還要重抓： 278 個（每次最多 15 個）
+SCRAPE DONE

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 A perfect plan for every team — explore discounts 🚀
 Yearly - SAVE 20%
 Monthly
@@ -33,6 +34,64 @@ Enterprise
 For enterprise-grade support.
 $22
 per seat/month
+Contact us
+Unlimited AI Agents/seat
+i
+---
+Number of team members
+Annual cost per team member
+Hours saved
+45,900
+Time cost reclaimed
+$1,987,519
+Reclaim cost
+$22,500
+Annual time cost savings
+$1,965,019
+5.7 more productive hours/week
+2.3 fewer unnecessary meetings
+49% less time waste
+---
+Ready to reclaim your time?
+Sign up for free
+Contact sales
+Solutions
+---
+Company
+Contact Sales
+Contact Support
+=== 計費模式: 月繳 (monthly) ===
+A perfect plan for every team — explore discounts 🚀
+Yearly - SAVE 20%
+Monthly
+Lite
+For calendar basics.
+Free
+Free forever
+Get Started
+---
+Task recommendations
+i
+Starter
+For small teams.
+$12
+per seat/month
+Get Started
+10 AI Agents/seat
+i
+---
+i
+Most Popular
+Business
+For large teams.
+$18
+per seat/month
+Get Started
+100 AI Agents/seat
+i
+---
+For enterprise-grade support.
+Unavailable on monthly plans
 Contact us
 Unlimited AI Agents/seat
 i

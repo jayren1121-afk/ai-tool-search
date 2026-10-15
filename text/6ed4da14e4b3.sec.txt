@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 AI add-ons now come with 2x more credits on Professional, and 1.6x more on Organization and Enterprise.
 ---
 Log in
@@ -30,6 +31,108 @@ $12/mo
 Collab seat
 ---
 $3/mo
+---
++ 500 AI credits/mo
+---
+Billed annually
+---
+Full seat
+---
+$55/mo
+---
++ 3,500 AI credits/mo
+---
+Dev seat
+---
+$25/mo
+---
++ 500 AI credits/mo
+---
+Collab seat
+---
+$5/mo
+---
++ 500 AI credits/mo
+---
+Contact sales
+Enterprise
+---
+Billed annually
+---
+Full seat
+---
+$90/mo
+---
++ 4,250 AI credits/mo
+---
+Dev seat
+---
+$35/mo
+---
++ 500 AI credits/mo
+---
+Collab seat
+---
+$5/mo
+---
++ 500 AI credits/mo
+---
+Contact sales
+Why choose Enterprise?
+---
+AI credits
+---
+Purchase additional AI credits for your whole team to share—enable pay-as-you-go for flexibility and/or subscribe to save.
+---
+Contact sales
+Compare all features
+---
+What happens if I add seats mid-year on an annual plan?
+---
+You will continue to get monthly invoices for newly added seats unless you proactively add those seats to your annual subscription or remove the seats.
+---
+What are AI credits and how do they work?
+---
+3,000 credits/month on the Professional plan
+3,500 credits/month on the Organization plan
+4,250 credits/month on the Enterprise plan
+---
+All other seats (Collab, Dev, and View) and users on the Starter plan receive 500 credits/month.
+---
+If you need more credits, you can purchase additional AI credits on your plan. For more details, check out our Help Center article on how AI credits work.
+=== 計費模式: 月繳 (monthly) ===
+AI add-ons now come with 2x more credits on Professional, and 1.6x more on Organization and Enterprise.
+---
+Log in
+Contact sales
+Get started for free
+NEW
+---
+Starter
+Free
+---
+Free limited access to Figma products
+---
+UI kits and templates
+150 AI credits/day, up to 500 AI credits/mo
+Professional
+Monthly
+Annual
+Full seat
+---
+$20/mo
+---
++ 3,000 AI credits/mo
+---
+Dev seat
+---
+$15/mo
+---
++ 500 AI credits/mo
+---
+Collab seat
+---
+$5/mo
 ---
 + 500 AI credits/mo
 ---

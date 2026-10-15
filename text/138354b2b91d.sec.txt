@@ -2,14 +2,13 @@ Log in
 Contact sales
 Start creating
 ---
-Start for free or subscribe now to access more features.
----
+Enterprise
 Monthly
 Yearly
 Save up to 42%
 Pro
 ---
-Perfect for solopreneurs
+Sell more with professional visuals
 ---
 $12.99
 $7.50
@@ -20,7 +19,7 @@ Unlimited core tools
 ---
 Max
 ---
-Great for small businesses
+Win customers with video ads and high-res visuals
 ---
 $34.99
 $20.99
@@ -31,7 +30,7 @@ Unlimited core tools
 ---
 Ultra
 ---
-Best for growing brands
+Scale every sales channel with automated 4K visuals
 ---
 $99
 $82.50
@@ -39,32 +38,18 @@ Per month, billed yearly
 75,000 AI credits • 10,000 exports
 Get started
 ---
-Price tailored to your business
-Tailored credits
-Contact sales
-Everything in Ultra, plus:
----
-Dedicated onboarding and support
-Prices displayed in US Dollar (United States).
-Compare our plans
 Pro
-$7.50
 Per month
 , billed yearly
 Start free trial
 Max
-$20.99
 Per month
 , billed yearly
 Start free trial
 Ultra
-$82.50
 Per month
 , billed yearly
 Get started
----
-Custom
-Contact sales
 Credits & limits
 AI credits
 Pro:
@@ -73,27 +58,28 @@ Max:
 25,000/month
 Ultra:
 75,000/month
-Enterprise:
----
+Exports
 Pro:
 1,000/month
 Max:
 3,000/month
 Ultra:
 10,000/month
-Enterprise:
+Core tools
 ---
 Credit-intensive AI tools
 Numbers show the maximum generations possible using all your credits on a single feature.
 Video Generator
 ---
-Custom
+Up to 310 generations
 Tools that use AI credits
 Numbers show the maximum generations possible using all your credits on a single feature.
 Adjustable AI Shadows
 ---
+What are API/MCP credits and do I need them?
+---
 How do I cancel my Photoroom subscription or trial?
 ---
-Try API for free
+Start free trial
 Contact sales
 Tools

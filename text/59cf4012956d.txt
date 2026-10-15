@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You can manage your personal preferences, including your ‘Do not sell or share my personal information’ setting using the “Manage Preferences” button below. To learn more, visit the following link:
 Privacy Policy
 Manage Preferences
@@ -114,6 +115,463 @@ Enterprise
 For enterprise-grade support.
 $22
 per seat/month
+Contact us
+Unlimited AI Agents/seat
+i
+Focus Time
+i
+Habits
+i
+Buffer Time
+i
+Smart Meetings
+i
+Meeting Quality
+i
+Plus:
+Over 100 seats
+i
+12 week scheduling range (exc. Scheduling Links)
+i
+Unlimited Calendar Syncs
+i
+Unlimited Scheduling Links
+i
+Unlimited integrations + webhooks support
+i
+Task recommendations
+i
+Team OOO Calendar
+i
+Delegated Access (for EAs/admins)
+i
+SSO & SCIM user provisioning
+i
+Org-chart aware scheduling intelligence
+i
+Add-ons for teams
+Analytics-only seats
+Unblock barriers to work across the org with powerful, employee-friendly analytics.
+Talk to sales →
+Enterprise pilot
+Run a pilot program across a small team to evaluate a larger deployment.
+Talk to sales →
+Are you an AI agent? View our machine-readable pricing.
+See all features
+Calendar Controls
+Scheduling Range (exc. Scheduling Links)
+1 week
+8 weeks
+12 weeks
+12 weeks
+Google Calendar support
+Outlook Calendar support
+Connected Calendars
+2
+Unlimited
+Unlimited
+Unlimited
+Calendar Syncs (12 month scheduling range)
+1
+Unlimited
+Unlimited
+Unlimited
+Planner
+Universal priorities across calendar events
+No-Meeting Days
+Daily digests (conflict recommendation & agenda)
+Time Blocking Customization
+Default settings
+Full customization
+Full customization
+Full customization
+Custom Hours Settings
+Team OOO Calendar
+Delegated Access
+AI
+AI Agents
+5
+10
+100
+Unlimited
+AI Assistant (LLM chat)
+Limited
+Standard
+Expanded
+Unlimited
+AI Memories
+Limited
+Focus Time Agents
+Focus Time Agents
+Proactive Focus Time mode
+Reactive Focus Time mode
+Auto-decline meetings during Focus Time
+Focus Time team templates
+Focus Time company OKR
+Focus Time enterprise reports
+Habits Agents
+Habits Agents
+Habit templates
+Lunch Habit
+Habit time defense settings
+Buffer Time Agents
+Post-Meeting Buffer Scheduling
+Pre-Meeting Buffer Scheduling
+Integrated Pre/Post-Meeting Notes into Buffers
+Travel Time Buffers
+Airport Travel Time Buffers
+Smart Meeting Agents
+Smart Meetings (owned)
+Meeting conflict notifications
+Auto-rescheduling recommendations
+AI meeting agenda creation
+AI meeting follow-up email/message generation
+AI meeting transcript sync
+Meeting Quality Agents
+RSVP Reminder Agent
+Video Link Check Agent
+Attendee Availability Agent
+Room & Resource Decline Alert Agent
+Scheduling Links
+Scheduling Links
+1
+3
+Unlimited
+Unlimited
+High-priority links
+Flexible durations
+Booking pages / link groups
+Website & email embeds
+Max Bookings caps
+Email Reminders
+Team Scheduling Links
+Screening questions
+One-off Scheduling Links
+Round-robin links
+Redirect URLs
+Branding settings / remove Reclaim branding
+Webhooks support
+Tasks & PM Integrations
+Tasks time-blocking
+Tasks time tracking & timers
+Task recommendations from meetings
+Google Tasks integration
+Todoist integration
+Asana integration
+ClickUp integration
+Jira integration
+Linear integration
+Extensions & Platform
+ChatGPT integration
+Read only
+Claude/Claude Code MCP
+Read only
+Microsoft Copilot / Copilot Cowork MCP
+Read only
+Slack integration (+ Slack Status Sync)
+Zoom meetings & transcripts integration
+Google Meet auto-add
+Raycast extension
+Google Calendar & Gmail add-on
+Microsoft Teams support
+Analytics
+Weekly productivity reports
+Productivity stats / time tracking
+Team analytics stats
+Workforce Analytics (org-mapping)
+Workforce Analytics exports
+Baseline org performance review
+Benchmarks
+Admin / Security / Support
+Support tier
+Community
+Basic
+Priority
+Dedicated
+Max users across domain
+100
+100
+100
+Unlimited
+Account settings & templates
+User & role management
+Security reviews
+Company onboarding
+SSO & SCIM user provisioning
+Domain capture
+Domain Capture
+Discounts
+Student
+Discount
+50% Off
+
+50% discount for 12 months for students, educators, and faculty.
+‍
+
+Apply now
+Learn more
+Nonprofit Discount
+20% Off
+
+20% discount for 3 years for qualified nonprofits.
+
+Apply now
+Learn more
+Startup Discount
+20% Off
+
+20% discount for 3 years for qualified startups.
+
+Apply now
+Learn more
+Switching Providers Discount
+20% Off
+
+20% discount for 6 months when you switch from Clockwise, Motion, or Calendly.
+
+Apply now
+Learn more
+See the impact of AI time optimization
+ROI calculator
+Number of team members
+Annual cost per team member
+Hours saved
+45,900
+Time cost reclaimed
+$1,987,519
+Reclaim cost
+$22,500
+Annual time cost savings
+$1,965,019
+5.7 more productive hours/week
+2.3 fewer unnecessary meetings
+49% less time waste
+12.1% better capacity planning
+41.1% better prioritization
+4.1 hours/week saved managing time
+Book a demo
+FAQs
+Is Reclaim for individuals, teams, or entire companies?
+
+We designed Reclaim’s pricing and product experience to work fantastically for individuals, but Reclaim gets more and more powerful as you scale it out to your teams and company. When the whole company uses Reclaim to intelligently schedule their meetings and heads-down time, everyone’s calendars become more optimized and flexible, which unlocks increased time savings and productivity.
+
+Oftentimes, we see individuals or teams initially upgrade to use Reclaim across their calendars, and then advocate for upgrading the entire company.
+
+If you’re a team looking to roll Reclaim out, or if you have questions about how to advocate for upgrading your company, book time with us here.
+
+How does Reclaim's pricing work?
+
+The free Lite plan is available for any single user at no cost. Our paid plans are tiered by team size, though you can upgrade from Starter to Business to unlock additional features for your account. We offer a 29% discount for annual billing vs. monthly.
+
+What forms of payment do you accept?
+
+We accept all major credit cards. Contact us at hello@reclaim.ai to discuss additional payment methods. Some payment methods may require a minimum purchase.
+
+Can I get a demo?
+
+Absolutely! We hold demo webinars every other week. Join us for our next one! If you’d like a demo for your entire team, send us a note through our contact form.
+
+Who do I contact to complete a security assessment?
+
+Reach out through our contact form, or send us a note at security@reclaim.ai, and our security team will happily assist with all of your security requirements.
+
+Ready to reclaim your time?
+Sign up for free
+Contact sales
+Solutions
+Product Teams
+Engineering Teams
+Sales Teams
+Marketing Teams
+HR Teams
+Finance Teams
+EAs & Admin Teams
+Pricing
+Pricing & plans
+Student Discount
+Nonprofit Discount
+Startup Discount
+Competitor Discount
+Products
+AI Focus Time
+AI Habits
+AI Tasks
+AI Smart Meetings
+AI Scheduling Links
+AI Calendar Sync
+AI Buffer Time
+AI Planner
+AI Assistant
+AI Time Tracking
+Workforce Analytics
+Working Hours
+Team OOO Calendar
+AI Agent Library
+Enterprise
+Focus Time Initiative
+Calendar Fragmentation Initiative
+Meeting Agenda Initiative
+Buffer Time Initiative
+Slack Notifications Initiative
+No-meeting Day Initiative
+Compare
+Reclaim vs. Clockwise
+Reclaim vs. Motion
+Reclaim vs. Calendly
+Reclaim vs. Google Calendar
+Reclaim vs. Outlook Calendar
+Reclaim vs. Microsoft Viva Insights
+Reclaim vs. Claude Cowork
+Integrations
+Slack
+Zoom
+Google Tasks
+Todoist
+Asana
+Jira
+ClickUp
+Linear
+Raycast
+Company
+Contact Sales
+Contact Support
+About
+Careers
+Customers
+Managed Partner program
+Affiliate program
+Resources
+Blog
+Glossary
+Webinars & demos
+Help docs
+Pomodoro Timer
+Meeting Cost Calculator
+Security
+Terms of use
+Privacy Policy
+Responsible Disclosure Policy
+Change log
+Status
+Cookie preferences
+© 2026 Reclaim.ai, Inc.
+
+=== 計費模式: 月繳 (monthly) ===
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You can manage your personal preferences, including your ‘Do not sell or share my personal information’ setting using the “Manage Preferences” button below. To learn more, visit the following link:
+Privacy Policy
+Manage Preferences
+Save 30% today-only on Starter & Business plans (special new user offer) →
+Product
+Solutions
+Resources
+Enterprise
+Pricing
+Log In
+Book a Demo
+Get Started
+Transparent pricing, for you
+& your team
+A perfect plan for every team — explore discounts 🚀
+Yearly - SAVE 20%
+Monthly
+Lite
+For calendar basics.
+Free
+Free forever
+Get Started
+5 AI Agents
+i
+Focus Time
+i
+Habits
+i
+Buffer Time
+i
+Smart Meetings
+i
+Meeting Quality
+i
+Plus:
+1 user team
+i
+1 week scheduling range (exc. Scheduling Links)
+i
+1 Calendar Sync
+i
+1 Scheduling Link
+i
+Limited integrations
+i
+Task recommendations
+i
+Starter
+For small teams.
+$12
+per seat/month
+Get Started
+10 AI Agents/seat
+i
+Focus Time
+i
+Habits
+i
+Buffer Time
+i
+Smart Meetings
+i
+Meeting Quality
+i
+Plus:
+Up to 10 seats
+i
+8 week scheduling range (exc. Scheduling Links)
+i
+3 Calendar Syncs
+i
+3 Scheduling Links
+i
+Unlimited integrations
+i
+Task recommendations
+i
+Most Popular
+Business
+For large teams.
+$18
+per seat/month
+Get Started
+100 AI Agents/seat
+i
+Focus Time
+i
+Habits
+i
+Buffer Time
+i
+Smart Meetings
+i
+Meeting Quality
+i
+Plus:
+Up to 100 seats
+i
+12 week scheduling range (exc. Scheduling Links)
+i
+Unlimited Calendar Syncs
+i
+Unlimited Scheduling Links
+i
+Unlimited integrations + webhooks support
+i
+Task recommendations
+i
+Team OOO Calendar
+i
+Delegated Access (for EAs/admins)
+i
+Enterprise
+For enterprise-grade support.
+Unavailable on monthly plans
 Contact us
 Unlimited AI Agents/seat
 i

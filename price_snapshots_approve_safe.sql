@@ -1,11 +1,13 @@
 -- 核准「沒有任何旗標」的快照（reviewed=true）。預設不要直接執行：請先看 price_snapshots_review_list.md 並抽查幾筆。
 -- 條件：v2 提示詞 + gpt-oss-120b、無價格變動>50%、無方案名稱差異、無促銷價、非共用價格頁、非美元以外幣別、所有價格數字都在證據原文內。
 begin;
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'granola' and fetched_at = '2026-10-12T13:28:03+08:00'::timestamptz;  -- Granola
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'remove-bg' and fetched_at = '2026-10-12T13:28:10+08:00'::timestamptz;  -- remove.bg
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'pitch' and fetched_at = '2026-10-12T13:28:31+08:00'::timestamptz;  -- Pitch
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'grammarly' and fetched_at = '2026-10-14T12:12:30+08:00'::timestamptz;  -- Grammarly
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'granola' and fetched_at = '2026-10-15T12:11:14+08:00'::timestamptz;  -- Granola
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'remove-bg' and fetched_at = '2026-10-15T12:11:29+08:00'::timestamptz;  -- remove.bg
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'pitch' and fetched_at = '2026-10-15T12:11:49+08:00'::timestamptz;  -- Pitch
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'n8n' and fetched_at = '2026-10-12T13:28:40+08:00'::timestamptz;  -- n8n
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dify' and fetched_at = '2026-10-12T13:28:47+08:00'::timestamptz;  -- Dify
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'deepl' and fetched_at = '2026-10-12T13:28:52+08:00'::timestamptz;  -- DeepL
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hedra' and fetched_at = '2026-10-12T13:29:33+08:00'::timestamptz;  -- Hedra
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'llamaindex' and fetched_at = '2026-10-12T13:29:41+08:00'::timestamptz;  -- LlamaIndex
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'plus-ai' and fetched_at = '2026-10-12T13:30:02+08:00'::timestamptz;  -- Plus AI
@@ -20,7 +22,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'visily' and fetched_at = '2026-10-12T13:36:14+08:00'::timestamptz;  -- Visily
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'final-round' and fetched_at = '2026-10-12T13:36:40+08:00'::timestamptz;  -- Final Round AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'botpress' and fetched_at = '2026-10-12T13:36:56+08:00'::timestamptz;  -- Botpress
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'ramp' and fetched_at = '2026-10-12T13:37:31+08:00'::timestamptz;  -- Ramp
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'recraft' and fetched_at = '2026-10-12T13:37:46+08:00'::timestamptz;  -- Recraft
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'zed' and fetched_at = '2026-10-12T13:37:52+08:00'::timestamptz;  -- Zed
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'heidi' and fetched_at = '2026-10-12T13:38:24+08:00'::timestamptz;  -- Heidi Health
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cleo' and fetched_at = '2026-10-12T13:38:33+08:00'::timestamptz;  -- Cleo
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lm-studio' and fetched_at = '2026-10-12T13:38:40+08:00'::timestamptz;  -- LM Studio
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'crisp' and fetched_at = '2026-10-12T13:39:36+08:00'::timestamptz;  -- Crisp
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'logoai' and fetched_at = '2026-10-12T13:40:24+08:00'::timestamptz;  -- LogoAI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'quadratic' and fetched_at = '2026-10-12T13:40:54+08:00'::timestamptz;  -- Quadratic
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'autogpt' and fetched_at = '2026-10-12T13:41:24+08:00'::timestamptz;  -- AutoGPT
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'power-automate' and fetched_at = '2026-10-12T13:25:51+08:00'::timestamptz;  -- Power Automate

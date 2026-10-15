@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Unlimited included with Premium+, Pro, and Business. Draft and Final in High quality, 2K and 4K. Max quality uses credits.
 ---
 Teams
@@ -87,15 +88,105 @@ $14.50/month
 Get Premium
 ---
 Premium+
+=== 計費模式: 月繳 (monthly) ===
+Unlimited included with Premium+, Pro, and Business. Draft and Final in High quality, 2K and 4K. Max quality uses credits.
 ---
-$33.75/month
-600,000/year
+Teams
+Monthly
+Annual
+Save 25% with annual
+Premium
+---
+For individuals exploring AI tools and stock content
+---
+$20
+$20
+/month
+billed monthly
+---
+20K credits/month
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Best value
+---
+For creatives who need unlimited generations and full AI access
+---
+$45
+$45
+/month
+billed monthly
+---
+45K credits/month
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Nano Banana 2
+PER MONTH
+Kling 2.5
+PER MONTH
+Magnific One
+---
+Expert choice
+---
+For professionals scaling content production
+---
+$110
+$110
+/month
+billed monthly
+---
+112.5K credits
+/month
+Nano Banana 2 (2K)
+300K credits
+/month
+Nano Banana 2 (2K) + Nano Banana Pro
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Nano Banana 2
+PER MONTH
+Kling 2.5
+PER MONTH
+Magnific One
+---
+Compare plans: AI video, image, and audio plus stock
+Monthly
+Annual
+---
+Save 25% with annual
+---
+AI video
+---
+Premium
+---
+$20/month
+20,000/month
+Get Premium
+---
+Premium+
+---
+$45/month
+45,000/month
 Get Premium+
 ---
 Pro Starter
 ---
-$82.50/month
-1,500,000/year
+$110/month
+112,500/month
 Get Pro Starter
 ---
 140 credits/5s
@@ -107,80 +198,296 @@ Get Pro Starter
 800 credits/4s
 ---
 400 credits/2s
+=== 計費模式: 年繳 (yearly) ===
+Unlimited included with Premium+, Pro, and Business. Draft and Final in High quality, 2K and 4K. Max quality uses credits.
 ---
-450 credits/5s
+Teams
+Monthly
+Annual
+Save 25% with annual
+Premium
 ---
-1,120 credits/4s
+For individuals exploring AI tools and stock content
 ---
-2,080 credits/4s
+$20
+$14.50
+/month
+billed annually
 ---
-940 credits/4s
+240K credits/year
 ---
-720 credits/3s
+Get Premium
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
 ---
-680 credits/2s
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
 ---
-150 credits/6s
+Save credits on 30+ models
 ---
-200 credits/5s
+Best value
 ---
-5,600 credits/4s
+For creatives who need unlimited generations and full AI access
 ---
-180 credits/image
+$45
+$33.75
+/month
+billed annually
 ---
-250 credits/image
+600K credits/year
 ---
-600 credits/image
+Get Premium+
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
 ---
-1,000 credits/image
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
 ---
-75 credits/image
+Save credits on 30+ models
 ---
-75 credits/image
+Expert choice
 ---
-150 credits/image
+For professionals scaling content production
 ---
-75 credits/image
+$110
+$82.50
+/month
+billed annually
 ---
-150 credits/image
+1.5M credits
+/year
+Nano Banana 2 (2K)
+4M credits
+/year
+Nano Banana 2 (2K) + Nano Banana Pro
 ---
-60 credits/image
+Get Pro Starter
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
 ---
-90 credits/2K image
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
 ---
-180 credits/image
+Save credits on 30+ models
 ---
-70 credits/image
+Compare plans: AI video, image, and audio plus stock
+Monthly
+Annual
 ---
-50 credits/image
+Save 25% with annual
 ---
-60 credits/image
+AI video
 ---
-130 credits/image
+Premium
 ---
-44 credits/image
+$14.50/month
+240,000/year
+Get Premium
 ---
-160 credits/song
+Premium+
+=== 計費模式: 年繳 (yearly) #2 ===
+Unlimited included with Premium+, Pro, and Business. Draft and Final in High quality, 2K and 4K. Max quality uses credits.
 ---
-600 credits/30s
+Teams
+Monthly
+Annual
+Save 25% with annual
+Premium
 ---
-15 credits/3s
+For individuals exploring AI tools and stock content
 ---
-3,000 credits/character
+$20
+$14.50
+/month
+billed annually
 ---
-See all pricing & credits FAQs
-Trusted by the companies you trust
+240K credits/year
 ---
-Find everything you need to know about pricing, credits, AI models, and more. See all FAQs
+Get Premium
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
 ---
-How do credits work?
-Do downloading limits apply to the designs I create?
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
 ---
-What does “no attribution” mean?
-What’s the difference between Premium stock content and Free stock content?
-How many generations do I have per tool or microtool?
-How can I purchase extra credits?
-Can I use AI-generated images for commercial purposes?
+Save credits on 30+ models
 ---
-How can I purchase extra credits?
-please contact us
+Best value
+---
+For creatives who need unlimited generations and full AI access
+---
+$45
+$33.75
+/month
+billed annually
+---
+600K credits/year
+---
+Get Premium+
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Expert choice
+---
+For professionals scaling content production
+---
+$280
+$210
+/month
+billed annually
+---
+1.5M credits
+/year
+Nano Banana 2 (2K)
+4M credits
+/year
+Nano Banana 2 (2K) + Nano Banana Pro
+---
+Get Pro
+Credits valid for 1 year, no monthly resets
+Access to image, video, and audio models
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Compare plans: AI video, image, and audio plus stock
+Monthly
+Annual
+---
+Save 25% with annual
+---
+AI video
+---
+Premium
+---
+$14.50/month
+240,000/year
+Get Premium
+---
+Premium+
+---
+$33.75/month
+=== 計費模式: 月繳 (monthly) #2 ===
+Unlimited included with Premium+, Pro, and Business. Draft and Final in High quality, 2K and 4K. Max quality uses credits.
+---
+Teams
+Monthly
+Annual
+Save 25% with annual
+Premium
+---
+For individuals exploring AI tools and stock content
+---
+$20
+$20
+/month
+billed monthly
+---
+20K credits/month
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Best value
+---
+For creatives who need unlimited generations and full AI access
+---
+$45
+$45
+/month
+billed monthly
+---
+45K credits/month
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Nano Banana 2
+PER MONTH
+Kling 2.5
+PER MONTH
+Magnific One
+---
+Expert choice
+---
+For professionals scaling content production
+---
+$280
+$280
+/month
+billed monthly
+---
+112.5K credits
+/month
+Nano Banana 2 (2K)
+300K credits
+/month
+Nano Banana 2 (2K) + Nano Banana Pro
+---
+250M+ photos, videos, vectors & PSDs
+Top up credits anytime
+Early access to AI features
+---
+Save credits on 30+ models
+---
+Nano Banana 2
+PER MONTH
+Kling 2.5
+PER MONTH
+Magnific One
+---
+Nano Banana Pro
+PER MONTH
+---
+Compare plans: AI video, image, and audio plus stock
+Monthly
+Annual
+---
+Save 25% with annual
+---
+AI video
+---
+Premium
+---
+$20/month
+20,000/month
+Get Premium
+---
+Premium+
+---
+$45/month
+45,000/month
+Get Premium+
+---
+Pro
+---
+$280/month
+300,000/month
+Get Pro
+---
+140 credits/5s
+---
+1,760 credits/4s
+---
+4,400 credits/4s
+---
+800 credits/4s

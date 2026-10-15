@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Book a demo
 Try it free
 Try it free
@@ -26,6 +27,63 @@ Switch themes with one click
 Pre-set themes library
 Teams
 $40
+/MO (INCLUDES 3 USERS)
+Billed monthly
+Billed annually
+For collaborators working on brand aligned decks with shared asset libraries.
+Try it free
+Try it free
+Everything in Pro, plus…
+---
+Custom
+Contact sales for a custom demo & pricing
+For organizations scaling presentation creation with security and control.
+---
+Learn more
+Need to create a single presentation?
+Our monthly option makes one-time projects a breeze. Cancel anytime.
+Everything in Pro plan (billed monthly)
+$45
+For ad hoc projects
+Get started
+Get started
+---
+How much does Beautiful.ai cost?
+How much does Beautiful.ai cost per user for a small team?
+Which presentation software is the best value for a small team?
+What's included in the Pro plan?
+Does Beautiful.ai offer a free trial?
+How does the 14-day trial work?
+How are Classic Slides different from Smart Slides?
+=== 計費模式: 月繳 (monthly) ===
+Book a demo
+Try it free
+Try it free
+Log in
+Log in
+Try it free for 14 days
+---
+Start a free trial today. Discover professional presentations made in minutes, not hours.
+---
+‍
+---
+Pro is $14.50 per month for individuals, billed annually. Teams of 2 to 20 pay $40 per user per month billed annually, or $50 billed monthly. Every seat includes unlimited AI content generation, over 300 Smart Slide layouts, and PowerPoint 
+---
+Pro
+INDIVIDUALS
+$14.50
+/MO
+Billed annually
+For individuals who need to create professional presentations that impress.
+Try it free
+Try it free
+Features for AI generated presentations
+---
+Set colors, fonts, logos, icons, footers, etc.
+Switch themes with one click
+Pre-set themes library
+Teams
+$50
 /MO (INCLUDES 3 USERS)
 Billed monthly
 Billed annually
