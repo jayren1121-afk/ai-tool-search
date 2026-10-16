@@ -1,76 +1,216 @@
-Monthly
+=== 計費模式: 預設畫面 (default) ===
+Pricing
 Yearly
+20% off
+Hobby
+$32
+$32
+/month
+billed yearly
+Save $96 yearly
 ---
-20% off yearly plans
+The ideal entry point to Chatbase.
 ---
-40
-per month
+700 message credits/month
 Start 7-day trial
 Access to advanced models
-700 message credits/month
-2 members
 ---
-150
-per month
-Start 7-day trial
-Everything in Hobby +
+Basic Integrations
+Basic analytics
+Allow file attachments in chat
+Standard
+$120
+$120
+/month
+billed yearly
+Save $360 yearly
+---
+For small teams launching their first agent.
+---
 4,000 message credits/month
-3 members
----
-500
-per month
 Start 7-day trial
-Everything in Standard +
-15,000 message credits/month
-5 members
 ---
-Fine-tune your plan with powerful add-ons
+Voice
+API access
+Pro
+Popular
+$400
+$400
+/month
+billed yearly
+Save $1,200 yearly
+---
+For teams with a growing customer base.
+---
+15,000 message credits/month
+Start 7-day trial
+---
+Custom
+Custom pricing
+---
+Get more out of your plans
 Auto recharge credits
 ---
 When your credits fall below the threshold you set, we'll automatically add credits that don't expire to your account, ensuring uninterrupted service.
 ---
 $40
 per 1000 message credits
-Get Add-on
+Get add-on
 Extra agents
 ---
-Add extra agents to your workspace.
+Add extra AI agents to your workspace.
 ---
-$25
-per AI agent / month
-Get Add-on
+$300
+per AI agent /year
+Get add-on
 Remove 'Powered By Chatbase'
 ---
 Remove the Chatbase branding from your deployed agents.
 ---
-$99
-per month
-Get Add-on
-Compare
-Compare all our plans
-Monthly
+$1188
+/year
+Get add-on
+Compare plans
 Yearly
+20% off
+---
 Hobby
+$32
+$32
+/month
+billed yearly
 ---
-40
-per month
-Subscribe
+Standard
+$120
+$120
+/month
+billed yearly
 ---
-150
-per month
-Subscribe
+Pro
+Popular
+$400
+$400
+/month
+billed yearly
 ---
-500
-per month
-Subscribe
 Configuration
-Message credits (monthly)
-Test credits (monthly)
-Agents
+Message credits (monthly)	700	4,000	15,000
+Test credits (monthly)	200	500	1,000
+Agents	1	1	1
 ---
-Get answers to the most commonly asked questions
+Which plan is right for my company?
 How do message credits work?
 When are my message credits renewed?
 How do auto-recharge message credits work?
 What is the difference between subscription credits and auto-recharge credits?
 How many users can use my agent?
+---
+Students guided per year
+=== 計費模式: 切換後 (toggled) ===
+Pricing
+Yearly
+20% off
+Hobby
+$40
+$40
+/month
+billed yearly
+Save $96 yearly
+---
+The ideal entry point to Chatbase.
+---
+700 message credits/month
+Start 7-day trial
+Access to advanced models
+---
+Basic Integrations
+Basic analytics
+Allow file attachments in chat
+Standard
+$150
+$150
+/month
+billed yearly
+Save $360 yearly
+---
+For small teams launching their first agent.
+---
+4,000 message credits/month
+Start 7-day trial
+---
+Voice
+API access
+Pro
+Popular
+$500
+$500
+/month
+billed yearly
+Save $1,200 yearly
+---
+For teams with a growing customer base.
+---
+15,000 message credits/month
+Start 7-day trial
+---
+Custom
+Custom pricing
+---
+Get more out of your plans
+Auto recharge credits
+---
+When your credits fall below the threshold you set, we'll automatically add credits that don't expire to your account, ensuring uninterrupted service.
+---
+$40
+per 1000 message credits
+Get add-on
+Extra agents
+---
+Add extra AI agents to your workspace.
+---
+$25
+per AI agent /month
+Get add-on
+Remove 'Powered By Chatbase'
+---
+Remove the Chatbase branding from your deployed agents.
+---
+$99
+/month
+Get add-on
+Compare plans
+Yearly
+20% off
+---
+Hobby
+$40
+$40
+/month
+billed yearly
+---
+Standard
+$150
+$150
+/month
+billed yearly
+---
+Pro
+Popular
+$500
+$500
+/month
+billed yearly
+---
+Configuration
+Message credits (monthly)	700	4,000	15,000
+Test credits (monthly)	200	500	1,000
+Agents	1	1	1
+---
+Which plan is right for my company?
+How do message credits work?
+When are my message credits renewed?
+How do auto-recharge message credits work?
+What is the difference between subscription credits and auto-recharge credits?
+How many users can use my agent?
+---
+Students guided per year

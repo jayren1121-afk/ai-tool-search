@@ -6,7 +6,7 @@ Docs
 Community
 Enterprise
 Pricing
-207,024
+207,530
 Sign in
 Get Started
 
@@ -132,7 +132,7 @@ Community Edition
 
 A standard, self-hosted version of n8n is available on GitHub.
 
-207,024
+207,530
 View docs
 
 AI agents and workflows for technical teams at

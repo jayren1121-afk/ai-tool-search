@@ -1,5 +1,6 @@
+=== 計費模式: 預設畫面 (default) ===
 Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
-02d : 14h : 37m : 12s
+02d : 14h : 37m : 11s
 Platform
 Features
 Use Cases
@@ -164,8 +165,13 @@ API
 API
 AI Dubbing API
 Video Translation API
-SOC 2 Type II Certified
-Trust Center
+Localization API
+Voice cloning API
+Lip-sync API
+Text to speech API
+Speech to text API
+Transcription API
+Subtitle API
 Company
 Customers
 Awards
@@ -176,6 +182,486 @@ Blog
 Enterprise
 Book a Demo
 Changelog
+SOC 2 Type II Certified
+Trust Center
+Use Cases
+Learning & Development
+Localization Agencies
+Video editing
+Marketing
+Education videos
+YouTube Multi-Language audio
+Content creation & distribution
+Explainers
+Different Types of Kids' Content
+Game Development
+Sales Videos
+Religious organizations
+Roles
+EdTech
+Marketers
+Content Creators
+Podcasters and interviewers
+Businesses
+L&D and Human Resources
+Gaming industry
+ECOM and Sales
+Film dubbing
+Free tools
+Free Subtitle Generator
+Free AI Dubbing
+Free Subtitle Translator
+Free Video Transcription
+Marketing Assets Translator
+Free Book Translator
+Tools
+Transcribe YouTube video
+Video translator
+YouTube Video Translator
+Transcription
+Video to text
+Add subtitles
+Audio Translator
+Transcript for podcast
+Text-to-speech
+Convert Audio to Text
+Add Subtitles to MP4
+Add SRT to MP4
+Add Text to Video
+Subtitle Generator
+Subtitle Translator
+Lip Sync
+See all
+Join our AI experts  community 
+
+Meet and learn from creators & companies who share how they use AI to create better content at lightning speed
+
+Join
+© 2026 Rask AI. All rights reserved.
+Part of Brask Inc. – a global AI content company.
+8 GREEN, STE A, Dover, Kent, DE, 19901, US
+Hey AI, learn more about us
+Privacy policy
+Terms of Service
+info@rask.ai
+
+=== 計費模式: 月繳 (monthly) ===
+Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
+02d : 14h : 37m : 10s
+Platform
+Features
+Use Cases
+Pricing
+Enterprise
+Resources
+En
+Log in
+Book a demo
+Try it free
+Pricing
+Plans that scale with your video output
+Every plan includes video translation into any language, emotion-preserving voice cloning, and free, easy-to-use controls.
+Monthly
+Annual
+Free trial
+For trying Rask risk-free. No credit card required
+$
+0
+3 minutes included
+Upload a video and localize it instantly
+Clone the speaker's voice in 32 languages
+Fine-tune results in the built-in editor
+Try for free
+Creator
+For trying Rask on smaller projects
+$
+39
+/mo
+billed monthly
+25 minutes per month included
+Zero-setup onboarding
+Translate single video into a few languages
+Upgrade when localization becomes regular
+Get started
+Creator Pro
+For repeat video publishing
+$
+99
+/mo
+billed monthly
+100 minutes per month included
+Control accuracy of translation and speech
+Preserve speaker identity with lip-sync
+Built for recurring projects with a small team
+Get started
+Business
+For teams with a growing video library
+$
+249
+/mo
+billed monthly
+250 minutes per month included
+Review and manage projects with your team
+Keep brand and terminology consistent
+Upload and translate batches of video
+Get started
+Enterprise
+For global scale requiring trust and predictability
+Custom
+Custom minutes per month
+Security and compliance readiness
+Production Reliability + SLA
+Custom integrations + API
+Managed quality assurance
+Contact us
+Compare what changes when you scale
+Choose the plan that matches how often you publish.
+What changes
+Billed Annually
+Free trial
+$0
+/mo
+Creator
+$39
+/mo
+Creator Pro
+$99
+/mo
+Business
+$249
+/mo
+Enterprise
+Custom
+Included localization minutes
+3
+25 / mo
+100 / mo
+250 / mo
+Custom
+Saved custom voices
+3
+10 shared team voices
+Custom voice library
+Multi-speaker lip-sync
+Included
+Included
+Included
+Script, subtitle and voice controls
+Included
+Included
+Included
+Glossary and terminology
+Personal glossary
+Shared brand glossary
+Managed terminology workflow
+Multi-language workflow
+Multi-video × multi-language batch
+Custom batch pipelines
+Review workflow
+Reviewer roles and approval
+Managed QA / SME approval
+Team workspace
+Up to 3 members
+Up to 5 members + guest reviewers
+Custom roles
+Translation prompting
+Included
+See all features
+OVER 4,000,000 HAPPY USERS
+FAQ
+What does one minute mean?
+How to choose the right pricing plan?
+What should I do if 500 minutes per month are insufficient for my needs?
+Can I use the remaining minutes from the current month of my subscription in the following months?
+Is it a one-time payment or a recurring payment?
+Can I change my plan?
+Can I cancel my subscription anytime?
+What is your refund policy?
+What payment methods do you accept?
+Can I include company information on my invoice?
+How do you ensure the security of my payment information?
+How many languages do you currently support?
+Is it possible to add subtitles or captions to the dubbed video?
+Are there any limitations on the duration and size of uploaded videos?
+How can you contact us?
+Product
+Pricing
+Transcription and translation control
+Timestamps control
+VoiceCloning
+Speakers control
+Multispeakers
+Ai-rewriter
+API
+API
+AI Dubbing API
+Video Translation API
+Localization API
+Voice cloning API
+Lip-sync API
+Text to speech API
+Speech to text API
+Transcription API
+Subtitle API
+Company
+Customers
+Awards
+Compliance
+Resources
+Help Center
+Blog
+Enterprise
+Book a Demo
+Changelog
+SOC 2 Type II Certified
+Trust Center
+Use Cases
+Learning & Development
+Localization Agencies
+Video editing
+Marketing
+Education videos
+YouTube Multi-Language audio
+Content creation & distribution
+Explainers
+Different Types of Kids' Content
+Game Development
+Sales Videos
+Religious organizations
+Roles
+EdTech
+Marketers
+Content Creators
+Podcasters and interviewers
+Businesses
+L&D and Human Resources
+Gaming industry
+ECOM and Sales
+Film dubbing
+Free tools
+Free Subtitle Generator
+Free AI Dubbing
+Free Subtitle Translator
+Free Video Transcription
+Marketing Assets Translator
+Free Book Translator
+Tools
+Transcribe YouTube video
+Video translator
+YouTube Video Translator
+Transcription
+Video to text
+Add subtitles
+Audio Translator
+Transcript for podcast
+Text-to-speech
+Convert Audio to Text
+Add Subtitles to MP4
+Add SRT to MP4
+Add Text to Video
+Subtitle Generator
+Subtitle Translator
+Lip Sync
+See all
+Join our AI experts  community 
+
+Meet and learn from creators & companies who share how they use AI to create better content at lightning speed
+
+Join
+© 2026 Rask AI. All rights reserved.
+Part of Brask Inc. – a global AI content company.
+8 GREEN, STE A, Dover, Kent, DE, 19901, US
+Hey AI, learn more about us
+Privacy policy
+Terms of Service
+info@rask.ai
+
+=== 計費模式: 年繳 (yearly) ===
+Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
+02d : 14h : 37m : 09s
+Platform
+Features
+Use Cases
+Pricing
+Enterprise
+Resources
+En
+Log in
+Book a demo
+Try it free
+Pricing
+Plans that scale with your video output
+Every plan includes video translation into any language, emotion-preserving voice cloning, and free, easy-to-use controls.
+Monthly
+Annual
+YEARLY PLANS ONLY
+No minutes lost at month end
+Buy additional minutes anytime
+Unlimited re-editing and redubbing
+Free trial
+For trying Rask risk-free. No credit card required
+$
+0
+3 minutes included
+Upload a video and localize it instantly
+Clone the speaker's voice in 32 languages
+Fine-tune results in the built-in editor
+Try for free
+Save $139/year (30% off)
+Creator
+For trying Rask on smaller projects
+$39
+$
+28
+/mo
+billed $329 yearly
+300 minutes included
+Zero-setup onboarding
+Translate single video into a few languages
+Upgrade when localization becomes regular
+Get started
+Save $389/year (33% off)
+Creator Pro
+For repeat video publishing
+$99
+$
+67
+/mo
+billed $799 yearly
+1.200 minutes included
+Control accuracy of translation and speech
+Preserve speaker identity with lip-sync
+Built for recurring projects with a small team
+Get started
+Save $989/year (33% off)
+Business
+For teams with a growing video library
+$249
+$
+167
+/mo
+billed $1.999 yearly
+3.000 minutes included
+Review and manage projects with your team
+Keep brand and terminology consistent
+Upload and translate batches of video
+Get started
+Enterprise
+For global scale requiring trust and predictability
+Custom
+Custom minutes
+Security and compliance readiness
+Production Reliability + SLA
+Custom integrations + API
+Managed quality assurance
+Contact us
+Compare what changes when you scale
+Choose the plan that matches how often you publish.
+What changes
+Billed Annually
+Free trial
+$0
+/mo
+Creator
+$28
+/mo
+Creator Pro
+$67
+/mo
+Business
+$167
+/mo
+Enterprise
+Custom
+Included localization minutes
+3
+300 / year
+1.200 / year
+3.000 / year
+Custom
+Extra minutes
+Upgrade to Creator Pro
+Upgrade to Creator Pro
+$3 / extra minute
+$3 / extra minute
+Custom
+Saved custom voices
+3
+10 shared team voices
+Custom voice library
+Multi-speaker lip-sync
+Included
+Included
+Included
+Script, subtitle and voice controls
+Included
+Included
+Included
+Glossary and terminology
+Personal glossary
+Shared brand glossary
+Managed terminology workflow
+Multi-language workflow
+Multi-video × multi-language batch
+Custom batch pipelines
+Review workflow
+Reviewer roles and approval
+Managed QA / SME approval
+Team workspace
+Up to 3 members
+Up to 5 members + guest reviewers
+Custom roles
+Translation prompting
+Included
+See all features
+OVER 4,000,000 HAPPY USERS
+FAQ
+What does one minute mean?
+How to choose the right pricing plan?
+What should I do if 500 minutes per month are insufficient for my needs?
+Can I use the remaining minutes from the current month of my subscription in the following months?
+Is it a one-time payment or a recurring payment?
+Can I change my plan?
+Can I cancel my subscription anytime?
+What is your refund policy?
+What payment methods do you accept?
+Can I include company information on my invoice?
+How do you ensure the security of my payment information?
+How many languages do you currently support?
+Is it possible to add subtitles or captions to the dubbed video?
+Are there any limitations on the duration and size of uploaded videos?
+How can you contact us?
+Product
+Pricing
+Transcription and translation control
+Timestamps control
+VoiceCloning
+Speakers control
+Multispeakers
+Ai-rewriter
+API
+API
+AI Dubbing API
+Video Translation API
+Localization API
+Voice cloning API
+Lip-sync API
+Text to speech API
+Speech to text API
+Transcription API
+Subtitle API
+Company
+Customers
+Awards
+Compliance
+Resources
+Help Center
+Blog
+Enterprise
+Book a Demo
+Changelog
+SOC 2 Type II Certified
+Trust Center
 Use Cases
 Learning & Development
 Localization Agencies

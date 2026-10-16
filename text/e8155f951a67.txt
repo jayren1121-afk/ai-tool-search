@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Rows joined Superhuman. For any inquiries, email support@rows.com
 Product
 Rows AI
@@ -248,6 +249,310 @@ Support
 Chat priority
 
 Video support
+
+Dedicated CS Manager
+
+19
+
+Next →
+
+Get started
+Get started
+Get started
+Contact us
+Questions and answers
+Is Rows free to use?
+Rows offers a Free plan that is free forever, with no trial period or need for a credit card. For premium features, pick one of our paid plans.
+What are Workspaces and Members?
+What are AI Tasks?
+Can you explain Integrations, Data Tables & Cell enrichments?
+What happens when I change plans?
+Can I cancel my paid plan at any time?
+Do you offer a custom Enterprise plan?
+What are my payment methods?
+What are the limitations that apply to all plans?
+Have more questions?
+Your new AI Data Analyst
+Continue with Superhuman Docs
+Product
+Resources
+Company
+Legal
+2026, Rows © Copyright
+Features
+Blog
+About
+Terms of Use
+Rows AI
+Support Docs
+Careers
+Privacy Policy
+RowsX
+API Docs
+X (Twitter)
+Imprint
+Integrations
+Community
+LinkedIn
+Templates
+Pricing
+TikTok
+Calculators
+Product Changelog
+YouTube
+Tools
+
+=== 計費模式: 月繳 (monthly) ===
+Rows joined Superhuman. For any inquiries, email support@rows.com
+Product
+Rows AI
+Your number crunching sidekick
+Integrations
+Seamless connections to your tools
+Support Docs
+Learn how to make the most out of Rows.
+Features
+All-in-one spreadsheet for teams
+Pricing
+Templates
+Community
+Continue with Superhuman Docs
+Extract PDFs, import your business data and analyze it with AI✨.
+Monthly
+Annually
+Save ~20%
+Free
+Discover your new AI Data Analyst.
+$0 
+Get Started with Free
+AI Tasks✨
+5/month
+Data Tables
+Import Manually
+Integrations
+10 accounts
+Up to 3 guests
+Plus
+Popular
+Automate data extraction, analysis, and reporting with AI.
+$6/month per user
+Get Started with Plus
+AI Tasks✨
+200/month
+Data Tables
+Automate per day
+Integrations
+10 accounts
+Up to 10 guests
+Pro
+Scale your data processes with advanced AI automation.
+$59/month + $6/month per user
+Get Started with Pro
+AI Tasks✨
+1,000/month
+Data Tables
+Automate per min
+Integrations
+100 accounts
+Up to 200 guests
+Video Support
+Enterprise
+Unlock data, AI, and APIs for custom business workflows.
+- 
+Contact us
+Advanced API endpoints
+Custom AI models, functions and Integrations
+High-volume usage
+Custom themes and designs
+SAML SSO
+Dedicated CS Manager
+Prices shown are net, i.e. exclusive of any applicable sales tax or VAT.
+You’re in great company
+Compare plans & features
+A
+B
+C
+D
+E
+1
+
+Details ↓ Plans →
+
+Free
+
+Plus
+
+Pro
+
+Enterprise
+
+2
+
+Price (billed Annually)
+
+$0
+
+$6/month per user
+
+$59/mo + $6/mo/user
+
+-
+
+3
+
+Price (billed Monthly)
+
+$0
+
+$8/month per user
+
+$79/mo + $8/mo/user
+
+-
+
+4
+
+Spreadsheets
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+5
+
+AI Tasks
+
+5 per month
+
+200 per month
+
+1,000 per month
+
+Unlimited
+
+6
+
+Data Tables
+
+Import manually
+
+Automate every day
+
+Automate every minute
+
+Automate every minute
+
+7
+
+Integrations
+
+10 accounts
+
+10 accounts
+
+100 accounts
+
+Unlimited
+
+8
+
+Cell enrichment
+
+Limited
+
+1M tasks/month
+
+1M tasks/month
+
+Starting at 1M tasks/month
+
+9
+
+Custom Integrations
+
+10
+
+File import size
+
+1 MB
+
+5 MB
+
+100 MB
+
+100 MB
+
+11
+
+Guest members
+
+3
+
+10
+
+200
+
+Unlimited
+
+12
+
+Embeds
+
+Branded
+
+Branded
+
+Unbranded
+
+Unbranded
+
+13
+
+Version history
+
+7 days
+
+30 days
+
+2 years
+
+Unlimited
+
+14
+
+Import & Export
+
+15
+
+Rows API calls
+
+500/month
+
+50k/month
+
+1M calls/month
+
++1 million/month
+
+16
+
+Custom API endpoints
+
+17
+
+SAML SSO
+
+18
+
+Support
+
+Chat priority
+
+Chat priority
 
 Dedicated CS Manager
 

@@ -223,25 +223,42 @@ HIPAA add-on
 Embedded analytics add-on
 Custom Docker image add-ons
 Dedicated support
-Behind the teams setting the standard for data-driven marketing
-"“Most data teams are stuck answering ad hoc questions. Hex flipped that for us. Now the business answers its own questions, and I focus on building systems that scale.” - Kenny Ning, Head of Data"
-Kenny Ning and David Dorman
-Head of Data and VP of Marketing and Growth
-"We’re regarded as top performers because the work we are doing is deemed more credible and more widely surfaced than before Hex."
-Kate Urquiola
-Director, Go-to-Market Analytics
-"We like to embed Hex dashboards where teams work."
-Ian Macomber
-Head of Data and Analytics Engineering
-"I built a Hex data app that lets leadership diagnose pipeline changes in minutes. It saved me weekly hours of investigation." - Caleb Stombaugh, Sr Sales Analytics Manager"
-Caleb Stombaugh
-Senior Sales Analytics Manager and Jillian Lellis, Senior Marketing Data Operations Manager, Algolia
+Trusted by leading data teams
 "Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks."
+
 Sai Srigiriaju
 Head of Growth Strategy & Ops at ClickUp
-""Hex is where we go to understand the deep nuances of what's happening — and then act on them before anyone else sees it coming.""
-Joshua Hanson
-Data Team Manager
+
+"We’re regarded as top performers because the work we are doing is deemed more credible and more widely surfaced than before Hex."
+
+Kate Urquiola
+Director, Go-to-Market Analytics
+
+"We like to embed Hex dashboards where teams work."
+
+Ian Macomber
+Head of Data and Analytics Engineering
+
+"Hex has helped us empower business analysts to explore and dig into data on their own"
+
+Meghana Reddy
+Head of Data at Stubhub
+
+"Since adopting Hex, the data team has churned out a steady stream of analysis, from internal benchmarking to evaluating the effectiveness of metrics."
+
+Matt Palmer
+Analytics Engineer
+
+"With our engineers being able to self-serve in Hex, the data team is able to focus on long term, strategic projects. It minimizes the amount of time spent on things that don’t fundamentally move the needle and lets us focus on what matters."
+
+Chang Sun
+Analytics Engineer
+
+"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enables that."
+
+Aks Nemana
+Data Scientist & Abhishek Modi, AI Software Engineer
+
 Compare plan features
 Compare
 plan features:

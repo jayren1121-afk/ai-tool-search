@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Company
 Contact Sales
 Log in
@@ -19,6 +20,47 @@ Unlimited Triggers / workflow
 ---
 9
 per workspace / year
+Get Started
+10,000 message credits / month
+1 Team Workspace
+---
+Free
+---
+Start for Free
+200 message credits
+1 Team Workspace
+---
+30 Days Log History
+5,000 API Rate Limit/month
+Compare all features →
+---
+Contact Sales
+---
+Free
+---
+Free Features:
+=== 計費模式: 月繳 (monthly) ===
+Company
+Contact Sales
+Log in
+---
+Monthly
+Annually
+Bill Annually Save 17%
+Professional
+---
+9
+per workspace / month
+Start Building
+5,000 message credits / month
+1 Team Workspace
+---
+Priority Document Processing
+20,000 Trigger Events / month
+Unlimited Triggers / workflow
+---
+9
+per workspace / month
 Get Started
 10,000 message credits / month
 1 Team Workspace

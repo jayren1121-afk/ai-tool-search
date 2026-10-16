@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 We value your privacy
 
 We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies. Cookie Policy
@@ -267,6 +268,373 @@ $
 8
 9
 per workspace / year
+Get Started
+10,000 message credits / month
+1 Team Workspace
+50 Team Members
+200 Apps
+1,000 Knowledge Documents
+20GB Knowledge Data Storage
+1,000 Knowledge Request Rate Limit/min
+Top Priority Document Processing
+Unlimited Trigger Events
+Unlimited Triggers / workflow
+Priority Workflow Execution
+5,000 Annotation Quota Limits
+Unlimited Log History
+No Dify API Rate Limit
+Sandbox
+
+For trying out Dify's core features.
+
+Free
+
+Start for Free
+200 message credits
+1 Team Workspace
+1 Team Member
+5 Apps
+50 Knowledge Documents
+50MB Knowledge Data Storage
+10 Knowledge Request/min
+Standard Document Processing
+3,000 Trigger Events
+Up to 2 Triggers/workflow
+Standard Workflow Execution
+10 Annotation Quota Limits
+30 Days Log History
+5,000 API Rate Limit/month
+Compare all features →
+Self-Hosted & Enterprise
+Enterprise
+
+For enterprises requiring advanced security, compliance, governance, and dedicated support.
+
+Custom
+
+Contact Sales
+
+Only Enterprise Includes:
+
+Enterprise-grade Scalable Deployment Solutions
+Commercial License Authorization
+Exclusive Enterprise Features
+Multiple Workspaces & Enterprise Management
+SSO
+Negotiated SLAs by Dify Partners
+Advanced Security & Controls
+Updates and Maintenance by Dify Officially
+Professional Technical Support
+Community
+
+For open-source enthusiasts, individual developers, and non-commercial projects.
+
+Free
+
+Get Started
+
+Free Features:
+
+All Core Features Released Under the Public Repository
+Single Workspace
+Complies with Dify Open Source License
+Compare all features →
+Resources
+Docs
+Blog
+Events
+Support
+Roadmap
+Company
+Talk to Us
+Join Us
+Brand Guidelines
+Programs
+Education
+Partner
+Terms & Policies
+Terms of Service
+Privacy Policy
+Cookie Policy
+Brand Usage Terms
+Data Protection Agreement
+Marketplace Agreement
+End User License Agreement
+
+Unlock Agentic AI with Dify. Develop, deploy, and manage autonomous agents, RAG pipelines, and more for teams at any scale effortlessly.
+
+© 2026 LangGenius, Inc.
+
+=== 計費模式: 月繳 (monthly) ===
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies. Cookie Policy
+
+Customise
+Reject All
+Accept All
+Products
+Solutions
+Docs
+Pricing
+Company
+Contact Sales
+Log in
+Get Started
+EN
+
+Pricing
+
+There's Always a
+Plan for You
+
+One Platform. Every Deployment. Whether you prefer the simplicity of the cloud or the control of private infrastructure, Dify provides a unified platform to build, deploy, and scale AI applications.
+
+Dify Cloud
+
+Prices exclude applicable taxes, which may be added at checkout.
+
+Monthly
+Annually
+Bill Annually Save 17%
+Professional
+POPULAR
+
+For independent developers and small teams building production AI apps.
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+per workspace / month
+Start Building
+5,000 message credits / month
+1 Team Workspace
+3 Team Members
+50 Apps
+500 Knowledge Documents
+5GB Knowledge Data Storage
+100 Knowledge Request Rate Limit/min
+Priority Document Processing
+20,000 Trigger Events / month
+Unlimited Triggers / workflow
+Faster Workflow Execution
+2,000 Annotation Quota Limits
+Unlimited Log History
+No Dify API Rate Limit
+Team
+
+For medium-sized teams needing collaboration and higher throughput.
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+per workspace / month
 Get Started
 10,000 message credits / month
 1 Team Workspace

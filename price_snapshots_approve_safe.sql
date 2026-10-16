@@ -5,9 +5,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'granola' and fetched_at = '2026-10-15T12:11:14+08:00'::timestamptz;  -- Granola
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'remove-bg' and fetched_at = '2026-10-15T12:11:29+08:00'::timestamptz;  -- remove.bg
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'pitch' and fetched_at = '2026-10-15T12:11:49+08:00'::timestamptz;  -- Pitch
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'n8n' and fetched_at = '2026-10-12T13:28:40+08:00'::timestamptz;  -- n8n
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dify' and fetched_at = '2026-10-12T13:28:47+08:00'::timestamptz;  -- Dify
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'deepl' and fetched_at = '2026-10-12T13:28:52+08:00'::timestamptz;  -- DeepL
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'n8n' and fetched_at = '2026-10-16T12:11:11+08:00'::timestamptz;  -- n8n
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dify' and fetched_at = '2026-10-16T12:11:18+08:00'::timestamptz;  -- Dify
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'deepl' and fetched_at = '2026-10-16T12:11:20+08:00'::timestamptz;  -- DeepL
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'spline' and fetched_at = '2026-10-16T12:12:01+08:00'::timestamptz;  -- Spline
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hedra' and fetched_at = '2026-10-12T13:29:33+08:00'::timestamptz;  -- Hedra
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'llamaindex' and fetched_at = '2026-10-12T13:29:41+08:00'::timestamptz;  -- LlamaIndex
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'plus-ai' and fetched_at = '2026-10-12T13:30:02+08:00'::timestamptz;  -- Plus AI

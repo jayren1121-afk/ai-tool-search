@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Start free trial
 Menu
@@ -91,25 +92,294 @@ Text translation
 Characters (per user/month)	50,000	300,000	1,000,000	Unlimited 1	Unlimited 1
 ---
 Saved translations (per user)	1	1	10	Unlimited 1	Unlimited 1
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Start free trial
+Menu
+---
+Voice
+Annual
+Monthly
+Save 16 % with annual billing
+United States (USD $)
+---
+Individual
+---
+Professional-grade translations for single users
+---
+$10.49
+---
+per month
+Try for free
+Free for 30 days. Cancel anytime.
+What’s included:
+No data training
+300,000 characters per month
+3 file translations per month
+1 glossary
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Team
+---
+Increased translation productivity and control for teams
+---
+$34.49
+---
+per user/month
+Try for free
+Free for 30 days. Cancel anytime.
+Everything in Individual, plus:
+1,000,000 characters per user/month
+20 file translations per month
+Bulk file translation
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Business
+---
+Multilingual communication management for businesses
+---
+$68.99
+---
+per user/month
+Buy now
+---
+Unlimited characters 1
+100 file translations per month
+20 shared style rule lists
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Custom pricing
+---
+Bring the power of DeepL to your entire organization
+Contact Sales
+Tailor to your enterprise needs:
+---
+Get more out of DeepL with an add-on
+Monthly
+Write Pro add-on
+$9.49 per user/month
+---
+Transform the way you communicate with DeepL Write Pro, your AI-powered writing assistant. Write clearly and error-free, adapt messages to your audience, and easily refine your text—all within the same tool you use to translate. Learn more
+---
+Free version
+---
+Individual
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Team
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Enterprise
+Contact Sales
+Text translation
+Characters (per user/month)	50,000	300,000	1,000,000	Unlimited 1	Unlimited 1
+---
+Saved translations (per user)	1	1	10	Unlimited 1	Unlimited 1
 ---
 File translation
 File translations (per user/month)
-1	3	20	100	Custom files/month
+=== 計費模式: 月繳 (monthly) #2 ===
+Log in
+Start free trial
+Menu
 ---
-Frequently asked questions
-Trial and purchases
-How does the free trial work?
-If I have a DeepL Pro subscription, can I get a trial for the Write Pro add-on?
-What payment methods are accepted?
+Voice
+Annual
+Monthly
+Save 16 % with annual billing
+United States (USD $)
 ---
-Ready to try DeepL Pro?
+Individual
+---
+Professional-grade translations for single users
+---
+$10.49
+---
+per month
 Try for free
-English
+Free for 30 days. Cancel anytime.
+What’s included:
+No data training
+300,000 characters per month
+3 file translations per month
+1 glossary
 ---
-Platform overview
-Free translator
-DeepL API
+30 min of DeepL Voice
+Included per user/month
+See more features
 ---
-Sustainability
+Team
+---
+Increased translation productivity and control for teams
+---
+$34.49
+---
+per user/month
+Try for free
+Free for 30 days. Cancel anytime.
+Everything in Individual, plus:
+1,000,000 characters per user/month
+20 file translations per month
+Bulk file translation
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Business
+---
+Multilingual communication management for businesses
+---
+$68.99
+---
+per user/month
+Buy now
+---
+Unlimited characters 1
+100 file translations per month
+20 shared style rule lists
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Custom pricing
+---
+Bring the power of DeepL to your entire organization
 Contact Sales
-Become a Partner
+Tailor to your enterprise needs:
+---
+Get more out of DeepL with an add-on
+Monthly
+Write Pro add-on
+$9.49 per user/month
+---
+Transform the way you communicate with DeepL Write Pro, your AI-powered writing assistant. Write clearly and error-free, adapt messages to your audience, and easily refine your text—all within the same tool you use to translate. Learn more
+---
+Free version
+---
+Individual
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Team
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Enterprise
+Contact Sales
+Text translation
+Characters (per user/month)	50,000	300,000	1,000,000	Unlimited 1	Unlimited 1
+---
+Saved translations (per user)	1	1	10	Unlimited 1	Unlimited 1
+---
+File translation
+File translations (per user/month)
+=== 計費模式: 月繳 (monthly) #3 ===
+Log in
+Start free trial
+Menu
+---
+Voice
+Annual
+Monthly
+Save 16 % with annual billing
+United States (USD $)
+---
+Individual
+---
+Professional-grade translations for single users
+---
+$10.49
+---
+per month
+Try for free
+Free for 30 days. Cancel anytime.
+What’s included:
+No data training
+300,000 characters per month
+3 file translations per month
+1 glossary
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Team
+---
+Increased translation productivity and control for teams
+---
+$34.49
+---
+per user/month
+Try for free
+Free for 30 days. Cancel anytime.
+Everything in Individual, plus:
+1,000,000 characters per user/month
+20 file translations per month
+Bulk file translation
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Business
+---
+Multilingual communication management for businesses
+---
+$68.99
+---
+per user/month
+Buy now
+---
+Unlimited characters 1
+100 file translations per month
+20 shared style rule lists
+---
+30 min of DeepL Voice
+Included per user/month
+See more features
+---
+Custom pricing
+---
+Bring the power of DeepL to your entire organization
+Contact Sales
+Tailor to your enterprise needs:
+---
+Get more out of DeepL with an add-on
+Monthly
+Write Pro add-on
+$9.49 per user/month
+---
+Transform the way you communicate with DeepL Write Pro, your AI-powered writing assistant. Write clearly and error-free, adapt messages to your audience, and easily refine your text—all within the same tool you use to translate. Learn more
+---
+Free version
+---
+Individual
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Team
+Try for free
+Free for 30 days. Cancel anytime.
+---
+Enterprise
+Contact Sales
+Text translation
+Characters (per user/month)	50,000	300,000	1,000,000	Unlimited 1	Unlimited 1
+---
+Saved translations (per user)	1	1	10	Unlimited 1	Unlimited 1
+---
+File translation
+File translations (per user/month)

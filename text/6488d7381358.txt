@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Product
 Solutions
 Resources
@@ -5,195 +6,460 @@ Customers
 Enterprise
 Pricing
 Login
-Predictable pricing scalable plans
-
-Designed for every stage of your journey.
-
-Monthly
+Pricing
 Yearly
-
-20% off yearly plans
-
+20% off
 Hobby
+$32
+$32
+/month
+billed yearly
+Save $96 yearly
 
-$
-40
-per month
+The ideal entry point to Chatbase.
+
+700 message credits/month
 Start 7-day trial
 Access to advanced models
-700 message credits/month
 2 members
-Integrations
+Basic Integrations
 Basic analytics
-Attachments
-
+Allow file attachments in chat
 Standard
+$120
+$120
+/month
+billed yearly
+Save $360 yearly
 
-Popular
-$
-150
-per month
-Start 7-day trial
-Everything in Hobby +
+For small teams launching their first agent.
+
 4,000 message credits/month
-3 members
-Helpdesk
-Voice
-Telephony
-Outbound campaigns
-API access
-Personalization
-Auto-resync agents
-Advanced integrations (Stripe, Zendesk, and more)
-
-Pro
-
-$
-500
-per month
 Start 7-day trial
-Everything in Standard +
+
+Everything in Hobby, plus
+
+3 members
+Advanced integrations
+Chatbase helpdesk inbox
+Voice
+API access
+Pro
+Popular
+$400
+$400
+/month
+billed yearly
+Save $1,200 yearly
+
+For teams with a growing customer base.
+
 15,000 message credits/month
+Start 7-day trial
+
+Everything in Standard, plus
+
 5 members
 Advanced analytics
 Sources suggestions
 Tickets as a source
-
 Enterprise
+Custom
+Custom pricing
 
-Let's Talk
-Contact us
-Everything in Pro +
+For companies deploying AI agents at scale.
+
+Custom usage with flexible billing
+Book a demo
+Chatbase Enterprise agent
+Enterprise Backstage and reporting
+Flexible billing options
 Higher limits
-Flexible billing
-Custom roles & permissions
 SSO
-White-labeling
-Audit logs
-Priority support
-Success manager (CSM)
-SLAs
 HIPAA-eligible
-
-Trusted by10,000+businesses worldwide
-
-Add-ons
-Fine-tune your plan with powerful add-ons
+Audit logs
+Custom roles & permissions
+White-labeling
+SLAs
+Success manager (CSM)
+Priority support
+Get more out of your plans
 Auto recharge credits
 
 When your credits fall below the threshold you set, we'll automatically add credits that don't expire to your account, ensuring uninterrupted service.
 
 $40
 per 1000 message credits
-Get Add-on
+Get add-on
 Extra agents
 
-Add extra agents to your workspace.
+Add extra AI agents to your workspace.
 
-$25
-per AI agent / month
-Get Add-on
+$300
+per AI agent /year
+Get add-on
 Remove 'Powered By Chatbase'
 
 Remove the Chatbase branding from your deployed agents.
 
-$99
-per month
-Get Add-on
-Compare
-Compare all our plans
-Monthly
+$1188
+/year
+Get add-on
+Compare plans
 Yearly
+20% off
+	
 Hobby
-$
-40
-per month
-Subscribe
+$32
+$32
+/month
+billed yearly
+	
 Standard
-Popular
-$
-150
-per month
-Subscribe
+$120
+$120
+/month
+billed yearly
+	
 Pro
-$
-500
-per month
-Subscribe
+Popular
+$400
+$400
+/month
+billed yearly
+
 Configuration
-Message credits (monthly)
-Test credits (monthly)
-Agents
-AI Actions per agent
-Training content size
-Workspace seats
-Personalization
-Attachments
-Outbound campaigns
+Message credits (monthly)	700	4,000	15,000
+Test credits (monthly)	200	500	1,000
+Agents	1	1	1
+AI Actions per agent	5	8	12
+Training content size	10 MB	20 MB	40 MB
+Workspace seats	2 members	3 members	5 members
+Personalization	-
+Not included
+	
+Included
+	
+Included
+
+Attachments	
+Included
+	
+Included
+	
+Included
+
+Outbound campaigns	-
+Not included
+	
+Included
+	
+Included
+
 Voice
-Voice
-Telephony
-Concurrent Calls
+Voice	-
+Not included
+	
+Included
+	
+Included
+
+Telephony	-
+Not included
+	
+Included
+	
+Included
+
+Concurrent Calls	-
+Not included
+	10	20
 Training
-Auto-resync agents
-Sources suggestions
-Tickets as a source
+Auto-resync agents	-
+Not included
+	
+Included
+	
+Included
+
+Sources suggestions	-
+Not included
+	-
+Not included
+	
+Included
+
+Tickets as a source	-
+Not included
+	-
+Not included
+	
+Included
+
 Activity
-Basic analytics
-Advanced analytics
+Basic analytics	
+Included
+	
+Included
+	
+Included
+
+Advanced analytics	-
+Not included
+	-
+Not included
+	
+Included
+
 Integrations & API
-API access
-Stripe
-Zendesk
-Salesforce
-Intercom
-HubSpot
-Zoho Desk
-Freshdesk
-Helpscout
-Gorgias
-Odoo
-Sunshine
-Zapier
-Twilio
-Shopify
-Slack
-WhatsApp
-Messenger
-Instagram
-Calendly
-Wordpress
+API access	-
+Not included
+	
+Included
+	
+Included
+
+Stripe	-
+Not included
+	
+Included
+	
+Included
+
+Zendesk	-
+Not included
+	
+Included
+	
+Included
+
+Zendesk Messaging	-
+Not included
+	
+Included
+	
+Included
+
+Salesforce	-
+Not included
+	
+Included
+	
+Included
+
+Intercom	-
+Not included
+	
+Included
+	
+Included
+
+HubSpot	-
+Not included
+	
+Included
+	
+Included
+
+Zoho Desk	-
+Not included
+	
+Included
+	
+Included
+
+Freshdesk	-
+Not included
+	
+Included
+	
+Included
+
+Freshchat	-
+Not included
+	
+Included
+	
+Included
+
+Helpscout	-
+Not included
+	
+Included
+	
+Included
+
+Gorgias	-
+Not included
+	
+Included
+	
+Included
+
+Odoo	-
+Not included
+	
+Included
+	
+Included
+
+Sunshine	-
+Not included
+	
+Included
+	
+Included
+
+Zapier	-
+Not included
+	
+Included
+	
+Included
+
+Twilio	-
+Not included
+	
+Included
+	
+Included
+
+Shopify	
+Included
+	
+Included
+	
+Included
+
+Slack	
+Included
+	
+Included
+	
+Included
+
+WhatsApp	
+Included
+	
+Included
+	
+Included
+
+Messenger	
+Included
+	
+Included
+	
+Included
+
+Instagram	
+Included
+	
+Included
+	
+Included
+
+Calendly	
+Included
+	
+Included
+	
+Included
+
+Wordpress	
+Included
+	
+Included
+	
+Included
+
 Model
-Limited models
-Advanced OpenAI models
-Advanced Anthropic models
-Advanced Gemini models
-Advanced DeepSeek models
-Advanced MoonshotAI models
-Advanced Mistral models
-Advanced Z.ai models
-700
-200
-1
-5
-10 MB
-2 members
-4,000
-500
-1
-8
-20 MB
-3 members
-10
-15,000
-1,000
-1
-12
-40 MB
-5 members
-20
-FAQ
-Get answers to the most commonly asked questions
+Limited models	
+Included
+	
+Included
+	
+Included
+
+Advanced OpenAI models	
+Included
+	
+Included
+	
+Included
+
+Advanced Anthropic models	
+Included
+	
+Included
+	
+Included
+
+Advanced Gemini models	
+Included
+	
+Included
+	
+Included
+
+Advanced DeepSeek models	
+Included
+	
+Included
+	
+Included
+
+Advanced MoonshotAI models	
+Included
+	
+Included
+	
+Included
+
+Advanced Mistral models	
+Included
+	
+Included
+	
+Included
+
+Advanced Z.ai models	
+Included
+	
+Included
+	
+Included
+Enterprise-grade security
+
+We follow industry-leading compliance standards and best-in-class encryption protocols to keep your customer data safe.
+
+Learn more
+GDPR
+
+Full compliance with EU data protection standards.
+
+SOC 2 Type II
+
+Independently audited for security and reliability.
+
+HIPAA
+
+Built to handle protected health information safely.
+
+Your data stays yours
+
+Your data is only accessible to your AI agent and not used to train models.
+
+Data encryption
+
+Data is encrypted at rest and in transit using standard algorithms.
+
+Secure integrations
+
+We use verified variables to ensure users access their own data.
+
+Frequently asked questions
+Which plan is right for my company?
 How do message credits work?
 When are my message credits renewed?
 How do auto-recharge message credits work?
@@ -205,38 +471,611 @@ How does Enterprise pricing work?
 Does Chatbase support custom integrations?
 What does working with Chatbase look like for enterprises?
 Does Chatbase train AI models on customer data?
-Testimonials
-What people say
+Trusted by 10,000+ brands
+How Sandbox VR gives 1,000+ employees instant operational answers across 90 locations
 
-With over 10,000 clients served, here's what they have to say
+93%
 
-"Chatbase is a strong signal of how customer support will evolve. It is an early adopter of the agentic approach, which will become increasingly effective, trusted, and prominent."
+Resolution accuracy
 
-Marc Manara
-Head of Startups
+1000+
 
-"The chatbots are user-friendly, easy to customize, and have been effectively serving our customers for nearly two years."
+Questions resolved per week
 
-Ann Donie
-Product Owner
-10,000+
-businesses trust Chatbase
+Read case study
+How Arcadis built a repeatable AI communication model for public infrastructure projects
 
-"Chatbase gave us a powerful, flexible way to launch our AI chatbot without the complexity we saw in other platforms. Guests report strong satisfaction, and the system has been easy for our team to maintain. The customization options let us match our brand voice, and the platform continues to scale with us."
+100%
 
-Mark Kupferman
-CMO
+Official sourced answers
 
-"Chatbase is an excellent AI chat solution for businesses. Onboarding is fast, and training the bot is easy even with a lot of information. For our end users, the experience is smooth, the answers are accurate, and it significantly reduces friction. It's been a practical, scalable tool that we highly recommend."
+24/7
 
-Jesús Franco
-CTO
+Citizen access to project info
+
+Read case study
+How Thotis Media guides 7 million French students with a constellation of 18 AI agents
+
+7M
+
+Students guided per year
+
+18
+
+AI agents deployed
+
+Read case study
+4.8
+
+Chatbase is committed to delivering the top customer support platform for those who demand excellence.
+
 The world’s best customer experiences run on Chatbase
 
 Join thousands of teams using Chatbase to build AI agents that deliver exceptional support at scale — across chat, email, and voice.
 
-Create agent
 Get a demo
+Create agent
+Product
+Security
+Chatbase Experts
+Hire an Expert
+Affiliates
+Features
+Product overview
+Widgets
+Helpdesk
+Procedures
+Backstage
+Compare
+Decagon
+Botpress
+Channels
+Chat
+Email
+Voice
+Integrations
+Slack
+Resources
+Customers
+Blog
+Pricing
+Docs
+Changelog
+Guide
+Contact us
+Company
+Trust
+Enterprise
+Careers
+Policy
+Privacy Policy
+Terms & conditions
+DPA
+Cookie Policy
+
+Request AI summary
+
+© 2026 Chatbase Inc.
+
+Hey AI, learn about us
+
+=== 計費模式: 切換後 (toggled) ===
+Product
+Solutions
+Resources
+Customers
+Enterprise
+Pricing
+Login
+Pricing
+Yearly
+20% off
+Hobby
+$40
+$40
+/month
+billed yearly
+Save $96 yearly
+
+The ideal entry point to Chatbase.
+
+700 message credits/month
+Start 7-day trial
+Access to advanced models
+2 members
+Basic Integrations
+Basic analytics
+Allow file attachments in chat
+Standard
+$150
+$150
+/month
+billed yearly
+Save $360 yearly
+
+For small teams launching their first agent.
+
+4,000 message credits/month
+Start 7-day trial
+
+Everything in Hobby, plus
+
+3 members
+Advanced integrations
+Chatbase helpdesk inbox
+Voice
+API access
+Pro
+Popular
+$500
+$500
+/month
+billed yearly
+Save $1,200 yearly
+
+For teams with a growing customer base.
+
+15,000 message credits/month
+Start 7-day trial
+
+Everything in Standard, plus
+
+5 members
+Advanced analytics
+Sources suggestions
+Tickets as a source
+Enterprise
+Custom
+Custom pricing
+
+For companies deploying AI agents at scale.
+
+Custom usage with flexible billing
+Book a demo
+Chatbase Enterprise agent
+Enterprise Backstage and reporting
+Flexible billing options
+Higher limits
+SSO
+HIPAA-eligible
+Audit logs
+Custom roles & permissions
+White-labeling
+SLAs
+Success manager (CSM)
+Priority support
+Get more out of your plans
+Auto recharge credits
+
+When your credits fall below the threshold you set, we'll automatically add credits that don't expire to your account, ensuring uninterrupted service.
+
+$40
+per 1000 message credits
+Get add-on
+Extra agents
+
+Add extra AI agents to your workspace.
+
+$25
+per AI agent /month
+Get add-on
+Remove 'Powered By Chatbase'
+
+Remove the Chatbase branding from your deployed agents.
+
+$99
+/month
+Get add-on
+Compare plans
+Yearly
+20% off
+	
+Hobby
+$40
+$40
+/month
+billed yearly
+	
+Standard
+$150
+$150
+/month
+billed yearly
+	
+Pro
+Popular
+$500
+$500
+/month
+billed yearly
+
+Configuration
+Message credits (monthly)	700	4,000	15,000
+Test credits (monthly)	200	500	1,000
+Agents	1	1	1
+AI Actions per agent	5	8	12
+Training content size	10 MB	20 MB	40 MB
+Workspace seats	2 members	3 members	5 members
+Personalization	-
+Not included
+	
+Included
+	
+Included
+
+Attachments	
+Included
+	
+Included
+	
+Included
+
+Outbound campaigns	-
+Not included
+	
+Included
+	
+Included
+
+Voice
+Voice	-
+Not included
+	
+Included
+	
+Included
+
+Telephony	-
+Not included
+	
+Included
+	
+Included
+
+Concurrent Calls	-
+Not included
+	10	20
+Training
+Auto-resync agents	-
+Not included
+	
+Included
+	
+Included
+
+Sources suggestions	-
+Not included
+	-
+Not included
+	
+Included
+
+Tickets as a source	-
+Not included
+	-
+Not included
+	
+Included
+
+Activity
+Basic analytics	
+Included
+	
+Included
+	
+Included
+
+Advanced analytics	-
+Not included
+	-
+Not included
+	
+Included
+
+Integrations & API
+API access	-
+Not included
+	
+Included
+	
+Included
+
+Stripe	-
+Not included
+	
+Included
+	
+Included
+
+Zendesk	-
+Not included
+	
+Included
+	
+Included
+
+Zendesk Messaging	-
+Not included
+	
+Included
+	
+Included
+
+Salesforce	-
+Not included
+	
+Included
+	
+Included
+
+Intercom	-
+Not included
+	
+Included
+	
+Included
+
+HubSpot	-
+Not included
+	
+Included
+	
+Included
+
+Zoho Desk	-
+Not included
+	
+Included
+	
+Included
+
+Freshdesk	-
+Not included
+	
+Included
+	
+Included
+
+Freshchat	-
+Not included
+	
+Included
+	
+Included
+
+Helpscout	-
+Not included
+	
+Included
+	
+Included
+
+Gorgias	-
+Not included
+	
+Included
+	
+Included
+
+Odoo	-
+Not included
+	
+Included
+	
+Included
+
+Sunshine	-
+Not included
+	
+Included
+	
+Included
+
+Zapier	-
+Not included
+	
+Included
+	
+Included
+
+Twilio	-
+Not included
+	
+Included
+	
+Included
+
+Shopify	
+Included
+	
+Included
+	
+Included
+
+Slack	
+Included
+	
+Included
+	
+Included
+
+WhatsApp	
+Included
+	
+Included
+	
+Included
+
+Messenger	
+Included
+	
+Included
+	
+Included
+
+Instagram	
+Included
+	
+Included
+	
+Included
+
+Calendly	
+Included
+	
+Included
+	
+Included
+
+Wordpress	
+Included
+	
+Included
+	
+Included
+
+Model
+Limited models	
+Included
+	
+Included
+	
+Included
+
+Advanced OpenAI models	
+Included
+	
+Included
+	
+Included
+
+Advanced Anthropic models	
+Included
+	
+Included
+	
+Included
+
+Advanced Gemini models	
+Included
+	
+Included
+	
+Included
+
+Advanced DeepSeek models	
+Included
+	
+Included
+	
+Included
+
+Advanced MoonshotAI models	
+Included
+	
+Included
+	
+Included
+
+Advanced Mistral models	
+Included
+	
+Included
+	
+Included
+
+Advanced Z.ai models	
+Included
+	
+Included
+	
+Included
+Enterprise-grade security
+
+We follow industry-leading compliance standards and best-in-class encryption protocols to keep your customer data safe.
+
+Learn more
+GDPR
+
+Full compliance with EU data protection standards.
+
+SOC 2 Type II
+
+Independently audited for security and reliability.
+
+HIPAA
+
+Built to handle protected health information safely.
+
+Your data stays yours
+
+Your data is only accessible to your AI agent and not used to train models.
+
+Data encryption
+
+Data is encrypted at rest and in transit using standard algorithms.
+
+Secure integrations
+
+We use verified variables to ensure users access their own data.
+
+Frequently asked questions
+Which plan is right for my company?
+How do message credits work?
+When are my message credits renewed?
+How do auto-recharge message credits work?
+What is the difference between subscription credits and auto-recharge credits?
+How many users can use my agent?
+How do I know final the size of my document?
+How much data can I give one agent?
+How does Enterprise pricing work?
+Does Chatbase support custom integrations?
+What does working with Chatbase look like for enterprises?
+Does Chatbase train AI models on customer data?
+Trusted by 10,000+ brands
+How Sandbox VR gives 1,000+ employees instant operational answers across 90 locations
+
+93%
+
+Resolution accuracy
+
+1000+
+
+Questions resolved per week
+
+Read case study
+How Arcadis built a repeatable AI communication model for public infrastructure projects
+
+100%
+
+Official sourced answers
+
+24/7
+
+Citizen access to project info
+
+Read case study
+How Thotis Media guides 7 million French students with a constellation of 18 AI agents
+
+7M
+
+Students guided per year
+
+18
+
+AI agents deployed
+
+Read case study
+4.8
+
+Chatbase is committed to delivering the top customer support platform for those who demand excellence.
+
+The world’s best customer experiences run on Chatbase
+
+Join thousands of teams using Chatbase to build AI agents that deliver exceptional support at scale — across chat, email, and voice.
+
+Get a demo
+Create agent
 Product
 Security
 Chatbase Experts

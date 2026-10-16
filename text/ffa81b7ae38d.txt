@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Julius
 Product
 Use Cases
@@ -8,115 +9,82 @@ Sign Up
 Your AI Workspace
 Start for free.
 Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
-Yearly
-SAVE -20%
-Monthly
-
-Free
-
-For individuals exploring AI-powered analysis and creation
-
-$0
-/ month
-
-Get started with Free
-
-Key features:
-
-Create presentations, reports, websites, images, and video
-File storage formats
-Google Drive data connector
+Annual Billing
+SAVE 20%
+Monthly Billing
 
 Plus
 
 For everyday analysis, research, and creative projects
 
-$16
+$20
+USD
+
 / month
 
-Get started with Plus
+Subscribe
 
-Everything in Free, plus:
+Everything in Free, and:
 
-24,000 credits per year
-Daily refresh credits
-1 seat included
-Access to frontier AI models like GPT-5.6 and Claude Sonnet 5
-Export presentations, reports, websites, charts, images, and video
-Unlimited file storage formats
-Unlimited charts
-Email / community support
+2,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze files and create charts and presentations
+16 GB of RAM
+7-day file storage
+Publish websites on your custom Julius domain
+Use browser and parallel agents for research
+RECOMMENDED
 
 Pro
 
 For advanced analysis and more ambitious creative work
 
-$37
+$45
+USD
+
 / month
 
-Get started with Pro
+Subscribe
 
-Everything in Plus, plus:
+5,000 credits / month
 
-60,000 credits per year
-Daily refresh credits
-1 seat included
-Access to frontier AI models like GPT-5.6 and Claude Fable 5
-Export presentations, reports, websites, charts, images, and video
-Unlimited file storage formats
-Unlimited charts
-Expanded context window
+Everything in Plus, and:
+
+5,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze spreadsheets, documents, and data files
+Create charts and presentations
+32 GB of RAM
+Publish websites on your custom Julius domain
+Use browser agents for research and web tasks
+Unlimited parallel agents
 Priority email support
-
-Max
-
-For AI power users who need the latest and most powerful models, and maximum context
-
-$166
-/ month
-
-Get started with Max
-
-300,000 credits / year
-
-Everything in Pro, plus:
-
-300,000 credits per year
-Daily refresh credits
-Access to the most powerful AI models
-Export presentations, reports, websites, charts, images, and video
-Larger context window
-Early access to advanced and unreleased features
-Max members-only Slack channel with members from the Julius team
-Priority access at high traffic times
-Permanent file storage
-RECOMMENDED
 
 Business
 
 For teams creating, analyzing, and collaborating together
 
-$375
+$450
+USD
+
 / month
 
-Get started with Business
+Subscribe
 
-720,000 credits / year
+60,000 credits / month
 
-Everything in Ultra, plus:
+Everything in Pro, plus:
 
-720,000 credits per year
-Daily refresh credits
-Access to frontier AI models like GPT-5.6 and Claude Fable 5
-Export presentations, reports, websites, charts, images, and video
-Add up to 50 team members
+60,000 credits monthly
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
+Invite teammates and collaborate
 Postgres, BigQuery, Snowflake + more data connectors
 No table limit in data connections
-Unlimited Custom Agents
-Unlimited scheduled report runs
-
-Have more than 50 people? Contact us
-
+Add up to 50 team members
 One AI workspace for analysis and creation
 
 Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
@@ -191,13 +159,13 @@ Models
 
 Julius Lite models
 
-Julius models, GPT-5.6, Claude Sonnet 5
+GPT-6.1 Sol and Claude Opus 5.5
 
-All models, including Claude Fable 5
+GPT-6.1 Sol and Claude Opus 5.5
 
-All models, including Claude Fable 5
+GPT-6.1 Sol and Claude Opus 5.5
 
-All models, including Claude Fable 5
+All models, including the most powerful models
 
 AI Presentation Maker
 
@@ -241,11 +209,11 @@ Collaboration
 
 File access
 
-Permanent file storage
+7-day file storage
 
-Permanent file storage
+7-day file storage
 
-Permanent file storage
+7-day file storage
 
 Permanent file storage
 
@@ -335,6 +303,7 @@ Blog
 Help Center
 Community
 Capabilities
+AI Models
 Guides
 Changelog
 Directory
@@ -353,6 +322,7 @@ Privacy Policy
 Terms & Conditions
 Trust Center
 Popular integrations
+Plugins
 Postgres
 Snowflake
 SQL Server
@@ -370,3 +340,689 @@ Structuring Data
 
 Privacy Settings
 Do Not Sell or Share My Personal Information
+
+=== 計費模式: 年繳 (yearly) ===
+Julius
+Product
+Use Cases
+Resources
+Pricing
+Log In
+Sign Up
+Your AI Workspace
+Start for free.
+Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
+Annual Billing
+SAVE 20%
+Monthly Billing
+
+Plus
+
+For everyday analysis, research, and creative projects
+
+$16
+USD
+/ month
+
+Subscribe
+
+Everything in Free, and:
+
+24,000 credits per year
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze files and create charts and presentations
+16 GB of RAM
+7-day file storage
+Publish websites on your custom Julius domain
+Use browser and parallel agents for research
+RECOMMENDED
+
+Pro
+
+For advanced analysis and more ambitious creative work
+
+$37
+USD
+/ month
+
+Subscribe
+
+60,000 credits / year
+
+Everything in Plus, and:
+
+60,000 credits per year
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze spreadsheets, documents, and data files
+Create charts and presentations
+32 GB of RAM
+Publish websites on your custom Julius domain
+Use browser agents for research and web tasks
+Unlimited parallel agents
+Priority email support
+
+Business
+
+For teams creating, analyzing, and collaborating together
+
+$375
+USD
+/ month
+
+Subscribe
+
+720,000 credits / year
+
+Everything in Pro, plus:
+
+720,000 credits per year
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
+Invite teammates and collaborate
+Postgres, BigQuery, Snowflake + more data connectors
+No table limit in data connections
+Add up to 50 team members
+One AI workspace for analysis and creation
+
+Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
+
+Analyze data and research
+
+Explore files, run analyses, visualize results, and get answers with citations.
+
+Create presentations
+
+Turn an idea, prompt, or source material into a polished presentation.
+
+Generate reports and dashboards
+
+Build clear, shareable reports and dashboards from your data and research.
+
+Build websites and web apps
+
+Create responsive websites, interactive tools, and working web experiences.
+
+Generate professional images
+
+Create original images for campaigns, products, presentations, and more.
+
+Create and edit video
+
+Generate video from text or images, then refine it in the same workspace.
+
+Trusted by leading professionals worldwide
+Key features
+
+Free
+
+$0 per month
+Sign up
+
+Plus
+
+$20 per month
+Sign up
+
+Pro
+
+$45 per month
+Sign up
+
+Business
+
+$450 / month
+Sign up
+
+Enterprise
+
+Contact Us
+Contact us
+
+Core features
+
+Credits
+
+Free daily credits
+
+2,000 credits / month
+
+5,000 credits / month
+
+60,000 credits / month
+
+Unlimited
+
+Models
+
+Julius Lite models
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+All models, including the most powerful models
+
+AI Presentation Maker
+
+Limited
+
+AI Image Generator
+
+Limited
+
+AI Video Generator
+
+Limited
+
+Build Websites with AI
+
+Limited
+
+Data connectors
+
+Google Drive, OneDrive, Sharepoint
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Custom
+
+Semantic Schema Learning
+
+Scheduled Runs
+
+3
+
+Unlimited
+
+Unlimited
+
+Collaboration
+
+File access
+
+7-day file storage
+
+7-day file storage
+
+7-day file storage
+
+Permanent file storage
+
+Teams
+
+Shared workspace
+
+Shared files
+
+Shared threads
+
+Usage dashboard
+
+Centralized billing
+
+Audit logs
+
+Admin, controls, and security
+
+SOC 2 Type II Compliance
+
+2-factor authentication
+
+User roles and permissions
+
+Single-sign on
+
+Support
+
+Help center
+
+Chat, email support
+
+Priority support
+
+Tailored onboarding
+
+Frequently asked questions
+How does Julius handle security and compliance?
+Which data sources and warehouses does Julius integrate with?
+Can I build presentations, websites, and videos on any plan?
+How can we manage our Julius subscription?
+How can my organization select between Business and Enterprise?
+How does Julius query across my database if I have thousands of tables?
+Can I give Julius my business context?
+I have a purchase order. How can I get an invoice?
+Still have questions?
+
+Reach out to our team any time, or check out our FAQs.
+
+Get in touch
+Footer
+
+Julius
+
+Early stage AI lab based in San Francisco with a mission to build the most powerful AI tools for knowledge workers.
+
+SOC 2 Type 2 Certified
+
+X
+LinkedIn
+GitHub
+Youtube
+Contact us
+Company
+About
+Careers
+We're hiring
+Affiliate Program
+Merch Store
+Product
+Pricing
+Connectors
+AI Math
+AI Chatbot
+AI Image Generator
+AI Video Generator
+AI Presentation Maker
+AI Report Generator
+AI Website Builder
+Teams
+Data Connectors
+Custom Agents
+Resources
+Docs
+Blog
+Help Center
+Community
+Capabilities
+AI Models
+Guides
+Changelog
+Directory
+FAQs
+Use Cases
+Finance
+Marketing
+RevOps
+Product
+Data Science
+Scientific Research
+Education
+Security
+Security
+Privacy Policy
+Terms & Conditions
+Trust Center
+Popular integrations
+Plugins
+Postgres
+Snowflake
+SQL Server
+Show more
+Trending templates
+Slide Templates
+Guides
+Tips
+Videos
+Glossary
+Start Guides
+Structuring Data
+
+© 2026 Caesar Labs, Inc. All rights reserved.
+
+Privacy Settings
+Do Not Sell or Share My Personal Information
+
+=== 計費模式: 月繳 (monthly) ===
+Julius
+Product
+Use Cases
+Resources
+Pricing
+Log In
+Sign Up
+Your AI Workspace
+Start for free.
+Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
+Annual Billing
+SAVE 20%
+Monthly Billing
+
+Plus
+
+For everyday analysis, research, and creative projects
+
+$20
+USD
+
+/ month
+
+Subscribe
+
+Everything in Free, and:
+
+2,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze files and create charts and presentations
+16 GB of RAM
+7-day file storage
+Publish websites on your custom Julius domain
+Use browser and parallel agents for research
+RECOMMENDED
+
+Pro
+
+For advanced analysis and more ambitious creative work
+
+$45
+USD
+
+/ month
+
+Subscribe
+
+5,000 credits / month
+
+Everything in Plus, and:
+
+5,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+Analyze spreadsheets, documents, and data files
+Create charts and presentations
+32 GB of RAM
+Publish websites on your custom Julius domain
+Use browser agents for research and web tasks
+Unlimited parallel agents
+Priority email support
+
+Business
+
+For teams creating, analyzing, and collaborating together
+
+$450
+USD
+
+/ month
+
+Subscribe
+
+60,000 credits / month
+
+Everything in Pro, plus:
+
+60,000 credits monthly
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
+Invite teammates and collaborate
+Postgres, BigQuery, Snowflake + more data connectors
+No table limit in data connections
+Add up to 50 team members
+One AI workspace for analysis and creation
+
+Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
+
+Analyze data and research
+
+Explore files, run analyses, visualize results, and get answers with citations.
+
+Create presentations
+
+Turn an idea, prompt, or source material into a polished presentation.
+
+Generate reports and dashboards
+
+Build clear, shareable reports and dashboards from your data and research.
+
+Build websites and web apps
+
+Create responsive websites, interactive tools, and working web experiences.
+
+Generate professional images
+
+Create original images for campaigns, products, presentations, and more.
+
+Create and edit video
+
+Generate video from text or images, then refine it in the same workspace.
+
+Trusted by leading professionals worldwide
+Key features
+
+Free
+
+$0 per month
+Sign up
+
+Plus
+
+$20 per month
+Sign up
+
+Pro
+
+$45 per month
+Sign up
+
+Business
+
+$450 / month
+Sign up
+
+Enterprise
+
+Contact Us
+Contact us
+
+Core features
+
+Credits
+
+Free daily credits
+
+2,000 credits / month
+
+5,000 credits / month
+
+60,000 credits / month
+
+Unlimited
+
+Models
+
+Julius Lite models
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+GPT-6.1 Sol and Claude Opus 5.5
+
+All models, including the most powerful models
+
+AI Presentation Maker
+
+Limited
+
+AI Image Generator
+
+Limited
+
+AI Video Generator
+
+Limited
+
+Build Websites with AI
+
+Limited
+
+Data connectors
+
+Google Drive, OneDrive, Sharepoint
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Google Drive, OneDrive, Sharepoint, Snowflake, Bigquery, Postgres
+
+Custom
+
+Semantic Schema Learning
+
+Scheduled Runs
+
+3
+
+Unlimited
+
+Unlimited
+
+Collaboration
+
+File access
+
+7-day file storage
+
+7-day file storage
+
+7-day file storage
+
+Permanent file storage
+
+Teams
+
+Shared workspace
+
+Shared files
+
+Shared threads
+
+Usage dashboard
+
+Centralized billing
+
+Audit logs
+
+Admin, controls, and security
+
+SOC 2 Type II Compliance
+
+2-factor authentication
+
+User roles and permissions
+
+Single-sign on
+
+Support
+
+Help center
+
+Chat, email support
+
+Priority support
+
+Tailored onboarding
+
+Frequently asked questions
+How does Julius handle security and compliance?
+Which data sources and warehouses does Julius integrate with?
+Can I build presentations, websites, and videos on any plan?
+How can we manage our Julius subscription?
+How can my organization select between Business and Enterprise?
+How does Julius query across my database if I have thousands of tables?
+Can I give Julius my business context?
+I have a purchase order. How can I get an invoice?
+Still have questions?
+
+Reach out to our team any time, or check out our FAQs.
+
+Get in touch
+Footer
+
+Julius
+
+Early stage AI lab based in San Francisco with a mission to build the most powerful AI tools for knowledge workers.
+
+SOC 2 Type 2 Certified
+
+X
+LinkedIn
+GitHub
+Youtube
+Contact us
+Company
+About
+Careers
+We're hiring
+Affiliate Program
+Merch Store
+Product
+Pricing
+Connectors
+AI Math
+AI Chatbot
+AI Image Generator
+AI Video Generator
+AI Presentation Maker
+AI Report Generator
+AI Website Builder
+Teams
+Data Connectors
+Custom Agents
+Resources
+Docs
+Blog
+Help Center
+Community
+Capabilities
+AI Models
+Guides
+Changelog
+Directory
+FAQs
+Use Cases
+Finance
+Marketing
+RevOps
+Product
+Data Science
+Scientific Research
+Education
+Security
+Security
+Privacy Policy
+Terms & Conditions
+Trust Center
+Popular integrations
+Plugins
+Postgres
+Snowflake
+SQL Server
+Show more
+Trending templates
+Slide Templates
+Guides
+Tips
+Videos
+Glossary
+Start Guides
+Structuring Data
+
+© 2026 Caesar Labs, Inc. All rights reserved.
+
+Privacy Settings
+Do Not Sell or Share My Personal Information
+5,000 credits / month
+25,000 credits / month
+70,000 credits / month

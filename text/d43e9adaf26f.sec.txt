@@ -1,5 +1,190 @@
+=== 計費模式: 預設畫面 (default) ===
 Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
-02d : 14h : 37m : 12s
+02d : 14h : 37m : 11s
+---
+Book a demo
+Try it free
+Pricing
+Plans that scale with your video output
+Every plan includes video translation into any language, emotion-preserving voice cloning, and free, easy-to-use controls.
+Monthly
+Annual
+YEARLY PLANS ONLY
+No minutes lost at month end
+---
+Unlimited re-editing and redubbing
+Free trial
+For trying Rask risk-free. No credit card required
+$
+---
+Upload a video and localize it instantly
+Clone the speaker's voice in 32 languages
+Fine-tune results in the built-in editor
+Try for free
+Save $139/year (30% off)
+Creator
+For trying Rask on smaller projects
+$39
+$
+28
+/mo
+billed $329 yearly
+300 minutes included
+Zero-setup onboarding
+Translate single video into a few languages
+Upgrade when localization becomes regular
+Get started
+Save $389/year (33% off)
+Creator Pro
+For repeat video publishing
+$99
+$
+67
+/mo
+billed $799 yearly
+1.200 minutes included
+Control accuracy of translation and speech
+Preserve speaker identity with lip-sync
+Built for recurring projects with a small team
+Get started
+Save $989/year (33% off)
+Business
+For teams with a growing video library
+$249
+$
+167
+/mo
+billed $1.999 yearly
+3.000 minutes included
+Review and manage projects with your team
+Keep brand and terminology consistent
+---
+Choose the plan that matches how often you publish.
+What changes
+Billed Annually
+Free trial
+$0
+/mo
+Creator
+$28
+/mo
+Creator Pro
+$67
+/mo
+Business
+$167
+/mo
+Enterprise
+Custom
+---
+3
+300 / year
+1.200 / year
+3.000 / year
+Custom
+Extra minutes
+Upgrade to Creator Pro
+Upgrade to Creator Pro
+$3 / extra minute
+$3 / extra minute
+Custom
+Saved custom voices
+3
+---
+How to choose the right pricing plan?
+What should I do if 500 minutes per month are insufficient for my needs?
+Can I use the remaining minutes from the current month of my subscription in the following months?
+---
+Film dubbing
+Free tools
+Free Subtitle Generator
+Free AI Dubbing
+Free Subtitle Translator
+Free Video Transcription
+Marketing Assets Translator
+Free Book Translator
+Tools
+=== 計費模式: 月繳 (monthly) ===
+Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
+02d : 14h : 37m : 10s
+---
+Book a demo
+Try it free
+Pricing
+Plans that scale with your video output
+Every plan includes video translation into any language, emotion-preserving voice cloning, and free, easy-to-use controls.
+Monthly
+Annual
+Free trial
+For trying Rask risk-free. No credit card required
+$
+---
+Fine-tune results in the built-in editor
+Try for free
+Creator
+---
+39
+/mo
+billed monthly
+25 minutes per month included
+Zero-setup onboarding
+---
+99
+/mo
+billed monthly
+100 minutes per month included
+Control accuracy of translation and speech
+---
+249
+/mo
+billed monthly
+250 minutes per month included
+Review and manage projects with your team
+---
+Custom
+Custom minutes per month
+Security and compliance readiness
+---
+Choose the plan that matches how often you publish.
+What changes
+Billed Annually
+Free trial
+$0
+/mo
+Creator
+$39
+/mo
+Creator Pro
+$99
+/mo
+Business
+$249
+/mo
+Enterprise
+Custom
+---
+3
+25 / mo
+100 / mo
+250 / mo
+Custom
+---
+How to choose the right pricing plan?
+What should I do if 500 minutes per month are insufficient for my needs?
+Can I use the remaining minutes from the current month of my subscription in the following months?
+---
+Film dubbing
+Free tools
+Free Subtitle Generator
+Free AI Dubbing
+Free Subtitle Translator
+Free Video Transcription
+Marketing Assets Translator
+Free Book Translator
+Tools
+=== 計費模式: 年繳 (yearly) ===
+Get 35% off on yearly Creator and Creator Pro. Prices are changing soon — lock in current rates on all plans
+02d : 14h : 37m : 09s
 ---
 Book a demo
 Try it free

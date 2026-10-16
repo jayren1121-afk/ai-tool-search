@@ -415,3 +415,13 @@ LLM 結束： 剩下的只有「備援模型結果待 120b 重做」，但今天
 67 ok openai/gpt-oss-120b https://www.smartlead.ai/pricing 2579
 68 ok openai/gpt-oss-120b https://wan.video/pricing 2424
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 68, "ok": 68, "tokens": 160062, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://www.deepl.com/pro 3907
+2 ok openai/gpt-oss-120b https://dify.ai/pricing 2065
+3 ok openai/gpt-oss-120b https://www.rask.ai/pricing 3593
+4 ok openai/gpt-oss-120b https://julius.ai/pricing 3221
+5 ok openai/gpt-oss-120b https://rows.com/pricing 2877
+6 ok openai/gpt-oss-120b https://www.chatbase.co/pricing 2843
+7 ok openai/gpt-oss-120b https://www.vizcom.ai/pricing 3586
+8 ok openai/gpt-oss-120b https://spline.design/pricing 4289
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 8, "ok": 8, "tokens": 26381, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}

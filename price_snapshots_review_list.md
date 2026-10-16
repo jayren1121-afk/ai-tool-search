@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：42 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：217 筆
+- 可批次核准（無旗標）：43 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：216 筆
 
 核准單筆範本：
 ```sql
@@ -60,15 +60,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **magnific**（Magnific AI）旗標：has_promo；；來源 https://magnific.ai/pricing；擷取 2026-10-15T12:11:42+08:00
 - **beautiful-ai**（Beautiful.ai）旗標：name_missing, price_unclear；None: name_missing, price_unclear；來源 https://www.beautiful.ai/pricing；擷取 2026-10-15T12:11:48+08:00
 - **napkin**（Napkin AI）旗標：period_ambiguous_toggle；PLUS: period_ambiguous_toggle; PRO: period_ambiguous_toggle；來源 https://www.napkin.ai/pricing；擷取 2026-10-15T12:11:59+08:00
-- **zapier-ai**（Zapier (AI / Agents)）旗標：dropped_fields, period_ambiguous_toggle；Professional: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://zapier.com/pricing；擷取 2026-10-12T13:28:38+08:00
-- **langchain**（LangChain / LangGraph）旗標：period_ambiguous_toggle, zero_price；Plus: period_ambiguous_toggle；來源 https://www.langchain.com/pricing；擷取 2026-10-12T13:28:46+08:00
-- **immersive-translate**（沉浸式翻譯 Immersive Translate）旗標：has_promo, name_far_from_price, name_not_in_quote, price_near_quote；Team: name_not_in_quote; Pro: name_far_from_price；來源 https://immersivetranslate.com/pricing；擷取 2026-10-12T13:29:00+08:00
-- **julius**（Julius AI）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://julius.ai/pricing；擷取 2026-10-12T13:29:08+08:00
-- **hex**（Hex）旗標：dropped_fields；；來源 https://hex.tech/pricing；擷取 2026-10-12T13:29:16+08:00
-- **rows**（Rows）旗標：dropped_fields, name_diff, period_ambiguous_toggle；資料集方案 ['Scale'] vs 新 ['Free', 'Plus', 'Pro']; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://rows.com/pricing；擷取 2026-10-12T13:29:16+08:00
-- **chatbase**（Chatbase）旗標：name_diff, name_missing, period_ambiguous_toggle；資料集方案 ['Free', 'Basic', 'Advanced', 'Hobby', 'Standard'] vs 新 ['', '', '']; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.chatbase.co/pricing；擷取 2026-10-12T13:29:21+08:00
-- **vizcom**（Vizcom）旗標：name_far_from_price, name_missing, period_ambiguous_toggle, zero_price；Professional: period_ambiguous_toggle；來源 https://www.vizcom.ai/pricing；擷取 2026-10-12T13:29:24+08:00
-- **spline**（Spline）旗標：has_promo, period_ambiguous_toggle；Hobby: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://spline.design/pricing；擷取 2026-10-12T13:29:27+08:00
+- **zapier-ai**（Zapier (AI / Agents)）旗標：dropped_fields, period_ambiguous_toggle；Professional: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://zapier.com/pricing；擷取 2026-10-16T12:11:10+08:00
+- **langchain**（LangChain / LangGraph）旗標：period_ambiguous_toggle, zero_price；Plus: period_ambiguous_toggle；來源 https://www.langchain.com/pricing；擷取 2026-10-16T12:11:12+08:00
+- **immersive-translate**（沉浸式翻譯 Immersive Translate）旗標：has_promo, name_far_from_price, name_not_in_quote, price_near_quote；Team: name_not_in_quote; Pro: name_far_from_price；來源 https://immersivetranslate.com/pricing；擷取 2026-10-16T12:11:26+08:00
+- **julius**（Julius AI）旗標：price_near_quote；；來源 https://julius.ai/pricing；擷取 2026-10-16T12:11:34+08:00
+- **hex**（Hex）旗標：dropped_fields；；來源 https://hex.tech/pricing；擷取 2026-10-16T12:11:36+08:00
+- **rows**（Rows）旗標：dropped_fields, name_diff；資料集方案 ['Scale'] vs 新 ['Free', 'Plus']；來源 https://rows.com/pricing；擷取 2026-10-16T12:11:41+08:00
+- **chatbase**（Chatbase）旗標：name_diff；資料集方案 ['Free', 'Basic', 'Advanced', 'Hobby', 'Standard'] vs 新 ['Hobby', 'Standard', 'Pro']；來源 https://www.chatbase.co/pricing；擷取 2026-10-16T12:11:45+08:00
+- **vizcom**（Vizcom）旗標：name_far_from_price, period_ambiguous_toggle, zero_price；Professional: period_ambiguous_toggle；來源 https://www.vizcom.ai/pricing；擷取 2026-10-16T12:11:50+08:00
 - **invideo**（InVideo AI）旗標：has_promo, price_near_quote；；來源 https://invideo.io/pricing；擷取 2026-10-12T13:29:34+08:00
 - **speechify**（Speechify）旗標：period_ambiguous_toggle；PREMIUM: period_ambiguous_toggle；來源 https://speechify.com/pricing；擷取 2026-10-12T13:29:34+08:00
 - **mubert**（Mubert）旗標：has_promo；；來源 https://mubert.com/pricing；擷取 2026-10-12T13:29:40+08:00

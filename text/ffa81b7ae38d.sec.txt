@@ -1,76 +1,56 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Your AI Workspace
 Start for free.
 Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
-Yearly
-SAVE -20%
-Monthly
----
-Free
----
-For individuals exploring AI-powered analysis and creation
----
-$0
-/ month
----
-Get started with Free
+Annual Billing
+SAVE 20%
+Monthly Billing
 ---
 Plus
 ---
 For everyday analysis, research, and creative projects
 ---
-$16
+$20
+USD
+---
 / month
 ---
-Get started with Plus
+Everything in Free, and:
 ---
-Everything in Free, plus:
----
-24,000 credits per year
-Daily refresh credits
-1 seat included
+2,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
 ---
 Pro
 ---
 For advanced analysis and more ambitious creative work
 ---
-$37
+$45
+USD
+---
 / month
 ---
-Get started with Pro
+5,000 credits / month
 ---
-60,000 credits per year
-Daily refresh credits
-1 seat included
----
-Max
----
-For AI power users who need the latest and most powerful models, and maximum context
----
-$166
-/ month
----
-Get started with Max
----
-300,000 credits / year
----
-300,000 credits per year
-Daily refresh credits
-Access to the most powerful AI models
+5,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
 ---
 Business
 ---
 For teams creating, analyzing, and collaborating together
 ---
-$375
+$450
+USD
+---
 / month
 ---
-Get started with Business
+60,000 credits / month
 ---
-720,000 credits / year
----
-720,000 credits per year
-Daily refresh credits
-Access to frontier AI models like GPT-5.6 and Claude Fable 5
+60,000 credits monthly
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
 ---
 Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
 ---
@@ -107,3 +87,183 @@ Free daily credits
 5,000 credits / month
 ---
 60,000 credits / month
+=== 計費模式: 年繳 (yearly) ===
+Your AI Workspace
+Start for free.
+Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
+Annual Billing
+SAVE 20%
+Monthly Billing
+---
+Plus
+---
+For everyday analysis, research, and creative projects
+---
+$16
+USD
+/ month
+---
+Everything in Free, and:
+---
+24,000 credits per year
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+---
+Pro
+---
+For advanced analysis and more ambitious creative work
+---
+$37
+USD
+/ month
+---
+60,000 credits / year
+---
+60,000 credits per year
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+---
+Business
+---
+For teams creating, analyzing, and collaborating together
+---
+$375
+USD
+/ month
+---
+720,000 credits / year
+---
+720,000 credits per year
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
+---
+Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
+---
+Key features
+---
+Free
+---
+$0 per month
+Sign up
+---
+Plus
+---
+$20 per month
+Sign up
+---
+Pro
+---
+$45 per month
+Sign up
+---
+Business
+---
+$450 / month
+Sign up
+---
+Enterprise
+---
+Credits
+---
+Free daily credits
+---
+2,000 credits / month
+---
+5,000 credits / month
+---
+60,000 credits / month
+=== 計費模式: 月繳 (monthly) ===
+Your AI Workspace
+Start for free.
+Analyze data and research, create presentations and reports, build websites, and generate images and video. Upgrade for more credits, frontier models, and controls.
+Annual Billing
+SAVE 20%
+Monthly Billing
+---
+Plus
+---
+For everyday analysis, research, and creative projects
+---
+$20
+USD
+---
+/ month
+---
+Everything in Free, and:
+---
+2,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+---
+Pro
+---
+For advanced analysis and more ambitious creative work
+---
+$45
+USD
+---
+/ month
+---
+5,000 credits / month
+---
+5,000 credits monthly
+100 daily refresh credits
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+---
+Business
+---
+For teams creating, analyzing, and collaborating together
+---
+$450
+USD
+---
+/ month
+---
+60,000 credits / month
+---
+60,000 credits monthly
+Access to frontier AI models like GPT-6.1 Sol and Claude Opus 5.5
+100 daily refresh credits
+Create charts, presentations, and websites
+---
+Every plan gives you one place to research, analyze, build, and create. Paid plans give you more credits to keep going.
+---
+Key features
+---
+Free
+---
+$0 per month
+Sign up
+---
+Plus
+---
+$20 per month
+Sign up
+---
+Pro
+---
+$45 per month
+Sign up
+---
+Business
+---
+$450 / month
+Sign up
+---
+Enterprise
+---
+Credits
+---
+Free daily credits
+---
+2,000 credits / month
+---
+5,000 credits / month
+---
+60,000 credits / month
+---
+Do Not Sell or Share My Personal Information
+5,000 credits / month
+25,000 credits / month
+70,000 credits / month
