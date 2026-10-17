@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
 - 可批次核准（無旗標）：43 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：216 筆
+- 需人工覆核（有旗標）：214 筆
 
 核准單筆範本：
 ```sql
@@ -68,15 +68,13 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **rows**（Rows）旗標：dropped_fields, name_diff；資料集方案 ['Scale'] vs 新 ['Free', 'Plus']；來源 https://rows.com/pricing；擷取 2026-10-16T12:11:41+08:00
 - **chatbase**（Chatbase）旗標：name_diff；資料集方案 ['Free', 'Basic', 'Advanced', 'Hobby', 'Standard'] vs 新 ['Hobby', 'Standard', 'Pro']；來源 https://www.chatbase.co/pricing；擷取 2026-10-16T12:11:45+08:00
 - **vizcom**（Vizcom）旗標：name_far_from_price, period_ambiguous_toggle, zero_price；Professional: period_ambiguous_toggle；來源 https://www.vizcom.ai/pricing；擷取 2026-10-16T12:11:50+08:00
-- **invideo**（InVideo AI）旗標：has_promo, price_near_quote；；來源 https://invideo.io/pricing；擷取 2026-10-12T13:29:34+08:00
-- **speechify**（Speechify）旗標：period_ambiguous_toggle；PREMIUM: period_ambiguous_toggle；來源 https://speechify.com/pricing；擷取 2026-10-12T13:29:34+08:00
-- **mubert**（Mubert）旗標：has_promo；；來源 https://mubert.com/pricing；擷取 2026-10-12T13:29:40+08:00
-- **liner**（Liner）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Team: period_ambiguous_toggle；來源 https://liner.com/pricing；擷取 2026-10-12T13:29:42+08:00
-- **paperpal**（Paperpal）旗標：period_ambiguous_toggle, price_change, price_near_quote；Pro: 資料集 $59.0/月 → 官網 $29.0; Prime: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://paperpal.com/pricing；擷取 2026-10-12T13:29:48+08:00
-- **originality**（Originality.ai）旗標：has_promo, name_diff, non_subscription_hint, period_ambiguous_toggle；資料集方案 ['Pro', 'Team', 'Basic'] vs 新 ['Pro', 'Enterprise']; Pro: non_subscription_hint, period_ambiguous_toggle; Enterprise: non_subscription_hint, period_ambiguous_toggle；來源 https://originality.ai/pricing；擷取 2026-10-12T13:29:49+08:00
-- **semrush**（Semrush）旗標：has_promo, name_diff, name_missing, price_near_quote；資料集方案 ['Pro'] vs 新 ['', '', '', '']; None: name_missing; None: name_missing; None: name_missing; None: name_missing；來源 https://www.semrush.com/pricing；擷取 2026-10-12T13:29:54+08:00
-- **typeform-ai**（Typeform）旗標：period_ambiguous_toggle；Talent: period_ambiguous_toggle；來源 https://www.typeform.com/pricing；擷取 2026-10-12T13:30:15+08:00
-- **amazon-q**（Amazon Q Developer）旗標：dropped_fields；；來源 https://aws.amazon.com/q/developer/pricing；擷取 2026-10-12T13:30:25+08:00
+- **invideo**（InVideo AI）旗標：dropped_fields, has_promo；；來源 https://invideo.io/pricing；擷取 2026-10-17T12:10:40+08:00
+- **speechify**（Speechify）旗標：has_promo, yearly_gt_monthly；PREMIUM: yearly_gt_monthly；來源 https://speechify.com/pricing；擷取 2026-10-17T12:10:40+08:00
+- **mubert**（Mubert）旗標：dropped_fields, has_promo；；來源 https://mubert.com/pricing；擷取 2026-10-17T12:10:47+08:00
+- **liner**（Liner）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://liner.com/pricing；擷取 2026-10-17T12:10:56+08:00
+- **originality**（Originality.ai）旗標：dropped_fields, has_promo, name_diff, non_subscription_hint；資料集方案 ['Pro', 'Team', 'Basic'] vs 新 ['Pro']; Pro: non_subscription_hint；來源 https://originality.ai/pricing；擷取 2026-10-17T12:11:06+08:00
+- **semrush**（Semrush）旗標：has_promo, name_diff, name_missing, price_near_quote；資料集方案 ['Pro'] vs 新 ['', '', '']; None: name_missing; None: name_missing; None: name_missing；來源 https://www.semrush.com/pricing；擷取 2026-10-17T12:11:17+08:00
+- **amazon-q**（Amazon Q Developer）旗標：dropped_fields；；來源 https://aws.amazon.com/q/developer/pricing；擷取 2026-10-17T12:11:41+08:00
 - **meshy**（Meshy）旗標：has_promo；；來源 https://www.meshy.ai/pricing；擷取 2026-10-12T13:30:27+08:00
 - **pictory**（Pictory）旗標：has_promo；；來源 https://pictory.ai/pricing；擷取 2026-10-12T13:30:31+08:00
 - **d-id**（D-ID）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.d-id.com/pricing；擷取 2026-10-12T13:30:36+08:00

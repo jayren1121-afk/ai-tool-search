@@ -478,3 +478,21 @@ SCRAPE DONE
 2 15 scraped https://spline.design/pricing 10.4
 舊版頁面還要重抓： 263 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://www.hedra.com/pricing 7.8
+2 2 scraped https://speechify.com/pricing 14.3
+0 3 scraped https://invideo.io/pricing 17.4
+1 4 scraped https://mubert.com/pricing 14.9
+2 5 scraped https://www.llamaindex.ai/pricing 11.3
+0 6 scraped https://liner.com/pricing 20.3
+2 7 scraped https://originality.ai/pricing 11.5
+1 8 scraped https://paperpal.com/pricing 19.8
+0 9 scraped https://www.semrush.com/pricing 11.7
+2 10 no_price_found https://www.hirevue.com/pricing 19.4
+0 11 scraped https://plusai.com/pricing 11.4
+1 12 no_price_found https://www.alpha-sense.com/pricing 19.8
+1 13 scraped https://aws.amazon.com/q/developer/pricing 6.6
+0 14 no_price_found https://www.doubao.com/pricing 9.3
+2 15 scraped https://www.typeform.com/pricing 17.6
+舊版頁面還要重抓： 248 個（每次最多 15 個）
+SCRAPE DONE

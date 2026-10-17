@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Features 
 Chevron down
 Pricing
@@ -10,11 +11,10 @@ Plans that progress with your research
 Trusted by 5M+ researchers and students worldwide
 
 Monthly
-ANNUAL Save 52%
+Annual Save 52%
 Free
 
 Try every tool, get to know Paperpal
- 
 
 $0 / mo
 
@@ -476,6 +476,3012 @@ $29/mo
 
 
 Continue to pay $348
+
+
+
+CHECKS
+
+	
+
+	
+
+	
+
+
+
+
+Grammar & language suggestions 
+Circle info
+
+	
+
+CheckSolid
+
+	
+
+20k edits / mo
+
+	
+
+Unlimited
+
+
+
+
+Consistency Checks 
+Circle info
+
+	
+
+-
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Plagiarism Check 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AI Detection 
+Circle info
+
+	
+
+Limited Preview
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Journal fit 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+Lite Report
+
+	
+
+Unlimited + Full Report
+
+
+
+
+Reference Check 
+Circle info
+
+	
+
+-
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AGENTSNEW
+
+	
+
+	
+
+	
+
+
+
+
+Research & Writing Agents 
+Circle info
+
+	
+
+Limited
+
+	
+
+10X more usage
+
+	
+
+Unlimited usage
+(promotional period)
+
+
+
+
+WRITE & POLISH
+
+	
+
+	
+
+	
+
+
+
+
+Paraphrase, Trim, Translate,
+AI Review + more 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Version history
+
+	
+
+	
+
+	
+
+
+
+
+Export document
+
+docx and pdf
+
+	
+
+	
+
+	
+
+
+
+
+Share document
+
+up to 5 collaborators
+
+	
+
+	
+
+	
+
+
+
+
+RESEARCH, READ & MANAGE REFERENCES
+
+	
+
+	
+
+	
+
+
+
+
+Ask questions, cite text 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Chat with papers 
+Circle info
+
+Supports multiple pdfs
+
+	
+
+5 files / mo
+
+	
+
+150 files / mo
+
+	
+
+500 files / mo
+
+
+
+
+Library Cloud Storage
+
+	
+
+300 MB
+
+	
+
+2 GB
+
+	
+
+10 GB
+
+
+
+
+Citation formatting 
+Circle info
+
+APA, MLA + 10,000 styles
+
+	
+
+Plain text
+
+	
+
+	
+
+
+
+
+Automated bibliography
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Web Importer
+
+Chrome & Edge
+
+	
+
+	
+
+	
+
+
+
+
+ILLUSTRATEBETA
+
+	
+
+	
+
+	
+
+
+
+
+AI-assisted figure generation 
+Circle info
+
+	
+
+Limited
+
+	
+
+Full
+
+	
+
+Full
+
+
+
+
+High-resolution SVG exports
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+25,000+ expert designed illustrations
+
+With full copyright
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Custom expert - designed illustration
+
+	
+
+-
+
+	
+
+-
+
+	
+
+1 / mo
+
+
+
+
+OTHER BENEFITS
+
+	
+
+	
+
+	
+
+
+
+
+Faster editing speed
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Early access to new features
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Weekly live AMA sessions
+
+	
+
+-
+
+	
+
+	
+
+Frequently Asked Questions
+Do you bill in local currencies? What are the available invoice types?
+We offer billing in local currencies. We plan to support more currencies and invoicing options in future. Write to us at hello@paperpal.com with your requirements so that we can consider this down the road.
+What are the payment methods available?
+Do you offer student discounts?
+I have a discount code to purchase Paperpal paid plans, how can I apply it?
+Will my subscription be auto-renewed upon expiry?
+Can I cancel my subscription once I purchase?
+Show More
+Get Paperpal
+Paperpal for MS Word
+Paperpal for Google Docs
+Paperpal for Chrome
+Paperpal for Overleaf
+Paperpal on Web
+Write & Improve
+AI Writing Assistant
+AI Paraphraser
+Sentence Rewriter
+Translate
+Templates
+Search & Cite
+Chat with PDFs
+AI Text Summarizer
+AI Reference Finder
+Citation Generator
+Check & Finalize
+Grammar Checker
+AI Proofreader
+Plagiarism Checker
+AI Detector
+Reference Checker
+Submission Readiness Checker
+Learn More
+Pricing
+Affiliate Program
+Data Security
+Refer and Earn
+Trust Center
+Paperpal Blog
+What's New?
+FAQs
+Sitemap
+Contact Us
+Regional Websites
+Paperpal for China
+Paperpal for Korea
+Paperpal for Japan
+Solutions
+For Researchers
+For Students
+For Universities
+For Publishers
+Paperpal Preflight
+Paperpal for Life Sciences
+Compare Paperpal
+Paperpal vs ChatGPT
+Paperpal vs Grammarly
+Paperpal vs Turnitin
+Paperpal vs QuillBot
+Paperpal vs Jenni
+Whitepaper
+Developer Tools
+LLMs Overview
+LLM Index
+Connect with us
+Your Documents are always Safe
+ISO/IEC 42001:2023 CERTIFIED
+4.20.9
+Cactus Communications Services Pte Ltd  20 McCallum Street, #19-01, Tokio Marine Centre, Singapore 069046
+Copyright 2026 Cactus Communications. All rights reserved.
+Privacy Policy
+Cookies Policy
+Terms of Use
+Careers
+
+=== 計費模式: 月繳 (monthly) ===
+Features 
+Chevron down
+Pricing
+Plugins 
+Chevron down
+Login
+Get Started
+Plans that progress with your research
+
+Trusted by 5M+ researchers and students worldwide
+
+Monthly
+Annual Save 52%
+Free
+
+Try every tool, get to know Paperpal
+
+$0 / mo
+
+No credit card required
+
+Get Started
+Check
+
+Checks
+
+Period
+
+200 edits / mo Grammar
+
+Period
+
+Lite Report Plagiarism
+
+Period
+
+Preview AI detection
+
+Period
+
+Lite Report Journal Fit
+ 
+
+Check
+
+AgentsNEW
+
+Period
+
+Limited Usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+5 / day Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+5 / day Research Q&A + Citation lookup
+
+Period
+
+5 files / mo Chat with papers
+
+Period
+
+300 MB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Limited AI-assisted  figure generation
+
+Period
+
+PNG download
+
+Prime
+
+For academic writing and coursework all year round
+
+$25 / mo
+
+$25 Billed monthly
+
+Choose Prime
+Check
+
+Checks
+
+Period
+
+20k edits / mo Grammar + Consistency
+
+Period
+
+10k words / mo Plagiarism
+
+Period
+
+25k words / mo AI Detection
+
+Period
+
+Lite report Journal Fit 
+
+Period
+
+10k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+10X more usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+500 / mo Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+500 / mo Q&A + Citation lookup
+
+Period
+
+150 files / mo Chat with papers
+
+Period
+
+2 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Pro
+
+For high-stakes work - papers, theses, clinical documents
+
+$59 / mo
+
+$59 Billed monthly
+
+Choose Pro
+Check
+
+Checks
+
+Period
+
+Unlimited edits Grammar + Consistency
+
+Period
+
+30k words / mo Plagiarism
+
+Period
+
+Unlimited AI Detection
+
+Period
+
+Unlimited + Full report Journal Fit 
+
+Period
+
+30k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+Unlimited Usage (Promotional Period)
+
+Check
+
+Writing & Polishing
+
+Period
+
+Unlimited Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+Unlimited Research Q&A + Citation lookup
+
+Period
+
+500 files / mo Chat with papers
+
+Period
+
+10 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Period
+
+Custom expert-designed illustration
+
+Shield Check
+100% money back guarantee
+
+grid
+Pause your subscription
+
+Thumbs Up
+Cancel anytime
+
+See full feature comparison ↓
+Paperpal Works Where You Read & Write
+
+No new tabs. No copy-pasting. Just seamless writing support, right where you are.
+
+MS Word Add-in
+Chrome Extension
+Supports Google Docs and Overleaf
+Microsoft Edge
+Supports Google Docs and Overleaf
+Prime
+Multi-year Saver Plan *
+Get all prime benefits at a one-time price, while saving upto 33% compared to the annual plan of $144
+2 year
+Save 20%
+$9.54 per month
+Pay $229 once
+MOST SAVINGS
+3 year
+Save 33%
+$8.02 per month
+Pay $289 once
+
+Continue to pay $289
+
+Repeat
+No auto-renewal
+
+Coins
+Get all future features at no extra cost
+
+unlock
+Unlock better savings
+
+money bill wave
+Utilize your academic funds
+
+* Multi-year saver plan option is only available with Prime tier and not Pro.
+Bring your Enterprise/Institution on board
+Simplify access management, collaborate through shared libraries, and unlock institution-wide pricing for your teams. Contact us to start your free trial.
+Get in Touch
+Why every academic prefers Paperpal
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+Used by 5M+ Academics worldwide
+Perfected 10B+ words of academic text
+Rated Excellent on Trustpilot
+Compare plans, feature by feature
+Monthly
+Annual
+SAVE 52%
+	
+
+Free
+
+$0/mo
+
+
+Get Started
+	
+
+Prime
+
+$12/mo
+
+
+Continue to pay $144
+	
+
+Pro
+
+$29/mo
+
+
+Continue to pay $348
+
+
+
+CHECKS
+
+	
+
+	
+
+	
+
+
+
+
+Grammar & language suggestions 
+Circle info
+
+	
+
+CheckSolid
+
+	
+
+20k edits / mo
+
+	
+
+Unlimited
+
+
+
+
+Consistency Checks 
+Circle info
+
+	
+
+-
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Plagiarism Check 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AI Detection 
+Circle info
+
+	
+
+Limited Preview
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Journal fit 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+Lite Report
+
+	
+
+Unlimited + Full Report
+
+
+
+
+Reference Check 
+Circle info
+
+	
+
+-
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AGENTSNEW
+
+	
+
+	
+
+	
+
+
+
+
+Research & Writing Agents 
+Circle info
+
+	
+
+Limited
+
+	
+
+10X more usage
+
+	
+
+Unlimited usage
+(promotional period)
+
+
+
+
+WRITE & POLISH
+
+	
+
+	
+
+	
+
+
+
+
+Paraphrase, Trim, Translate,
+AI Review + more 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Version history
+
+	
+
+	
+
+	
+
+
+
+
+Export document
+
+docx and pdf
+
+	
+
+	
+
+	
+
+
+
+
+Share document
+
+up to 5 collaborators
+
+	
+
+	
+
+	
+
+
+
+
+RESEARCH, READ & MANAGE REFERENCES
+
+	
+
+	
+
+	
+
+
+
+
+Ask questions, cite text 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Chat with papers 
+Circle info
+
+Supports multiple pdfs
+
+	
+
+5 files / mo
+
+	
+
+150 files / mo
+
+	
+
+500 files / mo
+
+
+
+
+Library Cloud Storage
+
+	
+
+300 MB
+
+	
+
+2 GB
+
+	
+
+10 GB
+
+
+
+
+Citation formatting 
+Circle info
+
+APA, MLA + 10,000 styles
+
+	
+
+Plain text
+
+	
+
+	
+
+
+
+
+Automated bibliography
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Web Importer
+
+Chrome & Edge
+
+	
+
+	
+
+	
+
+
+
+
+ILLUSTRATEBETA
+
+	
+
+	
+
+	
+
+
+
+
+AI-assisted figure generation 
+Circle info
+
+	
+
+Limited
+
+	
+
+Full
+
+	
+
+Full
+
+
+
+
+High-resolution SVG exports
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+25,000+ expert designed illustrations
+
+With full copyright
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Custom expert - designed illustration
+
+	
+
+-
+
+	
+
+-
+
+	
+
+1 / mo
+
+
+
+
+OTHER BENEFITS
+
+	
+
+	
+
+	
+
+
+
+
+Faster editing speed
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Early access to new features
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Weekly live AMA sessions
+
+	
+
+-
+
+	
+
+	
+
+Frequently Asked Questions
+Do you bill in local currencies? What are the available invoice types?
+We offer billing in local currencies. We plan to support more currencies and invoicing options in future. Write to us at hello@paperpal.com with your requirements so that we can consider this down the road.
+What are the payment methods available?
+Do you offer student discounts?
+I have a discount code to purchase Paperpal paid plans, how can I apply it?
+Will my subscription be auto-renewed upon expiry?
+Can I cancel my subscription once I purchase?
+Show More
+Get Paperpal
+Paperpal for MS Word
+Paperpal for Google Docs
+Paperpal for Chrome
+Paperpal for Overleaf
+Paperpal on Web
+Write & Improve
+AI Writing Assistant
+AI Paraphraser
+Sentence Rewriter
+Translate
+Templates
+Search & Cite
+Chat with PDFs
+AI Text Summarizer
+AI Reference Finder
+Citation Generator
+Check & Finalize
+Grammar Checker
+AI Proofreader
+Plagiarism Checker
+AI Detector
+Reference Checker
+Submission Readiness Checker
+Learn More
+Pricing
+Affiliate Program
+Data Security
+Refer and Earn
+Trust Center
+Paperpal Blog
+What's New?
+FAQs
+Sitemap
+Contact Us
+Regional Websites
+Paperpal for China
+Paperpal for Korea
+Paperpal for Japan
+Solutions
+For Researchers
+For Students
+For Universities
+For Publishers
+Paperpal Preflight
+Paperpal for Life Sciences
+Compare Paperpal
+Paperpal vs ChatGPT
+Paperpal vs Grammarly
+Paperpal vs Turnitin
+Paperpal vs QuillBot
+Paperpal vs Jenni
+Whitepaper
+Developer Tools
+LLMs Overview
+LLM Index
+Connect with us
+Your Documents are always Safe
+ISO/IEC 42001:2023 CERTIFIED
+4.20.9
+Cactus Communications Services Pte Ltd  20 McCallum Street, #19-01, Tokio Marine Centre, Singapore 069046
+Copyright 2026 Cactus Communications. All rights reserved.
+Privacy Policy
+Cookies Policy
+Terms of Use
+Careers
+
+=== 計費模式: 年繳 (yearly) ===
+Features 
+Chevron down
+Pricing
+Plugins 
+Chevron down
+Login
+Get Started
+Plans that progress with your research
+
+Trusted by 5M+ researchers and students worldwide
+
+Monthly
+Annual Save 52%
+Free
+
+Try every tool, get to know Paperpal
+
+$0 / mo
+
+No credit card required
+
+Get Started
+Check
+
+Checks
+
+Period
+
+200 edits / mo Grammar
+
+Period
+
+Lite Report Plagiarism
+
+Period
+
+Preview AI detection
+
+Period
+
+Lite Report Journal Fit
+ 
+
+Check
+
+AgentsNEW
+
+Period
+
+Limited Usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+5 / day Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+5 / day Research Q&A + Citation lookup
+
+Period
+
+5 files / mo Chat with papers
+
+Period
+
+300 MB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Limited AI-assisted  figure generation
+
+Period
+
+PNG download
+
+Prime
+
+For academic writing and coursework all year round
+
+$12 / mo
+
+$144 Billed annually
+
+Choose Prime
+Check
+
+Checks
+
+Period
+
+20k edits / mo Grammar + Consistency
+
+Period
+
+10k words / mo Plagiarism
+
+Period
+
+25k words / mo AI Detection
+
+Period
+
+Lite report Journal Fit 
+
+Period
+
+10k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+10X more usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+500 / mo Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+500 / mo Q&A + Citation lookup
+
+Period
+
+150 files / mo Chat with papers
+
+Period
+
+2 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Pro
+
+For high-stakes work - papers, theses, clinical documents
+
+$29 / mo
+
+$348 Billed annually
+
+Choose Pro
+Check
+
+Checks
+
+Period
+
+Unlimited edits Grammar + Consistency
+
+Period
+
+30k words / mo Plagiarism
+
+Period
+
+Unlimited AI Detection
+
+Period
+
+Unlimited + Full report Journal Fit 
+
+Period
+
+30k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+Unlimited Usage (Promotional Period)
+
+Check
+
+Writing & Polishing
+
+Period
+
+Unlimited Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+Unlimited Research Q&A + Citation lookup
+
+Period
+
+500 files / mo Chat with papers
+
+Period
+
+10 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Period
+
+Custom expert-designed illustration
+
+Shield Check
+100% money back guarantee
+
+grid
+Pause your subscription
+
+Thumbs Up
+Cancel anytime
+
+See full feature comparison ↓
+Paperpal Works Where You Read & Write
+
+No new tabs. No copy-pasting. Just seamless writing support, right where you are.
+
+MS Word Add-in
+Chrome Extension
+Supports Google Docs and Overleaf
+Microsoft Edge
+Supports Google Docs and Overleaf
+Prime
+Multi-year Saver Plan *
+Get all prime benefits at a one-time price, while saving upto 33% compared to the annual plan of $144
+2 year
+Save 20%
+$9.54 per month
+Pay $229 once
+MOST SAVINGS
+3 year
+Save 33%
+$8.02 per month
+Pay $289 once
+
+Continue to pay $229
+
+Repeat
+No auto-renewal
+
+Coins
+Get all future features at no extra cost
+
+unlock
+Unlock better savings
+
+money bill wave
+Utilize your academic funds
+
+* Multi-year saver plan option is only available with Prime tier and not Pro.
+Bring your Enterprise/Institution on board
+Simplify access management, collaborate through shared libraries, and unlock institution-wide pricing for your teams. Contact us to start your free trial.
+Get in Touch
+Why every academic prefers Paperpal
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+Used by 5M+ Academics worldwide
+Perfected 10B+ words of academic text
+Rated Excellent on Trustpilot
+Compare plans, feature by feature
+Monthly
+Annual
+SAVE 52%
+	
+
+Free
+
+$0/mo
+
+
+Get Started
+	
+
+Prime
+
+$12/mo
+
+
+Continue to pay $144
+	
+
+Pro
+
+$29/mo
+
+
+Continue to pay $348
+
+
+
+CHECKS
+
+	
+
+	
+
+	
+
+
+
+
+Grammar & language suggestions 
+Circle info
+
+	
+
+CheckSolid
+
+	
+
+20k edits / mo
+
+	
+
+Unlimited
+
+
+
+
+Consistency Checks 
+Circle info
+
+	
+
+-
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Plagiarism Check 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AI Detection 
+Circle info
+
+	
+
+Limited Preview
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+
+
+
+Journal fit 
+Circle info
+
+	
+
+Lite Report
+
+	
+
+Lite Report
+
+	
+
+Unlimited + Full Report
+
+
+
+
+Reference Check 
+Circle info
+
+	
+
+-
+
+	
+
+10k words / mo
+
+	
+
+30k words / mo
+
+
+
+
+AGENTSNEW
+
+	
+
+	
+
+	
+
+
+
+
+Research & Writing Agents 
+Circle info
+
+	
+
+Limited
+
+	
+
+10X more usage
+
+	
+
+Unlimited usage
+(promotional period)
+
+
+
+
+WRITE & POLISH
+
+	
+
+	
+
+	
+
+
+
+
+Paraphrase, Trim, Translate,
+AI Review + more 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Version history
+
+	
+
+	
+
+	
+
+
+
+
+Export document
+
+docx and pdf
+
+	
+
+	
+
+	
+
+
+
+
+Share document
+
+up to 5 collaborators
+
+	
+
+	
+
+	
+
+
+
+
+RESEARCH, READ & MANAGE REFERENCES
+
+	
+
+	
+
+	
+
+
+
+
+Ask questions, cite text 
+Circle info
+
+	
+
+5 uses / day
+
+	
+
+500 / mo
+
+	
+
+Unlimited
+
+
+
+
+Chat with papers 
+Circle info
+
+Supports multiple pdfs
+
+	
+
+5 files / mo
+
+	
+
+150 files / mo
+
+	
+
+500 files / mo
+
+
+
+
+Library Cloud Storage
+
+	
+
+300 MB
+
+	
+
+2 GB
+
+	
+
+10 GB
+
+
+
+
+Citation formatting 
+Circle info
+
+APA, MLA + 10,000 styles
+
+	
+
+Plain text
+
+	
+
+	
+
+
+
+
+Automated bibliography
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Web Importer
+
+Chrome & Edge
+
+	
+
+	
+
+	
+
+
+
+
+ILLUSTRATEBETA
+
+	
+
+	
+
+	
+
+
+
+
+AI-assisted figure generation 
+Circle info
+
+	
+
+Limited
+
+	
+
+Full
+
+	
+
+Full
+
+
+
+
+High-resolution SVG exports
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+25,000+ expert designed illustrations
+
+With full copyright
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Custom expert - designed illustration
+
+	
+
+-
+
+	
+
+-
+
+	
+
+1 / mo
+
+
+
+
+OTHER BENEFITS
+
+	
+
+	
+
+	
+
+
+
+
+Faster editing speed
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Early access to new features
+
+	
+
+-
+
+	
+
+	
+
+
+
+
+Weekly live AMA sessions
+
+	
+
+-
+
+	
+
+	
+
+Frequently Asked Questions
+Do you bill in local currencies? What are the available invoice types?
+We offer billing in local currencies. We plan to support more currencies and invoicing options in future. Write to us at hello@paperpal.com with your requirements so that we can consider this down the road.
+What are the payment methods available?
+Do you offer student discounts?
+I have a discount code to purchase Paperpal paid plans, how can I apply it?
+Will my subscription be auto-renewed upon expiry?
+Can I cancel my subscription once I purchase?
+Show More
+Get Paperpal
+Paperpal for MS Word
+Paperpal for Google Docs
+Paperpal for Chrome
+Paperpal for Overleaf
+Paperpal on Web
+Write & Improve
+AI Writing Assistant
+AI Paraphraser
+Sentence Rewriter
+Translate
+Templates
+Search & Cite
+Chat with PDFs
+AI Text Summarizer
+AI Reference Finder
+Citation Generator
+Check & Finalize
+Grammar Checker
+AI Proofreader
+Plagiarism Checker
+AI Detector
+Reference Checker
+Submission Readiness Checker
+Learn More
+Pricing
+Affiliate Program
+Data Security
+Refer and Earn
+Trust Center
+Paperpal Blog
+What's New?
+FAQs
+Sitemap
+Contact Us
+Regional Websites
+Paperpal for China
+Paperpal for Korea
+Paperpal for Japan
+Solutions
+For Researchers
+For Students
+For Universities
+For Publishers
+Paperpal Preflight
+Paperpal for Life Sciences
+Compare Paperpal
+Paperpal vs ChatGPT
+Paperpal vs Grammarly
+Paperpal vs Turnitin
+Paperpal vs QuillBot
+Paperpal vs Jenni
+Whitepaper
+Developer Tools
+LLMs Overview
+LLM Index
+Connect with us
+Your Documents are always Safe
+ISO/IEC 42001:2023 CERTIFIED
+4.20.9
+Cactus Communications Services Pte Ltd  20 McCallum Street, #19-01, Tokio Marine Centre, Singapore 069046
+Copyright 2026 Cactus Communications. All rights reserved.
+Privacy Policy
+Cookies Policy
+Terms of Use
+Careers
+
+=== 計費模式: 月繳 (monthly) #2 ===
+Features 
+Chevron down
+Pricing
+Plugins 
+Chevron down
+Login
+Get Started
+Plans that progress with your research
+
+Trusted by 5M+ researchers and students worldwide
+
+Monthly
+Annual Save 52%
+Free
+
+Try every tool, get to know Paperpal
+
+$0 / mo
+
+No credit card required
+
+Get Started
+Check
+
+Checks
+
+Period
+
+200 edits / mo Grammar
+
+Period
+
+Lite Report Plagiarism
+
+Period
+
+Preview AI detection
+
+Period
+
+Lite Report Journal Fit
+ 
+
+Check
+
+AgentsNEW
+
+Period
+
+Limited Usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+5 / day Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+5 / day Research Q&A + Citation lookup
+
+Period
+
+5 files / mo Chat with papers
+
+Period
+
+300 MB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Limited AI-assisted  figure generation
+
+Period
+
+PNG download
+
+Prime
+
+For academic writing and coursework all year round
+
+$12 / mo
+
+$144 Billed annually
+
+Choose Prime
+Check
+
+Checks
+
+Period
+
+20k edits / mo Grammar + Consistency
+
+Period
+
+10k words / mo Plagiarism
+
+Period
+
+25k words / mo AI Detection
+
+Period
+
+Lite report Journal Fit 
+
+Period
+
+10k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+10X more usage
+
+Check
+
+Writing & Polishing
+
+Period
+
+500 / mo Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+500 / mo Q&A + Citation lookup
+
+Period
+
+150 files / mo Chat with papers
+
+Period
+
+2 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Pro
+
+For high-stakes work - papers, theses, clinical documents
+
+$29 / mo
+
+$348 Billed annually
+
+Choose Pro
+Check
+
+Checks
+
+Period
+
+Unlimited edits Grammar + Consistency
+
+Period
+
+30k words / mo Plagiarism
+
+Period
+
+Unlimited AI Detection
+
+Period
+
+Unlimited + Full report Journal Fit 
+
+Period
+
+30k words / mo Reference Check
+
+Check
+
+AgentsNEW
+
+Period
+
+Unlimited Usage (Promotional Period)
+
+Check
+
+Writing & Polishing
+
+Period
+
+Unlimited Paraphrase, Trim, Translate, AI Review + more
+
+Check
+
+Research & LibraryNEW
+
+Period
+
+Unlimited Research Q&A + Citation lookup
+
+Period
+
+500 files / mo Chat with papers
+
+Period
+
+10 GB Library storage
+
+Check
+
+Illustrate BETA
+
+Period
+
+Full AI-assisted figure generation
+
+Period
+
+High-res SVG exports
+
+Period
+
+Custom expert-designed illustration
+
+Shield Check
+100% money back guarantee
+
+grid
+Pause your subscription
+
+Thumbs Up
+Cancel anytime
+
+See full feature comparison ↓
+Paperpal Works Where You Read & Write
+
+No new tabs. No copy-pasting. Just seamless writing support, right where you are.
+
+MS Word Add-in
+Chrome Extension
+Supports Google Docs and Overleaf
+Microsoft Edge
+Supports Google Docs and Overleaf
+Prime
+Multi-year Saver Plan *
+Get all prime benefits at a one-time price, while saving upto 33% compared to the annual plan of $144
+2 year
+Save 20%
+$9.54 per month
+Pay $229 once
+MOST SAVINGS
+3 year
+Save 33%
+$8.02 per month
+Pay $289 once
+
+Continue to pay $289
+
+Repeat
+No auto-renewal
+
+Coins
+Get all future features at no extra cost
+
+unlock
+Unlock better savings
+
+money bill wave
+Utilize your academic funds
+
+* Multi-year saver plan option is only available with Prime tier and not Pro.
+Bring your Enterprise/Institution on board
+Simplify access management, collaborate through shared libraries, and unlock institution-wide pricing for your teams. Contact us to start your free trial.
+Get in Touch
+Why every academic prefers Paperpal
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+
+"I can't recommend Paperpal enough for teachers. My students can now refine writing and grammar without losing their unique style and I can give efficient feedback so they learn faster. Paperpal has saved time and elevated my classroom assignments."
+
+Dimitrios Gkaveras
+Professor, Leonteios Nea Smyrni, Greece
+
+“My article was not that good. After putting it through Paperpal, now the article has been accepted for publication."
+
+Cristiane Titto
+Professor, Université Paris Cité, Sorbonne, Paris
+
+"Paperpal has revolutionized my writing! It takes my ideas and adds in its magic and makes it so much better. I can't consider working on my writing without the help of Paperpal."
+
+Jenny Dee
+Teacher, University of Technology, Sydney
+
+"I write about 5-8 emails per day for the US team. I love how Paperpal makes sentences sound personal, yet academic, unlike ChatGPT, which makes sentences very hard and formal."
+
+Cristina Martin
+Digital Analyst, e-commerce, Molson Coors, Romania
+
+"As a researcher and professor, I like Paperpal for its editing quality and comprehensive features for writing and submitting journal manuscripts. I recommend it to my undergraduate and graduate students."
+
+Ricardo Cobucci
+Professor, Potiguar University, Brazil
+
+"Paperpal has saved me from grammar mistakes and possible bad grades as a student. It doesn’t make mistakes like Grammarly and has always perfectly edited every essay. I highly recommend Paperpal, it has helped me immensely through high school and college."
+
+Talia Kim
+Student, USA
+
+"Ever since I’ve been using Paperpal I haven’t received one mark against my grammar. I went from getting B’s on my papers to A’s. Now instead of dreading writing papers, I look forward to it because of Paperpal."
+
+Angela Jones
+Student, Southern New Hampshire University, USA
+
+"Paperpal doesn't just edit my writing; it boosts my confidence. With Paperpal, I feel assured that my arguments are well-structured, my language is clear and concise, and my paper meets the high standards of academic publishing."
+
+Darryl Sutphin
+Graduate Student, Georgia Institute of Technology, USA
+
+"Paperpal has increased my productivity and made it easier to finalize ideas and projects. Paperpal also corrects my non-native English to sound professional and academic. I highly recommend it to everyone from students to experienced researchers."
+
+Ivan Šitum
+PhD Student, Univesity Hospital Center Zagreb, Croatia
+
+"Paperpal helped me cut down several hours in finding, reading, and verifying research articles. This freed-up time is now better allocated to essential tasks like securing more work and contracts."
+
+James Lembeck
+Senior Researcher, Colorado Therapeutic Enterprises, USA
+
+"With Paperpal, I can think and write confidently without any reservations knowing that it will articulate my ideas clearly. Paperpal is invaluable for researchers looking to enhance their writing skills and communicate more effectively."
+
+Soha Elzalabany
+Mid-career Researcher, American University in Cairo, Egypt
+
+"As a researcher, proofreading with Paperpal's language suggestions comes in handy in ensuring timely delivery of manuscripts and stress-free collaboration with international partners."
+
+Wilson Gbedema
+PhD Student, Knust, Ghana
+
+"I have tried a lot of AIs and by far Paperpal has given me what I prefer— high-quality academic writing. It makes fact-checking easy and offers the right writing and editing support needed in the academic domain."
+
+Jaclyn Azuela
+Professor, University of the Immaculate Conception, Philippines
+
+"I was amazed at how Paperpal helped me develop a new research proposal. The Research and Cite features dramatically reduced the time spent on literature search and the detailed editing mode fine-tuned my draft for submission."
+
+Dr. Greg Carey
+Former Lecturer, Finders University, Australia
+
+"I started using Paperpal for my final year project write up and literature review. It provides academic language changes that no other assistive technology I have used has been able to provide. I would recommend Paperpal to anyone writing essays or papers in an academic setting."
+
+Jessica Campbell
+Pharmacy Student, Queens University Belfast, United Kingdom
+Used by 5M+ Academics worldwide
+Perfected 10B+ words of academic text
+Rated Excellent on Trustpilot
+Compare plans, feature by feature
+Monthly
+Annual
+SAVE 52%
+	
+
+Free
+
+$0/mo
+
+
+Get Started
+	
+
+Prime
+
+$25/mo
+
+
+Continue to pay $25
+	
+
+Pro
+
+$59/mo
+
+
+Continue to pay $59
 
 
 

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Contact sales
 Sign up
@@ -156,6 +157,179 @@ Get Business
 USD
 ---
 266USD/mo after 14 days
+---
+Try free for 14 days
+Trusted by 95% of the Fortune 500
+---
+What are the benefits of a paid vs free plan?
+---
+What’s included in the free plan?
+---
+Do you offer discounts if I pay yearly instead of monthly?
+---
+Yes, for annual plans you will receive a discount. Depending on the plan you select, you could be saving up to 16% with an annual plan.
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Contact sales
+Sign up
+Get started with AI forms
+Monthly
+Yearly
+(Save 30%)
+---
+6+ users, SSO, dedicated support
+Contact sales
+→
+---
+Includes:
+100 responses/mo included
+1 user
+---
+Includes:
+1,000 responses/mo included
+3 users
+---
+Includes:
+10,000 responses/mo included
+5 users
+---
+USD
+/
+mo
+---
+379USD/mo after 14 days
+---
+Try free for 14 days
+Credit card required
+Includes:
+10,000 responses/mo included
+5 users
+Features you'll love:
+Enrich 1,500 responses /mo
+Smart Insights
+Contacts & Automations add-on included for free
+Multi-language forms
+---
+Email and text (SMS) follow-ups
+Priority support and live chat
+See all features
+Free trial
+Need a plan for HR teams? See Talent plan details — starting at 119 USD/mo
+Enterprise
+---
+Custom plans to support your growth with limitless responses, dedicated account management, and enterprise-grade security.
+---
+Contact sales
+Custom responses & seats
+---
+Add-on
+2,400actions/month
+---
+Available on all plans except Free and Basic
+---
+USD
+/mo
+---
+Billed monthly
+---
+Add-on
+12,000actions/month
+---
+Available on all plans except Free, Basic, and Plus
+---
+USD
+/mo
+---
+Billed monthly
+---
+Add-on
+Customactions/month
+---
+USD
+/mo
+---
+Billed monthly
+---
+Contact sales
+Centralize and manage your contacts
+---
+Contact sales
+Learn more
+---
+Still undecided? Try our Free plan then upgrade when you’re ready.
+---
+Compare all plans
+Monthly
+Yearly
+(Save 30%)
+---
+USD
+per month
+Get Basic
+---
+USD
+per month
+Get Plus
+---
+USD
+per month
+Get Business
+---
+0
+---
+USD
+---
+379USD/mo after 14 days
+---
+Try free for 14 days
+Usage limits
+---
+5
+Monthly response base
+100
+---
+10,000
+Maximum monthly response limit
+750
+---
+50,000
+Monthly enrichment base
+Not available
+---
+1,500
+Maximum monthly enrichment limit
+Not available
+---
+5,000
+*Monthly video question views
+Not available
+---
+50,000
+*Monthly video answers
+Not available
+---
+Enterprise only
+Monthly
+Yearly
+(Save 30%)
+---
+USD
+per month
+Get Basic
+---
+USD
+per month
+Get Plus
+---
+USD
+per month
+Get Business
+---
+0
+---
+USD
+---
+379USD/mo after 14 days
 ---
 Try free for 14 days
 Trusted by 95% of the Fortune 500

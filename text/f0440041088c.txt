@@ -11,7 +11,7 @@ Log In
 Customer Support
 Get Started for Free
 
-Design a plan around your team's research goals
+Connect with our sales team for scalable pricing
 
 We offer flexible subscription options, from enterprise-wide solutions to per-seat pricing, to fit your organization's needs. Whether you’re a small team or a global operation, we tailor our plans to maximize your value.
 
@@ -431,7 +431,7 @@ What is AlphaSense?
 
 AlphaSense is the AI platform redefining market intelligence for business and finance. With the world’s largest content library that includes premium, proprietary, public, and private sources, as well as AI technology that extracts key insights and delivers analysis-ready outputs, AlphaSense helps you make smarter business decisions, expedite your research workflows, and get the competitive edge.
 
-Founded in 2011 by Jack Kokko (CEO) and Raj Neervannan (CTO), AlphaSense was built to solve a problem Kokko experienced firsthand as an investment banker at Morgan Stanley: the inefficiency of manual research. Today, AlphaSense serves over 7,000+ enterprise customers, including 90% of the S&P 100, 90% of the top investment banks, and 95% of the top consultancies.
+Founded in 2011 by Jack Kokko (CEO) and Raj Neervannan (CTO), AlphaSense was built to solve a problem Kokko experienced firsthand as an investment banker at Morgan Stanley: the inefficiency of manual research. Today, AlphaSense serves over 8,000+ enterprise customers, including 92% of the S&P 100, 90% of the top investment banks, and 95% of the top consultancies.
 
 What Data and Content Sets are Available in AlphaSense?
 
@@ -450,7 +450,7 @@ Organizations can also integrate their own internal documents through Enterprise
 
 Who Uses AlphaSense?
 
-AlphaSense serves 7,000+ enterprise customers across financial services (investment banking, private equity, hedge funds, asset management, venture capital), corporations (life sciences, technology, energy, industrials, consumer goods), and professional services (consulting, law firms, insurance). Additionally, 90% of S&P 100 companies use the platform.
+AlphaSense serves 8,000+ enterprise customers across financial services (investment banking, private equity, hedge funds, asset management, venture capital), corporations (life sciences, technology, energy, industrials, consumer goods), and professional services (consulting, law firms, insurance). Additionally, 92% of S&P 100 companies use the platform.
 
 Functions commonly served include: competitive intelligence, market intelligence, corporate strategy, business strategy, corporate finance, business intelligence, investor relations, corporate development, M&A, investment research, consulting, and more.
 

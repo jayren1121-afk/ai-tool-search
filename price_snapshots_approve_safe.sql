@@ -9,9 +9,9 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dify' and fetched_at = '2026-10-16T12:11:18+08:00'::timestamptz;  -- Dify
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'deepl' and fetched_at = '2026-10-16T12:11:20+08:00'::timestamptz;  -- DeepL
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'spline' and fetched_at = '2026-10-16T12:12:01+08:00'::timestamptz;  -- Spline
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hedra' and fetched_at = '2026-10-12T13:29:33+08:00'::timestamptz;  -- Hedra
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'llamaindex' and fetched_at = '2026-10-12T13:29:41+08:00'::timestamptz;  -- LlamaIndex
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'plus-ai' and fetched_at = '2026-10-12T13:30:02+08:00'::timestamptz;  -- Plus AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'llamaindex' and fetched_at = '2026-10-17T12:10:55+08:00'::timestamptz;  -- LlamaIndex
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'paperpal' and fetched_at = '2026-10-17T12:11:02+08:00'::timestamptz;  -- Paperpal
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'plus-ai' and fetched_at = '2026-10-17T12:11:28+08:00'::timestamptz;  -- Plus AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'stable-audio' and fetched_at = '2026-10-12T13:32:27+08:00'::timestamptz;  -- Stable Audio
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'apollo' and fetched_at = '2026-10-12T13:32:38+08:00'::timestamptz;  -- Apollo.io
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'sourcegraph-cody' and fetched_at = '2026-10-12T13:33:23+08:00'::timestamptz;  -- Sourcegraph Amp

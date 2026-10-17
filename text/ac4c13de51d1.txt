@@ -1,4 +1,4 @@
-未找到页面
-页面不存在，请确认网址是否正确。
-刷新页面
-返回首页
+Page not found
+This page doesn't exist. Check that the link is correct.
+Refresh
+Back to homepage

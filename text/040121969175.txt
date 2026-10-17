@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Products
 
 API/MCP
@@ -10,23 +11,23 @@ Company
 
 Get started
 
-Liner pricing plan
+350+ AI models. All in Liner
+
+Make the most of ChatGPT, Gemini, Claude, and the latest AI models and agents under one plan.
 
 Monthly
-
 Annual
-
-Save 20%
+Save 17%
 
 Free
 
-Begin your research with Liner
-
-$0.00
+$0
 
 Start for free
 
 100 credits per day
+
+Advanced search features
 
 Unlimited Advanced Search
 
@@ -38,19 +39,23 @@ Answers with ads
 
 Pro
 
-Powerful research tool for academics
-
 $17.99
 
 $14.99
 
 /month, billed annually
 
-Get Pro
+Get 17% off
 
 1,000 Agent credits/month
 
-One plan that applies across Liner, Liner Scholar, and Liner Write
+Use of 350+ top AI models
+
+Latest LLM models (300+): GPT-6.1 Sol, Claude Haiku 5.5, and more
+
+Latest image generation models (50+): GPT Image 2.5 Sunburst, Nano Banana 2 Lite, Grok Imagine Image 2.0, and more
+
+Advanced search features
 
 Unlimited Advanced Search
 
@@ -58,13 +63,13 @@ Access to Image Generation and Deep Research
 
 20 file uploads/day (up to 100MB/file)
 
-Use of major AI models (ChatGPT, Gemini, Claude)
+Ad-free
 
-Get answers without ads
+All Liner products
+
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
 
 Max
-
-Most advanced tool for research
 
 $35.99
 
@@ -72,11 +77,17 @@ $29.99
 
 /month, billed annually
 
-Get Max
+Get 17% off
 
 2,500 Agent credits/month
 
-One plan that applies across Liner, Liner Scholar, and Liner Write
+Use of 350+ top AI models
+
+Latest LLM models (300+): GPT-6.1 Sol, Claude Haiku 5.5, and more
+
+Latest image generation models (50+): GPT Image 2.5 Sunburst, Nano Banana 2 Lite, Grok Imagine Image 2.0, and more
+
+Advanced search features
 
 Unlimited Advanced Search
 
@@ -84,21 +95,23 @@ Access to Image Generation and Deep Research
 
 Unlimited file uploads/day (up to 200MB/file)
 
-Use of major AI models (ChatGPT, Gemini, Claude)
+Ad-free
 
-Get answers without ads
+All Liner products
+
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
 
 Team
 
 2-20 members
-
-Premium for the whole team, at a better price
 
 $26.99
 
 /month, per seat
 
 Contact us
+
+2,500 Agent credits/month
 
 Everything in Max and:
 
@@ -114,297 +127,813 @@ View details
 
 Enterprise
 
-Built for large organizations looking for flexibility, scale, and governance.
+For organizations
 
-Contact Liner
+All Team features, dedicated manager for custom solutions, onboarding sessions, audit logs for secure use, and volume discounts
 
-Everything in Team and:
+Contact Sales
 
-Dedicated manager for customized solutions
+Premium AI models in one plan. Without the premium price
 
-Onboarding sessions
+ChatGPT Plus
 
-Audit logs for secure usage
+Gemini Pro
 
-Higher discount rates
+Claude Pro
 
-Why pro is built for serious research
-More sources and accurate answers
-Generate Deep Research
-Multiple file uploads
-Advanced Search: Trusted Accuracy
+Pricing
 
-Liner search achieves higher accuracy using more carefully selected sources. In OpenAI accuracy tests (SimpleQA), it scored higher than ChatGPT's advanced model and the Perplexity Pro model.
+$17.99/month
 
-Detailed insights for early research
+$14.99/month
+(billed annually)
 
-Use Deep Research to gather comprehensive information on any topic. It delivers detailed, organized answers in a clear report format, making it especially valuable during the early stages of research.
+$20.00/month
 
-Upload what is most relevant to you
+$19.99/month
 
-Do you already have research papers or PDFs you want to analyze? With Liner, you can upload your documents to receive clear summaries of key points and focused insights to help you grasp materials related to your work.
+$20.00/month
 
-Save 25% when you team up
+LLM
 
-Everything on Liner Max plus enhanced security.
+318 LLM generation models
 
-Start team plan
+Latest updates
 
-View details
+Liner
+GPT-6.1 Sol
+Gemini 4 Argon
+Claude Haiku 5.5
+Grok 4.7
+Sonar Pro Search
+DeepSeek V4.1 Flash
++311 more
 
-Credit deduction guide
+OpenAI models
 
-Products
+GPT-6.1 Sol
+GPT-6.1 Sol Pro
+GPT-6 Luna
+GPT-6 Sol
+GPT-6 Luna Pro
+GPT-6 Sol Pro
+GPT-6 Astra
+GPT-6 Astra Pro
+GPT-5.6 Luna
+GPT-5.6 Sol
++45 more
 
-Features
+Google models
 
-Credits deducted
+Gemini 4 Argon
+Gemini 3.8 Flash
+Gemini 3.7 Flash
+Gemini 3.5 Flash Lite
+Gemini 3.6 Flash
+Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)
+Nano Banana 2 (Gemini 3.1 Flash Image)
+Nano Banana Pro (Gemini 3 Pro Image)
+Gemini 3.5 Flash
+Gemini 3.1 Flash Lite
++17 more
+
+Anthropic models
+
+Claude Haiku 5.5
+Claude Sonnet 5.5
+Claude Opus 5.5
+Claude Fable 5.1
+Claude Opus 5
+Claude Sonnet 5
+Claude Fable 5
+Claude Opus 4.8
+Claude Opus 4.7
+Claude Sonnet 4.6
++5 more
+
+SpaceXAI models
+
+Grok 4.7
+Grok 4.6
+Grok 4.5
+Grok Build 0.1
+Grok 4.3
+Grok 4.20
+Grok 4.20 Multi-Agent
+
+Perplexity models
+
+Sonar Pro Search
+Sonar Pro
+Sonar Reasoning Pro
+Sonar Deep Research
+Sonar
+
+DeepSeek models
+
+DeepSeek V4.1 Flash
+DeepSeek V4 Flash Vision Exp
+DeepSeek V4 Pro
+DeepSeek V4 Flash
+DeepSeek V3.2
+DeepSeek V3.2 Exp
+DeepSeek V3.1 Terminus
+DeepSeek V3.1
+R1
+DeepSeek V3 0324
++1 more
+
+Meta models
+
+Muse Spark Open
+Muse Wonder
+Muse Spark 1.3
+Muse Glimmer 30B
+Muse Spark 1.2
+Muse Spark 1.1
+Llama 4 Scout
+Llama 4 Maverick
+Llama 3.3 70B Instruct
+Llama 3.2 3B Instruct
++3 more
+
+ByteDance Seed models
+
+Seed 2.1 Turbo
+Seed-2.0-Code
+Seed-2.0-Lite
+Seed-2.0-Mini
+Seed 1.6 Flash
+Seed 1.6
+
+Moonshot AI models
+
+Kimi K3
+Kimi K2.7 Code
+Kimi K2.6
+Kimi K2.5
+Kimi K2 Thinking
+Kimi K2
+
+Qwen models
+
+Qwen3.8 Max Prime
+Qwen3.8 Omni Flash
+Qwen3.8 Max
+Qwen3.8 Flash
+Qwen3.8 27B
+Qwen3.8 2.4T A95B
+Qwen3.7 Flash
+Qwen3.7 Plus
+Qwen3.7 Max
+Qwen3.6 35B A3B
++31 more
+
+Mistral AI models
+
+Mistral Large 4
+Mistral Medium 3.5
+Mistral Small 4
+Devstral 2
+Ministral 3 8B
+Ministral 3 3B
+Ministral 3 14B
+Mistral Large 3
+Voxtral Small 24B
+Mistral Medium 3.1
++8 more
+
+Others
+
+Nova 2 Lite
+Nemotron 3.5 Super VL
+Granite 4.2 8B
+Hy4 preview
+MiMo-V2.6-Flash
+Solar Mini 4
+GLM 5.3 Prime
+MiniMax M3
++105 more
+
+OpenAI models only
+
+Google models only
+
+Anthropic models only
+
+Image generation
+
+55 image generation models
+
+OpenAI models
+
+GPT Image 2.5 Sunburst
+GPT Image 2.5 Flare
+GPT Image 2
+GPT Image 1 Mini
+GPT Image 1
+GPT-5.4 Image 2
+GPT-5 Image Mini
+GPT-5 Image
+
+Google models
+
+Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)
+Nano Banana 2 (Gemini 3.1 Flash Image)
+Nano Banana Pro (Gemini 3 Pro Image)
+Nano Banana 2 (Gemini 3.1 Flash Image Preview)
+Nano Banana Pro (Gemini 3 Pro Image Preview)
+Nano Banana (Gemini 2.5 Flash Image)
+
+SpaceXAI models
+
+Grok Imagine Image 2.0
+Grok Imagine Image Quality
+
+Meta models
+
+Muse Image
+
+Microsoft models
+
+MAI-Image-2.6
+MAI-Image-2.6 Flash
+MAI-Image-2.5 Pro
+MAI-Image-2.5
+
+ByteDance Seed models
+
+Seedream 5.0 Flash
+Seedream 5.0 Lite
+Seedream 5.0 Pro
+Seedream 4.5
+
+Others
+
+FLUX 3 Image Klein
+Qwen Image 2.1 Turbo
+Hy Image 3.5 Preview
+Recraft V4.1 Flash
+Krea 2 Medium Turbo
++25 more
+
+GPT Images only
+
+Nano Banana only
+
+X
+
+Search, research, and write, all in Liner
 
 Liner
 
-Deep Research
+Accurate everyday search
+AI for search
 
-40 credits/request
-
-Liner
-
-Premium external models
-
-30 credits/request
-
-Liner
-
-Other external models, image generation
-
-20 credits/request
+Get started
 
 Liner Scholar
 
-Hypothesis Evaluator, Survey Generator, Research Tracer
+Academic work
+AI for research
 
-30 credits/request
-
-Liner Scholar
-
-Literature Review
-
-40 credits/request
-
-Liner Scholar
-
-Citation Recommender
-
-50 credits/request
-
-Liner Scholar
-
-Hypothesis Generator, Peer Review
-
-60 credits/request
-
-Liner Scholar
-
-Survey Simulator
-
-80 credits/request
+Get started
 
 Liner Write
 
-Task request
+Professional drafts
+AI for writing
 
-Varies by request
+Get started
 
-Compare Liner pricing plans
+Save up to 17% with the annual plan
+
+Get a full year of 350+ AI models at one low price.
+
+Get started today
+
+Frequently Asked Questions
+
+Can I use Liner for free?
+
+Yes, but a free account offers limited credits which may run out quickly with just a few tasks. You can also access latest AI models, upload more files, search ad-free, and more when you upgrade.
+
+What payment methods do you accept?
+Do you offer refunds?
+How do I cancel my paid plan?
+What should I do if my plan doesn't upgrade after payment?
+
+PRODUCTS
+
+Liner
+
+Liner Scholar
+
+Liner Write
+
+Pricing
+
+API/MCP
+
+Liner API
+
+Liner Model API
+
+Liner Actions API
+
+API pricing
+
+Search MCP
+
+Scholar MCP
+
+API/MCP blog
+
+AGENTS
+
+AI research with Agents
+
+Hypothesis Generator
+
+Hypothesis Evaluator
+
+Citation Recommender
+
+Literature Review
+
+Research Tracer
+
+Survey Generator
+
+Survey Simulator
+
+Survey Peer Review
+
+RESOURCES
+
+Paper reviews
+
+Learn
+
+Press
+
+Support
+
+DOWNLOAD
+
+For iOS
+
+For Android
+
+For Mac
+
+For Windows
+
+For Chrome
+
+For Edge
+
+COMPANY
+
+About us
+
+Careers
+
+Privacy Policy
+
+Terms of Service
+
+Usage Policy
+
+Safety
+
+© 2026 Liner. All Rights Reserved.
+
+Do not sell or share my personal information
+
+Select language,
+EN
+
+=== 計費模式: 月繳 (monthly) ===
+Products
+
+API/MCP
+
+Pricing
+
+Resources
+
+Company
+
+Get started
+
+350+ AI models. All in Liner
+
+Make the most of ChatGPT, Gemini, Claude, and the latest AI models and agents under one plan.
+
+Monthly
+Annual
+Save 17%
 
 Free
 
-$0.00
+$0
 
 Start for free
 
+100 credits per day
+
+Advanced search features
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+1 file upload/day (up to 25MB/file)
+
+Answers with ads
+
 Pro
 
-$14.99
+$17.99
 
-/month, billed annually
+/month, billed monthly
 
 Get Pro
 
+1,000 Agent credits/month
+
+Use of 350+ top AI models
+
+Latest LLM models (300+): GPT-6.1 Sol, Claude Haiku 5.5, and more
+
+Latest image generation models (50+): GPT Image 2.5 Sunburst, Nano Banana 2 Lite, Grok Imagine Image 2.0, and more
+
+Advanced search features
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+20 file uploads/day (up to 100MB/file)
+
+Ad-free
+
+All Liner products
+
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
+
 Max
 
-$29.99
+$35.99
 
-/month, billed annually
+/month, billed monthly
 
 Get Max
 
+2,500 Agent credits/month
+
+Use of 350+ top AI models
+
+Latest LLM models (300+): GPT-6.1 Sol, Claude Haiku 5.5, and more
+
+Latest image generation models (50+): GPT Image 2.5 Sunburst, Nano Banana 2 Lite, Grok Imagine Image 2.0, and more
+
+Advanced search features
+
+Unlimited Advanced Search
+
+Access to Image Generation and Deep Research
+
+Unlimited file uploads/day (up to 200MB/file)
+
+Ad-free
+
+All Liner products
+
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
+
 Team
+
+2-20 members
 
 $26.99
 
 /month, per seat
 
-Contact us
+Get Team plan
+
+2,500 Agent credits/month
+
+Everything in Max and:
+
+Master account for centralized management and billing
+
+A secure, dedicated workspace with admin controls
+
+Team data excluded from AI training
+
+Early access to collaboration features
+
+View details
 
 Enterprise
 
-Custom
+For organizations
 
-Contact us
+All Team features, dedicated manager for custom solutions, onboarding sessions, audit logs for secure use, and volume discounts
 
-Search smarter
+Contact Sales
 
-Search with confidence, not doubt
+Premium AI models in one plan. Without the premium price
 
-Agent credits
+ChatGPT Plus
 
-0
+Gemini Pro
 
-1,000
+Claude Pro
+
+Pricing
+
+$17.99/month
+
+$14.99/month
+(billed annually)
 
-2,500
+$20.00/month
+
+$19.99/month
+
+$20.00/month
+
+LLM
+
+318 LLM generation models
+
+Latest updates
+
+Liner
+GPT-6.1 Sol
+Gemini 4 Argon
+Claude Haiku 5.5
+Grok 4.7
+Sonar Pro Search
+DeepSeek V4.1 Flash
++311 more
+
+OpenAI models
+
+GPT-6.1 Sol
+GPT-6.1 Sol Pro
+GPT-6 Luna
+GPT-6 Sol
+GPT-6 Luna Pro
+GPT-6 Sol Pro
+GPT-6 Astra
+GPT-6 Astra Pro
+GPT-5.6 Luna
+GPT-5.6 Sol
++45 more
+
+Google models
+
+Gemini 4 Argon
+Gemini 3.8 Flash
+Gemini 3.7 Flash
+Gemini 3.5 Flash Lite
+Gemini 3.6 Flash
+Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)
+Nano Banana 2 (Gemini 3.1 Flash Image)
+Nano Banana Pro (Gemini 3 Pro Image)
+Gemini 3.5 Flash
+Gemini 3.1 Flash Lite
++17 more
+
+Anthropic models
+
+Claude Haiku 5.5
+Claude Sonnet 5.5
+Claude Opus 5.5
+Claude Fable 5.1
+Claude Opus 5
+Claude Sonnet 5
+Claude Fable 5
+Claude Opus 4.8
+Claude Opus 4.7
+Claude Sonnet 4.6
++5 more
+
+SpaceXAI models
+
+Grok 4.7
+Grok 4.6
+Grok 4.5
+Grok Build 0.1
+Grok 4.3
+Grok 4.20
+Grok 4.20 Multi-Agent
+
+Perplexity models
+
+Sonar Pro Search
+Sonar Pro
+Sonar Reasoning Pro
+Sonar Deep Research
+Sonar
+
+DeepSeek models
+
+DeepSeek V4.1 Flash
+DeepSeek V4 Flash Vision Exp
+DeepSeek V4 Pro
+DeepSeek V4 Flash
+DeepSeek V3.2
+DeepSeek V3.2 Exp
+DeepSeek V3.1 Terminus
+DeepSeek V3.1
+R1
+DeepSeek V3 0324
++1 more
+
+Meta models
+
+Muse Spark Open
+Muse Wonder
+Muse Spark 1.3
+Muse Glimmer 30B
+Muse Spark 1.2
+Muse Spark 1.1
+Llama 4 Scout
+Llama 4 Maverick
+Llama 3.3 70B Instruct
+Llama 3.2 3B Instruct
++3 more
+
+ByteDance Seed models
+
+Seed 2.1 Turbo
+Seed-2.0-Code
+Seed-2.0-Lite
+Seed-2.0-Mini
+Seed 1.6 Flash
+Seed 1.6
+
+Moonshot AI models
+
+Kimi K3
+Kimi K2.7 Code
+Kimi K2.6
+Kimi K2.5
+Kimi K2 Thinking
+Kimi K2
+
+Qwen models
+
+Qwen3.8 Max Prime
+Qwen3.8 Omni Flash
+Qwen3.8 Max
+Qwen3.8 Flash
+Qwen3.8 27B
+Qwen3.8 2.4T A95B
+Qwen3.7 Flash
+Qwen3.7 Plus
+Qwen3.7 Max
+Qwen3.6 35B A3B
++31 more
+
+Mistral AI models
+
+Mistral Large 4
+Mistral Medium 3.5
+Mistral Small 4
+Devstral 2
+Ministral 3 8B
+Ministral 3 3B
+Ministral 3 14B
+Mistral Large 3
+Voxtral Small 24B
+Mistral Medium 3.1
++8 more
 
-2,500
+Others
 
-2,500
+Nova 2 Lite
+Nemotron 3.5 Super VL
+Granite 4.2 8B
+Hy4 preview
+MiMo-V2.6-Flash
+Solar Mini 4
+GLM 5.3 Prime
+MiniMax M3
++105 more
 
-Advanced Search
+OpenAI models only
 
-Unlimited
+Google models only
 
-Unlimited
+Anthropic models only
 
-Unlimited
+Image generation
 
-Unlimited
+55 image generation models
 
-Unlimited
+OpenAI models
 
-Scholar Mode
+GPT Image 2.5 Sunburst
+GPT Image 2.5 Flare
+GPT Image 2
+GPT Image 1 Mini
+GPT Image 1
+GPT-5.4 Image 2
+GPT-5 Image Mini
+GPT-5 Image
 
-Unlimited
+Google models
 
-Unlimited
+Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)
+Nano Banana 2 (Gemini 3.1 Flash Image)
+Nano Banana Pro (Gemini 3 Pro Image)
+Nano Banana 2 (Gemini 3.1 Flash Image Preview)
+Nano Banana Pro (Gemini 3 Pro Image Preview)
+Nano Banana (Gemini 2.5 Flash Image)
 
-Unlimited
+SpaceXAI models
 
-Unlimited
+Grok Imagine Image 2.0
+Grok Imagine Image Quality
 
-Unlimited
+Meta models
 
-Line-by-Line Citation
+Muse Image
 
-Unlimited
+Microsoft models
 
-Unlimited
+MAI-Image-2.6
+MAI-Image-2.6 Flash
+MAI-Image-2.5 Pro
+MAI-Image-2.5
 
-Unlimited
+ByteDance Seed models
 
-Unlimited
+Seedream 5.0 Flash
+Seedream 5.0 Lite
+Seedream 5.0 Pro
+Seedream 4.5
 
-Unlimited
+Others
 
-Latest Top AI Models
+FLUX 3 Image Klein
+Qwen Image 2.1 Turbo
+Hy Image 3.5 Preview
+Recraft V4.1 Flash
+Krea 2 Medium Turbo
++25 more
 
-File uploads
+GPT Images only
 
-Gather insights from any documents
+Nano Banana only
 
-File Upload
+X
 
-25MB × 1/question,
-once a day
+Search, research, and write, all in Liner
 
-100MB × 5/question,
-20 times a day
+Liner
 
-200MB × 20/question,
-Unlimited
+Accurate everyday search
+AI for search
 
-200MB × 20/question,
-Unlimited
+Get started
 
-200MB × 20/question,
-Unlimited
+Liner Scholar
 
-Manage your research workflow
+Academic work
+AI for research
 
-Stay organized, stay in flow
+Get started
 
-Search history
+Liner Write
 
-Unlimited
+Professional drafts
+AI for writing
 
-Unlimited
+Get started
 
-Unlimited
+Save up to 17% with the annual plan
 
-Unlimited
+Get a full year of 350+ AI models at one low price.
 
-Unlimited
-
-Research Assistant
-
-10/day
-
-Unlimited
-
-Unlimited
-
-Unlimited
-
-Unlimited
-
-Highlighting tool
-
-Unlimited
-
-Unlimited
-
-Unlimited
-
-Unlimited
-
-Unlimited
-
-Access anywhere
-
-Work seamlessly across devices
-
-Web
-
-App
-
-Browser extension
-
-Privacy & Security
-
-All plans include secure encryption and privacy-first design
-
-Data protection
-
-Audit logs
-
-Customer success
-
-Dedicated support to optimize the onboarding and use of your customized AI solution
-
-Dedicated success manager
-
-Onboarding sessions
+Get started today
 
 Frequently Asked Questions
 
 Can I use Liner for free?
+
 Yes, but a free account offers limited credits which may run out quickly with just a few tasks. You can also access latest AI models, upload more files, search ad-free, and more when you upgrade.
+
 What payment methods do you accept?
-Liner accepts major credit cards. For more information, please contact us.
 Do you offer refunds?
-We do not offer refunds but you can cancel your subscription before it automatically renews or before your free trial ends. To cancel your subscription, please visit Settings - Subscription.
 How do I cancel my paid plan?
-If you paid with card, please visit the settings page on our website to cancel your plan. Subscription will be automatically started or renewed until you cancel the plan.
-If you paid but were not upgraded.
-Upgrade can take time depending on the network condition. Please wait 5-10 minutes or refresh the page. If your account is still not upgraded, please contact us.
+What should I do if my plan doesn't upgrade after payment?
 
 PRODUCTS
 

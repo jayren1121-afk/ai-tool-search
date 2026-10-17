@@ -1,20 +1,19 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
----
 Annual
+Save 17%
 ---
 Free
 ---
-Begin your research with Liner
----
-$0.00
+$0
 ---
 Start for free
 ---
 100 credits per day
 ---
-Pro
+Answers with ads
 ---
-Powerful research tool for academics
+Pro
 ---
 $17.99
 ---
@@ -24,9 +23,11 @@ $14.99
 ---
 1,000 Agent credits/month
 ---
-Max
+Ad-free
 ---
-Most advanced tool for research
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
+---
+Max
 ---
 $35.99
 ---
@@ -36,63 +37,106 @@ $29.99
 ---
 2,500 Agent credits/month
 ---
-2-20 members
----
-Premium for the whole team, at a better price
----
-$26.99
----
-/month, per seat
----
-Credits deducted
----
-40 credits/request
----
-30 credits/request
----
-20 credits/request
----
-30 credits/request
----
-40 credits/request
----
-50 credits/request
----
-60 credits/request
----
-80 credits/request
----
-Compare Liner pricing plans
----
-Free
----
-$0.00
----
-Start for free
----
-Pro
----
-$14.99
----
-/month, billed annually
----
-Get Pro
----
-Max
----
-$29.99
----
-/month, billed annually
----
-Get Max
+Ad-free
 ---
 Team
 ---
+2-20 members
+---
 $26.99
 ---
 /month, per seat
 ---
-Agent credits
+2,500 Agent credits/month
+---
+Contact Sales
+---
+Claude Pro
+---
+Pricing
+---
+$17.99/month
+---
+$14.99/month
+(billed annually)
+---
+$20.00/month
+---
+$19.99/month
+---
+$20.00/month
+---
+LLM
+---
+Save up to 17% with the annual plan
 ---
 Can I use Liner for free?
-Yes, but a free account offers limited credits which may run out quickly with just a few tasks. You can also access latest AI models, upload more files, search ad-free, and more when you upgrade.
+=== 計費模式: 月繳 (monthly) ===
+Monthly
+Annual
+Save 17%
+---
+Free
+---
+$0
+---
+Start for free
+---
+100 credits per day
+---
+Answers with ads
+---
+Pro
+---
+$17.99
+---
+/month, billed monthly
+---
+1,000 Agent credits/month
+---
+Ad-free
+---
+Liner for AI search, Liner Scholar for AI research, and Liner Write for AI writing, all with one plan
+---
+Max
+---
+$35.99
+---
+/month, billed monthly
+---
+2,500 Agent credits/month
+---
+Ad-free
+---
+Team
+---
+2-20 members
+---
+$26.99
+---
+/month, per seat
+---
+2,500 Agent credits/month
+---
+Contact Sales
+---
+Claude Pro
+---
+Pricing
+---
+$17.99/month
+---
+$14.99/month
+(billed annually)
+---
+$20.00/month
+---
+$19.99/month
+---
+$20.00/month
+---
+LLM
+---
+Save up to 17% with the annual plan
+---
+Can I use Liner for free?

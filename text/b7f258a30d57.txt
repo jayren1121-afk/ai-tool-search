@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Cast is live on Product Hunt — Meet our new podcast editor →
 Products
 Pricing
@@ -333,6 +334,363 @@ Youtube Copyright Checker
 DMCA Twitch Checker
 Instagram Reels Checker
 TikTok Sound Checker
+Facebook Copyright Checker
+Other Products
+Mubert for Streamers
+Mubert for Business
+About
+Blog
+FAQ
+About
+Contacts
+
+Generate infinite music streams in 150+ moods and themes. Perfect for IRL, gaming, or creator streams that need non-stop, DMCA-free music.
+
+Mubert Inc
+8 The Green Dover
+Delaware US 19901
+business@mubert.com
+Eng
+
+© 2016 – 2026, Mubert Inc. All music broadcasted on *.mubert.com domains is generated (created, composed, recorded) by Artificial Intelligence (algorithm, software, program) owned by Mubert® Inc and licensed by Mubert® Inc only for personal use. All rights are reserved. Public reproduction, recording, distribution of this music is prohibited.
+
+Terms of Use
+Privacy Policy
+DMCA Policy
+By using this website you agree to our use of Cookies to personalize your experience (learn more in Privacy Policy)
+OK
+
+=== 計費模式: 月繳 (monthly) ===
+Cast is live on Product Hunt — Meet our new podcast editor →
+Products
+Pricing
+Blog
+FAQ
+What's New
+Eng
+Log In
+Sign Up
+Generate
+My Tracks
+Premium
+-25%
+EXPLORE
+Genres
+Moods
+BPM
+Playlists
+Themes
+Instruments
+API
+Artists
+Support
+Pricing
+MONTHLY
+ANNUAL
+-25%
+Ambassador
+Non-Commercial
+Free
+ 
+25 tracks / mo
+Fixed duration
+MP3
+5 downloads per month
+Edit Stems
+Commercial Usage
+Freelance & Agency Work
+App & Services
+GET STARTED
+Creator
+Non-Commercial
+$14
+/ month
+500 tracks / month
+Up to 25 min
+Lossless
+Unlimited downloads
+Edit Stems + Duration
+Commercial Usage
+Freelance & Agency Work
+App & Services
+GET PLAN
+Pro
+Commercial Usage
+$39
+/ month
+500 tracks / month
+Up to 25 min
+Lossless
+Unlimited downloads
+Full Track Editor
+Commercial Usage
+Freelance & Agency Work
+App & Services
+GET PLAN
+Business
+Apps & Agency Work
+$199
+/ month
+1,000 tracks / month
+Up to 25 min
+Lossless
+Unlimited downloads
+Full Track Editor
+Commercial Usage
+Freelance & Agency Work
+App & Services
+GET PLAN
+Music API
+For App Developers & Enterprise
+EXPLORE API
+All functions included
+Fast Generation
+Commercial Licenses
+Extended Duration
+DISCLAIMER
+All payments are non-refundable
+Tracks cannot be sold or commercially distributed
+Tracks cannot be published on music streaming platforms (Spotify, Apple Music, Deezer, YouTube Music, etc.)
+Tracks cannot be registered in any Content ID systems (e.g., YouTube Content ID)
+Tracks cannot be uploaded or distributed via music libraries or stock platforms
+Tracks cannot be redistributed as standalone music content
+Compare plans
+
+Choose your plan according to your monetization and scale
+
+	
+Ambassador
+Non-Commercial
+Free
+GET STARTED
+	
+Creator
+Non-Commercial
+$14
+/ month
+GET PLAN
+	
+Pro
+Commercial Usage
+$39
+/ month
+GET PLAN
+	
+Business
+Apps & Agency Work
+$199
+/ month
+GET PLAN
+
+LIMITS & WORKFLOW				
+Commercial usage				
+Generations / month	25	500	500	1,000
+Generations / day	30 min / day			
+Downloads / month	5			
+Simultaneous downloads				
+Track duration	Fixed	Up to 25 min	Up to 25 min	Up to 25 min
+Download queue		Fast	Priority	Priority
+License certificate				
+EXPORT & AUDIO QUALITY				
+Export formats	MP3	WAV (lossless) + MP3	WAV (lossless) + MP3	WAV (lossless) + MP3
+Audible watermark				
+Attribution required				
+GENERATION & LIBRARY				
+Text → Music				
+Image → Music				
+Mood / Genre / BPM				
+Copyright Checker				
+Staff Picks Library	1,000	12,000	12,000	12,000
+TRACK EDITING				
+Quick Remix				
+Regenerate stems				
+Remove stems				
+Change track duration				
+Full Track Editor				
+Edit track structure				
+Add / remove sections				
+Regenerate sections				
+Edit stems within sections				
+Change BPM				
+Change key				
+LICENSING				
+Personal use, non-commercial				
+Social media, non-commercial				
+Podcasts & streams, non-commercial				
+Promoted / boosted posts				
+Monetized content / channels				
+Digital ads				
+Client / freelance work				
+Agency work				
+Apps, games & services				
+Sub-licensing				
+Publishing to DSPs (i.e Spotify)				
+Content ID registration				
+SUPPORT				
+Email support				
+Priority support				
+Dedicated account manager				
+	
+Free
+GET STARTED
+	
+$14
+/ month
+GET PLAN
+	
+$39
+/ month
+GET PLAN
+	
+$199
+/ month
+GET PLAN
+FAQ
+
+Choose your plan according to your monetization and scale
+
+Which plan should I choose?
+
+Creator is for personal and non-monetized content. Pro adds commercial usage, monetization and the full Track Editor. Business is designed for client work, agencies, apps, games and broader commercial use.
+
+What's the difference between Creator and Pro?
+
+Both plans include higher generation limits, lossless downloads, Quick Remix and custom track duration. Pro additionally includes commercial usage, monetization and the full Track Editor with structure, stem, BPM and key controls.
+
+What's included in Quick Remix?
+
+Quick Remix lets you regenerate or remove stems from an existing track while keeping the rest of the track. Quick Remix is available on all plans. Changing track duration is available on paid plans.
+
+How does the Track Editor work?
+
+The Track Editor lets Pro and Business users prepare multiple changes to an existing track, including its structure, stems, duration, BPM and key. Changes are not generated in real time.
+
+You first select everything you want to change and then explicitly generate a new version of the track. One generated result uses one generation from your monthly limit. Your original track remains unchanged.
+
+Can I use Mubert music commercially?
+
+Creator is intended for non-commercial content. Commercial usage and monetization require Pro or Business depending on the use case.
+
+Can I publish generated tracks to Spotify or other music streaming services?
+
+No. Mubert tracks cannot be redistributed as standalone music or registered in Content ID systems. They can be licensed as music used within eligible content and projects according to the selected plan.
+
+What happens if I cancel my subscription?
+
+You cannot use previously generated tracks in new projects after the subscription ends. Projects published while the relevant subscription was active can remain published and continue to be monetized according to their existing license.
+
+What if I receive a copyright claim?
+
+Mubert music is royalty-free, but false-positive claims may occasionally happen. The license certificate supplied with the downloaded track can be used to confirm your right to use it.
+
+Are payments refundable?
+
+Payments are generally non-refundable because access to digital content is provided immediately. If a user selected the wrong plan and wants to upgrade, they can contact Support.
+
+Royalty-free music catalog
+Genres
+Disco Music
+EDM Music
+Bass
+Techno Music
+Drum'n'Bass Music
+Dubstep
+Folk Music
+Trance Music
+Dub Music
+Jazz & Funk
+and more
+Moods
+Sensual
+Energizing
+Sad Music
+Celebration
+Calm Music
+Dreamy Music
+Joyful
+Scary
+Heroic
+Beautiful Music
+and more
+BPM
+120
+139
+123
+115
+134
+174
+160
+130
+98
+70
+and more
+Playlists
+Space Voyager
+Music for YouTube
+Beauty Vlogs
+Power Up!
+Motivational Music
+Experimental Artists
+Top Tracks
+Thoughtful Guitars
+Kawaii Party
+Lo-Fi Vibes
+and more
+Themes
+Comedy
+Art
+Drama
+Holidays
+Nature
+Tutorial
+Documentary
+Road Trip
+Corporate
+Podcast
+and more
+Instruments
+Ethnic Percussion
+Synths
+Keys
+Bells
+Piano
+Acoustic Guitar
+Drums
+Electric Guitar
+Pads
+Artists
+glowingpalace
+otres
+khoza
+pulsarum
+25slap1
+ntechnique
+nixtra
+subcat
+khozyaskij
+alexkova
+and more
+Image to Music
+Text to Music
+Mubert Render
+Render
+Pricing
+License
+Use Cases
+How it works
+Track Editor
+Mubert API
+API
+Pricing
+Documentation
+Use Cases
+Tools
+Mubert Fuse
+Youtube Copyright Checker
+DMCA Twitch Checker
+Instagram Reels Checker
+TikTok Sound Checker
+Facebook Copyright Checker
 Other Products
 Mubert for Streamers
 Mubert for Business

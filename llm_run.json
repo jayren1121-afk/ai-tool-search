@@ -1,5 +1,5 @@
 {
- "started": "2026-10-16 12:12:11 +0800",
+ "started": "2026-10-17 12:11:54 +0800",
  "providers_order": [
   "groq",
   "openrouter",
@@ -14,9 +14,9 @@
    "model": "openai/gpt-oss-120b",
    "primary": true,
    "down": null,
-   "calls": 8,
-   "ok": 8,
-   "tokens": 26381,
+   "calls": 9,
+   "ok": 9,
+   "tokens": 27241,
    "rl429": 0,
    "errors": 0
   },
@@ -42,8 +42,8 @@
   }
  },
  "stopped_reason": "全部頁面都已處理完成",
- "pages_done": 8,
+ "pages_done": 9,
  "upgraded": 0,
  "errors": 0,
- "finished": "2026-10-16 12:16:32 +0800"
+ "finished": "2026-10-17 12:16:12 +0800"
 }

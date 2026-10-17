@@ -54,6 +54,11 @@ Document uploads (PDF, docx, txt)
 100K+ character prompts
 Generate AI images
 
+INTEGRATIONS
+
+Plus AI MCP Server
+Plus AI Presentation API
+
 COLLABORATION
 
 Unlimited team members
@@ -75,6 +80,11 @@ Customize branding (logo, colors, and fonts)
 Use advanced AI image models
 Save presets and custom AI instructions
 
+INTEGRATIONS
+
+Plus AI MCP Server
+Plus AI Presentation API
+
 COLLABORATION
 
 Unlimited team members
@@ -95,6 +105,11 @@ AI FEATURES
 Everything in the Team plan
 Unlimited AI credits
 Priority email support
+
+INTEGRATIONS
+
+Plus AI MCP Server
+Plus AI Presentation API
 
 COLLABORATION
 
@@ -132,6 +147,7 @@ What limitations are there for the free trial?
 How do I cancel my trial or subscription?
 Does Plus AI work with PowerPoint or Google Slides?
 Can I use Plus AI through an API?
+Does Plus AI work with Claude and ChatGPT?
 How does Plus handle security?
 Start with a 7-day free trial. Cancel any time.
 

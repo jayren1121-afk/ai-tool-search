@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Pricing
 MONTHLY
 ANNUAL
@@ -85,6 +86,96 @@ $32.49
 GET PLAN
 ---
 $149.29
+/ month
+GET PLAN
+FAQ
+---
+Royalty-free music catalog
+Genres
+---
+Generate infinite music streams in 150+ moods and themes. Perfect for IRL, gaming, or creator streams that need non-stop, DMCA-free music.
+=== 計費模式: 月繳 (monthly) ===
+Pricing
+MONTHLY
+ANNUAL
+-25%
+---
+Non-Commercial
+Free
+---
+25 tracks / mo
+Fixed duration
+MP3
+5 downloads per month
+Edit Stems
+---
+App & Services
+GET STARTED
+Creator
+Non-Commercial
+$14
+/ month
+500 tracks / month
+Up to 25 min
+---
+App & Services
+GET PLAN
+Pro
+Commercial Usage
+$39
+/ month
+500 tracks / month
+Up to 25 min
+---
+App & Services
+GET PLAN
+Business
+Apps & Agency Work
+$199
+/ month
+1,000 tracks / month
+Up to 25 min
+---
+Non-Commercial
+Free
+GET STARTED
+---
+Creator
+Non-Commercial
+$14
+/ month
+GET PLAN
+---
+Pro
+Commercial Usage
+$39
+/ month
+GET PLAN
+---
+Business
+Apps & Agency Work
+$199
+/ month
+GET PLAN
+---
+Commercial usage
+Generations / month	25	500	500	1,000
+Generations / day	30 min / day
+Downloads / month	5
+Simultaneous downloads
+---
+Free
+GET STARTED
+---
+$14
+/ month
+GET PLAN
+---
+$39
+/ month
+GET PLAN
+---
+$199
 / month
 GET PLAN
 FAQ

@@ -1,58 +1,14 @@
-Join over 20 million users, developers, and businesses. Start free, upgrade anytime.
+Voice cloning
+free
+LLMs & VLMs
 ---
-For Individuals
-Basic
+Text generation, reasoning, and image understanding, billed per token. Reasoning tokens count as output.
 ---
-$20/month
+Input tokens
+from $0.15 / 1M tokens
+Cached input
+from $0.007 / 1M tokens
+Output tokens
+from $0.50 / 1M tokens
 ---
-Billed monthly
----
-2,000 credits/month
-Choose plan
----
-Commercial use
-Pro
-POPULAR
----
-$50/month
----
-Billed monthly
----
-7,200 credits/month
-Choose plan
----
-Commercial use
-Ultra
-BEST VALUE
----
-$100/month
----
-Billed monthly
----
-18,000 credits/month
-Choose plan
----
-Commercial use
-Allowances up to 57,600 credits/month
-Teams Plan Access
-For Business
-Teams
-BEST VALUE
----
-$75/month
----
-Billed monthly
----
-14,400 credits/month
-Choose plan
----
-Custom number of credits
-Contact sales
-Commercial use
----
-What happens to my credits if I cancel?
-What costs credits on Hedra?
-How are credits deducted for video generation?
-Do credits roll over to the following month?
-What happens if I run out of credits?
-How can I check the status of my credits?
+Full rates and billing units are listed for each model in the catalog. Estimate media jobs before submitting; LLM and VLM charges follow actual token usage.

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Log In
 Try For Free
 SPEECHIFY PRICING
@@ -16,6 +17,30 @@ PREMIUM
 MOST POPULAR
 $29
 /MONTH
+1000+ high quality, natural voices
+60+ different languages
+---
+Try For Free
+Explore More Speechify Products
+=== 計費模式: 年繳 (yearly) ===
+Log In
+Try For Free
+SPEECHIFY PRICING
+---
+Monthly
+Yearly
+SAVE 60%
+Prices shown per month, billed yearly
+START FOR FREE
+Free
+Listen at speeds up to 1.5x
+---
+Text to speech features only
+Select Plan
+PREMIUM
+MOST POPULAR
+$139
+/YEAR
 1000+ high quality, natural voices
 60+ different languages
 ---
