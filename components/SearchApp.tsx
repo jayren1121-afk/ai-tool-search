@@ -73,7 +73,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <div className="home-title flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between lg:gap-8">
+      <div className="home-title flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
         <div className="min-w-0 lg:flex-1">
           <h1 className="flex flex-wrap items-center gap-x-3 gap-y-1 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 shrink-0 rounded-xl" /><span className="min-w-0">{L.siteName}</span></h1>
           <p className="text-sm text-slate-500">{L.heroSub}</p>

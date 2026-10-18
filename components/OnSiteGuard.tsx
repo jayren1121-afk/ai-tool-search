@@ -337,18 +337,27 @@ function ToggleBody() {
   const { locale } = splitPath(usePathname() || "/");
   const L = t(locale as Locale);
   const { enabled, setEnabled } = useGuard();
+  const [more, setMore] = useState(false);
   return (
-    <div data-guard-ui="1" role="region" aria-label={L.guardRegion} className="w-full rounded-xl bg-white lg:w-[26rem] lg:shrink-0">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <p aria-live="polite" className="min-w-0 text-sm font-medium text-slate-700">{enabled ? L.guardStatusOn : L.guardStatusOff}</p>
-        <button type="button" aria-pressed={enabled} aria-describedby="onsite-guard-explain" onClick={() => { try { setEnabled(!enabled); } catch { /* 開關失敗就維持原狀 */ } }}
-          className={enabled
-            ? "shrink-0 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700"
-            : "shrink-0 rounded-lg bg-indigo-600 px-3 py-2 text-sm font-medium text-white"}>
+    <div data-guard-ui="1" role="region" aria-label={L.guardRegion} className={`home-guard w-full lg:w-[19rem] lg:shrink-0${enabled ? " is-on" : ""}`}>
+      <div className="flex items-center justify-between gap-2">
+        <p aria-live="polite">{enabled ? L.guardStatusOn : L.guardStatusOff}</p>
+        <button type="button" aria-pressed={enabled} aria-describedby="onsite-guard-perks" onClick={() => { try { setEnabled(!enabled); } catch { /* 開關失敗就維持原狀 */ } }}
+          className={enabled ? "home-guard-stop" : "bg-indigo-600 text-white"}>
           {enabled ? L.guardStop : L.guardStart}
         </button>
       </div>
-      <p id="onsite-guard-explain" className="mt-2 text-xs leading-relaxed text-slate-500">{L.guardExplain}</p>
+      <ul id="onsite-guard-perks" className="home-guard-perks">
+        {L.guardPerks.map((line) => <li key={line}>{line}</li>)}
+      </ul>
+      <button type="button" className="home-guard-more" aria-expanded={more} aria-controls="onsite-guard-more" onClick={() => setMore((v) => !v)}>
+        {more ? L.guardLess : L.guardMore}
+      </button>
+      {more && (
+        <ul id="onsite-guard-more" className="home-guard-notes">
+          {L.guardNotes.map((line) => <li key={line}>{line}</li>)}
+        </ul>
+      )}
     </div>
   );
 }
