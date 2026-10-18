@@ -13,7 +13,6 @@ Our data
 Resources
 Pricing
 Enterprise
-Evolve
 Sign in
 Sign up
 Ahrefs
@@ -152,7 +151,7 @@ Free
 Get started
 Brand Radar AI
 
-Research any brand across 474M+ organic prompts from Ahrefs database and track your own AI prompts.
+Research any brand across 485 million+ organic prompts from Ahrefs database and track your own AI prompts.
 
 Get started from $199/mo
 Learn more ↗

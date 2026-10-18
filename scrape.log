@@ -496,3 +496,21 @@ SCRAPE DONE
 2 15 scraped https://www.typeform.com/pricing 17.6
 舊版頁面還要重抓： 248 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+2 1 scraped https://www.d-id.com/pricing 12.4
+1 2 scraped https://pictory.ai/pricing 16.2
+0 3 scraped https://www.meshy.ai/pricing 21.4
+1 4 scraped https://boomy.com/pricing 7.7
+2 5 scraped https://fathom.video/pricing 11.2
+2 6 scraped https://undetectable.ai/pricing 8.9
+1 7 scraped https://jenni.ai/pricing 12.9
+0 8 no_price_found https://www.crewai.com/pricing 19.9
+1 9 scraped https://ahrefs.com/pricing 7.4
+0 10 scraped https://www.slidesai.io/pricing 12.6
+2 11 no_price_found https://www.gong.io/pricing 19.9
+1 12 scraped https://www.thoughtspot.com/pricing 10.0
+1 13 scraped https://www.tripo3d.ai/pricing 7.8
+2 14 scraped https://designs.ai/pricing 18.2
+0 15 scraped https://openart.ai/pricing 25.1
+舊版頁面還要重抓： 233 個（每次最多 15 個）
+SCRAPE DONE

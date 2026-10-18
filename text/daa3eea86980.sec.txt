@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Resources
 Free Templates
 Try Now
@@ -42,6 +43,60 @@ Billed at $250.00 /year
 Unlimited Presentations
 12000 Character Input / Presentation
 1200 AI credits per year
+Document upload
+---
+Help Guides
+Free Presentation Templates
+Business Presentation Templates
+---
+Workshop Presentation Templates
+Free Tools
+AI PowerPoint Summarizer
+---
+SlidesAI (Zesterv LLC) · COWORKING, Business Center, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates
+=== 計費模式: 月繳 (monthly) ===
+Resources
+Free Templates
+Try Now
+---
+Monthly Billing
+Yearly Billing
+2 months free
+---
+Basic
+---
+Good enough to get started
+---
+$0.00
+---
+/month
+1 Presentation / month
+1000 Character Input / Presentation
+10 AI credits per month
+Get Started
+---
+Pro
+---
+Perfect plan for students
+---
+$12.00
+---
+/month
+10 Presentations / month
+6000 Character Input / Presentation
+50 AI credits per month
+Document upload
+---
+Premium
+---
+For Educators and Professionals
+---
+$25.00
+---
+/month
+Unlimited Presentations
+12000 Character Input / Presentation
+100 AI credits per month
 Document upload
 ---
 Help Guides

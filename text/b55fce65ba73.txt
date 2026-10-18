@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Products
 Pricing
 Sign in
@@ -97,6 +98,228 @@ For large organizations with advanced needs
 
 $639.00
 /month
+Get Started
+Annual
+100,000 credits per month
+30 users
+30 Designs Claw
+24/7 dedicated support
+Dedicated Account Manager
+Onboarding session
+Enterprise license
+Indemnity $25,000
+Need more for your team?
+
+Talk to us to tailor the perfect Enterprise plan for your team
+
+Contact Sales
+Top-up credits
+Buy Extra Credits for More Creative Power
+
+Boost your Designs.ai usage anytime with one-time credit packages for active subscribers.
+
+Starter Top-Up
+
+2,500 Credits
+
+$30
+one-time
+
+$0.012 per credit
+
+Individual use
+Buy Credits
+Growth Top-Up
+
+5,000 Credits
+
+$50
+one-time
+
+$0.010 per credit
+
+Individual use
+Buy Credits
+Best Value
+Power Top-Up
+
+10,000 Credits
+
+$80
+one-time
+
+$0.008 per credit
+
+Individual use
+Buy Credits
+
+Important: Extra credits are available for active subscribers only.
+
+Allocation: Credits are added on top of your monthly plan allocation.
+
+Credit validity: Credits are valid for one year from the purchase date.
+
+No refund policy: Purchased credits are non-refundable.
+
+Make design easy for everyone.
+
+GDPR
+Compliant
+SOC
+Compliant
+Products
+Chats
+Branding
+Image
+Video
+Storyboard
+Slides
+Audio
+Agents
+Designs Claw
+Workflows
+Plugins
+Company
+About
+Contact
+Affiliates
+Redeem Voucher
+Connect
+Facebook
+Instagram
+𝕏
+LinkedIn
+Legal
+License Agreement
+Privacy Policy
+Security Disclosure Policy
+Cookies Policy
+Terms of Use
+
+Designs.ai by Pixlr 2026. © All rights reserved
+
+English
+
+=== 計費模式: 年繳 (yearly) ===
+Products
+Pricing
+Sign in
+Sign up
+Simple Pricing Plans.
+Powerful Results.
+
+Upgrade to get the capacity that exactly matches your team's needs.
+
+Limited Time Offers
+
+More credits. More creative power.
+
+Available until December 31.
+
+GO PLAN
+
+$8.30 /month
+
+Bonus credits
+
+500
+
+credits
+
+1,000
+
+credits
+
+Get 500 extra credits at no extra cost.
+
+PLUS PLAN
+
+50% OFF
+
+Price drop
+
+$24.90
+
+per month
+
+$12.50
+
+per month
+
+Save 50% on your plan.
+
+Go
+
+Everything you need to get started
+
+$8.30
+/month
+
+$99.00 billed annually
+
+Save $20 per year
+
+Get Started
+Annual
+500 1,000 credits per month
+1 user
+1 Designs Claw
+Email and chat support
+Standard license
+Limited time offers
+Most Popular
+Plus
+
+More power for everyday creativity
+
+$12.50
+$24.90
+/month
+50% OFF
+
+$149.50 billed annually
+
+Save $169 per year
+
+Get Started
+Annual
+2,500 credits per month
+2 users
+2 Designs Claw
+Email and chat support
+Standard license
+Indemnity $5,000
+Limited time offers
+Pro
+
+Ideal for growing teams and businesses
+
+$58.30
+/month
+
+$699.00 billed annually
+
+Save $249 per year
+
+Get Started
+Annual
+10,000 credits per month
+5 users
+5 Designs Claw
+Priority email and chat support
+Standard license
+Indemnity $5,000
+Enterprise
+
+For large organizations with advanced needs
+
+$533.00
+/month
+
+$6,390.00 billed annually
+
+Save $1,278 per year
+
 Get Started
 Annual
 100,000 credits per month

@@ -1,25 +1,19 @@
+=== 計費模式: 預設畫面 (default) ===
 Login
 Start for Free
 OpenArt Pricing
 ---
 Business plans
 Monthly
-NEW USER −
----
-%
 Annually
 UP TO 27% OFF
----
-Your new user offer is on monthly plans: up to 25% off your first month.
----
-Up to 50% off all Seedance models + Unlimited Flux 3 Image on Wonder until Oct 14.
-30% off All Nano Banana 2.1 generations. Upgrade by Oct 14 for 7 days on Pro or 14 days on Wonder.
 Create UNLIMITED videos with Flux 3 720p Until October 31 on Wonder Plan
 Starter
 $14
 $13
 /Seat/mo
 10% OFF
+Get Started
 ---
 4,000 credits / month
 Up to ~4,000 images
@@ -32,6 +26,7 @@ $34
 $27
 /Seat/mo
 20% OFF
+Get Started
 ---
 12,000 credits / month
 Add credits as needed
@@ -45,6 +40,7 @@ $56
 $44
 /Seat/mo
 22% OFF
+Get Started
 ---
 24,000 credits / month
 Add credits as needed
@@ -52,16 +48,13 @@ Up to ~24,000 images
 ---
 Commercial use rights
 Watermark-free
-Nano Banana 2.1
----
-Seedance 2.0 fast
-50% OFF
 Wonder
 BEST VALUE
 $240
 $175
 /Seat/mo
 27% OFF
+Get Started
 ---
 106,000 credits / month
 Add credits as needed
@@ -70,8 +63,7 @@ Up to ~106,000 images
 Priority support
 Watermark-free
 Unlimited Creation
----
-Flux 3 Image
+FLUX 3
 Optional add-on
 Manage
 Extra Credit
@@ -81,311 +73,243 @@ $15
 5,000 credits / month
 Subscribe to Plus to Unlock
 ---
-Learn more
-What your credits create each month
+How do I cancel my subscription?
+Do my monthly credits roll over?
+What's the difference between the monthly and annual plans?
+What are add-ons?
+=== 計費模式: 月繳 (monthly) ===
+Login
+Start for Free
+OpenArt Pricing
 ---
-Each model uses a different amount of credits. Here's roughly what you can make each month on every plan.
----
-Plans
-Generations per month
+Business plans
+Monthly
 Annually
+UP TO 27% OFF
+Create UNLIMITED videos with Flux 3 720p Until October 31 on Wonder Plan
 Starter
-$13
 $14
 /Seat/mo
 Get Started
+---
+4,000 credits / month
+Up to ~4,000 images
+---
+One-Click Story Creation
+Powerful Image Editing Suite
+Watermark-free
 Plus
-$27
 $34
 /Seat/mo
 Get Started
+---
+12,000 credits / month
+Add credits as needed
+Up to ~12,000 images
+---
+Commercial use rights
+Watermark-free
 Pro
 MOST POPULAR
-$44
 $56
 /Seat/mo
 Get Started
+---
+24,000 credits / month
+Add credits as needed
+Up to ~24,000 images
+---
+Commercial use rights
+Watermark-free
 Wonder
 BEST VALUE
-$175
 $240
 /Seat/mo
 Get Started
-Video
-Seedance 2.5
-650 credits · 720p, 5s
-6
 ---
-Seedance 2.0
-400 credits · 720p, 5s
-10
----
-MiniMax H3 Max
-200 credits · 768p, 5s
-20
----
-MiniMax H3 Max Turbo
-100 credits · 768p, 5s
-40
----
-Gemini Omni 1.1 Flash
-250 credits · 720p, 5s
-16
----
-Wan 3.0
-200 credits · 720p, 5s
-20
----
-MiniMax H3
-300 credits · 768p, 5s
-13
----
-Gemini Omni Flash
-250 credits · 720p, 5s
-16
----
-LTX 2.5
-360 credits · 720p, 6s
-11
----
-Seedance 2.0 Mini
-200 credits · 720p, 5s
-20
----
-Kling 3 Omni
-175 credits · 720p, 5s, with audio
-22
----
-PixVerse C1
-90 credits · 720p, 5s, with audio
-44
----
-PixVerse V6
-70 credits · 720p, 5s
-57
----
-HappyHorse 1.1
-175 credits · 720p, 5s
-22
----
-HappyHorse
-250 credits · 720p, 5s
-16
----
-Wan 2.7
-125 credits · 720p, 5s
-32
----
-Veo 3.1
-80 credits · 720p, 4s
-50
----
-Kling 3.0
-175 credits · 720p, 5s, with audio
-22
----
-Seedance 1.5 Pro
-150 credits · 720p, 5s, with audio
-26
----
-Grok Imagine 1.5
-400 credits · 720p, 5s
-10
----
-Grok Imagine 1.5 Lite
-100 credits · 720p, 5s
-40
----
-Grok Imagine
-200 credits · 720p, 5s
-20
----
-Kling 2.6
-60 credits · 720p, 5s
-66
----
-Wan 2.6
-125 credits · 720p, 5s
-32
----
-Kling 2.5
-100 credits · pro, 5s
-40
----
-Kling O1
-150 credits · 720p, 5s
-26
----
-Wan 2.5
-150 credits · 720p, 5s
-26
----
-Hailuo 02
-150 credits · 768p, 6s
-26
----
-Hailuo 2.3
-150 credits · 768p, 6s
-26
----
-Kling 2.1
-500 credits · 5s
-8
----
-Seedance 1
-80 credits · 720p, 5s
-50
----
-PixVerse 5
-150 credits · 720p, 5s
-26
----
-GPT Image 2.5
-5 credits · 1K, low quality
-800
----
-GPT Image 2
-5 credits · 1K, low quality
-800
----
-Nano Banana 2 Lite
-15 credits · 1K
-266
----
-Nano Banana 2
-20 credits · 1K
-200
----
-Seedream 5 Pro
-30 credits · 1K
-133
----
-Nano Banana Pro
-40 credits · 1K
-100
----
-Recraft V4.1
-20 credits · 1K
-200
----
-Recraft V4
-20 credits · 1K
-200
----
-Wan 2.7 Image
-15 credits · 1K
-266
----
-Grok Imagine Image 2.0
-26 credits · 1K, low quality
-153
----
-Grok Imagine
-10 credits · 1K
-400
----
-Seedream 5 Lite
-15 credits · 2K
-266
----
-Seedream 4.5
-15 credits · 2K
-266
----
-Kling 3 Omni
-10 credits · 1K
-400
----
-Nano Banana
-15 credits · 1K
-266
----
-Seedream 4.0
-15 credits · 1K
-266
----
-Qwen Image 3.0
-16 credits · 1K
-250
----
-Qwen Image 2
-10 credits · 1K
-400
----
-Kling O1
-10 credits · 1K
-400
----
-Flux Kontext Pro
-5 credits · 1K
-800
----
-GPT Image 1.5
-25 credits · 1K, medium quality
-160
----
-Flux 2 Pro
-10 credits · 1K
-400
----
-OpenArt Photorealistic
-15 credits · 1K
-266
----
-Z-Image
-5 credits · 1K
-800
----
-Flux 2 Klein 9B
-5 credits · 1K
-800
----
-Flux 2 Max
-20 credits · 1K
-200
----
-Flux 2 Flex
-15 credits · 1K
-266
----
-Flux 1 Dev
-5 credits · 1K
-800
----
-Flux 1.1 Pro
-5 credits · 1K
-800
----
-Flux Kontext Max
-15 credits · 1K
-266
----
-Juggernaut Flux Pro
-5 credits · 1K
-800
----
-OpenArt SDXL
-1 credits · 1K
-4,000
----
-Juggernaut XL
-1 credits · 1K
-4,000
----
-DynaVision XL
-1 credits · 1K
-4,000
----
-Flux 2 LoRA Gallery Realism
-5 credits · 1K
-800
----
-Lyria 3 Pro
-50 credits
-80
----
-Lyria 3 Clip Preview
-25 credits
-160
----
-Eleven Sound Effects v2
+106,000 credits / month
+Add credits as needed
+Up to ~106,000 images
+---
+Priority support
+Watermark-free
+Unlimited Creation
+FLUX 3
+Optional add-on
+Manage
+Extra Credit
+$15
+/month
+1x
+5,000 credits / month
+Subscribe to Plus to Unlock
+---
+How do I cancel my subscription?
+Do my monthly credits roll over?
+What's the difference between the monthly and annual plans?
+What are add-ons?
+=== 計費模式: 月繳 (monthly) #2 ===
+Login
+Start for Free
+OpenArt Pricing
+---
+Business plans
+Monthly
+Annually
+UP TO 27% OFF
+Create UNLIMITED videos with Flux 3 720p Until October 31 on Wonder Plan
+Starter
+$14
+$13
+/Seat/mo
+10% OFF
+Get Started
+---
+4,000 credits / month
+Up to ~4,000 images
+---
+One-Click Story Creation
+Powerful Image Editing Suite
+Watermark-free
+Plus
+$34
+$27
+/Seat/mo
+20% OFF
+Get Started
+---
+12,000 credits / month
+Add credits as needed
+Up to ~12,000 images
+---
+Commercial use rights
+Watermark-free
+Pro
+MOST POPULAR
+$56
+$44
+/Seat/mo
+22% OFF
+Get Started
+---
+24,000 credits / month
+Add credits as needed
+Up to ~24,000 images
+---
+Commercial use rights
+Watermark-free
+Wonder
+BEST VALUE
+$240
+$175
+/Seat/mo
+27% OFF
+Get Started
+---
+106,000 credits / month
+Add credits as needed
+Up to ~106,000 images
+---
+Priority support
+Watermark-free
+Unlimited Creation
+FLUX 3
+Optional add-on
+Manage
+Extra Credit
+$15
+/month
+1x
+5,000 credits / month
+Subscribe to Plus to Unlock
+---
+How do I cancel my subscription?
+Do my monthly credits roll over?
+What's the difference between the monthly and annual plans?
+What are add-ons?
+---
+What happens when I downgrade/cancel?
+How does unlimited generation work?
+How does the OpenArt MCP discount work?
+0 credits / month
+$0/mo
+5,000 credits / month
+$15/mo
+10,000 credits / month
+$30/mo
+15,000 credits / month
+$45/mo
+20,000 credits / month
+$60/mo
+25,000 credits / month
+$75/mo
+30,000 credits / month
+$90/mo
+35,000 credits / month
+$105/mo
+40,000 credits / month
+$120/mo
+45,000 credits / month
+$135/mo
+50,000 credits / month
+$150/mo
+55,000 credits / month
+$165/mo
+60,000 credits / month
+$180/mo
+65,000 credits / month
+$195/mo
+70,000 credits / month
+$210/mo
+75,000 credits / month
+$225/mo
+80,000 credits / month
+$240/mo
+85,000 credits / month
+$255/mo
+90,000 credits / month
+$270/mo
+95,000 credits / month
+$285/mo
+100,000 credits / month
+$300/mo
+105,000 credits / month
+$315/mo
+110,000 credits / month
+$330/mo
+115,000 credits / month
+$345/mo
+120,000 credits / month
+$360/mo
+125,000 credits / month
+$375/mo
+130,000 credits / month
+$390/mo
+135,000 credits / month
+$405/mo
+140,000 credits / month
+$420/mo
+145,000 credits / month
+$435/mo
+150,000 credits / month
+$450/mo
+200,000 credits / month
+$600/mo
+250,000 credits / month
+$750/mo
+300,000 credits / month
+$900/mo
+350,000 credits / month
+$1050/mo
+400,000 credits / month
+$1200/mo
+450,000 credits / month
+$1350/mo
+500,000 credits / month
+$1500/mo
+750,000 credits / month
+$2250/mo
+1,000,000 credits / month
+$3000/mo
+1,500,000 credits / month
+$4500/mo

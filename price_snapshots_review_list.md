@@ -75,19 +75,19 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **originality**（Originality.ai）旗標：dropped_fields, has_promo, name_diff, non_subscription_hint；資料集方案 ['Pro', 'Team', 'Basic'] vs 新 ['Pro']; Pro: non_subscription_hint；來源 https://originality.ai/pricing；擷取 2026-10-17T12:11:06+08:00
 - **semrush**（Semrush）旗標：has_promo, name_diff, name_missing, price_near_quote；資料集方案 ['Pro'] vs 新 ['', '', '']; None: name_missing; None: name_missing; None: name_missing；來源 https://www.semrush.com/pricing；擷取 2026-10-17T12:11:17+08:00
 - **amazon-q**（Amazon Q Developer）旗標：dropped_fields；；來源 https://aws.amazon.com/q/developer/pricing；擷取 2026-10-17T12:11:41+08:00
-- **meshy**（Meshy）旗標：has_promo；；來源 https://www.meshy.ai/pricing；擷取 2026-10-12T13:30:27+08:00
-- **pictory**（Pictory）旗標：has_promo；；來源 https://pictory.ai/pricing；擷取 2026-10-12T13:30:31+08:00
-- **d-id**（D-ID）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.d-id.com/pricing；擷取 2026-10-12T13:30:36+08:00
-- **fathom**（Fathom）旗標：name_far_from_price, period_ambiguous_toggle；Team: period_ambiguous_toggle; Business: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://fathom.video/pricing；擷取 2026-10-12T13:30:37+08:00
-- **boomy**（Boomy）旗標：has_promo, price_near_quote；；來源 https://boomy.com/pricing；擷取 2026-10-12T13:30:43+08:00
-- **jenni**（Jenni AI）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://jenni.ai/pricing；擷取 2026-10-12T13:30:44+08:00
-- **undetectable**（Undetectable AI）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；None: name_missing; None: name_missing; None: name_missing; None: name_missing, period_ambiguous_toggle；來源 https://undetectable.ai/pricing；擷取 2026-10-12T13:30:49+08:00
-- **ahrefs**（Ahrefs）旗標：name_diff；資料集方案 ['Teams', 'Basic', 'Growth', 'Scale', 'Unlimited'] vs 新 ['Lite', 'Standard', 'Advanced', 'Enterprise', 'Brand Radar AI']；來源 https://ahrefs.com/pricing；擷取 2026-10-12T13:30:55+08:00
-- **slidesai**（SlidesAI）旗標：period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://www.slidesai.io/pricing；擷取 2026-10-12T13:31:05+08:00
-- **tableau-gpt**（ThoughtSpot）旗標：name_diff, name_missing；資料集方案 ['Unlimited'] vs 新 ['']; None: name_missing；來源 https://www.thoughtspot.com/pricing；擷取 2026-10-12T13:31:11+08:00
-- **openart**（OpenArt）旗標：has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Wonder: period_ambiguous_toggle；來源 https://openart.ai/pricing；擷取 2026-10-12T13:31:20+08:00
-- **designs-ai**（Designs.ai）旗標：has_promo；；來源 https://designs.ai/pricing；擷取 2026-10-12T13:31:24+08:00
-- **tripo**（Tripo AI）旗標：dropped_fields, period_ambiguous_toggle, price_change, price_near_quote, yearly_total_mismatch；Pro: 資料集 $0.16/月 → 官網 $20.0; Max: 資料集 $0.09/月 → 官網 $90.0; Team: yearly_total_mismatch, period_ambiguous_toggle；來源 https://www.tripo3d.ai/pricing；擷取 2026-10-12T13:31:28+08:00
+- **meshy**（Meshy）旗標：has_promo, yearly_total_mismatch；Pro: yearly_total_mismatch; Premium: yearly_total_mismatch; Ultra: yearly_total_mismatch；來源 https://www.meshy.ai/pricing；擷取 2026-10-18T12:10:37+08:00
+- **pictory**（Pictory）旗標：has_promo；；來源 https://pictory.ai/pricing；擷取 2026-10-18T12:10:38+08:00
+- **d-id**（D-ID）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.d-id.com/pricing；擷取 2026-10-18T12:10:39+08:00
+- **fathom**（Fathom）旗標：has_promo, name_diff；資料集方案 ['Free'] vs 新 ['Team', 'Business', 'Premium']；來源 https://fathom.video/pricing；擷取 2026-10-18T12:10:51+08:00
+- **boomy**（Boomy）旗標：has_promo, price_near_quote；；來源 https://boomy.com/pricing；擷取 2026-10-18T12:10:54+08:00
+- **jenni**（Jenni AI）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://jenni.ai/pricing；擷取 2026-10-18T12:11:02+08:00
+- **undetectable**（Undetectable AI）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://undetectable.ai/pricing；擷取 2026-10-18T12:11:02+08:00
+- **ahrefs**（Ahrefs）旗標：name_diff；資料集方案 ['Teams', 'Basic', 'Growth', 'Scale', 'Unlimited'] vs 新 ['Lite', 'Standard', 'Advanced', 'Enterprise', 'Brand Radar AI']；來源 https://ahrefs.com/pricing；擷取 2026-10-18T12:11:14+08:00
+- **slidesai**（SlidesAI）旗標：price_near_quote；；來源 https://www.slidesai.io/pricing；擷取 2026-10-18T12:11:19+08:00
+- **tableau-gpt**（ThoughtSpot）旗標：name_diff, name_missing；資料集方案 ['Unlimited'] vs 新 ['']; None: name_missing；來源 https://www.thoughtspot.com/pricing；擷取 2026-10-18T12:11:22+08:00
+- **openart**（OpenArt）旗標：has_promo, price_near_quote；；來源 https://openart.ai/pricing；擷取 2026-10-18T12:11:32+08:00
+- **designs-ai**（Designs.ai）旗標：has_promo, name_far_from_price, price_near_quote；Plus: name_far_from_price；來源 https://designs.ai/pricing；擷取 2026-10-18T12:11:31+08:00
+- **tripo**（Tripo AI）旗標：dropped_fields, period_ambiguous_toggle, price_change, price_near_quote, yearly_total_mismatch；Pro: 資料集 $0.16/月 → 官網 $20.0; Max: 資料集 $0.09/月 → 官網 $90.0; Team: yearly_total_mismatch, period_ambiguous_toggle；來源 https://www.tripo3d.ai/pricing；擷取 2026-10-18T12:11:32+08:00
 - **fliki**（Fliki）旗標：has_promo, price_near_quote；；來源 https://fliki.ai/pricing；擷取 2026-10-12T13:31:30+08:00
 - **colossyan**（Colossyan）旗標：dropped_fields；；來源 https://www.colossyan.com/pricing；擷取 2026-10-12T13:31:32+08:00
 - **resemble**（Resemble AI）旗標：dropped_fields, zero_price；；來源 https://www.resemble.ai/pricing；擷取 2026-10-12T13:31:35+08:00

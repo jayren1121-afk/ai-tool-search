@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Money-back guarantee if output flagged is not human
 Monthly
 Yearly
@@ -63,3 +64,55 @@ Non-expiring credits
 Redistribution & white labeling
 ---
 Free Trial is limited to 250 words. Additional usage requires paid plan activation.
+=== 計費模式: 月繳 (monthly) ===
+Money-back guarantee if output flagged is not human
+Monthly
+Yearly
+50% off
+---
+Try any yearly plan free for 3 days
+---
+No charge today. Cancel anytime before the trial ends.
+---
+$19.00
+/mo
+20K
+words/month
+0% Discount
+---
+Writing level matching
+API compatible
+Unlimited Human Auto Typer
+Unlimited AI Detecting
+$31.00
+/mo
+35K
+words/month
+7% Discount
+---
+Writing level matching
+API compatible
+Unlimited Human Auto Typer
+Unlimited AI Detecting
+$42.00
+/mo
+50K
+words/month
+12% Discount
+---
+Writing level matching
+API compatible
+Unlimited Human Auto Typer
+Unlimited AI Detecting
+$64.00
+/mo
+80K
+words/month
+Get Started
+---
+Need bulk credits? Looking for permanent words with no monthly expiration?
+---
+Quick look at features:
+Custom Pricing & Plans
+Non-expiring credits
+Redistribution & white labeling

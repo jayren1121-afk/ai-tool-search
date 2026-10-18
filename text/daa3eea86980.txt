@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 SlidesAI
 Pricing
 Products
@@ -58,6 +59,142 @@ Billed at $250.00 /year
 Unlimited Presentations
 12000 Character Input / Presentation
 1200 AI credits per year
+Document upload
+Get Started
+Refund Policy
+
+All prices shown are exclusive of applicable taxes. Any taxes due are calculated and added at checkout based on your billing location.
+
+This product is sold directly by Paddle.com, the official Merchant Of Record (MoR)/Reseller of SlidesAI. Additionally, Paddle is neither a subsidiary nor a related entity, nor a distinct person for SlidesAI.
+
+Footer
+SlidesAI
+support@slidesai.io
+Twitter
+Linked In
+Youtube
+Instagram
+
+Company
+
+Pricing
+FAQs
+Affiliate Program
+About
+Privacy Policy
+Terms of Use
+
+Product
+
+AI Presentation Maker
+AI Google Slides Generator
+AI PowerPoint Generator
+ChatGPT Presentation Maker
+Quick Animate for Google Slides
+
+Tools
+
+Topic to PPT
+Notes to PPT
+Script to PPT
+Document to PPT
+
+Solutions
+
+Educators
+Professionals
+Students
+Compare
+Beautiful AI
+Presentations AI
+Slides Go
+Gamma App
+
+Resources
+
+Blog
+Google Slides Tutorials
+PowerPoint Tutorials
+Help Guides
+Free Presentation Templates
+Business Presentation Templates
+Educational Presentation Templates
+Marketing Presentation Templates
+Workshop Presentation Templates
+Free Tools
+AI PowerPoint Summarizer
+PowerPoint Compressor
+PowerPoint to PDF
+PDF to PPT Converter
+PDF to Google Slides Converter
+Word to PPT Converter
+HTML to PPT Converter
+PowerPoint to Text
+Extract Images from PowerPoint
+Split PowerPoint
+Combine and Merge PowerPoint
+
+Copyright SlidesAI® 2026 Zesterv LLC All rights reserved
+
+SlidesAI (Zesterv LLC) · COWORKING, Business Center, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates
+
+=== 計費模式: 月繳 (monthly) ===
+SlidesAI
+Pricing
+Products
+Solutions
+Resources
+Free Templates
+Try Now
+
+Pricing
+
+Simple Pricing for Everyone
+Individual
+Team
+Institution
+
+Find Your Ideal Plan
+
+Monthly Billing
+Yearly Billing
+2 months free
+
+Basic
+
+Good enough to get started
+
+$0.00
+
+/month
+1 Presentation / month
+1000 Character Input / Presentation
+10 AI credits per month
+Get Started
+
+Pro
+
+Perfect plan for students
+
+$12.00
+
+/month
+10 Presentations / month
+6000 Character Input / Presentation
+50 AI credits per month
+Document upload
+Get Started
+
+Premium
+
+For Educators and Professionals
+
+$25.00
+
+/month
+Unlimited Presentations
+12000 Character Input / Presentation
+100 AI credits per month
 Document upload
 Get Started
 Refund Policy

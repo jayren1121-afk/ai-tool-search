@@ -1,4 +1,4 @@
-Introducing the new enterprise agent build & run layer
+Where Work Waits, a CrewAI series. Live Nov 9 at 1 pm ET: Approved is not funded, with Joao Moura and Capgemini’s Arindam Choudhury. Save your seat.
 
 Enterprise
 Open Source
@@ -38,7 +38,7 @@ Deploy on CrewAI cloud, your own VPC, or your own infrastructure
 Forward deployed engineering and training, available a la carte
 Request trial
 
-CrewAI unblocks the enterprise agent backlog by giving both business teams and engineers a unified build and runtime platform that is centrally governed
+CrewAI unblocks the enterprise agent backlog by giving both business teams and engineers a unified build and runtime platform thats centrally governed
 
 Loved by AI builders. Trusted by AI leaders. Used by 65% of the Fortune 500.
 

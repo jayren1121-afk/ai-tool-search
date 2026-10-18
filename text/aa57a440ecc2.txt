@@ -3,9 +3,9 @@ PRODUCT SPOTLIGHT
 AgentSpot: Multiplayer AI for Your Teams - October 22
 
 Register Now
-GROUP DEMO
+WEBINAR
 
-See Embedded Analytics & AI in Action. Join Our Live Group Demo Every Tuesday
+Escaping the Analytics Ownership Trap: True Stories from the Other Side - November 5
 
 Register Now
 Agents
@@ -397,7 +397,7 @@ AI Agents
 Augmented Dashboards
 Analyst Studio
 Embedded Analytics
-Automated Insights
+Augmented Analytics
 Any Data, Anywhere
 Enterprise BI
 Actionable Insights

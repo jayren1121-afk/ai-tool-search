@@ -447,6 +447,7 @@ Team Program
 STL Repair
 STL Editor
 3D File Compressor
+Tripo CLI
 Careers
 Terms of Service
 Privacy Policy
