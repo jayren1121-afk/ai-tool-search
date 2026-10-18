@@ -32,6 +32,11 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   useEffect(() => {
     if (!searched) { setRows([]); setErr(""); setLoading(false); return; }
+    if (!sb) {
+      setRows([]); setLoading(false);
+      setErr(L.queryFailed + (locale === "en" ? "search is not configured" : "尚未設定搜尋服務"));
+      return;
+    }
     const timer = setTimeout(async () => {
       setLoading(true); setErr("");
       const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
@@ -64,7 +69,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, searched, L.queryFailed]);
+  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, searched, locale, L.queryFailed]);
 
   return (
     <main className="mx-auto max-w-5xl p-4">
