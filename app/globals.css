@@ -97,6 +97,11 @@ h2 { padding-bottom: 0; font-weight: 650; }
 main > h1 + p { font-size: 1.0625rem; line-height: 1.65; color: var(--color-slate-500); margin-bottom: 1.25rem; }
 main > h1 { margin-bottom: 0.35rem; }
 main > h1 img { height: 2.75rem; width: 2.75rem; box-shadow: 0 2px 8px rgb(92 72 28 / 0.18); }
+/* 首頁主標題右側的保護開關：標題與副標維持一組，窄於 lg 時整塊換到下面 */
+main .home-title { margin-bottom: 1.25rem; }
+main .home-title h1 { margin-bottom: 0.35rem; }
+main .home-title h1 + p { font-size: 1.0625rem; line-height: 1.65; color: var(--color-slate-500); margin-bottom: 0; }
+main .home-title h1 img { height: 2.75rem; width: 2.75rem; box-shadow: 0 2px 8px rgb(92 72 28 / 0.18); }
 
 /* 連結與按鈕的互動回饋 */
 a, button, summary { transition: color .15s ease, background-color .15s ease, border-color .15s ease, box-shadow .15s ease, transform .15s ease; }
