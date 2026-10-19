@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { SITE_DESC, SITE_NAME, SITE_SHORT, SITE_URL } from "@/lib/site";
 import { Inter, Noto_Sans_TC } from "next/font/google";
 import HtmlLang from "@/components/HtmlLang";
+import OnSiteGuard from "@/components/OnSiteGuard";
 import SiteHeader from "@/components/SiteHeader";
 
 // 字體：display swap、限制子集與字重；Noto Sans TC 為 unicode-range 切片，只會下載頁面實際用到的字
@@ -23,5 +24,5 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 
 // <html lang> 由 HtmlLang 依網址設定（中文 zh-Hant-TW、/en 為 en）
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <HtmlLang><body className={`${inter.variable} ${noto.variable} bg-slate-50 text-slate-800`}><SiteHeader />{children}</body></HtmlLang>;
+  return <HtmlLang><body className={`${inter.variable} ${noto.variable} bg-slate-50 text-slate-800`}><SiteHeader /><OnSiteGuard>{children}</OnSiteGuard></body></HtmlLang>;
 }

@@ -6,6 +6,7 @@ import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
 import { catName, pricingName, releaseText, t, toolDesc, toolHref, trSub, type Locale } from "@/lib/i18n";
 import DiagnosePanel from "./DiagnosePanel";
 import HealthBadge from "./HealthBadge";
+import { OnSiteGuardToggle } from "./OnSiteGuard";
 import VoteSummary from "./VoteSummary";
 
 type HealthEmbed = { status: string; last_checked_at: string | null; moved_type?: string | null; moved_to?: string | null };
@@ -31,6 +32,11 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   useEffect(() => {
     if (!searched) { setRows([]); setErr(""); setLoading(false); return; }
+    if (!sb) {
+      setRows([]); setLoading(false);
+      setErr(L.queryFailed + (locale === "en" ? "search is not configured" : "尚未設定搜尋服務"));
+      return;
+    }
     const timer = setTimeout(async () => {
       setLoading(true); setErr("");
       const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
@@ -63,12 +69,17 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, searched, L.queryFailed]);
+  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, searched, locale, L.queryFailed]);
 
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <h1 className="mb-1 flex items-center gap-3 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 rounded-xl" />{L.siteName}</h1>
-      <p className="mb-4 text-sm text-slate-500">{L.heroSub}</p>
+      <div className="home-title flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
+        <div className="min-w-0 lg:flex-1">
+          <h1 className="flex flex-wrap items-center gap-x-3 gap-y-1 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 shrink-0 rounded-xl" /><span className="min-w-0">{L.siteName}</span></h1>
+          <p className="text-sm text-slate-500">{L.heroSub}</p>
+        </div>
+        <OnSiteGuardToggle />
+      </div>
       <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={L.searchPh} aria-label={L.searchPh}
           className="min-w-0 flex-[1_1_240px] rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-400" />
