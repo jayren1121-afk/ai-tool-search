@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：43 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：214 筆
+- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：212 筆
 
 核准單筆範本：
 ```sql
@@ -88,18 +88,16 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **openart**（OpenArt）旗標：has_promo, price_near_quote；；來源 https://openart.ai/pricing；擷取 2026-10-18T12:11:32+08:00
 - **designs-ai**（Designs.ai）旗標：has_promo, name_far_from_price, price_near_quote；Plus: name_far_from_price；來源 https://designs.ai/pricing；擷取 2026-10-18T12:11:31+08:00
 - **tripo**（Tripo AI）旗標：dropped_fields, period_ambiguous_toggle, price_change, price_near_quote, yearly_total_mismatch；Pro: 資料集 $0.16/月 → 官網 $20.0; Max: 資料集 $0.09/月 → 官網 $90.0; Team: yearly_total_mismatch, period_ambiguous_toggle；來源 https://www.tripo3d.ai/pricing；擷取 2026-10-18T12:11:32+08:00
-- **fliki**（Fliki）旗標：has_promo, price_near_quote；；來源 https://fliki.ai/pricing；擷取 2026-10-12T13:31:30+08:00
-- **colossyan**（Colossyan）旗標：dropped_fields；；來源 https://www.colossyan.com/pricing；擷取 2026-10-12T13:31:32+08:00
-- **resemble**（Resemble AI）旗標：dropped_fields, zero_price；；來源 https://www.resemble.ai/pricing；擷取 2026-10-12T13:31:35+08:00
-- **read-ai**（Read AI）旗標：has_promo, name_missing；None: name_missing; None: name_missing; None: name_missing；來源 https://www.read.ai/pricing；擷取 2026-10-12T13:31:37+08:00
-- **research-rabbit**（ResearchRabbit）旗標：period_ambiguous_toggle；ResearchRabbit+: period_ambiguous_toggle；來源 https://www.researchrabbit.ai/pricing；擷取 2026-10-12T13:31:40+08:00
-- **khanmigo**（Khanmigo）旗標：has_promo, name_diff, name_missing；資料集方案 ['Free'] vs 新 ['', '']; None: name_missing; None: name_missing；來源 https://www.khanmigo.ai/pricing；擷取 2026-10-12T13:31:41+08:00
-- **wordtune**（Wordtune）旗標：has_promo；；來源 https://www.wordtune.com/pricing；擷取 2026-10-12T13:31:44+08:00
-- **clay**（Clay）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Launch: period_ambiguous_toggle; Growth: period_ambiguous_toggle；來源 https://www.clay.com/pricing；擷取 2026-10-12T13:31:46+08:00
-- **frase**（Frase）旗標：has_promo, name_far_from_price, period_ambiguous_toggle；Enterprise: name_far_from_price; BASIC: period_ambiguous_toggle; PRO: period_ambiguous_toggle；來源 https://www.frase.io/pricing；擷取 2026-10-12T13:31:51+08:00
-- **decktopus**（Decktopus）旗標：dropped_fields, has_promo, price_near_quote, price_unclear；Pro: price_unclear；來源 https://www.decktopus.com/pricing；擷取 2026-10-12T13:31:58+08:00
-- **smartcat**（Smartcat）旗標：abnormal_price；Anticipate: abnormal_price；來源 https://www.smartcat.com/pricing；擷取 2026-10-12T13:32:06+08:00
-- **polymer**（Polymer）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Teams: period_ambiguous_toggle；來源 https://www.polymersearch.com/pricing；擷取 2026-10-12T13:32:06+08:00
+- **fliki**（Fliki）旗標：has_promo, period_ambiguous_toggle；Standard: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://fliki.ai/pricing；擷取 2026-10-19T12:12:17+08:00
+- **colossyan**（Colossyan）旗標：dropped_fields, has_promo；；來源 https://www.colossyan.com/pricing；擷取 2026-10-19T12:12:17+08:00
+- **resemble**（Resemble AI）旗標：dropped_fields, has_promo, name_far_from_price, zero_price；Business: name_far_from_price；來源 https://www.resemble.ai/pricing；擷取 2026-10-19T12:12:17+08:00
+- **read-ai**（Read AI）旗標：dropped_fields, has_promo, name_far_from_price；Pro: name_far_from_price；來源 https://www.read.ai/pricing；擷取 2026-10-19T12:12:26+08:00
+- **khanmigo**（Khanmigo）旗標：has_promo, name_diff, name_missing；資料集方案 ['Free'] vs 新 ['', '']; None: name_missing; None: name_missing；來源 https://www.khanmigo.ai/pricing；擷取 2026-10-19T12:12:33+08:00
+- **clay**（Clay）旗標：dropped_fields, name_far_from_price；Launch: name_far_from_price；來源 https://www.clay.com/pricing；擷取 2026-10-19T12:12:39+08:00
+- **frase**（Frase）旗標：has_promo, name_far_from_price, price_near_quote；Enterprise: name_far_from_price；來源 https://www.frase.io/pricing；擷取 2026-10-19T12:12:45+08:00
+- **decktopus**（Decktopus）旗標：dropped_fields, has_promo, price_near_quote, price_unclear；Pro: price_unclear；來源 https://www.decktopus.com/pricing；擷取 2026-10-19T12:13:07+08:00
+- **smartcat**（Smartcat）旗標：abnormal_price；Anticipate: abnormal_price；來源 https://www.smartcat.com/pricing；擷取 2026-10-19T12:13:07+08:00
+- **polymer**（Polymer）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Teams: period_ambiguous_toggle；來源 https://www.polymersearch.com/pricing；擷取 2026-10-19T12:13:08+08:00
 - **veed**（VEED）旗標：period_ambiguous_toggle, price_near_quote；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://www.veed.io/pricing；擷取 2026-10-12T13:32:13+08:00
 - **elai**（Elai.io）旗標：period_ambiguous_toggle；Creator: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://elai.io/pricing；擷取 2026-10-12T13:32:13+08:00
 - **wellsaid**（WellSaid）旗標：has_promo；；來源 https://wellsaidlabs.com/pricing；擷取 2026-10-12T13:32:21+08:00

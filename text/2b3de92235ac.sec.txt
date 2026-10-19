@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Start free
 Contact us
@@ -57,6 +58,126 @@ Subscription fee
 None
 $280/mo paid annually
 $800/mo paid annually
+Talk to Sales
+Number of seats
+1
+---
+
+Processing rates
+---
+Resemble Detect for audio
+$0.03500 per second
+$0.01500 per second
+$0.01500 per second
+Volume pricing available
+Resemble Detect for images
+$0.03500 per image
+$0.01500 per image
+$0.01500 per image
+Volume pricing available
+Resemble Detect for video
+$0.07000 per second
+$0.03000 per second
+$0.03000 per second
+Volume pricing available
+Resemble Intelligence
+$0.02500 per second
+$0.01500 per second
+$0.01500 per second
+Volume pricing available
+Resemble Identity search
+$0.00050 per call
+$0.00050 per call
+$0.00050 per call
+Volume pricing available
+Resemble Watermarker encode
+
+$0.00050 per call
+$0.00050 per call
+$0.00050 per call
+Volume pricing available
+Resemble Watermarker decode
+
+$0.00020 per call
+$0.00020 per call
+$0.00020 per call
+Volume pricing available
+Resemble Agent Detection
+
+$1 per 1,000 sessions
+$1 per 1,000 sessions
+$1 per 1,000 sessions
+Volume pricing available
+Frequently asked questions
+How does the Flex plan work?
+The Flex Plan is pay-as-you-go model where you load credits into your account and pay based on actual usage. You're only charged for the models and features you use, with no minimum commitments.
+Do credits expire?
+No, credits on the Flex Plan never expire. Load credits when you need them and use them at your own pace.
+Is deepfake detection available on the Flex plan?
+Yes! Deepfake Detection is now available on the Flex Plan. You can access audio, video, and image detection capabilities as well as intelligence analysis features, all billed on a pay-per-use basis.
+When should I talk to Sales?
+If you're spending more than $1,000/month on the Business Plan, you could save significantly with volume pricing. Our Sales team can also help if you need enterprise features like SSO, higher API concurrency, custom SLAs, model finetuning, 
+Can I upgrade from Flex to Enterprise?
+Yes, you can upgrade at any time. Contact our Sales team and we'll help you transition smoothly.
+Know what's real — and what's a real threat.
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Start free
+Contact us
+SAVE 20% WITH TEAM AND BUSINESS PLANS
+Start free. Scale with your team.
+No credit card needed to try it. Start free and scale up to fit your organization’s needs. Contact us for enterprise solutions.
+Monthly billing
+Annual billing
+Save 20%
+FLEX
+1
+For builders and teams exploring detection with no subscription fee.
+$0/mo
+Buy credits as you go - view rates
+Start free
+
+---
+1 team seat included
+TEAM
+5
+For growing teams putting detection into production.
+$350/mo
+Billed monthly
+Select Team
+
+---
+5 team seats included
+BUSINESS
+20
+For larger orgs scaling Resemble across teams and workflows.
+$1,000/mo
+Billed monthly
+Select Business
+
+---
+No matter what stage you’re at, our pricing is built to grow with you.
+Monthly billing
+Annual billing
+save 20%
+FLEX
+$0/mo
+Start free
+TEAM
+$350/mo
+Select Team
+BUSINESS
+$1,000/mo
+Select Business
+ENTERPRISE
+Custom
+---
+
+
+Subscription fee
+None
+$350/mo
+$1,000/mo
 Talk to Sales
 Number of seats
 1

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Read AI now available asClaude Connector, ChatGPT App, and MCP Server
 Product
 Apps & Integrations
@@ -98,6 +99,326 @@ $29.75
 -25%
 
 USD. Per user / month when billed annually.
+
+Get started
+View all features
+Questions about pricing?
+Contact sales
+Unlock More Possibilities
+Compare Our Plans
+Choose the perfect plan to fit your needs—whether you're solo or with a team, we've got you covered with features that help you work smarter. Still have questions? Check out our FAQs.
+Features
+Free
+Pro
+Enterprise
+Enterprise+
+Meeting Assistant
+Live Notes and Metrics
+5 per month
+Unlimited
+Unlimited
+
+Unlimited
+Support for Zoom, Teams, & Meet
+Maximum Meeting Length
+1 hour
+4 hours
+4 hours
+8 hours
+Custom Assistant Branding
+—
+Meeting Reports
+Meeting Reports
+5 per month
+Unlimited
+Unlimited
+Unlimited
+Summary
+Transcription
+5 per month
+Unlimited
+Unlimited
+Unlimited
+Audio / Video Playback
+—
+—
+Meeting Coach
+Support for 16+ Languages
+Advanced
+Ask Read
+Large Language Models
+—
+Workspace
+—
+Integrations
+Basic
+Premium
+Premium
+Premium
+Web Extension
+Meeting Audio/Video Uploads
+Not included
+100 mins/mo
+200 mins/mo
+300 mins/mo
+Read AI Apps
+Android & iOS Apps
+Windows & MacOS Apps
+Reporting & Insights
+For You Insights
+—
+Recommendations
+Meeting Policy
+Coaching Trends
+Support & Security
+Dedicated Support
+—
+—
+Workspace Onboarding
+—
+—
+—
+Domain Capture
+—
+—
+—
+Enterprise SSO + SAML
+—
+—
+—
+SCIM
+—
+—
+—
+Data Retention Policy
+—
+—
+—
+HIPAA Compliance
+—
+—
+—
+Dive deeper—download our one-page guides
+
+Explore Read AI’s capabilities, use cases, and benefits—all in a quick, easy-to-read format.
+
+Eliminate Information Silos with Read AI
+Productivity
+
+Break down information silos and boost productivity with Read AI's Free Agent technology. Discover how Read AI compares to others — and how much you could save per user each month.
+
+Download Now
+
+Introducing Ask Read: Smarter Enterprise Search
+AI Search
+
+Harness AI to unlock workplace knowledge. Ask Read makes finding information effortless, saving time across your organization so employees can focus on high-impact work instead of digging through content.
+
+Download Now
+
+Get to Know Read AI
+Overview
+
+Get to know the leading AI-powered notetaker, streamlining meetings, emails, messages, and search for maximum efficiency. Read AI helps you stay organized, capture key insights, and turn conversations into actionable next steps.
+
+Download Now
+
+Zoom Essential Apps
+
+Gain access to Read's premium features at no cost with Essential Apps included in Zoom One Pro, Business, or Business Plus subscriptions.
+
+Learn more about Zoom Essential Apps
+Read for Education
+
+Are you a student or teacher? Read provides automated transcription, comprehensive meeting notes, and seamless integrations with your favorite tools.
+
+Learn more about education pricing
+Ready to take back the workday?
+Try Read today, your team will thank you tomorrow.
+Get started for free
+Frequently Asked Questions
+Support
+What are my payment options?
+
+You can pay with credit card and will be charged monthly or annually. Read will email you a receipt after a successful payment to the email address you used to create your account. At this time we do not accept PayPal.
+
+If you are in a Workspace, please note that the Workspace owner will be in charge of paying for all users in the Workspace, since billing is managed centrally.
+
+How many users can we have with a Pro/Enterprise plan?
+
+All our licenses are individual. If you want to create a workspace, you will need to buy a license for each person you invite. Free users cannot be part of a Workspace, so you will not be able to manage any users without a paid license from your Workspace Settings.
+
+I don’t want a license for myself, can I just manage the workspace and payments?
+
+We do not offer admin-only licenses, if you do not plan on using Read we suggest you assign one of the users to be the workspace owner so they can manage licenses and payments.
+
+Can I buy Enterprise licenses for some users and Pro licenses for other users in my workspace?
+
+No, all licenses in a Workspace have to be on the same plan.
+
+I have a paid plan. Can I just share it with others so their meetings can be covered, too?
+
+No, Read is designed assuming that one account belongs to a single person, so many features will not work or make sense if multiple people are sharing an account. Additionally, please note that sharing accounts is a violation of Read's Terms of Service.
+
+I forgot to cancel or no longer want my subscription, can I get a refund?
+
+Read users can cancel their subscriptions at any time before the renewal date. While we don't offer refunds, you will continue to have access to your Workspace until the end of the billing period if you forgot to cancel it on time.
+
+Do you offer discounts based on amount of licenses?
+
+Read can discount based on the following annual license counts: 100+ licenses:  10% discount, 500+ licenses:  15% discount, 1,000+ licenses:  20% discount
+
+Keep Reading
+Sign up for emails to get the latest product updates, benchmarks, and more—delivered straight to your inbox.
+Product
+Meetings
+Digital Twin
+Ask Read
+Agents
+Messaging
+Email
+Pricing
+Privacy
+Features
+Summary & Transcription
+Assistant
+Integrations
+Workspaces
+Real-Time Meeting Notes
+Playback
+For You
+Speaker Coach
+File Uploads
+Recommendations
+Platforms
+Zoom
+Google
+Teams
+Outlook
+Slack
+iOS
+Android
+Windows
+MacOS
+ChatGPT
+Claude
+MCP
+API
+Company
+About Us
+Blog
+Press
+Careers
+Support
+Support
+Status Page
+Privacy Policy
+Terms of Service
+Contact Us
+
+©  2026 Read AI, Inc.
+
+Do not sell my personal information
+Your Privacy Choices
+
+=== 計費模式: 月繳 (monthly) ===
+Read AI now available asClaude Connector, ChatGPT App, and MCP Server
+Product
+Apps & Integrations
+Ask Read
+Pricing
+About
+Book a Demo
+Login
+Try for free!
+EN
+PRICING
+Ready to elevate your productivity?
+Unlock the power of Read AI today.
+Annual
+-25%
+Monthly
+Free
+
+For individuals starting out, with 5 meetings per month complete with summaries, transcription, and search.
+
+The Free plan includes:
+5 meeting transcripts per month
+Unlimited enterprise search
+Best-in-class summaries for meetings, email, and messaging
+Personalized meeting coach
+Basic integrations
+Topic Readouts
+20+ languages supported
+Windows, MacOS, Android, and iOS apps
+$0
+
+Always free, no credit card required.
+
+Get started
+View all features
+Pro
+
+For individuals and small teams who want basic transcription, search, and premium integrations.
+
+Everything in Free, plus:
+Priority report processing
+Unlimited meeting transcripts
+100 file upload credits /mo
+Premium integrations (Notion, Salesforce, HubSpot, Jira, Confluence, Zapier, webhooks)
+Always included in paid plans:
+Unlimited meeting reports
+Unlimited storage
+Workspace access
+$19.75
+
+USD. Per user / month
+
+Get started
+View all features
+
+MOST POPULAR
+
+Enterprise
+
+For individuals and teams who want video playback and other supercharged capabilities.
+
+Everything in Pro, plus:
+Audio & video playback
+Video highlights
+200 file upload credits /mo
+Premium support
+Always included in paid plans:
+Unlimited meeting reports
+Unlimited storage
+Workspace access
+$29.75
+
+USD. Per user / month
+
+Get started
+View all features
+
+REQUIRES 5+ LICENSES
+
+Enterprise+
+
+For larger teams and organizations who need security and controls for scale. Talk to sales
+
+Everything in Enterprise, plus:
+HIPAA compliance
+SAML & SCIM
+Domain capture
+Custom data retention policy
+300 file upload credits /mo
+Workspace onboarding
+Always included in paid plans:
+Unlimited meeting reports
+Unlimited storage
+Workspace access
+$39.75
+
+USD. Per user / month
 
 Get started
 View all features

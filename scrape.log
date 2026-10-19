@@ -514,3 +514,21 @@ SCRAPE DONE
 0 15 scraped https://openart.ai/pricing 25.1
 舊版頁面還要重抓： 233 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://www.colossyan.com/pricing 8.9
+2 2 scraped https://www.resemble.ai/pricing 11.1
+0 3 scraped https://fliki.ai/pricing 16.1
+1 4 scraped https://www.read.ai/pricing 10.3
+2 5 scraped https://www.researchrabbit.ai/pricing 11.2
+1 6 scraped https://www.wordtune.com/pricing 9.0
+0 7 scraped https://www.khanmigo.ai/pricing 12.6
+1 8 scraped https://www.frase.io/pricing 9.9
+2 9 scraped https://www.clay.com/pricing 27.3
+0 10 no_price_found https://www.spellbook.legal/pricing 21.6
+1 11 scraped https://www.paradox.ai/pricing 12.7
+2 12 scraped https://www.decktopus.com/pricing 6.9
+0 13 scraped https://www.smartcat.com/pricing 7.1
+1 14 scraped https://www.polymersearch.com/pricing 9.7
+2 15 no_price_found https://chatglm.cn/pricing 31.7
+舊版頁面還要重抓： 218 個（每次最多 15 個）
+SCRAPE DONE

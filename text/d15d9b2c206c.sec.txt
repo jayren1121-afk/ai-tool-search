@@ -1,3 +1,160 @@
+=== 計費模式: 預設畫面 (default) ===
+Enterprise
+Free AI tools
+Sign up free
+Book a demo
+---
+For individual content creators
+---
+Free
+$27/mo
+---
+No credit card required
+---
+Sign up free
+Access to all Colossyan AI
+---
+20 min/mo with
+NEO
+---
+Brand kits
+10 interactive videos/mo
+15 auto translations/mo
+...and more
+---
+Professional
+Yearly
+-34%
+---
+For professionals or small teams
+---
+$59
+/mo
+---
+$
+30
+/mo per additional member
+---
+3 editors
+Try it free
+Buy now
+---
+30 min/mo with
+NEO
+---
+10 min/mo with
+NEO2
+---
+Watermark removal
+5 SCORM exports/mo (Streaming)
+AI image generation
+---
+20 custom avatars + 5 voices
+20 auto translations/mo
+15 interactive videos/mo
+---
+5 SCORM exports/mo (Streaming)
+Enterprise
+---
+Let's talk
+Contact sales
+Access to all Colossyan AI
+---
+Unlimited min/mo with
+NEO
+---
+Unlimited min/mo with
+NEO2
+---
+Video minutes with NEO
+20 min/mo
+30 min/mo
+Unlimited
+Video minutes with NEO2
+0.5 min/mo
+10 min/mo
+Unlimited
+---
+20 min
+30 min monthly
+50 min yearly
+Custom
+---
+Interactive videos
+10/mo
+15/mo
+Unlimited
+---
+–
+360 min/yr
+Custom
+---
+Auto-translations
+15/mo
+20/mo
+Unlimited
+---
+0
+5/mo
+Unlimited
+---
+0
+5/mo
+Unlimited
+---
+–
+Frequently asked questions
+How much does Colossyan cost?
+---
+Our free plan gives you $27/month worth of value, including our entire 300+ avatar library with best-in-class avatars. When you need more, Professional is $59/month on an annual plan, giving you 30 minutes a month with NEO and 10 minutes a 
+---
+Can I try Colossyan for free before signing up?
+---
+Yes. Colossyan has a generous free trial and a free plan, so you can explore the product and create your first AI video before you commit. Start a free account, or book a personal demo with our sales team to learn more.
+---
+What's the difference between Starter, Professional, and Enterprise?
+---
+Starter is free for individuals exploring AI video. Professional ($59/month annual) adds NEO2 minutes, SCORM export, AI image generation, and up to 3 editors for small teams. Enterprise unlocks unlimited minutes, unlimited SCORM, SSO, data 
+---
+Is Colossyan SOC 2 Type II compliant and GDPR ready?
+---
+Colossyan supports 120+ languages. Avatar narration, on-screen text, and interactive elements localize together in a single workflow, with lip-sync in every language. Explore our full avatar library.
+---
+How much does a Colossyan custom avatar cost?
+---
+Instant custom avatars are included in any active plan. However, studio custom avatars, which are filmed professionally using a green screen, are available as an add-on for $1000 per year.
+---
+Can I purchase additional minutes?
+---
+Yes. On a Professional yearly plan you can buy add-on minute packs: 600 extra NEO2 minutes for $1,500/year. Reach out to sales to add a pack.
+---
+Do you offer migration support from another platform?
+---
+If I pay for an annual subscription, will I receive my entire minute allowance for the year all at once?
+---
+Yes! You'll receive all of your minutes for the year upon purchasing an annual plan, giving you the flexibility to use them whenever you need them.
+---
+No. Only generated videos count toward your allowance, so feel free to create as many drafts as you like!
+---
+Yes, you can pause your account for up to 2 months for free. Reach out to us in the chat to do so.
+---
+No, access to Colossyan requires a recurring subscription. Professional plans can be billed monthly or annually, and all Enterprise plans are billed annually.
+---
+Get started today for free
+---
+No credit card required: simply go into the editor, and try out AI video completely free for 14 days. Start creating effective video content now.
+---
+Create your free video
+Product
+---
+Try on mobile
+Free AI Tools
+Community
+---
+Support
+Contact Sales
+Company
+=== 計費模式: 切換後 (toggled) ===
 Enterprise
 Free AI tools
 Sign up free

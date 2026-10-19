@@ -11,9 +11,9 @@ Book a demo
 
 Start free trial
 
-Hire your AI Coworkers
+Launch content in every market on a plan that grows with you
 
-Your AI Coworkers to solve the adaptation gap.
+Smartcat AI coworkers translate, review and keep your content current in 280+ languages.
 
 Book a demo
 
@@ -428,6 +428,10 @@ How does the Marketplace work?
 Marketplace gives you on-demand access to 500K+ vetted human experts: linguists, copywriters, reviewers.
 What languages do you support?
 280+ languages across translation and content creation.
+What security and compliance standards does Smartcat meet?
+Smartcat is SOC 2 Type II compliant. Your content is encrypted in transit and at rest, access is controlled by user roles, and actions are logged for audits. Your content is never used to train public AI models. A Data Processing Agreement is available, and on written request Smartcat deletes or returns your data within 30 days. From the Anticipate plan up, you also get SSO, 2FA and a completed technical questionnaire for your security review.
+Why use Smartcat instead of ChatGPT or Claude for translation?
+Smartcat is built for content you publish, not one-off chats. Every job uses your glossary, style guide and translation memory, so terms stay consistent across 280+ languages. Smartcat handles 80+ file formats, sends work through review and approval steps, connects to 40+ tools your team already uses, and brings in vetted human experts when you need them. In 2026, 92% of words translated by Smartcat AI for paying customers were accepted without a single human edit.
 Close the adaptation gap.
 Hire your workforce today.
 

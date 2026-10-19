@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Login
 Sign Up
 Get more out of ResearchRabbit
@@ -12,6 +13,32 @@ Core search settings
 Sign Up
 ResearchRabbit+
 $10* per  month
+---
+Annual plan
+Monthly plan
+For faster discovery and organisation during large scale research
+Everything in Free Forever
+Use up to 300 seed articles for large scale reviews
+---
+FAQ
+Is ResearchRabbit free?
+Can I complete my literature review for free?
+What is RR+?
+=== 計費模式: 月繳 (monthly) ===
+Login
+Sign Up
+Get more out of ResearchRabbit
+Free
+$0, Forever!
+Everything you need for a
+focused literature review
+Unlimited searches across 310+ million articles
+---
+Use up to 50 seed articles
+Core search settings
+Sign Up
+ResearchRabbit+
+$12.5* per  month
 ---
 Annual plan
 Monthly plan

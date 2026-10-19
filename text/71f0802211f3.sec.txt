@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 FREE TOOLS
 ---
 Agent Readiness Checker
@@ -96,51 +97,201 @@ $99/mo
 Ten times the free allowance, for a site with real traffic
 500 GB bandwidth
 Dedicated support
+=== 計費模式: 月繳 (monthly) ===
+FREE TOOLS
 ---
-Every Frase plan includes FraseCMS hosting free, trial included. More room and no badge from $19/mo on top of your paid plan (plans from $39/mo), or $99/mo at a million page views. Yearly billing on FraseCMS saves two months. A page view co
+Agent Readiness Checker
+All Free Tools
 ---
-See how FraseCMS works
+Log in
+Start free trial →
+THE CONTENT OPERATING SYSTEM FOR AI SEARCH
 ---
-Push each piece to WordPress, Webflow, Sanity, or Wix in a click. Or host it on FraseCMS, free for 100,000 page views a month.
+Pick the plan that matches your team.
+Monthly
+Yearly
+SAVE 20%
 ---
-AI generations
-On-demand AI actions the agent runs for you, like idea expansions and image generation. Separate from your monthly article count.
-25	100	350	Custom
+Pay yearly instead and 20% comes off.
 ---
-Holds at limit	Optional pay-as-you-go	Optional pay-as-you-go	Custom
-TEAM
-Seats included	1	3	5	Custom
-Extra seats
-$29/mo each	$29/mo each	Included
-Roles and permissions
-Admins manage the team and billing, Editors create and edit content, Viewers get read-only access.
-Single seat	Owner, Admin, Editor, Viewer	Owner, Admin, Editor, Viewer	Owner, Admin, Editor, Viewer
+Run the core loop on one site.
 ---
-Frase Answers (Listen)
-Every plan includes a free Answers widget, one per site. Higher conversation volume is a paid add-on.
-Free tier + add-on	Free tier + add-on	Free tier + add-on	Free tier + add-on
-Research, writer, and images
+Best for solos, freelancers, and single-site teams
+$49
+/mo
 ---
-API, MCP and CLI requests	5,000/mo	20,000/mo	50,000/mo	Custom
-Historical data
----
-Start your Scale trial
----
-Free 7-day trial. No credit card.
----
-Questions, answered straight.
-What do I get in the 7-day free trial?
-What happens when I hit a monthly limit?
-How do add-ons work?
+billed monthly · $39/mo billed yearly
 ---
 Start free trial
 ---
 Free 7-day trial. No credit card.
 ---
-Customer Stories
+The agent publishes on its own when you let it, on any content type
+Frase Answers, a free conversational widget that captures what your visitors want, so you can create content for it
+---
+Running low on room? Upgrade in a click. Until you do, Starter holds at its monthly limits.
+---
+The whole loop, built for a content team.
+---
+Best for in-house teams and growing SMBs
+$129
+/mo
+---
+billed monthly · $103/mo billed yearly
+---
+Start free trial
+---
+Free 7-day trial. No credit card.
+---
+Everything in Starter, plus:
+---
+3 seats and 5 sites, with extra seats at $29/mo
+40 articles and 250 audit pages each month
+A content calendar, internal linking suggestions, and one piece turned into posts for every channel
+AI crawler monitoring, plus Perplexity added to AI Visibility
+---
+Run the loop across many sites, with more done for you.
+---
+Best for agencies and multi-site brands
+$299
+/mo
+---
+billed monthly · $239/mo billed yearly
+---
+Start free trial
+---
+Free 7-day trial. No credit card.
+---
+Everything in Professional, plus:
+---
+5 seats and up to 10 domains, with extra seats at $29/mo
+100 articles and 1,000 audit pages each month
+Content Guard watches 300 pages, plus Claude and Gemini added to AI Visibility
+Client-ready reports you can export for every client
+---
+Frase pushes finished posts to WordPress, Webflow, Sanity or Wix. Or publish to FraseCMS: an agent-ready CMS, hosted or headless, with WebMCP so AI assistants can read your pages and act on them. Nothing to set up, no hosting bill, and ever
+---
+FREE
+---
+$0
+---
+100,000 page views a month
+---
+Structured data and llms.txt on every page
+---
+BASICYOUR BLOG, YOUR BRAND
+---
+$19/mo
+---
+250,000 page views a month
+---
+100 GB bandwidth
+---
+PRO
+---
+$99/mo
+---
+1,000,000 page views a month
+---
+Ten times the free allowance, for a site with real traffic
+500 GB bandwidth
+Dedicated support
+=== 計費模式: 月繳 (monthly) #2 ===
 FREE TOOLS
-GEO Score Checker
 ---
 Agent Readiness Checker
 All Free Tools
-COMPARE
+---
+Log in
+Start free trial →
+THE CONTENT OPERATING SYSTEM FOR AI SEARCH
+---
+Pick the plan that matches your team.
+Monthly
+Yearly
+SAVE 20%
+---
+Pay yearly instead and 20% comes off.
+---
+Run the core loop on one site.
+---
+Best for solos, freelancers, and single-site teams
+$49
+/mo
+---
+billed monthly · $39/mo billed yearly
+---
+Start free trial
+---
+Free 7-day trial. No credit card.
+---
+The agent publishes on its own when you let it, on any content type
+Frase Answers, a free conversational widget that captures what your visitors want, so you can create content for it
+---
+Running low on room? Upgrade in a click. Until you do, Starter holds at its monthly limits.
+---
+The whole loop, built for a content team.
+---
+Best for in-house teams and growing SMBs
+$129
+/mo
+---
+billed monthly · $103/mo billed yearly
+---
+Start free trial
+---
+Free 7-day trial. No credit card.
+---
+Everything in Starter, plus:
+---
+3 seats and 5 sites, with extra seats at $29/mo
+40 articles and 250 audit pages each month
+A content calendar, internal linking suggestions, and one piece turned into posts for every channel
+AI crawler monitoring, plus Perplexity added to AI Visibility
+---
+Run the loop across many sites, with more done for you.
+---
+Best for agencies and multi-site brands
+$299
+/mo
+---
+billed monthly · $239/mo billed yearly
+---
+Start free trial
+---
+Free 7-day trial. No credit card.
+---
+Everything in Professional, plus:
+---
+5 seats and up to 10 domains, with extra seats at $29/mo
+100 articles and 1,000 audit pages each month
+Content Guard watches 300 pages, plus Claude and Gemini added to AI Visibility
+Client-ready reports you can export for every client
+---
+Frase pushes finished posts to WordPress, Webflow, Sanity or Wix. Or publish to FraseCMS: an agent-ready CMS, hosted or headless, with WebMCP so AI assistants can read your pages and act on them. Nothing to set up, no hosting bill, and ever
+---
+FREE
+---
+$0
+---
+100,000 page views a month
+---
+Structured data and llms.txt on every page
+---
+BASICYOUR BLOG, YOUR BRAND
+---
+$19/mo
+---
+250,000 page views a month
+---
+100 GB bandwidth
+---
+PRO
+---
+$99/mo
+---
+1,000,000 page views a month
+---
+Ten times the free allowance, for a site with real traffic
+500 GB bandwidth
+Dedicated support

@@ -12480,16 +12480,16 @@
   "name": "Fliki",
   "status": "ok",
   "source_url": "https://fliki.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:30+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 10027,
+  "fetched_at": "2026-10-19T12:12:17+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 20065,
   "extracted": {
    "plans": [
     {
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly: $0/mo",
      "evidence_quote": "Free … $0",
      "quote_verified": true,
      "price_check": {
@@ -12502,56 +12502,72 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     },
     {
      "name": "Standard",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per user / month, billed annually",
-     "evidence_quote": "Standard … $21 per user / month · $252 billed annually",
+     "billing_note": "monthly $28/mo; yearly $21/mo billed annually ($252 total)",
+     "evidence_quote": "Standard … $28 $21 per user / month · $252 billed annually",
      "quote_verified": true,
      "price_check": {
+      "price_monthly": "in_quote",
       "price_yearly_per_month": "in_quote",
       "price_yearly_total": "in_quote",
-      "list_price": "near_quote"
+      "list_price": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 28.0,
      "price_yearly_per_month": 21.0,
      "price_yearly_total": 252.0,
      "price_unclear": null,
      "list_price": 28.0,
      "regular_price_monthly": 28.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [
+      "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
+     ]
     },
     {
      "name": "Premium",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "per user / month, billed annually",
-     "evidence_quote": "Premium … $66 per user / month · $792 billed annually",
+     "billing_note": "monthly $88/mo; yearly $66/mo billed annually ($792 total)",
+     "evidence_quote": "Premium … $88 $66 per user / month · $792 billed annually",
      "quote_verified": true,
      "price_check": {
+      "price_monthly": "in_quote",
       "price_yearly_per_month": "in_quote",
       "price_yearly_total": "in_quote",
-      "list_price": "near_quote"
+      "list_price": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 88.0,
      "price_yearly_per_month": 66.0,
      "price_yearly_total": 792.0,
      "price_unclear": null,
      "list_price": 88.0,
      "regular_price_monthly": 88.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [
+      "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
+     ]
     },
     {
      "name": "Custom pricing",
      "currency": "USD",
      "is_promo": false,
      "billing_note": "billed yearly",
-     "evidence_quote": "Custom pricing",
+     "evidence_quote": "Custom pricing … billed yearly",
      "quote_verified": true,
      "price_check": {},
      "price_monthly": null,
@@ -12561,71 +12577,78 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     }
    ],
    "free_tier": {
     "available": true,
     "limits": "3 credits per month",
-    "evidence_quote": "Free forever. Upgrade for more credits, longer videos, more voices, and HD exports.",
+    "evidence_quote": "$0",
     "quote_verified": true
    },
-   "price_summary": "Free plan at $0, Standard at $21 per user/month billed annually ($252/year) with original $28/month price, Premium at $66 per user/month billed annually ($792/year) with original $88/month price.",
+   "price_summary": "Standard $28/mo or $21/mo billed annually ($252/yr); Premium $88/mo or $66/mo billed annually ($792/yr); Free $0.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
-   "price_near_quote": 2
+   "issue_period_ambiguous_toggle": 2
   },
   "evidence": [
    {
-    "evidence_quote": "Standard … $21 per user / month · $252 billed annually",
+    "evidence_quote": "Standard … $28 $21 per user / month · $252 billed annually",
     "plan": "Standard",
     "source_url": "https://fliki.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:30+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    },
    {
-    "evidence_quote": "Premium … $66 per user / month · $792 billed annually",
+    "evidence_quote": "Premium … $88 $66 per user / month · $792 billed annually",
     "plan": "Premium",
     "source_url": "https://fliki.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:30+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    },
    {
-    "evidence_quote": "Free forever. Upgrade for more credits, longer videos, more voices, and HD exports.",
+    "evidence_quote": "$0",
     "plan": "free_tier",
     "source_url": "https://fliki.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:30+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "has_promo",
-    "price_near_quote"
+    "period_ambiguous_toggle"
    ],
    "needs_review": true,
-   "details": [],
+   "details": [
+    "Standard: period_ambiguous_toggle",
+    "Premium: period_ambiguous_toggle"
+   ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://fliki.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://fliki.ai/pricing），2026-10-19 擷取"
  },
  {
   "id": "colossyan",
   "name": "Colossyan",
   "status": "ok",
   "source_url": "https://www.colossyan.com/pricing",
-  "fetched_at": "2026-10-12T13:31:32+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 9197,
+  "fetched_at": "2026-10-19T12:12:17+08:00",
+  "note": "robots 允許；計費切換：toggled",
+  "rendered_text_len": 18071,
   "extracted": {
    "plans": [
     {
      "name": "Free",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "free plan",
+     "billing_note": null,
      "evidence_quote": "Free … $27/mo",
      "quote_verified": true,
      "price_check": {},
@@ -12636,13 +12659,17 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "toggled"
+     ]
     },
     {
      "name": "Professional",
      "currency": "USD",
-     "is_promo": false,
-     "billing_note": "per month, annual billing",
+     "is_promo": true,
+     "billing_note": "per month, billed annually",
      "evidence_quote": "Professional … $59 /mo",
      "quote_verified": true,
      "price_check": {
@@ -12655,88 +12682,77 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
-    },
-    {
-     "name": "Enterprise",
-     "currency": "USD",
-     "is_promo": false,
-     "billing_note": "contact sales for pricing",
-     "evidence_quote": "Enterprise … Let's talk",
-     "quote_verified": true,
-     "price_check": {},
-     "price_monthly": null,
-     "price_yearly_per_month": null,
-     "price_yearly_total": null,
-     "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "toggled"
+     ]
     }
    ],
    "free_tier": {
     "available": true,
     "limits": "20 min/mo with NEO, Brand kits, 10 interactive videos/mo, 15 auto translations/mo",
-    "evidence_quote": "Free … $27/mo … No credit card required … Access to all Colossyan AI … 20 min/mo with NEO … Brand kits … 10 interactive videos/mo … 15 auto translations/mo",
+    "evidence_quote": "$27/mo",
     "quote_verified": true
    },
-   "price_summary": "Free plan is $0/month (offers $27/month value). Professional plan costs $59 per month when billed annually. Enterprise pricing requires contacting sales.",
+   "price_summary": "Free plan is free (shown as $27/mo value). Professional costs $59 per month when billed annually (‑34% discount). Enterprise requires contact sales.",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 3,
-   "price_dropped_unverified": 1
+   "plan_dropped_quote": 1
   },
   "evidence": [
    {
     "evidence_quote": "Professional … $59 /mo",
     "plan": "Professional",
     "source_url": "https://www.colossyan.com/pricing",
-    "fetched_at": "2026-10-12T13:31:32+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    },
    {
-    "evidence_quote": "Free … $27/mo … No credit card required … Access to all Colossyan AI … 20 min/mo with NEO … Brand kits … 10 interactive videos/mo … 15 auto translations/mo",
+    "evidence_quote": "$27/mo",
     "plan": "free_tier",
     "source_url": "https://www.colossyan.com/pricing",
-    "fetched_at": "2026-10-12T13:31:32+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
-    "dropped_fields"
+    "dropped_fields",
+    "has_promo"
    ],
    "needs_review": true,
    "details": [],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.colossyan.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.colossyan.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "resemble",
   "name": "Resemble AI",
   "status": "ok",
   "source_url": "https://www.resemble.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:35+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 5842,
+  "fetched_at": "2026-10-19T12:12:17+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 11688,
   "extracted": {
    "plans": [
     {
      "name": "Flex",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly $0/mo; yearly $0/mo billed annually",
      "evidence_quote": "FLEX … $0/mo",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote"
      },
      "price_monthly": 0.0,
-     "price_yearly_per_month": null,
+     "price_yearly_per_month": 0.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
@@ -12744,225 +12760,219 @@
      "list_price_unit": null,
      "issues": [
       "zero_price"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Team",
      "currency": "USD",
-     "is_promo": false,
-     "billing_note": "Billed annually",
-     "evidence_quote": "TEAM … $280/mo",
+     "is_promo": true,
+     "billing_note": "monthly $350/mo; yearly $280/mo billed annually",
+     "evidence_quote": "TEAM … $350/mo",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote"
+      "price_monthly": "in_quote",
+      "list_price": "in_quote"
      },
-     "price_monthly": null,
-     "price_yearly_per_month": 280.0,
+     "price_monthly": 350.0,
+     "price_yearly_per_month": null,
      "price_yearly_total": null,
      "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
-     "issues": []
+     "list_price": 350.0,
+     "regular_price_monthly": 350.0,
+     "list_price_unit": "month",
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
     },
     {
      "name": "Business",
      "currency": "USD",
-     "is_promo": false,
-     "billing_note": "Billed annually",
-     "evidence_quote": "BUSINESS … $800/mo",
+     "is_promo": true,
+     "billing_note": "monthly $1,000/mo; yearly $800/mo billed annually",
+     "evidence_quote": "BUSINESS … $1,000/mo",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote"
+      "price_monthly": "in_quote",
+      "list_price": "in_quote"
      },
-     "price_monthly": null,
-     "price_yearly_per_month": 800.0,
+     "price_monthly": 1000.0,
+     "price_yearly_per_month": null,
      "price_yearly_total": null,
      "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
-     "issues": []
+     "list_price": 1000.0,
+     "regular_price_monthly": 1000.0,
+     "list_price_unit": "month",
+     "issues": [
+      "name_far_from_price"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     }
    ],
    "free_tier": {
     "available": true,
-    "limits": "1 team seat included",
-    "evidence_quote": "For builders and teams exploring detection with no subscription fee.",
+    "limits": "no subscription fee, pay per use",
+    "evidence_quote": "$0/mo",
     "quote_verified": true
    },
-   "price_summary": "Flex is $0/mo, Team $280/mo billed annually, Business $800/mo billed annually, Enterprise custom pricing.",
+   "price_summary": "Team $280/mo billed annually (save $840/yr) vs $350/mo monthly; Business $800/mo billed annually (save $2,400/yr) vs $1,000/mo monthly; Flex free",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 4,
    "issue_zero_price": 1,
+   "price_dropped_unverified": 2,
+   "issue_name_far_from_price": 1,
    "plan_dropped_quote": 1
   },
   "evidence": [
    {
-    "evidence_quote": "TEAM … $280/mo",
+    "evidence_quote": "TEAM … $350/mo",
     "plan": "Team",
     "source_url": "https://www.resemble.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:35+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    },
    {
-    "evidence_quote": "BUSINESS … $800/mo",
+    "evidence_quote": "BUSINESS … $1,000/mo",
     "plan": "Business",
     "source_url": "https://www.resemble.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:35+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    },
    {
-    "evidence_quote": "For builders and teams exploring detection with no subscription fee.",
+    "evidence_quote": "$0/mo",
     "plan": "free_tier",
     "source_url": "https://www.resemble.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:35+08:00"
+    "fetched_at": "2026-10-19T12:12:17+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "dropped_fields",
+    "has_promo",
+    "name_far_from_price",
     "zero_price"
    ],
    "needs_review": true,
-   "details": [],
+   "details": [
+    "Business: name_far_from_price"
+   ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.resemble.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.resemble.ai/pricing），2026-10-19 擷取"
  },
  {
   "id": "read-ai",
   "name": "Read AI",
   "status": "ok",
   "source_url": "https://www.read.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:37+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 7397,
+  "fetched_at": "2026-10-19T12:12:26+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 14774,
   "extracted": {
    "plans": [
     {
-     "name": null,
+     "name": "Free",
      "currency": "USD",
-     "is_promo": true,
-     "billing_note": "Per user / month when billed annually.",
-     "evidence_quote": "$15 -25% USD. Per user / month when billed annually.",
+     "is_promo": false,
+     "billing_note": "monthly $0/mo; yearly $0/mo billed annually",
+     "evidence_quote": "Free … $0",
      "quote_verified": true,
      "price_check": {
+      "price_monthly": "in_quote",
       "price_yearly_per_month": "in_quote"
      },
-     "price_monthly": null,
-     "price_yearly_per_month": 15.0,
+     "price_monthly": 0.0,
+     "price_yearly_per_month": 0.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "name_missing"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
-     "name": null,
+     "name": "Pro",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "Per user / month when billed annually.",
-     "evidence_quote": "$22.50 -25% USD. Per user / month when billed annually.",
+     "billing_note": "monthly $19.75/mo; yearly $15/mo billed annually",
+     "evidence_quote": "Pro … $19.75",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote"
+      "price_monthly": "in_quote"
      },
-     "price_monthly": null,
-     "price_yearly_per_month": 22.5,
+     "price_monthly": 19.75,
+     "price_yearly_per_month": null,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "name_missing"
-     ]
-    },
-    {
-     "name": null,
-     "currency": "USD",
-     "is_promo": true,
-     "billing_note": "Per user / month when billed annually.",
-     "evidence_quote": "$29.75 -25% USD. Per user / month when billed annually.",
-     "quote_verified": true,
-     "price_check": {
-      "price_yearly_per_month": "in_quote"
-     },
-     "price_monthly": null,
-     "price_yearly_per_month": 29.75,
-     "price_yearly_total": null,
-     "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
-     "issues": [
-      "name_missing"
+      "name_far_from_price"
+     ],
+     "billing_sections": [
+      "monthly"
      ]
     }
    ],
    "free_tier": {
     "available": true,
     "limits": "5 meeting transcripts per month",
-    "evidence_quote": "Free plan includes:",
+    "evidence_quote": "Always free, no credit card required.",
     "quote_verified": true
    },
-   "price_summary": "Paid plans cost $15, $22.50, and $29.75 per user per month when billed annually, each shown with a 25% discount.",
-   "display_region_note": "USD. Per user / month when billed annually."
+   "price_summary": "Free plan $0; Pro $15 per user per month when billed annually or $19.75 month‑to‑month.",
+   "display_region_note": null
   },
   "verify_stats": {
-   "plans_total": 3,
-   "issue_name_missing": 3
+   "plans_total": 2,
+   "price_dropped_unverified": 1,
+   "issue_name_far_from_price": 1
   },
   "evidence": [
    {
-    "evidence_quote": "$15 -25% USD. Per user / month when billed annually.",
-    "plan": null,
+    "evidence_quote": "Pro … $19.75",
+    "plan": "Pro",
     "source_url": "https://www.read.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:37+08:00"
+    "fetched_at": "2026-10-19T12:12:26+08:00"
    },
    {
-    "evidence_quote": "$22.50 -25% USD. Per user / month when billed annually.",
-    "plan": null,
-    "source_url": "https://www.read.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:37+08:00"
-   },
-   {
-    "evidence_quote": "$29.75 -25% USD. Per user / month when billed annually.",
-    "plan": null,
-    "source_url": "https://www.read.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:37+08:00"
-   },
-   {
-    "evidence_quote": "Free plan includes:",
+    "evidence_quote": "Always free, no credit card required.",
     "plan": "free_tier",
     "source_url": "https://www.read.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:37+08:00"
+    "fetched_at": "2026-10-19T12:12:26+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
+    "dropped_fields",
     "has_promo",
-    "name_missing"
+    "name_far_from_price"
    ],
    "needs_review": true,
    "details": [
-    "None: name_missing",
-    "None: name_missing",
-    "None: name_missing"
+    "Pro: name_far_from_price"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.read.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.read.ai/pricing），2026-10-19 擷取"
  },
  {
   "id": "beatoven",
@@ -12985,30 +12995,31 @@
   "name": "ResearchRabbit",
   "status": "ok",
   "source_url": "https://www.researchrabbit.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:40+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 3373,
+  "fetched_at": "2026-10-19T12:12:28+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 6819,
   "extracted": {
    "plans": [
     {
      "name": "ResearchRabbit+",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "ResearchRabbit+ … $10* per month",
+     "billing_note": "monthly",
+     "evidence_quote": "ResearchRabbit+ … $12.5* per month",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote"
      },
-     "price_monthly": 10.0,
+     "price_monthly": 12.5,
      "price_yearly_per_month": null,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "monthly"
      ]
     }
    ],
@@ -13018,50 +13029,45 @@
     "evidence_quote": "$0, Forever!",
     "quote_verified": true
    },
-   "price_summary": "Free plan $0 forever; ResearchRabbit+ $10 per month.",
+   "price_summary": "ResearchRabbit+ costs $12.5 per month (default monthly view shows $10 per month).",
    "display_region_note": null
   },
   "verify_stats": {
-   "plans_total": 1,
-   "issue_period_ambiguous_toggle": 1
+   "plans_total": 1
   },
   "evidence": [
    {
-    "evidence_quote": "ResearchRabbit+ … $10* per month",
+    "evidence_quote": "ResearchRabbit+ … $12.5* per month",
     "plan": "ResearchRabbit+",
     "source_url": "https://www.researchrabbit.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:40+08:00"
+    "fetched_at": "2026-10-19T12:12:28+08:00"
    },
    {
     "evidence_quote": "$0, Forever!",
     "plan": "free_tier",
     "source_url": "https://www.researchrabbit.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:40+08:00"
+    "fetched_at": "2026-10-19T12:12:28+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
-   "flags": [
-    "period_ambiguous_toggle"
-   ],
-   "needs_review": true,
-   "details": [
-    "ResearchRabbit+: period_ambiguous_toggle"
-   ],
-   "auto_approvable": false
+   "flags": [],
+   "needs_review": false,
+   "details": [],
+   "auto_approvable": true
   },
-  "price_note": "價格來源：官網價格頁（https://www.researchrabbit.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.researchrabbit.ai/pricing），2026-10-19 擷取"
  },
  {
   "id": "khanmigo",
   "name": "Khanmigo",
   "status": "ok",
   "source_url": "https://www.khanmigo.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:41+08:00",
+  "fetched_at": "2026-10-19T12:12:33+08:00",
   "note": "robots 允許；networkidle 未達",
-  "rendered_text_len": 2560,
+  "rendered_text_len": 2579,
   "extracted": {
    "plans": [
     {
@@ -13125,19 +13131,19 @@
     "evidence_quote": "$4/month",
     "plan": null,
     "source_url": "https://www.khanmigo.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:41+08:00"
+    "fetched_at": "2026-10-19T12:12:33+08:00"
    },
    {
     "evidence_quote": "$44/year",
     "plan": null,
     "source_url": "https://www.khanmigo.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:41+08:00"
+    "fetched_at": "2026-10-19T12:12:33+08:00"
    },
    {
     "evidence_quote": "Get started — it’s free",
     "plan": "free_tier",
     "source_url": "https://www.khanmigo.ai/pricing",
-    "fetched_at": "2026-10-12T13:31:41+08:00"
+    "fetched_at": "2026-10-19T12:12:33+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -13157,74 +13163,87 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.khanmigo.ai/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.khanmigo.ai/pricing），2026-10-19 擷取"
  },
  {
   "id": "wordtune",
   "name": "Wordtune",
   "status": "ok",
   "source_url": "https://www.wordtune.com/pricing",
-  "fetched_at": "2026-10-12T13:31:44+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 6519,
+  "fetched_at": "2026-10-19T12:12:36+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 13064,
   "extracted": {
    "plans": [
     {
      "name": "Basic",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly $0.00/mo; yearly $0.00/mo billed annually",
      "evidence_quote": "Basic … $0.00",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote"
      },
      "price_monthly": 0.0,
-     "price_yearly_per_month": null,
+     "price_yearly_per_month": 0.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
+     ]
     },
     {
      "name": "Advanced",
      "currency": "USD",
-     "is_promo": true,
-     "billing_note": "per month, billed annually",
-     "evidence_quote": "Advanced … $6.99 per month/ billed annually",
+     "is_promo": false,
+     "billing_note": "monthly $13.99/mo; yearly $6.99/mo billed annually",
+     "evidence_quote": "Advanced … $13.99 per month",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
-     "price_monthly": null,
+     "price_monthly": 13.99,
      "price_yearly_per_month": 6.99,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
     },
     {
      "name": "Unlimited",
      "currency": "USD",
-     "is_promo": true,
-     "billing_note": "per month, billed annually",
-     "evidence_quote": "Unlimited … $9.99 per month/ billed annually",
+     "is_promo": false,
+     "billing_note": "monthly $19.99/mo; yearly $9.99/mo billed annually",
+     "evidence_quote": "Unlimited … $19.99 per month",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote"
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
-     "price_monthly": null,
+     "price_monthly": 19.99,
      "price_yearly_per_month": 9.99,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
     }
    ],
    "free_tier": {
@@ -13233,215 +13252,227 @@
     "evidence_quote": "$0.00",
     "quote_verified": true
    },
-   "price_summary": "Basic is free at $0.00. Advanced costs $6.99 per month when billed annually. Unlimited costs $9.99 per month when billed annually. Both Advanced and Unlimited are shown with a 50% discount, so they are promotional prices.",
+   "price_summary": "Basic is free. Advanced costs $13.99 per month or $6.99 per month when billed annually. Unlimited costs $19.99 per month or $9.99 per month when billed annually.",
    "display_region_note": null
   },
   "verify_stats": {
-   "plans_total": 3
+   "plans_total": 3,
+   "price_other_section": 2
   },
   "evidence": [
    {
-    "evidence_quote": "Advanced … $6.99 per month/ billed annually",
+    "evidence_quote": "Advanced … $13.99 per month",
     "plan": "Advanced",
     "source_url": "https://www.wordtune.com/pricing",
-    "fetched_at": "2026-10-12T13:31:44+08:00"
+    "fetched_at": "2026-10-19T12:12:36+08:00"
    },
    {
-    "evidence_quote": "Unlimited … $9.99 per month/ billed annually",
+    "evidence_quote": "Unlimited … $19.99 per month",
     "plan": "Unlimited",
     "source_url": "https://www.wordtune.com/pricing",
-    "fetched_at": "2026-10-12T13:31:44+08:00"
+    "fetched_at": "2026-10-19T12:12:36+08:00"
    },
    {
     "evidence_quote": "$0.00",
     "plan": "free_tier",
     "source_url": "https://www.wordtune.com/pricing",
-    "fetched_at": "2026-10-12T13:31:44+08:00"
+    "fetched_at": "2026-10-19T12:12:36+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
-   "flags": [
-    "has_promo"
-   ],
-   "needs_review": true,
+   "flags": [],
+   "needs_review": false,
    "details": [],
-   "auto_approvable": false
+   "auto_approvable": true
   },
-  "price_note": "價格來源：官網價格頁（https://www.wordtune.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.wordtune.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "clay",
   "name": "Clay",
   "status": "ok",
   "source_url": "https://www.clay.com/pricing",
-  "fetched_at": "2026-10-12T13:31:46+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 16415,
+  "fetched_at": "2026-10-19T12:12:39+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 33853,
   "extracted": {
    "plans": [
     {
      "name": "Launch",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month, monthly billing for $167/mo; per month, annual billing for $54/mo",
-     "evidence_quote": "Launch … $167/mo",
+     "billing_note": "monthly $185/mo; yearly $167/mo billed annually",
+     "evidence_quote": "Launch … $185/mo",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote",
-      "price_yearly_per_month": "near_quote"
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
-     "price_monthly": 167.0,
-     "price_yearly_per_month": 54.0,
+     "price_monthly": 185.0,
+     "price_yearly_per_month": 167.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
      "issues": [
-      "period_ambiguous_toggle"
+      "name_far_from_price"
+     ],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     },
     {
      "name": "Growth",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": "per month, monthly billing for $446/mo; per month, annual billing for $185/mo",
-     "evidence_quote": "Growth … $446/mo",
+     "billing_note": "monthly $495/mo; yearly $446/mo billed annually",
+     "evidence_quote": "Growth … $495/mo",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote",
-      "price_yearly_per_month": "near_quote"
+      "price_yearly_per_month": "near_name_other_billing_section"
      },
-     "price_monthly": 446.0,
-     "price_yearly_per_month": 185.0,
+     "price_monthly": 495.0,
+     "price_yearly_per_month": 446.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default",
+      "monthly"
      ]
     }
    ],
    "free_tier": {
     "available": true,
-    "limits": "6,000 actions/year, 1.2K data credits/yr",
-    "evidence_quote": "Free Includes 6,000 actions/year 6K actions/yr 1.2K data credits/yr",
+    "limits": "Includes 500 actions/mo, 100 data credits/mo",
+    "evidence_quote": "Free Includes 500 actions/mo 500 actions/mo 100 data credits/mo",
     "quote_verified": true
    },
-   "price_summary": "Launch starts at $167/mo (monthly) or $54/mo (annual); Growth starts at $446/mo (monthly) or $185/mo (annual); Enterprise is custom priced.",
+   "price_summary": "Launch: $185/mo (monthly) or $167/mo (annual); Growth: $495/mo (monthly) or $446/mo (annual); Enterprise: custom pricing; Free tier available.",
    "display_region_note": null
   },
   "verify_stats": {
-   "plans_total": 4,
-   "plan_dropped_quote": 2,
-   "price_near_quote": 2,
-   "issue_period_ambiguous_toggle": 2
+   "plans_total": 3,
+   "price_other_section": 2,
+   "issue_name_far_from_price": 1,
+   "plan_dropped_quote": 1
   },
   "evidence": [
    {
-    "evidence_quote": "Launch … $167/mo",
+    "evidence_quote": "Launch … $185/mo",
     "plan": "Launch",
     "source_url": "https://www.clay.com/pricing",
-    "fetched_at": "2026-10-12T13:31:46+08:00"
+    "fetched_at": "2026-10-19T12:12:39+08:00"
    },
    {
-    "evidence_quote": "Growth … $446/mo",
+    "evidence_quote": "Growth … $495/mo",
     "plan": "Growth",
     "source_url": "https://www.clay.com/pricing",
-    "fetched_at": "2026-10-12T13:31:46+08:00"
+    "fetched_at": "2026-10-19T12:12:39+08:00"
    },
    {
-    "evidence_quote": "Free Includes 6,000 actions/year 6K actions/yr 1.2K data credits/yr",
+    "evidence_quote": "Free Includes 500 actions/mo 500 actions/mo 100 data credits/mo",
     "plan": "free_tier",
     "source_url": "https://www.clay.com/pricing",
-    "fetched_at": "2026-10-12T13:31:46+08:00"
+    "fetched_at": "2026-10-19T12:12:39+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "dropped_fields",
-    "period_ambiguous_toggle",
-    "price_near_quote"
+    "name_far_from_price"
    ],
    "needs_review": true,
    "details": [
-    "Launch: period_ambiguous_toggle",
-    "Growth: period_ambiguous_toggle"
+    "Launch: name_far_from_price"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.clay.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.clay.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "frase",
   "name": "Frase",
   "status": "ok",
   "source_url": "https://www.frase.io/pricing",
-  "fetched_at": "2026-10-12T13:31:51+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 13015,
+  "fetched_at": "2026-10-19T12:12:45+08:00",
+  "note": "robots 允許；計費切換：monthly、monthly",
+  "rendered_text_len": 39499,
   "extracted": {
    "plans": [
     {
      "name": "Starter",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "billed yearly",
-     "evidence_quote": "Starter … $39 /mo … billed yearly · $49/mo month to month",
+     "billing_note": "monthly $49/mo; yearly $39/mo billed annually",
+     "evidence_quote": "Starter … $49 /mo",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote",
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_quote",
       "list_price": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 49.0,
      "price_yearly_per_month": 39.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": 49.0,
      "regular_price_monthly": 49.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
     },
     {
      "name": "Professional",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "billed yearly",
-     "evidence_quote": "Professional … $103 /mo … billed yearly · $129/mo month to month",
+     "billing_note": "monthly $129/mo; yearly $103/mo billed annually",
+     "evidence_quote": "Professional … $129 /mo",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote",
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_quote",
       "list_price": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 129.0,
      "price_yearly_per_month": 103.0,
      "price_yearly_total": null,
      "price_unclear": null,
      "list_price": 129.0,
      "regular_price_monthly": 129.0,
      "list_price_unit": "month",
-     "issues": []
+     "issues": [],
+     "billing_sections": [
+      "monthly"
+     ]
     },
     {
      "name": "Enterprise",
      "currency": "USD",
      "is_promo": true,
-     "billing_note": "billed yearly",
-     "evidence_quote": "Enterprise … $239 /mo … billed yearly · $299/mo month to month",
+     "billing_note": "monthly $299/mo; yearly $239/mo billed annually",
+     "evidence_quote": "Enterprise … $299 /mo",
      "quote_verified": true,
      "price_check": {
-      "price_yearly_per_month": "in_quote",
+      "price_monthly": "in_quote",
+      "price_yearly_per_month": "near_quote",
       "list_price": "in_quote"
      },
-     "price_monthly": null,
+     "price_monthly": 299.0,
      "price_yearly_per_month": 239.0,
      "price_yearly_total": null,
      "price_unclear": null,
@@ -13450,33 +13481,17 @@
      "list_price_unit": "month",
      "issues": [
       "name_far_from_price"
+     ],
+     "billing_sections": [
+      "monthly"
      ]
     },
     {
-     "name": "FREE",
+     "name": "Basic",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "FREE … $0",
-     "quote_verified": true,
-     "price_check": {
-      "price_monthly": "in_quote"
-     },
-     "price_monthly": 0.0,
-     "price_yearly_per_month": null,
-     "price_yearly_total": null,
-     "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
-     "issues": []
-    },
-    {
-     "name": "BASIC",
-     "currency": "USD",
-     "is_promo": false,
-     "billing_note": null,
-     "evidence_quote": "BASICYOUR BLOG, YOUR BRAND … $19/mo",
+     "billing_note": "monthly $19/mo",
+     "evidence_quote": "BASIC … $19/mo",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote"
@@ -13488,15 +13503,17 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "monthly",
+      "yearly"
      ]
     },
     {
      "name": "PRO",
      "currency": "USD",
      "is_promo": false,
-     "billing_note": null,
+     "billing_note": "monthly $99/mo",
      "evidence_quote": "PRO … $99/mo",
      "quote_verified": true,
      "price_check": {
@@ -13509,8 +13526,10 @@
      "list_price": null,
      "regular_price_monthly": null,
      "list_price_unit": null,
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "monthly",
+      "yearly"
      ]
     }
    ],
@@ -13520,79 +13539,77 @@
     "evidence_quote": "FREE … $0",
     "quote_verified": true
    },
-   "price_summary": "Starter $39/mo billed yearly (regular $49/mo), Professional $103/mo billed yearly (regular $129/mo), Enterprise $239/mo billed yearly (regular $299/mo). Free plan $0, BASIC $19/mo, PRO $99/mo.",
-   "display_region_note": null
+   "price_summary": "Starter $39/mo billed yearly (promo) vs $49/mo month‑to‑month; Professional $103/mo billed yearly vs $129/mo month‑to‑month; Enterprise $239/mo billed yearly vs $299/mo month‑to‑month; Basic $19/mo; PRO $99/mo; Free tier $0.",
+   "display_region_note": "Prices shown in USD."
   },
   "verify_stats": {
-   "plans_total": 6,
-   "issue_name_far_from_price": 1,
-   "issue_period_ambiguous_toggle": 2
+   "plans_total": 5,
+   "price_near_quote": 3,
+   "issue_name_far_from_price": 1
   },
   "evidence": [
    {
-    "evidence_quote": "Starter … $39 /mo … billed yearly · $49/mo month to month",
+    "evidence_quote": "Starter … $49 /mo",
     "plan": "Starter",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    },
    {
-    "evidence_quote": "Professional … $103 /mo … billed yearly · $129/mo month to month",
+    "evidence_quote": "Professional … $129 /mo",
     "plan": "Professional",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    },
    {
-    "evidence_quote": "Enterprise … $239 /mo … billed yearly · $299/mo month to month",
+    "evidence_quote": "Enterprise … $299 /mo",
     "plan": "Enterprise",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    },
    {
-    "evidence_quote": "BASICYOUR BLOG, YOUR BRAND … $19/mo",
-    "plan": "BASIC",
+    "evidence_quote": "BASIC … $19/mo",
+    "plan": "Basic",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    },
    {
     "evidence_quote": "PRO … $99/mo",
     "plan": "PRO",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    },
    {
     "evidence_quote": "FREE … $0",
     "plan": "free_tier",
     "source_url": "https://www.frase.io/pricing",
-    "fetched_at": "2026-10-12T13:31:51+08:00"
+    "fetched_at": "2026-10-19T12:12:45+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
     "has_promo",
     "name_far_from_price",
-    "period_ambiguous_toggle"
+    "price_near_quote"
    ],
    "needs_review": true,
    "details": [
-    "Enterprise: name_far_from_price",
-    "BASIC: period_ambiguous_toggle",
-    "PRO: period_ambiguous_toggle"
+    "Enterprise: name_far_from_price"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.frase.io/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.frase.io/pricing），2026-10-19 擷取"
  },
  {
   "id": "spellbook",
   "name": "Spellbook",
   "status": "no_price_found",
   "source_url": "https://www.spellbook.legal/pricing",
-  "fetched_at": "2026-10-12T13:31:52+08:00",
+  "fetched_at": "2026-10-19T12:12:46+08:00",
   "note": "robots 允許；價格未出現，額外輪詢 12s；重新導向到 spellbook.com",
-  "rendered_text_len": 3236
+  "rendered_text_len": 3314
  },
  {
   "id": "nabla",
@@ -13607,7 +13624,7 @@
   "name": "Paradox",
   "status": "no_price_found",
   "source_url": "https://www.paradox.ai/pricing",
-  "fetched_at": "2026-10-12T13:31:54+08:00",
+  "fetched_at": "2026-10-19T12:12:55+08:00",
   "note": "robots 允許",
   "rendered_text_len": 8912,
   "extracted": {
@@ -13642,7 +13659,7 @@
   "name": "Decktopus",
   "status": "ok",
   "source_url": "https://www.decktopus.com/pricing",
-  "fetched_at": "2026-10-12T13:31:58+08:00",
+  "fetched_at": "2026-10-19T12:13:07+08:00",
   "note": "robots 允許",
   "rendered_text_len": 5116,
   "extracted": {
@@ -13686,7 +13703,7 @@
     "evidence_quote": "Pro … $24.99 /mo",
     "plan": "Pro",
     "source_url": "https://www.decktopus.com/pricing",
-    "fetched_at": "2026-10-12T13:31:58+08:00"
+    "fetched_at": "2026-10-19T12:13:07+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -13705,16 +13722,16 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.decktopus.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.decktopus.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "smartcat",
   "name": "Smartcat",
   "status": "ok",
   "source_url": "https://www.smartcat.com/pricing",
-  "fetched_at": "2026-10-12T13:32:06+08:00",
+  "fetched_at": "2026-10-19T12:13:07+08:00",
   "note": "robots 允許",
-  "rendered_text_len": 9652,
+  "rendered_text_len": 10772,
   "extracted": {
    "plans": [
     {
@@ -13808,19 +13825,19 @@
     "evidence_quote": "Adapt … from $1,200 / yr",
     "plan": "Adapt",
     "source_url": "https://www.smartcat.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:07+08:00"
    },
    {
     "evidence_quote": "Accelerate … from $24,000 / yr",
     "plan": "Accelerate",
     "source_url": "https://www.smartcat.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:07+08:00"
    },
    {
     "evidence_quote": "Anticipate … from $60,000 / yr",
     "plan": "Anticipate",
     "source_url": "https://www.smartcat.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:07+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
@@ -13836,77 +13853,84 @@
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.smartcat.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.smartcat.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "polymer",
   "name": "Polymer",
   "status": "ok",
   "source_url": "https://www.polymersearch.com/pricing",
-  "fetched_at": "2026-10-12T13:32:06+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 2089,
+  "fetched_at": "2026-10-19T12:13:08+08:00",
+  "note": "robots 允許；計費切換：monthly",
+  "rendered_text_len": 4210,
   "extracted": {
    "plans": [
     {
      "name": "Starter",
-     "currency": "USD",
+     "currency": null,
      "is_promo": true,
-     "billing_note": "per month, billed yearly",
+     "billing_note": "monthly $100/mo; yearly $25/mo billed annually $300 total",
      "evidence_quote": "Starter … $25 $50 /mo",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote",
       "price_yearly_total": "near_quote",
       "list_price": "in_quote"
      },
-     "price_monthly": 25.0,
-     "price_yearly_per_month": null,
+     "price_monthly": null,
+     "price_yearly_per_month": 25.0,
      "price_yearly_total": 300.0,
      "price_unclear": null,
      "list_price": 50.0,
      "regular_price_monthly": 50.0,
      "list_price_unit": "month",
-     "issues": [
-      "period_ambiguous_toggle"
+     "issues": [],
+     "billing_sections": [
+      "default"
      ]
     },
     {
      "name": "Pro",
-     "currency": "USD",
+     "currency": null,
      "is_promo": true,
-     "billing_note": "per month, billed yearly",
+     "billing_note": "monthly $100/mo; yearly $50/mo billed annually $600 total",
      "evidence_quote": "Pro … $50 $10O /mo",
      "quote_verified": true,
      "price_check": {
-      "price_monthly": "in_quote",
-      "price_yearly_total": "near_quote"
+      "price_monthly": "near_name_other_billing_section",
+      "price_yearly_per_month": "in_quote",
+      "price_yearly_total": "near_quote",
+      "list_price": "near_name_other_billing_section"
      },
-     "price_monthly": 50.0,
-     "price_yearly_per_month": null,
+     "price_monthly": 100.0,
+     "price_yearly_per_month": 50.0,
      "price_yearly_total": 600.0,
      "price_unclear": null,
-     "list_price": null,
-     "regular_price_monthly": null,
-     "list_price_unit": null,
+     "list_price": 100.0,
+     "regular_price_monthly": 100.0,
+     "list_price_unit": "month",
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     },
     {
      "name": "Teams",
-     "currency": "USD",
+     "currency": null,
      "is_promo": true,
-     "billing_note": "per month, billed yearly",
+     "billing_note": "monthly $250/mo; yearly $125/mo billed annually $1500 total",
      "evidence_quote": "Teams … $125 $250 /mo",
      "quote_verified": true,
      "price_check": {
       "price_monthly": "in_quote",
+      "price_yearly_per_month": "in_quote",
       "price_yearly_total": "near_quote",
       "list_price": "in_quote"
      },
-     "price_monthly": 125.0,
-     "price_yearly_per_month": null,
+     "price_monthly": 250.0,
+     "price_yearly_per_month": 125.0,
      "price_yearly_total": 1500.0,
      "price_unclear": null,
      "list_price": 250.0,
@@ -13914,74 +13938,68 @@
      "list_price_unit": "month",
      "issues": [
       "period_ambiguous_toggle"
+     ],
+     "billing_sections": [
+      "default"
      ]
     }
    ],
-   "free_tier": {
-    "available": true,
-    "limits": "Free for 7 days",
-    "evidence_quote": "Start for free",
-    "quote_verified": true
-   },
-   "price_summary": "Starter $25/mo (list $50/mo) or $300 yearly; Pro $50/mo (list $10O/mo) or $600 yearly; Teams $125/mo (list $250/mo) or $1500 yearly. All plans billed annually when yearly option selected.",
+   "free_tier": null,
+   "price_summary": "Starter, Pro, and Teams plans show discounted monthly prices when billed yearly ($25, $50, $125) with corresponding list prices ($50, $100, $250) and yearly totals ($300, $600, $1500); monthly billing shows full prices ($100, $100, $250).",
    "display_region_note": null
   },
   "verify_stats": {
    "plans_total": 3,
+   "price_dropped_unverified": 1,
    "price_near_quote": 3,
-   "issue_period_ambiguous_toggle": 3
+   "price_other_section": 2,
+   "issue_period_ambiguous_toggle": 2
   },
   "evidence": [
    {
     "evidence_quote": "Starter … $25 $50 /mo",
     "plan": "Starter",
     "source_url": "https://www.polymersearch.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:08+08:00"
    },
    {
     "evidence_quote": "Pro … $50 $10O /mo",
     "plan": "Pro",
     "source_url": "https://www.polymersearch.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:08+08:00"
    },
    {
     "evidence_quote": "Teams … $125 $250 /mo",
     "plan": "Teams",
     "source_url": "https://www.polymersearch.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
-   },
-   {
-    "evidence_quote": "Start for free",
-    "plan": "free_tier",
-    "source_url": "https://www.polymersearch.com/pricing",
-    "fetched_at": "2026-10-12T13:32:06+08:00"
+    "fetched_at": "2026-10-19T12:13:08+08:00"
    }
   ],
   "llm_model": "openai/gpt-oss-120b",
   "llm_provider": "groq",
-  "prompt_version": "v2b",
+  "prompt_version": "v2c",
   "diff_flag": {
    "flags": [
+    "dropped_fields",
     "has_promo",
     "period_ambiguous_toggle",
     "price_near_quote"
    ],
    "needs_review": true,
    "details": [
-    "Starter: period_ambiguous_toggle",
     "Pro: period_ambiguous_toggle",
     "Teams: period_ambiguous_toggle"
    ],
    "auto_approvable": false
   },
-  "price_note": "價格來源：官網價格頁（https://www.polymersearch.com/pricing），2026-10-12 擷取"
+  "price_note": "價格來源：官網價格頁（https://www.polymersearch.com/pricing），2026-10-19 擷取"
  },
  {
   "id": "zhipu-chatglm",
   "name": "智譜清言",
   "status": "no_price_found",
   "source_url": "https://chatglm.cn/pricing",
-  "fetched_at": "2026-10-12T13:32:12+08:00",
+  "fetched_at": "2026-10-19T12:13:15+08:00",
   "note": "robots 允許；networkidle 未達；價格未出現，額外輪詢 12s",
   "rendered_text_len": 420
  },

@@ -1,3 +1,8 @@
+Use of cookies
+Cookies are small files placed on your device that collect information when you use Khan Academy. Strictly necessary cookies are used to make our site work and are required. Other types of cookies are used to improve your experience, to analyze how Khan Academy is used, and to market our service. You can allow these other cookies by checking the boxes below. You can learn more in our cookie policy
+Accept All Cookies
+Strictly Necessary Only
+Cookies Settings
 Learners
 Parents
 Writing Coach
@@ -59,12 +64,8 @@ Visit Khan Academy
 Terms of use
 Privacy Policy
 Cookie Notice
+Cookie Preferences
 Accessibility Statement
-Use of cookies
-Cookies are small files placed on your device that collect information when you use Khan Academy. Strictly necessary cookies are used to make our site work and are required. Other types of cookies are used to improve your experience, to analyze how Khan Academy is used, and to market our service. You can allow these other cookies by checking the boxes below. You can learn more in our cookie policy
-Accept All Cookies
-Strictly Necessary Only
-Cookies Settings
 
 A better Khan Academy classroom experience is here!
 
