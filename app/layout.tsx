@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary", title: SITE_NAME, description: SITE_DESC, images: ["/logo.png"] },
   robots: { index: true, follow: true },
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f5eed8" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#c8b7a6" };
 
 // <html lang> 由 HtmlLang 依網址設定（中文 zh-Hant-TW、/en 為 en）
 export default function RootLayout({ children }: { children: React.ReactNode }) {
