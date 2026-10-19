@@ -339,17 +339,14 @@ function ToggleBody() {
   const { enabled, setEnabled } = useGuard();
   const [more, setMore] = useState(false);
   return (
-    <div data-guard-ui="1" role="region" aria-label={L.guardRegion} className={`home-guard w-full lg:w-[19rem] lg:shrink-0${enabled ? " is-on" : ""}`}>
+    <div data-guard-ui="1" role="region" aria-label={L.guardRegion} className={`home-guard w-full lg:shrink-0${enabled ? " is-on" : ""}`}>
       <div className="flex items-center justify-between gap-2">
-        <p aria-live="polite">{enabled ? L.guardStatusOn : L.guardStatusOff}</p>
-        <button type="button" aria-pressed={enabled} aria-describedby="onsite-guard-perks" onClick={() => { try { setEnabled(!enabled); } catch { /* 開關失敗就維持原狀 */ } }}
+        <p id="onsite-guard-lead">{L.guardLead}</p>
+        <button type="button" aria-pressed={enabled} aria-describedby="onsite-guard-lead" onClick={() => { try { setEnabled(!enabled); } catch { /* 開關失敗就維持原狀 */ } }}
           className={enabled ? "home-guard-stop" : "bg-indigo-600 text-white"}>
           {enabled ? L.guardStop : L.guardStart}
         </button>
       </div>
-      <ul id="onsite-guard-perks" className="home-guard-perks">
-        {L.guardPerks.map((line) => <li key={line}>{line}</li>)}
-      </ul>
       <button type="button" className="home-guard-more" aria-expanded={more} aria-controls="onsite-guard-more" onClick={() => setMore((v) => !v)}>
         {more ? L.guardLess : L.guardMore}
       </button>
