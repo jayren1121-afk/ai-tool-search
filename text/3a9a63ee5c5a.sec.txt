@@ -1,39 +1,202 @@
-Yearly
----
-(get 2 months free!)
+=== 計費模式: 預設畫面 (default) ===
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
 ---
 Monthly
----
+Yearly
+Save 20%
 Free
 ---
-Free forever, no CC required.
+Free forever
 ---
-$0/m
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
 ---
-Start Ryting
+30+ languages
+Get Free
+Lite
 ---
-Unlimited
+Unlimited content creation
 ---
-Unlimited generations for individuals getting started with generative AI.
+$9
+/mo
+Everything in Free
+Unlimited characters per month
+Get Lite
 ---
-$7.50/m
+Personal
 ---
-Start Ryting
+For everyday communication
 ---
-Premium
+$19
+/mo
+Everything in Lite
+2 connected sources
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
 ---
-For freelancers that need to create content for multiple brands.
+For communication power users
 ---
-$24.16/m
+$49
+/mo
+Everything in Personal
+All connected sources
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
 ---
-Start Ryting
+Can I start free?
+What's included in Lite?
 ---
-10K characters per month
+What's included in Pro?
+How does yearly billing work?
+Can I upgrade or downgrade anytime?
 ---
-50 per month
+Start free and see who needs you, what changed, and what to do next — in your own voice.
 ---
-100 per month
+Start free
+See how it works
+=== 計費模式: 年繳 (yearly) ===
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
 ---
-Can I upgrade later?
-Absolutely! Head to the credits section of your account and you can upgrade to the Unlimited or Premium plan whenever you like.
-Who owns the content created?
+Monthly
+Yearly
+Save 20%
+Free
+---
+Free forever
+---
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
+---
+30+ languages
+Get Free
+Lite
+---
+Unlimited content creation
+---
+$7.50
+/mo
+billed annually
+Everything in Free
+Unlimited characters per month
+Get Lite
+---
+Personal
+---
+For everyday communication
+---
+$15
+/mo
+billed annually
+Everything in Lite
+---
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
+---
+For communication power users
+---
+$39
+/mo
+billed annually
+Everything in Personal
+---
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
+---
+Can I start free?
+What's included in Lite?
+---
+What's included in Pro?
+How does yearly billing work?
+Can I upgrade or downgrade anytime?
+---
+Start free and see who needs you, what changed, and what to do next — in your own voice.
+---
+Start free
+See how it works
+=== 計費模式: 年繳 (yearly) #2 ===
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
+---
+Monthly
+Yearly
+Save 20%
+Free
+---
+Free forever
+---
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
+---
+30+ languages
+Get Free
+Lite
+---
+Unlimited content creation
+---
+$7.50
+/mo
+billed annually
+Everything in Free
+Unlimited characters per month
+Get Lite
+---
+Personal
+---
+For everyday communication
+---
+$15
+/mo
+billed annually
+Everything in Lite
+---
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
+---
+For communication power users
+---
+$39
+/mo
+billed annually
+Everything in Personal
+---
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
+---
+Can I start free?
+What's included in Lite?
+---
+What's included in Pro?
+How does yearly billing work?
+---
+Yearly billing saves 20% compared with the monthly price and is billed annually.
+---
+Start free and see who needs you, what changed, and what to do next — in your own voice.
+---
+Start free
+See how it works

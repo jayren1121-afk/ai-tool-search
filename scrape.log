@@ -532,3 +532,21 @@ SCRAPE DONE
 2 15 no_price_found https://chatglm.cn/pricing 31.7
 舊版頁面還要重抓： 218 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+0 1 scraped https://www.veed.io/pricing 8.9
+2 2 scraped https://wellsaidlabs.com/pricing 10.4
+1 3 scraped https://elai.io/pricing 13.7
+2 4 scraped https://stableaudio.com/pricing 5.8
+1 5 scraped https://www.connectedpapers.com/pricing 7.4
+0 6 scraped https://www.avoma.com/pricing 13.1
+0 7 scraped https://www.clearscope.io/pricing 7.2
+1 8 scraped https://www.apollo.io/pricing 13.8
+0 9 scraped https://www.getfreed.ai/pricing 9.3
+1 10 scraped https://www.presentations.ai/pricing 7.7
+2 11 scraped https://rytr.me/pricing 29.0
+0 12 scraped https://lokalise.com/pricing 11.9
+2 13 no_price_found https://yuanbao.tencent.com/pricing 7.2
+1 14 no_price_found https://www.akkio.com/pricing 18.8
+0 15 scraped https://www.tidio.com/pricing 21.6
+舊版頁面還要重抓： 203 個（每次最多 15 個）
+SCRAPE DONE

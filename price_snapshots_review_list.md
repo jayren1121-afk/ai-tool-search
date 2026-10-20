@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：212 筆
+- 可批次核准（無旗標）：46 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：211 筆
 
 核准單筆範本：
 ```sql
@@ -98,16 +98,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **decktopus**（Decktopus）旗標：dropped_fields, has_promo, price_near_quote, price_unclear；Pro: price_unclear；來源 https://www.decktopus.com/pricing；擷取 2026-10-19T12:13:07+08:00
 - **smartcat**（Smartcat）旗標：abnormal_price；Anticipate: abnormal_price；來源 https://www.smartcat.com/pricing；擷取 2026-10-19T12:13:07+08:00
 - **polymer**（Polymer）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Teams: period_ambiguous_toggle；來源 https://www.polymersearch.com/pricing；擷取 2026-10-19T12:13:08+08:00
-- **veed**（VEED）旗標：period_ambiguous_toggle, price_near_quote；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://www.veed.io/pricing；擷取 2026-10-12T13:32:13+08:00
-- **elai**（Elai.io）旗標：period_ambiguous_toggle；Creator: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://elai.io/pricing；擷取 2026-10-12T13:32:13+08:00
-- **wellsaid**（WellSaid）旗標：has_promo；；來源 https://wellsaidlabs.com/pricing；擷取 2026-10-12T13:32:21+08:00
-- **avoma**（Avoma）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Startup', 'Organization', 'Enterprise']；來源 https://www.avoma.com/pricing；擷取 2026-10-12T13:32:21+08:00
-- **rytr**（Rytr）旗標：period_ambiguous_toggle；Unlimited: period_ambiguous_toggle; Premium: period_ambiguous_toggle；來源 https://rytr.me/pricing；擷取 2026-10-12T13:32:35+08:00
-- **clearscope**（Clearscope）旗標：name_diff；資料集方案 ['Advanced'] vs 新 ['ESSENTIALS', 'BUSINESS']；來源 https://www.clearscope.io/pricing；擷取 2026-10-12T13:32:41+08:00
-- **freed**（Freed）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Core: period_ambiguous_toggle; Premier: period_ambiguous_toggle；來源 https://www.getfreed.ai/pricing；擷取 2026-10-12T13:32:42+08:00
-- **presentations-ai**（Presentations.AI）旗標：dropped_fields, price_change；Pro: 資料集 $50.0/月 → 官網 $20.0；來源 https://www.presentations.ai/pricing；擷取 2026-10-12T13:32:48+08:00
-- **lokalise-ai**（Lokalise）旗標：name_diff, name_missing；資料集方案 ['Teams'] vs 新 ['Explorer', '', '']; None: name_missing; None: name_missing；來源 https://lokalise.com/pricing；擷取 2026-10-12T13:32:53+08:00
-- **tidio**（Tidio Lyro）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Plus: period_ambiguous_toggle；來源 https://www.tidio.com/pricing；擷取 2026-10-12T13:33:07+08:00
+- **veed**（VEED）旗標：period_ambiguous_toggle, price_near_quote；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://www.veed.io/pricing；擷取 2026-10-20T12:11:10+08:00
+- **elai**（Elai.io）旗標：billing_section_mismatch, dropped_fields, has_promo, price_near_quote；Creator: billing_section_mismatch; Team: billing_section_mismatch；來源 https://elai.io/pricing；擷取 2026-10-20T12:11:11+08:00
+- **wellsaid**（WellSaid）旗標：has_promo, price_near_quote；；來源 https://wellsaidlabs.com/pricing；擷取 2026-10-20T12:11:13+08:00
+- **avoma**（Avoma）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Startup', 'Organization', 'Enterprise']；來源 https://www.avoma.com/pricing；擷取 2026-10-20T12:11:19+08:00
+- **rytr**（Rytr）旗標：has_promo, period_ambiguous_toggle；Lite: period_ambiguous_toggle; Personal: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://rytr.me/pricing；擷取 2026-10-20T12:11:28+08:00
+- **clearscope**（Clearscope）旗標：name_diff；資料集方案 ['Advanced'] vs 新 ['ESSENTIALS', 'BUSINESS']；來源 https://www.clearscope.io/pricing；擷取 2026-10-20T12:11:32+08:00
+- **presentations-ai**（Presentations.AI）旗標：dropped_fields, price_change；Pro: 資料集 $50.0/月 → 官網 $20.0；來源 https://www.presentations.ai/pricing；擷取 2026-10-20T12:11:46+08:00
+- **lokalise-ai**（Lokalise）旗標：name_diff, name_missing；資料集方案 ['Teams'] vs 新 ['', '', '', 'Enterprise']; None: name_missing; None: name_missing; None: name_missing；來源 https://lokalise.com/pricing；擷取 2026-10-20T12:11:49+08:00
+- **tidio**（Tidio Lyro）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Plus: period_ambiguous_toggle；來源 https://www.tidio.com/pricing；擷取 2026-10-20T12:12:01+08:00
 - **seaart**（SeaArt）旗標：price_unclear；SVIP: price_unclear；來源 https://www.seaart.ai/pricing；擷取 2026-10-12T13:33:06+08:00
 - **tavus**（Tavus）旗標：dropped_fields, name_diff；資料集方案 ['Plus', 'Max', 'Teams', 'Basic', 'Growth'] vs 新 ['Starter', 'Builder', 'Growth', 'Business']；來源 https://www.tavus.io/pricing；擷取 2026-10-12T13:33:27+08:00
 - **taskade**（Taskade）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle; Max: period_ambiguous_toggle; Enterprise: period_ambiguous_toggle；來源 https://www.taskade.com/pricing；擷取 2026-10-12T13:33:28+08:00

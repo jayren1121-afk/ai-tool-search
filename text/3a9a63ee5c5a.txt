@@ -1,205 +1,392 @@
-Use Cases
-Email
-SEO Meta Title
-Reply to Reviews & Messages
-Paragraph Content
-Post & Caption Ideas
-Call To Action
-Pricing
+=== 計費模式: 預設畫面 (default) ===
+Skip to content
 Products
-Browser Extension
-Plagiarism
-API
-My Voice
+Solutions
 Resources
-Affiliate Program
-Community
-Customer Reviews
-Contact Us
-Help Center
-Blog
-Start Ryting
-We've got the perfect plan for you.
+Pricing
+Sign in
+Get started
+Simple pricing for the work you do
 
-Yearly
-
-(get 2 months free!)
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
 
 Monthly
-
-(cancel anytime!)
-
-	
-
+Yearly
+Save 20%
 Free
 
-Free forever, no CC required.
+Free forever
 
-$0/m
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
+Daily briefing
+40+ writing use cases
+30+ languages
+Get Free
+Lite
 
-Start Ryting
-	
+Unlimited content creation
 
-Unlimited
+$9
+/mo
+Everything in Free
+Unlimited characters per month
+Get Lite
+MOST POPULAR
+Personal
 
-Unlimited generations for individuals getting started with generative AI.
+For everyday communication
 
-$7.50/m
+$19
+/mo
+Everything in Lite
+2 connected sources
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
 
-Start Ryting
-	
+For communication power users
 
-Premium
+$49
+/mo
+Everything in Personal
+All connected sources
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
+Custom use cases
+Get Pro
+Pricing questions, answered
 
-For freelancers that need to create content for multiple brands.
+Everything you need to know about plans, billing, and what's included.
 
-$24.16/m
+Can I start free?
+What's included in Lite?
+What's included in Personal?
+What's included in Pro?
+How does yearly billing work?
+Can I upgrade or downgrade anytime?
+Can I cancel?
+Morgan
+Client
+Sam
+Founder
+Imani
+Leader
+Marcus
+Partner
+Leo
+Designer
+Dana
+Pilot lead
+Nina
+Operator
+Rosa
+Advisor
+Know who needs you, and follow through
 
-Start Ryting
+Start free and see who needs you, what changed, and what to do next — in your own voice.
 
+Start free
+See how it works
 
+Ready to follow through?
 
-AI Content Generation
-
-	
-10K characters per month
-	
-Unlimited
-	
-Unlimited
-
-
-
-Tone of Voice Match
-
-	
-No Tone Match
-	
-1 Tone Match
-	
-Multiple Tone Match
-
-
-
-Plagiarism Checks
-
-	
-None
-	
-50 per month
-	
-100 per month
-
-
-
-Languages
-
-	
-1
-	
-1
-	
-35+
-
-
-
-Character Input Limit
-
-	
--
-	
-Limit Doubled
-	
-Limit Tripled
-
-
-
-Chrome Extension
-
-	
-	
-	
-
-
-
-20+ Pre-Programmed Tones of Voice
-
-	
-	
-	
-
-
-
-Access to Exclusive Community
-
-	
-	
-	
-
-
-
-Custom Use Cases
-
-	
-	
-	
-
-
-
-Priority support
-
-	
-	
-	
-Trusted by 8,000,000+ content writers from companies including
-Frequently Asked Questions
-What forms of payment do you accept?
-Rytr supports payments from all major credit and debit cards. We accept all currencies and prices are given in USD with an exchange rate applied at the time of purchase determined by our payment provider, Stripe.
-What’s the cancellation policy?
-With our monthly subscription you can cancel any time and will continue to have access to your remaining credits for that month. Our annual plan enables you to save 20% off the total price and comes with a 12 month commitment. You can read our full policy here.
-Can I upgrade later?
-Absolutely! Head to the credits section of your account and you can upgrade to the Unlimited or Premium plan whenever you like.
-Who owns the content created?
-The content created by Rytr is owned by the user or the entity that utilizes Rytr to generate the content. However, all generated content must adhere to Rytr’s Terms of Service. While users maintain ownership of their content, it’s important to remember that usage of Rytr must comply with these terms and guidelines.
-Terms of Use
-Privacy Policy
-Press & Media Kit
-
-Use Cases
-
-Email
-SEO Meta Title
-Reply to Reviews & Messages
-Paragraph Content
-Post & Caption Ideas
-Call To Action
-
-Comparisons
-
-ChatGPT Alternative
-Copy AI Alternative
-Grammarly Alternative
-Jasper AI Alternative
-Peppertype Alternative
-
-Industries
-
-Ecommerce
-Local Stores
-Marketing
-Blogger / Vlogger
-Small Business
-
-Products
-
-Browser Extension
-My Voice
-Plagiarism
-API
-Affiliate Program
-Customer Reviews
-Help Center
-Community
-Contact Us
+Product
+Engage
+Create
+Browser extension
+Pricing
+Company
+About
+Contact
+Compare
+Rytr vs Town
+Rytr vs ChatGPT
+Rytr vs Claude
+Rytr vs Caddy
+Rytr vs Instinct
+Rytr vs Wabi
+Resources
 Blog
-© 2026 Rytr
+Help center
+Integrations
+Solutions
+Security
+Legal
+Privacy Policy
+Terms of Use
+© 2026 Rytr, Inc.
+Built for relationships worth remembering.
+
+=== 計費模式: 年繳 (yearly) ===
+Skip to content
+Products
+Solutions
+Resources
+Pricing
+Sign in
+Get started
+Simple pricing for the work you do
+
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
+
+Monthly
+Yearly
+Save 20%
+Free
+
+Free forever
+
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
+Daily briefing
+40+ writing use cases
+30+ languages
+Get Free
+Lite
+
+Unlimited content creation
+
+$7.50
+/mo
+billed annually
+Everything in Free
+Unlimited characters per month
+Get Lite
+MOST POPULAR
+Personal
+
+For everyday communication
+
+$15
+/mo
+billed annually
+Everything in Lite
+2 connected sources
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
+
+For communication power users
+
+$39
+/mo
+billed annually
+Everything in Personal
+All connected sources
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
+Custom use cases
+Get Pro
+Pricing questions, answered
+
+Everything you need to know about plans, billing, and what's included.
+
+Can I start free?
+What's included in Lite?
+What's included in Personal?
+What's included in Pro?
+How does yearly billing work?
+Can I upgrade or downgrade anytime?
+Can I cancel?
+Morgan
+Client
+Sam
+Founder
+Imani
+Leader
+Marcus
+Partner
+Leo
+Designer
+Dana
+Pilot lead
+Nina
+Operator
+Rosa
+Advisor
+Know who needs you, and follow through
+
+Start free and see who needs you, what changed, and what to do next — in your own voice.
+
+Start free
+See how it works
+
+Ready to follow through?
+
+Product
+Engage
+Create
+Browser extension
+Pricing
+Company
+About
+Contact
+Compare
+Rytr vs Town
+Rytr vs ChatGPT
+Rytr vs Claude
+Rytr vs Caddy
+Rytr vs Instinct
+Rytr vs Wabi
+Resources
+Blog
+Help center
+Integrations
+Solutions
+Security
+Legal
+Privacy Policy
+Terms of Use
+© 2026 Rytr, Inc.
+Built for relationships worth remembering.
+
+=== 計費模式: 年繳 (yearly) #2 ===
+Skip to content
+Products
+Solutions
+Resources
+Pricing
+Sign in
+Get started
+Simple pricing for the work you do
+
+Choose Free, Lite, Personal, or Pro. Save 20% with yearly billing.
+
+Monthly
+Yearly
+Save 20%
+Free
+
+Free forever
+
+Free
+10,000 characters per month
+1 connected source
+25 active relationships
+25 Engage actions per month
+3 person research runs
+Daily briefing
+40+ writing use cases
+30+ languages
+Get Free
+Lite
+
+Unlimited content creation
+
+$7.50
+/mo
+billed annually
+Everything in Free
+Unlimited characters per month
+Get Lite
+MOST POPULAR
+Personal
+
+For everyday communication
+
+$15
+/mo
+billed annually
+Everything in Lite
+2 connected sources
+250 active relationships
+250 Engage actions per month
+10 person research runs per month
+Get Personal
+Pro
+
+For communication power users
+
+$39
+/mo
+billed annually
+Everything in Personal
+All connected sources
+1,000 active relationships
+2,000 Engage actions per month
+50 person research runs per month
+Morning and evening briefings
+Custom use cases
+Get Pro
+Pricing questions, answered
+
+Everything you need to know about plans, billing, and what's included.
+
+Can I start free?
+What's included in Lite?
+What's included in Personal?
+What's included in Pro?
+How does yearly billing work?
+
+Yearly billing saves 20% compared with the monthly price and is billed annually.
+
+Can I upgrade or downgrade anytime?
+Can I cancel?
+Morgan
+Client
+Sam
+Founder
+Imani
+Leader
+Marcus
+Partner
+Leo
+Designer
+Dana
+Pilot lead
+Nina
+Operator
+Rosa
+Advisor
+Know who needs you, and follow through
+
+Start free and see who needs you, what changed, and what to do next — in your own voice.
+
+Start free
+See how it works
+
+Ready to follow through?
+
+Product
+Engage
+Create
+Browser extension
+Pricing
+Company
+About
+Contact
+Compare
+Rytr vs Town
+Rytr vs ChatGPT
+Rytr vs Claude
+Rytr vs Caddy
+Rytr vs Instinct
+Rytr vs Wabi
+Resources
+Blog
+Help center
+Integrations
+Solutions
+Security
+Legal
+Privacy Policy
+Terms of Use
+© 2026 Rytr, Inc.
+Built for relationships worth remembering.

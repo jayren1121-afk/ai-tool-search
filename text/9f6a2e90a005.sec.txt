@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Book a demo
 Try for free
 Plans built for creators, teams, and enterprises
@@ -16,7 +17,7 @@ Curated voice actors
 Studio tools for tone, pitch and emotional control
 Starter
 $10/mo
-Save 47%
+Save $108/yr
 Billed annually at $120/year
 Get started with voiceover
 Choose Starter
@@ -27,11 +28,97 @@ Email support
 Extra minutes available
 Pro
 $33/mo
-Save 33%
+Save $192/yr
 Billed annually at $396/year
 More features and minutes
 Choose Pro
 2,160 minutes/year
+---
+Extra minutes available
+Team plans
+Team plans are billed annually.
+Business
+$160/mo/user
+Billed annually at $1,920/year
+Collaborate and scale
+Choose Business
+2,880 minutes/year/user
+---
+Contact us
+Custom minutes/year/user
+---
+Trial
+Free
+No credit card required
+Try for free
+Starter
+$10/mo
+Billed annually
+Get started
+Pro
+$33/mo
+Billed annually
+Get started
+Business
+$160/mo/user
+Billed annually
+Contact us
+Enterprise
+Custom Pricing
+Billed annually
+Contact us
+---
+3 minutes/month
+240 minutes/year
+2,160 minutes/year
+2,880 minutes/year
+Custom minutes/year
+---
+Can I upgrade or downgrade my plan?
+Does WellSaid offer a free trial?
+Can I get a custom Enterprise plan?
+---
+Joseph V.
+Senior VP
+Marketing
+“WellSaid is a game changer for content creators”
+I've created over 6,584 minutes of voiceover content using WellSaid Studio, and I honestly can't imagine going back to traditional voiceover methods. According to their calculations, this would have cost me over $296,000 using conventional 
+Daniel W.
+Education & Media Development Manager
+Canon America Medical Systems
+=== 計費模式: 月繳 (monthly) ===
+Book a demo
+Try for free
+Plans built for creators, teams, and enterprises
+---
+Begin your journey with WellSaid. Upgrade anytime.
+Billed annually
+Monthly
+Trial
+Free
+No credit card required
+Try for free
+Discover WellSaid and our best-in-class voice tools
+Create your first voiceover in minutes
+3 download minutes per month (no commercial rights)
+Curated voice actors
+Studio tools for tone, pitch and emotional control
+Starter
+$19/mo
+Billed monthly
+Get started with voiceover
+Choose Starter
+20 minutes/month
+---
+24 kHz sample rate
+Email support
+Extra minutes available
+Pro
+$49/mo
+Billed monthly
+More features and minutes
+Choose Pro
+180 minutes/month
 ---
 Extra minutes available
 Team plans
