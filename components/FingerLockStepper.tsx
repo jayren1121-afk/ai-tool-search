@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
-import { FL, FL_LINKS, type FlCopy } from "@/lib/fingerlock";
+import { FL, type FlCopy } from "@/lib/fingerlock";
 import type { Locale } from "@/lib/i18n";
 
 function StepShot({ step }: { step: FlCopy["steps"][number] }) {
@@ -56,7 +56,7 @@ export default function FingerLockStepper({ locale }: { locale: Locale }) {
         <button type="button" onClick={() => go(i + 1)} disabled={last}>{copy.next}</button>
       </div>
       {last && (
-        <a className="fingerlock-download" href={FL_LINKS.exe} target="_blank" rel="noopener noreferrer">{copy.downloadExe}</a>
+        <button type="button" className="fingerlock-download" disabled>{copy.comingSoon}</button>
       )}
     </div>
   );

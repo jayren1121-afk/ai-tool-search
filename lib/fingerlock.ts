@@ -1,23 +1,8 @@
 // FingerLock 是本站作者的 Windows 工具，不是 ai_tools 資料庫裡的 AI 產品。
-// 文案與連結集中在這裡，中英文頁面與首頁入口共用。
+// 文案集中在這裡，中英文頁面與首頁入口共用。下載尚未公開。
 import type { Locale } from "./i18n";
 
 export const FL_PATH = "/tools/fingerlock";
-
-export const FL_LINKS = {
-  release: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest",
-  exe: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/FingerLock.exe",
-  manualZh: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/FingerLock_Manual_ZH-TW.pdf",
-  manualEn: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/FingerLock_Manual_EN.pdf",
-  sha256: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/SHA256SUMS.txt",
-} as const;
-
-export const FL_VERSION = "v1.0.0";
-export const FL_SIZE = "31 MB";
-/** v1.0.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
-export const FL_SHA256 = "6c90cb7f62a762a7767ed88fcc8a983be8bc22a2be048c91999c0cef7be75fd0";
-export const FL_VERIFY_CMD = "certutil -hashfile FingerLock.exe SHA256";
-export const FL_CD_CMD = "cd %USERPROFILE%\\Downloads";
 
 export const FL_SHOTS = {
   warning: { src: "/fingerlock/setup-warning.png", w: 800, h: 700 },
@@ -44,23 +29,11 @@ export type FlCopy = {
   title: string;
   lede: string;
   badges: string[];
-  downloadExe: string;
+  comingSoon: string;
   fileMeta: string;
-  manualShortZh: string;
-  manualShortEn: string;
-  releaseLink: string;
   smartScreen: string;
   featuresTitle: string;
   features: string[];
-  verifySummary: string;
-  verifyLead: string;
-  verifyWinR: string;
-  verifyCd: string;
-  verifyCmd: string;
-  verifyMatch: string;
-  hashLabel: string;
-  copy: string;
-  copied: string;
   quickTitle: string;
   stepperLabel: string;
   stepperRole: string;
@@ -79,19 +52,16 @@ export type FlCopy = {
 };
 
 const zh: FlCopy = {
-  promoLead: "🔒 FingerLock 資料夾鎖 · 免費下載",
-  promoCta: "查看",
-  promoAria: "開啟 FingerLock 介紹與下載頁面",
+  promoLead: "🔒 FingerLock 資料夾鎖 · 即將推出",
+  promoCta: "了解",
+  promoAria: "開啟 FingerLock 介紹頁面",
   metaTitle: "FingerLock 免費 Windows 資料夾鎖",
   metaDesc: "FingerLock 是免費的 Windows 資料夾鎖。用 10 題自訂安全問題（每次隨機 5 題）解鎖，可加手機指紋，並支援忘記答案寄信重設與閒置自動上鎖。",
   title: "FingerLock",
   lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖。安裝檔是 FingerLock.exe。",
   badges: ["Windows", "免費"],
-  downloadExe: "⬇ 下載 FingerLock.exe（免費）",
+  comingSoon: "即將推出",
   fileMeta: "約 31 MB · 版本 v1.0.0",
-  manualShortZh: "中文說明書",
-  manualShortEn: "英文說明書",
-  releaseLink: "到 GitHub 最新版頁面查看",
   smartScreen: "這個程式還沒有數位簽章，Windows 可能跳出藍底警告。按「其他資訊」→「仍要執行」就能開啟。",
   featuresTitle: "功能",
   features: [
@@ -102,15 +72,6 @@ const zh: FlCopy = {
     "選取的資料夾會被鎖住，要解鎖才能再使用。",
     "免費提供，下載檔為 FingerLock.exe。",
   ],
-  verifySummary: "進階：檢查檔案是否被竄改（選用）",
-  verifyLead: "一般使用可以跳過。這只是用來確認你下載的 FingerLock.exe 沒有被別人換掉。",
-  verifyWinR: "按鍵盤的 Windows 鍵和 R，輸入 cmd，再按 Enter，會打開一個黑色視窗。另一個做法：到存放 FingerLock.exe 的資料夾，按住 Shift 再按右鍵，選「在終端機中開啟」。用這個做法就不用下一步。",
-  verifyCd: "如果是用 Win+R 開的視窗，要先進入檔案所在的資料夾。檔案若在「下載」，複製下面這行貼上，按 Enter。",
-  verifyCmd: "再複製這行指令，貼到同一個黑色視窗，按 Enter。",
-  verifyMatch: "畫面上出現的那一長串，要和下面這組完全相同。相同就沒問題。不同就刪掉檔案，不要開啟。",
-  hashLabel: "正確的結果應該是",
-  copy: "複製",
-  copied: "已複製",
   quickTitle: "快速開始",
   stepperLabel: "FingerLock 快速開始",
   stepperRole: "步驟導覽",
@@ -121,8 +82,8 @@ const zh: FlCopy = {
   stepsGroup: "步驟",
   steps: [
     {
-      title: "按下下載按鈕",
-      text: "按頁面上方的「下載 FingerLock.exe（免費）」。檔案約 31 MB。存好之後，下一步再雙擊開啟。",
+      title: "下載即將推出",
+      text: "FingerLock.exe 與說明書即將推出，現在還不能下載。開放之後，再從這一頁取得檔案，然後雙擊開啟。",
       image: null,
       imageAlt: "",
     },
@@ -166,9 +127,9 @@ const zh: FlCopy = {
     },
   ],
   manualsTitle: "使用說明書",
-  manualsLead: "最新版頁面上的 PDF，步驟比這一頁更完整。",
-  manualZh: "下載中文說明書（PDF）",
-  manualEn: "下載英文說明書（PDF）",
+  manualsLead: "中英文說明書即將推出，步驟會比這一頁更完整。",
+  manualZh: "中文說明書（PDF）",
+  manualEn: "英文說明書（PDF）",
   disclaimerTitle: "重要警告與免責聲明",
   disclaimer: [
     "沒有任何安全工具是 100% 安全的（防不勝防）。本軟體只能降低風險。",
@@ -183,19 +144,16 @@ const zh: FlCopy = {
 };
 
 const en: FlCopy = {
-  promoLead: "🔒 FingerLock folder lock · Free download",
-  promoCta: "View",
+  promoLead: "🔒 FingerLock folder lock · Coming soon",
+  promoCta: "Learn",
   promoAria: "Open the FingerLock page",
   metaTitle: "FingerLock, a free Windows folder lock",
   metaDesc: "FingerLock is a free Windows folder lock. Unlock with 10 security questions you write (5 random ones each time), optionally plus a phone fingerprint, with email reset and idle auto-lock.",
   title: "FingerLock",
   lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also add a phone fingerprint. If you forget the answers, a reset email can be sent, and it locks again after idle time. The download is FingerLock.exe.",
   badges: ["Windows", "Free"],
-  downloadExe: "⬇ Download FingerLock.exe (free)",
+  comingSoon: "Coming soon",
   fileMeta: "About 31 MB · version v1.0.0",
-  manualShortZh: "Chinese manual",
-  manualShortEn: "English manual",
-  releaseLink: "Open the latest GitHub release",
   smartScreen: "This program is not digitally signed, so Windows may show a blue warning. Choose More info → Run anyway to open it.",
   featuresTitle: "Features",
   features: [
@@ -206,15 +164,6 @@ const en: FlCopy = {
     "Chosen folders stay locked until you unlock them.",
     "Free. Distributed as FingerLock.exe.",
   ],
-  verifySummary: "Advanced: check the file wasn’t tampered with (optional)",
-  verifyLead: "You can skip this. It only checks that the FingerLock.exe you downloaded is the published file, and that nobody swapped it.",
-  verifyWinR: "Press the Windows key and R, type cmd, then press Enter. A black window opens. Or, in the folder that contains FingerLock.exe, hold Shift and right-click, then choose “Open in Terminal”. If you do that, skip the next step.",
-  verifyCd: "If you opened the window with Win+R, go to the file’s folder first. When it is in Downloads, copy the line below, paste it, and press Enter.",
-  verifyCmd: "Copy this command, paste it into the same black window, and press Enter.",
-  verifyMatch: "The long code on screen must match the one below exactly. If it matches, the file is fine. If it doesn’t, delete the file and don’t open it.",
-  hashLabel: "The result should be exactly",
-  copy: "Copy",
-  copied: "Copied",
   quickTitle: "Quick start",
   stepperLabel: "FingerLock quick start",
   stepperRole: "stepper",
@@ -225,8 +174,8 @@ const en: FlCopy = {
   stepsGroup: "Steps",
   steps: [
     {
-      title: "Press the download button",
-      text: "Press “Download FingerLock.exe (free)” at the top of this page. The file is about 31 MB. After it saves, the next step is to double-click it.",
+      title: "Download coming soon",
+      text: "FingerLock.exe and the manuals are coming soon, so there is nothing to download yet. When they are ready, get the file from this page, then double-click it.",
       image: null,
       imageAlt: "",
     },
@@ -270,7 +219,7 @@ const en: FlCopy = {
     },
   ],
   manualsTitle: "Manuals",
-  manualsLead: "PDFs on the latest release, with the full steps.",
+  manualsLead: "The Chinese and English manuals are coming soon, with fuller steps than this page.",
   manualZh: "Traditional Chinese manual (PDF)",
   manualEn: "English manual (PDF)",
   disclaimerTitle: "Warning and disclaimer",
