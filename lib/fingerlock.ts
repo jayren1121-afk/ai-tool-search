@@ -49,7 +49,19 @@ export type FlCopy = {
   manualShortZh: string;
   manualShortEn: string;
   releaseLink: string;
-  smartScreen: string;
+  safetySummary: string;
+  safetyLead: string;
+  safetyLocal: string;
+  safetySource: string;
+  safetySourceEnd: string;
+  safetyWhy: string;
+  safetySha: (section: string) => string;
+  smartTitle: string;
+  smartIntro: string;
+  smartSteps: string[];
+  defenderTitle: string;
+  defenderIntro: string;
+  defenderSteps: string[];
   featuresTitle: string;
   features: string[];
   verifySummary: string;
@@ -92,7 +104,26 @@ const zh: FlCopy = {
   manualShortZh: "中文說明書",
   manualShortEn: "英文說明書",
   releaseLink: "到 GitHub 最新版頁面查看",
-  smartScreen: "這個程式還沒有數位簽章，Windows 可能跳出藍底警告。按「其他資訊」→「仍要執行」就能開啟。",
+  safetySummary: "Windows 跳出警告時怎麼開啟",
+  safetyLead: "這很常見，不代表檔案有問題。",
+  safetyLocal: "FingerLock 只在你自己的電腦上執行。",
+  safetySource: "官方下載只有這個網站，或 GitHub 發行頁 ",
+  safetySourceEnd: "。",
+  safetyWhy: "會出現警告，是因為這個程式還很新，而且還沒有程式碼簽章。",
+  safetySha: (section) => `想再確認檔案沒有被換掉，可以打開下面的「${section}」，比對 SHA-256。`,
+  smartTitle: "藍色畫面：Windows 已保護您的電腦",
+  smartIntro: "雙擊 FingerLock.exe 後，Windows 可能出現藍色畫面，標題是「Windows 已保護您的電腦」。",
+  smartSteps: ["先按「其他資訊」。", "再按「仍要執行」。程式就會開啟。"],
+  defenderTitle: "如果 Microsoft Defender 把檔案移走了",
+  defenderIntro: "Windows 的防毒有時會誤判，把 FingerLock.exe 隔離或刪掉。可以從防護歷程把它找回來。",
+  defenderSteps: [
+    "按開始，搜尋「Windows 安全性」並開啟。",
+    "按「病毒與威脅防護」。",
+    "在「目前的威脅」按「防護歷程記錄」。",
+    "找到 FingerLock.exe，按「動作」。",
+    "看得到「還原」就按「還原」，檔案會回到原來的資料夾。若又出現提示，再按「動作」，選「允許」。",
+    "如果檔案已經被刪掉、只看得到「允許」，就按「允許」，然後回到這個頁面重新下載一次。",
+  ],
   featuresTitle: "功能",
   features: [
     "自己出 10 題安全問題。每次解鎖隨機抽 5 題、順序也隨機，5 題都要答對。",
@@ -199,7 +230,26 @@ const en: FlCopy = {
   manualShortZh: "Chinese manual",
   manualShortEn: "English manual",
   releaseLink: "Open the latest GitHub release",
-  smartScreen: "This program is not digitally signed, so Windows may show a blue warning. Choose More info → Run anyway to open it.",
+  safetySummary: "If Windows shows a warning",
+  safetyLead: "This is common, and it does not mean the file is unsafe.",
+  safetyLocal: "FingerLock runs only on your own computer.",
+  safetySource: "The official download is only from this site, or the GitHub releases at ",
+  safetySourceEnd: ".",
+  safetyWhy: "The warning appears because the app is new and not code-signed yet.",
+  safetySha: (section) => `To double-check the file, open the optional section below, “${section},” and compare the SHA-256.`,
+  smartTitle: "Blue screen: “Windows protected your PC”",
+  smartIntro: "After you double-click FingerLock.exe, Windows may show a blue screen titled “Windows protected your PC.”",
+  smartSteps: ["Click More info.", "Then click Run anyway. FingerLock will open."],
+  defenderTitle: "If Microsoft Defender removed the file",
+  defenderIntro: "Windows antivirus sometimes mistakes a new app for a threat and quarantines or deletes FingerLock.exe. You can restore or allow it from Protection history.",
+  defenderSteps: [
+    "Open the Start menu, search for Windows Security, and open it.",
+    "Select Virus & threat protection.",
+    "Under Current threats, select Protection history.",
+    "Find FingerLock.exe and select Actions.",
+    "If you see Restore, choose it. The file returns to its folder. If another prompt appears, open Actions again and choose Allow.",
+    "If the file was deleted and you only see Allow, choose Allow, then download FingerLock.exe again from this page.",
+  ],
   featuresTitle: "Features",
   features: [
     "You write 10 security questions. Each unlock asks a random 5, in random order, and all five must be correct.",

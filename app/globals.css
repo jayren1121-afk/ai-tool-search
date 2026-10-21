@@ -305,7 +305,8 @@ a.fingerlock-download {
 }
 a.fingerlock-download-primary { font-size: 1.15rem; padding: 0.9rem 1.35rem; }
 a.fingerlock-download:hover { background: #657a61; }
-.fingerlock-verify {
+.fingerlock-verify,
+.fingerlock-safety {
   margin-top: 0.9rem;
   max-width: 100%;
   border: 1px solid var(--line);
@@ -313,8 +314,12 @@ a.fingerlock-download:hover { background: #657a61; }
   background: #efe6dc;
   padding: 0.55rem 0.8rem 0.7rem;
 }
-.fingerlock-verify summary { font-weight: 650; }
-.fingerlock-verify-body { margin-top: 0.55rem; font-size: 0.95rem; }
+.fingerlock-verify summary,
+.fingerlock-safety summary { font-weight: 650; cursor: pointer; }
+.fingerlock-verify-body,
+.fingerlock-safety-body { margin-top: 0.55rem; font-size: 0.95rem; }
+.fingerlock-safety-body h3 { margin-top: 0.9rem; font-size: 1.05rem; font-weight: 650; }
+.fingerlock-safety-body a { color: inherit; font-weight: 650; text-decoration: underline; text-underline-offset: 0.12em; }
 .fingerlock-verify-body ol { margin: 0.4rem 0 0; padding-left: 1.2rem; }
 .fingerlock-verify-body li { margin-top: 0.55rem; }
 .fingerlock-hash-label { margin: 0.45rem 0 0.25rem; font-size: 0.85rem; color: var(--color-slate-500); }
