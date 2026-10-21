@@ -74,7 +74,7 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
 
       <section className="mt-6" aria-labelledby="fl-quick">
         <h2 id="fl-quick" className="mb-3 text-lg font-semibold">{copy.quickTitle}</h2>
-        <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_17rem]">
+        <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_20rem]">
           <FingerLockStepper locale={locale} />
           <aside className="fingerlock-manuals rounded-2xl bg-white p-4 shadow-sm" aria-labelledby="fl-manuals">
             <h2 id="fl-manuals" className="text-lg font-semibold">{copy.manualsTitle}</h2>

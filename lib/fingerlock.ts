@@ -12,10 +12,10 @@ export const FL_LINKS = {
   sha256: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/SHA256SUMS.txt",
 } as const;
 
-export const FL_VERSION = "v1.0.0";
+export const FL_VERSION = "v1.1.0";
 export const FL_SIZE = "31 MB";
-/** v1.0.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
-export const FL_SHA256 = "6c90cb7f62a762a7767ed88fcc8a983be8bc22a2be048c91999c0cef7be75fd0";
+/** v1.1.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
+export const FL_SHA256 = "d9f152d71e2acc58660ee48e8b63cbaf646f567314c83f87645e3fe6004c421f";
 export const FL_VERIFY_CMD = "certutil -hashfile FingerLock.exe SHA256";
 export const FL_CD_CMD = "cd %USERPROFILE%\\Downloads";
 
@@ -88,7 +88,7 @@ const zh: FlCopy = {
   lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖。安裝檔是 FingerLock.exe。",
   badges: ["Windows", "免費"],
   downloadExe: "⬇ 下載 FingerLock.exe（免費）",
-  fileMeta: "約 31 MB · 版本 v1.0.0",
+  fileMeta: "約 31 MB · 版本 v1.1.0",
   manualShortZh: "中文說明書",
   manualShortEn: "英文說明書",
   releaseLink: "到 GitHub 最新版頁面查看",
@@ -96,10 +96,12 @@ const zh: FlCopy = {
   featuresTitle: "功能",
   features: [
     "自己出 10 題安全問題。每次解鎖隨機抽 5 題、順序也隨機，5 題都要答對。",
-    "也可以加上手機指紋，多一道確認。",
+    "也可以加上手機指紋：手機相機掃 QR code 就能配對，不用裝 App，手機連線會自動建立。",
     "忘記答案或遺失手機時，可寄重設信到當初填的 Email。",
-    "閒置會自動上鎖，也可以按「立即上鎖」。",
-    "選取的資料夾會被鎖住，要解鎖才能再使用。",
+    "在背景執行，右下角系統匣有 🔒 圖示（開啟／立即上鎖／結束），不用開著黑色視窗。",
+    "閒置、鎖定螢幕（Win+L）、睡眠、登出或關機時，開著的資料夾都會自動鎖回。",
+    "資料夾可以「暫時解鎖」用完自動鎖回，或「永久移除保護」還原檔案。",
+    "可選擇開機時自動啟動保護。",
     "免費提供，下載檔為 FingerLock.exe。",
   ],
   verifySummary: "進階：檢查檔案是否被竄改（選用）",
@@ -128,7 +130,7 @@ const zh: FlCopy = {
     },
     {
       title: "雙擊開啟",
-      text: "雙擊 FingerLock.exe。若出現藍色警告，按「其他資訊」→「仍要執行」。瀏覽器會打開設定頁。請留著同時出現的黑色視窗，關掉它程式就會停。",
+      text: "雙擊 FingerLock.exe。若出現藍色警告，按「其他資訊」→「仍要執行」。瀏覽器會打開設定頁。FingerLock 會在背景執行，右下角系統匣會出現 🔒 圖示；要結束時在圖示上按右鍵選「結束」。",
       image: FL_SHOTS.warning,
       imageAlt: "FingerLock 第一次設定頁，上方是警告聲明，下方的確認框還沒有勾選。",
     },
@@ -140,7 +142,7 @@ const zh: FlCopy = {
     },
     {
       title: "選擇解鎖模式",
-      text: "「只用提示問題」：回答隨機 5 題就能解鎖。「問題 + 手機指紋」：兩道都要通過，較安全。選指紋之前要先用手機配對。",
+      text: "「只用提示問題」：回答隨機 5 題就能解鎖。「問題 + 手機指紋」：兩道都要通過，較安全。選指紋時，按「配對手機」會自動出現 QR code，用手機相機掃描並用指紋或臉部確認即可（手機要能上網）。",
       image: FL_SHOTS.form,
       imageAlt: "解鎖模式的兩個選項：只用提示問題，或問題加上手機指紋。",
       scroll: 0.32,
@@ -160,7 +162,7 @@ const zh: FlCopy = {
     },
     {
       title: "選擇資料夾並上鎖",
-      text: "按「選擇資料夾」，點選要鎖的資料夾（可加多個），再按「鎖住所選資料夾」。已鎖住的資料夾要使用時，按該列的「解鎖」。",
+      text: "按「選擇資料夾」，點選要鎖的資料夾（可加多個），再按「🔒 鎖住所選資料夾（加密）」。要使用時按該列的「🔓 暫時解鎖」，用完按「🔒 鎖回」；離開電腦時也會自動鎖回。不想再保護就按「永久移除保護」。",
       image: FL_SHOTS.folders,
       imageAlt: "主畫面列出準備上鎖的資料夾與已鎖住的資料夾，可移除或解鎖。",
     },
@@ -192,7 +194,7 @@ const en: FlCopy = {
   lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also add a phone fingerprint. If you forget the answers, a reset email can be sent, and it locks again after idle time. The download is FingerLock.exe.",
   badges: ["Windows", "Free"],
   downloadExe: "⬇ Download FingerLock.exe (free)",
-  fileMeta: "About 31 MB · version v1.0.0",
+  fileMeta: "About 31 MB · version v1.1.0",
   manualShortZh: "Chinese manual",
   manualShortEn: "English manual",
   releaseLink: "Open the latest GitHub release",
@@ -200,10 +202,12 @@ const en: FlCopy = {
   featuresTitle: "Features",
   features: [
     "You write 10 security questions. Each unlock asks a random 5, in random order, and all five must be correct.",
-    "You can also add a phone fingerprint as an extra check.",
+    "You can also add a phone fingerprint: pair by scanning a QR code with the phone camera. No app, and the phone connection is set up automatically.",
     "If you forget the answers or lose the phone, a reset email can be sent to the address you saved.",
-    "Auto-lock after idle time, and a Lock now button.",
-    "Chosen folders stay locked until you unlock them.",
+    "Runs in the background with a 🔒 tray icon (Open / Lock now / Quit), so there is no black window to keep open.",
+    "Open folders lock again automatically when you go idle, lock the screen (Win+L), sleep, sign out or shut down.",
+    "Unlock a folder temporarily (it locks again when you leave), or remove its protection permanently to restore the files.",
+    "Optionally start protection automatically when Windows starts.",
     "Free. Distributed as FingerLock.exe.",
   ],
   verifySummary: "Advanced: check the file wasn’t tampered with (optional)",
@@ -232,7 +236,7 @@ const en: FlCopy = {
     },
     {
       title: "Double-click to open",
-      text: "Double-click FingerLock.exe. If a blue warning appears, choose More info → Run anyway. Your browser opens the setup page. Leave the black window open; closing it stops the program.",
+      text: "Double-click FingerLock.exe. If a blue warning appears, choose More info → Run anyway. Your browser opens the setup page. FingerLock runs in the background with a 🔒 icon in the system tray; to quit, right-click the icon and choose 結束 (Quit).",
       image: FL_SHOTS.warning,
       imageAlt: "FingerLock first-run setup page, with the warning and the confirmation box still unchecked.",
     },
@@ -244,7 +248,7 @@ const en: FlCopy = {
     },
     {
       title: "Choose a mode",
-      text: "Questions only: answer 5 random questions to unlock. Questions plus phone fingerprint: both must pass, which is safer. Pair the phone before you pick the fingerprint mode.",
+      text: "Questions only: answer 5 random questions to unlock. Questions plus phone fingerprint: both must pass, which is safer. For fingerprint, press pair and a QR code appears automatically; scan it with the phone camera and confirm with fingerprint or face (the phone needs internet).",
       image: FL_SHOTS.form,
       imageAlt: "Two unlock modes: security questions only, or questions plus a phone fingerprint.",
       scroll: 0.32,
@@ -264,14 +268,14 @@ const en: FlCopy = {
     },
     {
       title: "Pick folders and lock them",
-      text: "Choose folders, select the ones to lock (you can add more than one), then lock them. To use a locked folder again, press Unlock on that row.",
+      text: "Choose folders, select the ones to lock (you can add more than one), then press “🔒 Lock selected folders”. To use one, press “Unlock temporarily” on its row and “Lock again” when done; it also locks again automatically when you leave. “Remove protection permanently” restores the files for good.",
       image: FL_SHOTS.folders,
       imageAlt: "Main screen listing folders to lock and folders already locked, with remove and unlock actions.",
     },
   ],
   manualsTitle: "Manuals",
   manualsLead: "PDFs on the latest release, with the full steps.",
-  manualZh: "Traditional Chinese manual (PDF)",
+  manualZh: "Chinese manual (PDF)",
   manualEn: "English manual (PDF)",
   disclaimerTitle: "Warning and disclaimer",
   disclaimer: [

@@ -413,3 +413,16 @@ a.fingerlock-download:hover { background: #657a61; }
   *, ::before, ::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
   li.rounded-xl:hover, button.bg-indigo-600:hover { transform: none; }
 }
+
+/* 綠色框一律同尺寸：首頁兩張綠卡同寬同高；FingerLock 頁所有綠色下載鈕同寬同高（中英文都一樣） */
+main .home-fingerlock, main .home-guard { box-sizing: border-box; min-height: 5.25rem; }
+main .home-fingerlock { display: flex; flex-direction: column; justify-content: center; }
+a.fingerlock-download, a.fingerlock-download-primary, .fingerlock-manuals a.fingerlock-download {
+  box-sizing: border-box;
+  width: min(18rem, calc(100vw - 6rem));
+  max-width: 100%;
+  min-height: 4.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
