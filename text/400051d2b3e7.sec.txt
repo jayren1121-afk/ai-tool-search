@@ -1,3 +1,228 @@
+=== 計費模式: 預設畫面 (default) ===
+Pricing
+Contact Sales
+Component Voting
+---
+Log in
+Start for free
+Publish pricing
+Export pricing
+Play around on a free site. Launch on your own domain.
+---
+Start building and gathering feedback on a free relumesite.ai site. Connect your custom domain when it’s time to launch
+---
+Yearly billing discount
+30% OFF
+Free hosting
+---
+Published on your-site.relumesite.ai
+---
+$0
+---
+USD
+---
+Free forever
+---
+Launch hosting
+---
+Published on your custom domain
+---
+$12
+---
+USD
+---
+Per site / month · Billed $144 yearly
+---
+6,000 page views
+Start for Free
+---
+Free includes enough AI usage to build 1 small website per month. Pro gives you up to 20x more, covering wireframes, design generation, copy and images.
+---
+5x or 20x more usage
+More AI usage across all projects
+Premium AI models
+---
+$14
+---
+USD
+---
+/ month · Billed $168 yearly
+---
+Start a 7-day free trial
+---
+Cancel anytime during your trial.
+---
+Build with Relume
+Free
+Free forever · No card needed
+Pro
+from $14 / month · Cancel anytime
+AI usage
+Shared across all your projects
+Limited
+---
+Upgrade usage anytime
+Monthly capacity
+How much you can generate each month.
+Enough for one full website
+Starts with 1-2 websites per month
+Higher tiers build more
+---
+Host with Relume
+Free hosting
+Published on your-site.relume.live
+---
+Published on your custom domain
+Monthly page views
+Traffic your published sites can serve each month.
+1,500
+Monthly page views
+Starting at 6,000 monthly page views
+Custom domain + SSL
+Connect your own domain, SSL included. Relume handles the certificate and renewal.
+icon-check
+from $12 per project / mo
+relume.live subdomain
+Live in seconds. Good for drafts and client review.
+Enterprise-grade hosting
+---
+20
+Form submissions per month
+icon-check
+---
+icon-chevron-down
+Can I get a 7-day trial for the Pro plan?
+---
+As of now, we’re not offering a 7-day trial for the Pro plan.
+---
+icon-chevron-down
+Can I still get a 7 day trial after I sign up to the Free plan?
+---
+Once you’ve signed up to the Free plan, you will no longer be able to get a 7-day free trial for the Starter plan.
+---
+We’ve created a free tier, which will allow to get access to Relume for free (Forever).
+---
+icon-chevron-down
+Can I extend my trial?
+---
+icon-chevron-down
+Can I downgrade to the Free plan before I finish the 7-day free trial for the Starter plan?
+---
+icon-chevron-down
+What does "free updates" mean?
+=== 計費模式: 年繳 (yearly) ===
+Pricing
+Contact Sales
+Component Voting
+---
+Log in
+Start for free
+Publish pricing
+Export pricing
+Play around on a free site. Launch on your own domain.
+---
+Start building and gathering feedback on a free relumesite.ai site. Connect your custom domain when it’s time to launch
+---
+Yearly billing discount
+30% OFF
+Free hosting
+---
+Published on your-site.relumesite.ai
+---
+$0
+---
+USD
+---
+Free forever
+---
+Launch hosting
+---
+Published on your custom domain
+---
+$16
+---
+USD
+---
+Per site / month
+---
+6,000 page views
+Start for Free
+---
+Free includes enough AI usage to build 1 small website per month. Pro gives you up to 20x more, covering wireframes, design generation, copy and images.
+---
+5x or 20x more usage
+More AI usage across all projects
+Premium AI models
+---
+$24
+---
+USD
+---
+/ month
+---
+Start a 7-day free trial
+---
+Cancel anytime during your trial.
+---
+Build with Relume
+Free
+Free forever · No card needed
+Pro
+from $14 / month · Cancel anytime
+AI usage
+Shared across all your projects
+Limited
+---
+Upgrade usage anytime
+Monthly capacity
+How much you can generate each month.
+Enough for one full website
+Starts with 1-2 websites per month
+Higher tiers build more
+---
+Host with Relume
+Free hosting
+Published on your-site.relume.live
+---
+Published on your custom domain
+Monthly page views
+Traffic your published sites can serve each month.
+1,500
+Monthly page views
+Starting at 6,000 monthly page views
+Custom domain + SSL
+Connect your own domain, SSL included. Relume handles the certificate and renewal.
+icon-check
+from $12 per project / mo
+relume.live subdomain
+Live in seconds. Good for drafts and client review.
+Enterprise-grade hosting
+---
+20
+Form submissions per month
+icon-check
+---
+icon-chevron-down
+Can I get a 7-day trial for the Pro plan?
+---
+As of now, we’re not offering a 7-day trial for the Pro plan.
+---
+icon-chevron-down
+Can I still get a 7 day trial after I sign up to the Free plan?
+---
+Once you’ve signed up to the Free plan, you will no longer be able to get a 7-day free trial for the Starter plan.
+---
+We’ve created a free tier, which will allow to get access to Relume for free (Forever).
+---
+icon-chevron-down
+Can I extend my trial?
+---
+icon-chevron-down
+Can I downgrade to the Free plan before I finish the 7-day free trial for the Starter plan?
+---
+icon-chevron-down
+What does "free updates" mean?
+=== 計費模式: 月繳 (monthly) ===
 Pricing
 Contact Sales
 Component Voting

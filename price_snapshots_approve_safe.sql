@@ -17,8 +17,7 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'stable-audio' and fetched_at = '2026-10-20T12:11:23+08:00'::timestamptz;  -- Stable Audio
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'apollo' and fetched_at = '2026-10-20T12:11:32+08:00'::timestamptz;  -- Apollo.io
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'freed' and fetched_at = '2026-10-20T12:11:39+08:00'::timestamptz;  -- Freed
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'sourcegraph-cody' and fetched_at = '2026-10-12T13:33:23+08:00'::timestamptz;  -- Sourcegraph Amp
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'prezi-ai' and fetched_at = '2026-10-12T13:33:54+08:00'::timestamptz;  -- Prezi
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'sourcegraph-cody' and fetched_at = '2026-10-21T12:11:41+08:00'::timestamptz;  -- Sourcegraph Amp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'gumloop' and fetched_at = '2026-10-12T13:34:22+08:00'::timestamptz;  -- Gumloop
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'undermind' and fetched_at = '2026-10-12T13:34:27+08:00'::timestamptz;  -- Undermind
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'rodin' and fetched_at = '2026-10-12T13:35:08+08:00'::timestamptz;  -- Hyper3D Rodin

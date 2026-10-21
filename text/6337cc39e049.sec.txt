@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Plans & Pricing Designed to Grow With Your Business
 Monthly
 Yearly
@@ -42,6 +43,78 @@ $99
 Get started
 Business
 Custom
+Contact sales
+Enterprise
+---
+3
+Custom
+Price per additional seat
+-
+$59/mo or $49/mo yearly, max 10 seats
+Custom
+Custom
+Workspaces
+---
+Performance
+Monthly performance predictions
+50
+---
+What does unlimited words mean?
+Do you offer a free trial?
+Can I cancel my subscription at anytime?
+=== 計費模式: 年繳 (yearly) ===
+Plans & Pricing Designed to Grow With Your Business
+Monthly
+Yearly
+Save 20%
+Starter
+---
+For solo marketers & freelancers who want on-brand content backed by Anyword’s performance data.
+---
+$39
+/month
+(Billed yearly)
+Start
+your 7-day free trial
+Starter plan includes:
+---
+Data-Driven
+---
+For marketing teams who want on-brand content backed by Anyword’s performance data.
+---
+$79
+/month
+(Billed yearly)
+Start
+your 7-day free trial
+Everything in Starter, plus:
+---
+Custom pricing
+Lets discuss your needs
+Contact sales
+Everything in Data-Driven, plus:
+---
+Custom pricing
+Lets discuss your needs
+---
+Security & legal review
+Dedicated customer success manager
+Compare all plans
+Starter
+$39
+/mo
+---
+(Billed yearly)
+---
+Get started
+Data-Driven
+$79
+/mo
+---
+(Billed yearly)
+---
+(Billed yearly)
+---
 Contact sales
 Enterprise
 ---

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Tools
 Video Editor
 
@@ -155,14 +156,20 @@ Request a Demo
 Sign In
 Start Editing
 or, sign in
-Pricing
-Start for free. Upgrade to create more video to exactly fit your team's needs. Explore our pricing plans to find what’s best for you.
-TRUSTED BY TEAMS AT
+Pick a plan and get started today
+
+Create better video content in less time—with no experience necessary. Find the plan that will let your team's work really shine.
+
+TRUSTED BY
+BILLING
+Monthly
+Annual
+SAVE 33%
 Free
 For anyone who wants to get started creating and repurposing content
 10 credits
-$0
-It's Free!
+$
+0
 Get Started
 Unlimited exports with a watermark
 Export videos up to 4 minutes long
@@ -171,13 +178,12 @@ Export videos up to 4 minutes long
 Credits usable for:
 Auto-subtitling (up to 10 mins)
 Text to speech (up to 1 mins)
-Most Popular
+MOST POPULAR
 Pro
 For individuals and small groups looking to create more content in less time
 1,000 credits / month
-$16
-Per member, per month, billed annually
-$24 billed monthly
+$
+16
 Upgrade
 Everything in Free, plus these features for your team workspace:
 No Kapwing watermark on your creations
@@ -195,9 +201,8 @@ Even more premium features.
 Business
 For individuals and teams who need to supercharge their content creation workflow
 4,000 credits / month
-$50
-Per member, per month, billed annually
-$64 billed monthly
+$
+50
 Upgrade
 Everything in Pro, plus these features for your team workspace:
 Create custom voice clones
@@ -224,7 +229,7 @@ Custom amount of auto-subtitling
 Custom amount of dubbing
 Custom usage of generative AI features.
 Even more premium features.
-Compare Plans and Pricing
+A plan for every team’s needs
 Free
 Choose Free
 Pro
@@ -233,7 +238,7 @@ Business
 Choose Business
 Enterprise
 Contact Sales
-VIDEO CREATION
+Video creation
 Record screen, camera, and audio
 Transitions and video effects
 Free stock templates
@@ -269,7 +274,7 @@ None
 For all projects
 For all projects
 For all projects
-AUTOMATIC EDITING & SMART TOOLS
+Automatic Editing & Smart Tools
 Auto-subtitling
 Up to 10 minutes
 Up to 1,000 minutes per month
@@ -305,14 +310,14 @@ Image Background Remover
 Audio Waveforms
 Download SRT/VTT files
 Download video transcript
-COLLABORATION & BRAND MANAGEMENT
+Collaboration & Brand Management
 Commenting
 Project link sharing
 Invite team members
 Real time collaboration
 Brand Kit
 Custom fonts
-STORAGE & SUPPORT
+Storage & Support
 Cloud storage
 5 GB
 200 GB
@@ -336,29 +341,28 @@ Custom billing
 Dedicated account manager
 Onboarding & training
 SAML single sign-on (SSO)
-●
 JUST THE FAQS
 Frequently Asked Questions
 
 We have answers to the most common questions that our users ask.
 
 What is Kapwing?
-Kapwing is an online content creation platform. We're used by millions of creators each month to tell their own unique digital stories. Our product helps creators create and edit videos, GIFs, images, audio, and more. We're a small team doing our best to run an ethical and sustainable business.
++
 Can I have a free trial for Kapwing's paid plans?
+−
 Kapwing’s tools are available for free. You may try all of our tools before making the decision to upgrade. We do not currently offer a free trial for Kapwing's paid plans.
 Is paying for Kapwing a recurring payment?
-Yes. Kapwing Pro and Business are only available as a subscription not as a one time charge. The subscription will auto renew until cancelled.
++
 Can I have a refund?
-Because we offer a free version of Kapwing to all users, we do not issue refunds for subscriptions once you decide to upgrade to Kapwing Pro or Business. Please review our Refund Policy before making a purchase decision.
++
 What's the fastest way to reach you in case something is wrong with my account?
-Your business is really important to us! Please visit our contact us page for options on how to quickly get in touch.
++
 What currency are the prices listed in?
-All of our prices are listed in USD. Any additional charges, such as fees, taxes, exchange rates, etc. are included in our prices. You will not be charged more than the listed rates. Our payments are powered securely by Stripe.
++
 Will I receive a receipt for my transaction?
-Yes, you will receive a receipt for all transactions. It will be sent to the email address used to upgrade your team workspace. Your billing history will also be accessible from the Billing settings page.
++
 Do you have an annual/yearly billing option?
-Yes! If you want better value, then Kapwing Pro is available for $16/month billed annually or $192/year. Kapwing Business can supercharge your content creation and is available for $50/month billed annually or $600/year. Click "Upgrade" to access the annual option. This will allow you to pay for an annual membership at a discount from the normal monthly price.
-See more FAQs
++
 REAL TEAMS CREATING ON KAPWING
 Already transforming video creation across industries
 
@@ -431,6 +435,503 @@ I use this daily to help with video editing. Even if you're a pro video editor, 
 ”
 Dina Segovia
 Virtual Freelance Worker
+GET STARTED TODAY
+Create something amazing in seconds
+
+Get started with your first video in just a few clicks. Join over 35 million creators who trust Kapwing to create more content in less time.
+
+Try Kapwing Free
+Request a Demo
+Tools
+Video Editor
+Subtitles
+Meme Generator
+Convert Video
+Video Trimmer
+Screen Recorder
+View all
+AI-powered
+Smart Cut
+AI Video Generator
+Clean Audio
+AI Image Generator
+Text to Speech
+Document to Video
+View all
+Templates
+Video Templates
+Meme Templates
+Collage Templates
+Instagram Video
+Popular Templates
+EDU Templates
+View all
+Learn
+About Us
+Resources
+Help Center
+Blog
+EDU
+Teams
+Contact Us
+Company
+Pricing
+Careers
+Partnerships
+Affiliates
+Release Notes
+Refund Policy
+Privacy Policy
+Terms of Service
+Connect with us
+© 2026 KAPWING
+TERMS OF SERVICE
+MADE WITH ♥ IN SAN FRANCISCO, CALIFORNIA
+
+=== 計費模式: 月繳 (monthly) ===
+Tools
+Video Editor
+
+Edit video clips, combine tracks together, and add effects all in one place
+
+Subtitler
+
+Add captions and subtitles to videos in the browser
+
+Speaker Focus
+
+Auto-resize videos to focus on the speakers
+
+Audio Editor
+
+Record, edit, and clean audio for podcasts and videos
+
+Text to Speech
+
+Turn text into realistic voiceovers in just a few clicks
+
+Repurpose Studio
+
+Turn a video into social-ready clips
+
+Resize Video
+
+Change the size and dimensions of a video
+
+Trim with Transcript
+
+Edit videos by editing text
+
+Dubbing
+
+Translate dialogue into 40+ languages
+
+Transcribe Video
+
+Turn videos into text automatically
+
+View All
+
+Discover all of Kapwing's tools in one place
+
+AI
+Kapwing AI
+
+Discover all of Kapwing's AI-powered tools
+
+Script Generator
+
+Turn ideas into scripts in a few clicks
+
+AI Models
+
+Find the latest AI video, image, and audio models
+
+B-Roll Generator
+
+Generate relevant, high-quality B-Roll automatically
+
+Clean Audio
+
+Enhance audio quality and remove background noise
+
+AI Video Editor
+
+Create videos with Kapwing's cutting-edge AI tools
+
+Clip Maker
+
+Generate short clips from one video
+
+Character Consistency
+
+Create an AI character for reuse in video projects
+
+Video Generator
+
+Create a video about anything with AI
+
+Smart Cut
+
+Automatically remove silences from your video
+
+View All
+
+Discover all of Kapwing's smart tools
+
+Solutions
+For Marketing Teams
+
+Grow your brand with modern editing tools that speed up content creation
+
+For Training Teams
+
+Create and edit screen recordings, tutorials, and instructional videos
+
+For Schools
+
+Bring learning to life with digital lessons and multimedia assignments
+
+Make Social Media Videos
+
+Create engaging content that's tailored for every social platform
+
+Make Video Ads
+
+Create professional, scroll-stopping video ads that generate leads
+
+Translate Videos
+
+Reach a wider audience by localizing videos, audio, and subtitles
+
+Learn
+Resources
+
+Articles and guides to help you create more
+
+Help Center
+
+Get answers to common questions about Kapwing
+
+Company Blog
+
+Follow along for stories from our startup journey
+
+About Us
+
+Find out more about our company and product
+
+Contact Us
+
+Learn how to get in touch with our team
+
+Video Tutorials
+
+Get step-by-step guidance on how to use our tools
+
+Careers
+
+Learn more about working at Kapwing
+
+Pricing
+Request a Demo
+Sign In
+KAPWING
+Video Tools
+AI Tools
+Solutions
+Learn
+Pricing
+Request a Demo
+Sign In
+Start Editing
+or, sign in
+Pick a plan and get started today
+
+Create better video content in less time—with no experience necessary. Find the plan that will let your team's work really shine.
+
+TRUSTED BY
+BILLING
+Monthly
+Annual
+SAVE 33%
+Free
+For anyone who wants to get started creating and repurposing content
+10 credits
+$
+0
+Get Started
+Unlimited exports with a watermark
+Export videos up to 4 minutes long
+720p video quality
+5 GB of cloud storage
+Credits usable for:
+Auto-subtitling (up to 10 mins)
+Text to speech (up to 1 mins)
+MOST POPULAR
+Pro
+For individuals and small groups looking to create more content in less time
+1,000 credits / month
+$
+24
+Upgrade
+Everything in Free, plus these features for your team workspace:
+No Kapwing watermark on your creations
+Upload files up to 6 GB
+Export content in 4K resolution
+Create and edit unlimited projects
+Export projects up to 2 hours long
+Brand Kit and custom fonts
+Collaborative shared workspace
+200 GB of cloud storage
+Credits usable for:
+Auto-subtitling (up to 1,000 mins / month)
+Dubbing (up to 50 mins / month)
+Even more premium features.
+Business
+For individuals and teams who need to supercharge their content creation workflow
+4,000 credits / month
+$
+64
+Upgrade
+Everything in Pro, plus these features for your team workspace:
+Create custom voice clones
+Lip sync videos
+Ability to purchase additional credits
+800 GB of cloud storage
+Credits usable for:
+Auto-subtitling (up to 4,000 mins / month)
+Dubbing (up to 200 mins / month)
+Even more premium features.
+Enterprise
+For large organizations that need advanced controls and support
+Custom amount of credits
+Contact Sales
+Everything in Business, plus these features for your team workspace:
+Custom billing
+Dedicated account manager
+Priority customer support
+Onboarding & training
+SAML single sign-on (SSO)
+Custom cloud storage
+Credits usable for:
+Custom amount of auto-subtitling
+Custom amount of dubbing
+Custom usage of generative AI features.
+Even more premium features.
+A plan for every team’s needs
+Free
+Choose Free
+Pro
+Choose Pro
+Business
+Choose Business
+Enterprise
+Contact Sales
+Video creation
+Record screen, camera, and audio
+Transitions and video effects
+Free stock templates
+Export as MP4, PNG, JPG, MP3, GIF
+Paste a link to import content
+File upload limit
+2 GB
+6 GB
+6 GB
+6 GB
+Video export length
+4 minutes
+120 minutes
+120 minutes
+120 minutes
+Video resolution
+720p
+4K
+4K
+4K
+Monthly video export limit
+30 minutes
+Unlimited
+Unlimited
+Unlimited
+Stock videos, photos, audio, GIFs
+Starter set of stock assets
+Unlimited stock assets
+Unlimited stock assets
+Unlimited stock assets
+Kapwing watermark free exports
+None
+For all projects
+For all projects
+For all projects
+Automatic Editing & Smart Tools
+Auto-subtitling
+Up to 10 minutes
+Up to 1,000 minutes per month
+Up to 4,000 minutes per month
+Custom
+Auto-translating
+Up to 5 minutes
+Up to 500 minutes per month
+Up to 2,000 minutes per month
+Custom
+Text to Speech
+Up to 1 minutes
+Up to 50 minutes per month
+Up to 200 minutes per month
+Custom
+Clean Audio
+Up to 5 minutes
+Up to 500 minutes per month
+Up to 2,000 minutes per month
+Custom
+Lip Sync
+Up to 30 minutes per month
+Up to 130 minutes per month
+Custom
+Resizer
+Find Scenes
+Auto Level Audio
+Chroma Key
+Smart Cut
+Video Stabilization
+Video Background Remover
+Image Background Remover
+Audio Waveforms
+Download SRT/VTT files
+Download video transcript
+Collaboration & Brand Management
+Commenting
+Project link sharing
+Invite team members
+Real time collaboration
+Brand Kit
+Custom fonts
+Storage & Support
+Cloud storage
+5 GB
+200 GB
+800 GB
+Custom
+Storage duration
+3 days
+Duration of subscription
+Duration of subscription
+Duration of subscription
+Workspace folders
+1 folder
+Unlimited
+Unlimited
+Unlimited
+Project version history
+Private folders
+Private projects
+Priority support
+Custom billing
+Dedicated account manager
+Onboarding & training
+SAML single sign-on (SSO)
+JUST THE FAQS
+Frequently Asked Questions
+
+We have answers to the most common questions that our users ask.
+
+What is Kapwing?
++
+Can I have a free trial for Kapwing's paid plans?
+−
+Kapwing’s tools are available for free. You may try all of our tools before making the decision to upgrade. We do not currently offer a free trial for Kapwing's paid plans.
+Is paying for Kapwing a recurring payment?
++
+Can I have a refund?
++
+What's the fastest way to reach you in case something is wrong with my account?
++
+What currency are the prices listed in?
++
+Will I receive a receipt for my transaction?
++
+Do you have an annual/yearly billing option?
++
+REAL TEAMS CREATING ON KAPWING
+Already transforming video creation across industries
+
+Hear directly from the teams who publish faster, collaborate better, and stay ahead.
+
+View all reviews
+“
+It just works!
+Kapwing is incredibly intuitive. Many of our marketers were able to get on the platform and use it right away with little to no instruction. No need for downloads or installations - it just works.
+”
+Eunice Park
+Studio Production Manager at Formlabs
+“
+With Kapwing, we're always ready to create.
+Kapwing is an essential tool that we use in MOXIE Nashville every day. As a social media agency owner, there's a variety of video needs that my clients have. From adding subtitles to resizing videos for various platforms, Kapwing makes it possible for us to create incredible content that consistently exceeds client expectations. With Kapwing, we're always ready to create - from anywhere!
+”
+Vannesia Darby
+CEO at MOXIE Nashville
+“
+Spend less time learning... and more time crafting stories.
+Kapwing helps you spend less time learning complex video editing platforms and more time crafting stories that will connect with your audience and customers. We've used the platform to help create engaging social media clips from our clients' podcasts and we can't wait to see how the platform simplifies this process going forward. If you've learned graphic design with Canva, you can learn video editing with Kapwing.
+”
+Grant Taleck
+Co-Founder at AuthentIQMarketing.com
+“
+It keeps getting better!
+Kapwing is probably the most important tool for me and my team. It’s always there to meet our everyday needs in creating scroll-stopping and engaging videos for us and our clients. Kapwing is smart, fast, easy to use and full of features that are exactly what we need to make our workflow faster and more effective. We love it more each day and it keeps getting better.
+”
+Panos Papagapiou
+Managing Partner at EPATHLON
+“
+By the far the most user friendly software to use.
+As a housewife at home looking to start a YouTube channel for fun with absolutely zero editing experience, it was so easy for me to teach myself via their YouTube channel. It takes the tediousness out of editing and encourages creativity. As long as Kapwing is around, I will be using their software.
+”
+Kerry-lee Farla
+Youtuber
+“
+Kapwing is my secret weapon!
+This is one of the most powerful, yet inexpensive and easy-to-use video editing software I've found. I blow my team away with how fast and efficiently I can edit and turnaround video projects.
+”
+Gracie Peng
+Director of Content
+“
+Kapwing is king.
+When I use this software, I feel all sorts of creative juices flowing because of how jam-packed with features the software really is. A very well-made product that will keep you enticed for hours.
+”
+Martin James
+Video Editor
+“
+Love this site.
+As an English Foreign Language Teacher, this site helps me to quickly subtitle interesting videos that I can use in class. The students love the videos, and the subtitles really help them to learn new vocabulary as well as better understand and follow the video.
+”
+Heidi Rae
+Education
+“
+Excellent subtitling features
+[It] works perfectly for me. Have been using Kapwing for a year or so, and their automatic subtitle tool gets better and better every week, it's rare that I have to correct a word. Keep up the good work!
+”
+Natasha Ball
+Consultant
+“
+Best online video service ever. And a miracle for deaf people.
+[Subtitler] is able to autogenerate subtitles for video in almost any language. I'm deaf (or almost deaf, to be correct) and thanks to Kapwing I'm now able understand and react on videos from my friends :)
+”
+Mitch Rawlings
+Information Services Freelancer
+“
+This tool should be in every social media account managers' bookmark list.
+I use this daily to help with video editing. Even if you're a pro video editor, there is no need to be spending hours trying to get the format correct. Kapwing does the hard work for you.
+”
+Dina Segovia
+Virtual Freelance Worker
+GET STARTED TODAY
+Create something amazing in seconds
+
+Get started with your first video in just a few clicks. Join over 35 million creators who trust Kapwing to create more content in less time.
+
+Try Kapwing Free
+Request a Demo
 Tools
 Video Editor
 Subtitles

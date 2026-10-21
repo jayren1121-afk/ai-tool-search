@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Products
 Pricing
 Contact Sales
@@ -319,7 +320,8 @@ New
 Relume Export
 Relume Library
 React Library
-Relume Library MCP
+Library MCP
+Relume MCP
 Claude Design Export
 Figma Kit
 Chrome Extension
@@ -342,3 +344,703 @@ Privacy Policy
 Terms & Conditions
 Licensing Agreement
 Cookie Settings
+
+=== 計費模式: 年繳 (yearly) ===
+Products
+Pricing
+Contact Sales
+Component Voting
+Learn
+icon-mode-light
+Log in
+Start for free
+Publish pricing
+Export pricing
+Play around on a free site. Launch on your own domain.
+
+Start building and gathering feedback on a free relumesite.ai site. Connect your custom domain when it’s time to launch
+
+Yearly billing discount
+30% OFF
+Free hosting
+
+Published on your-site.relumesite.ai
+
+$0
+
+USD
+
+Free forever
+
+1,500 page views limit
+Get Started
+
+ 
+
+Enough AI usage to build a landing page
+relumesite.ai subdomain with Relume badge
+Enterprise-grade hosting
+Website Analytics
+Forms and submissions
+Launch hosting
+
+Published on your custom domain
+
+$16
+
+USD
+
+Per site / month
+
+6,000 page views
+Start for Free
+
+Upgrade when you’re ready to publish
+
+Enough AI usage to build a small website
+Custom domain + SSL
+Enterprise-grade hosting
+White label (no Relume branding)
+Full access to website analytics
+Unlimited forms and submissions
+SEO and AI search optimisation
+PRO
+Upgrade your AI usage
+
+Free includes enough AI usage to build 1 small website per month. Pro gives you up to 20x more, covering wireframes, design generation, copy and images.
+
+5x or 20x more usage
+More AI usage across all projects
+Premium AI models
+
+$24
+
+USD
+
+/ month
+
+Start a 7-day free trial
+
+Cancel anytime during your trial.
+
+Build with Relume
+Free
+Free forever · No card needed
+Pro
+from $14 / month · Cancel anytime
+AI usage
+Shared across all your projects
+Limited
+Base Pro Usage
+Upgrade usage anytime
+Monthly capacity
+How much you can generate each month.
+Enough for one full website
+Starts with 1-2 websites per month
+Higher tiers build more
+Usage limits
+Ceiling on a single generation.
+Standard
+Higher
+AI model
+Which model runs your generations.
+Standard
+Premium
+AI Images
+Which model runs your generations.
+Standard
+Premium
+Account-wide usage insights
+See who is using what across the account.
+Priority access at peak times
+Skip the queue when Relume is busy.
+Websites
+Create as many as you like
+Unlimited
+Unlimited
+Brief, sitemap, wireframe, designs
+Generate a full site structure
+Style guide
+Colours, typography and spacing tokens.
+Collaboration
+Invite anyone into the workspace as an editor. No per-seat charge.
+Unlimited
+Unlimited
+AI Agents
+Specialist agents for strategy, copy, design and analytics. They propose, you decide
+Host with Relume
+Free hosting
+Published on your-site.relume.live
+Launch hosting
+Published on your custom domain
+Monthly page views
+Traffic your published sites can serve each month.
+1,500
+Monthly page views
+Starting at 6,000 monthly page views
+Custom domain + SSL
+Connect your own domain, SSL included. Relume handles the certificate and renewal.
+icon-check
+from $12 per project / mo
+relume.live subdomain
+Live in seconds. Good for drafts and client review.
+Enterprise-grade hosting
+Publish onto a global edge network, with SSL, DDoS protection and a 99.99% uptime.
+Relume badge
+Shown in the corner of a published site.
+Always shown
+Always shown
+Removable with Launch
+Website analytics
+Visitors, page views and top pages for every published site.
+Limited
+7-day window
+Full access
+Forms and submissions
+Collect enquiries and leads with built-in forms. Submissions land in your dashboard.
+20
+Form submissions per month
+icon-check
+Unlimited forms and submissions
+Discoverability for SEO & AEO
+Custom control over robots.txt, sitemap.xml & JSON-LD, plus indexing control for search & AI crawlers.
+Custom code & 301 redirects
+Google Analytics + Meta Pixel, custom code, redirects.
+Enterprise
+
+Custom AI usage & volume pricing
+
+Talk to Sales
+icon-check
+White-glove onboarding
+icon-check
+Enterprise terms
+icon-check
+Done-for-you workspace setup
+Frequently asked questions
+Have other questions? Get in touch with our Support Team
+icon-chevron-down
+Do clients have to pay to access my library?
+
+No, privately shared components can be accessed by anyone using the Free plan. Your clients will need to sign up to a Free plan in order to copy and paste components from your folder.
+
+icon-chevron-down
+Can I get a 7-day trial for the Pro plan?
+
+As of now, we’re not offering a 7-day trial for the Pro plan.
+
+icon-chevron-down
+Can I still get a 7 day trial after I sign up to the Free plan?
+
+Once you’ve signed up to the Free plan, you will no longer be able to get a 7-day free trial for the Starter plan.
+
+icon-chevron-down
+Will pricing increase for existing customers on the old pricing plans?
+
+No. Existing customers have been moved over to our new Starter plan and will remain on the original pricing. If for whatever reason you decide to cancel your account and decide to join again, you will be charged the new pricing.
+
+icon-chevron-down
+Why have you increased pricing?
+
+We’ve increased pricing for a few reasons:
+
+Since our launch, we’ve doubled the number of Webflow components available. We believe this makes our library a lot more valuable.
+
+We have extended our platform with new features such as creating and sharing your own component library.
+
+We’ve created a free tier, which will allow to get access to Relume for free (Forever).
+
+We understand that Relume is not for everyone and that’s okay. We’re here to continuously add value to the this community and your support helps us continue to do so.
+
+icon-chevron-down
+Can I copy and paste Relume Library components into a folder and share them?
+
+Nice try. But no, that won’t be possible.
+
+We employ techniques to identify and block plagiarised components (storing components not owned by you). Ignoring this will result in a lifetime ban of your account. This includes components from other established Webflow component libraries.
+
+icon-chevron-down
+Can I switch plans after signing up?
+
+Yes, visit the pricing page and click on the plan you want to switch to.
+
+icon-chevron-down
+Can I extend my trial?
+
+Yes, if you were not able to test the Relume Library during the 7-day trial period you can request a trial extension. Please email us at support@relume.io and we'll extend the trial for you. We'll need to know your account email details, so please include that in the email.
+
+icon-chevron-down
+What is your refund policy?
+
+We’re fully committed to building products that you love. If for whatever reason you’re unsatisfied with the Relume Library, please email us at support@relume.io within 10 days to receive a full refund.
+
+icon-chevron-down
+Is payment secure?
+
+We use Stripe to handle all our payments and Stripe has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1. This is the most stringent level of certification available in the payments industry. To accomplish this, they use the best-in-class security tools and practices to maintain a high level of security on every transaction.
+
+icon-chevron-down
+Can I get an invoice?
+
+Yes, through Stripe you’ll be emailed an invoice every time your subscription is renewed.
+
+icon-chevron-down
+Can I use it for commercial projects?
+
+You sure can! Being an agency ourselves, we’ve built this so you can use it for all your next Webflow projects.
+
+icon-chevron-down
+If someone shares a component with me, does that count as a stored component in my library?
+
+No. Components that are shared privately or publicly do not count towards the total components in Your Library. Only components you create are added to your total count.
+
+icon-chevron-down
+Can I downgrade to the Free plan before I finish the 7-day free trial for the Starter plan?
+
+Yes. On the last day of your 7-day free trial for the Starter plan, we'll notify you that your trial is about to end. You can then choose to continue paying for the Starter plan or downgrade to the free plan.
+
+icon-chevron-down
+Do you provide tutorials?
+
+Yes we do. Check out the Relume University.
+
+icon-chevron-down
+What does "free updates" mean?
+
+To continue to hold the title of the world’s largest Webflow component library, we'll be updating this over time. As we grow, you’ll be able to always access these "free updates" with your existing account.
+
+icon-chevron-down
+What does "community access" mean?
+
+It means access to our growing Slack community of Webflow enthusiasts, along with other benefits like requesting components, voting on component releases and contributing to the library.
+
+icon-chevron-down
+Is there a Figma file for Relume Library?
+
+Yes, and it's completely free. We've created Figma Kit with over 700+ pixel-perfect Figma components to improve your Figma to Webflow workflow. You can download it here
+
+icon-chevron-down
+How does support work?
+
+All support is done through Slack. Simply join our Slack community, send a Webflow share link and explain your problem to one of our experts. We'll then revise your issue and walk you through a solution.
+
+icon-chevron-down
+Is this compatible with Finsweet's Client-First Webflow Style System?
+
+Yes, it sure is! Learn more about Finsweet's Client-First Webflow Style System by reading the docs.
+
+icon-chevron-down
+Does Relume Library work on Safari?
+
+No, copying components is not supported on Safari. Currently, the Relume Library is only supported on Chrome, Firefox and Edge. Please use a supported browser.
+
+icon-chevron-down
+How do I paste a component into Webflow?
+
+Copy and pasting is super easy! Simply click the copy button on Relume Library and paste directly into your Webflow project by pressing Press Command-V on or Control-V on Windows.
+
+icon-chevron-down
+Do I need to know how to use Webflow?
+
+Yes, knowing how to work with Webflow is needed - but the good news is that there are lots of resources out there to help you learn. You can create an account and follow one of Webflow’s many tutorials to get started.
+
+icon-chevron-down
+Will you be adding more components in the future?
+
+Yes, we release new components on the first Monday of every month so you can continue to build in more ways on Webflow. We call it Component Day.
+
+icon-chevron-down
+Can I cancel my subscription?
+
+Yes, you can easily cancel your subscription from your profile page with a click of a button.
+
+Show all FAQs
+icon-heart-filled
+Building with love from around the globe.
+icon-x
+icon-linkedin
+icon-export-webflow
+icon-export-figma
+PRODUCT
+Relume Publish
+New
+Relume Export
+Relume Library
+React Library
+Library MCP
+Relume MCP
+Claude Design Export
+Figma Kit
+Chrome Extension
+COMMUNITY
+Community Love
+Component Voting
+Showcase
+Inspiration Feed
+Slack Community
+Hire an Expert
+Become an Affiliate
+COMPANY
+Pricing
+What's New
+Contact Sales
+Careers
+SUPPORT
+Support
+Privacy Policy
+Terms & Conditions
+Licensing Agreement
+Cookie Settings
+
+=== 計費模式: 月繳 (monthly) ===
+Products
+Pricing
+Contact Sales
+Component Voting
+Learn
+icon-mode-light
+Log in
+Start for free
+Publish pricing
+Export pricing
+Play around on a free site. Launch on your own domain.
+
+Start building and gathering feedback on a free relumesite.ai site. Connect your custom domain when it’s time to launch
+
+Yearly billing discount
+30% OFF
+Free hosting
+
+Published on your-site.relumesite.ai
+
+$0
+
+USD
+
+Free forever
+
+1,500 page views limit
+Get Started
+
+ 
+
+Enough AI usage to build a landing page
+relumesite.ai subdomain with Relume badge
+Enterprise-grade hosting
+Website Analytics
+Forms and submissions
+Launch hosting
+
+Published on your custom domain
+
+$12
+
+USD
+
+Per site / month · Billed $144 yearly
+
+6,000 page views
+Start for Free
+
+Upgrade when you’re ready to publish
+
+Enough AI usage to build a small website
+Custom domain + SSL
+Enterprise-grade hosting
+White label (no Relume branding)
+Full access to website analytics
+Unlimited forms and submissions
+SEO and AI search optimisation
+PRO
+Upgrade your AI usage
+
+Free includes enough AI usage to build 1 small website per month. Pro gives you up to 20x more, covering wireframes, design generation, copy and images.
+
+5x or 20x more usage
+More AI usage across all projects
+Premium AI models
+
+$14
+
+USD
+
+/ month · Billed $168 yearly
+
+Start a 7-day free trial
+
+Cancel anytime during your trial.
+
+Build with Relume
+Free
+Free forever · No card needed
+Pro
+from $14 / month · Cancel anytime
+AI usage
+Shared across all your projects
+Limited
+Base Pro Usage
+Upgrade usage anytime
+Monthly capacity
+How much you can generate each month.
+Enough for one full website
+Starts with 1-2 websites per month
+Higher tiers build more
+Usage limits
+Ceiling on a single generation.
+Standard
+Higher
+AI model
+Which model runs your generations.
+Standard
+Premium
+AI Images
+Which model runs your generations.
+Standard
+Premium
+Account-wide usage insights
+See who is using what across the account.
+Priority access at peak times
+Skip the queue when Relume is busy.
+Websites
+Create as many as you like
+Unlimited
+Unlimited
+Brief, sitemap, wireframe, designs
+Generate a full site structure
+Style guide
+Colours, typography and spacing tokens.
+Collaboration
+Invite anyone into the workspace as an editor. No per-seat charge.
+Unlimited
+Unlimited
+AI Agents
+Specialist agents for strategy, copy, design and analytics. They propose, you decide
+Host with Relume
+Free hosting
+Published on your-site.relume.live
+Launch hosting
+Published on your custom domain
+Monthly page views
+Traffic your published sites can serve each month.
+1,500
+Monthly page views
+Starting at 6,000 monthly page views
+Custom domain + SSL
+Connect your own domain, SSL included. Relume handles the certificate and renewal.
+icon-check
+from $12 per project / mo
+relume.live subdomain
+Live in seconds. Good for drafts and client review.
+Enterprise-grade hosting
+Publish onto a global edge network, with SSL, DDoS protection and a 99.99% uptime.
+Relume badge
+Shown in the corner of a published site.
+Always shown
+Always shown
+Removable with Launch
+Website analytics
+Visitors, page views and top pages for every published site.
+Limited
+7-day window
+Full access
+Forms and submissions
+Collect enquiries and leads with built-in forms. Submissions land in your dashboard.
+20
+Form submissions per month
+icon-check
+Unlimited forms and submissions
+Discoverability for SEO & AEO
+Custom control over robots.txt, sitemap.xml & JSON-LD, plus indexing control for search & AI crawlers.
+Custom code & 301 redirects
+Google Analytics + Meta Pixel, custom code, redirects.
+Enterprise
+
+Custom AI usage & volume pricing
+
+Talk to Sales
+icon-check
+White-glove onboarding
+icon-check
+Enterprise terms
+icon-check
+Done-for-you workspace setup
+Frequently asked questions
+Have other questions? Get in touch with our Support Team
+icon-chevron-down
+Do clients have to pay to access my library?
+
+No, privately shared components can be accessed by anyone using the Free plan. Your clients will need to sign up to a Free plan in order to copy and paste components from your folder.
+
+icon-chevron-down
+Can I get a 7-day trial for the Pro plan?
+
+As of now, we’re not offering a 7-day trial for the Pro plan.
+
+icon-chevron-down
+Can I still get a 7 day trial after I sign up to the Free plan?
+
+Once you’ve signed up to the Free plan, you will no longer be able to get a 7-day free trial for the Starter plan.
+
+icon-chevron-down
+Will pricing increase for existing customers on the old pricing plans?
+
+No. Existing customers have been moved over to our new Starter plan and will remain on the original pricing. If for whatever reason you decide to cancel your account and decide to join again, you will be charged the new pricing.
+
+icon-chevron-down
+Why have you increased pricing?
+
+We’ve increased pricing for a few reasons:
+
+Since our launch, we’ve doubled the number of Webflow components available. We believe this makes our library a lot more valuable.
+
+We have extended our platform with new features such as creating and sharing your own component library.
+
+We’ve created a free tier, which will allow to get access to Relume for free (Forever).
+
+We understand that Relume is not for everyone and that’s okay. We’re here to continuously add value to the this community and your support helps us continue to do so.
+
+icon-chevron-down
+Can I copy and paste Relume Library components into a folder and share them?
+
+Nice try. But no, that won’t be possible.
+
+We employ techniques to identify and block plagiarised components (storing components not owned by you). Ignoring this will result in a lifetime ban of your account. This includes components from other established Webflow component libraries.
+
+icon-chevron-down
+Can I switch plans after signing up?
+
+Yes, visit the pricing page and click on the plan you want to switch to.
+
+icon-chevron-down
+Can I extend my trial?
+
+Yes, if you were not able to test the Relume Library during the 7-day trial period you can request a trial extension. Please email us at support@relume.io and we'll extend the trial for you. We'll need to know your account email details, so please include that in the email.
+
+icon-chevron-down
+What is your refund policy?
+
+We’re fully committed to building products that you love. If for whatever reason you’re unsatisfied with the Relume Library, please email us at support@relume.io within 10 days to receive a full refund.
+
+icon-chevron-down
+Is payment secure?
+
+We use Stripe to handle all our payments and Stripe has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1. This is the most stringent level of certification available in the payments industry. To accomplish this, they use the best-in-class security tools and practices to maintain a high level of security on every transaction.
+
+icon-chevron-down
+Can I get an invoice?
+
+Yes, through Stripe you’ll be emailed an invoice every time your subscription is renewed.
+
+icon-chevron-down
+Can I use it for commercial projects?
+
+You sure can! Being an agency ourselves, we’ve built this so you can use it for all your next Webflow projects.
+
+icon-chevron-down
+If someone shares a component with me, does that count as a stored component in my library?
+
+No. Components that are shared privately or publicly do not count towards the total components in Your Library. Only components you create are added to your total count.
+
+icon-chevron-down
+Can I downgrade to the Free plan before I finish the 7-day free trial for the Starter plan?
+
+Yes. On the last day of your 7-day free trial for the Starter plan, we'll notify you that your trial is about to end. You can then choose to continue paying for the Starter plan or downgrade to the free plan.
+
+icon-chevron-down
+Do you provide tutorials?
+
+Yes we do. Check out the Relume University.
+
+icon-chevron-down
+What does "free updates" mean?
+
+To continue to hold the title of the world’s largest Webflow component library, we'll be updating this over time. As we grow, you’ll be able to always access these "free updates" with your existing account.
+
+icon-chevron-down
+What does "community access" mean?
+
+It means access to our growing Slack community of Webflow enthusiasts, along with other benefits like requesting components, voting on component releases and contributing to the library.
+
+icon-chevron-down
+Is there a Figma file for Relume Library?
+
+Yes, and it's completely free. We've created Figma Kit with over 700+ pixel-perfect Figma components to improve your Figma to Webflow workflow. You can download it here
+
+icon-chevron-down
+How does support work?
+
+All support is done through Slack. Simply join our Slack community, send a Webflow share link and explain your problem to one of our experts. We'll then revise your issue and walk you through a solution.
+
+icon-chevron-down
+Is this compatible with Finsweet's Client-First Webflow Style System?
+
+Yes, it sure is! Learn more about Finsweet's Client-First Webflow Style System by reading the docs.
+
+icon-chevron-down
+Does Relume Library work on Safari?
+
+No, copying components is not supported on Safari. Currently, the Relume Library is only supported on Chrome, Firefox and Edge. Please use a supported browser.
+
+icon-chevron-down
+How do I paste a component into Webflow?
+
+Copy and pasting is super easy! Simply click the copy button on Relume Library and paste directly into your Webflow project by pressing Press Command-V on or Control-V on Windows.
+
+icon-chevron-down
+Do I need to know how to use Webflow?
+
+Yes, knowing how to work with Webflow is needed - but the good news is that there are lots of resources out there to help you learn. You can create an account and follow one of Webflow’s many tutorials to get started.
+
+icon-chevron-down
+Will you be adding more components in the future?
+
+Yes, we release new components on the first Monday of every month so you can continue to build in more ways on Webflow. We call it Component Day.
+
+icon-chevron-down
+Can I cancel my subscription?
+
+Yes, you can easily cancel your subscription from your profile page with a click of a button.
+
+Show all FAQs
+icon-heart-filled
+Building with love from around the globe.
+icon-x
+icon-linkedin
+icon-export-webflow
+icon-export-figma
+PRODUCT
+Relume Publish
+New
+Relume Export
+Relume Library
+React Library
+Library MCP
+Relume MCP
+Claude Design Export
+Figma Kit
+Chrome Extension
+COMMUNITY
+Community Love
+Component Voting
+Showcase
+Inspiration Feed
+Slack Community
+Hire an Expert
+Become an Affiliate
+COMPANY
+Pricing
+What's New
+Contact Sales
+Careers
+SUPPORT
+Support
+Privacy Policy
+Terms & Conditions
+Licensing Agreement
+Cookie Settings
+6,000 page views
+15,000 page views
+30,000 page views
+90,000 page views
+300,000 page views
+900,000 page views

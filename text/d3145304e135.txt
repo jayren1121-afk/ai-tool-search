@@ -137,8 +137,6 @@ Resume Rewriter
 Rewrite your resume in seconds with AI. Instantly transform your resume with our AI-powered rewriter and craft job-specific content that lands interviews.
 LinkedIn Resume Builder
 Transform your LinkedIn profile into a polished resume effortlessly with our LinkedIn Resume Builder. Create a professional, optimized resume in just seconds.
-Autofill Job Applications
-Automate your job application process with Teal's autofill feature, instantly populate questions with personalized answers.
 LinkedIn Summary Generator
 Generate a LinkedIn summary that showcases your unique value proposition and attracts the right opportunities for your career.
 Interview Tracker

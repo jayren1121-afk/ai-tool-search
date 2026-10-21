@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：46 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：211 筆
+- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：212 筆
 
 核准單筆範本：
 ```sql
@@ -107,13 +107,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **presentations-ai**（Presentations.AI）旗標：dropped_fields, price_change；Pro: 資料集 $50.0/月 → 官網 $20.0；來源 https://www.presentations.ai/pricing；擷取 2026-10-20T12:11:46+08:00
 - **lokalise-ai**（Lokalise）旗標：name_diff, name_missing；資料集方案 ['Teams'] vs 新 ['', '', '', 'Enterprise']; None: name_missing; None: name_missing; None: name_missing；來源 https://lokalise.com/pricing；擷取 2026-10-20T12:11:49+08:00
 - **tidio**（Tidio Lyro）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Plus: period_ambiguous_toggle；來源 https://www.tidio.com/pricing；擷取 2026-10-20T12:12:01+08:00
-- **seaart**（SeaArt）旗標：price_unclear；SVIP: price_unclear；來源 https://www.seaart.ai/pricing；擷取 2026-10-12T13:33:06+08:00
-- **tavus**（Tavus）旗標：dropped_fields, name_diff；資料集方案 ['Plus', 'Max', 'Teams', 'Basic', 'Growth'] vs 新 ['Starter', 'Builder', 'Growth', 'Business']；來源 https://www.tavus.io/pricing；擷取 2026-10-12T13:33:27+08:00
-- **taskade**（Taskade）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle; Max: period_ambiguous_toggle; Enterprise: period_ambiguous_toggle；來源 https://www.taskade.com/pricing；擷取 2026-10-12T13:33:28+08:00
-- **anyword**（Anyword）旗標：dropped_fields, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Data-Driven: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.anyword.com/pricing；擷取 2026-10-12T13:33:34+08:00
-- **teal**（Teal）旗標：name_missing, price_unclear；None: name_missing, price_unclear; None: name_missing, price_unclear; None: name_missing, price_unclear；來源 https://www.tealhq.com/pricing；擷取 2026-10-12T13:33:46+08:00
-- **crowdin**（Crowdin）旗標：name_far_from_price, price_near_quote；；來源 https://crowdin.com/pricing；擷取 2026-10-12T13:33:54+08:00
-- **relume**（Relume）旗標：dropped_fields, price_change, price_near_quote；Pro: 資料集 $40.0/月 → 官網 $14.0；來源 https://www.relume.io/pricing；擷取 2026-10-12T13:34:08+08:00
+- **seaart**（SeaArt）旗標：price_unclear；SVIP: price_unclear；來源 https://www.seaart.ai/pricing；擷取 2026-10-21T12:11:40+08:00
+- **tavus**（Tavus）旗標：dropped_fields, name_diff；資料集方案 ['Plus', 'Max', 'Teams', 'Basic', 'Growth'] vs 新 ['Starter', 'Builder', 'Growth', 'Business']；來源 https://www.tavus.io/pricing；擷取 2026-10-21T12:11:49+08:00
+- **taskade**（Taskade）旗標：price_near_quote；；來源 https://www.taskade.com/pricing；擷取 2026-10-21T12:11:50+08:00
+- **anyword**（Anyword）旗標：dropped_fields, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Data-Driven: period_ambiguous_toggle；來源 https://www.anyword.com/pricing；擷取 2026-10-21T12:11:59+08:00
+- **teal**（Teal）旗標：name_missing, price_unclear；None: name_missing, price_unclear; None: name_missing, price_unclear; None: name_missing, price_unclear；來源 https://www.tealhq.com/pricing；擷取 2026-10-21T12:12:09+08:00
+- **prezi-ai**（Prezi）旗標：dropped_fields；；來源 https://prezi.com/pricing；擷取 2026-10-21T12:12:16+08:00
+- **crowdin**（Crowdin）旗標：dropped_fields, price_near_quote；；來源 https://crowdin.com/pricing；擷取 2026-10-21T12:12:21+08:00
+- **relume**（Relume）旗標：yearly_gt_monthly；Pro: yearly_gt_monthly；來源 https://www.relume.io/pricing；擷取 2026-10-21T12:12:31+08:00
 - **listnr**（Listnr）旗標：name_diff, period_ambiguous_toggle, price_near_quote；資料集方案 ['Teams'] vs 新 ['Free', 'Individual', 'Solo', 'Agency']; Individual: period_ambiguous_toggle; Solo: period_ambiguous_toggle; Agency: period_ambiguous_toggle；來源 https://www.listnr.ai/pricing；擷取 2026-10-12T13:34:16+08:00
 - **musicfy**（Musicfy）旗標：dropped_fields, has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://musicfy.lol/pricing；擷取 2026-10-12T13:34:16+08:00
 - **neuronwriter**（NeuronWriter）旗標：name_diff, name_missing, period_ambiguous_toggle；資料集方案 ['Business', 'Team'] vs 新 ['Bronze', '', '', '', '']; Bronze: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://neuronwriter.com/pricing；擷取 2026-10-12T13:34:30+08:00

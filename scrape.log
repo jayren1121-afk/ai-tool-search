@@ -550,3 +550,21 @@ SCRAPE DONE
 0 15 scraped https://www.tidio.com/pricing 21.6
 舊版頁面還要重抓： 203 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://ampcode.com/pricing 7.8
+2 2 scraped https://www.kapwing.com/pricing 7.7
+0 3 scraped https://www.seaart.ai/pricing 19.0
+2 4 scraped https://www.taskade.com/pricing 12.7
+1 5 scraped https://www.tavus.io/pricing 14.5
+0 6 scraped https://www.anyword.com/pricing 10.2
+0 7 scraped https://www.tealhq.com/pricing 7.1
+1 8 no_price_found https://www.marketmuse.com/pricing 17.6
+2 9 no_price_found https://www.outreach.io/pricing 19.8
+0 10 scraped https://prezi.com/pricing 8.3
+0 11 scraped https://cohere.com/pricing 6.1
+1 12 scraped https://crowdin.com/pricing 11.4
+2 13 no_price_found https://www.obviously.ai/pricing 18.1
+0 14 scraped https://www.relume.io/pricing 10.7
+1 15 no_price_found https://clipchamp.com/pricing 18.1
+舊版頁面還要重抓： 188 個（每次最多 15 個）
+SCRAPE DONE

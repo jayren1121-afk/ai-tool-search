@@ -139,8 +139,8 @@ The latest news, launches, and insights
 
 Read more
 
+Cohere to acquire AISLE to advance cyber-resilient sovereign AI
 North 2: Enterprise AI without compromises
-Introducing Embed 5—A new family of frontier embedding models
 
 Research
 
@@ -748,7 +748,7 @@ Technology
 
 Energy and Utilities
 
-Healthcare and Life Sciences
+Healthcare
 
 Manufacturing
 

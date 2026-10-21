@@ -1,49 +1,11 @@
+=== 計費模式: 預設畫面 (default) ===
 Choose the plan that fits your team. Start free and scale as you grow.
----
-For individuals and teams
-Monthly
-Annual
-2 months FREE
-Free
----
-Start localizing your content for free, all essential features for translators included.
----
-$0/mo
-Get Started
-Hosted words:
-60K
----
-Free plan includes:
----
-*Users on a free plan donate translations to Crowdin's translation memory.
----
-Pro
----
-Create private projects to localize your product. Unlimited translator seats are included.
----
-from $50/mo
----
-Billed annually ($600/year)
----
-Subscribe
-60K hosted words
----
-Team
----
-Add managers who will be able to upload files, invite people, and connect integrations.
----
-from $150/mo
----
-Billed annually ($1,800/year)
----
-Subscribe
-100K hosted words
 ---
 For organizations
 Annual billing only
 Team+
 ---
-Get your own private organization, create project groups and set up workflow automation.
+For a growing team that wants to ship quality translations faster, with AI, rich context and apps that connect to the tools it already uses.
 ---
 from $450/mo
 ---
@@ -53,6 +15,45 @@ Contact Sales
 500K hosted words
 ---
 Contact Sales
+---
+For indie developers and crowdsourcing
+Monthly
+Annual
+2 months FREE
+Free
+---
+Localize public projects for free.
+---
+$0/mo
+Get Started
+Hosted words:
+60K
+---
+*Users on a free plan donate translations to Crowdin's translation memory.
+---
+Pro
+---
+For private projects. Your translations stay yours.
+---
+from $50/mo
+---
+Billed annually ($600/year)
+---
+Subscribe
+60K hosted words
+---
+Everything in Free, plus:
+---
+Team
+---
+For teams. Add managers to share the work.
+---
+from $150/mo
+---
+Billed annually ($1,800/year)
+---
+Subscribe
+100K hosted words
 ---
 Pricing
 ---
@@ -84,19 +85,93 @@ Up to 60K	Starting at 60K	Starting at 100K	Starting at 500K	Custom
 Custom development
 Contact Sales
 ---
-1.06M
+Should I choose Crowdin or Crowdin Enterprise?
+Can I get a free trial?
+Can I change my plan?
+---
+Start Free Trial
+Contact Sales
+Main
+=== 計費模式: 月繳 (monthly) ===
+Choose the plan that fits your team. Start free and scale as you grow.
+---
+For organizations
+Annual billing only
+Team+
+---
+For a growing team that wants to ship quality translations faster, with AI, rich context and apps that connect to the tools it already uses.
+---
+from $450/mo
+---
+Annual billing only ($5,400)
+---
+Contact Sales
+500K hosted words
+---
+Contact Sales
+---
+For indie developers and crowdsourcing
 Monthly
-AnnualSave 15%
+Annual
+2 months FREE
+Free
 ---
-$
-50
-/mo
+Localize public projects for free.
 ---
-Billed annually ($ 600/year)
+$0/mo
+Get Started
+Hosted words:
+60K
 ---
-Subscribe
+*Users on a free plan donate translations to Crowdin's translation memory.
 ---
-The monthly cost is calculated based on the core plan plus the add-ons you choose.
+Pro
+---
+For private projects. Your translations stay yours.
+---
+from $59/mo
+---
+Billed monthly
+---
+Everything in Free, plus:
+---
+Team
+---
+For teams. Add managers to share the work.
+---
+from $179/mo
+---
+Billed monthly
+---
+Pricing
+---
+Requests
+$ 3 / 1M
+Data transfer
+$ 2 / 10GB
+If you have up to 1M requests and 10GB of data transfer, it's free.
+Managed Services
+---
+Free
+Free
+---
+Pro
+from $59/mo
+---
+Team
+from $179/mo
+---
+Team+
+from $450/mo
+---
+Business
+Contact Sales
+---
+Hosted words
+Up to 60K	Starting at 60K	Starting at 100K	Starting at 500K	Custom
+---
+Custom development
+Contact Sales
 ---
 Should I choose Crowdin or Crowdin Enterprise?
 Can I get a free trial?

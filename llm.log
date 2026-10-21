@@ -464,3 +464,12 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 5 ok openai/gpt-oss-120b https://lokalise.com/pricing 2464
 6 ok openai/gpt-oss-120b https://www.presentations.ai/pricing 2450
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 6, "ok": 6, "tokens": 17013, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://www.kapwing.com/pricing 2855
+2 ok openai/gpt-oss-120b https://prezi.com/pricing 2387
+3 ok openai/gpt-oss-120b https://ampcode.com/pricing 1950
+4 ok openai/gpt-oss-120b https://www.taskade.com/pricing 4458
+5 ok openai/gpt-oss-120b https://www.anyword.com/pricing 2650
+6 ok openai/gpt-oss-120b https://crowdin.com/pricing 3175
+7 ok openai/gpt-oss-120b https://www.relume.io/pricing 3661
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 7, "ok": 7, "tokens": 21136, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
