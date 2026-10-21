@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import FingerLockStepper from "@/components/FingerLockStepper";
-import { FL, FL_PATH } from "@/lib/fingerlock";
+import FingerLockVerify from "@/components/FingerLockVerify";
+import { FL, FL_LINKS, FL_PATH } from "@/lib/fingerlock";
 import { HTML_LANG, lp, OG_LOCALE, t, type Locale } from "@/lib/i18n";
 import { jsonLd, langAlternates, siteName, SITE_URL } from "@/lib/site";
 
-function SoonButton({ className, label, name }: { className: string; label: string; name?: string }) {
-  return <button type="button" className={className} disabled aria-label={name ? `${name}. ${label}` : undefined}>{label}</button>;
-}
+const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
 
 export function fingerlockMetadata(locale: Locale): Metadata {
   const copy = FL[locale];
@@ -32,10 +31,10 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
   const ld = [
     {
       "@context": "https://schema.org", "@type": "SoftwareApplication",
-      name: "FingerLock", url: pageUrl, description: copy.metaDesc,
+      name: "FingerLock", url: pageUrl, downloadUrl: FL_LINKS.exe, description: copy.metaDesc,
       applicationCategory: "SecurityApplication", operatingSystem: "Windows 10, Windows 11",
       inLanguage: HTML_LANG[locale], isAccessibleForFree: true,
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD", availability: "https://schema.org/PreOrder" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD", url: FL_LINKS.exe },
     },
     {
       "@context": "https://schema.org", "@type": "BreadcrumbList", inLanguage: HTML_LANG[locale],
@@ -53,19 +52,19 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
       <article className="rounded-2xl bg-white p-5 shadow-sm">
         <h1>{copy.title}</h1>
         <div className="mt-2 flex flex-wrap gap-1 text-xs">
-          <span className="fingerlock-soon-badge">{copy.comingSoon}</span>
           {copy.badges.map((b) => <span key={b} className="rounded bg-emerald-50 px-2 py-0.5">{b}</span>)}
         </div>
         <p className="mt-3 text-slate-700">{copy.lede}</p>
         <div className="fingerlock-actions">
-          <SoonButton className="fingerlock-download fingerlock-download-primary" label={copy.comingSoon} />
+          <a className="fingerlock-download fingerlock-download-primary" href={FL_LINKS.exe} {...ext}>{copy.downloadExe}</a>
           <p className="fingerlock-meta">{copy.fileMeta}</p>
           <div className="fingerlock-secondary">
-            <SoonButton className="fingerlock-manual-btn" label={copy.comingSoon} name={copy.manualZh} />
-            <SoonButton className="fingerlock-manual-btn" label={copy.comingSoon} name={copy.manualEn} />
+            <a className="fingerlock-manual-btn" href={FL_LINKS.manualZh} {...ext}>{copy.manualShortZh}</a>
+            <a className="fingerlock-manual-btn" href={FL_LINKS.manualEn} {...ext}>{copy.manualShortEn}</a>
           </div>
         </div>
         <p className="mt-3 text-sm text-slate-600">{copy.smartScreen}</p>
+        <FingerLockVerify locale={locale} />
 
         <h2 className="mt-6 text-lg font-semibold">{copy.featuresTitle}</h2>
         <ul className="mt-2 list-disc pl-5 text-sm text-slate-700">
@@ -80,8 +79,8 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
           <aside className="fingerlock-manuals rounded-2xl bg-white p-4 shadow-sm" aria-labelledby="fl-manuals">
             <h2 id="fl-manuals" className="text-lg font-semibold">{copy.manualsTitle}</h2>
             <p className="mt-1 text-sm text-slate-600">{copy.manualsLead}</p>
-            <SoonButton className="fingerlock-download" label={copy.comingSoon} name={copy.manualZh} />
-            <SoonButton className="fingerlock-download" label={copy.comingSoon} name={copy.manualEn} />
+            <a className="fingerlock-download" href={FL_LINKS.manualZh} {...ext}>{copy.manualZh}</a>
+            <a className="fingerlock-download" href={FL_LINKS.manualEn} {...ext}>{copy.manualEn}</a>
           </aside>
         </div>
       </section>
