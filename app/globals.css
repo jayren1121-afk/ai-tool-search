@@ -251,7 +251,42 @@ main .home-fingerlock a.home-fingerlock-btn {
 main .home-fingerlock a.home-fingerlock-btn:hover { background: #d4c6b6; }
 
 /* FingerLock 介紹頁 */
+.fingerlock-page {
+  overflow-x: clip;
+  min-width: 0;
+}
 .fingerlock-page h1 { margin-bottom: 0.35rem; }
+.fingerlock-page p,
+.fingerlock-page li,
+.fingerlock-page summary,
+.fingerlock-page a,
+.fingerlock-page h1,
+.fingerlock-page h2,
+.fingerlock-page h3 {
+  overflow-wrap: anywhere;
+}
+.fingerlock-page article,
+.fingerlock-page section,
+.fingerlock-stepper,
+.fingerlock-page .grid {
+  min-width: 0;
+  max-width: 100%;
+}
+.fingerlock-actions { margin-top: 1rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.55rem; max-width: 100%; }
+.fingerlock-meta { margin: 0; font-size: 0.9rem; color: var(--color-slate-500); }
+.fingerlock-secondary { display: flex; flex-wrap: wrap; gap: 0.45rem; max-width: 100%; }
+a.fingerlock-manual-btn {
+  border: 1px solid var(--line-strong);
+  border-radius: 0.7rem;
+  background: var(--color-white);
+  color: var(--heading);
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: normal;
+}
+a.fingerlock-manual-btn:hover { background: #efe6dc; }
 a.fingerlock-download {
   display: inline-flex;
   align-items: center;
@@ -264,8 +299,57 @@ a.fingerlock-download {
   padding: 0.65rem 1.15rem;
   text-decoration: none;
   box-shadow: 0 1px 2px rgb(40 32 24 / 0.22);
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
 }
+a.fingerlock-download-primary { font-size: 1.15rem; padding: 0.9rem 1.35rem; }
 a.fingerlock-download:hover { background: #657a61; }
+.fingerlock-verify {
+  margin-top: 0.9rem;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: #efe6dc;
+  padding: 0.55rem 0.8rem 0.7rem;
+}
+.fingerlock-verify summary { font-weight: 650; }
+.fingerlock-verify-body { margin-top: 0.55rem; font-size: 0.95rem; }
+.fingerlock-verify-body ol { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.fingerlock-verify-body li { margin-top: 0.55rem; }
+.fingerlock-hash-label { margin: 0.45rem 0 0.25rem; font-size: 0.85rem; color: var(--color-slate-500); }
+.fingerlock-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin-top: 0.4rem;
+  min-width: 0;
+  max-width: 100%;
+}
+.fingerlock-copy code {
+  flex: 1 1 12rem;
+  min-width: 0;
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  border-radius: 0.6rem;
+  background: #1e1a16;
+  color: #f6f1ea;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.88rem;
+}
+.fingerlock-copy button {
+  flex: 0 0 auto;
+  border-radius: 0.65rem;
+  border: 1px solid #b5a492;
+  background: #c8b7a6;
+  color: #1c1914;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
 .fingerlock-manuals { display: flex; flex-direction: column; gap: 0.75rem; }
 .fingerlock-manuals a.fingerlock-download { width: 100%; text-align: center; }
 .fingerlock-stepper {
@@ -285,28 +369,9 @@ a.fingerlock-download:hover { background: #657a61; }
   background: #c8b7a6;
 }
 .fingerlock-shot img { display: block; width: 100%; height: auto; }
-.fingerlock-command {
-  border-radius: 0.75rem;
-  border: 1px solid var(--line);
-  background: #efe6dc;
-  padding: 0.9rem 1rem;
-}
-.fingerlock-command-label, .fingerlock-command-file {
-  margin: 0;
-  font-size: 0.8rem;
-  color: var(--color-slate-500);
-}
-.fingerlock-command pre {
-  margin: 0.45rem 0;
-  overflow-x: auto;
-  border-radius: 0.6rem;
-  background: #1e1a16;
-  color: #f6f1ea;
-  padding: 0.7rem 0.85rem;
-  font-size: 0.92rem;
-}
 .fingerlock-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;

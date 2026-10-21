@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
-import { FL, FL_LINKS, FL_VERIFY_CMD, type FlCopy } from "@/lib/fingerlock";
+import { FL, FL_LINKS, type FlCopy } from "@/lib/fingerlock";
 import type { Locale } from "@/lib/i18n";
 
 function StepShot({ step }: { step: FlCopy["steps"][number] }) {
@@ -11,15 +11,7 @@ function StepShot({ step }: { step: FlCopy["steps"][number] }) {
     const ratio = step.scroll ?? 0;
     el.scrollTop = Math.max(0, ratio * (el.scrollHeight - el.clientHeight));
   }, [step]);
-  if (!step.image) {
-    return (
-      <div className="fingerlock-command">
-        <p className="fingerlock-command-label">SHA-256</p>
-        <pre><code>{FL_VERIFY_CMD}</code></pre>
-        <p className="fingerlock-command-file">SHA256SUMS.txt</p>
-      </div>
-    );
-  }
+  if (!step.image) return null;
   return (
     <div ref={frameRef} className="fingerlock-shot" tabIndex={0} role="img" aria-label={step.imageAlt}>
       <img src={step.image.src} width={step.image.w} height={step.image.h} alt="" />
