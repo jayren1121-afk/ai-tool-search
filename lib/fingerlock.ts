@@ -12,10 +12,10 @@ export const FL_LINKS = {
   sha256: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/SHA256SUMS.txt",
 } as const;
 
-export const FL_VERSION = "v1.1.1";
+export const FL_VERSION = "v1.2.0";
 export const FL_SIZE = "31 MB";
-/** v1.1.1 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
-export const FL_SHA256 = "89f76742ee53bb6e9a1c3127eca5e2dcf6f0a098c238cb4634c7361944a2f0da";
+/** v1.2.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
+export const FL_SHA256 = "4f27a8b86f76a9854d887ce55b02b3d3709b159b84053cd4fb5fced9fd0f1b8a";
 export const FL_VERIFY_CMD = "certutil -hashfile FingerLock.exe SHA256";
 export const FL_CD_CMD = "cd %USERPROFILE%\\Downloads";
 
@@ -88,7 +88,7 @@ const zh: FlCopy = {
   lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖。安裝檔是 FingerLock.exe。",
   badges: ["Windows", "免費"],
   downloadExe: "⬇ 下載 FingerLock.exe（免費）",
-  fileMeta: "約 31 MB · 版本 v1.1.1",
+  fileMeta: "約 31 MB · 版本 v1.2.0",
   manualShortZh: "中文說明書",
   manualShortEn: "英文說明書",
   releaseLink: "到 GitHub 最新版頁面查看",
@@ -102,6 +102,7 @@ const zh: FlCopy = {
     "閒置、鎖定螢幕（Win+L）、睡眠、登出或關機時，開著的資料夾都會自動鎖回。",
     "資料夾可以「暫時解鎖」用完自動鎖回，或「永久移除保護」還原檔案。",
     "可選擇開機時自動啟動保護。",
+    "介面支援繁體中文與英文：預設跟著 Windows 語言，也可以在右上角「中文 / English」切換。",
     "免費提供，下載檔為 FingerLock.exe。",
   ],
   verifySummary: "進階：檢查檔案是否被竄改（選用）",
@@ -194,7 +195,7 @@ const en: FlCopy = {
   lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also add a phone fingerprint. If you forget the answers, a reset email can be sent, and it locks again after idle time. The download is FingerLock.exe.",
   badges: ["Windows", "Free"],
   downloadExe: "⬇ Download FingerLock.exe (free)",
-  fileMeta: "About 31 MB · version v1.1.1",
+  fileMeta: "About 31 MB · version v1.2.0",
   manualShortZh: "Chinese manual",
   manualShortEn: "English manual",
   releaseLink: "Open the latest GitHub release",
@@ -208,6 +209,7 @@ const en: FlCopy = {
     "Open folders lock again automatically when you go idle, lock the screen (Win+L), sleep, sign out or shut down.",
     "Unlock a folder temporarily (it locks again when you leave), or remove its protection permanently to restore the files.",
     "Optionally start protection automatically when Windows starts.",
+    "The app works in English and Traditional Chinese: it follows your Windows language, and you can switch with the 中文 / English button.",
     "Free. Distributed as FingerLock.exe.",
   ],
   verifySummary: "Advanced: check the file wasn’t tampered with (optional)",
