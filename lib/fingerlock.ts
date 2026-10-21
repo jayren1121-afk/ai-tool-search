@@ -12,10 +12,10 @@ export const FL_LINKS = {
   sha256: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/SHA256SUMS.txt",
 } as const;
 
-export const FL_VERSION = "v1.1.0";
+export const FL_VERSION = "v1.1.1";
 export const FL_SIZE = "31 MB";
-/** v1.1.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
-export const FL_SHA256 = "d9f152d71e2acc58660ee48e8b63cbaf646f567314c83f87645e3fe6004c421f";
+/** v1.1.1 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
+export const FL_SHA256 = "89f76742ee53bb6e9a1c3127eca5e2dcf6f0a098c238cb4634c7361944a2f0da";
 export const FL_VERIFY_CMD = "certutil -hashfile FingerLock.exe SHA256";
 export const FL_CD_CMD = "cd %USERPROFILE%\\Downloads";
 
@@ -88,7 +88,7 @@ const zh: FlCopy = {
   lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖。安裝檔是 FingerLock.exe。",
   badges: ["Windows", "免費"],
   downloadExe: "⬇ 下載 FingerLock.exe（免費）",
-  fileMeta: "約 31 MB · 版本 v1.1.0",
+  fileMeta: "約 31 MB · 版本 v1.1.1",
   manualShortZh: "中文說明書",
   manualShortEn: "英文說明書",
   releaseLink: "到 GitHub 最新版頁面查看",
@@ -194,7 +194,7 @@ const en: FlCopy = {
   lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also add a phone fingerprint. If you forget the answers, a reset email can be sent, and it locks again after idle time. The download is FingerLock.exe.",
   badges: ["Windows", "Free"],
   downloadExe: "⬇ Download FingerLock.exe (free)",
-  fileMeta: "About 31 MB · version v1.1.0",
+  fileMeta: "About 31 MB · version v1.1.1",
   manualShortZh: "Chinese manual",
   manualShortEn: "English manual",
   releaseLink: "Open the latest GitHub release",
