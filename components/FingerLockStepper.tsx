@@ -61,7 +61,7 @@ export default function FingerLockStepper({ locale }: { locale: Locale }) {
             <button key={s.title} type="button" className={n === i ? "is-current" : undefined} aria-current={n === i ? "step" : undefined} aria-label={copy.stepDot(n + 1, s.title)} onClick={() => go(n)} />
           ))}
         </div>
-        <button type="button" onClick={() => go(i + 1)} aria-disabled={last} disabled={last}>{copy.next}</button>
+        <button type="button" onClick={() => go(i + 1)} disabled={last}>{copy.next}</button>
       </div>
       {last && (
         <a className="fingerlock-download" href={FL_LINKS.exe} target="_blank" rel="noopener noreferrer">{copy.downloadExe}</a>
