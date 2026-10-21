@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import FingerLockStepper from "@/components/FingerLockStepper";
-import { FL, FL_LINKS, FL_PATH, FL_VERIFY_CMD } from "@/lib/fingerlock";
+import FingerLockVerify from "@/components/FingerLockVerify";
+import { FL, FL_LINKS, FL_PATH } from "@/lib/fingerlock";
 import { HTML_LANG, lp, OG_LOCALE, t, type Locale } from "@/lib/i18n";
 import { jsonLd, langAlternates, siteName, SITE_URL } from "@/lib/site";
 
@@ -54,29 +55,21 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
           {copy.badges.map((b) => <span key={b} className="rounded bg-emerald-50 px-2 py-0.5">{b}</span>)}
         </div>
         <p className="mt-3 text-slate-700">{copy.lede}</p>
-        <div className="mt-4 flex flex-wrap items-center gap-3">
-          <a className="fingerlock-download" href={FL_LINKS.exe} {...ext}>{copy.downloadExe}</a>
-          <a href={FL_LINKS.release} {...ext} className="text-sm text-indigo-600 hover:underline">{copy.releaseLink}</a>
+        <div className="fingerlock-actions">
+          <a className="fingerlock-download fingerlock-download-primary" href={FL_LINKS.exe} {...ext}>{copy.downloadExe}</a>
+          <p className="fingerlock-meta">{copy.fileMeta}</p>
+          <div className="fingerlock-secondary">
+            <a className="fingerlock-manual-btn" href={FL_LINKS.manualZh} {...ext}>{copy.manualShortZh}</a>
+            <a className="fingerlock-manual-btn" href={FL_LINKS.manualEn} {...ext}>{copy.manualShortEn}</a>
+          </div>
         </div>
         <p className="mt-3 text-sm text-slate-600">{copy.smartScreen}</p>
+        <FingerLockVerify locale={locale} />
 
         <h2 className="mt-6 text-lg font-semibold">{copy.featuresTitle}</h2>
         <ul className="mt-2 list-disc pl-5 text-sm text-slate-700">
           {copy.features.map((f) => <li key={f}>{f}</li>)}
         </ul>
-
-        <h2 className="mt-6 text-lg font-semibold">{copy.verifyTitle}</h2>
-        <ol className="mt-2 list-decimal space-y-2 pl-5 text-sm text-slate-700">
-          <li>
-            {copy.verifyDownload}{" "}
-            <a href={FL_LINKS.sha256} {...ext} className="text-indigo-600 hover:underline">{copy.verifyShaName}</a>
-          </li>
-          <li>
-            {copy.verifyTerminal}
-            <pre className="mt-2 overflow-x-auto rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm"><code>{FL_VERIFY_CMD}</code></pre>
-          </li>
-          <li>{copy.verifyMatch}</li>
-        </ol>
       </article>
 
       <section className="mt-6" aria-labelledby="fl-quick">

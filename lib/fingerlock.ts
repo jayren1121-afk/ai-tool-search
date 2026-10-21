@@ -12,7 +12,12 @@ export const FL_LINKS = {
   sha256: "https://github.com/jayren1121-afk/fingerlock-download/releases/latest/download/SHA256SUMS.txt",
 } as const;
 
+export const FL_VERSION = "v1.0.0";
+export const FL_SIZE = "31 MB";
+/** v1.0.0 FingerLock.exe 的 SHA-256，與該版 SHA256SUMS.txt 相同 */
+export const FL_SHA256 = "6c90cb7f62a762a7767ed88fcc8a983be8bc22a2be048c91999c0cef7be75fd0";
 export const FL_VERIFY_CMD = "certutil -hashfile FingerLock.exe SHA256";
+export const FL_CD_CMD = "cd %USERPROFILE%\\Downloads";
 
 export const FL_SHOTS = {
   warning: { src: "/fingerlock/setup-warning.png", w: 800, h: 700 },
@@ -40,15 +45,22 @@ export type FlCopy = {
   lede: string;
   badges: string[];
   downloadExe: string;
+  fileMeta: string;
+  manualShortZh: string;
+  manualShortEn: string;
   releaseLink: string;
   smartScreen: string;
   featuresTitle: string;
   features: string[];
-  verifyTitle: string;
-  verifyDownload: string;
-  verifyShaName: string;
-  verifyTerminal: string;
+  verifySummary: string;
+  verifyLead: string;
+  verifyWinR: string;
+  verifyCd: string;
+  verifyCmd: string;
   verifyMatch: string;
+  hashLabel: string;
+  copy: string;
+  copied: string;
   quickTitle: string;
   stepperLabel: string;
   stepperRole: string;
@@ -73,27 +85,34 @@ const zh: FlCopy = {
   promoCta: "查看",
   promoAria: "開啟 FingerLock 介紹與下載頁面",
   metaTitle: "FingerLock 免費 Windows 資料夾鎖",
-  metaDesc: "FingerLock 是免費的 Windows 資料夾鎖。用 10 題自訂安全問題（每次隨機 5 題）解鎖，可加手機指紋，並支援忘記答案寄信重設、閒置自動上鎖與 AES-256-GCM。",
+  metaDesc: "FingerLock 是免費的 Windows 資料夾鎖。用 10 題自訂安全問題（每次隨機 5 題）解鎖，可加手機指紋，並支援忘記答案寄信重設與閒置自動上鎖。",
   title: "FingerLock",
-  lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖，資料夾以 AES-256-GCM 加密。安裝檔是 FingerLock.exe。",
-  badges: ["Windows", "免費", "AES-256-GCM"],
-  downloadExe: "下載 FingerLock.exe",
+  lede: "免費的 Windows 資料夾鎖。自己設定 10 題安全問題，每次解鎖隨機問其中 5 題；也可以再加上手機指紋。忘記答案可寄信重設，閒置一段時間會自動上鎖。安裝檔是 FingerLock.exe。",
+  badges: ["Windows", "免費"],
+  downloadExe: "⬇ 下載 FingerLock.exe（免費）",
+  fileMeta: "約 31 MB · 版本 v1.0.0",
+  manualShortZh: "中文說明書",
+  manualShortEn: "英文說明書",
   releaseLink: "到 GitHub 最新版頁面查看",
-  smartScreen: "這個 exe 尚未做程式碼簽章，Windows SmartScreen 可能出現藍底警告。請先核對 SHA-256，確認與 SHA256SUMS.txt 相同後，再按「其他資訊」→「仍要執行」。",
+  smartScreen: "這個程式還沒有數位簽章，Windows 可能跳出藍底警告。按「其他資訊」→「仍要執行」就能開啟。",
   featuresTitle: "功能",
   features: [
     "自己出 10 題安全問題。每次解鎖隨機抽 5 題、順序也隨機，5 題都要答對。",
-    "可加手機指紋（WebAuthn passkey）當第二道確認。指紋留在手機上，不會傳到電腦。",
+    "也可以加上手機指紋，多一道確認。",
     "忘記答案或遺失手機時，可寄重設信到當初填的 Email。",
     "閒置會自動上鎖，也可以按「立即上鎖」。",
-    "選取的資料夾以 AES-256-GCM 加密。",
+    "選取的資料夾會被鎖住，要解鎖才能再使用。",
     "免費提供，下載檔為 FingerLock.exe。",
   ],
-  verifyTitle: "下載後先驗證 SHA-256",
-  verifyDownload: "只從這個 GitHub 最新版下載 FingerLock.exe，並一起下載 SHA256SUMS.txt。",
-  verifyShaName: "下載 SHA256SUMS.txt",
-  verifyTerminal: "在下載資料夾按住 Shift 再按右鍵，選「在終端機中開啟」或「在此處開啟命令視窗」，執行：",
-  verifyMatch: "畫面上的雜湊必須和 SHA256SUMS.txt 裡的值完全相同。不一樣就刪掉檔案，不要執行。",
+  verifySummary: "進階：檢查檔案是否被竄改（選用）",
+  verifyLead: "一般使用可以跳過。這只是用來確認你下載的 FingerLock.exe 沒有被別人換掉。",
+  verifyWinR: "按鍵盤的 Windows 鍵和 R，輸入 cmd，再按 Enter，會打開一個黑色視窗。另一個做法：到存放 FingerLock.exe 的資料夾，按住 Shift 再按右鍵，選「在終端機中開啟」。用這個做法就不用下一步。",
+  verifyCd: "如果是用 Win+R 開的視窗，要先進入檔案所在的資料夾。檔案若在「下載」，複製下面這行貼上，按 Enter。",
+  verifyCmd: "再複製這行指令，貼到同一個黑色視窗，按 Enter。",
+  verifyMatch: "畫面上出現的那一長串，要和下面這組完全相同。相同就沒問題。不同就刪掉檔案，不要開啟。",
+  hashLabel: "正確的結果應該是",
+  copy: "複製",
+  copied: "已複製",
   quickTitle: "快速開始",
   stepperLabel: "FingerLock 快速開始",
   stepperRole: "步驟導覽",
@@ -104,14 +123,14 @@ const zh: FlCopy = {
   stepsGroup: "步驟",
   steps: [
     {
-      title: "下載並驗證 SHA-256",
-      text: "下載 FingerLock.exe 和 SHA256SUMS.txt。在下載資料夾執行下面的指令，結果要和 SHA256SUMS.txt 完全相同。",
+      title: "按下下載按鈕",
+      text: "按頁面上方的「下載 FingerLock.exe（免費）」。檔案約 31 MB。存好之後，下一步再雙擊開啟。",
       image: null,
       imageAlt: "",
     },
     {
       title: "雙擊開啟",
-      text: "雙擊 FingerLock.exe。雜湊核對過後若出現 SmartScreen，按「其他資訊」→「仍要執行」。瀏覽器會打開設定頁。請留著同時出現的黑色視窗，關掉它程式就會停。",
+      text: "雙擊 FingerLock.exe。若出現藍色警告，按「其他資訊」→「仍要執行」。瀏覽器會打開設定頁。請留著同時出現的黑色視窗，關掉它程式就會停。",
       image: FL_SHOTS.warning,
       imageAlt: "FingerLock 第一次設定頁，上方是警告聲明，下方的確認框還沒有勾選。",
     },
@@ -177,27 +196,34 @@ const en: FlCopy = {
   promoCta: "View",
   promoAria: "Open the FingerLock page",
   metaTitle: "FingerLock, a free Windows folder lock",
-  metaDesc: "FingerLock is a free Windows folder lock. Unlock with 10 security questions you write (5 random ones each time), optionally plus a phone fingerprint, with email reset, idle auto-lock, and AES-256-GCM.",
+  metaDesc: "FingerLock is a free Windows folder lock. Unlock with 10 security questions you write (5 random ones each time), optionally plus a phone fingerprint, with email reset and idle auto-lock.",
   title: "FingerLock",
-  lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also require a phone fingerprint. If you forget the answers, a reset email can be sent. It locks again after idle time, and folders are encrypted with AES-256-GCM. The download is FingerLock.exe.",
-  badges: ["Windows", "Free", "AES-256-GCM"],
-  downloadExe: "Download FingerLock.exe",
+  lede: "A free Windows folder lock. You write 10 security questions; each unlock asks 5 of them at random. You can also add a phone fingerprint. If you forget the answers, a reset email can be sent, and it locks again after idle time. The download is FingerLock.exe.",
+  badges: ["Windows", "Free"],
+  downloadExe: "⬇ Download FingerLock.exe (free)",
+  fileMeta: "About 31 MB · version v1.0.0",
+  manualShortZh: "Chinese manual",
+  manualShortEn: "English manual",
   releaseLink: "Open the latest GitHub release",
-  smartScreen: "This exe is not code-signed, so Windows SmartScreen may show a blue warning. Check the SHA-256 against SHA256SUMS.txt first. Only when it matches, choose More info → Run anyway.",
+  smartScreen: "This program is not digitally signed, so Windows may show a blue warning. Choose More info → Run anyway to open it.",
   featuresTitle: "Features",
   features: [
     "You write 10 security questions. Each unlock asks a random 5, in random order, and all five must be correct.",
-    "Optional phone fingerprint (WebAuthn passkey) as a second check. The fingerprint stays on the phone.",
+    "You can also add a phone fingerprint as an extra check.",
     "If you forget the answers or lose the phone, a reset email can be sent to the address you saved.",
     "Auto-lock after idle time, and a Lock now button.",
-    "Chosen folders are encrypted with AES-256-GCM.",
+    "Chosen folders stay locked until you unlock them.",
     "Free. Distributed as FingerLock.exe.",
   ],
-  verifyTitle: "Verify the SHA-256 before you run it",
-  verifyDownload: "Download FingerLock.exe only from this GitHub release, and download SHA256SUMS.txt with it.",
-  verifyShaName: "Download SHA256SUMS.txt",
-  verifyTerminal: "In the download folder, Shift + right-click and choose Open in Terminal (or Command Prompt), then run:",
-  verifyMatch: "The hash on screen must match SHA256SUMS.txt exactly. If it does not, delete the file and do not run it.",
+  verifySummary: "Advanced: check the file wasn’t tampered with (optional)",
+  verifyLead: "You can skip this. It only checks that the FingerLock.exe you downloaded is the published file, and that nobody swapped it.",
+  verifyWinR: "Press the Windows key and R, type cmd, then press Enter. A black window opens. Or, in the folder that contains FingerLock.exe, hold Shift and right-click, then choose “Open in Terminal”. If you do that, skip the next step.",
+  verifyCd: "If you opened the window with Win+R, go to the file’s folder first. When it is in Downloads, copy the line below, paste it, and press Enter.",
+  verifyCmd: "Copy this command, paste it into the same black window, and press Enter.",
+  verifyMatch: "The long code on screen must match the one below exactly. If it matches, the file is fine. If it doesn’t, delete the file and don’t open it.",
+  hashLabel: "The result should be exactly",
+  copy: "Copy",
+  copied: "Copied",
   quickTitle: "Quick start",
   stepperLabel: "FingerLock quick start",
   stepperRole: "stepper",
@@ -208,14 +234,14 @@ const en: FlCopy = {
   stepsGroup: "Steps",
   steps: [
     {
-      title: "Download and check SHA-256",
-      text: "Download FingerLock.exe and SHA256SUMS.txt. In the download folder, run the command below. The result must match SHA256SUMS.txt exactly.",
+      title: "Press the download button",
+      text: "Press “Download FingerLock.exe (free)” at the top of this page. The file is about 31 MB. After it saves, the next step is to double-click it.",
       image: null,
       imageAlt: "",
     },
     {
       title: "Double-click to open",
-      text: "Double-click FingerLock.exe. If SmartScreen appears after the hash matches, choose More info → Run anyway. Your browser opens the setup page. Leave the black window open; closing it stops the program.",
+      text: "Double-click FingerLock.exe. If a blue warning appears, choose More info → Run anyway. Your browser opens the setup page. Leave the black window open; closing it stops the program.",
       image: FL_SHOTS.warning,
       imageAlt: "FingerLock first-run setup page, with the warning and the confirmation box still unchecked.",
     },
