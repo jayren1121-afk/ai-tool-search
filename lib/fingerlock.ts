@@ -74,8 +74,6 @@ export type FlCopy = {
   manualsLead: string;
   manualZh: string;
   manualEn: string;
-  galleryTitle: string;
-  shots: { src: string; w: number; h: number; alt: string; caption: string }[];
   disclaimerTitle: string;
   disclaimer: string[];
 };
@@ -171,13 +169,6 @@ const zh: FlCopy = {
   manualsLead: "最新版頁面上的 PDF，步驟比這一頁更完整。",
   manualZh: "下載中文說明書（PDF）",
   manualEn: "下載英文說明書（PDF）",
-  galleryTitle: "畫面預覽",
-  shots: [
-    { ...FL_SHOTS.warning, alt: "第一次開啟時的警告畫面，確認框尚未勾選。", caption: "開啟後先看到警告，讀完再勾選。" },
-    { ...FL_SHOTS.form, alt: "勾選警告後的設定頁：解鎖模式、10 題答案與 Email。", caption: "勾選後選擇模式，並填寫 10 題答案。" },
-    { ...FL_SHOTS.unlock, alt: "解鎖頁隨機顯示 5 題提示問題。", caption: "解鎖時回答隨機抽出的 5 題。" },
-    { ...FL_SHOTS.folders, alt: "登入後的主畫面，可選擇資料夾上鎖或解鎖。", caption: "選擇資料夾後上鎖；要用時再解鎖。" },
-  ],
   disclaimerTitle: "重要警告與免責聲明",
   disclaimer: [
     "沒有任何安全工具是 100% 安全的（防不勝防）。本軟體只能降低風險。",
@@ -282,13 +273,6 @@ const en: FlCopy = {
   manualsLead: "PDFs on the latest release, with the full steps.",
   manualZh: "Traditional Chinese manual (PDF)",
   manualEn: "English manual (PDF)",
-  galleryTitle: "Screenshots",
-  shots: [
-    { ...FL_SHOTS.warning, alt: "First-run warning, with the confirmation box still unchecked.", caption: "The setup page opens on this warning. Read it, then tick the box." },
-    { ...FL_SHOTS.form, alt: "Setup after the warning is accepted: mode, 10 answers, and email.", caption: "Then pick a mode and fill in all 10 answers." },
-    { ...FL_SHOTS.unlock, alt: "Unlock page showing 5 random security questions.", caption: "Unlocking asks 5 questions drawn at random." },
-    { ...FL_SHOTS.folders, alt: "Main screen for choosing folders to lock or unlock.", caption: "Choose the folders, lock them, and unlock a folder when you need it." },
-  ],
   disclaimerTitle: "Warning and disclaimer",
   disclaimer: [
     "No security tool is 100% safe. This software can only reduce risk.",

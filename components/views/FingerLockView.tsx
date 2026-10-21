@@ -85,18 +85,6 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className="mt-6" aria-labelledby="fl-shots">
-        <h2 id="fl-shots" className="mb-3 text-lg font-semibold">{copy.galleryTitle}</h2>
-        <ul className="grid gap-3 sm:grid-cols-2">
-          {copy.shots.map((s) => (
-            <li key={s.src + s.caption} className="rounded-xl bg-white p-3 shadow-sm">
-              <img src={s.src} width={s.w} height={s.h} alt={s.alt} loading="lazy" className="w-full rounded-lg border border-slate-200" />
-              <p className="mt-2 text-sm text-slate-600">{s.caption}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
       <section className="mt-6 rounded-lg bg-amber-50 px-4 py-3 text-amber-800" aria-labelledby="fl-warn">
         <h2 id="fl-warn" className="text-base font-semibold">{copy.disclaimerTitle}</h2>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
