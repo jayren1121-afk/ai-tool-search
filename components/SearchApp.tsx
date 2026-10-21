@@ -5,6 +5,7 @@ import { supabaseBrowser } from "@/lib/supabase";
 import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
 import { catName, pricingName, releaseText, t, toolDesc, toolHref, trSub, type Locale } from "@/lib/i18n";
 import DiagnosePanel from "./DiagnosePanel";
+import FingerLockPromo from "./FingerLockPromo";
 import HealthBadge from "./HealthBadge";
 import { OnSiteGuardToggle } from "./OnSiteGuard";
 import VoteSummary from "./VoteSummary";
@@ -73,11 +74,12 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <div className="home-title flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
+      <div className="home-title flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between lg:gap-4">
         <div className="min-w-0 lg:flex-1">
           <h1 className="flex flex-wrap items-center gap-x-3 gap-y-1 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 shrink-0 rounded-xl" /><span className="min-w-0">{L.siteName}</span></h1>
           <p className="text-sm text-slate-500">{L.heroSub}</p>
         </div>
+        <FingerLockPromo locale={locale} />
         <OnSiteGuardToggle />
       </div>
       <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">

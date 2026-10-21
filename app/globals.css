@@ -217,6 +217,133 @@ nav[aria-label] { line-height: 1.6; }
 dt.text-slate-500 { color: var(--color-slate-500); }
 dl dd { color: var(--body-text); }
 
+/* FingerLock 首頁入口：比照右側檢查卡的莫蘭迪綠 */
+main .home-fingerlock {
+  background: #758D71;
+  border: 1px solid #677d64;
+  border-radius: 0.7rem;
+  padding: 0.35rem 0.5rem;
+}
+@media (min-width: 1024px) {
+  main .home-fingerlock { width: 16.5rem; max-width: 16.5rem; }
+}
+main .home-fingerlock p {
+  margin: 0;
+  min-width: 0;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #1c1914;
+}
+main .home-fingerlock a.home-fingerlock-btn {
+  flex-shrink: 0;
+  background: #c8b7a6;
+  color: #1c1914;
+  border: 1px solid #b5a492;
+  padding: 0.18rem 0.55rem;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  border-radius: 0.45rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+}
+main .home-fingerlock a.home-fingerlock-btn:hover { background: #d4c6b6; }
+
+/* FingerLock 介紹頁 */
+.fingerlock-page h1 { margin-bottom: 0.35rem; }
+a.fingerlock-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: #758D71;
+  color: #1c1914;
+  padding: 0.65rem 1.15rem;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgb(40 32 24 / 0.22);
+}
+a.fingerlock-download:hover { background: #657a61; }
+.fingerlock-manuals { display: flex; flex-direction: column; gap: 0.75rem; }
+.fingerlock-manuals a.fingerlock-download { width: 100%; text-align: center; }
+.fingerlock-stepper {
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  background: var(--color-white);
+  padding: 1rem 1.1rem 1.15rem;
+}
+.fingerlock-stepper h3 { margin-top: 0.75rem; font-size: 1.15rem; }
+.fingerlock-stepper h3 + p { margin-top: 0.35rem; color: var(--color-slate-600); }
+.fingerlock-progress { margin-top: 0.75rem; font-size: 0.85rem; color: var(--color-slate-500); }
+.fingerlock-shot {
+  max-height: 22rem;
+  overflow: auto;
+  border-radius: 0.75rem;
+  border: 1px solid var(--line);
+  background: #c8b7a6;
+}
+.fingerlock-shot img { display: block; width: 100%; height: auto; }
+.fingerlock-command {
+  border-radius: 0.75rem;
+  border: 1px solid var(--line);
+  background: #efe6dc;
+  padding: 0.9rem 1rem;
+}
+.fingerlock-command-label, .fingerlock-command-file {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-slate-500);
+}
+.fingerlock-command pre {
+  margin: 0.45rem 0;
+  overflow-x: auto;
+  border-radius: 0.6rem;
+  background: #1e1a16;
+  color: #f6f1ea;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.92rem;
+}
+.fingerlock-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+.fingerlock-nav > button {
+  border-radius: 0.75rem;
+  border: 1px solid var(--line-strong);
+  background: var(--color-white);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--heading);
+}
+.fingerlock-nav > button:disabled { opacity: 0.4; }
+.fingerlock-dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.1rem; }
+.fingerlock-dots button {
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  padding: 0;
+}
+.fingerlock-dots button::before {
+  content: "";
+  display: block;
+  width: 0.62rem;
+  height: 0.62rem;
+  margin: auto;
+  border-radius: 999px;
+  border: 2px solid #3f5240;
+  background: transparent;
+}
+.fingerlock-dots button.is-current::before { background: #758D71; }
+.fingerlock-stepper > a.fingerlock-download { margin-top: 0.85rem; }
+
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
   li.rounded-xl:hover, button.bg-indigo-600:hover { transform: none; }
