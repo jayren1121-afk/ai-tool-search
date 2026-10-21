@@ -275,16 +275,7 @@ main .home-fingerlock a.home-fingerlock-btn:hover { background: #d4c6b6; }
 .fingerlock-actions { margin-top: 1rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.55rem; max-width: 100%; }
 .fingerlock-meta { margin: 0; font-size: 0.9rem; color: var(--color-slate-500); }
 .fingerlock-secondary { display: flex; flex-wrap: wrap; gap: 0.45rem; max-width: 100%; }
-.fingerlock-soon-badge {
-  border-radius: 999px;
-  padding: 0.15rem 0.65rem;
-  font-weight: 650;
-  background: #f3e6c8;
-  color: #6b4e16;
-}
-a.fingerlock-manual-btn,
-button.fingerlock-manual-btn {
-  font: inherit;
+a.fingerlock-manual-btn {
   border: 1px solid var(--line-strong);
   border-radius: 0.7rem;
   background: var(--color-white);
@@ -295,12 +286,8 @@ button.fingerlock-manual-btn {
   text-decoration: none;
   white-space: normal;
 }
-a.fingerlock-manual-btn:hover,
-button.fingerlock-manual-btn:not(:disabled):hover { background: #efe6dc; }
-a.fingerlock-download,
-button.fingerlock-download {
-  border: 0;
-  font: inherit;
+a.fingerlock-manual-btn:hover { background: #efe6dc; }
+a.fingerlock-download {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -316,16 +303,8 @@ button.fingerlock-download {
   white-space: normal;
   text-align: center;
 }
-a.fingerlock-download-primary,
-button.fingerlock-download-primary { font-size: 1.15rem; padding: 0.9rem 1.35rem; }
-a.fingerlock-download:hover,
-button.fingerlock-download:not(:disabled):hover { background: #657a61; }
-button.fingerlock-download:disabled,
-button.fingerlock-manual-btn:disabled {
-  opacity: 0.72;
-  cursor: not-allowed;
-  box-shadow: none;
-}
+a.fingerlock-download-primary { font-size: 1.15rem; padding: 0.9rem 1.35rem; }
+a.fingerlock-download:hover { background: #657a61; }
 .fingerlock-verify {
   margin-top: 0.9rem;
   max-width: 100%;
@@ -372,8 +351,7 @@ button.fingerlock-manual-btn:disabled {
   font-weight: 600;
 }
 .fingerlock-manuals { display: flex; flex-direction: column; gap: 0.75rem; }
-.fingerlock-manuals a.fingerlock-download,
-.fingerlock-manuals button.fingerlock-download { width: 100%; text-align: center; }
+.fingerlock-manuals a.fingerlock-download { width: 100%; text-align: center; }
 .fingerlock-stepper {
   border: 1px solid var(--line);
   border-radius: 1.25rem;
@@ -429,10 +407,22 @@ button.fingerlock-manual-btn:disabled {
   background: transparent;
 }
 .fingerlock-dots button.is-current::before { background: #758D71; }
-.fingerlock-stepper > a.fingerlock-download,
-.fingerlock-stepper > button.fingerlock-download { margin-top: 0.85rem; }
+.fingerlock-stepper > a.fingerlock-download { margin-top: 0.85rem; }
 
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
   li.rounded-xl:hover, button.bg-indigo-600:hover { transform: none; }
+}
+
+/* 綠色框一律同尺寸：首頁兩張綠卡同寬同高；FingerLock 頁所有綠色下載鈕同寬同高（中英文都一樣） */
+main .home-fingerlock, main .home-guard { box-sizing: border-box; min-height: 5.25rem; }
+main .home-fingerlock { display: flex; flex-direction: column; justify-content: center; }
+a.fingerlock-download, a.fingerlock-download-primary, .fingerlock-manuals a.fingerlock-download {
+  box-sizing: border-box;
+  width: min(18rem, calc(100vw - 6rem));
+  max-width: 100%;
+  min-height: 4.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
 }
