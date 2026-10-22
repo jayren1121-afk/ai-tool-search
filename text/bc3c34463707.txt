@@ -3,13 +3,10 @@ Use cases
 Pricing
 Resources
 Login
-Try for free
 Book Demo
 Supercharge your content and data workflow with Hypotenuse AI
-Ecommerce
-Product descriptions, bulk workflows, digital shelves and more
 Basic
-For ecommerce sites with smaller catalogs and fewer than 100 products.
+For ecommerce teams getting started with AI product content.
 Custom
 ‍
 
@@ -32,38 +29,27 @@ Ecommerce Enterprise
 For large teams with complex workflows, scale, and compliance requirements.
 Custom
   
-Request for demo
-
-Everything in Ecommerce Pro
-
-Custom seats
-
-Product attribute enrichment
-
-
-Product tagging and categorization
-
+Book a demo
 
 Product information and taxonomy management
 
+Product attribute enrichment
+
+Product tagging and categorization
+
+AI quality checker for content and product data
 
 Bulk AI image editor
 
-
 Bespoke AI models
 
-
-AI checker for channel and brand guidelines
-
-
-Custom PIM/ERP integrations
-
+Custom integrations with your PIM, ERP, ecommerce platform and more
 
 Team access controls
 
+Custom seats
 
 Dedicated account manager and onboarding
-
 
 Trusted by leading global brands and Fortune 500 ecommerce teams
 Compare all features
@@ -87,7 +73,7 @@ AI trained to generate content following your brand guidelines.
 Product content
 SEO and GEO optimization
 Discover relevant keywords and optimize product content for search engines and AI-driven discovery.
-Product attribution enrichment
+Product attribute enrichment
 Fill in missing product details with AI enrichment from image, webpage scraping, UPC, or factsheets.
 
 Product tagging and categorization
@@ -98,8 +84,8 @@ Product information management
 Manage product data, content, and images in a centralized source of truth.
 Custom formatting
 Customize word count, structure, and style for multiple brands and retailers.
-AI guideline checker
-Validate content against brand, legal, and channel guidelines before publishing.
+AI quality checker
+Check content and product data against your brand, legal, channel and data quality rules before publishing.
 AI image editing
 Replace backgrounds, upscale, crop, and generate in-context product images at scale.
 Bulk workflows
@@ -128,6 +114,21 @@ Custom review workflows
 Workflows tailored to how your team works.
 
 Custom
+Support
+Support channels
+Email and live chat
+Dedicated account manager
+Onboarding and training
+Help guides and tutorials
+Dedicated onboarding session
+Privacy and security
+Own the content you create
+
+Data is securely stored
+
+Data does not train the AI model
+
+SOC 2 Type II compliant security and privacy
 Content toolbox
 HypoChat
 AI chat with real-time web research.
@@ -157,22 +158,6 @@ Website content
 Access to headlines, category page, landing page, meta title and descriptions.
 
 Custom content type
-
-Support
-Support channels
-Email and live chat
-Dedicated account manager
-Onboarding and training
-Help guides and tutorials
-Dedicated onboarding session
-Privacy and security
-Own the content you create
-
-Data is securely stored
-
-Data does not train the AI model
-
-SOC 2 compliant security and privacy
 
 A lot of tools promise to boost productivity, but Hypotenuse AI has literally tripled our team's output, and with better quality! We were onboarding hundreds of products a week with little to no usable information. Hypotenuse turned this into a scalable workflow where every PDP goes live with complete, accurate, and AEO/SEO‑ready content that drives stronger conversion performance.
 Elaine Ngo
@@ -205,10 +190,6 @@ How does Hypotenuse AI handle data security and compliance?
 Your data remains your own and is used only to power your workflows in Hypotenuse AI. It is never shared with third parties or used to train public AI models.
 
 Hypotenuse AI is SOC 2 Type II compliant, with controls covering security, availability, and confidentiality. All data is encrypted in transit and at rest, with role-based access controls and enterprise-grade security practices. We support security reviews and compliance questionnaires as part of procurement.
-
-How is enterprise pricing scoped?
-
-Pricing depends on your catalog size, languages, channels and integrations. Book a demo and we’ll scope a plan with your team.
 
 Ready to harness the power of generative AI for your team?
 Join 500,000+ ecommerce brands & marketers on Hypotenuse AI.

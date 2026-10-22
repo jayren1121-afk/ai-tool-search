@@ -568,3 +568,21 @@ SCRAPE DONE
 1 15 no_price_found https://clipchamp.com/pricing 18.1
 舊版頁面還要重抓： 188 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://musicfy.lol/pricing 8.6
+2 2 scraped https://www.gumloop.com/pricing 7.6
+1 3 scraped https://www.undermind.ai/pricing 7.3
+0 4 scraped https://www.listnr.ai/pricing 16.9
+1 5 scraped https://neuronwriter.com/pricing 12.1
+2 6 no_price_found https://www.hypotenuse.ai/pricing 19.2
+1 7 scraped https://glass.health/pricing 5.8
+2 8 scraped https://www.kickresume.com/pricing 6.4
+1 9 scraped https://www.datarobot.com/pricing 6.7
+2 10 scraped https://groq.com/pricing 6.0
+2 11 no_price_found https://stitch.withgoogle.com/pricing 6.1
+1 12 scraped https://getimg.ai/pricing 12.7
+0 13 no_price_found https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page/pricing 47.4
+2 14 no_price_found https://cline.bot/pricing 17.8
+1 15 scraped https://hyper3d.ai/pricing 14.6
+舊版頁面還要重抓： 173 個（每次最多 15 個）
+SCRAPE DONE

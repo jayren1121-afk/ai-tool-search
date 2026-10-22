@@ -1,8 +1,11 @@
+=== 計費模式: 預設畫面 (default) ===
 Login
+Contact Sales
 Sign up free
 Your AI
 ---
 Sign up free
+Contact Sales
 Also works inside Claude, ChatGPT, and more
 ---
 Academic
@@ -38,6 +41,55 @@ $15
 per person per month, billed annually
 ---
 5 seats at $15
+Sign Up to Purchase
+---
+Custom pricing
+---
+Contact Sales
+View Security Overview
+=== 計費模式: 切換後 (toggled) ===
+Login
+Contact Sales
+Sign up free
+Your AI
+---
+Sign up free
+Contact Sales
+Also works inside Claude, ChatGPT, and more
+---
+Academic
+Monthly
+Annual
+---
+Free
+---
+For exploratory research
+---
+$0
+---
+Try for Free
+---
+Pro
+---
+For serious, ongoing research
+---
+$20
+---
+per month
+---
+Try for Free
+---
+Switch to annual to save 20%
+---
+Everything in Free plus:
+---
+Team
+---
+$18.7
+---
+per person per month
+---
+5 seats at $18.7
 Sign Up to Purchase
 ---
 Custom pricing

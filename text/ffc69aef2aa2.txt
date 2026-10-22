@@ -1,6 +1,8 @@
+=== 計費模式: 預設畫面 (default) ===
 getimg.ai
 Creative AI Studio
 Resources
+MCP
 API
 Pricing
 Log in
@@ -189,11 +191,11 @@ Auto mode
 2 150 / 1 075 / 716 images
 1K / 2K / 4K
 Seedream
-4 models
-266 images
-633 images
-1 416 images
-3 583 images
+5 models
+400 images
+950 images
+2 125 images
+5 375 images
 FLUX.2
 4 models
 533 images
@@ -225,11 +227,11 @@ Qwen
 8 500 images
 21 500 images
 Others
-1 model
-266 images
-633 images
-1 416 images
-3 583 images
+2 models
+800 images
+1 900 images
+4 250 images
+10 750 images
 AI Video
 Auto video
 13 videos
@@ -322,7 +324,404 @@ Upscale image
 8 500 upscales
 21 500 upscales
 Upscale video
+5 models
+64 videos
+152 videos
+340 videos
+860 videos
+Frequently asked questions
+
+Quick answers about credits, billing, and plan access.
+
+How do credits work?
+Can I use created images for commercial projects?
+Can I change my plan later?
+What if I decide to cancel?
+What payment options are accepted?
+Will my unused credits roll over to the next month?
+Will I be able to use the plan to access the API?
+Can I buy more credits without upgrading my subscription?
+Creation
+Image Generation
+Video Generation
+Music Generation
+Text to Speech
+Sound Effect Generation
+Editing
+Image Editing
+Image Upscaling
+Video Upscaling
+Smart Image Resizing
+Removing Backgrounds
+Changing Backgrounds
+Swapping Hairstyles
+Features
+Creative AI for Teams
+Text to Video
+Image to Video
+Text to Image
+Image to Image
+Explore
+AI for Marketing
+AI for Social Media
+AI for Photography
+AI for E-Commerce
+AI for Architecture & Interior Design
+AI Stock Generator
+Realistic AI Images
+Anime
+AI Art
+AI Lifestyle Product Photography
+Models
+Seedream 5.0 Pro & Lite
+Nano Banana 2
+FLUX 3
+Qwen Image
+Z-Image Turbo
+Google Veo 3.1
+Kling (3.0, O3)
+Seedance 2.5
+MiniMax H3
+Lyria 3
+Resources
+API
+Privacy Policy
+Terms of Service
+Restrictions
+Affiliate Program
+Pricing
+Guides
+About Us
+Support
+
+We use cookies to improve your experience. Learn more in our Privacy Policy.
+
+Accept all
+
+=== 計費模式: 月繳 (monthly) ===
+getimg.ai
+Creative AI Studio
+Resources
+MCP
+API
+Pricing
+Log in
+Get started now
+Flexible plans for AI content creators & teams
+
+Choose the best plan for your needs.
+
+Individual plans
+Business plans
+Monthly
+Yearly
+Save 26% on yearly plans
+Entry
+$15
+/month
+
+billed monthly, excl. tax
+
+Get Started
+8 000 credits
+/month
+
+= 114 Nano Banana 2 images
+
+~ 26 UGC videos
+
+~ 21 Seedance 2.0 Mini videos
+
+Access to selected models
+
+AI Actions
+
+Smart image resizer
+
+4K image upscaling
+
+Music & Speech generation
+
+2 generations at a time
+
+Commercial Rights
+
+Top-up credits
+
+Core
+$35
+/month
+
+billed monthly, excl. tax
+
+Get Started
+19 000 credits
+/month
+
+= 271 Nano Banana 2 images
+
+~ 63 UGC videos
+
+~ 15 Seedance 2.5 videos
+
+Access to all models
+
+AI Actions
+
+Smart image resizer
+
+8K image upscaling
+
+Music & Speech generation
+
+4 generations at a time
+
+Commercial Rights
+
+Top-up credits
+
+Plus
+Most popular
+$79
+/month
+
+billed monthly, excl. tax
+
+Get Started
+42 500 credits
+/month
+
+= 607 Nano Banana 2 images
+
+~ 141 UGC videos
+
+~ 35 Seedance 2.5 videos
+
+Access to all models
+
+AI Actions
+
+Smart image resizer
+
+16K image upscaling
+
+Music & Speech generation
+
+8 generations at a time
+
+Commercial Rights
+
+Top-up credits
+
+Ultra
+Professional's choice
+$199
+/month
+
+billed monthly, excl. tax
+
+Get Started
+107 500 credits
+/month
+
+= 1535 Nano Banana 2 images
+
+~ 358 UGC videos
+
+~ 89 Seedance 2.5 videos
+
+Access to all models
+
+AI Actions
+
+Smart image resizer
+
+16K image upscaling
+
+Music & Speech generation
+
+10 generations at a time
+
+Commercial Rights
+
+Top-up credits
+
+Compare features and model access across all plans
+
+Plans
+Credits
+Entry
+8k
+/month
+Core
+19k
+/month
+Plus
+42.5k
+/month
+Ultra
+107.5k
+/month
+Usage
+Batch size
+2
+4
+8
+10
+Content storage history
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Commercial Rights
+Lossless image format
+Faster image generation
+Top-up Credits
+AI Image
+Auto mode
+160 / 80 / 53 images
+1K / 2K / 4K
+380 / 190 / 126 images
+1K / 2K / 4K
+850 / 425 / 283 images
+1K / 2K / 4K
+2 150 / 1 075 / 716 images
+1K / 2K / 4K
+Seedream
+5 models
+400 images
+950 images
+2 125 images
+5 375 images
+FLUX.2
+4 models
+533 images
+1 266 images
+2 833 images
+7 166 images
+Nano Banana
+5 models
+228 images
+542 images
+1 214 images
+3 071 images
+GPT Image
+5 models
+133 images
+316 images
+708 images
+1 791 images
+Grok Imagine
+2 models
+266 images
+633 images
+1 416 images
+3 583 images
+Qwen
 3 models
+1 600 images
+3 800 images
+8 500 images
+21 500 images
+Others
+2 models
+800 images
+1 900 images
+4 250 images
+10 750 images
+AI Video
+Auto video
+13 videos
+31 videos
+70 videos
+179 videos
+Kling
+5 models
+26 videos
+63 videos
+141 videos
+358 videos
+Seedance
+7 models
+160 videos
+380 videos
+850 videos
+2 150 videos
+FLUX
+1 model
+9 videos
+21 videos
+48 videos
+122 videos
+Wan
+3 models
+64 videos
+152 videos
+340 videos
+860 videos
+Gemini Omni
+2 models
+48 videos
+115 videos
+257 videos
+651 videos
+Google Veo
+1 model
+9 videos
+21 videos
+53 videos
+Grok Imagine
+2 models
+26 videos
+63 videos
+141 videos
+358 videos
+HappyHorse
+2 models
+20 videos
+47 videos
+106 videos
+268 videos
+MiniMax
+3 models
+22 videos
+54 videos
+121 videos
+307 videos
+AI Audio generation
+Music generation
+2 models
+2 666 songs
+6 333 songs
+14 166 songs
+35 833 songs
+Text-to-speech
+1 model
+400k characters
+950k characters
+2 125k characters
+5 375k characters
+Sound Effects
+1 model
+88 sound effects
+211 sound effects
+472 sound effects
+1 194 sound effects
+AI Editing
+Resize image
+2 models
+800 resizes
+1 900 resizes
+4 250 resizes
+10 750 resizes
+Upscale image
+5 models
+1 600 upscales
+3 800 upscales
+8 500 upscales
+21 500 upscales
+Upscale video
+5 models
 64 videos
 152 videos
 340 videos

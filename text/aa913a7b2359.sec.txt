@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Free
 7-Day Trial
 Subscribe
@@ -89,6 +90,107 @@ Billed yearly - $1,152 today.
 Enterprise
 Let’s Talk
 Custom annual agreements available.
+Free	Creator	Business	Enterprise
+RODIN 3D GENERATION
+---
+Does Education include Creator benefits?
+Do credits expire?
+Which plan should API teams choose?
+---
+Create with Rodin, then upgrade when you need more credits, API access, or team workflows.
+---
+Start free
+Ask AI about us
+=== 計費模式: 月繳 (monthly) ===
+Free
+7-Day Trial
+Subscribe
+---
+Monthly
+Yearly
+Save 20%
+Free
+---
+Start creating and pay only when you confirm results.
+---
+$0
+/ mo
+---
+Direct credits cost $1.5 per credit.
+---
+Rodin
+Generate for free before confirmation
+Export from legacy models
+---
+Pay by result workflow
+Start free
+Creator
+---
+For artists, indie teams, and creators producing 3D assets regularly.
+---
+Popular
+$30
+/ mo
+---
+Billed monthly - $30 / month.
+---
+Estimated output
+About 60 models
+$30
+$60
+$120
+$180
+$240
+Rodin
+Multi-image to 3D
+Smart Low-Poly
+---
+Image & Video
+Free Creator tier models
+Seedream and default models
+OmniCraft
+Image Remix - Free
+HDRI Generator - Free 8K
+Texture Generator - Free downloads
+Image Enhancer - Unlimited 2K and 4K
+---
+For studios, product teams, and API workflows that need scale.
+---
+API access
+$120
+/ mo
+---
+Billed monthly - $120 / month.
+---
+Estimated output
+About 416 models
+$120
+$240
+$480
+$720
+$1200
+Everything in Creator
+All Creator Rodin, Image & Video, OmniCraft, and workspace benefits
+Rodin
+---
+Image & Video
+Free featured Business tier models
+Nano Banana 2, Veo 3.1, Seedance X30
+---
+Compare credits, Rodin features, API access, ChatAvatar, OmniCraft, and production controls.
+---
+Free
+$0
+Direct credits cost $1.5 per credit.
+Creator
+$30
+Billed monthly - $30 / month.
+Business
+$120
+Billed monthly - $120 / month.
+Enterprise
+Let’s Talk
+Custom usage, deployment, and support terms.
 Free	Creator	Business	Enterprise
 RODIN 3D GENERATION
 ---

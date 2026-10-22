@@ -209,7 +209,6 @@ LEGAL
 PRIVACY
 TRUST
 COPYRIGHT © 2026 DATAROBOT, INC - ALL RIGHTS RESERVED
-Open Modal
 DataRobot uses cookies to enhance user experience and navigation, analyze site traffic, and personalize content and ads as described in our Cookie Policy. Click “Accept all” to enable all cookies. You can also manage your cookie settings by clicking “Manage Preferences.” Cookie Policy
 Accept All
 Manage Preferences

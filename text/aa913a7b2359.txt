@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Free
 7-Day Trial
 Subscribe
@@ -136,6 +137,230 @@ Billed yearly - $1,152 today.
 Enterprise
 Let’s Talk
 Custom annual agreements available.
+	Free	Creator	Business	Enterprise
+RODIN 3D GENERATION
+Pay by result before confirm				
+Multi-image to 3D	Limited			
+Smart Low-Poly	—			
+HD Texture and Custom Texture	—			
+Baked normals from high-poly	—			
+Redos	Basic	Redos: Geometry x20; Material x6	Redos: Geometry x50; Material x15	Custom
+API access	—	—	Full access	Custom
+API RPM	—	—	120 or 240 RPM	Custom
+3D TOOLKITS
+Basic Image / Video Models	—			
+Premium Image / Video Models	—	—		
+OmniCraft Image Remix	Limited			
+OmniCraft HDRI Generator	Limited	8K	8K	Custom
+OmniCraft Image Enhancer	—	2K and 4K	2K and 4K	Custom
+ChatAvatar 3D preview	—	—		
+ChatAvatar commercial license	—	—		
+WORKSPACE AND PRODUCTION
+Unlimited export and any use	—			
+Unlimited private assets	—			
+Team-grade controls and administration	—	—	—	
+Private on-premise deployment	—	—	—	
+Custom LoRA and fine-tuning	—	—	—	
+AI+Artist production support	—	—	—	
+Pricing FAQ
+How does Hyper3D billing work?
+What is the difference between Creator and Business?
+Does Education include Creator benefits?
+Do credits expire?
+Which plan should API teams choose?
+Can I use generated assets commercially?
+Ready to Create Nearly Production-Ready 3D Assets?
+
+Create with Rodin, then upgrade when you need more credits, API access, or team workflows.
+
+Start free
+Ask AI about us
+PRODUCT
+ChatAvatar
+Rodin
+OmniCraft
+FEATURES
+Text to 3D
+Image to 3D
+AI Video Generator
+AI Image Generator
+API
+TOOLS
+HDRI Generator
+Image Enhancer
+Vector to 3D
+Image Remix
+Texture Generator
+Rodin Search
+Mesh Editor
+Model Viewer
+Format Converter
+PLUG-INS
+Blender
+Unreal
+Unity
+Godot
+OV/Isaac
+C4D
+Maya
+3D Max
+LEGAL
+Terms of Use
+Privacy Policy
+Fulfillment Policy
+Contact Us
+© 2026 Deemos Corporation. All rights reserved
+Terms of Use
+Privacy Policy
+Fulfillment Policy
+English
+Cookie preferences
+
+We use essential cookies to keep Hyper3D working and optional cookies to understand usage, improve the experience, and support relevant marketing.
+
+Accept all
+Essential only
+Preferences
+
+=== 計費模式: 月繳 (monthly) ===
+Free
+7-Day Trial
+Subscribe
+Products
+Features
+API
+Pricing
+Resources
+Login
+Pricing
+
+Simple plans for Rodin 3D generation, API access, ChatAvatar previews, OmniCraft tools, and production support.
+
+TRUSTED BY CREATORS AND TEAMS BUILDING REAL 3D ASSETS
+
+Monthly
+Yearly
+Save 20%
+Free
+
+Start creating and pay only when you confirm results.
+
+$0
+/ mo
+
+Direct credits cost $1.5 per credit.
+
+Rodin
+Generate for free before confirmation
+Export from legacy models
+Basic image-to-3D and text-to-3D exploration
+Workspace
+10 private assets
+Public gallery publishing
+Pay by result workflow
+Start free
+Creator
+
+For artists, indie teams, and creators producing 3D assets regularly.
+
+Popular
+$30
+/ mo
+
+Billed monthly - $30 / month.
+
+Estimated output
+About 60 models
+$30
+$60
+$120
+$180
+$240
+Rodin
+Multi-image to 3D
+Smart Low-Poly
+HD Texture and Custom Texture
+Baked normals from high-poly
+Redos: Geometry x20; Material x6
+More polycount options
+Image & Video
+Free Creator tier models
+Seedream and default models
+OmniCraft
+Image Remix - Free
+HDRI Generator - Free 8K
+Texture Generator - Free downloads
+Image Enhancer - Unlimited 2K and 4K
+Workspace
+Unlimited export and any use
+Unlimited private assets
+Choose Creator
+Business
+
+For studios, product teams, and API workflows that need scale.
+
+API access
+$120
+/ mo
+
+Billed monthly - $120 / month.
+
+Estimated output
+About 416 models
+$120
+$240
+$480
+$720
+$1200
+Everything in Creator
+All Creator Rodin, Image & Video, OmniCraft, and workspace benefits
+Rodin
+Full API access
+High-resolution textures and High-Poly Quads
+Redos: Geometry x50; Material x15
+120 RPM on first three tiers; 240 RPM on higher tiers
+Image & Video
+Free featured Business tier models
+Nano Banana 2, Veo 3.1, Seedance X30
+ChatAvatar
+3D preview before purchase
+Commercial license included
+Choose Business
+Enterprise
+
+For production teams that need security, deployment, and custom support.
+
+Custom
+Let’s Talk
+
+Custom usage, deployment, and support terms.
+
+Enterprise controls
+Team-grade controls and administration
+Private on-premise deployment
+Custom LoRA and fine-tuning
+Volume discount
+AI+Artist support for nearly production-ready 3D assets
+Talk to sales
+Education
+For verified students, educators, classrooms, and learning programs.
+Verify education
+Compare Plans
+
+Compare credits, Rodin features, API access, ChatAvatar, OmniCraft, and production controls.
+
+Free
+$0
+Direct credits cost $1.5 per credit.
+Creator
+$30
+Billed monthly - $30 / month.
+Business
+$120
+Billed monthly - $120 / month.
+Enterprise
+Let’s Talk
+Custom usage, deployment, and support terms.
 	Free	Creator	Business	Enterprise
 RODIN 3D GENERATION
 Pay by result before confirm				

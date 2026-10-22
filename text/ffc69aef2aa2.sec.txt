@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Business plans
 Monthly
 Yearly
@@ -48,6 +49,91 @@ $149
 /month
 ---
 $1 788 billed yearly, excl. tax
+---
+Get Started
+107 500 credits
+/month
+---
+Top-up credits
+---
+Plans
+Credits
+Entry
+8k
+/month
+Core
+19k
+/month
+Plus
+42.5k
+/month
+Ultra
+107.5k
+/month
+Usage
+---
+Faster image generation
+Top-up Credits
+AI Image
+---
+Quick answers about credits, billing, and plan access.
+---
+How do credits work?
+Can I use created images for commercial projects?
+---
+What payment options are accepted?
+Will my unused credits roll over to the next month?
+Will I be able to use the plan to access the API?
+Can I buy more credits without upgrading my subscription?
+Creation
+=== 計費模式: 月繳 (monthly) ===
+Business plans
+Monthly
+Yearly
+Save 26% on yearly plans
+Entry
+$15
+/month
+---
+billed monthly, excl. tax
+---
+Get Started
+8 000 credits
+/month
+---
+Top-up credits
+---
+Core
+$35
+/month
+---
+billed monthly, excl. tax
+---
+Get Started
+19 000 credits
+/month
+---
+Top-up credits
+---
+Plus
+Most popular
+$79
+/month
+---
+billed monthly, excl. tax
+---
+Get Started
+42 500 credits
+/month
+---
+Top-up credits
+---
+Ultra
+Professional's choice
+$199
+/month
+---
+billed monthly, excl. tax
 ---
 Get Started
 107 500 credits

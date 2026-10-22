@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 2,000+ new Ultra voices are live. 130+ languages, with a persona for every script.
 
 Explore voices
@@ -144,6 +145,419 @@ Agency
 $99/ month
 
 Billed $990 annually
+
+Get started
+Credits / month	1,000 to start	20,000	50,000	250,000
+Voice generation	Starter	~2 hours	~5 hours	~25 hours
+Languages & accents	142+	142+	142+	142+
+AI voices	Preview library	1,000+	1,000+	1,000+
+Storage	
+	50GB	100GB	250GB
+Videos / month	
+	50	150	250
+Downloads & exports	Limited	Unlimited	Unlimited	Unlimited
+Audio embeds	
+	
+	
+	
+
+Commercial rights	
+	
+	
+	
+
+Voice cloning	
+	
+	
+	
+
+Priority support	
+	
+	
+	
+
+Custom invoicing	
+	
+	
+	
+Need more credits?
+
+If a monthly quota runs out, purchase extra credits in Listnr Studio or move up a plan. Cards are processed securely through the billing portal.
+
+Open billing
+Producing a lot of voiceovers? Ask about volume pricing
+
+For agencies, publishers, and content teams with ongoing narration, training, or localization work. Tell us the volume and we will review it as one project.
+
+Volume pricing based on monthly credit usage
+1,000+ voices across 142+ languages and accents
+Full commercial usage rights on paid plans
+Dedicated support for production teams
+Get a quote
+
+Share your volume, languages, and delivery needs. We will follow up with next steps.
+
+Contact sales
+Trusted by leading organizations
+
+Creators, educators, and teams use Listnr for realistic voice content.
+
+ENTERPRISE READY
+
+Built for scale and enterprise
+
+Access Listnr voice generation, voice cloning, APIs, team workflows, and support tailored for your organization.
+
+Custom SLAs
+Priority onboarding/support
+Early access to voice/video workflows
+Dedicated API throughput
+Team seats and roles
+Volume pricing
+Secure by default
+
+Controlled access patterns for teams building approved voice workflows.
+
+Privacy ready
+
+Consent-led voice cloning and privacy-aware production for organization use.
+
+Low-latency voice generation
+
+Voice generation and API throughput designed for larger content operations.
+
+Custom integrations
+
+Connect Listnr voice generation into your production stack and internal tools.
+
+G2
+
+Users Love Us
+
+G2 Reviews
+
+LISTNR AI
+Customer testimonials
+
+See why creators, publishers, and teams use Listnr for realistic AI voiceovers.
+
+Explore more reviews on G2 ->
+
+Shubham uses Listnr as a single place to create client voiceovers and presentation audio, with multiple languages, voice options, and responsive customer support.
+
+SM
+
+Shubham M.
+
+Assistant Manager · G2 reviewer
+
+Jeffery highlights Listnr's natural-sounding voices, practical limits, and straightforward text-to-speech workflow.
+
+JS
+
+Jeffery S.
+
+Senior Advisor · G2 review
+
+Dan values the time saved when turning existing written posts into natural-sounding audio content.
+
+DR
+
+Dan R.
+
+CEO · G2 review
+
+Ach points to the broad choice of languages, accents, and reading styles available for believable video voiceovers.
+
+AH
+
+Ach H.
+
+Video Marketer · G2 review
+
+PRICING
+
+Frequently asked questions
+Can I use the generated voice commercially?
+
+Yes. All paid Listnr plans (Individual, Solo, and Agency) include commercial rights for the audio you generate, including monetized YouTube videos, ads, audiobooks, and presentations.
+
+What happens when I run out of my monthly quota?
+
+If you run out of credits, you cannot generate new audio until the quota resets at the next billing cycle. You can purchase extra credits in Listnr Studio or upgrade to a higher plan to continue immediately.
+
+What is the difference between monthly and yearly billing?
+
+Yearly billing charges 10 months up front — two months free compared with paying month to month. Monthly billing renews each month at the listed rate.
+
+What happens to my quota when I upgrade or downgrade?
+
+Upgrades typically apply the new quota immediately. Downgrades take effect at the end of the current billing cycle.
+
+What payment methods are accepted?
+
+We accept major credit and debit cards (Visa, Mastercard, American Express) and PayPal. Enterprise plans can use invoicing and wire transfers.
+
+How can I upgrade my plan?
+
+Upgrade any time from Subscription or Billing in Listnr Studio. The prorated difference is calculated automatically.
+
+How can I downgrade to the free tier?
+
+Cancel the paid subscription from your dashboard. The account reverts to the free tier at the end of the current paid period.
+
+What is your refund policy?
+
+We generally do not refund partial months or used quota. If a technical issue blocks the service, contact support in the first few days after purchase.
+
+Where can I find my invoice?
+
+Invoices are emailed automatically. You can also download past invoices from Billing history in Listnr Studio.
+
+Use your Voice with the New Listnr TTS Editor
+
+The best text to speech experience on the internet.
+
+Know More
+TTS EDITOR
+Emma
+James
+Sofia
+
+SCRIPT
+
+Turn this launch script into a warm, confident voiceover with clean pacing and a natural close.
+
+Generate audio
+Listnr.
+
+AI voices, voice cloning, and text-to-speech tools for creators, teams, and global content workflows.
+
+Developer resources
+Knowledgebase
+Supported Languages
+Affiliate Programme
+Roadmap
+Blog
+Marathi Text to Speech Guide
+Hindi Text to Speech Guide
+Telugu Text to Speech Guide
+Best AI Voice Generators for Regional Languages
+EPUB to Audiobook
+Practical AI Workflow
+How to Create an Audiobook With AI
+Can You Monetize AI Voice on YouTube?
+Listnr vs Narration Box
+Best Narration Box Alternatives for AI Voiceovers
+Best AI Voices for Product Demos in 2026
+Products
+Text to Speech
+Text to Speech Online
+Speech to Text
+Voice Cloning
+Podcast Studio
+Tools
+AI Translator
+Video Use Cases
+Video Ad Generator
+AI Video Generator
+Facebook Reels Generator
+Instagram Reels Generator
+Video Subtitle Generator
+Text to Video Generator
+YouTube Channel Name Generator
+Instagram Name Generator
+Facebook Hashtag Generator
+Resources
+Support
+Contacts
+AI facts
+llms.txt
+Guides
+Privacy
+Terms
+Ethics & Safety
+Downloaders
+YouTube Video Downloader
+YouTube to MP4
+Extract Audio from YouTube Video
+Facebook Video Downloader
+Instagram Video Downloader
+TikTok Video Downloader
+TikTok Audio Downloader
+Twitter Video Downloader
+Free AI Thumbnail Maker
+Google Drive Downloader
+Reddit Video Downloader
+Comparisons
+Listnr vs PlayAI
+Listnr vs TTSmp3
+Listnr vs Speechelo
+Listnr vs Voicemaker
+Listnr vs Murf
+Listnr vs Fliki
+Listnr vs Notevibes
+Listnr vs FakeYou
+Listnr vs Uberduck
+Listnr vs ElevenLabs
+Listnr vs WellSaid Labs
+Listnr vs Synthesia
+Listnr vs NaturalReader
+Listnr vs Resemble AI
+Listnr vs Typecast
+Listnr vs Revoicer
+Listnr vs Voice Dream
+Listnr vs Neuphonic
+Listnr vs Nuance
+Listnr vs Wavel AI
+Listnr vs Unreal Speech
+
+© 2026 Listnr AI. All rights reserved.
+
+Privacy
+Terms
+
+=== 計費模式: 年繳 (yearly) ===
+2,000+ new Ultra voices are live. 130+ languages, with a persona for every script.
+
+Explore voices
+Listnr.
+Products
+Use cases
+Resources
+Pricing
+Enterprise
+Login
+Open studio
+PRODUCT HUNT
+#1 Product of the Day
+PRODUCT HUNT
+Golden Kitty Winner
+Pricing
+
+Simple and transparent pricing for all your voiceover needs.
+
+Monthly
+Yearly
+2 months free on yearly plans
+Free
+
+Get started for free. No credit card required.
+
+$0
+per month
+
+No credit card required
+
+1,000 credits to start
+Preview 1,000+ AI voices
+142+ languages and accents
+Listnr Studio access
+No credit card required
+Get started
+Individual
+
+Best for solo producers.
+
+$19
+per month
+
+Billed monthly
+
+20,000 credits/month
+~2 hours of voice generation
+Unlimited downloads and exports
+50GB storage
+50 videos/month
+Access to all 1,000+ voices
+Unlimited audio embeds
+Commercial rights
+Get started
+Solo
+// most popular
+
+Perfect for creators or small teams.
+
+$39
+per month
+
+Billed monthly
+
+50,000 credits/month
+~5 hours of voice generation
+Unlimited downloads and exports
+100GB storage
+150 videos/month
+Access to all 1,000+ voices
+Unlimited audio embeds
+Commercial rights
+Get started
+Agency
+
+Perfect for SMBs and agencies.
+
+$99
+per month
+
+Billed monthly
+
+250,000 credits/month
+~25 hours of voice generation
+Unlimited downloads and exports
+250GB storage
+250 videos/month
+Access to all 1,000+ voices
+Unlimited audio embeds
+Commercial rights
+Get started
+Custom pricing
+
+Need higher volumes or a setup tailored to your team? Contact us for a custom proposal. We typically reply within two hours.
+
+Contact us
+Features
+Seat-based licenses
+Custom credit volumes
+Dedicated API throughput
+Large team collaboration
+Low-latency generation
+Custom integrations
+Perks
+Service agreement
+Onboarding and training
+SSO and custom invoicing
+Priority feature access
+Enterprise-grade security
+Volume pricing
+Compare plans
+Compare features and choose the best plan for you
+Monthly
+Yearly
+2 months free on yearly plans
+Feature
+	
+
+Free
+
+$0/ month
+
+Get started	
+
+Individual
+
+$19/ month
+
+Get started	
+
+Solo
+
+$39/ month
+
+Get started	
+
+Agency
+
+$99/ month
 
 Get started
 Credits / month	1,000 to start	20,000	50,000	250,000

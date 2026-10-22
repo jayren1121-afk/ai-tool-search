@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Try for Free
 ---
 Monthly Plans
@@ -73,6 +74,87 @@ Native studio environment
 Generate from your audio
 ---
 Lock Studio — $56/month
+---
+Harmonizing Music
+with Artifical Intelligence
+---
+Get Started - Its Free
+=== 計費模式: 月繳 (monthly) ===
+Try for Free
+---
+Monthly Plans
+---
+Yearly Plans
+---
+☆ SUMMER SALE · 60% OFF
+---
+Available for limited time only
+---
+$24.99/month
+---
+$9.99
+---
+/month
+---
+Billed monthly
+---
+Save $15/month · locked for life
+---
+150 songs/mo, no voice targeting
+---
+Master quality output
+---
+Multiple variations per gen
+---
+Lock Starter — $9.99/month
+---
+Most Popular
+---
+☆ SUMMER SALE · 60% OFF
+---
+Available for limited time only
+---
+$62.49/month
+---
+$24.99
+---
+/month
+---
+Billed monthly
+---
+Save $37.50/month · locked for life
+---
+400 songs/mo (100 with voice targeting)
+---
+Multiple variations per gen
+---
+Bigger uploads, longer tracks
+---
+Lock Professional — $24.99/month
+---
+Studio
+---
+☆ SUMMER SALE · 60% OFF
+---
+Available for limited time only
+---
+$174.99/month
+---
+$69.99
+---
+/month
+---
+Billed monthly
+---
+Save $105/month · locked for life
+---
+1,000 songs/mo (300 with voice targeting)
+---
+Native studio environment
+---
+Generate from your audio
+---
+Lock Studio — $69.99/month
 ---
 Harmonizing Music
 with Artifical Intelligence

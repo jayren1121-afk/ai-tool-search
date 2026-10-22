@@ -1,5 +1,5 @@
-Introducing Gumloop Browser
-Learn more
+Live Workshop: How Gumloop uses Gumloop
+Register
 Solutions
 Solutions
 Resources
@@ -229,13 +229,12 @@ Learning Cohorts
 Workshops
 Hire an Expert
 Creators
-Forum
 Social
 YouTube
 Twitter
 LinkedIn
 Compare
-ChatGPT Agent
+ChatGPT Work
 Claude Cowork
 Dust
 Glean

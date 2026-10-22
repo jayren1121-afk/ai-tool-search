@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Musicfy
 
 Pricing
@@ -115,6 +116,168 @@ Native studio environment
 Generate from your audio
 
 Lock Studio — $56/month
+
+Harmonizing Music
+with Artifical Intelligence
+
+Use AI to create music with your voice and Leverage the latest in AI technology to supercharge your music.
+
+Get Started - Its Free
+
+No Credit Card Required
+
+Musicfy
+
+Creating the future of music 
+
+Menu
+
+Home
+
+Pricing
+
+Contact
+
+Partner
+
+Studio
+
+Blogs
+
+Affiliate
+
+Affiliate ToS
+
+Copyright © 2026 Musicfy Inc.
+
+Terms and Conditions
+
+Privacy Policy
+
+Refund Policy
+
+DMCA Policy
+
+           
+
+=== 計費模式: 月繳 (monthly) ===
+Musicfy
+
+Pricing
+
+Contact
+
+Blogs
+
+API
+
+Affiliate
+
+Try for Free
+
+Easy Payments
+
+Pricing and Plans
+
+Use AI to create music with your voice and Leverage the latest in AI technology to supercharge your music.
+
+Monthly Plans
+
+Yearly Plans
+
+Starter
+
+2 Custom Voices
+
+☆ SUMMER SALE · 60% OFF
+
+Available for limited time only
+
+$24.99/month
+
+$9.99
+
+/month
+
+Billed monthly
+
+Save $15/month · locked for life
+
+150 songs/mo, no voice targeting
+
+All Musicfy & Community Voices
+
+25 MB Upload Limit
+
+Master quality output
+
+Multiple variations per gen
+
+Lock Starter — $9.99/month
+
+Most Popular
+
+Professional
+
+6 Custom Voices
+
+☆ SUMMER SALE · 60% OFF
+
+Available for limited time only
+
+$62.49/month
+
+$24.99
+
+/month
+
+Billed monthly
+
+Save $37.50/month · locked for life
+
+400 songs/mo (100 with voice targeting)
+
+Fastest Speed · 100 MB Uploads
+
+Commercial License
+
+Studio-grade audio fidelity
+
+Multiple variations per gen
+
+Bigger uploads, longer tracks
+
+Lock Professional — $24.99/month
+
+Studio
+
+30 Custom Voices
+
+☆ SUMMER SALE · 60% OFF
+
+Available for limited time only
+
+$174.99/month
+
+$69.99
+
+/month
+
+Billed monthly
+
+Save $105/month · locked for life
+
+1,000 songs/mo (300 with voice targeting)
+
+150 MB Uploads · 1-hr datasets · Simultaneous Training
+
+Commercial License
+
+Native studio environment
+
+Generate from your audio
+
+Lock Studio — $69.99/month
 
 Harmonizing Music
 with Artifical Intelligence

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
 Yearly
 2 months free on yearly plans
@@ -98,6 +99,133 @@ Agency
 $99/ month
 ---
 Billed $990 annually
+---
+Get started
+Credits / month	1,000 to start	20,000	50,000	250,000
+Voice generation	Starter	~2 hours	~5 hours	~25 hours
+---
+50GB	100GB	250GB
+Videos / month
+50	150	250
+---
+Need more credits?
+---
+If a monthly quota runs out, purchase extra credits in Listnr Studio or move up a plan. Cards are processed securely through the billing portal.
+---
+Volume pricing based on monthly credit usage
+1,000+ voices across 142+ languages and accents
+---
+Contact sales
+Trusted by leading organizations
+---
+What happens when I run out of my monthly quota?
+---
+What is the difference between monthly and yearly billing?
+---
+Yearly billing charges 10 months up front — two months free compared with paying month to month. Monthly billing renews each month at the listed rate.
+---
+How can I downgrade to the free tier?
+---
+Cancel the paid subscription from your dashboard. The account reverts to the free tier at the end of the current paid period.
+---
+Twitter Video Downloader
+Free AI Thumbnail Maker
+Google Drive Downloader
+=== 計費模式: 年繳 (yearly) ===
+Monthly
+Yearly
+2 months free on yearly plans
+Free
+---
+Get started for free. No credit card required.
+---
+$0
+per month
+---
+No credit card required
+---
+1,000 credits to start
+Preview 1,000+ AI voices
+---
+Individual
+---
+Best for solo producers.
+---
+$19
+per month
+---
+Billed monthly
+---
+20,000 credits/month
+~2 hours of voice generation
+---
+50GB storage
+50 videos/month
+Access to all 1,000+ voices
+---
+Solo
+// most popular
+---
+Perfect for creators or small teams.
+---
+$39
+per month
+---
+Billed monthly
+---
+50,000 credits/month
+~5 hours of voice generation
+---
+100GB storage
+150 videos/month
+Access to all 1,000+ voices
+---
+Agency
+---
+Perfect for SMBs and agencies.
+---
+$99
+per month
+---
+Billed monthly
+---
+250,000 credits/month
+~25 hours of voice generation
+---
+250GB storage
+250 videos/month
+Access to all 1,000+ voices
+---
+Get started
+Custom pricing
+---
+Compare features and choose the best plan for you
+Monthly
+Yearly
+2 months free on yearly plans
+Feature
+---
+Free
+---
+$0/ month
+---
+Get started
+---
+Individual
+---
+$19/ month
+---
+Get started
+---
+Solo
+---
+$39/ month
+---
+Get started
+---
+Agency
+---
+$99/ month
 ---
 Get started
 Credits / month	1,000 to start	20,000	50,000	250,000

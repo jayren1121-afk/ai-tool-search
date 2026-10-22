@@ -1,49 +1,132 @@
+=== 計費模式: 預設畫面 (default) ===
 Blog
 Free trial
 Login
 ---
 Monthly
-Yearly -20%
+Yearly 2 months free
 Bronze plan
 ---
 23
 /mo
-2 projects/folders
+2 projects
 ---
-5 AI-monitored questions (Standard)
-15,000 AI credits
+15,000
+AI credits
 Standard AI templates
 ---
 45
 /mo
-5 projects/folders
+5 projects
 ---
-7 AI-monitored questions (Standard)
-30,000 AI credits
+30,000
+AI credits
 Standard AI templates
 ---
 69
 /mo
-10 projects/folders
+10 projects
 ---
-10 AI-monitored questions (Standard)
-45,000 AI credits
+45,000
+AI credits
 Advanced + Custom AI templates
 ---
 93
 /mo
-25 projects/folders
+25 projects
 ---
-15 AI-monitored questions (Standard)
-60,000 AI credits
+60,000
+AI credits
 Advanced + Custom AI templates
 ---
 117
 /mo
-50 projects/folders
+50 projects
 ---
-20 AI-monitored questions (Standard)
-75,000 AI credits
+75,000
+AI credits
+Advanced + Custom AI templates
+---
+100
+250
+500
+1 000
+$9 / month
+---
+AI responses monitored in models:
+=== 計費模式: 年繳 (yearly) ===
+Blog
+Free trial
+Login
+---
+Monthly
+Yearly 2 months free
+Bronze plan
+For business owner improving SEO & AI rankings
+$276
+$
+230
+/year
+2 projects
+---
+180,000
+AI credits
+Standard AI templates
+---
+Read-only sharing
+Get started
+Silver plan
+For a copywriter delivering outstanding results to clients
+$540
+$
+450
+/year
+5 projects
+---
+360,000
+AI credits
+Standard AI templates
+---
+Get started
+Most popular
+Gold plan
+For a team of copywriters or a small agency
+$828
+$
+690
+/year
+10 projects
+---
+540,000
+AI credits
+Advanced + Custom AI templates
+---
+Neuron API/MCP/AI Assistant
+Get started
+Platinum plan
+For a larger business working on several domains
+$1,116
+$
+930
+/year
+25 projects
+---
+720,000
+AI credits
+Advanced + Custom AI templates
+---
+Neuron API/MCP/AI Assistant
+Get started
+Diamond plan
+For a agency responsible for multiple projects
+$1,404
+$
+1,170
+/year
+50 projects
+---
+900,000
+AI credits
 Advanced + Custom AI templates
 ---
 100

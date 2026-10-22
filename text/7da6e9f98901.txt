@@ -1,3 +1,4 @@
+Skip to content
 Desktop
 Cloud
 IDE
@@ -7,7 +8,7 @@ ClinePass
 Docs
 More
 Sign In
-70k
+71k
 Simple, transparent pricing
 
 Cline is free for individual developers. Pay only for AI inference on a usage basis - no subscriptions, no vendor lock-in.
@@ -17,8 +18,7 @@ Free
 
 For individual developers
 
-Install Cline >
-
+Install Cline
 Features
 
 VS Code Extension
@@ -38,11 +38,7 @@ Community Support
 ENTERPRISE
 Custom
 SSO, SLA & Dedicated Support
-
-All Open Source Features +
-
 Contact Sales
-
 All Open Source Features +
 
 JetBrains Extension
@@ -93,48 +89,47 @@ Is there vendor lock-in?
 
 No! Cline is open source and supports providers like Anthropic, Gemini, OpenAI, OpenRouter, AWS Bedrock, GCP Vertex, Groq, Cerebras, Vercel AI Gateway, DeepSeek, and many more. You're never locked into our platform or pricing. Switch providers or self-host anytime.
 
-Transform your engineering team with a fully collaborative AI partner. Open source, fully extensible, and built to amplify developer impact.
-
-Stay updated on Cline's evolution
-
-Subscribe
-
 Product
-
 Docs
 Models
 Blog
 Enterprise
-MCP Marketplace
+MCP marketplace
 IDE
 CLI
 Cloud
 SDK
 Changelog
-
 Community
-
 Discord
 Reddit
 GitHub Discussions
-
 Support
-
-GitHub Issues
-Feature Requests
+GitHub issues
+Feature requests
 Contact
-
+Cookie settings
 Company
-
 Careers
 Brand
 Terms
 Privacy
+Stay in touch
+Email address
+Discord
+X
+LinkedIn
+Reddit
+GitHub
+Color theme
+System
+Light
+Dark
 
 © 2026 Cline Bot Inc. All rights reserved.
 
-We use cookies to enhance your experience, analyze traffic, and personalize content. By clicking 'Accept', you consent to our use of cookies. Learn more in our Privacy Notice.
+We use cookies to improve the site, measure traffic, and personalize content. Privacy Notice
 
-Decline Non-Essential
-Manage Preferences
+Preferences
+Decline Optional
 Accept All

@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：212 筆
+- 可批次核准（無旗標）：43 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：214 筆
 
 核准單筆範本：
 ```sql
@@ -115,12 +115,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **prezi-ai**（Prezi）旗標：dropped_fields；；來源 https://prezi.com/pricing；擷取 2026-10-21T12:12:16+08:00
 - **crowdin**（Crowdin）旗標：dropped_fields, price_near_quote；；來源 https://crowdin.com/pricing；擷取 2026-10-21T12:12:21+08:00
 - **relume**（Relume）旗標：yearly_gt_monthly；Pro: yearly_gt_monthly；來源 https://www.relume.io/pricing；擷取 2026-10-21T12:12:31+08:00
-- **listnr**（Listnr）旗標：name_diff, period_ambiguous_toggle, price_near_quote；資料集方案 ['Teams'] vs 新 ['Free', 'Individual', 'Solo', 'Agency']; Individual: period_ambiguous_toggle; Solo: period_ambiguous_toggle; Agency: period_ambiguous_toggle；來源 https://www.listnr.ai/pricing；擷取 2026-10-12T13:34:16+08:00
-- **musicfy**（Musicfy）旗標：dropped_fields, has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Studio: period_ambiguous_toggle；來源 https://musicfy.lol/pricing；擷取 2026-10-12T13:34:16+08:00
-- **neuronwriter**（NeuronWriter）旗標：name_diff, name_missing, period_ambiguous_toggle；資料集方案 ['Business', 'Team'] vs 新 ['Bronze', '', '', '', '']; Bronze: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://neuronwriter.com/pricing；擷取 2026-10-12T13:34:30+08:00
-- **glass-health**（Glass Health）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://glass.health/pricing；擷取 2026-10-12T13:34:40+08:00
-- **kickresume**（Kickresume）旗標：period_ambiguous_toggle, price_near_quote, price_unclear；Quarterly: price_unclear; Monthly: period_ambiguous_toggle；來源 https://www.kickresume.com/pricing；擷取 2026-10-12T13:34:48+08:00
-- **getimg**（getimg.ai）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Entry: period_ambiguous_toggle; Core: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Ultra: period_ambiguous_toggle；來源 https://getimg.ai/pricing；擷取 2026-10-12T13:35:01+08:00
+- **listnr**（Listnr）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Free', 'Individual', 'Solo', 'Agency']；來源 https://www.listnr.ai/pricing；擷取 2026-10-22T12:11:01+08:00
+- **musicfy**（Musicfy）旗標：has_promo, price_near_quote；；來源 https://musicfy.lol/pricing；擷取 2026-10-22T12:11:02+08:00
+- **undermind**（Undermind）旗標：has_promo, period_ambiguous_toggle；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.undermind.ai/pricing；擷取 2026-10-22T12:11:10+08:00
+- **neuronwriter**（NeuronWriter）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Business', 'Team'] vs 新 ['Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond']; Bronze: period_ambiguous_toggle; Silver: period_ambiguous_toggle; Gold: period_ambiguous_toggle; Platinum: period_ambiguous_toggle; Diamond: period_ambiguous_toggle；來源 https://neuronwriter.com/pricing；擷取 2026-10-22T12:11:18+08:00
+- **glass-health**（Glass Health）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://glass.health/pricing；擷取 2026-10-22T12:11:30+08:00
+- **kickresume**（Kickresume）旗標：period_ambiguous_toggle, price_near_quote, price_unclear；Quarterly: price_unclear; Monthly: period_ambiguous_toggle；來源 https://www.kickresume.com/pricing；擷取 2026-10-22T12:11:30+08:00
+- **getimg**（getimg.ai）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://getimg.ai/pricing；擷取 2026-10-22T12:11:42+08:00
+- **rodin**（Hyper3D Rodin）旗標：dropped_fields；；來源 https://hyper3d.ai/pricing；擷取 2026-10-22T12:11:55+08:00
 - **deepbrain**（DeepBrain AI (AI Studios)）旗標：period_ambiguous_toggle；Personal: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.deepbrain.io/pricing；擷取 2026-10-12T13:35:15+08:00
 - **riffusion**（Riffusion）旗標：has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Member: period_ambiguous_toggle；來源 https://www.riffusion.com/pricing；擷取 2026-10-12T13:35:22+08:00
 - **lindy**（Lindy）旗標：dropped_fields, price_change；Team: 資料集 $29.99/月 → 官網 $49.99；來源 https://www.lindy.ai/pricing；擷取 2026-10-12T13:35:24+08:00
