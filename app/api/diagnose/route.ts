@@ -89,8 +89,8 @@ export async function POST(req: NextRequest) {
   }
 
   const [homeR, pricingR, buzzR, altR] = await Promise.all([
-    pageText(tool.url, true),
-    tool.pricing_url && tool.pricing_url !== tool.url ? pageText(tool.pricing_url) : Promise.resolve({ text: "", html: "" }),
+    pageText(tool.url, true, { strict: true }),
+    tool.pricing_url && tool.pricing_url !== tool.url ? pageText(tool.pricing_url, false, { strict: true }) : Promise.resolve({ text: "", html: "" }),
     fetchBuzz(tool.name, tool.url).catch((): BuzzFetch => ({ snippets: [], checked: ["口碑來源（全部失敗）"], hnMentions90d: null })),
     pickAlternatives(tool.id).catch(() => ({ self: null, alts: [] })),
   ]);
@@ -155,7 +155,6 @@ ${altText}`;
   console.info(`diagnose ${tool.id} [${loc}]: prompt≈${estTokens(system + user)} tokens, snippets=${buzzR.snippets.length}, alts=${altR.alts.length}`);
   after(() => refreshHeat({ id: tool.id, url: tool.url }, { html: homeR.html, hnMentions: buzzR.hnMentions90d }).catch((e) => console.error("refreshHeat", e)));
 
-  const errors: string[] = [];
   for (const provider of order) {
     try {
       const result = enforceEvidence(await callProvider(provider, system, user, ctx), home + " " + pricing, thin, loc);
@@ -167,9 +166,8 @@ ${altText}`;
       return respond({ id: saved?.id ?? null, result, model, created_at: saved?.created_at ?? new Date().toISOString(), cached: false });
     } catch (e) {
       console.error(`diagnose ${provider} error`, e);
-      errors.push(`${provider}: ${(e as Error).message}`.slice(0, 200));
     }
   }
   if (latest) return respond({ ...latest, cached: true, notice: M("AI 服務暫時無法使用，以下為較舊的快取結果。", "The AI service is temporarily unavailable; showing an older cached result.") });
-  return respond({ error: M("AI 診斷失敗，請稍後再試", "AI diagnosis failed, please try again later"), details: errors }, 502);
+  return respond({ error: M("AI 診斷失敗，請稍後再試", "AI diagnosis failed, please try again later") }, 502);
 }

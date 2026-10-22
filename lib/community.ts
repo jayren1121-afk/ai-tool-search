@@ -1,6 +1,7 @@
 import "server-only";
 import { supabaseAdmin } from "./supabase-admin";
 import { firstTime } from "./security";
+import { pageText } from "./pagetext";
 import { distinctHost } from "./textutil";
 import { withPublished } from "./published";
 import type { AltRow, Heat, HeatPart, Review, VoteStats } from "./types";
@@ -132,9 +133,7 @@ export async function refreshHeat(tool: { id: string; url: string }, opts: { htm
   const views30 = views.error ? null : (views.data ?? []).reduce((a: number, r: { views: number }) => a + r.views, 0);
   const diag30 = diags.error ? null : diags.count ?? 0;
   let html = opts.html;
-  if (html === undefined) {
-    try { const r = await fetch(tool.url, { headers: { "User-Agent": "Mozilla/5.0 AIToolSearchBot" }, signal: AbortSignal.timeout(8000) }); html = r.ok ? (await r.text()).slice(0, 800_000) : ""; } catch { html = ""; }
-  }
+  if (html === undefined) html = (await pageText(tool.url, true, { strict: true, timeoutMs: 8000 })).html;
   const repo = detectGithubRepo(tool.url, html || "");
   const [stars, hn] = await Promise.all([repo ? githubStars(repo) : Promise.resolve(null), opts.hnMentions !== undefined ? Promise.resolve(opts.hnMentions) : hnCount(tool.url)]);
   const votes = stats ? stats.up + stats.down : null;
