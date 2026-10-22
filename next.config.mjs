@@ -3,6 +3,7 @@
 // fundingchoicesmessages.google.com；*.googlesyndication.com 已含 pagead2 與 tpc。
 // 仍寫上個別主機，方便對照 AdSense 要求。*.doubleclick.net 只比對一層子網域，
 // 廣告 iframe 在 googleads.g.doubleclick.net，所以另外允許 *.g.doubleclick.net。
+// adsbygoogle.js 會再載入 ep1/ep2.adtrafficquality.google（sodar）。
 const adsenseSources = [
   "https://pagead2.googlesyndication.com",
   "https://*.googlesyndication.com",
@@ -13,6 +14,7 @@ const adsenseSources = [
   "https://adservice.google.com",
   "https://tpc.googlesyndication.com",
   "https://fundingchoicesmessages.google.com",
+  "https://*.adtrafficquality.google",
 ].join(" ");
 
 const contentSecurityPolicy = [
