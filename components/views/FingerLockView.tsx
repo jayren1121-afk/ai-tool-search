@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
+import FingerLockSafety from "@/components/FingerLockSafety";
 import FingerLockStepper from "@/components/FingerLockStepper";
 import FingerLockVerify from "@/components/FingerLockVerify";
 import { FL, FL_LINKS, FL_PATH } from "@/lib/fingerlock";
@@ -63,7 +64,7 @@ export default function FingerLockView({ locale }: { locale: Locale }) {
             <a className="fingerlock-manual-btn" href={FL_LINKS.manualEn} {...ext}>{copy.manualShortEn}</a>
           </div>
         </div>
-        <p className="mt-3 text-sm text-slate-600">{copy.smartScreen}</p>
+        <FingerLockSafety locale={locale} />
         <FingerLockVerify locale={locale} />
 
         <h2 className="mt-6 text-lg font-semibold">{copy.featuresTitle}</h2>
