@@ -40,7 +40,7 @@ export const jsonLd = (o: unknown) => JSON.stringify(o).replace(/</g, "\\u003c")
 
 /* ---------- v6 英文版 ---------- */
 export const SITE_NAME_EN = "jAytal AI Tool Search";
-export const SITE_DESC_EN = "jAytal AI Tool Search: compare pricing, subscription plans, free tiers and free tiers for nearly 500 popular AI tools by category, with live AI diagnosis.";
+export const SITE_DESC_EN = "jAytal AI Tool Search: compare pricing, subscription plans, and free tiers for nearly 500 popular AI tools by category, with live AI diagnosis.";
 export const siteName = (loc: "zh" | "en") => (loc === "en" ? SITE_NAME_EN : SITE_NAME);
 export const siteDesc = (loc: "zh" | "en") => (loc === "en" ? SITE_DESC_EN : SITE_DESC);
 /** hreflang：每組中英頁面互相指向，x-default 指向中文 */

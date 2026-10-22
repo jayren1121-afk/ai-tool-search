@@ -9,7 +9,7 @@ export default function SiteHeader() {
   const other: Locale = locale === "en" ? "zh" : "en";
   const href = lp(other, base);
   const L = t(locale);
-  const remember = () => { document.cookie = `${LANG_COOKIE}=${other}; path=/; max-age=31536000; samesite=lax`; };
+  const remember = () => { document.cookie = `${LANG_COOKIE}=${other}; path=/; max-age=31536000; samesite=lax; secure`; };
   return (
     <header className="border-b border-slate-200 bg-white/80">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-2 text-sm">

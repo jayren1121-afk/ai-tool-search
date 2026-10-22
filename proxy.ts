@@ -23,7 +23,7 @@ export function proxy(req: NextRequest) {
   const res = NextResponse.redirect(url, 307);
   res.headers.set("Cache-Control", "private, no-store");
   res.headers.set("Vary", "Accept-Language, Cookie, User-Agent");
-  if (pref !== "en") res.cookies.set(COOKIE, "en", { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "lax" });
+  if (pref !== "en") res.cookies.set(COOKIE, "en", { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "lax", secure: true });
   return res;
 }
 

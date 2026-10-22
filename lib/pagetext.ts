@@ -1,5 +1,7 @@
 // 抓網頁文字（原本位於 app/api/diagnose/route.ts，抽出供 AI 診斷與每日自動發現共用）
 // 除了可見內文，也擷取標題、meta 描述與結構化資料（JS 網站的可見文字常常很少，但這些通常還在）
+import { lookup } from "node:dns/promises";
+import { BlockList, isIP } from "node:net";
 
 export const PAGE_CHARS = 6000;   // 每頁最多字元數
 export const PAGE_TOKENS = 1200;  // 每頁估算 token 上限；加上口碑片段與替代方案仍需低於 Groq 免費額度（約 8K tokens/分鐘）
@@ -35,15 +37,62 @@ export function publicHttpUrl(u: string): boolean {
   } catch { return false; }
 }
 
+// 0.0.0.0/8 在 Linux 上會連到本機，與 loopback 一併拒絕。169.254.0.0/16 含雲端 metadata（169.254.169.254）。
+const blockedIps = new BlockList();
+for (const [net, prefix] of [["0.0.0.0", 8], ["10.0.0.0", 8], ["127.0.0.0", 8], ["169.254.0.0", 16], ["172.16.0.0", 12], ["192.168.0.0", 16]] as const) {
+  blockedIps.addSubnet(net, prefix, "ipv4");
+}
+blockedIps.addAddress("100.100.100.200", "ipv4"); // 阿里雲 metadata，不在上面的網段裡
+blockedIps.addAddress("::", "ipv6");
+blockedIps.addAddress("::1", "ipv6");
+blockedIps.addSubnet("fc00::", 7, "ipv6"); // 含 fd00:ec2::254
+blockedIps.addSubnet("fe80::", 10, "ipv6");
+
+/** loopback、私有、link-local、metadata，以及無法辨識的位址 */
+export function isBlockedIp(raw: string): boolean {
+  let s = raw.trim().toLowerCase().replace(/%.+$/, "");
+  if (s.startsWith("[") && s.endsWith("]")) s = s.slice(1, -1);
+  const dotted = s.match(/^::ffff:(\d{1,3}(?:\.\d{1,3}){3})$/);
+  if (dotted) s = dotted[1];
+  else {
+    const hex = s.match(/^::ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$/);
+    if (hex) {
+      const n = (Number.parseInt(hex[1], 16) << 16) + Number.parseInt(hex[2], 16);
+      s = `${(n >>> 24) & 255}.${(n >>> 16) & 255}.${(n >>> 8) & 255}.${n & 255}`;
+    }
+  }
+  const family = isIP(s);
+  if (family !== 4 && family !== 6) return true;
+  try { return blockedIps.check(s, family === 4 ? "ipv4" : "ipv6"); } catch { return true; }
+}
+
+/** 這個主機名稱的每一筆 DNS 結果都必須是公開位址；查不到則拒絕 */
+async function hostResolvesPublic(hostname: string, signal: AbortSignal): Promise<boolean> {
+  const host = hostname.replace(/^\[|\]$/g, "");
+  if (isIP(host)) return !isBlockedIp(host);
+  if (signal.aborted) return false;
+  try {
+    const found = await lookup(host, { all: true, verbatim: true });
+    if (signal.aborted) return false;
+    const rows = Array.isArray(found) ? found : [found];
+    return rows.length > 0 && rows.every((r) => !isBlockedIp(r.address));
+  } catch { return false; }
+}
+
 async function fetchHtml(url: string, timeoutMs: number, strict: boolean): Promise<Response | null> {
   if (!strict) return fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(timeoutMs), redirect: "follow" });
-  // strict：手動跟隨轉址（最多 4 次），每一跳都檢查是否為公開網域
+  // strict：手動跟隨轉址（最多 4 次）。每一跳都要是公開網域，而且 DNS 不能落到 loopback／私有／link-local／metadata
   let cur = url;
   const signal = AbortSignal.timeout(timeoutMs);
   for (let i = 0; i < 5; i++) {
-    if (!publicHttpUrl(cur)) return null;
+    if (!publicHttpUrl(cur) || !(await hostResolvesPublic(new URL(cur).hostname, signal))) return null;
     const r = await fetch(cur, { headers: BROWSER_HEADERS, signal, redirect: "manual" });
-    if (r.status >= 300 && r.status < 400 && r.headers.get("location")) { cur = new URL(r.headers.get("location")!, cur).toString(); continue; }
+    const loc = r.headers.get("location");
+    if (r.status >= 300 && r.status < 400 && loc) {
+      await r.body?.cancel().catch(() => {});
+      cur = new URL(loc, cur).toString();
+      continue;
+    }
     return r;
   }
   return null;
