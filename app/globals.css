@@ -316,6 +316,10 @@ a.fingerlock-download:hover { background: #657a61; }
 }
 .fingerlock-verify summary,
 .fingerlock-safety summary { font-weight: 650; cursor: pointer; }
+/* 收合時只留標題那一行；說明與步驟在打開後才出現 */
+.fingerlock-safety:not([open]) { padding-block: 0.4rem; }
+.fingerlock-safety:not([open]) .fingerlock-safety-body { display: none; }
+.fingerlock-safety summary { display: list-item; line-height: 1.45; }
 .fingerlock-verify-body,
 .fingerlock-safety-body { margin-top: 0.55rem; font-size: 0.95rem; }
 .fingerlock-safety-body h3 { margin-top: 0.9rem; font-size: 1.05rem; font-weight: 650; }
