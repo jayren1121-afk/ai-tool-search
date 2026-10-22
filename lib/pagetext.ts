@@ -66,21 +66,15 @@ export function isBlockedIp(raw: string): boolean {
   try { return blockedIps.check(s, family === 4 ? "ipv4" : "ipv6"); } catch { return true; }
 }
 
-/** 這個主機名稱的每一筆 DNS 結果都必須是公開位址；查不到或逾時則拒絕 */
+/** 這個主機名稱的每一筆 DNS 結果都必須是公開位址；查不到則拒絕 */
 async function hostResolvesPublic(hostname: string, signal: AbortSignal): Promise<boolean> {
   const host = hostname.replace(/^\[|\]$/g, "");
   if (isIP(host)) return !isBlockedIp(host);
   if (signal.aborted) return false;
   try {
-    const rows = await new Promise<Awaited<ReturnType<typeof lookup>>>((resolve, reject) => {
-      const onAbort = () => reject(new Error("aborted"));
-      if (signal.aborted) return onAbort();
-      signal.addEventListener("abort", onAbort, { once: true });
-      lookup(host, { all: true, verbatim: true }).then(
-        (found) => { signal.removeEventListener("abort", onAbort); resolve(found); },
-        (err) => { signal.removeEventListener("abort", onAbort); reject(err); },
-      );
-    });
+    const found = await lookup(host, { all: true, verbatim: true });
+    if (signal.aborted) return false;
+    const rows = Array.isArray(found) ? found : [found];
     return rows.length > 0 && rows.every((r) => !isBlockedIp(r.address));
   } catch { return false; }
 }
