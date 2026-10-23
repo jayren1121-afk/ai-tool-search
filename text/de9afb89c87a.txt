@@ -165,11 +165,13 @@ Integrations
 Pricing
 Security
 Chrome Extension
+What’s new
 Enterprise
 Case Studies
 Contact Sales
 Resources
 Docs
+Engineering blog
 Contact
 Creators
 Sitemap

@@ -475,6 +475,10 @@ Rezi Enterprise
 
 Rezi Enterprise
 
+Rezi Mobile App
+
+Rezi Mobile App
+
 Chrome Extension
 
 Chrome Extension

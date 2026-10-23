@@ -54,7 +54,7 @@ Full page contents for LLM context
 :
 }
 Deep Search
-$12–15
+$12
 /1k requests
 ---
 Multi-step agent workflows
@@ -77,18 +77,18 @@ From $4
 Try Search for Free
 ---
 Endpoint pricing
-Endpoint	Instant Search	Fast / Auto Search	Deep Search	Deep-Reasoning Search	Contents	Monitors	Answer
+Endpoint	Lite Search	Auto Search	Deep Search	Contents	Monitors	Answer
 Base price, with up to 10 results
 (per 1k requests)
-$4	$7	$12	$15	$1
+$4	$7	$12	$1
 (per 1k pages)
 $15	$5
 Cost per additional result above 10
 (per 1k requests)
-$1	$1	$1	$1	-	$1	-
+$1	$1	$1	-	$1	-
 AI page summaries
 (per 1k pages)
-$1	$1	$1	$1	$1	$1	-
+$1	$1	$1	$1	$1	-
 ---
 Agent pricing
 ---

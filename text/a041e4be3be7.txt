@@ -15,8 +15,8 @@ Build the right Ironclad solution for your team, with pricing shaped by your pro
 
 *
 Business Email:
-By clicking "Get a Custom Quote", I am agreeing to the Terms of Service and Privacy Policy, and to receive email communications from Ironclad.
-Get a Custom Quote
+By clicking "Request Demo", I am agreeing to the Terms of Service and Privacy Policy, and to receive email communications from Ironclad.
+Request Demo
 Choose from a simple set of solutions
 Pick your product(s)
 
@@ -425,7 +425,7 @@ Yes, all businesses can use Ironclad. As opposed to other contract management pl
 
 Chat with a digital contracting specialist
 
-Get a Custom Quote
+Request a Demo
 
 Ironclad is not a law firm. Information contained on Ironclad’s site does not constitute or contain legal advice, and use of and access to any of the resources contained within Ironclad’s site do not create an attorney-client relationship between the user and Ironclad. Your access to Ironclad’s website is subject to our Terms of Service and Privacy Policy.
 
@@ -471,7 +471,6 @@ What’s New at Ironclad
 For Developers
 ClickWrap API Documentation
 CLM API Documentation
-Integrations
 Rivet
 About
 About Us

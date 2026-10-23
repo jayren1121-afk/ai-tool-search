@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Get a demo
 Start free
 Pricing that fits how you prospect
@@ -42,6 +43,80 @@ Start on Free, upgrade anytime.
 Team
 ---
 $125
+---
+$150
+---
+/seat/mo
+---
+Everything in Pro, for every seat
+15,000 credits per seat a month, or 180,000 on annual
+One credit pool the whole team draws from
+---
+Two seats minimum, add more as you grow
+Start free
+---
+Start on Free, add seats in-app.
+---
+Everything in the Pro plan
+Volume credits, priced to your team
+Custom CRM sync
+---
+Get a demo
+How credits work
+---
+What uses credits
+---
+What's free
+---
+Free gives each person 250 credits, one time. Pro includes 5,000 a month and Team 15,000 per seat, or a year's worth up front on annual.
+---
+No. Start free with 250 credits using just a work email. You only add a card if you upgrade to a paid plan.
+---
+Will AI-written email hurt my domain?
+What happens when I run out of credits?
+Do credits roll over?
+Do I have to switch off my current CRM?
+=== 計費模式: 月繳 (monthly) ===
+Get a demo
+Start free
+Pricing that fits how you prospect
+---
+Start free with no credit card and upgrade only when it's working.
+---
+Monthly
+Annual
+-17%
+---
+Free
+---
+$0
+---
+For trying RegieGO before you commit.
+---
+250 one-time credits per person, never expiring
+Up to 10 people, sharing one credit pool
+---
+No credit card required
+Start free
+---
+No credit card needed.
+---
+Pro
+---
+$49
+---
+/mo
+---
+Everything in the Free plan
+5,000 credits a month, or 60,000 up front on annual
+The power dialer, with local numbers you pick
+Enrichment costs nothing when it finds nothing
+Save 17% with annual billing
+Start free
+---
+Start on Free, upgrade anytime.
+---
+Team
 ---
 $150
 ---

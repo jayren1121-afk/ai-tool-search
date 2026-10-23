@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Skip to content
 
 The Koala AI MCP is out of beta. Every paid plan can connect an AI assistant to 62 SEO tools and KoalaWriter.
@@ -158,8 +159,19 @@ Everything in Scale I
 KoalaWriter: 10,000,000 words per month
 25,000 credits per month
 Brand DNA: 75 brands
+Add to any paid plan
+Extra brand slot
 
-* The word count is based on using GPT-6 Luna. GPT-6 Sol and Claude Sonnet 5 count words at 2x, and Claude Opus 5.5 counts at 3x.
+$29
+/mo each
+
+One more brand with its own Brand DNA, agent and calendar. Up to 10.
+
+Requires a paid plan.
+
+Brand slots renew monthly. Pick a plan above to buy add-ons.
+
+* The word count is based on using GPT-6 Luna. GPT-6.1 Sol and Claude Sonnet 5 count words at 2x, and Claude Opus 5.5 counts at 3x.
 
 Loved by 20,000+ paid creators
 
@@ -264,15 +276,6 @@ Nikita Patil
 
 I found Koala AI, and have been hooked. If you are in the publishing business, this one is for you. Koala AI is the only tool that writes full-length, formatted, long-form, current, attributed blog posts in one click - with minimal prompting.
 
-Hans M
-★
-★
-★
-★
-★
-
-Rough-draft, SEO-optimized content at scale. A quick round of heavy editing to by a professional writer and expert in the field and you're good to go. Great topical authority and topical coverage. There's nothing on the market like Koala AI that cleverly ingests reliable information as an LLM-source before creating the content. Absolutely magical! I've used dozens of AI writers and nothing else comes close.
-
 Michael K
 ★
 ★
@@ -282,14 +285,14 @@ Michael K
 
 Very good. We needed to create content for our blogs in order to rank on search and Koala AI created a lot of fantastic, readable content that sounded like we had hired a writer
 
-Faith A
+Jeremy S
 ★
 ★
 ★
 ★
 ★
 
-Koala AI does more than just find words - it breathes life into them. This ingenious tool crafts powerful, meaningful copy that I could never conjure up on my own. With Koala AI, I am never at a loss for words; instead, I am armed with potent content that makes a real impact. As a very busy Founder of multiple businesses, it is like having another employee with me.
+We can't stress how much of a time saver this is for us. The articles produced are high quality and don't take much editing. Can't say how much of a joy it is to use it
 
 Julian J
 ★
@@ -300,14 +303,23 @@ Julian J
 
 Automatic high quality blog post creation from A to Z. Including picking the right outline based on the keyword, sources, and internal linking
 
-Jeremy S
+Faith A
 ★
 ★
 ★
 ★
 ★
 
-We can't stress how much of a time saver this is for us. The articles produced are high quality and don't take much editing. Can't say how much of a joy it is to use it
+Koala AI does more than just find words - it breathes life into them. This ingenious tool crafts powerful, meaningful copy that I could never conjure up on my own. With Koala AI, I am never at a loss for words; instead, I am armed with potent content that makes a real impact. As a very busy Founder of multiple businesses, it is like having another employee with me.
+
+Hans M
+★
+★
+★
+★
+★
+
+Rough-draft, SEO-optimized content at scale. A quick round of heavy editing to by a professional writer and expert in the field and you're good to go. Great topical authority and topical coverage. There's nothing on the market like Koala AI that cleverly ingests reliable information as an LLM-source before creating the content. Absolutely magical! I've used dozens of AI writers and nothing else comes close.
 
 Rachel S
 ★
@@ -322,11 +334,15 @@ Frequently Asked Questions
 Is there a free trial available?
 Yes. Every new account gets 5,000 free words and 25 credits, no credit card required. Just register and start creating. You can upgrade to a paid plan anytime.
 How long do the credits last?
-With an annual subscription you get all credits up front and they don't expire for an entire year! However, credits from monthly subscriptions expire after a month.
-What happens if I already have a monthly subscription and I buy an annual subscription?
-We will rollover all of your leftover credits and your monthly subscription will automatically be cancelled. You will have an entire year to spend any credits you have left.
+An annual plan gives you the whole year's words and credits up front, and they last 12 months. On a monthly plan, unused words and credits move to your rollover bank at each renewal.
+What happens when I change plans?
+The new plan starts a fresh month (or year) today at its full price, and your billing date moves to today. Unused words and credits from a monthly plan go to your rollover bank. Downgrades also take effect today, so the bigger plan's features end when you switch.
+What is the rollover bank?
+On monthly plans, the words and credits you don't use in a month are saved in your rollover bank, up to 3 months of your plan's allowance. Banked words and credits don't expire. They are spent after your monthly allowance runs out. The bank is removed if your plan ends, and LTD credits never go into it.
+Can I add more brands?
+Yes. Extra brand slots are $29/month each, up to 10, on any paid plan. You can change the number of slots from your account page.
 Can I buy another annual subscription if I already have one?
-Yes, the credits from your existing plan will remain separate and will retain their original expiration date. Credits for the new plan will not expire for an entire year. You can freely switch plans at anytime without losing any credits.
+Yes. The credits from your existing annual plan stay separate and keep their original expiration date, and the new plan's credits last a full year. Switching away from an annual plan never removes its credits.
 Can I share my account?
 You are allowed to share your account within your organization and with people working for you.
 Do you offer refunds?
@@ -337,8 +353,6 @@ Do I own the output generated by KoalaChat and KoalaWriter?
 Yes. You retain all rights to the input you provide to our services and we assign you all rights to the AI-generated output. You can read more about this in our Terms of Service.
 What payment methods do you accept?
 Currently we accept credit cards, Apple Pay, Google Pay, US bank transfers, Canadian bank transfers, WeChat Pay, Alipay, and Cash App Pay via Stripe. Contact us to pay via PayPal or Wise for annual subscription plans.
-How do I change my plan?
-You can change your plan at any time from this page by buying a new plan. When you buy a new plan it will reset your subscription date and automatically cancel your old subscription. Your leftover credits will rollover. Upgrades are not prorated since you receive the full amount of credits when buying the new plan.
 What are Platform Credits and what can I use them for?
 Platform Credits are shared across KoalaChat, KoalaImages, KoalaLinks, KoalaMagnets, Brand DNA's agent, API Access, and MCP research from your AI assistant. For example, on the Professional plan you can use a total of 1,000 credits across all of these products combined. Article generation uses your separate word allowance.
 Do failed requests use credits?
@@ -369,26 +383,477 @@ KoalaChat
 KoalaImages
 KoalaLinks
 KoalaMagnets
-RESOURCES
 Koala AI MCP
-Features
+All Features
+Try the Demo
+SOLUTIONS
+SEO Automation
+ChatGPT SEO
 Use Cases
 Industries
+Alternatives
+RESOURCES
+API Docs
 Help Center
-UpdatesNew
+Blog
 Case Studies
 Free Tools
-Blog
-Alternatives
+Changelog
 COMPANY
-Contact
 Pricing
-Affiliates
 Reviews
-API
+Affiliates
+Contact
+
+© 2026 Koala AI. All rights reserved.
 Terms
 Privacy
 
+9200 NW 39th Ave Ste 130 #3130, Gainesville, FL 32606
+
+=== 計費模式: 年繳 (yearly) ===
+Skip to content
+
+The Koala AI MCP is out of beta. Every paid plan can connect an AI assistant to 62 SEO tools and KoalaWriter.
+
+Set it up →
+Koala AI
+Products
+Features
+Use Cases
+Free Tools
+Blog
+Pricing
+Sign in
+Get Started
+
+Simple pricing for growth on autopilot
+
+One subscription covers the whole platform: articles, images, internal links, your AI growth strategist, and an MCP server for your AI assistant. Start free, no credit card required.
+
+Trusted by over 20,000 paid creators!
+ Read our case studies →
+
+Payment frequency
+Monthly
+Annual
+Save 20% with annual!
+Starter
+
+Save 20%
+
+$25 $20
+/month
+
+Billed $240 annually
+
+Get Started
+MCP server for your AI assistant
+KoalaWriter: 540,000 words per year
+6,000 credits per year
+Brand DNA: 1 brand
+Brand DNA agent: 25 messages/mo
+GPT-6 and Claude Sonnet 5
+KoalaImages
+Limited file and image uploads
+Real-time factual data
+AI-Powered SEO Optimization
+AI images and YouTube video embedding
+Live Amazon data for affiliate articles
+Bulk writing mode
+WordPress, Shopify, Webflow, Ghost, and webhooks
+API access
+Professional
+
+Save 20%
+
+$49 $39
+/month
+
+Billed $468 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Starter
+KoalaWriter: 1,200,000 words per year
+12,000 credits per year
+Brand DNA: 1 brand
+Brand DNA agent: 50 messages/mo
+Your Search Console and Analytics, in one dashboard
+Article Editor: AI chat edits and SEO score
+AI-powered editing
+KoalaLinks: internal linking for up to 50 sites
+KoalaMagnets
+Deep Research
+Boost
+
+Save 20%
+
+$99 $79
+/month
+
+Billed $948 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Professional
+1 brand with the full Brand DNA experience
+KoalaWriter: 3,000,000 words per year
+30,000 credits per year
+Brand DNA agent with no message cap
+Content Calendar Autopilot
+2x faster bulk article creation
+
+KOALA AI MCP · INCLUDED WITH EVERY PAID PLAN
+
+Your assistant. Your data. One credit balance.
+
+Connect your AI assistant and it can read your Brand DNA and Google data for free, then run keyword, competitor, backlink and SERP research on the credits your plan already includes. Research calls start at 0.1 credits, with no daily limit.
+
+See the rate card
+See every MCP tool →
+
+Looking to scale your content production? Check out our higher volume plans:
+
+Growth
+
+Save 20%
+
+$179 $143
+/month
+
+Billed $1,716 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 6,000,000 words per year
+60,000 credits per year
+Brand DNA: 3 brands
+Elite
+
+Save 20%
+
+$350 $280
+/month
+
+Billed $3,360 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 12,000,000 words per year
+120,000 credits per year
+Brand DNA: 7 brands
+Advanced
+
+Save 20%
+
+$500 $400
+/month
+
+Billed $4,800 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 18,000,000 words per year
+150,000 credits per year
+Brand DNA: 12 brands
+Scale I
+
+Save 20%
+
+$750 $600
+/month
+
+Billed $7,200 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 30,000,000 words per year
+180,000 credits per year
+Brand DNA: 20 brands
+3x faster bulk article creation
+Scale II
+
+Save 20%
+
+$1,250 $1,000
+/month
+
+Billed $12,000 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Scale I
+KoalaWriter: 60,000,000 words per year
+240,000 credits per year
+Brand DNA: 40 brands
+Scale III
+
+Save 20%
+
+$2,000 $1,600
+/month
+
+Billed $19,200 annually
+
+Get Started
+MCP server for your AI assistant
+Everything in Scale I
+KoalaWriter: 120,000,000 words per year
+300,000 credits per year
+Brand DNA: 75 brands
+Add to any paid plan
+Extra brand slot
+
+$29
+/mo each
+
+One more brand with its own Brand DNA, agent and calendar. Up to 10.
+
+Requires a paid plan.
+
+Brand slots renew monthly. Pick a plan above to buy add-ons.
+
+* The word count is based on using GPT-6 Luna. GPT-6.1 Sol and Claude Sonnet 5 count words at 2x, and Claude Opus 5.5 counts at 3x.
+
+Loved by 20,000+ paid creators
+
+Koala AI is the first platform that produced full blog posts good enough to publish on my niche sites. Ridiculously in-depth and structured.
+
+Jon Dykstra
+Fatstacks
+
+KoalaWriter is by far my favorite AI tool for generating articles. Well-structured, SEO-friendly, and tailored to my writing style in a single click.
+
+Anne Moss
+Yeys.com
+
+I launched a brand new site and scaled it to over 500,000 monthly sessions and over $15,000 in monthly revenue — using Koala AI — in under a year.
+
+Casey Botticello
+Blogging Guide
+
+KoalaWriter has become my go-to for well-structured, SEO-optimized articles. While ChatGPT was a game-changer itself, there's simply no comparison between Koala AI and ChatGPT once you analyze the output.
+
+Keith Mint
+Minted Empire
+What you get with Koala AI
+
+One subscription covers writing, research, images, links, lead magnets and an SEO agent that works from your own Search Console data. Here is what sets Koala AI apart.
+
+A few features depend on your plan; each one says so below. See the changelog for what shipped recently.
+
+Brand DNA
+
+Koala AI reads your website once, and every article, recommendation and chat uses your services, voice and existing pages.
+
+An SEO agent on your data
+
+Plans content from your Search Console and Analytics, with keyword, backlink and SERP data built in. Uncapped on Boost and above.
+
+Search Console and Analytics in one dashboard
+
+Trends, striking-distance keywords and traffic sources on one screen, with the agent docked beside the charts.
+
+Automatic SEO optimization
+
+KoalaWriter analyzes the pages ranking for your keyword and covers the entities and terms they share.
+
+Deep Research
+
+Sources gathered for your topic and outline before the article is written, with citations when you want them. Available from Professional.
+
+Automatic internal linking
+
+KoalaWriter indexes your site and places relevant internal links in every article. Over 25,000,000 placed to date.
+
+One-click publishing
+
+WordPress, Shopify, Webflow, Ghost and more, plus webhooks for Zapier and Make.
+
+AI images
+
+GPT Image 2.5 and Nano Banana 2, embedded in articles automatically or generated on demand in KoalaImages.
+
+Amazon affiliate articles
+
+Roundups and single-product reviews from live Amazon data, including real reviews and product details.
+
+An editor that grades your draft
+
+SEO score against the ranking pages, chat edits, and one-click Polish. Available from Professional.
+
+KoalaChat
+
+ChatGPT-style chat with live web data and commands built for SEO work, on the same credits.
+
+API and MCP access
+
+Write articles by API, or give your AI assistant the same research and writing tools through the Koala AI MCP, included with every paid plan.
+
+Our users love us 🥰
+Robert K
+★
+★
+★
+★
+★
+
+It is the absolute best writer and I tried a lot. Trust me, you won't regret it.
+
+Larrian Gillespie
+★
+★
+★
+★
+★
+
+Koala AI is the Rolls Royce of AI writers. There is constant updating and adding new features that let you control the output and accuracy of this AI writer. Tremendous support and the developer is online daily listening to our suggestions and doing rapid fire fixes.
+
+Nikita Patil
+★
+★
+★
+★
+★
+
+I found Koala AI, and have been hooked. If you are in the publishing business, this one is for you. Koala AI is the only tool that writes full-length, formatted, long-form, current, attributed blog posts in one click - with minimal prompting.
+
+Michael K
+★
+★
+★
+★
+★
+
+Very good. We needed to create content for our blogs in order to rank on search and Koala AI created a lot of fantastic, readable content that sounded like we had hired a writer
+
+Jeremy S
+★
+★
+★
+★
+★
+
+We can't stress how much of a time saver this is for us. The articles produced are high quality and don't take much editing. Can't say how much of a joy it is to use it
+
+Julian J
+★
+★
+★
+★
+★
+
+Automatic high quality blog post creation from A to Z. Including picking the right outline based on the keyword, sources, and internal linking
+
+Faith A
+★
+★
+★
+★
+★
+
+Koala AI does more than just find words - it breathes life into them. This ingenious tool crafts powerful, meaningful copy that I could never conjure up on my own. With Koala AI, I am never at a loss for words; instead, I am armed with potent content that makes a real impact. As a very busy Founder of multiple businesses, it is like having another employee with me.
+
+Hans M
+★
+★
+★
+★
+★
+
+Rough-draft, SEO-optimized content at scale. A quick round of heavy editing to by a professional writer and expert in the field and you're good to go. Great topical authority and topical coverage. There's nothing on the market like Koala AI that cleverly ingests reliable information as an LLM-source before creating the content. Absolutely magical! I've used dozens of AI writers and nothing else comes close.
+
+Rachel S
+★
+★
+★
+★
+★
+
+Overall this is a fantastic tool and much better than their competitor Jasper AI.
+
+Frequently Asked Questions
+Is there a free trial available?
+Yes. Every new account gets 5,000 free words and 25 credits, no credit card required. Just register and start creating. You can upgrade to a paid plan anytime.
+How long do the credits last?
+An annual plan gives you the whole year's words and credits up front, and they last 12 months. On a monthly plan, unused words and credits move to your rollover bank at each renewal.
+What happens when I change plans?
+The new plan starts a fresh month (or year) today at its full price, and your billing date moves to today. Unused words and credits from a monthly plan go to your rollover bank. Downgrades also take effect today, so the bigger plan's features end when you switch.
+What is the rollover bank?
+On monthly plans, the words and credits you don't use in a month are saved in your rollover bank, up to 3 months of your plan's allowance. Banked words and credits don't expire. They are spent after your monthly allowance runs out. The bank is removed if your plan ends, and LTD credits never go into it.
+Can I add more brands?
+Yes. Extra brand slots are $29/month each, up to 10, on any paid plan. You can change the number of slots from your account page.
+Can I buy another annual subscription if I already have one?
+Yes. The credits from your existing annual plan stay separate and keep their original expiration date, and the new plan's credits last a full year. Switching away from an annual plan never removes its credits.
+Can I share my account?
+You are allowed to share your account within your organization and with people working for you.
+Do you offer refunds?
+Yes, we offer a 15-day refund window. If you aren't satisfied within the first 15 days of a new plan and have used minimal credits (under 15,000 words and 100 credits), just contact us for a prompt refund. Most refund requests are processed within 24 hours.
+Is it easy to cancel my plan?
+Yes. You can cancel your plan at any time by clicking on the 'Cancel Plan' button on the 'Account' page when you are logged in.
+Do I own the output generated by KoalaChat and KoalaWriter?
+Yes. You retain all rights to the input you provide to our services and we assign you all rights to the AI-generated output. You can read more about this in our Terms of Service.
+What payment methods do you accept?
+Currently we accept credit cards, Apple Pay, Google Pay, US bank transfers, Canadian bank transfers, WeChat Pay, Alipay, and Cash App Pay via Stripe. Contact us to pay via PayPal or Wise for annual subscription plans.
+What are Platform Credits and what can I use them for?
+Platform Credits are shared across KoalaChat, KoalaImages, KoalaLinks, KoalaMagnets, Brand DNA's agent, API Access, and MCP research from your AI assistant. For example, on the Professional plan you can use a total of 1,000 credits across all of these products combined. Article generation uses your separate word allowance.
+Do failed requests use credits?
+Failed lookups and incomplete fixed-price research calls cost no credits. Keyword ideas and variations charge only for successful unique seeds. A successful search with no matches still uses credits. Each page continuation is a separate fetch.
+Does MCP access cost extra?
+No. The MCP is included with every paid plan; there is no separate fee. Connect your assistant and it spends the same platform credits as the rest of Koala AI. Free accounts cannot connect an app.
+How do fractional credits work?
+You pay for what your assistant calls. A raw HTML fetch is 0.1 credits, a rendered page or screenshot 0.25, a live Google search 0.5, keyword and competitor lookups 1, an article edit 1, backlink lookups 2, keyword volume 3 and historical traffic 4. Keyword ideas and variations cost 1 credit per seed keyword. One credit covers ten raw fetches, four rendered pages or two searches. A single question may call several tools.
+What does my assistant get for free?
+Reading your Brand DNA, your knowledge base, your content calendar, and your connected Search Console and Analytics costs nothing. Checking an article's status or reading a finished article is free too. Only research calls that reach outside data, and article edits, spend credits.
+Is there a daily research limit?
+No. Research calls draw on your credit balance until it runs out, and request rate limits keep the service responsive. Free tools are subject to the same rate limits.
+Does this include my AI assistant subscription?
+No. Your AI assistant is billed by its own provider. Koala AI supplies the tools and the data. Generating an article through MCP uses your Koala AI word allowance; editing an article costs 1 platform credit.
+Which plans include the MCP?
+Every paid plan, from Starter up. Sign in, then connect from the MCP page. Free accounts can see the tool list but cannot connect an app.
+Is my payment information safe?
+Yes. All of your payment information is handled by Stripe, a trusted payment processor. We do not store any of your payment information on our servers. When you checkout or manage your plan, you will be redirected to a secure Stripe-hosted page which means we couldn't access any of your sensitive payment information even if we wanted to.
+Koala AI
+
+The AI platform for content creators. Brand DNA, Writer, Chat, Images, Links, and Magnets, all in one subscription.
+
+PRODUCTS
+SEO Agent
+Brand DNA
+KoalaWriter
+KoalaChat
+KoalaImages
+KoalaLinks
+KoalaMagnets
+Koala AI MCP
+All Features
+Try the Demo
+SOLUTIONS
+SEO Automation
+ChatGPT SEO
+Use Cases
+Industries
+Alternatives
+RESOURCES
+API Docs
+Help Center
+Blog
+Case Studies
+Free Tools
+Changelog
+COMPANY
+Pricing
+Reviews
+Affiliates
+Contact
+
 © 2026 Koala AI. All rights reserved.
+Terms
+Privacy
 
 9200 NW 39th Ave Ste 130 #3130, Gainesville, FL 32606

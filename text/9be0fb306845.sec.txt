@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 on G2 & Capterra · 200+ reviews
 Monthly
 Yearly (save 25%)
@@ -97,6 +98,101 @@ Automated captions	check	check	check	check	check
 Shutterstock library	—	—	check	check	check
 Shutterstock editorial	—	—	—	300/year	Custom
 DAM integration	—	—	—	—	check
+---
+Lumen5 helps marketers, publishers, and brands create video content with AI, without the hassle or technical expertise.
+Sign up free
+=== 計費模式: 月繳 (monthly) ===
+on G2 & Capterra · 200+ reviews
+Monthly
+Yearly (save 25%)
+Start free, upgrade anytime
+Cancel anytime, no strings attached
+---
+Basic
+---
+For simple videos
+---
+$29 USD
+per month
+Get started
+Everything in Free, plus:
+check
+---
+check
+1 animation minute/month
+check
+20 AI voice minutes/month
+check
+---
+Starter
+---
+For content creators
+---
+$79 USD
+per month
+Get started
+Everything in Basic, plus:
+---
+check
+2 animation minutes/month
+check
+60 AI voice minutes/month
+check
+---
+Pro
+---
+For small businesses
+---
+$199 USD
+per month
+Get started
+Everything in Starter, plus:
+---
+check
+5 animation minutes/month
+check
+180 AI voice minutes/month
+check
+---
+and more...
+Free
+---
+check
+5 videos per month
+Get started
+---
+Compare every feature
+---
+Free
+$0/forever
+Get started
+---
+Basic
+$29/mo
+Get started
+---
+Starter
+$79/mo
+Get started
+---
+Pro
+$199/mo
+Get started
+---
+Video creation
+Video limits	5/mo	Unlimited	Unlimited	Unlimited
+Resolution	720p	720p	1080p	1080p
+---
+AI features
+AI voiceover minutes	2 mins/mo	20 mins/mo	60 mins/mo	180 mins/mo
+Voice cloning	—	1 voice	1 voice	3 voices
+Translations	—	1/month	1/month	5/month
+Animation minutes	—	1 min/mo	2 mins/mo	5 mins/mo
+Automated captions	check	check	check	check
+---
+Shutterstock library	—	—	check	check
+Shutterstock editorial	—	—	—	25/month
+DAM integration	—	—	—	—
 ---
 Lumen5 helps marketers, publishers, and brands create video content with AI, without the hassle or technical expertise.
 Sign up free

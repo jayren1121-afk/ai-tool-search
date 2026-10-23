@@ -4,7 +4,7 @@ Fetch the Exa site index at: https://exa.ai/llms.txt
 
 Use this file to discover Exa products, pricing, evaluations, comparisons, use cases, agent interfaces, and technical documentation before exploring further.
 
-Introducing ATLAS: A new benchmark for agentic search
+Introducing Exa 3.0: Our largest ever improvement to search quality
 Learn more
 Products
 Resources
@@ -112,7 +112,7 @@ Web search tool calls for agents
 
 Webpage text and highlights
 
-Configurable latency: 180ms to 1s
+Configurable latency: 450ms to 1s
 
 Get started
 	
@@ -194,7 +194,7 @@ Reasoning...
 :
 }
 Deep Search
-$12–15
+$12
 /1k requests
 
 Multi-step agent workflows
@@ -231,7 +231,7 @@ Coding agents
 Search over millions of GitHub repos, docs, and Stack Overflow with high-accuracy code retrieval.
 
 Search docs, repos, and changelogs in real time
-Use sub-200ms search options inside latency-sensitive agent loops
+Use low-latency Lite search inside latency-sensitive agent loops
 Ground code generation with current package and API references
 Docs Search
 Repo Search
@@ -250,18 +250,18 @@ Cursor uses Exa to get the latest docs for more accurate code
 Coding agents use Exa for low latency search across millions of repos.
 
 Endpoint pricing
-Endpoint	Instant Search	Fast / Auto Search	Deep Search	Deep-Reasoning Search	Contents	Monitors	Answer
+Endpoint	Lite Search	Auto Search	Deep Search	Contents	Monitors	Answer
 Base price, with up to 10 results
 (per 1k requests)
-	$4	$7	$12	$15	$1
+	$4	$7	$12	$1
 (per 1k pages)
 	$15	$5
 Cost per additional result above 10
 (per 1k requests)
-	$1	$1	$1	$1	-	$1	-
+	$1	$1	$1	-	$1	-
 AI page summaries
 (per 1k pages)
-	$1	$1	$1	$1	$1	$1	-
+	$1	$1	$1	$1	$1	-
 
 Agent pricing
 
@@ -346,6 +346,7 @@ Products
 
 Pricing
 API
+Library
 Websets
 Exa Connect
 

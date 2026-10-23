@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：43 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：214 筆
+- 可批次核准（無旗標）：42 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：215 筆
 
 核准單筆範本：
 ```sql
@@ -123,14 +123,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **kickresume**（Kickresume）旗標：period_ambiguous_toggle, price_near_quote, price_unclear；Quarterly: price_unclear; Monthly: period_ambiguous_toggle；來源 https://www.kickresume.com/pricing；擷取 2026-10-22T12:11:30+08:00
 - **getimg**（getimg.ai）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://getimg.ai/pricing；擷取 2026-10-22T12:11:42+08:00
 - **rodin**（Hyper3D Rodin）旗標：dropped_fields；；來源 https://hyper3d.ai/pricing；擷取 2026-10-22T12:11:55+08:00
-- **deepbrain**（DeepBrain AI (AI Studios)）旗標：period_ambiguous_toggle；Personal: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.deepbrain.io/pricing；擷取 2026-10-12T13:35:15+08:00
-- **riffusion**（Riffusion）旗標：has_promo, period_ambiguous_toggle；Starter: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Member: period_ambiguous_toggle；來源 https://www.riffusion.com/pricing；擷取 2026-10-12T13:35:22+08:00
-- **lindy**（Lindy）旗標：dropped_fields, price_change；Team: 資料集 $29.99/月 → 官網 $49.99；來源 https://www.lindy.ai/pricing；擷取 2026-10-12T13:35:24+08:00
-- **regie**（Regie.ai）旗標：has_promo, period_ambiguous_toggle, yearly_gt_monthly；Pro: yearly_gt_monthly, period_ambiguous_toggle; Team: yearly_gt_monthly, period_ambiguous_toggle；來源 https://www.regie.ai/pricing；擷取 2026-10-12T13:35:35+08:00
-- **koala**（Koala AI）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Boost: period_ambiguous_toggle; Growth: period_ambiguous_toggle; Elite: period_ambiguous_toggle; Advanced: period_ambiguous_toggle; Scale I: period_ambiguous_toggle; Scale II: period_ambiguous_toggle; Scale III: period_ambiguous_toggle；來源 https://koala.sh/pricing；擷取 2026-10-12T13:35:40+08:00
-- **rezi**（Rezi）旗標：price_unclear；Lifetime Plan: price_unclear；來源 https://www.rezi.ai/pricing；擷取 2026-10-12T13:35:57+08:00
-- **chronicle**（Chronicle）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://chroniclehq.com/pricing；擷取 2026-10-12T13:36:05+08:00
-- **lara**（Lara Translate）旗標：dropped_fields；；來源 https://laratranslate.com/pricing；擷取 2026-10-12T13:36:07+08:00
+- **lumen5**（Lumen5）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle；來源 https://lumen5.com/pricing；擷取 2026-10-23T12:11:26+08:00
+- **deepbrain**（DeepBrain AI (AI Studios)）旗標：dropped_fields, period_ambiguous_toggle；Personal: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.deepbrain.io/pricing；擷取 2026-10-23T12:11:28+08:00
+- **riffusion**（Riffusion）旗標：has_promo；；來源 https://www.riffusion.com/pricing；擷取 2026-10-23T12:11:35+08:00
+- **lindy**（Lindy）旗標：dropped_fields, price_change；Team: 資料集 $29.99/月 → 官網 $49.99；來源 https://www.lindy.ai/pricing；擷取 2026-10-23T12:11:35+08:00
+- **regie**（Regie.ai）旗標：has_promo, price_near_quote；；來源 https://www.regie.ai/pricing；擷取 2026-10-23T12:11:47+08:00
+- **koala**（Koala AI）旗標：has_promo, price_near_quote；；來源 https://koala.sh/pricing；擷取 2026-10-23T12:11:50+08:00
+- **rezi**（Rezi）旗標：price_unclear；Lifetime Plan: price_unclear；來源 https://www.rezi.ai/pricing；擷取 2026-10-23T12:12:08+08:00
+- **chronicle**（Chronicle）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://chroniclehq.com/pricing；擷取 2026-10-23T12:12:18+08:00
+- **lara**（Lara Translate）旗標：yearly_gt_monthly；Pro: yearly_gt_monthly; Team: yearly_gt_monthly；來源 https://laratranslate.com/pricing；擷取 2026-10-23T12:12:19+08:00
 - **roo-code**（Roo Code）旗標：name_diff；資料集方案 ['Free'] vs 新 ['11–50 users', '51–100 users']；來源 https://roocode.com/pricing；擷取 2026-10-12T13:36:16+08:00
 - **polycam**（Polycam）旗標：price_near_quote；；來源 https://poly.cam/pricing；擷取 2026-10-12T13:36:20+08:00
 - **vidyo**（vidyo.ai (quso)）旗標：price_near_quote；；來源 https://quso.ai/pricing；擷取 2026-10-12T13:36:26+08:00

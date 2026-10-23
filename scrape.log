@@ -586,3 +586,21 @@ SCRAPE DONE
 1 15 scraped https://hyper3d.ai/pricing 14.6
 舊版頁面還要重抓： 173 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://www.deepbrain.io/pricing 7.7
+0 2 scraped https://lumen5.com/pricing 9.0
+1 3 scraped https://www.riffusion.com/pricing 7.0
+0 4 scraped https://www.lindy.ai/pricing 7.4
+2 5 no_price_found https://www.voicemod.net/pricing 19.0
+1 6 scraped https://exa.ai/pricing 7.7
+2 7 scraped https://www.regie.ai/pricing 6.3
+1 8 scraped https://koala.sh/pricing 9.8
+0 9 no_price_found https://writer.com/pricing 25.1
+1 10 no_price_found https://ada.com/pricing 18.7
+0 11 scraped https://www.rezi.ai/pricing 11.2
+2 12 no_price_found https://ironcladapp.com/pricing 26.8
+1 13 scraped https://chroniclehq.com/pricing 6.0
+2 14 scraped https://www.databricks.com/pricing 7.9
+0 15 scraped https://laratranslate.com/pricing 28.4
+舊版頁面還要重抓： 158 個（每次最多 15 個）
+SCRAPE DONE

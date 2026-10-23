@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Pricing
 Featuresexpand_more
 Enterpriseexpand_more
@@ -282,6 +283,277 @@ LinkedIn
 Support
 Product updates
 Video themes
+API docs
+VIDEO TOOLS
+Turn Blogs to Videos
+AI Script Writing
+Idea to Video
+AI Voiceover
+Clip Maker
+See all
+VIDEO CREATORS
+Learning and Development
+Internal Comms
+Professional Services
+Technology and Telecom
+Oil, Gas, Mining
+See all
+Copyright © 2026 Lumen5
+Trust Center | System Status | Terms of Use | Privacy Policy
+This website uses cookies
+We use cookies to enhance your experience, analyze site performance, and support our service. For more details, read our Privacy Policy.
+Cookie settings
+Only necessary
+Accept all
+
+=== 計費模式: 月繳 (monthly) ===
+Pricing
+Featuresexpand_more
+Enterpriseexpand_more
+Solutionsexpand_more
+Learnexpand_more
+Request a demo
+|
+Log in
+Sign up
+Pricing that scales with your video strategy
+
+Designed for business use. Turn blog posts, scripts, and ideas into studio-quality video. No video editing experience required.
+
+4.6 / 5
+on G2 & Capterra · 200+ reviews
+Monthly
+Yearly (save 25%)
+Start free, upgrade anytime
+Cancel anytime, no strings attached
+Your videos, yours to keep
+Basic
+
+For simple videos
+
+$29 USD
+per month
+Get started
+Everything in Free, plus:
+check
+Create unlimited videos
+check
+No Lumen5 branding
+check
+Custom colors and fonts
+Premium AI models:
+check
+1 animation minute/month
+check
+20 AI voice minutes/month
+check
+1000+ AI voices
+and more...
+Starter
+
+For content creators
+
+$79 USD
+per month
+Get started
+Everything in Basic, plus:
+check
+1080p video resolution
+check
+50M+ stock photos & videos
+check
+Customizable brand kit
+Premium AI models:
+check
+2 animation minutes/month
+check
+60 AI voice minutes/month
+check
+1 voice clone
+and more...
+POPULAR CHOICE
+Pro
+
+For small businesses
+
+$199 USD
+per month
+Get started
+Everything in Starter, plus:
+check
+Shutterstock editorial media
+check
+Custom watermarks & fonts
+check
+Multiple workspaces
+Premium AI models:
+check
+5 animation minutes/month
+check
+180 AI voice minutes/month
+check
+3 voice clones
+and more...
+Free
+
+For casual video enthusiasts
+
+What's included:
+check
+Contains Lumen5 branded outro
+check
+Max 2-minute long videos
+check
+5 videos per month
+Get started
+
+WHY TEAMS CHOOSE LUMEN5
+
+One subscription replaces your whole video stack
+
+Your team can own video end to end. No agency, no contractors, no extra tools to stitch together. Powered by AI that respects your brand.
+
+timer
+Create in minutes
+
+Start with a link, script or document and let AI build the first cut.
+
+Repurpose content into video
+Make short clips from long videos
+Generate animated explainer videos
+perm_media
+Media included
+
+Millions of commercially licensed stock assets and AI generation, built in.
+
+Millions of stock photos & video clips
+AI image & video generation
+1000+ premium AI voices
+palette
+Stay on brand
+
+Customize logos, colors and fonts so every video looks like you.
+
+Brand kits & video blueprints
+Custom watermarks, colors & fonts
+100+ customizable templates
+
+TRUSTED BY TEAMS AT
+
+Compare every feature
+	
+Free
+$0/forever
+Get started
+	
+Basic
+$29/mo
+Get started
+	
+Starter
+$79/mo
+Get started
+	
+Pro
+$199/mo
+Get started
+
+Video creation				
+Video limits	5/mo	Unlimited	Unlimited	Unlimited
+Resolution	720p	720p	1080p	1080p
+Max video length	2 min	10 min	10 min	10 min
+Blueprints	check	check	check	check
+100+ premium templates	check	check	check	check
+AI features				
+AI voiceover minutes	2 mins/mo	20 mins/mo	60 mins/mo	180 mins/mo
+Voice cloning	—	1 voice	1 voice	3 voices
+Translations	—	1/month	1/month	5/month
+Animation minutes	—	1 min/mo	2 mins/mo	5 mins/mo
+Automated captions	check	check	check	check
+1000+ lifelike AI voices	—	check	check	check
+Premium AI images	—	check	check	check
+Branding				
+Custom colors	check	check	check	check
+Font library	check	check	check	check
+Brand kits	—	1	1	3
+Upload your own fonts	—	—	—	check
+Watermark upload	—	—	—	check
+Bespoke brand templates	—	—	—	—
+Custom transitions	—	—	—	—
+Bespoke scene designs	—	—	—	—
+Creative services	—	—	—	—
+Media				
+Licensed stock library	check	check	check	check
+Media uploads	check	check	check	check
+Music uploads	check	check	check	check
+Icon library	check	check	check	check
+Talking head overlays	check	check	check	check
+Shutterstock library	—	—	check	check
+Shutterstock editorial	—	—	—	25/month
+DAM integration	—	—	—	—
+Collaboration				
+Team members	Single user	Single user	Single user	Single user
+Workspaces	—	—	—	3
+Team management				
+Two-factor authentication	check	check	check	check
+Brand management	—	—	—	—
+Granular user permissions	—	—	—	—
+Workspace management	—	—	—	—
+Audit log	—	—	—	—
+Single sign-on	—	—	—	—
+Video approval workflow	—	—	—	—
+Support				
+Help center access	check	check	check	check
+Chat support	—	check	check	check
+White-glove support	—	—	—	—
+Invoiced billing	—	—	—	—
+Procurement support	—	—	—	—
+Security & compliance	—	—	—	—
+Training workshops	—	—	—	—
+
+
+“With the traditional agency, the time is usually about one week. But with Lumen5, it’s cut down from weeks to hours.”
+
+Michelle Hsiao
+Visual content director at Siemens AG
+Read case study →
+navigate_before
+Previous
+navigate_next
+Next
+Frequently asked questions
+Do I need a credit card to get started?
++
+Can I cancel my subscription at any time?
++
+What payment methods do you accept?
++
+Which Lumen5 plan is best for my team?
++
+What makes the Team plan different from the Pro plan?
++
+What AI features are included in each plan?
++
+Does Lumen5 support brand consistency across video content?
++
+How does video translation work on the higher tier plans?
++
+Will my videos remain accessible if I downgrade or cancel my plan?
++
+Join over 5,000,000 companies using Lumen5 to tell their stories.
+Lumen5 helps marketers, publishers, and brands create video content with AI, without the hassle or technical expertise.
+Sign up free
+
+Lumen5 combines powerful AI with a simple drag-and-drop interface to help you create professional video content in minutes.
+
+EXPLORE
+About
+Careers
+LinkedIn
+Support
+Product updates
+Video themes
+API docs
 VIDEO TOOLS
 Turn Blogs to Videos
 AI Script Writing

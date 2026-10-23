@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Use Cases
 Free Tools
 Blog
@@ -118,6 +119,15 @@ Everything in Scale I
 KoalaWriter: 10,000,000 words per month
 25,000 credits per month
 Brand DNA: 75 brands
+Add to any paid plan
+Extra brand slot
+---
+$29
+/mo each
+---
+One more brand with its own Brand DNA, agent and calendar. Up to 10.
+---
+Brand slots renew monthly. Pick a plan above to buy add-ons.
 ---
 Anne Moss
 Yeys.com
@@ -133,19 +143,195 @@ Frequently Asked Questions
 Is there a free trial available?
 Yes. Every new account gets 5,000 free words and 25 credits, no credit card required. Just register and start creating. You can upgrade to a paid plan anytime.
 How long do the credits last?
-With an annual subscription you get all credits up front and they don't expire for an entire year! However, credits from monthly subscriptions expire after a month.
-What happens if I already have a monthly subscription and I buy an annual subscription?
-We will rollover all of your leftover credits and your monthly subscription will automatically be cancelled. You will have an entire year to spend any credits you have left.
+An annual plan gives you the whole year's words and credits up front, and they last 12 months. On a monthly plan, unused words and credits move to your rollover bank at each renewal.
+---
+The new plan starts a fresh month (or year) today at its full price, and your billing date moves to today. Unused words and credits from a monthly plan go to your rollover bank. Downgrades also take effect today, so the bigger plan's featur
+What is the rollover bank?
+On monthly plans, the words and credits you don't use in a month are saved in your rollover bank, up to 3 months of your plan's allowance. Banked words and credits don't expire. They are spent after your monthly allowance runs out. The bank
+Can I add more brands?
+Yes. Extra brand slots are $29/month each, up to 10, on any paid plan. You can change the number of slots from your account page.
 Can I buy another annual subscription if I already have one?
-Yes, the credits from your existing plan will remain separate and will retain their original expiration date. Credits for the new plan will not expire for an entire year. You can freely switch plans at anytime without losing any credits.
+Yes. The credits from your existing annual plan stay separate and keep their original expiration date, and the new plan's credits last a full year. Switching away from an annual plan never removes its credits.
+Can I share my account?
+=== 計費模式: 年繳 (yearly) ===
+Use Cases
+Free Tools
+Blog
 ---
-You can change your plan at any time from this page by buying a new plan. When you buy a new plan it will reset your subscription date and automatically cancel your old subscription. Your leftover credits will rollover. Upgrades are not pro
-What are Platform Credits and what can I use them for?
-Platform Credits are shared across KoalaChat, KoalaImages, KoalaLinks, KoalaMagnets, Brand DNA's agent, API Access, and MCP research from your AI assistant. For example, on the Professional plan you can use a total of 1,000 credits across a
-Do failed requests use credits?
-Failed lookups and incomplete fixed-price research calls cost no credits. Keyword ideas and variations charge only for successful unique seeds. A successful search with no matches still uses credits. Each page continuation is a separate fet
+Payment frequency
+Monthly
+Annual
+Save 20% with annual!
+Starter
 ---
-No. The MCP is included with every paid plan; there is no separate fee. Connect your assistant and it spends the same platform credits as the rest of Koala AI. Free accounts cannot connect an app.
-How do fractional credits work?
-You pay for what your assistant calls. A raw HTML fetch is 0.1 credits, a rendered page or screenshot 0.25, a live Google search 0.5, keyword and competitor lookups 1, an article edit 1, backlink lookups 2, keyword volume 3 and historical t
-What does my assistant get for free?
+Save 20%
+---
+$25 $20
+/month
+---
+Billed $240 annually
+---
+Get Started
+MCP server for your AI assistant
+KoalaWriter: 540,000 words per year
+6,000 credits per year
+Brand DNA: 1 brand
+Brand DNA agent: 25 messages/mo
+GPT-6 and Claude Sonnet 5
+---
+Professional
+---
+Save 20%
+---
+$49 $39
+/month
+---
+Billed $468 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Starter
+KoalaWriter: 1,200,000 words per year
+12,000 credits per year
+Brand DNA: 1 brand
+Brand DNA agent: 50 messages/mo
+Your Search Console and Analytics, in one dashboard
+---
+Boost
+---
+Save 20%
+---
+$99 $79
+/month
+---
+Billed $948 annually
+---
+Get Started
+MCP server for your AI assistant
+---
+1 brand with the full Brand DNA experience
+KoalaWriter: 3,000,000 words per year
+30,000 credits per year
+Brand DNA agent with no message cap
+---
+Growth
+---
+Save 20%
+---
+$179 $143
+/month
+---
+Billed $1,716 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 6,000,000 words per year
+60,000 credits per year
+Brand DNA: 3 brands
+Elite
+---
+Save 20%
+---
+$350 $280
+/month
+---
+Billed $3,360 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 12,000,000 words per year
+120,000 credits per year
+Brand DNA: 7 brands
+Advanced
+---
+Save 20%
+---
+$500 $400
+/month
+---
+Billed $4,800 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 18,000,000 words per year
+150,000 credits per year
+Brand DNA: 12 brands
+Scale I
+---
+Save 20%
+---
+$750 $600
+/month
+---
+Billed $7,200 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Boost
+KoalaWriter: 30,000,000 words per year
+180,000 credits per year
+Brand DNA: 20 brands
+---
+Scale II
+---
+Save 20%
+---
+$1,250 $1,000
+/month
+---
+Billed $12,000 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Scale I
+KoalaWriter: 60,000,000 words per year
+240,000 credits per year
+Brand DNA: 40 brands
+Scale III
+---
+Save 20%
+---
+$2,000 $1,600
+/month
+---
+Billed $19,200 annually
+---
+Get Started
+MCP server for your AI assistant
+Everything in Scale I
+KoalaWriter: 120,000,000 words per year
+300,000 credits per year
+Brand DNA: 75 brands
+Add to any paid plan
+Extra brand slot
+---
+$29
+/mo each
+---
+One more brand with its own Brand DNA, agent and calendar. Up to 10.
+---
+Brand slots renew monthly. Pick a plan above to buy add-ons.
+---
+Anne Moss
+Yeys.com
+---
+I launched a brand new site and scaled it to over 500,000 monthly sessions and over $15,000 in monthly revenue — using Koala AI — in under a year.
+---
+Casey Botticello
+Blogging Guide
+---
+ChatGPT-style chat with live web data and commands built for SEO work, on the same credits.
+---
+Frequently Asked Questions
+Is there a free trial available?
+Yes. Every new account gets 5,000 free words and 25 credits, no credit card required. Just register and start creating. You can upgrade to a paid plan anytime.
+How long do the credits last?
+An annual plan gives you the whole year's words and credits up front, and they last 12 months. On a monthly plan, unused words and credits move to your rollover bank at each renewal.
+---
+The new plan starts a fresh month (or year) today at its full price, and your billing date moves to today. Unused words and credits from a monthly plan go to your rollover bank. Downgrades also take effect today, so the bigger plan's featur
+What is the rollover bank?
+On monthly plans, the words and credits you don't use in a month are saved in your rollover bank, up to 3 months of your plan's allowance. Banked words and credits don't expire. They are spent after your monthly allowance runs out. The bank
+Can I add more brands?

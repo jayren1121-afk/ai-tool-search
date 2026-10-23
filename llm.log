@@ -481,3 +481,12 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 5 ok openai/gpt-oss-120b https://getimg.ai/pricing 3004
 6 ok openai/gpt-oss-120b https://hyper3d.ai/pricing 3147
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 6, "ok": 6, "tokens": 17347, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://lumen5.com/pricing 3150
+2 ok openai/gpt-oss-120b https://www.deepbrain.io/pricing 2527
+3 ok openai/gpt-oss-120b https://www.riffusion.com/pricing 2760
+4 ok openai/gpt-oss-120b https://exa.ai/pricing 2378
+5 ok openai/gpt-oss-120b https://www.regie.ai/pricing 2908
+6 ok openai/gpt-oss-120b https://koala.sh/pricing 4520
+7 ok openai/gpt-oss-120b https://laratranslate.com/pricing 5834
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 7, "ok": 7, "tokens": 24077, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
