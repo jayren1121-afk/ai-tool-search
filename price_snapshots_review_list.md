@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：42 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：215 筆
+- 可批次核准（無旗標）：44 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：213 筆
 
 核准單筆範本：
 ```sql
@@ -132,14 +132,12 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **rezi**（Rezi）旗標：price_unclear；Lifetime Plan: price_unclear；來源 https://www.rezi.ai/pricing；擷取 2026-10-23T12:12:08+08:00
 - **chronicle**（Chronicle）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Plus: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://chroniclehq.com/pricing；擷取 2026-10-23T12:12:18+08:00
 - **lara**（Lara Translate）旗標：yearly_gt_monthly；Pro: yearly_gt_monthly; Team: yearly_gt_monthly；來源 https://laratranslate.com/pricing；擷取 2026-10-23T12:12:19+08:00
-- **roo-code**（Roo Code）旗標：name_diff；資料集方案 ['Free'] vs 新 ['11–50 users', '51–100 users']；來源 https://roocode.com/pricing；擷取 2026-10-12T13:36:16+08:00
-- **polycam**（Polycam）旗標：price_near_quote；；來源 https://poly.cam/pricing；擷取 2026-10-12T13:36:20+08:00
-- **vidyo**（vidyo.ai (quso)）旗標：price_near_quote；；來源 https://quso.ai/pricing；擷取 2026-10-12T13:36:26+08:00
-- **argil**（Argil）旗標：dropped_fields, name_missing, period_ambiguous_toggle；None: name_missing, period_ambiguous_toggle；來源 https://www.argil.ai/pricing；擷取 2026-10-12T13:36:28+08:00
-- **krisp**（Krisp）旗標：period_ambiguous_toggle；Core: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://krisp.ai/pricing；擷取 2026-10-12T13:36:28+08:00
-- **tavily**（Tavily）旗標：name_missing；None: name_missing；來源 https://www.tavily.com/pricing；擷取 2026-10-12T13:36:36+08:00
-- **hyperwrite**（HyperWrite）旗標：has_promo；；來源 https://www.hyperwriteai.com/pricing；擷取 2026-10-12T13:36:39+08:00
-- **brex-ai**（Brex）旗標：name_diff, name_missing, zero_price；資料集方案 ['Advanced'] vs 新 ['', '']; None: name_missing；來源 https://www.brex.com/pricing；擷取 2026-10-12T13:36:43+08:00
+- **roo-code**（Roo Code）旗標：name_diff；資料集方案 ['Free'] vs 新 ['11–50 users', '51–100 users']；來源 https://roocode.com/pricing；擷取 2026-10-24T12:10:35+08:00
+- **polycam**（Polycam）旗標：billing_section_mismatch；Basic: billing_section_mismatch；來源 https://poly.cam/pricing；擷取 2026-10-24T12:10:40+08:00
+- **vidyo**（vidyo.ai (quso)）旗標：has_promo, price_near_quote；；來源 https://quso.ai/pricing；擷取 2026-10-24T12:10:41+08:00
+- **argil**（Argil）旗標：abnormal_price；Enterprise: abnormal_price；來源 https://www.argil.ai/pricing；擷取 2026-10-24T12:10:47+08:00
+- **hyperwrite**（HyperWrite）旗標：has_promo；；來源 https://www.hyperwriteai.com/pricing；擷取 2026-10-24T12:11:02+08:00
+- **brex-ai**（Brex）旗標：name_diff, name_missing, zero_price；資料集方案 ['Advanced'] vs 新 ['', '']; None: name_missing；來源 https://www.brex.com/pricing；擷取 2026-10-24T12:11:07+08:00
 - **durable**（Durable）旗標：period_ambiguous_toggle；Launch: period_ambiguous_toggle; Grow: period_ambiguous_toggle；來源 https://durable.com/pricing；擷取 2026-10-12T13:36:57+08:00
 - **masterpiece-x**（Masterpiece X）旗標：has_promo, name_diff, name_missing, price_near_quote, price_unclear；資料集方案 ['Free'] vs 新 ['', '', '', '']; None: name_missing; None: name_missing; None: name_missing; None: name_missing, price_unclear；來源 https://www.masterpiecex.com/pricing；擷取 2026-10-12T13:36:57+08:00
 - **submagic**（Submagic）旗標：has_promo；；來源 https://www.submagic.co/pricing；擷取 2026-10-12T13:37:04+08:00

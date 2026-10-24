@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Products
 Solutions
 Community
@@ -65,6 +66,7 @@ Folders with role-based management
 Paid add-ons (contact sales):
 Dedicated customer success and support
 SSO
+SOC-2 Type 1 & Type 2 Compliance
 Regional cloud storage
 Custom billing
 TRUSTED BY HALF OF THE FORTUNE 500
@@ -430,13 +432,695 @@ Single Sign-On (SSO)
 
 Single Sign-On (SSO)
 
-SOC-2 Type 1 Compliance
+SOC-2 Type 1 & Type 2 Compliance
 
-SOC-2 Type 1 Compliance
+SOC-2 Type 1 & Type 2 Compliance
 
-SOC-2 Type 1 Compliance
+SOC-2 Type 1 & Type 2 Compliance
 
-SOC-2 Type 1 Compliance
+SOC-2 Type 1 & Type 2 Compliance
+
+Support
+
+Learn hub
+
+Learn hub
+
+Learn hub
+
+Learn hub
+
+Email support
+
+Email support
+
+Email support
+
+Email support
+
+Dedicated support and onboarding
+
+Dedicated support and onboarding
+
+Dedicated support and onboarding
+
+Dedicated customer success and support
+
+Priority feature requests
+
+Priority feature requests
+
+Priority feature requests
+
+Priority feature requests
+
+FAQs
+Polycam overview
+What are image limits?
+
+Images limits indicate the maximum number of photos you can upload to create a 3D model using Object mode:
+
+
+Free plan: Up to 150 images per model
+Basic plan: Up to 300 images per model
+Business and Enterprise plans: Up to 2,000 images per model
+What devices can I use Polycam on?
+
+Polycam is available on multiple platforms:
+
+
+iOS devices (iPhone, iPad, Apple Vision Pro)
+Android devices
+Web browsers
+
+Important Note: Space Mode scanning is exclusively available on compatible iOS device.
+
+‍Learn more here
+
+What happens if I reach my capture limit on a plan?
+
+You have two options when you reach your plan's capture limit:
+
+
+Delete existing captures to free up space
+Upgrade your plan for a higher capture limit
+Do higher-priced subscription plans provide better-quality captures?
+
+The core capture technology remains consistent across all subscription plans. However, paid plans offer advantages that can lead to better final results:
+
+
+Higher image limits (up to 2,000 images vs 150 on free plan)
+More images generally result in more detailed and accurate 3D models
+Particularly beneficial for larger objects or complex scenes
+
+So while the base capture quality is the same, paid plans enable you to create potentially higher-quality models through increased image allowances.
+
+What file types can Polycam export?
+
+All Plans:
+
+
+.gltf
+
+Basic Plan:
+
+
+3D Models: .obj, .fbx, .dae, .usdz, .stl, .ply, .las, .pts, .xyz
+Documentation: .pdf, .png, .svg, .csv
+Media: Blueprints, images, videos
+CAD: .dxf
+
+Business & Enterprise Plans:
+
+
+All Basic plan formats
+Geo-referenced .las files
+Access to TransformEngine
+
+Please note, export formats are dependent on capture mode used.
+
+‍Learn more here
+
+How can I be sure my data is secure?
+
+Polycam prioritizes data security by storing your captures securely with industry-standard encryption. Your captures will not be shared unless you publish or share them directly.
+
+‍Learn more here
+
+‍
+
+Plans and payments
+Do you still offer the Pro plan?
+We have streamlined our set of plans to better focus on our individual and team users, and are no longer offering the Pro plan. Anyone subscribed to Pro prior to this change is now a Legacy Pro user and keeps the Pro price and Pro features as long as they stay subscribed.
+Which plan is right for me?
+
+Basic Plan Built for creators and freelancers producing professional-quality 3D models and gaussian splats. Get access to advanced capture tools, higher resolution processing, and expanded export formats to bring your creative projects to life.
+
+Business Plan Designed for teams and businesses who need to document, measure, and collaborate on projects efficiently. This tier includes team collaboration features, measurement tools, floor plan generation, and sharing capabilities. Perfect for construction teams, architects, facility managers, and project professionals who need everyone capturing and sharing documentation seamlessly..
+
+Enterprise Plan Our Enterprise tier is for organizations deploying 3D capture at scale across teams and locations. You'll get dedicated account support, enterprise-grade security and compliance, custom integrations with your existing tools, volume pricing, and advanced administrative controls to manage users and projects across your organization.
+
+Do you offer a free trial?
+
+Free trials are exclusively available with Basic or Business annual plans, where you can test the complete service for 7 days. During the trial, you'll have complete access to all the features of your chosen plan. You can cancel anytime during the trial period to avoid being charged. After your trial period, if you choose not to cancel, you will be automatically enrolled in an annual plan. Our Enterprise plan doesn't offer a trial, but you can contact our sales team for a demo.
+
+Can I try Polycam before committing to a monthly subscription?
+
+Free trials are exclusively available with Basic and Business annual plans, where you can test the complete service for 7 days. Monthly plans require payment upfront with no trial period.
+
+Can I upgrade or downgrade my plan, or switch between yearly and monthly?
+
+How to change your plan depends on where you originally subscribed:
+
+
+Subscribed through Polycam website:
+
+Contact Polycam support by clicking this link
+Subscribed through App Store (Apple) or Google Play:
+
+Manage subscription through your Apple ID / Google Play Store settings
+Must cancel current plan before switching
+Changes take effect at next renewal date
+What if I decide to cancel?
+You can cancel your subscription at any time through the app. However, yearly subscriptions will remain active until the renewal date, as we do not offer prorated refunds.
+Do you offer any discounts?
+
+Yes!
+
+
+Sign up for a free polycam account to subscribe to our mailing list and receive updates about special promotions and discounts.
+You can also save by choosing an annual plan, which provides a significant discount compared to monthly billing.
+What payment methods do you accept?
+
+We accept all major credit cards (Visa, Mastercard, American Express, Discover) for individual subscriptions. For Enterprise plans, we also offer invoice-based payment options.
+
+Can you charge me in my local currency?
+Polycam prices are billed in USD. Your bank or credit card provider handles the currency conversion automatically. The exact amount will be calculated using the exchange rate at the time of purchase.
+Can I pay via invoice or wire transfer?
+
+Invoice and wire transfer payments are available for Enterprise clients. All other subscriptions require payment by credit card. Please contact our sales team to learn more about Enterprise payment options.
+
+Is there an option for a one-time payment to own the software?
+No, Polycam is only available through subscription plans. We don't offer a one-time purchase option. Our subscription model allows us to continuously improve the platform, release new features, and provide regular updates to our users.
+Sales and support
+Do you have a sales team?
+
+Contact Sales Here
+
+What level of support do Business and Enterprise plans get?
+Business plans include priority email support
+Enterprise plans provide comprehensive support, including email and phone support in addition to:
+
+Personalized onboarding sessions
+Custom team training
+Dedicated account management
+Priority technical assistance
+What if I have more questions?
+
+​​If you have any questions, please contact the support team by clicking this link.
+
+Browse 3D models
+ANATOMY
+DINOSAURS
+ARCHITECTURE
+FOOD
+SNEAKERS
+VEHICLES
+LEGO
+AUTOCAD MODELS
+MAYA MODELS
+FBX MODELS
+GLTF MODELS
+UNITY MODELS
+BLENDER MODELS
+UNREAL ENGINE MODELS
+PRODUCT
+Spatial
+Object
+Floor Plans
+Drone / Aerial
+Apple Vision Pro
+FREE TOOLS
+AI 3D Model Generator
+AI Texture Generator
+Photogrammetry Creator & Viewer
+Gaussian Splatting Tool
+Drone Photogrammetry Tool
+3D Model Viewer
+3D Room Scanner
+3D Lidar Scanner
+360 Image Creator
+BUSINESS
+All Solutions
+BY INDUSTRY
+Architecture, Engineering, Construction (AEC)
+Oil & Gas
+Real Estate
+Health Care
+Retail & E-Commerce
+Solar & Renewable Energy
+Forensics & Law Enforcement
+USE CASE
+Facilities Management
+Structural Design
+RESOURCES
+Explore Community
+Customer Stories
+Learn
+USE POLYCAM
+Get The App
+Pricing
+Contact Sales
+COMPANY
+About Us
+Careers
+Affiliates
+Trust Center
+LEGAL
+Terms Of Service
+Privacy Policy
+Manage Cookies
+
+=== 計費模式: 年繳 (yearly) ===
+Products
+Solutions
+Community
+Learn
+Company
+Pricing
+Log in
+Contact sales
+Start a trial
+PRICING
+Plans built for how you work
+
+Start free for personal projects. Upgrade to Business for professional floor plans and measurements. Scale to Enterprise when you need it.
+
+Free
+For beginners discovering 3D scanning.
+$0
+Free for everyone
+Get started free
+Limited space, object, and AI captures
+GLTF exports
+Public link sharing
+Basic
+For freelancers, creators, or individuals producing small-scale work.
+$30/month
+Billed monthly
+Try Basic free for 7 days
+All free features +
+Unlimited object captures and Gaussian splats
+Unlimited space captures with and without LiDAR
+Unlimited AI generated captures
+6 mesh export formats
+Private link sharing
+MOST POPULAR
+Business
+For teams and professionals working together.
+$400/year per user
+$33 / month per user
+Billed yearly
+Start 7-day Business trial
+or
+Contact sales
+All basic features +
+2D & 3D floor plans
+Advanced measure tools
+Shared team library
+Point cloud exports
+Virtual walkthroughs
+AI generated reports
+Enterprise
+For organizations operating at scale.
+$1200/year per user
+3 users minimum
+Billed yearly
+Start a 7-day trial
+or
+Contact sales
+All business features +
+Content management API
+Admin-controlled feature customization
+Enhanced data privacy
+Custom branding
+Folders with role-based management
+Paid add-ons (contact sales):
+Dedicated customer success and support
+SSO
+SOC-2 Type 1 & Type 2 Compliance
+Regional cloud storage
+Custom billing
+TRUSTED BY HALF OF THE FORTUNE 500
+
+Free
+Get started free
+Basic
+Try Basic free for 7 days
+Business
+Start 7-day Business trial
+Enterprise
+Sign Up
+Capture modes
+
+Space captures (LiDAR)
+
+Space captures (LiDAR)
+
+
+Space captures (LiDAR)
+
+Space captures (LiDAR)
+
+360 photosphere
+
+360 photosphere
+
+360 photosphere
+
+360 photosphere
+
+3 AI Generated Captures
+
+Unlimited AI generated captures
+
+Unlimited AI generated captures
+
+Unlimited AI generated captures
+
+10 Photogrammetry captures
+
+Unlimited photogrammetry captures
+
+Unlimited photogrammetry captures
+
+Unlimited photogrammetry captures
+
+Gaussian splats
+
+Gaussian splats
+
+Gaussian splats
+
+Gaussian splats
+
+150 images per capture
+
+300 images per capture
+
+2000 images per capture
+
+2000 images per capture
+
+3 min videos per capture
+
+5 minute videos per capture
+
+30 minute videos per capture
+
+30 minute videos per capture
+
+Admin-controlled capture mode restrictions
+
+Admin-controlled capture mode restrictions
+
+Admin-controlled capture mode restrictions
+
+Admin-controlled capture mode restrictions
+
+Floorplans
+
+Instant 3D floor plans
+
+Instant 3D floor plans
+
+Instant 3D floor plans
+
+Instant 3D floor plans
+
+Editable 2D floor plans
+
+Editable 2D floor plans
+
+Editable 2D floor plans
+
+Editable 2D floor plans
+
+Blueprints
+
+Blueprints
+
+Blueprints
+
+Blueprints
+
+Automated measurements
+
+Automated measurements
+
+Automated measurements
+
+Automated measurements
+
+Compass
+
+Compass
+
+Compass
+
+Compass
+
+Edit wall thickness & color themes
+
+Edit wall thickness & color themes
+
+Edit wall thickness & color themes
+
+Edit wall thickness & color themes
+
+AI generated reports
+
+AI generated reports
+
+AI generated reports
+
+AI generated reports
+
+Custom branding
+
+Custom branding
+
+Custom branding
+
+Custom branding
+
+Measuring
+
+Ruler measurement
+
+Ruler measurement
+
+Ruler measurement
+
+Ruler measurement
+
+Automated measurements
+
+Automated measurements
+
+Automated measurements
+
+Save automated measurements
+
+Save measurements
+
+Save measurements
+
+Save measurements
+
+Save measurements
+
+Viewing and sharing
+
+Viewable on Apple Vision Pro
+
+Viewable on Apple Vision Pro
+
+Viewable on Apple Vision Pro
+
+Viewable on Apple Vision Pro
+
+Upload models
+
+Upload models
+
+Upload models
+
+Upload models
+
+Public link sharing
+
+Private link sharing
+
+Private link sharing
+
+Private link sharing
+
+Embed with watermark
+
+Embed with watermark
+
+Embed with watermark
+
+Embed with custom branding
+
+Virtual Walkthrough
+
+Virtual Walkthrough
+
+Virtual Walkthrough
+
+Virtual Walkthrough
+
+Exports
+
+Video with watermark
+
+Video
+
+Video
+
+Video
+
+Mesh: GLTF
+
+Mesh: GLTF, OBJ, FBX, DAE, STL, USDZ, ESX
+
+Mesh: GLTF, OBJ, FBX, DAE, STL, USDZ, ESX
+
+Mesh: GLTF, OBJ, FBX, DAE, STL, USDZ, ESX
+
+Point cloud: PLY, LAS, Geo-LAS, PTS, XYZ, DXF
+
+Point cloud: PLY, LAS, Geo-LAS, PTS, XYZ, DXF
+
+Point cloud: PLY, LAS, Geo-LAS, PTS, XYZ, DXF
+
+Point cloud: PLY, LAS, Geo-LAS, PTS, XYZ, DXF
+
+BIM/Custom 3D file creation through TransformEngine
+
+BIM/Custom 3D file creation through TransformEngine
+
+BIM/Custom 3D file creation through TransformEngine
+
+BIM/Custom 3D file creation through TransformEngine
+
+Claims through Xactimate
+
+Claims through Xactimate
+
+Claims through Xactimate
+
+Claims through Xactimate
+
+Editing
+
+Remesh optimization
+
+Remesh optimization
+
+Remesh optimization
+
+Remesh optimization
+
+Rescale, crop and extend captures
+
+Rescale, crop and extend captures
+
+Rescale, crop and extend captures
+
+Rescale, crop and extend captures
+
+Preview AI generated textures
+
+AI generated texture downloads
+
+AI generated texture downloads
+
+AI generated texture downloads
+
+1 Scene with 3 layers
+
+3 Scenes with 5 layers
+
+Unlimited scenes with unlimited layers
+
+Unlimited scenes with unlimited layers
+
+Edit background & color grade
+
+Edit background & color grade
+
+Edit background & color grade
+
+Edit background & color grade
+
+Team collaboration
+
+Comments on captures
+
+Comments on captures
+
+Comments on captures
+
+Comments on captures
+
+Album sharing
+
+Album sharing
+
+Album sharing
+
+Album sharing
+
+Team libraries
+
+Team libraries
+
+Team libraries
+
+Team libraries
+
+Single user
+
+Single user
+
+Multiple users
+
+Multiple users
+
+Invite editors to captures
+
+Invite editors to captures
+
+Invite editors to captures
+
+Invite editors to captures
+
+Centralized billing
+
+Centralized billing
+
+Centralized billing
+
+Centralized billing
+
+Security
+
+Advanced privacy and access control
+
+Advanced privacy and access control
+
+Advanced privacy and access control
+
+Advanced privacy and access control
+
+Single Sign-On (SSO)
+
+Single Sign-On (SSO)
+
+Single Sign-On (SSO)
+
+Single Sign-On (SSO)
+
+SOC-2 Type 1 & Type 2 Compliance
+
+SOC-2 Type 1 & Type 2 Compliance
+
+SOC-2 Type 1 & Type 2 Compliance
+
+SOC-2 Type 1 & Type 2 Compliance
 
 Support
 

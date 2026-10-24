@@ -19,8 +19,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'freed' and fetched_at = '2026-10-20T12:11:39+08:00'::timestamptz;  -- Freed
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'sourcegraph-cody' and fetched_at = '2026-10-21T12:11:41+08:00'::timestamptz;  -- Sourcegraph Amp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'gumloop' and fetched_at = '2026-10-22T12:11:03+08:00'::timestamptz;  -- Gumloop
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'visily' and fetched_at = '2026-10-12T13:36:14+08:00'::timestamptz;  -- Visily
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'final-round' and fetched_at = '2026-10-12T13:36:40+08:00'::timestamptz;  -- Final Round AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'visily' and fetched_at = '2026-10-24T12:10:33+08:00'::timestamptz;  -- Visily
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'krisp' and fetched_at = '2026-10-24T12:10:50+08:00'::timestamptz;  -- Krisp
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'tavily' and fetched_at = '2026-10-24T12:10:59+08:00'::timestamptz;  -- Tavily
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'final-round' and fetched_at = '2026-10-24T12:11:05+08:00'::timestamptz;  -- Final Round AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'botpress' and fetched_at = '2026-10-12T13:36:56+08:00'::timestamptz;  -- Botpress
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'ramp' and fetched_at = '2026-10-12T13:37:31+08:00'::timestamptz;  -- Ramp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'recraft' and fetched_at = '2026-10-12T13:37:46+08:00'::timestamptz;  -- Recraft

@@ -1,3 +1,5 @@
+October is our biggest drop of Early Access features yet. See what’s new →
+
 Products
 Solutions
 Resources
@@ -192,7 +194,7 @@ Privacy
 Your Privacy Choices
 †
 
-The “total treasury return” posted (between 3.56% and 3.91%) is not the DGVXX 7-day yield, it is an annualized compounded number based on the current 7-day yield for the BNY Dreyfus Government Cash Management Fund (DGVXX) (3.50%) and the additional return paid by Brex Treasury LLC, and assumes (1) that yield will remain static, and (2) all dividends and distributions will be reinvested and held for one year, compounding at that static rate.
+The “total treasury return” posted (between 3.59% and 3.94%) is not the DGVXX 7-day yield, it is an annualized compounded number based on the current 7-day yield for the BNY Dreyfus Government Cash Management Fund (DGVXX) (3.53%) and the additional return paid by Brex Treasury LLC, and assumes (1) that yield will remain static, and (2) all dividends and distributions will be reinvested and held for one year, compounding at that static rate.
 
 The additional-return rate is a Brex-set nominal rate based on your applicable balance tier and is an annualized, compounded figure. This means that if additional returns are not held for a year, the realized additional return will be lower than the displayed rate. Your tier is determined daily based on your total Brex balance across Checking, Treasury, and Vault. It may change as that balance changes; Brex may also change the tier schedule at any time. Actual payouts are calculated daily and may be lower or higher.
 

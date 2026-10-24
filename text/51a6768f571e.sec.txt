@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Supercharge your meetings with AI. Flexible plans for teams of all sizes.
 Monthly
 Annually
@@ -38,3 +39,46 @@ Book a demo
 ---
 Book a demo
 Get Krisp for free
+You’ll receive a more personalized, improved experience on our site by allowing the use of cookies. Learn more
+=== 計費模式: 月繳 (monthly) ===
+Supercharge your meetings with AI. Flexible plans for teams of all sizes.
+Monthly
+Annually
+Save 50%
+Free Trial
+Explore Krisp on your own.
+$0
+Try it Free
+Test all premium features risk-free
+No credit card required
+Free for 7 days
+Key Features
+---
+Unlimited AI Notes & Action Items
+Limited AI Accent Conversion & Understanding
+Core
+Best for individuals and small teams
+$16/mo/user
+Start with Core
+Unlimited AI Note-taker
+Unlimited Noise Cancellation
+---
+10 GB storage
+Advanced
+Most popular
+For advanced features and controls
+$30/mo/user
+Start with Advanced
+Unlimited Accent Conversion*
+Advanced Integrations
+---
+Best for org-wide rollout & security.
+Custom Pricing
+Talk to Sales
+---
+Get Krisp for Free
+Book a demo
+---
+Book a demo
+Get Krisp for free
+You’ll receive a more personalized, improved experience on our site by allowing the use of cookies. Learn more

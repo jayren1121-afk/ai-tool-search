@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 AI Meeting Assistant
 Call Center AI
 Developers
@@ -263,3 +264,276 @@ Cookie policy
 
 Book a demo
 Get Krisp for free
+You’ll receive a more personalized, improved experience on our site by allowing the use of cookies. Learn more
+Accept All
+Cookies settings
+
+=== 計費模式: 月繳 (monthly) ===
+AI Meeting Assistant
+Call Center AI
+Developers
+Customers
+Pricing
+Sign in
+Book a demo
+Get Krisp
+Meeting AI
+For individuals and teams
+Call Center AI
+For BPOs and call centers
+Developers
+For Voice AI developers
+Pricing - Meeting AI
+Supercharge your meetings with AI. Flexible plans for teams of all sizes.
+Monthly
+Annually
+Save 50%
+Free Trial
+Explore Krisp on your own.
+$0
+Try it Free
+Test all premium features risk-free
+No credit card required
+Free for 7 days
+Key Features
+Unlimited Transcription
+Unlimited Noise Cancellation
+Unlimited Audio & Video Recording
+Unlimited AI Notes & Action Items
+Limited AI Accent Conversion & Understanding
+Core
+Best for individuals and small teams
+$16/mo/user
+Start with Core
+Unlimited AI Note-taker
+Unlimited Noise Cancellation
+Unlimited Integrations & webhook
+Mobile app
+Key Features
+Multilingual Transcript
+AI Chat
+1 hr/day Accent Conversion
+Team & billing management
+Integrations:
+MCP integration
+10 GB storage
+Advanced
+Most popular
+For advanced features and controls
+$30/mo/user
+Start with Advanced
+Unlimited Accent Conversion*
+Advanced Integrations
+Advanced admin controls
+Everything in Core +
+Manager view
+Company deal grouping
+Trim and comment
+ Salesforce integration
+ ConnectWise integration
+Team-level webhooks
+60 GB storage
+Enterprise
+Best for org-wide rollout & security.
+Custom Pricing
+Talk to Sales
+SSO/SCIM
+Advanced Security and Reports
+Private Transcription & Recordings (On-device)
+Everything in Advanced +
+Super admin role
+Dedicated account manager
+Usage analytics reports
+HIPPA Compliance
+Unlimited storage
+See comparison table
+Trusted by top teams
+4.7 rating on G2
+From verified customer reviews
+Read G2 reviews
+Technical achievement
+Webby awards · jury and people's voice, 2026
+Disruptive technology of the year
+CCW excellence awards · runner up, 2026
+AI 50
+Forbes · most promising AI companies
+Leader in voice AI
+Palomarr · noise cancellation
+Cool vendor
+Gartner · digital workplace, 2020
+Compare Plans
+Core
+Continue with Core
+Perfect for individuals or small teams.
+Advanced
+Continue with Advanced
+For teams with admin, compliance, or sales needs.
+Enterprise
+Talk to Sales
+For org-wide rollout, security, and custom controls.
+AI Meeting Assistant
+Transcription & Audio Recording
+Unlimited
+Unlimited
+Unlimited
+Noise Cancellation
+Unlimited
+Unlimited
+Unlimited
+Accent Conversion - Speaker side
+1hr daily
+4hr daily
+Custom
+Accent Conversion - Listener side
+1hr daily
+Unlimited
+Custom
+AI Summaries and Action Items
+Unlimited
+Custom
+Custom
+Video Recording
+In-person meeting support
+AI Chat
+Transcript & summaries in 16+ langs
+Detailed AI summaries
+Record with bot
+Upload meeting
+Unlimited
+Unlimited
+Unlimited
+Custom vocabulary
+Listen later
+Storage
+10 GB
+60 GB
+Unlimited
+Add-ons
+Extra storage
+Up to 2TB
+Up to 2TB
+Up to 5TB
+Workspace & Collaboration
+Members
+Unlimited
+Unlimited
+Unlimited
+Workspace sharing
+Centralized action items
+Auto agenda
+Recurring meeting view
+Meeting Folders
+Meeting Tags
+Templates
+Trimming and clipping
+Commenting and tagging
+—
+Manager view
+—
+Company grouping
+—
+Integrations
+Slack
+Notion
+Zapier
+Teams
+Hubspot
+Pipedrive
+Affinity
+Salesforce
+—
+Connectwise
+MCP Integration
+API Integration
+Admin Controls
+MFA
+Centralized billing
+User management
+SSO & SCIM
+—
+—
+Disable auto share for team
+—
+Link access control for team
+—
+Enforce recording mode
+—
+Support
+24/7 + Slack community access
+Priority + Slack community
+dedicated channel
+Priority support + dedicated
+account manager
+Security & Privacy
+GDPR compliance
+SOC 2 type II compliance
+HIPAA compliance
+—
+—
+SOC2 report access
+—
+—
+BAA signing available
+—
+Available for teams with 100+ seats
+Frequently asked questions
+Can I mix different plan types in one workspace?
+Is there a Krisp Meeting Assistant plan for noise cancellation only?
+What payment methods does Krisp Meeting Assistant accept?
+What is counted as a seat?
+Can I sign up any other way without using my calendar?
+Do you have any volume discounts?
+How secure is Krisp?
+Have more questions? Visit our help center
+Hear it from our customers
+Ready to get started?
+
+With Krisp, you and your team will have more productive and
+engaging online meetings—without all the distractions.
+
+Get Krisp for Free
+Book a demo
+Awards and recognition
+4.7 rating
+AI Meeting Assistant
+Noise Cancellation
+Accent Conversion
+Meeting Transcription
+Meeting Note Taker
+Meeting Recording
+Meeting Minutes
+Audio/Video to Text Convertor
+Call Center AI
+Voice Translation
+Accent Conversion
+Noise Cancellation
+Speech Analytics
+Agent Assist
+Voice Security
+Developers
+Voice Isolation SDK
+Noise Cancellation SDK
+Voice Translation API
+Accent Conversion SDK
+Company
+About us
+Careers
+Blog
+Live demo
+Help center
+Partner Program
+Trust
+Security
+Terms of use
+Privacy policy
+Accessibility
+Cookie policy
+
+© 2026 Krisp Technologies, Inc. All rights reserved.
+2150 Shattuck Ave, Penthouse 1300, Berkeley, California 94704, United States.
+
+Book a demo
+Get Krisp for free
+You’ll receive a more personalized, improved experience on our site by allowing the use of cookies. Learn more
+Accept All
+Cookies settings

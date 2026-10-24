@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Contact sales
 Start a trial
@@ -18,6 +19,94 @@ For freelancers, creators, or individuals producing small-scale work.
 $150/year
 $12.50 / month
 Billed yearly
+Try Basic free for 7 days
+All free features +
+Unlimited object captures and Gaussian splats
+---
+Private link sharing
+MOST POPULAR
+Business
+For teams and professionals working together.
+$400/year per user
+$33 / month per user
+Billed yearly
+Start 7-day Business trial
+or
+Contact sales
+All basic features +
+---
+Virtual walkthroughs
+AI generated reports
+Enterprise
+For organizations operating at scale.
+$1200/year per user
+3 users minimum
+Billed yearly
+Start a 7-day trial
+or
+Contact sales
+All business features +
+---
+Folders with role-based management
+Paid add-ons (contact sales):
+Dedicated customer success and support
+---
+Free
+Get started free
+Basic
+Try Basic free for 7 days
+Business
+Start 7-day Business trial
+Enterprise
+---
+Free plan: Up to 150 images per model
+Basic plan: Up to 300 images per model
+---
+Delete existing captures to free up space
+Upgrade your plan for a higher capture limit
+---
+Higher image limits (up to 2,000 images vs 150 on free plan)
+More images generally result in more detailed and accurate 3D models
+---
+Do you offer a free trial?
+---
+Can I try Polycam before committing to a monthly subscription?
+---
+Can I upgrade or downgrade my plan, or switch between yearly and monthly?
+---
+Sign up for a free polycam account to subscribe to our mailing list and receive updates about special promotions and discounts.
+You can also save by choosing an annual plan, which provides a significant discount compared to monthly billing.
+What payment methods do you accept?
+---
+Contact Sales Here
+---
+Apple Vision Pro
+FREE TOOLS
+AI 3D Model Generator
+---
+Pricing
+Contact Sales
+COMPANY
+=== 計費模式: 年繳 (yearly) ===
+Log in
+Contact sales
+Start a trial
+PRICING
+---
+Start free for personal projects. Upgrade to Business for professional floor plans and measurements. Scale to Enterprise when you need it.
+---
+Free
+For beginners discovering 3D scanning.
+$0
+Free for everyone
+Get started free
+Limited space, object, and AI captures
+GLTF exports
+Public link sharing
+Basic
+For freelancers, creators, or individuals producing small-scale work.
+$30/month
+Billed monthly
 Try Basic free for 7 days
 All free features +
 Unlimited object captures and Gaussian splats

@@ -30,7 +30,7 @@ Top companies use MindMeister
 
 Full feature comparison
 Key features
-	Basic
+	Free
 
 Mind maps
 	Up to 3
@@ -71,7 +71,7 @@ Restore mind maps
 Attachments
 	
 Customization
-	Basic
+	Free
 
 Themes
 	
@@ -95,7 +95,7 @@ Custom color palette
 Custom branding
 	
 Collaboration
-	Basic
+	Free
 
 Multiple team members
 	
@@ -118,7 +118,7 @@ Print mind maps
 MS exports
 	
 Advanced collaboration
-	Basic
+	Free
 
 Single admin
 	
@@ -135,7 +135,7 @@ Group sharing
 Automated access approval
 	
 Security
-	Basic
+	Free
 
 Advanced settings
 	
@@ -149,7 +149,7 @@ SAML Single Sign On
 Compliance exports and backups
 	
 Support
-	Basic
+	Free
 
 Help center & community
 	

@@ -11,8 +11,6 @@ Ori
 Pricing
 Docs
 Sign Up
-ElevenLabs launch offer: every ElevenLabs model is 50% off through October 19, 2026. See ElevenLabs models
-Dismiss
 OPENROUTER PRICING
 Pricing
 
@@ -247,6 +245,21 @@ Enterprise
 Yes
 
 
+Private Endpoints
+Learn more →
+	
+Free
+No
+	
+Standard
+No
+	
+Business
+No
+	
+Enterprise
+Add on
+
 Workspace limit
 Learn more →
 	
@@ -403,6 +416,7 @@ Providers
 Tools
 Pricing
 Business
+EU routing
 Enterprise
 Labs
 Company

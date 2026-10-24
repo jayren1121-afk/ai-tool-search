@@ -1,31 +1,27 @@
+=== 計費模式: 預設畫面 (default) ===
 Skip to pricing
-How it works
-The studio
-Questions
+Pricing
 Thesis
 Blog
-Pricing
 Log in
-Start creating
+Start now
 PLANS FOR YOUR IMAGINATION
 Your next story.
 
 Choose the space to bring your ideas to life.
 Pick a plan, then make it yours.
 
-SELF-SERVE
 Pro
+Monthly
+Yearly
+−17%
 
 Everything you need to create on your own.
 
-Monthly
-Yearly
 Starts at
 $50
 / month
-
-Annual billing · 2 months free
-
+$50 billed monthly
 2,000 credits / month
 ≈ 8 videos of 15 s
 Go Pro
@@ -35,31 +31,17 @@ Characters, worlds and voices
 All apps, plus the community library
 Commercial use
 Email support
-WITH THE ARGIL TEAM
 Studio
 Done for you
 
 Tell us the videos you dream of making. We build the system that makes them.
 
-From $2,500
-
-One-time setup, then credits at volume pricing.
-
-01
-Listen
-We learn what you want to publish: your formats, your tone, the videos you love.
-02
-Build
-We set everything up for you: characters, places, your voice and a private app that makes your kind of video.
-03
-Ship
-You and your team create on your own, with a dedicated CSM at your side.
-INCLUDED
-Content coaching
-
-A program designed by Brivael, CEO of Argil, who reached 1 billion views on X in 7 months.
-
+ 
+$1,250
+/ month
+Billed monthly, credits included.
 Book a studio call
+Includes $1,250/mo in credits
 Everything in Pro
 Your studio, set up for you
 A private app for your format
@@ -67,24 +49,27 @@ Content coaching program
 Dedicated CSM and a shared Slack channel
 Three calibration videos
 Priority rendering
+Additional credits at volume pricing
 Enterprise
 Tailored
 
 Argil across your organization, on your terms.
 
-Custom
-
+Starts at
+$2,500
+/ month
 Annual agreement, invoiced.
-
 Talk to sales
-Everything in Studio
+Includes $2,500/mo in credits
+Everything in Studio, plus:
 Custom seats and credit volume
 Studio setups scoped in your agreement
 SSO, audit logs and security review
 Custom connectors and SLA
+Lower rate on additional credits
 Compare plans
 Feature	Pro	Studio	Enterprise
-Credits	2,000 – 100,000 / month	Volume pricing	Custom volume
+Credits	2,000 – 100,000 / month	$1,250 / month	From $2,500 / month
 Seats	1	Your team	Custom
 Setup done for you		One format	Custom
 Private apps			
@@ -109,10 +94,10 @@ Argil
 A studio for the stories only you can tell.
 
 Studio
-How it works
-The studio
+Product
+Studio
+System
 Pricing
-Questions
 Thesis
 From the blog
 How to make AI history content
@@ -125,3 +110,239 @@ Privacy
 Cookies
 Legal notice
 Back to top
+
+=== 計費模式: 年繳 (yearly) ===
+Skip to pricing
+Pricing
+Thesis
+Blog
+Log in
+Start now
+PLANS FOR YOUR IMAGINATION
+Your next story.
+
+Choose the space to bring your ideas to life.
+Pick a plan, then make it yours.
+
+Pro
+Monthly
+Yearly
+−17%
+
+Everything you need to create on your own.
+
+Starts at
+$41.67
+/ month
+$500 billed annually
+2,000 credits / month
+≈ 8 videos of 15 s
+Go Pro
+Director, the creative agent
+Playground with every major model on the market
+Characters, worlds and voices
+All apps, plus the community library
+Commercial use
+Email support
+Studio
+Done for you
+
+Tell us the videos you dream of making. We build the system that makes them.
+
+ 
+$1,250
+/ month
+Billed monthly, credits included.
+Book a studio call
+Includes $1,250/mo in credits
+Everything in Pro
+Your studio, set up for you
+A private app for your format
+Content coaching program
+Dedicated CSM and a shared Slack channel
+Three calibration videos
+Priority rendering
+Additional credits at volume pricing
+Enterprise
+Tailored
+
+Argil across your organization, on your terms.
+
+Starts at
+$2,500
+/ month
+Annual agreement, invoiced.
+Talk to sales
+Includes $2,500/mo in credits
+Everything in Studio, plus:
+Custom seats and credit volume
+Studio setups scoped in your agreement
+SSO, audit logs and security review
+Custom connectors and SLA
+Lower rate on additional credits
+Compare plans
+Feature	Pro	Studio	Enterprise
+Credits	2,000 – 100,000 / month	$1,250 / month	From $2,500 / month
+Seats	1	Your team	Custom
+Setup done for you		One format	Custom
+Private apps			
+Content coaching			
+Customer success	Email	Dedicated CSM + Slack	Dedicated CSM + Slack
+SSO and audit logs			
+
+Secure checkout · Manage or cancel your subscription in settings.
+
+A FEW GOOD QUESTIONS
+Before the first frame.
+
+A little clarity, so you can get back to creating.
+
+Talk to us
+How do credits work?
+Do unused plan credits roll over?
+What changes with yearly billing?
+Can I cancel my subscription?
+Argil
+
+A studio for the stories only you can tell.
+
+Studio
+Product
+Studio
+System
+Pricing
+Thesis
+From the blog
+How to make AI history content
+Framing and head position for video shots
+Creating with an animated face
+All articles
+© 2026 Argil
+Terms
+Privacy
+Cookies
+Legal notice
+Back to top
+
+=== 計費模式: 月繳 (monthly) ===
+Skip to pricing
+Pricing
+Thesis
+Blog
+Log in
+Start now
+PLANS FOR YOUR IMAGINATION
+Your next story.
+
+Choose the space to bring your ideas to life.
+Pick a plan, then make it yours.
+
+Pro
+Monthly
+Yearly
+−17%
+
+Everything you need to create on your own.
+
+Starts at
+$41.67
+/ month
+$500 billed annually
+2,000 credits / month
+≈ 8 videos of 15 s
+Go Pro
+Director, the creative agent
+Playground with every major model on the market
+Characters, worlds and voices
+All apps, plus the community library
+Commercial use
+Email support
+Studio
+Done for you
+
+Tell us the videos you dream of making. We build the system that makes them.
+
+ 
+$1,250
+/ month
+Billed monthly, credits included.
+Book a studio call
+Includes $1,250/mo in credits
+Everything in Pro
+Your studio, set up for you
+A private app for your format
+Content coaching program
+Dedicated CSM and a shared Slack channel
+Three calibration videos
+Priority rendering
+Additional credits at volume pricing
+Enterprise
+Tailored
+
+Argil across your organization, on your terms.
+
+Starts at
+$2,500
+/ month
+Annual agreement, invoiced.
+Talk to sales
+Includes $2,500/mo in credits
+Everything in Studio, plus:
+Custom seats and credit volume
+Studio setups scoped in your agreement
+SSO, audit logs and security review
+Custom connectors and SLA
+Lower rate on additional credits
+Compare plans
+Feature	Pro	Studio	Enterprise
+Credits	2,000 – 100,000 / month	$1,250 / month	From $2,500 / month
+Seats	1	Your team	Custom
+Setup done for you		One format	Custom
+Private apps			
+Content coaching			
+Customer success	Email	Dedicated CSM + Slack	Dedicated CSM + Slack
+SSO and audit logs			
+
+Secure checkout · Manage or cancel your subscription in settings.
+
+A FEW GOOD QUESTIONS
+Before the first frame.
+
+A little clarity, so you can get back to creating.
+
+Talk to us
+How do credits work?
+Do unused plan credits roll over?
+What changes with yearly billing?
+Can I cancel my subscription?
+Argil
+
+A studio for the stories only you can tell.
+
+Studio
+Product
+Studio
+System
+Pricing
+Thesis
+From the blog
+How to make AI history content
+Framing and head position for video shots
+Creating with an animated face
+All articles
+© 2026 Argil
+Terms
+Privacy
+Cookies
+Legal notice
+Back to top
+2,000 credits / month
+4,000 credits / month
+8,000 credits / month
+12,000 credits / month
+20,000 credits / month
+30,000 credits / month
+40,000 credits / month
+50,000 credits / month
+75,000 credits / month
+100,000 credits / month

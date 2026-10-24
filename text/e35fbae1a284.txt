@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 This website uses cookies
 We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
 Consent Selection
@@ -105,34 +106,436 @@ you can get inside the app.
 "Our Sales and Ops teams can do more in less time to help serve our customers better."
 Alex Bouaziz
 Co-Founder & CEO at deel.
+15h saved
+per week
+Eltjo
+Director of Sales
+Automated
+data entry
+Tufan
+Market Development Managaer
+98%
+expense reduction
+Chris
+CEO
 5h
 saved per webscraping task
 Saad
 Senior Research Analyst
-75% boosted
-efficiency on building lead lists
-Alex
-Co-Founder & CEO
 60h saved
 on prospecting per week
 Caroline
 Sales
 15h saved
-per week
-Eltjo
-Director of Sales
-98%
-expense reduction
-Chris
-CEO
-15h saved
 by team per week
 Pat
 Talent Research
+75% boosted
+efficiency on building lead lists
+Alex
+Co-Founder & CEO
+Enterprise-grade security
+
+SOC 2 Type II, GDPR and CASA Tier 2 and 3 certified — so you can automate with confidence at any scale.
+
+Frequently asked questions
+What is Bardeen?
+What tools does Bardeen replace for me?
+Who benefits the most from using Bardeen?
+
+How does Bardeen integrate with existing tools and systems?
+What are common use cases I can accomplish with Bardeen?
+Product
+Web Scraper
+Web Search
+Enrichment
+AI Tools
+Integrations
+Solutions
+Solopreneurs
+Music
+Real Estate
+Recruiting
+Private Equity
+Event Services
+About
+Pricing
+About Bardeen
+Manifesto
+Careers
+Research
+Contact
+Resources
+Blog
+Customer Stories
+Release Notes
+Best Tools
+Guides
+Support
+Help Center
+Community
+App FAQs
+Answers
+Scraper Templates
+GitHub
+YouTube
+Crunchbase
+Monster.com
+Upwork
+Show all
+Product Hunt
+Realtor
+Facebook
+Instagram
+Zillow
+Follow
+Youtube
+LinkedIn
+© Copyright 2025 Bardeen Inc. All rights reserved.
+Privacy Policy
+Privacy & Security
+Terms of Service
+Cookie Policy
+Do not sell or share my personal information
+
+=== 計費模式: 月繳 (monthly) ===
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Allow all
+Allow selection
+Deny
+Home
+Product
+Solutions
+Templates
+Resources
+Pricing
+Get started
+Home
+Product
+Solutions
+Templates
+Resources
+Pricing
+Get started
+Plans to transform your GTM motion with AI
+
+Add AI to your services, automate lead sourcing and enrichment, and reclaim your team’s time with Bardeen Agents.
+
+Basic
+Billed monthly
++100 credits / month
+1000
+$
+10
+/ month
+Get started
+Build your own scrapers
+Premium scrapers
+Enrichment
+Teams
+Annual (Save 20%)
+Premium
++1000 credits / month
+$
+50
+/ month
+Get started
+Build your own scrapers
+Premium scrapers
+Enrichment
+Teams
+Enterprise
+Billed Annual
+Custom bulk credits
+Need anything custom?
+
+Contact Sales
+Everything from Premium
+We build customer scrapers
+We maintain customer scrapers
+Premium Support
+You will always get 100 credits for free. Unused credits expire at the end of each billing period.
+About Credits
+
+Each row an action creates costs 1 credit . Enrichment rows cost 3 credits. Importing data and using utilities are free — and you can always download your results as a CSV at no cost.
+
+Scraper
+1 Cr. / row
+Web Search
+1 Cr. / row
+Enrichment
+3 Cr. / row
+AI Tools
+1 Cr. / row
+Utilities
+free
+Im- / Export
+free
+|
+1 Cr. / row
+Example
+Scrape 10 profile links, extract their contact details, verify their emails, and add qualified leads (4) to a Google Sheet.
+Action
+Outputs
+Cost
+Scrape Search Results
+Scrape Profile Details
+Validate Email Address
+Qualify with AI
+Export to a Google Sheet
+10
+10
+10
+10
+4
+10
+10
+30
+10
+4
+Total Credits Used
+64
+Check out the example and see what
+you can get inside the app.
+"Our Sales and Ops teams can do more in less time to help serve our customers better."
+Alex Bouaziz
+Co-Founder & CEO at deel.
+15h saved
+per week
+Eltjo
+Director of Sales
 Automated
 data entry
 Tufan
 Market Development Managaer
+98%
+expense reduction
+Chris
+CEO
+5h
+saved per webscraping task
+Saad
+Senior Research Analyst
+60h saved
+on prospecting per week
+Caroline
+Sales
+15h saved
+by team per week
+Pat
+Talent Research
+75% boosted
+efficiency on building lead lists
+Alex
+Co-Founder & CEO
+Enterprise-grade security
+
+SOC 2 Type II, GDPR and CASA Tier 2 and 3 certified — so you can automate with confidence at any scale.
+
+Frequently asked questions
+What is Bardeen?
+What tools does Bardeen replace for me?
+Who benefits the most from using Bardeen?
+
+How does Bardeen integrate with existing tools and systems?
+What are common use cases I can accomplish with Bardeen?
+Product
+Web Scraper
+Web Search
+Enrichment
+AI Tools
+Integrations
+Solutions
+Solopreneurs
+Music
+Real Estate
+Recruiting
+Private Equity
+Event Services
+About
+Pricing
+About Bardeen
+Manifesto
+Careers
+Research
+Contact
+Resources
+Blog
+Customer Stories
+Release Notes
+Best Tools
+Guides
+Support
+Help Center
+Community
+App FAQs
+Answers
+Scraper Templates
+GitHub
+YouTube
+Crunchbase
+Monster.com
+Upwork
+Show all
+Product Hunt
+Realtor
+Facebook
+Instagram
+Zillow
+Follow
+Youtube
+LinkedIn
+© Copyright 2025 Bardeen Inc. All rights reserved.
+Privacy Policy
+Privacy & Security
+Terms of Service
+Cookie Policy
+Do not sell or share my personal information
+
+=== 計費模式: 月繳 (monthly) #2 ===
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Allow all
+Allow selection
+Deny
+Home
+Product
+Solutions
+Templates
+Resources
+Pricing
+Get started
+Home
+Product
+Solutions
+Templates
+Resources
+Pricing
+Get started
+Plans to transform your GTM motion with AI
+
+Add AI to your services, automate lead sourcing and enrichment, and reclaim your team’s time with Bardeen Agents.
+
+Basic
+Billed monthly
++100 credits / month
+$
+10
+/ month
+Get started
+Build your own scrapers
+Premium scrapers
+Enrichment
+Teams
+Annual (Save 20%)
+Premium
++1000 credits / month
+1000
+$
+50
+/ month
+Get started
+Build your own scrapers
+Premium scrapers
+Enrichment
+Teams
+Enterprise
+Billed Annual
+Custom bulk credits
+Need anything custom?
+
+Contact Sales
+Everything from Premium
+We build customer scrapers
+We maintain customer scrapers
+Premium Support
+You will always get 100 credits for free. Unused credits expire at the end of each billing period.
+About Credits
+
+Each row an action creates costs 1 credit . Enrichment rows cost 3 credits. Importing data and using utilities are free — and you can always download your results as a CSV at no cost.
+
+Scraper
+1 Cr. / row
+Web Search
+1 Cr. / row
+Enrichment
+3 Cr. / row
+AI Tools
+1 Cr. / row
+Utilities
+free
+Im- / Export
+free
+|
+1 Cr. / row
+Example
+Scrape 10 profile links, extract their contact details, verify their emails, and add qualified leads (4) to a Google Sheet.
+Action
+Outputs
+Cost
+Scrape Search Results
+Scrape Profile Details
+Validate Email Address
+Qualify with AI
+Export to a Google Sheet
+10
+10
+10
+10
+4
+10
+10
+30
+10
+4
+Total Credits Used
+64
+Check out the example and see what
+you can get inside the app.
+"Our Sales and Ops teams can do more in less time to help serve our customers better."
+Alex Bouaziz
+Co-Founder & CEO at deel.
+15h saved
+per week
+Eltjo
+Director of Sales
+Automated
+data entry
+Tufan
+Market Development Managaer
+98%
+expense reduction
+Chris
+CEO
+5h
+saved per webscraping task
+Saad
+Senior Research Analyst
+60h saved
+on prospecting per week
+Caroline
+Sales
+15h saved
+by team per week
+Pat
+Talent Research
+75% boosted
+efficiency on building lead lists
+Alex
+Co-Founder & CEO
 Enterprise-grade security
 
 SOC 2 Type II, GDPR and CASA Tier 2 and 3 certified — so you can automate with confidence at any scale.

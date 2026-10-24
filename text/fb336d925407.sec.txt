@@ -1,28 +1,79 @@
-Researcher
+=== 計費模式: 預設畫面 (default) ===
 Free
+---
 / month
 ---
 1,000 API credits / month
 No credit card required
 Email support
-Get Started
+Get started
 Pay As You Go
+---
 $0.008
+---
 / credit
 ---
-For flexible usage
+Email support
+Get started
+Project
 ---
-9
+$30
+$
+0
+1
+---
 / month
 ---
 4,000 API credits / month
 Higher rate limits
 ---
-Talk to Sales
+Get 100k free API credits, hands-on support from our team, and help bringing your product to market.
+---
+Join the program
 Free for students
 ---
 How do I start using Tavily and get an API key?
 When do my monthly API credits reset?
+What is an API credit and how is usage calculated?
+What happens if I run out of credits?
+Power your AI with real-time web search
+=== 計費模式: 月繳 (monthly) ===
+Free
+---
+/ month
+---
+1,000 API credits / month
+No credit card required
+Email support
+Get started
+Pay As You Go
+---
+$0.008
+---
+/ credit
+---
+Email support
+Get started
+Project
+---
+$30
+$
+0
+1
+---
+/ month
+---
+4,000 API credits / month
+Higher rate limits
+---
+Get 100k free API credits, hands-on support from our team, and help bringing your product to market.
+---
+Join the program
+Free for students
+---
+How do I start using Tavily and get an API key?
+When do my monthly API credits reset?
+---
 What is an API credit and how is usage calculated?
 What happens if I run out of credits?
 Power your AI with real-time web search

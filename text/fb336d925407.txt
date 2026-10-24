@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Tavily ranks #1 in Company Search Benchmark. Explore the results →
 
 Product
@@ -12,7 +13,9 @@ Log in
 
 Find a plan to power your AI Agents
 Researcher
+
 Free
+
 / month
 
 For new creators
@@ -20,9 +23,11 @@ For new creators
 1,000 API credits / month
 No credit card required
 Email support
-Get Started
+Get started
 Pay As You Go
+
 $0.008
+
 / credit
 
 For flexible usage
@@ -30,8 +35,10 @@ For flexible usage
 Pay only for what you use
 Cancel anytime
 Email support
-Get Started
+Get started
 Project
+
+$30
 $
 0
 1
@@ -53,6 +60,7 @@ $
 7
 8
 9
+
 / month
 
 Built for enthusiasts
@@ -62,8 +70,9 @@ Slide to adjust plan
 4,000 API credits / month
 Higher rate limits
 Email support
-Get Started
+Get started
 Enterprise
+
 Custom
 
 For corporations
@@ -72,17 +81,21 @@ Custom API calls
 Custom rate limits
 Enterprise-grade support and SLAs
 Enterprise-grade security and privacy
-Talk to Sales
+Talk to the team
+Building a startup?
+
+Get 100k free API credits, hands-on support from our team, and help bringing your product to market.
+
+Join the program
 Free for students
 
-We're dedicated to supporting the pursuit of knowledge
-by offering our service at no cost for students.
+We're dedicated to supporting the pursuit of knowledge by offering our service at no cost for students.
 
 Start exploring
 
-FAQ
+/faq
 
-Common questions
+Frequently asked questions
 
 If you have any questions, please reach out to our team!
 
@@ -99,11 +112,13 @@ Built by researchers. Trusted by 3M+ developers.
 
 Opt into comms
 
-By submitting my email address, I agree to receive marketing communications. For more information, please see the Privacy Policy.
+By submitting my email address, I agree to receive marketing communications from Tavily. For more information, please see the Privacy Notice.
 
 PRODUCT
 Overview
 Pricing
+Integrations
+Tavily EU
 Docs
 SOLUTIONS
 Financial Services
@@ -126,6 +141,7 @@ Contact
 TRUST
 Trust Center
 Privacy Policy
+Privacy Requests
 Manage cookies
 Accessibility
 
@@ -136,5 +152,165 @@ Website Terms
 Platform Terms
 Cookie Notice
 Acceptable Use
-We process your personal information to measure and improve our sites and service, to assist our marketing campaigns and to provide personalised content and advertising. By clicking the button on the right, you can exercise your privacy rights. For more information see our privacy noticeCookie Notice
-Your Privacy Rights Reject All Accept Cookies
+This website uses tracking technologies to enable our website functionalities, to enhance user experience or to analyze performance and traffic. We may also share or sell information about your use of our site with our social media, advertising, and analytics partners. This allows us to perform targeted advertising and to select ads and content that will be more relevant to you. Below you can Accept Default Settings, Reject All trackers, or exercise your right to opt -in or -out of the sale of personal data, targeted advertising, profiling, and the processing of sensitive data by clicking on “Manage Your Privacy Choices.” For more details on the data we process and how to exercise your rights, see our Privacy Policy Cookie Notice
+Opt out of sale of personal data and Targeted Advertising Reject All Accept Cookies
+
+=== 計費模式: 月繳 (monthly) ===
+Tavily ranks #1 in Company Search Benchmark. Explore the results →
+
+Product
+Solutions
+Resources
+Docs
+Pricing
+Contact
+Log in
+
+/pricing plans
+
+Find a plan to power your AI Agents
+Researcher
+
+Free
+
+/ month
+
+For new creators
+
+1,000 API credits / month
+No credit card required
+Email support
+Get started
+Pay As You Go
+
+$0.008
+
+/ credit
+
+For flexible usage
+
+Pay only for what you use
+Cancel anytime
+Email support
+Get started
+Project
+
+$30
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+/ month
+
+Built for enthusiasts
+
+Slide to adjust plan
+
+4,000 API credits / month
+Higher rate limits
+Email support
+Get started
+Enterprise
+
+Custom
+
+For corporations
+
+Custom API calls
+Custom rate limits
+Enterprise-grade support and SLAs
+Enterprise-grade security and privacy
+Talk to the team
+Building a startup?
+
+Get 100k free API credits, hands-on support from our team, and help bringing your product to market.
+
+Join the program
+Free for students
+
+We're dedicated to supporting the pursuit of knowledge by offering our service at no cost for students.
+
+Start exploring
+
+/faq
+
+Frequently asked questions
+
+If you have any questions, please reach out to our team!
+
+Contact us
+How do I start using Tavily and get an API key?
+When do my monthly API credits reset?
+
+Your API credits reset on the first day of each month, regardless of the billing date. This ensures you start each month with a clean slate of credits to use for your searches.
+
+What is an API credit and how is usage calculated?
+What happens if I run out of credits?
+Power your AI with real-time web search
+Try it out
+Explore API docs
+
+Built by researchers. Trusted by 3M+ developers.
+
+Opt into comms
+
+By submitting my email address, I agree to receive marketing communications from Tavily. For more information, please see the Privacy Notice.
+
+PRODUCT
+Overview
+Pricing
+Integrations
+Tavily EU
+Docs
+SOLUTIONS
+Financial Services
+Insurance
+Post-Training
+Use Cases
+RESOURCES
+Blog
+Events
+Customers
+Certification
+Community
+COMPANY
+About
+Careers
+Partnerships
+Startups
+Brand
+Contact
+TRUST
+Trust Center
+Privacy Policy
+Privacy Requests
+Manage cookies
+Accessibility
+
+© 2026 Tavily Inc. All rights reserved.
+
+support@tavily.com
+Website Terms
+Platform Terms
+Cookie Notice
+Acceptable Use
+This website uses tracking technologies to enable our website functionalities, to enhance user experience or to analyze performance and traffic. We may also share or sell information about your use of our site with our social media, advertising, and analytics partners. This allows us to perform targeted advertising and to select ads and content that will be more relevant to you. Below you can Accept Default Settings, Reject All trackers, or exercise your right to opt -in or -out of the sale of personal data, targeted advertising, profiling, and the processing of sensitive data by clicking on “Manage Your Privacy Choices.” For more details on the data we process and how to exercise your rights, see our Privacy Policy Cookie Notice
+Opt out of sale of personal data and Targeted Advertising Reject All Accept Cookies

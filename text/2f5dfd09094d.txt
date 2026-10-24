@@ -4,14 +4,14 @@ Channels
 Tools
 Pricing
 Log in
-Get Started Free
+Get started
 Pricing that scales with your content
 
 Start free. Upgrade when you're ready to post everywhere.
 
-Save ~33% + get 2× credits on annual billing
+Save 50% with yearly billing. Billed once a year.
 
-Coming from Vidyo.ai? Your plan and pricing are unchanged.Here's what happened.
+Coming from Vidyo.ai? Your plan and pricing are unchanged. Here's what happened.
 
 Free
 
@@ -23,22 +23,26 @@ $0/mo
 
 Get started free
 ✓
-720p render quality
+720p with a quso.ai watermark
 ✓
 Chapters & short videos
 ✓
+16:9, 9:16 & 1:1 clips
+✓
 TikTok publishing
 ✓
-CutMagic
+CutMagic on your first 3 videos
 ✓
 7 days data retention
 Lite
 
 For creators getting consistent with short-form.
 
-$29/mo
+$174/year$348
 
-or $19/mo billed yearly · 100→200 credits
+or $29/month billed monthly
+
+100 credits / month
 
 Start with Lite
 ✓
@@ -55,9 +59,11 @@ Essential
 
 For creators scaling output across platforms.
 
-$39/mo
+$234/year$468
 
-or $26/mo billed yearly · 300→600 credits
+or $39/month billed monthly
+
+300 credits / month
 
 Start with Essential
 ✓
@@ -77,9 +83,11 @@ Growth
 
 For teams and serious creators going all in.
 
-$49/mo
+$294/year$588
 
-or $33/mo billed yearly · 600→1200 credits
+or $49/month billed monthly
+
+600 credits / month
 
 Start with Growth
 ✓
@@ -100,6 +108,9 @@ Social media analytics
 Priority support
 ✓
 75GB storage
+
+Tax may be added at checkout.
+
 Pricing FAQ
 What is a credit?
 +
@@ -112,7 +123,7 @@ Do you have a plan for teams/agencies?
 
 Turn long videos into viral short-form clips — AI clip detection, auto-reframing, and animated captions in minutes.
 
-Get Started For Free
+Get started
 PRODUCTS
 AI Clips Generator
 AI Subtitle Generator
@@ -131,7 +142,7 @@ AI Social Media Manager
 AI B-Roll Library
 Custom Clip
 All products →
-FREE TOOLS
+TOOLS
 AI Clip Maker
 Instagram Post Scheduler
 LinkedIn Post Scheduler
@@ -177,12 +188,12 @@ TikTok integration
 X integration
 YouTube integration
 SUBTITLE GENERATOR
-Auto Subtitle Generator
+AI Subtitle Generator
+English Subtitle Generator
 Hindi Subtitle Generator
-Spanish Subtitle Generator
 Malayalam Subtitle Generator
-Japanese Subtitle Generator
 Arabic Subtitle Generator
+Urdu Subtitle Generator
 All languages →
 RESOURCES
 Blog

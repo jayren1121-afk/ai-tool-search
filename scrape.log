@@ -604,3 +604,21 @@ SCRAPE DONE
 0 15 scraped https://laratranslate.com/pricing 28.4
 舊版頁面還要重抓： 158 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+2 1 scraped https://roocode.com/pricing 5.9
+1 2 scraped https://www.visily.ai/pricing 7.8
+1 3 scraped https://quso.ai/pricing 5.7
+0 4 scraped https://www.together.ai/pricing 17.9
+2 5 scraped https://poly.cam/pricing 13.3
+1 6 scraped https://www.argil.ai/pricing 9.6
+0 7 scraped https://krisp.ai/pricing 8.5
+2 8 scraped https://www.landr.com/pricing 8.0
+1 9 scraped https://www.bardeen.ai/pricing 8.3
+0 10 scraped https://www.tavily.com/pricing 8.1
+2 11 scraped https://www.hyperwriteai.com/pricing 8.1
+1 12 scraped https://www.finalroundai.com/pricing 10.3
+2 13 scraped https://www.mindmeister.com/pricing 7.1
+1 14 scraped https://openrouter.ai/pricing 7.7
+0 15 scraped https://www.brex.com/pricing 16.3
+舊版頁面還要重抓： 143 個（每次最多 15 個）
+SCRAPE DONE

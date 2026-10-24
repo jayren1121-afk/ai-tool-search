@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
 Annual
 SAVE 20%
@@ -17,6 +18,34 @@ Billed Annually - $348/year
 Unlimited AI Messages
 Unlimited access to the best writing AI.
 10 Custom Personas
+---
+What is the difference between the Free and Premium plans?
+---
+Help Center
+Free Tools
+Word Counter
+Free AI Writer
+Free AI Rewriter
+Free AI Summarizer
+Company
+=== 計費模式: 月繳 (monthly) ===
+Monthly
+Annual
+SAVE 20%
+Premium
+$19.99/mo
+Access the world's best AI writer.
+250 AI Messages per Month
+Produce thousands of words of fantastic content.
+---
+Get writing suggestions as you type, with the HyperWrite extension.
+---
+Get Premium
+Ultra
+$44.99/mo
+Supercharge your AI workflows.
+---
+Unlimited AI Messages
 ---
 What is the difference between the Free and Premium plans?
 ---

@@ -38,7 +38,7 @@ Final Interview
 Interviewer
 You
 SUGGESTED ANSWER
-Start with
+Start with the bottleneck, then quantify the trade-offs.
 02
 Go live, or practice
 
