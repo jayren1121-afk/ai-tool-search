@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Login
 Try For Free
 Start editing shorts with AI, today.
@@ -116,6 +117,137 @@ Upgrade now
 Business + API
 ---
 $41/member/mo, billed yearly
+---
+Upgrade now
+Video Creation
+---
+15 videos per member/month
+---
+40 videos per member/month
+---
+Up to 100 videos per member/month
+---
+API credits
+---
+10min/month
+---
+10min/month
+---
+100min/month
+---
+Create Thumbnails
+Free Tools for Creators
+Video Script
+=== 計費模式: 月繳 (monthly) ===
+Login
+Try For Free
+Start editing shorts with AI, today.
+---
+Monthly
+Yearly
+(save up to 41%)
+Starter
+---
+For individuals to start with video creation
+---
+$19
+---
+/member/mo
+---
+45 credits
+Generate AI videos and AI images
+---
+AI Auto captions
+Free b-rolls & audio
+Text-based trimming
+---
+API & Integrations (10min/mo)
+MOST POPULAR
+Pro
+---
+For pros to create impactful shorts with AI
+---
+$39
+---
+/member/mo
+---
+120 credits
+Generate AI videos and AI images
+---
+Business
+---
+For teams to scale video production
+---
+$69
+---
+/member/mo
+---
+300 credits
+Generate AI videos and AI images
+---
+API & Integrations (100min/mo)
+Publish from multiple social accounts
+---
+Contact sales
+Custom videos / month
+Custom minutes / video
+---
+Advanced Security and SSO
+API Credits
+---
+Need more API minutes? Add credit packs after purchasing a plan.
+---
+250 min
+---
+$57/mo
+---
+$0.23/min
+---
+500 min
+---
+$75/mo
+---
+$0.15/min
+---
+1,000 min
+---
+$150/mo
+---
+$0.15/min
+---
+2,000 min
+---
+$300/mo
+---
+$0.15/min
+---
+5,000 min
+---
+$500/mo
+---
+$0.10/min
+---
+10,000 min
+---
+$1000/mo
+---
+$0.10/min
+---
+Trusted by teams at
+Compare plans and features
+Starter
+---
+$19/member/mo, billed monthly
+---
+Upgrade now
+Pro
+---
+$39/member/mo, billed monthly
+---
+Upgrade now
+Business + API
+---
+$69/member/mo, billed monthly
 ---
 Upgrade now
 Video Creation

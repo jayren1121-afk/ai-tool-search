@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Login
 Get Started Free
 EN
@@ -51,3 +52,60 @@ Everything in Basic, plus:
 Contact Us!
 Custom Pricing
 Custom Development
+---
+Privacy
+Contact Sales
+=== 計費模式: 月繳 (monthly) ===
+Login
+Get Started Free
+EN
+---
+Maestra Transcription Pricing
+Yearly • Save 20%
+Monthly
+Pay As You Go
+$12
+per 60 credits
+---
+What you get:
+---
+Transcription in 125+ languages
+60 mins
+Pay As You Go
+Lite
+$29
+per month
+---
+What you get:
+---
+Transcription in 125+ languages
+180 mins/mo
+Subscribe Now
+Basic
+$49
+per month
+---
+What you get:
+---
+Transcription in 125+ languages
+360 mins/mo
+AI summary
+Custom dictionary
+MaestraCloud file sharing
+Subscribe Now
+Premium
+$99
+per month
+---
+What you get:
+---
+Transcription in 125+ languages
+900 mins/mo
+Everything in Basic, plus:
+---
+Contact Us!
+Custom Pricing
+Custom Development
+---
+Privacy
+Contact Sales

@@ -4,32 +4,44 @@ Browsers
 Showcase
 Resources
 Pricing
-118k
+119k
+Talk to sales
 Log in
 Start for free
 Pay as you go.
 
 No subscription. Credits never expire.
 
+Get started
+Talk to sales
+Email us
+
+$1 free credit · SOC 2 Type II · HIPAA · Status
+
+browser-use.com/pricing
+Cloud browser
+$0.02 / hour
+plus $5 / GB residential proxy
+Web agent
+Model +20%
+plus browser time and traffic
+Browser session
+metered by the minute
 Browsers
 
 $0.02 / hour
 
-Residential proxy
-$5 / GB
+Cloud browsers, plus $5 / GB residential proxy.
+
 Browser agents
 
-Model cost + 20%
+Model +20%
 
-Plus browser time and traffic.
+Web agents, plus browser time and traffic.
 
-Get started
-→
-Email us
-↗
-Which model to choose?
+Which model to choose? Price against quality.
 
-Price vs. quality. Very hard browser tasks.
+Very hard browser tasks, one point per model and setting.
 
 OpenAI
 Anthropic
@@ -37,9 +49,6 @@ DeepSeek
 xAI
 MiniMax
 Z.ai
-
-Quality / 100 ↑
-
 10
 30
 50
@@ -51,6 +60,8 @@ $0.5
 $1
 $5
 $10
+Quality score
+price per task, log scale
 Opus 5.5
 DeepSeek V4.1
 GPT-6 Astra
@@ -59,11 +70,10 @@ GPT-6 Sol
 Grok 4.6
 MiniMax M3
 
-← Lower price per task (USD)
-
-GPT-6 Luna · high · 53.9/100 · ≥ $0.15 / task
+GPT-6 Luna · high · 53.9 quality · at least $0.15 per task
 
 About this benchmark
+Every rate. In full.
 Model prices
 Concurrency tiers
 Billing details
@@ -72,6 +82,15 @@ Legacy pricing
 Product
 Browser Use Agents
 Browser Infrastructure
+Integrations
+Browser for coding agents
+Claude in Chrome
+Claude Code browser
+Codex browser
+Cursor browser
+Gemini browser
+OpenClaw
+MCP server
 Resources
 Pricing
 Benchmarks
@@ -79,20 +98,24 @@ Documentation
 Developers
 Open Source
 Browser Harness
-OpenClaw
 Custom Models
-Proxies
-Blog
+Site skills
+WebMCP directory
 Changelog
+Blog
+Free developer tools
 Solutions
 Remote browser for Playwright
+Chrome for Puppeteer
 CAPTCHA solving
 Anti-detect browser
-Browser for coding agents
-MCP server
 Web agent API
+Proxies
 Form filling
+Web scraping
+Automated testing
 Login automation
+Browser for voice agents
 Showcase
 All examples
 What people run
@@ -109,7 +132,10 @@ Case studies
 Company
 Careers
 Enterprise
+Security
 SOC 2
+HIPAA
+Zero data retention
 Terms
 Privacy
 DPA
@@ -120,9 +146,19 @@ GitHub
 Twitter
 LinkedIn
 Discord
+Comparisons
+vs Playwright MCP
+vs Chrome DevTools MCP
+vs agent-browser
+Cloud browser comparison
+Web agent comparison
+Browserbase alternatives
+Kernel alternatives
 View as Markdown
 Current view: website.
 ↗
 System status
+Dev mode
+Enterprise mode
 © 2026 Browser Use
 AI agents and crawlers: read browser-use.com/llms.txt for the product map and llms-full.txt for full context.

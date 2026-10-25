@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 By using Cleanvoice AI, you agree to our Cookie Policy.
 
 Preferences
@@ -8,6 +9,7 @@ Features
 Pricing
 <developers/>
 Blog
+Contact sales
 Log In
 Try for free
 Simple Pricing Plan
@@ -101,10 +103,11 @@ Mouth Sounds & Breath Remover
 Audio Enhancer (Studio Sound)
 Timeline Export
 Transcription & Summary
-
-Quick Support
-
 Custom Plan
+
+Starting at
+$0.01
+/ minute
 
 Used by 30+ Brands
 
@@ -288,6 +291,7 @@ Breath Removal API
 Echo & Reverb Remover
 Adobe Podcast API Alternative
 Descript API Alternative
+Dolby.io API Alternative
 Company
 Home
 Pricing
@@ -295,7 +299,325 @@ Blog
 API Playground
 API Docs
 Make + Cleanvoice Integration
-Contact
+Contact sales
+Press Kit
+llms.txt
+Legal
+Privacy & Cookies
+Terms & Conditions
+Data Processing Agreement
+Service Level Agreement
+
+© 2026 Cleanvoice AI. All rights reserved
+
+Terms & Conditions
+Privacy & Cookies
+🇺🇸
+English
+All services online
+
+=== 計費模式: 年繳 (yearly) ===
+By using Cleanvoice AI, you agree to our Cookie Policy.
+
+Preferences
+Reject All
+Accept All
+Home
+Features
+Pricing
+<developers/>
+Blog
+Contact sales
+Log In
+Try for free
+Simple Pricing Plan
+
+Try it for free. Pay as you grow. Switch at any time.
+
+Whether you use our app or need the API.
+
+Free Trial
+
+Try our service for free. No credit card required.
+
+Start Free Trial
+EUR
+USD
+Pay as You Go
+
+Flexible pricing for occasional use. Credits purchased are valid for 2 years.
+
+$11
+
+$2.20/hour
+
+5 Hours
+
+Processed Audio per Month.
+
+$20
+
+$2.00/hour
+
+10 Hours
+
+Processed Audio per Month.
+
+$45
+
+$1.50/hour
+
+30 Hours
+
+Processed Audio per Month.
+
+Buy Credits
+
+All plans include all features and are listed without VAT.
+
+Most Popular
+
+Subscription
+Monthly
+Yearly
+
+Credits are usable anytime within the subscription period. Unused credits roll over, up to three times your plan limit.
+
+$110
+
+$0.92/hour
+
+10 Hours
+
+Processed Audio per Month.
+
+$300
+
+$0.83/hour
+
+30 Hours
+
+Processed Audio per Month.
+
+$900
+
+$0.75/hour
+
+100 Hours
+
+Processed Audio per Month.
+
+Subscribe Now
+
+All plans include all features and are listed without VAT.
+
+Access to all features:
+
+Filler Words Remover
+Background Noise Remover
+Silence Remover
+Video Podcast Editing
+Mouth Sounds & Breath Remover
+Audio Enhancer (Studio Sound)
+Timeline Export
+Transcription & Summary
+Custom Plan
+
+Starting at
+$0.01
+/ minute
+
+Used by 30+ Brands
+
+Access to all features:
+
+200+ Hours Processed Audio
+Custom API Endpoints
+Priority Support
+Custom Pricing and Billing
+
+Need 200+ hours per month? Or need customization for your business?
+
+Book a Call
+40k+ creators are already loving Cleanvoice. Be the next.
+All
+Background noise remover
+Studio quality
+Filler words remover
+Video podcasts
+Mouth & breath sounds
+Transcription & summary
+Silence/deadair remover
+Echo & Reverb Remover
+Time-Saving
+Better than X tool
+Non-Techy & Beginners
+Businesses & API
+Editors/Audio engineers
+Non-English
+Reviving Old Files
+Rodrigo Leles
+Digital Designer
+Allan Bird
+Videographer - Producer
+I have been a sound engineer since the late seventies & have composed and recorded over 2,100 songs. Since the digital revolution hit the music industry, we have searched for the best tools to clean, enhance & produce the very best sound for listeners. My peers & I have only used Adobe Audition, but using Clean Voice.AI this evening . . . I am totally gobsmacked AND blown away. I cannot believe Clean Voice.AI has such amazing AI tools to remove a constant hum on a video filmed 30 years ago. I will seriously urge & inform all the studios I have worked in over the last 42 years to visit and use Clean Voice. AI for sure. Thank you soooo very much for this. 'Raine Studios.
+Read more
+01/26/2026
+Warren J
+Voiceover Artist
+Incredible service for a great price. I was never able to successfully get out breaths using Adobe Audition and had to edit each one individually which took literally hours for 20 minute piece. Cleanvoice easily saves me 20 hours per month.
+07/12/2025
+DeeVpa
+Audible Narrator
+For many of my tracks it makes audiobook producing painless. Saves so time!
+04/03/2025
+Mohmad Yakub
+Coding Teacher
+
+“Better than Audacity and Adobe's Podcast”
+
+I tried to edit my audio using audacity software to clear background continuous hissing noise, but i couldn't remove it completely. I even tried adobe's podcast to improve it. The kind of clarity and crisp i got in Cleanvoice is the best i got from anywhere else. It does it - "clean voice". I recommend it.
+Read more
+09/10/2024
+Stewart
+I had a old, short recording of a very sad graveside funeral, where the cassette tape had a great deal of background noise. I converted the tape to an mp3 and Cleanvoice did an excellent job of removing the background noise making the recording much easier to hear. I was very thankful for the clear recording.
+Read more
+06/18/2024
+Jack Holden Gaines
+One CA Podcast
+Cleanvoice is terrific for rough editing. Once I record an interview I upload the channels onto the app and it removes all the extra BS that I normally spend hours editing out. This helps me to then go straight to finish edits and sound balancing, saving hours of editing. Thank you.
+Read more
+05/31/2024
+Angel Martinez
+Excellent, amazing tool! With just one click in 4 minutes it automatically removed 231 nasty sounds from my 16-minute audio recording. A huge time-saver, this is my new favorite must-have tool.
+05/21/2024
+Earl Flormata
+Evil Marketing Genius
+Vlad J
+AMAZING TOOL! Love it. Thank you. It saved me 3 hours! Love you.
+12/05/2025
+Katia
+Business Owner
+Cleanvoice has solved all my podcasting-headaches! I used to lose hooours in editing my podcasts to remove filler words, sounds and "speaking sounds" that made it impossible to listen to myself and why I didn't publish an episode un-edited. Now that's all in the past, it now takes me less than 5 minutes to upload & download my episode in Cleanvoice. I'm forever grateful for your service! Kind regards from Belgium :)
+Read more
+09/01/2024
+Brian
+Worked like magic! My daughter recorded a video for a project that had a ton of background noise and I thought she was going to have to redo it all. A desperate Google search for solutions led me to Cleanvoice, and within a few minutes it had completely salvaged the video. Thanks so much!
+Read more
+03/23/2025
+Kanishk Mishra
+Great work cleanvoice.ai! You got me rid of all the disturbance noise that were in my audio message. Actually I was in a train to a surprise visit to someone, who I told I was in my home. Now, I got rid of all the train background noises in my msg and I sent it to the person, who believes that I'm indeed at home.
+Read more
+09/09/2024
+Pastor Steve
+Pastor
+I'm a pastor who edits my own sermons for 30-minute radio spots. Cleanvoice has not only reduced background noise to professional-level quality, but made the editing process SO MUCH EASIER by removing the "umm's" and other stutters I tend to have.
+Read more
+06/27/2024
+Meredith Hooke
+While I use Hindenburg Pro for my audio and editing needs, it just isn't enough and that's where Cleanvoice comes in to make everything perfect. I am so pleased with the results of Cleanvoice.
+06/14/2024
+Vinayak Agrawal
+Okay so Within 10 minutes I edited my 4 videos for background noises and really it's so effective. Cleanvoice reduces bg noises by more than 95%. I would very much recommend using it.
+05/24/2024
+Sarah LeBaron
+Student
+brian scott
+video production
+i have shot over 7000 weddings on maui outside on the beach so i have some experience with wind/waves and all outside noices. as a guest i recorded a family wedding outside , in a rainstorm with my phone. Not only did this ai take out the raindrops but it adjusted the volume of both the groom facing me and the bride facing away. where have you been for the last 20 years? thank you. love cleanvoice..
+Read more
+07/21/2024
+Martin
+Retired, but not so tired that I want to give up quite yet
+My recording was awful. I recorded it outdoors on an inspiring walk and the ideas flowed. The words were excellent. The recording was awful. Back in my office I attempted to record the same words using a laptop and an expensive microphone, but the inspiration was not there. A sad ending to the day? Not at all. I found Cleanvoice! Using the original recording - filled with gusts of wind, deep breaths and long pauses - I got what I wanted and needed most. A perfectly paced, inspiring monologue of instructions and inspiration in a clean voice. And that was just the free trial. Cleanvoice gave me what I needed as a demo of what they could do, so I am giving them this testimonial as my thanks to them. Now I must consider how I want to make my recordings in the future - on long inspiring walks with gusts of wind, or in a studio with an expensive microphone?
+Read more
+11/28/2024
+Alishba Sajjad
+Social Media Manager at Instagram and Linkedin
+The best thing I like about cleanvoice is that it is easy to use, quickly responsive and hurdle free processing. Also it does not ditch you on the point where you are just about to download the audio and a notifications comes to you to pay 40$ a month. As a freelance worker, it smoothen my work and make it easy for me to do voice overs wherever I want cause at the end it will clean out everything for me. I have recommended to many of my colleagues to use it to get their voice overs cleaned. Five stars!
+Read more
+09/11/2024
+Michael Carreon
+Digital Media Officer at Imperial College London Diabetes Centre
+Cleanvoice has revolutionized my audio editing process. This app is a game-changer, drastically reducing the time I spend cleaning up recordings. With its efficient noise reduction capabilities, I can now polish entire audio tracks in a fraction of the time. It's an indispensable tool for anyone working with sound.
+Read more
+08/20/2024
+Rayan Majumder
+Probably this is the only tool that did justice to the name. Clean voice means super clean voice , nothing less! Wonderful audio analysis and précised treatment. This is next level. Setting up the tone and keeping the original voice is the main challenge. most of the AI compresses too hard and chops voices leading it to blabbering , Cleanvoice keeps the original voice, tone, pronunciations, enunciations everything intact. Go for this, you won't be wrong. Save time and have a great audio. Cheers!
+Read more
+06/17/2024
+Helen
+INCREDIBLE!! It was super easy, very quick and user friendly. (even for someone not so computer savvy). I will definitely recommend Clean Voice to everyone! Thanks for a fantastic product!
+05/29/2024
+Arthur Barbera
+I am impressed with the quality of Cleanvoice's service. With just a few clicks, I was able to remove distracting background noise from a 4.5 minute video, free of charge, and the artificial intelligence behind it did it in less than 30 minutes with outstanding accuracy. I'm blown away by this service and highly recommend it to anyone who needs a tool like this, without any hesitation. I intend to use it again myself in the future if the need arises.
+Read more
+05/14/2024
+Load more
+(27)
+Frequently Asked Questions
+Still have a question?
+
+Send it over and a real person will answer.
+
+support@cleanvoice.ai
+Ask Now
+Are the prices are with VAT included?
+Sales tax or VAT may be charged, depending on where you live. Companies from Europe can use their VAT ID (UID number) to purchase without VAT.
+
+Should I get Pay-as-you-go credits or a subscription?
+What happens if I don't use all my subscription credits each month?
+How do you bill credits?
+I have purchased both Subscription and Pay as you Go Credits. Which will be used first?
+Can I cancel/upgrade/downgrade my subscription?
+What payment methods do you support?
+Are credits charged if uploading fails?
+Do I get discount for processing huge amount of audio (1000h+/month) ?
+How long do you save my uploaded files?
+Do you have a startup program?
+Clean 30 minutes for free.
+Sign Up
+Features
+Filler Words Remover
+Podcast Summary & Shownotes
+Mouth Sound Remover
+Background Noise Remover
+Studio Sound (Audio Enhancer)
+Podcast Mixing
+Breath Remover
+Stutter Remover
+Deadair Remover
+Integrations
+Podcast Transcription
+Free Tools
+Podcast Name Generator
+Cleanscore - Podcast Audit
+Podcast Questions Generator
+Episode Title Generator
+Extract Audio From Video
+Audio Trimmer
+Volume Changer
+Audio Joiner
+Online Mic Test
+Audio Visualizer( Audiogram Maker)
+Podcast Intro & Outro mix
+Finding Your Usecase?
+Video Podcast Editing
+Audio Editing API 
+Speech Enhancement SDK & API
+Breath Removal API
+Echo & Reverb Remover
+Adobe Podcast API Alternative
+Descript API Alternative
+Dolby.io API Alternative
+Company
+Home
+Pricing
+Blog
+API Playground
+API Docs
+Make + Cleanvoice Integration
+Contact sales
 Press Kit
 llms.txt
 Legal

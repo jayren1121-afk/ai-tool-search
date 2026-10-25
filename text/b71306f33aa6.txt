@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 We use cookies to personalize your experience, evaluate website usage and support our marketing efforts. To learn more, view the following link:
 Privacy Policy
 Manage Preferences
@@ -213,7 +214,7 @@ Users can invite Hiring Managers to review shortlisted leads or view project ana
 
 —
 
-SEARCH (PEOPLEGPT)
+SEARCH
 
 Searches
 
@@ -229,7 +230,7 @@ Unlimited
 
 AI search-builder
 
-Use PeopleGPT to create a query for you. No Booleans needed.
+Juicebox creates the query for you. No Booleans needed.
 
 AI filters
 
@@ -507,7 +508,7 @@ Yes. Juicebox has 800 million profiles across the globe from dozens of data sour
 
 Will it integrate with my ATS or CRM?
 
-Juicebox integrates with 41 ATS systems and 21 CRMs. Alternatively, you can export to detailed CSVs in seconds, with or without contact info. Can’t find your CRM or ATS? Contact sales@juicebox.work for an estimate on when it will go live.
+Juicebox has 100+ ATS and CRM integrations. Alternatively, you can export to detailed CSVs in seconds, with or without contact info. Can’t find your CRM or ATS? Contact sales@juicebox.work for an estimate on when it will go live.
 
 The future of recruiting   starts with Juicebox
 
@@ -519,7 +520,608 @@ BOOK A DEMO
 
 Product
 
-SEARCH (PEOPLEGPT)
+CANDIDATE SEARCH
+
+OUTREACH
+
+JUICEBOX AGENT
+
+CHROME EXTENSION
+
+Resources
+
+DOCS
+
+PRICING
+
+REFERRAL
+
+HELP CENTER
+
+SEARCH LIBRARY
+
+MORE INFO
+
+PARTNERS
+
+CUSTOMERS
+
+HIRE FOR GOOD
+
+Company
+
+BLOG
+
+CAREERS
+
+PRESS
+
+LINKEDIN
+
+X / TWITTER
+
+Security
+
+STATUS
+
+TRUST CENTER
+
+AI AUDIT CENTER
+
+PRIVACY CHOICES
+
+RESPONSIBLE DISCLOSURE
+
+Try Juicebox Now
+
+FREE TRIAL
+
+SIGN IN
+
+WATCH DEMO
+
+© 2026 Juicebox
+
+Privacy policy
+
+Terms of Service
+
+Cookie Policy
+
+Cookie Choices
+
+GDPR & CCPA
+
+Do Not Sell or Share 
+My Personal Information
+
+Status
+
+    
+
+=== 計費模式: 月繳 (monthly) ===
+We use cookies to personalize your experience, evaluate website usage and support our marketing efforts. To learn more, view the following link:
+Privacy Policy
+Manage Preferences
+
+FEATURES
+
+AGENTS
+
+PRICING
+
+RESOURCES
+
+COMPANY
+
+SIGN IN
+
+BOOK A DEMO
+
+TRY FOR FREE
+
+PRICING
+
+Flexible plans for every use case
+
+Supercharge your organization’s people intelligence with AI-powered recruitment. All prices in USD.
+
+Monthly
+
+Yearly
+
+15% OFF
+
+Free
+
+$0
+
+per seat/month
+
+Try Juicebox for free and explore AI-powered search.
+
+GET STARTED
+
+Limited free searches
+
+AI email templates
+
+Set up a Juicebox Agent
+
+Starter
+
+$119
+
+per seat/month
+
+Self-serve plan with unlimited searches, great for individuals.
+
+GET STARTED
+
+EVERYTHING IN FREE, AND:
+
+Unlimited searches
+
+500 contact credits (email + phone)
+
+500 export credits
+
+Unlimited projects
+
+Email outreach + AI templates
+
+Growth
+
+POPULAR
+
+$199
+
+per seat/month
+
+Collaborative, built for small teams, agencies, and startups.
+
+GET STARTED
+
+EVERYTHING IN STARTER, AND:
+
+Talent insights
+
+1,500 contact credits (email + phone) 
+
+1,500 export credits
+
+Add up to 5 seats (paid per seat)
+
+3 mailboxes per user
+
+Business
+
+Custom
+
+(Available on annual only)
+
+Full-access plan for large businesses or agencies.
+
+REQUEST DEMO
+
+EVERYTHING IN GROWTH, AND:
+
+Onboarding and training
+
+Unlimited contact credits
+
+Usage analytics
+
+Collaborative hiring manager seats
+
+Integrate ATS or CRM
+
+Network sourcing
+
+6 mailboxes per user
+
+Priority support (email, chat, Slack)
+
+Data analyst agent
+
+Running 24/7 in background
+
+ADD ON
+
+Juicebox Agents
+
+$199 per agent/month
+
+GET STARTED
+
+INCLUDED AGENT FEATURES WITH ALL PAID PLANS:
+
+Unlimited contact credits
+
+Unlimited email credits
+
+Set to auto-email or auto-shortlist
+
+Give access to any user in your organization
+
+TRUSTED BY 25,000 TEAMS,   RECRUITERS, AND HIRING MANAGERS
+
+Compare plans
+& features
+
+Free
+
+GET STARTED
+
+Starter
+
+GET STARTED
+
+Growth
+
+GET STARTED
+
+Business
+
+CONTACT US
+
+WORKPLACE
+
+Included seats
+
+1 seat
+
+1 seat
+
+Up to 5 seats
+
+Custom
+
+Active projects
+
+Each project includes unlimited searches and shortlisted candidates.
+
+Trial
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Collaboration
+
+—
+
+—
+
+Admin seats
+
+Admins can access billing and view activity.
+
+—
+
+—
+
+—
+
+Hiring Manager seats
+
+Users can invite Hiring Managers to review shortlisted leads or view project analytics
+
+—
+
+—
+
+—
+
+SEARCH
+
+Searches
+
+Run unlimited searches across all paid plans.
+
+Trial
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+AI search-builder
+
+Juicebox creates the query for you. No Booleans needed.
+
+AI filters
+
+Use smart filters to power up your search. Instead of buildnig a list yourself, just ask the AI to list "top companies in cybersecurity".
+
+Talent Insights
+
+Read more here: https://docs.juicebox.work/insights
+
+—
+
+—
+
+Search help
+
+Get same-day search help from Juicebox's customer support team.
+
+Network Sourcing
+
+Source candidates across your employee's network
+
+—
+
+—
+
+—
+
+PROFILE DATA
+
+Smart profiles
+
+Full profile insights, including linked data sources, AI-inferred skills, and technical/expert details.
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+AI spotlight
+
+Use AI-Spotlight to instantly see why a candidate matches your search.
+
+CONTACT DATA
+
+Contact credits
+
+Contact credits are used only for email and phone contact info. When you use a credit, you get all emails and phone numbers associated with a profile.
+
+5 (one-off)
+
+500/month
+
+1,500/seat/month
+
+Unlimited
+
+Personal email
+
+—
+
+(1 credit)
+
+(1 credit)
+
+Professional email
+
+—
+
+(1 credit)
+
+(1 credit)
+
+Phone numbers
+
+—
+
+—
+
+(3 credits)
+
+CRM, ATS & EXPORTS
+
+Export limit
+
+The number of profiles that can be exported across CSV, ATS, and CRM export methods. On the business plan, this can be customized.
+
+0
+
+500/month
+
+1,500/seat/month
+
+2,250/seat/month*
+
+Bulk export
+
+The number of profiles that can be exported at once.
+
+0
+
+100 per export
+
+250 per export
+
+Up to 500 per export
+
+CSV exports
+
+—
+
+ATS integration
+
+Juicebox currently integrates with: Greenhouse, Lever, Ashby, JobAdder, Workday, BambooHR, Personio, Oracle Taleo, ApplicantStack, Breezy, CATS, ClayHR, Clockwork, Comeet, Cornerstone TalentLink, EngageATS, Eploy, Fountain, Freshteam, HR Cloud, Harbour ATS, Homerun, Infinite BrassRing, JazzHR, JobScore, Jobsoid, Jobvite, Lano, Polymer, Recruitee, Recruiterflow, Recruitive, SAP SuccessFactors, Sage HR, SmartRecruiters, TalentLyft, TalentReef, Teamtailor, UKG Pro Recruiting, Workable, iCIMS
+
+—
+
+—
+
+—
+
+CRM integration
+
+Juicebox currently integrates with: Salesforce, HubSpot, Zoho, Close, Pipedrive, Zendesk, Accelo, ActiveCampaign, Affinity, Capsule, Copper, Insightly, Keap, Microsoft Dynamics 365 Sales, Nutshell, Pipeliner, Salesflare, SugarCRM, Teamleader, Teamwork CRM, Vtige
+
+—
+
+—
+
+—
+
+SMART OUTREACH
+
+Gmail integration
+
+Seamlessly connect your Gmail account to send emails from Juicebox. This can be the same or a different account to your log-in email.
+
+Outlook integration
+
+Seamlessly connect your Outlook account to send emails from Juicebox. This can be the same or a different account to your log-in email.
+
+Number of Mailboxes
+
+Connect multiple mailboxes to easily switch between email adresses.
+
+—
+
+1 mailbox
+
+3 per seat
+
+6 per seat
+
+SECURITY & REPORTING
+
+SOC2 reporting
+
+Reach out to sales@juicebox.work to request access to SOC2 reporting on the Team and Enterprise plans.
+
+—
+
+—
+
+—
+
+SAML/SSO
+
+—
+
+—
+
+—
+
+Usage analytics
+
+View more details at https://docs.juicebox.work/usage-analytics
+
+—
+
+—
+
+—
+
+BILLING
+
+Credit/debit card
+
+—
+
+Invoice
+
+—
+
+—
+
+—
+
+SUPPORT
+
+Knowledge base
+
+Access the Knowledge Base at https://docs.juicebox.work/
+
+Help center
+
+Access the Help Center at https://help.juicebox.work/
+
+Chat and email support
+
+Priority support
+
+Includes guaranteed 24-hour response times.
+
+—
+
+—
+
+Migration assistance
+
+—
+
+—
+
+—
+
+Onboarding and training
+
+—
+
+—
+
+—
+
+PLAN ADD-ONS
+
+Juicebox Agents (1)
+
+—
+
+$199/month
+
+$199/month
+
+$199/month
+
+[06] FAQ
+
+Your questions, answered
+
+We're here to help. Reach out to our sales team for guidance on how to integrate Juicebox into your recruiting workflow.
+
+BOOK A DEMO
+
+Who can use Juicebox?
+
+Juicebox is built for recruiters. If you are searching for hard-to-find talent, Juicebox is a fit for you. We work with 3,000+ companies ranging from Fortune 500 to boutique recruiting agencies.
+
+Can I try Juicebox for free?
+
+Yes. To get started, use the “Start for Free” button to open the platform. Then, sign up or log in to access your account.
+
+Can I use Juicebox with my team?
+
+You can invite your team to join you on the Growth and Business plans. Use the “invite team” button to get started with your team. You can collaborate on searches, shortlist candidates, and coordinate your outreach campaigns.
+
+How long does it take to set up and start using Juicebox?
+
+60 seconds, no more. Sign up online to create a Juicebox account and run your first search. For details on our CRM and ATS integrations, or questions on the Enterprise plan, please reach out to sales.
+
+Does Juicebox have global candidate data?
+
+Yes. Juicebox has 800 million profiles across the globe from dozens of data sources. We continue to add region-specific sources to enhance global coverage. For details on your specific region, please reach out to our sales team.
+
+Will it integrate with my ATS or CRM?
+
+Juicebox has 100+ ATS and CRM integrations. Alternatively, you can export to detailed CSVs in seconds, with or without contact info. Can’t find your CRM or ATS? Contact sales@juicebox.work for an estimate on when it will go live.
+
+The future of recruiting   starts with Juicebox
+
+Try Juicebox for free and explore AI-powered search today.
+
+TRY FOR FREE
+
+BOOK A DEMO
+
+Product
+
+CANDIDATE SEARCH
 
 OUTREACH
 

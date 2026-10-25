@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Get a demo
 Try for free
 Priced for the work it does, not the seats it fills.
@@ -36,6 +37,186 @@ Technical support via live chat
 Team
 $750/mo
 billed annually
+1,500 conversations/mo included
+packs of 100 for $50 ($0.50/convo)
+Get started
+Includes everything in Plus, and:
+$150 AI usage included
+Unlimited seats
+Teams, routing & RBAC
+Team analytics
+---
+Custom conversation volume
+Custom pricing
+Talk to sales
+---
+4.5 rating
+Free
+Get started
+---
+100
+250/mo
+1,500/mo
+Custom
+Additonal conversations
+—
+$65/100 convos
+$50/100 convos
+Custom
+Auto-recharge on overage
+—
+---
+50GB
+Custom
+Storage add-on
+—
+$40/mo
+$40/mo
+Custom
+Support
+Import and export AI agents between workspaces
+---
+Can I turn off auto-recharge for conversation packs?
+No. Pausing conversations means pausing the product entirely — whether an AI agent or a human is handling it. Instead, you'll get early warnings at 75% and 100% so you can right-size your plan before overages kick in.
+How do AI spend credit grants work?
+When your workspace reaches 95% of its AI spend limit, we automatically purchase a $10 credit grant of AI spend on your behalf, sold at cost. Unlike conversation packs, credit grants don't expire at month end — any unused balance carries ov
+---
+Credit grant auto-recharge isn't available on Free/Community plans. For paid plans, the $10 amount and 95% trigger point aren't configurable yet — settings to customize your recharge threshold, purchase size, and a monthly spend cap are com
+---
+Why do you price on conversations instead of resolutions?
+Conversations are predictable — you know your monthly cost before the month starts. Resolution pricing creates disputes over what "resolved" means and, perversely, raises your bill when your bot gets smarter. With conversation pricing, a be
+---
+Get a demo
+Try for free
+=== 計費模式: 月繳 (monthly) ===
+Get a demo
+Try for free
+Priced for the work it does, not the seats it fills.
+Unlimited AI agents and AI spend included.
+Annual · Save 20%
+Monthly
+250
+conversations/mo
+100
+---
+10k
+We recommend
+Plus plan
+Free
+$0
+100 conversations
+No top-ups or overages
+Get started free
+Includes:
+---
+Help Center
+Community support
+Plus
+YOUR BEST FIT
+$189/mo
+billed monthly
+250 conversations/mo included
+packs of 100 for $65 ($0.65/convo)
+Get started
+Includes everything in Free, and:
+$25 AI usage included
+Unlimited AI agents
+Whitelabel webchat
+Help Center + custom domain
+Technical support via live chat
+Team
+$939/mo
+billed monthly
+1,500 conversations/mo included
+packs of 100 for $50 ($0.50/convo)
+Get started
+Includes everything in Plus, and:
+$150 AI usage included
+Unlimited seats
+Teams, routing & RBAC
+Team analytics
+---
+Custom conversation volume
+Custom pricing
+Talk to sales
+---
+4.5 rating
+Free
+Get started
+---
+100
+250/mo
+1,500/mo
+Custom
+Additonal conversations
+—
+$65/100 convos
+$50/100 convos
+Custom
+Auto-recharge on overage
+—
+---
+50GB
+Custom
+Storage add-on
+—
+$40/mo
+$40/mo
+Custom
+Support
+Import and export AI agents between workspaces
+---
+Can I turn off auto-recharge for conversation packs?
+No. Pausing conversations means pausing the product entirely — whether an AI agent or a human is handling it. Instead, you'll get early warnings at 75% and 100% so you can right-size your plan before overages kick in.
+How do AI spend credit grants work?
+When your workspace reaches 95% of its AI spend limit, we automatically purchase a $10 credit grant of AI spend on your behalf, sold at cost. Unlike conversation packs, credit grants don't expire at month end — any unused balance carries ov
+---
+Credit grant auto-recharge isn't available on Free/Community plans. For paid plans, the $10 amount and 95% trigger point aren't configurable yet — settings to customize your recharge threshold, purchase size, and a monthly spend cap are com
+---
+Why do you price on conversations instead of resolutions?
+Conversations are predictable — you know your monthly cost before the month starts. Resolution pricing creates disputes over what "resolved" means and, perversely, raises your bill when your bot gets smarter. With conversation pricing, a be
+---
+Get a demo
+Try for free
+=== 計費模式: 月繳 (monthly) #2 ===
+Get a demo
+Try for free
+Priced for the work it does, not the seats it fills.
+Unlimited AI agents and AI spend included.
+Annual · Save 20%
+Monthly
+300
+conversations/mo
+100
+---
+10k
+We recommend
+Plus plan
+Free
+$0
+100 conversations
+No top-ups or overages
+Get started free
+Includes:
+---
+Help Center
+Community support
+Plus
+YOUR BEST FIT
+$254/mo
+billed monthly
+250 conversations/mo included
+packs of 100 for $65 ($0.65/convo)
+Get started
+Includes everything in Free, and:
+$25 AI usage included
+Unlimited AI agents
+Whitelabel webchat
+Help Center + custom domain
+Technical support via live chat
+Team
+$939/mo
+billed monthly
 1,500 conversations/mo included
 packs of 100 for $50 ($0.50/convo)
 Get started

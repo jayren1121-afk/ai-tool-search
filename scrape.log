@@ -622,3 +622,21 @@ SCRAPE DONE
 0 15 scraped https://www.brex.com/pricing 16.3
 舊版頁面還要重抓： 143 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+2 1 scraped https://www.masterpiecex.com/pricing 7.4
+1 2 scraped https://durable.com/pricing 11.5
+0 3 scraped https://botpress.com/pricing 14.3
+1 4 scraped https://cleanvoice.ai/pricing 8.7
+0 5 scraped https://soundful.com/pricing 9.0
+2 6 scraped https://www.submagic.co/pricing 13.8
+1 7 scraped https://browser-use.com/pricing 5.5
+1 8 scraped https://www.alliai.com/pricing 8.0
+0 9 no_price_found https://lex.page/pricing 20.0
+2 10 no_price_found https://www.artisan.co/pricing 21.7
+1 11 scraped https://www.genieai.co/pricing 21.8
+2 12 scraped https://ramp.com/pricing 13.5
+0 13 scraped https://juicebox.ai/pricing 16.3
+1 14 scraped https://whimsical.com/pricing 8.0
+2 15 scraped https://maestra.ai/pricing 7.9
+舊版頁面還要重抓： 128 個（每次最多 15 個）
+SCRAPE DONE

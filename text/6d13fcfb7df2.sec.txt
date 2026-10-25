@@ -4,15 +4,28 @@ Pay as you go.
 ---
 No subscription. Credits never expire.
 ---
+Get started
+Talk to sales
+Email us
+---
+$1 free credit · SOC 2 Type II · HIPAA · Status
+---
+browser-use.com/pricing
+Cloud browser
+$0.02 / hour
+plus $5 / GB residential proxy
+Web agent
+Model +20%
+plus browser time and traffic
+Browser session
+metered by the minute
 Browsers
 ---
 $0.02 / hour
 ---
-Residential proxy
-$5 / GB
-Browser agents
+Cloud browsers, plus $5 / GB residential proxy.
 ---
-Model cost + 20%
+Browser agents
 ---
 30
 50
@@ -24,15 +37,19 @@ $0.5
 $1
 $5
 $10
+Quality score
+price per task, log scale
 Opus 5.5
-DeepSeek V4.1
-GPT-6 Astra
 ---
+GPT-6 Sol
+Grok 4.6
 MiniMax M3
 ---
-← Lower price per task (USD)
----
-GPT-6 Luna · high · 53.9/100 · ≥ $0.15 / task
+GPT-6 Luna · high · 53.9 quality · at least $0.15 per task
 ---
 About this benchmark
-Model prices
+Every rate. In full.
+---
+Blog
+Free developer tools
+Solutions

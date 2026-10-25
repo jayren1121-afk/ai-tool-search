@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Sign in
 Start for free
 Everything you need
@@ -41,6 +42,80 @@ $22/m
 Grow
 ---
 $41/m
+---
+Website
+---
+Free subdomain (*.durable.site)
+---
+Free custom domain
+---
+Private preview
+---
+Up to $20
+---
+Up to $40
+---
+Purchase any domain
+---
+Free DNS
+---
+AI credits
+---
+AI credits
+---
+1000 / mo
+---
+5000 / mo
+---
+Nope! Custom domains are free with every Durable subscription and take seconds to create.
+---
+Get started for free
+---
+Start for free
+=== 計費模式: 月繳 (monthly) ===
+Sign in
+Start for free
+Everything you need
+to build your business
+Monthly
+Yearly
+Save 15%
+---
+Free
+---
+300 credits to try Durable's AI
+---
+Built-in CRM
+---
+Use your own domain or get one free
+---
+Connect your domain, or register one free - up to $20 value
+---
+Get booked online, 24/7
+---
+1000 AI credits/mo
+---
+Reach customers in any language
+---
+Durable translates your whole site and SEO metadata on autopilot, with a language switcher for visitors
+---
+$40 domain credit
+---
+5000 AI credits/mo
+---
+Compare features
+---
+Free
+---
+$0
+---
+Launch
+---
+$25/m
+---
+Grow
+---
+$49/m
 ---
 Website
 ---

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 TRY FOR FREE
 ---
 Monthly
@@ -35,6 +36,120 @@ Growth
 POPULAR
 ---
 $179
+---
+per seat/month
+---
+1,500 contact credits (email + phone)
+---
+1,500 export credits
+---
+Add up to 5 seats (paid per seat)
+---
+3 mailboxes per user
+---
+(Available on annual only)
+---
+Unlimited contact credits
+---
+6 mailboxes per user
+---
+ADD ON
+---
+Juicebox Agents
+---
+$199 per agent/month
+---
+GET STARTED
+---
+Unlimited contact credits
+---
+Unlimited email credits
+---
+Free
+---
+Trial
+---
+Trial
+---
+Contact credits
+---
+Contact credits are used only for email and phone contact info. When you use a credit, you get all emails and phone numbers associated with a profile.
+---
+500/month
+---
+1,500/seat/month
+---
+(3 credits)
+---
+500/month
+---
+1,500/seat/month
+---
+2,250/seat/month*
+---
+3 per seat
+---
+6 per seat
+---
+Juicebox Agents (1)
+---
+—
+---
+$199/month
+---
+$199/month
+---
+$199/month
+---
+[06] FAQ
+---
+Can I try Juicebox for free?
+---
+Yes. To get started, use the “Start for Free” button to open the platform. Then, sign up or log in to access your account.
+---
+Try Juicebox for free and explore AI-powered search today.
+---
+TRY FOR FREE
+---
+FREE TRIAL
+=== 計費模式: 月繳 (monthly) ===
+TRY FOR FREE
+---
+Monthly
+---
+Yearly
+---
+15% OFF
+---
+Free
+---
+$0
+---
+per seat/month
+---
+Try Juicebox for free and explore AI-powered search.
+---
+Limited free searches
+---
+Set up a Juicebox Agent
+---
+Starter
+---
+$119
+---
+per seat/month
+---
+EVERYTHING IN FREE, AND:
+---
+500 contact credits (email + phone)
+---
+500 export credits
+---
+Growth
+---
+POPULAR
+---
+$199
 ---
 per seat/month
 ---

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Solutions
 Contact
 Enterprise
@@ -93,6 +94,9 @@ Custom MSA
 SCORM Import/Export
 and more...
 Book a Demo
+
+Have more questions? Contact us
+
 Helpful Answers
 Is there a student/teacher/non-profit discount?
 
@@ -154,6 +158,172 @@ Enterprise
 Book a Demo
 Terms
 Privacy
+Contact Sales
+
+© 2026 Katara Tech, Inc. All rights reserved.
+
+Contact
+About
+Security
+
+=== 計費模式: 月繳 (monthly) ===
+Solutions
+Contact
+Enterprise
+Pricing
+Book a Demo
+Login
+Get Started Free
+EN
+Translator
+Audio Translator
+Video Translator
+Live Translator
+AI Interpreter
+Transcribe
+Audio To Text
+Video To Text
+Speech To Text
+Web Captioner
+Live Transcribe
+Subtitle
+Subtitle Generator
+Subtitle Translator
+Subtitle Editor
+Web Captioner
+Subtitle Converter
+Subtitle Shifter
+Dubbing
+Audio Dubbing
+Video Dubber
+Live Dubbing
+Movie Dubbing With AI Voices
+Text To Speech
+Transcription
+Subtitle
+Voiceover
+Real-Time
+Maestra Transcription Pricing
+Yearly • Save 20%
+Monthly
+Pay As You Go
+$12
+per 60 credits
+
+What you get:
+
+Transcription in 125+ languages
+60 mins
+Pay As You Go
+Lite
+$29
+per month
+
+What you get:
+
+Transcription in 125+ languages
+180 mins/mo
+Subscribe Now
+Basic
+$49
+per month
+
+What you get:
+
+Transcription in 125+ languages
+360 mins/mo
+AI summary
+Custom dictionary
+MaestraCloud file sharing
+Subscribe Now
+Premium
+$99
+per month
+
+What you get:
+
+Transcription in 125+ languages
+900 mins/mo
+Everything in Basic, plus:
+Maestra Teams & centralized billing
+1 additional team member
+API access
+Priority support
+Subscribe Now
+Enterprise
+Contact Us!
+Custom Pricing
+Custom Development
+Live Event Captioning
+Custom MSA
+SCORM Import/Export
+and more...
+Book a Demo
+
+Have more questions? Contact us
+
+Helpful Answers
+Is there a student/teacher/non-profit discount?
+
+Yes there is! We offer a 20% discount for students, teachers, and non-profit organizations. After you submit payment, please let us know and we'll refund the 20% from the initial payment, and all future payments will be charged at the discounted rate.
+
+Can I still access Maestra if I cancel?
+
+Yes you can. You'll still have access to all your transcripts, captions, and voiceovers, and can still use features such as public links and embeddable players.
+
+Can I work on the same file with other people?
+
+Yes, you can. you can share individual files by clicking the "Share" button on the file. If you're looking to collaborate on files, you can use "Maestra Teams" to collaborate with your teams and colleagues in real-time.
+
+Is my payment secure?
+
+Yes it is. Your payment is processed using Stripe, world's one of the largest payment processors. Not even we can see your credit card information!
+
+What payment methods do you accept?
+
+We accept credit/debit cards from: Visa, Mastercard, American Express, Discover, JCB, Diners Club, and China UnionPay.
+
+Can I access my account on different computers?
+
+Yes you can. Maestra is a cloud based online software which means you can log in and edit your files on almost any laptop or desktop with an internet connection.
+
+Are there any limitations on generating voiceovers?
+
+You can generate up to 3000 characters per minute (or per credit), and the same additional amount for each translation. (Average speech contains 750 characters per minute.)
+
+What if I have more questions?
+
+We're always happy to hear from you! You can send us an email at support@maestra.ai for any questions, comments, or concerns.
+
+Home
+Pricing
+
+With Maestra you can automatically: transcribe, caption, and voiceover your video and audio files into more than 125 languages.
+
+Theme
+Tools / Product
+Live Voice Translator
+Video Translator
+Video to Text
+Audio to Text
+Audio Translator
+Subtitle Generator
+Video Dubber
+Subtitle Translator
+Live Transcribe
+Resources
+Blog
+Help
+Solutions
+API
+Integrations
+Company
+Pricing
+Enterprise
+Book a Demo
+Terms
+Privacy
+Contact Sales
 
 © 2026 Katara Tech, Inc. All rights reserved.
 

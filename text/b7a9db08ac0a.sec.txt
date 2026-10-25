@@ -1,3 +1,6 @@
+=== 計費模式: 預設畫面 (default) ===
+Blog
+Contact sales
 Log In
 Try for free
 Simple Pricing Plan
@@ -71,6 +74,15 @@ $0.90/hour
 ---
 Processed Audio per Month.
 ---
+Transcription & Summary
+Custom Plan
+---
+Starting at
+$0.01
+/ minute
+---
+Used by 30+ Brands
+---
 Priority Support
 Custom Pricing and Billing
 ---
@@ -92,3 +104,117 @@ Sign Up
 Podcast Transcription
 Free Tools
 Podcast Name Generator
+---
+Make + Cleanvoice Integration
+Contact sales
+Press Kit
+=== 計費模式: 年繳 (yearly) ===
+Blog
+Contact sales
+Log In
+Try for free
+Simple Pricing Plan
+---
+Try it for free. Pay as you grow. Switch at any time.
+---
+Free Trial
+---
+Try our service for free. No credit card required.
+---
+Start Free Trial
+EUR
+---
+Pay as You Go
+---
+Flexible pricing for occasional use. Credits purchased are valid for 2 years.
+---
+$11
+---
+$2.20/hour
+---
+5 Hours
+---
+Processed Audio per Month.
+---
+$20
+---
+$2.00/hour
+---
+10 Hours
+---
+Processed Audio per Month.
+---
+$45
+---
+$1.50/hour
+---
+30 Hours
+---
+Processed Audio per Month.
+---
+Buy Credits
+---
+Subscription
+Monthly
+Yearly
+---
+Credits are usable anytime within the subscription period. Unused credits roll over, up to three times your plan limit.
+---
+$110
+---
+$0.92/hour
+---
+10 Hours
+---
+Processed Audio per Month.
+---
+$300
+---
+$0.83/hour
+---
+30 Hours
+---
+Processed Audio per Month.
+---
+$900
+---
+$0.75/hour
+---
+100 Hours
+---
+Processed Audio per Month.
+---
+Transcription & Summary
+Custom Plan
+---
+Starting at
+$0.01
+/ minute
+---
+Used by 30+ Brands
+---
+Priority Support
+Custom Pricing and Billing
+---
+Need 200+ hours per month? Or need customization for your business?
+---
+Should I get Pay-as-you-go credits or a subscription?
+What happens if I don't use all my subscription credits each month?
+How do you bill credits?
+I have purchased both Subscription and Pay as you Go Credits. Which will be used first?
+Can I cancel/upgrade/downgrade my subscription?
+What payment methods do you support?
+Are credits charged if uploading fails?
+Do I get discount for processing huge amount of audio (1000h+/month) ?
+How long do you save my uploaded files?
+Do you have a startup program?
+Clean 30 minutes for free.
+Sign Up
+---
+Podcast Transcription
+Free Tools
+Podcast Name Generator
+---
+Make + Cleanvoice Integration
+Contact sales
+Press Kit

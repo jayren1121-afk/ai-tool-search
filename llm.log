@@ -502,3 +502,16 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 9 ok openai/gpt-oss-120b https://www.hyperwriteai.com/pricing 2387
 10 ok openai/gpt-oss-120b https://openrouter.ai/pricing 2228
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 10, "ok": 10, "tokens": 25354, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://whimsical.com/pricing 3303
+2 ok openai/gpt-oss-120b https://botpress.com/pricing 3727
+3 ok openai/gpt-oss-120b https://durable.com/pricing 2462
+4 ok openai/gpt-oss-120b https://www.submagic.co/pricing 2903
+5 ok openai/gpt-oss-120b https://cleanvoice.ai/pricing 3183
+6 ok openai/gpt-oss-120b https://soundful.com/pricing 2780
+7 ok openai/gpt-oss-120b https://browser-use.com/pricing 1773
+8 ok openai/gpt-oss-120b https://www.alliai.com/pricing 1995
+9 ok openai/gpt-oss-120b https://juicebox.ai/pricing 2656
+10 ok openai/gpt-oss-120b https://ramp.com/pricing 2161
+11 ok openai/gpt-oss-120b https://maestra.ai/pricing 2429
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 11, "ok": 11, "tokens": 29372, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}

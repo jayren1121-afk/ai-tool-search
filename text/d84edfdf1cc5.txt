@@ -1,8 +1,7 @@
 Products
-Partners
 Solutions
+Partners
 Resources
-Customers
 Pricing
 Sign in
 See a demo
@@ -40,11 +39,11 @@ Accounts Receivable
 Invoice creation (OCR)
 Automated customer follow-up and cash application
 Accept payments via ACH, card, and check
-Treasury
-Earn 4.62%* in a Ramp Investment Account
-Earn 2%* on cash in a FDIC-insured account
+Banking*
+Earn 2%1 on cash in a FDIC-insured2 checking account
+Earn 4.57%3 in a Ramp Investment Account†
 No fees, minimum deposits, or transfer caps
-Free wires and same-day ACH via Bill Pay
+Free wires and same-day ACH via Bill Pay4
 Accounting Automation
 Basic accounting rules
 QuickBooks Online and Xero integrations
@@ -128,7 +127,7 @@ ERP extensions and configurations
 Custom policy and workflow configuration
 Advanced org, role, and entity configuration
 View all features
-70,000+ finance teams have saved millions of hours with Ramp.
+85,000+ finance teams have saved millions of hours with Ramp.
 Compare Features
 Free
 Get started for free
@@ -229,11 +228,11 @@ Purchase order (PO) management
 Match card transactions to purchase orders
 AI-driven vendor compliance reviews
 Three-way match with Ramp purchase orders and item receipts
-Treasury
-Earn 2%* in a FDIC-insured business account
-Earn 4.62%* in an investment account
+Banking*
+Earn 2%1 in a FDIC-insured2 checking account
+Earn 4.57%3 in an Investment Account†
 No fees, minimum deposits, or transfer caps
-Free, same-day ACH, domestic and international wires*
+Free, same-day ACH, domestic and international wires4
 DACAs and letters of credit
 Accounting Automation
 Basic accounting rules
@@ -330,7 +329,7 @@ Savings
 Integrations
 Multi-entity
 Global
-AI Token Spend Management
+AI Spend Management
 Router
 Partners
 Accounting firms
@@ -373,20 +372,22 @@ Ramp Visa Business Cards are issued in Canada by Peoples Trust Company, pursuant
 Ramp cards are issued in the UK by Stripe Payments UK Limited, an electronic money institution authorized by the Financial Conduct Authority (firm reference number: 900461). Ramp cards are issued in the EEA by Stripe Technology Europe Limited, an electronic money institution authorized by the Central Bank of Ireland (firm reference number: C187865). Cards are issued under the Visa card scheme pursuant to a license from Visa Europe Limited.
 Visa is a registered trademark of Visa International Service Association. All other trademarks and service marks belong to their respective owners.
 
-Ramp Business Corporation is a financial technology company and is not a bank. Bank deposit services provided by First Internet Bank of Indiana, Member FDIC.
+* Ramp Business Corporation is a financial technology company and is not a bank. Bank deposit services provided by First Internet Bank of Indiana, Member FDIC.
 
-Securities products and brokerage services are provided by Apex Clearing Corporation, an SEC registered broker dealer, member of FINRA & SIPC. The Investment Account is not a deposit product, not insured by the FDIC, and may lose value.
+† The Investment Account is an advisory account offered by Ramp Advisory LLC. Portfolios are constructed and managed by Moment Advisors, LLC as subadviser. Brokerage execution and custody are provided by Apex Clearing Corporation, member FINRA, SIPC. The Investment Account is not insured by the FDIC, not a deposit product, and may lose value.
 
-*2% Annual Percentage Yield (APY) on eligible funds in your Ramp Checking Account. The rate is accurate as of 10/12/2026. Interest is paid by First Internet Bank of Indiana, Member FDIC. The interest rate and APY are variable and subject to change without notice. See the Checking Account Addendum for more information.
+Investing involves risk, including loss of principal. Yields change, and a current yield does not indicate a future yield. The long-term strategies are intended to be held to maturity, and withdrawing before maturity may return less than the yield shown at the time of investment. Investment advisory services for the Investment Account are provided by Ramp Advisory LLC, an investment adviser registered with the U.S. Securities and Exchange Commission and an affiliate of Ramp Business Corporation. Registration does not imply any level of skill or training. Ramp Advisory LLC has retained Moment Advisors, LLC as subadviser to build the portfolios available through the Investment Account. Ramp Business Corporation is not an investment adviser and does not provide investment advice. Ramp Advisory LLC has a financial interest in your use of the Investment Account. Refer to Ramp Advisory's Form ADV Part 2A brochure and Form CRS for details. The Form ADV Part 2A brochure and Form CRS for Ramp Advisory LLC are available here and at adviserinfo.sec.gov.
 
-*Portfolios managed by Moment Advisors, LLC. Investing involves risk, including possible loss of principal. Asset allocation does not guarantee profit or protect against loss. Past performance does not guarantee future results. Additional information can be found here. The figure shown represents yield to maturity (“YTM”) as of today based on a hypothetical $10M investment. YTM is a market-value-weighted average of security-level YTMs based on current prices and stated cash flows, assuming securities are held to maturity and coupons are reinvested at the YTM rate. YTM excludes fees, expenses, transaction costs, leverage, defaults, and calls/prepayments. It is hypothetical and not a guarantee or prediction of future performance. Actual returns will differ.
+1. Annual Percentage Yield (APY) on eligible funds in your Ramp Checking Account. Interest is paid by First Internet Bank of Indiana, Member FDIC. Rate is accurate as of 10/25/2026. The Interest rate and APY are variable and subject to change without notice. See the Checking Account Addendum for more information.
 
-*Ramp Bill payments are subject to their own terms and conditions here.
+2. Customers with a Ramp Checking Account can use the ICS service provided by IntraFi Network LLC. Subject to the terms of the applicable ICS Deposit Placement Agreement, First Internet Bank of Indiana, member FDIC, will place deposits at FDIC-insured institutions through IntraFi’s ICS service. A list identifying IntraFi network banks appears at intrafi.com/network-banks. Certain conditions must be satisfied for “pass-through” FDIC deposit insurance coverage to apply. To meet the conditions for pass-through FDIC deposit insurance, deposit accounts at FDIC-insured banks in IntraFi’s network that hold deposits placed using an IntraFi service are titled, and deposit account records are maintained, in accordance with FDIC regulations for pass-through coverage. Deposits are insured by the FDIC up to the maximum allowed by law; deposit insurance only covers deposits in the Ramp Checking Account in the event of the failure of the FDIC-insured bank.
 
-*Ramp Business Corporation is a financial technology company and is not a bank. Bank deposit services provided by First Internet Bank of Indiana, Member FDIC.
-†Investment account with portfolios managed by Moment Advisors, LLC. Investing involves risk, including possible loss of principal. Asset allocation does not guarantee profit or protect against loss. Past performance does not guarantee future results. Additional information can be found here. Securities products offered by Apex Clearing Corporation, member FINRA, SIPC. The Investment Account is not insured by the FDIC, not a deposit product, and may lose value.
+3. Investment Account yield information provided refers to the 1-day SEC yield for mutual funds and the market-value-weighted yield to maturity (YTM) for fixed income securities, and is net of an advisory fee of up to 0.15% charged by Ramp Advisory LLC. “Yield to maturity” (YTM) is a portfolio characteristic shown as of 09/03/2026, assuming a sample investment of $10M. Smaller balances in the long-term strategies hold fewer positions, which affects the figure. See disclosures. It is a market-value-weighted average of security-level YTMs based on current market prices and stated cash flows, assuming securities are held to maturity, all coupons are paid when due, and coupons are reinvested at the YTM rate. YTM does not reflect fund or portfolio expenses, transaction costs, leverage or financing costs, defaults, downgrades, or calls/prepayments, and it may exclude cash and cash equivalents. YTM is not the actual return of any portfolio over any period. It is not a prediction, target, objective, or guarantee of future performance. Actual investor returns will differ, including due to fees and expenses, trading activity, credit events, calls/prepayments, and changes in reinvestment rates. For additional information about individual portfolios, see the investment disclosure. Important information about the mutual fund options and a copy of each fund’s prospectus are available here. Average yields shown are dollar-weighted based on a flat numerical rating scale, are not a guarantee of future performance, and are provided for informational purposes only.
+
+4. Ramp Bill payments are subject to their own terms and conditions here.
+
 Ramp Payments Corporation - NMLS 2371465 Disclosures, Ramp Financing Corporation - NMLS 2431387
-Join the 70,000+ businesses simplifying their finances with Ramp.
+Join the 85,000+ businesses simplifying their finances with Ramp.
 Email
 Get started for free
 Ramp Business Corporation

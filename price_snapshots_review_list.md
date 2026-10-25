@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：44 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：213 筆
+- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：212 筆
 
 核准單筆範本：
 ```sql
@@ -138,16 +138,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **argil**（Argil）旗標：abnormal_price；Enterprise: abnormal_price；來源 https://www.argil.ai/pricing；擷取 2026-10-24T12:10:47+08:00
 - **hyperwrite**（HyperWrite）旗標：has_promo；；來源 https://www.hyperwriteai.com/pricing；擷取 2026-10-24T12:11:02+08:00
 - **brex-ai**（Brex）旗標：name_diff, name_missing, zero_price；資料集方案 ['Advanced'] vs 新 ['', '']; None: name_missing；來源 https://www.brex.com/pricing；擷取 2026-10-24T12:11:07+08:00
-- **durable**（Durable）旗標：period_ambiguous_toggle；Launch: period_ambiguous_toggle; Grow: period_ambiguous_toggle；來源 https://durable.com/pricing；擷取 2026-10-12T13:36:57+08:00
-- **masterpiece-x**（Masterpiece X）旗標：has_promo, name_diff, name_missing, price_near_quote, price_unclear；資料集方案 ['Free'] vs 新 ['', '', '', '']; None: name_missing; None: name_missing; None: name_missing; None: name_missing, price_unclear；來源 https://www.masterpiecex.com/pricing；擷取 2026-10-12T13:36:57+08:00
-- **submagic**（Submagic）旗標：has_promo；；來源 https://www.submagic.co/pricing；擷取 2026-10-12T13:37:04+08:00
-- **cleanvoice**（Cleanvoice）旗標：name_missing, period_ambiguous_toggle；None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://cleanvoice.ai/pricing；擷取 2026-10-12T13:37:05+08:00
-- **soundful**（Soundful）旗標：name_missing；None: name_missing；來源 https://soundful.com/pricing；擷取 2026-10-12T13:37:06+08:00
-- **alli-ai**（Alli AI）旗標：period_ambiguous_toggle；Business: period_ambiguous_toggle; Agency: period_ambiguous_toggle；來源 https://www.alliai.com/pricing；擷取 2026-10-12T13:37:16+08:00
-- **genie-ai**（Genie AI）旗標：name_diff；資料集方案 ['Pro', 'Business', 'Team'] vs 新 ['Pro']；來源 https://www.genieai.co/pricing；擷取 2026-10-12T13:37:24+08:00
-- **juicebox**（Juicebox）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle；來源 https://juicebox.ai/pricing；擷取 2026-10-12T13:37:31+08:00
-- **whimsical**（Whimsical）旗標：period_ambiguous_toggle；PRO: period_ambiguous_toggle; BUSINESS: period_ambiguous_toggle；來源 https://whimsical.com/pricing；擷取 2026-10-12T13:37:36+08:00
-- **heygen-translate**（Maestra）旗標：has_promo, non_subscription_hint；Lite: non_subscription_hint; Basic: non_subscription_hint; Premium: non_subscription_hint；來源 https://maestra.ai/pricing；擷取 2026-10-12T13:37:40+08:00
+- **durable**（Durable）旗標：period_ambiguous_toggle；Grow: period_ambiguous_toggle；來源 https://durable.com/pricing；擷取 2026-10-25T12:10:42+08:00
+- **masterpiece-x**（Masterpiece X）旗標：has_promo, name_diff, name_missing, price_near_quote, price_unclear；資料集方案 ['Free'] vs 新 ['', '', '', '']; None: name_missing; None: name_missing; None: name_missing; None: name_missing, price_unclear；來源 https://www.masterpiecex.com/pricing；擷取 2026-10-25T12:10:44+08:00
+- **submagic**（Submagic）旗標：has_promo, period_ambiguous_toggle；Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.submagic.co/pricing；擷取 2026-10-25T12:10:51+08:00
+- **cleanvoice**（Cleanvoice）旗標：dropped_fields, non_usd；；來源 https://cleanvoice.ai/pricing；擷取 2026-10-25T12:10:54+08:00
+- **alli-ai**（Alli AI）旗標：period_ambiguous_toggle；Business: period_ambiguous_toggle; Agency: period_ambiguous_toggle；來源 https://www.alliai.com/pricing；擷取 2026-10-25T12:11:08+08:00
+- **genie-ai**（Genie AI）旗標：name_diff；資料集方案 ['Pro', 'Business', 'Team'] vs 新 ['Pro']；來源 https://www.genieai.co/pricing；擷取 2026-10-25T12:11:16+08:00
+- **juicebox**（Juicebox）旗標：name_far_from_price；Growth: name_far_from_price；來源 https://juicebox.ai/pricing；擷取 2026-10-25T12:11:25+08:00
+- **whimsical**（Whimsical）旗標：dropped_fields, period_ambiguous_toggle, yearly_gt_monthly；Pro: yearly_gt_monthly, period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://whimsical.com/pricing；擷取 2026-10-25T12:11:38+08:00
+- **heygen-translate**（Maestra）旗標：has_promo；；來源 https://maestra.ai/pricing；擷取 2026-10-25T12:11:40+08:00
 - **ollama**（Ollama）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://ollama.com/pricing；擷取 2026-10-12T13:37:42+08:00
 - **10web**（10Web）旗標：has_promo, price_near_quote；；來源 https://10web.io/pricing；擷取 2026-10-12T13:37:47+08:00
 - **sloyd**（Sloyd）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Sloyd Plus: period_ambiguous_toggle; Sloyd Pro: period_ambiguous_toggle；來源 https://www.sloyd.ai/pricing；擷取 2026-10-12T13:37:54+08:00
