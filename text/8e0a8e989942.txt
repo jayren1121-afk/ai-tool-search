@@ -66,6 +66,8 @@ Production platform
 Environments enable real production pipelines, from development to staging, and then to final production. All hosted on Voiceflow.
 Take control of your AI customer experiences
 Get started
+Talk to sales
+Talk to sales
 
 Platform
 
@@ -74,13 +76,14 @@ Solutions
 Industries
 Integrations
 Pricing
-Security
+AI agents
 
 Resources
 
 Documentation
 Customer stories
 The Daily Resolution
+Research
 Blog
 Events & webinars
 Changelog
@@ -90,10 +93,21 @@ Company
 About
 Contact sales
 Contact support
+AI info
+Terms of service
+Privacy
+Status
+
+Security
+
+Security
+SOC 2
+ISO 27001
+GDPR
+HIPAA
+Trust Center
 
 All rights reserved © 2026 Voiceflow, Inc.
 
-Terms of service
-Privacy
-Trust Center
-Status
+🇺🇸
+English

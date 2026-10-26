@@ -26,9 +26,8 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'botpress' and fetched_at = '2026-10-25T12:10:42+08:00'::timestamptz;  -- Botpress
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'soundful' and fetched_at = '2026-10-25T12:10:56+08:00'::timestamptz;  -- Soundful
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'ramp' and fetched_at = '2026-10-25T12:11:27+08:00'::timestamptz;  -- Ramp
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'recraft' and fetched_at = '2026-10-12T13:37:46+08:00'::timestamptz;  -- Recraft
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'zed' and fetched_at = '2026-10-12T13:37:52+08:00'::timestamptz;  -- Zed
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'heidi' and fetched_at = '2026-10-12T13:38:24+08:00'::timestamptz;  -- Heidi Health
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'recraft' and fetched_at = '2026-10-26T12:13:08+08:00'::timestamptz;  -- Recraft
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'zed' and fetched_at = '2026-10-26T12:13:16+08:00'::timestamptz;  -- Zed
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cleo' and fetched_at = '2026-10-12T13:38:33+08:00'::timestamptz;  -- Cleo
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lm-studio' and fetched_at = '2026-10-12T13:38:40+08:00'::timestamptz;  -- LM Studio
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'crisp' and fetched_at = '2026-10-12T13:39:36+08:00'::timestamptz;  -- Crisp

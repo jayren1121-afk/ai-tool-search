@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：212 筆
+- 可批次核准（無旗標）：44 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：214 筆
 
 核准單筆範本：
 ```sql
@@ -147,13 +147,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **juicebox**（Juicebox）旗標：name_far_from_price；Growth: name_far_from_price；來源 https://juicebox.ai/pricing；擷取 2026-10-25T12:11:25+08:00
 - **whimsical**（Whimsical）旗標：dropped_fields, period_ambiguous_toggle, yearly_gt_monthly；Pro: yearly_gt_monthly, period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://whimsical.com/pricing；擷取 2026-10-25T12:11:38+08:00
 - **heygen-translate**（Maestra）旗標：has_promo；；來源 https://maestra.ai/pricing；擷取 2026-10-25T12:11:40+08:00
-- **ollama**（Ollama）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://ollama.com/pricing；擷取 2026-10-12T13:37:42+08:00
-- **10web**（10Web）旗標：has_promo, price_near_quote；；來源 https://10web.io/pricing；擷取 2026-10-12T13:37:47+08:00
-- **sloyd**（Sloyd）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Sloyd Plus: period_ambiguous_toggle; Sloyd Pro: period_ambiguous_toggle；來源 https://www.sloyd.ai/pricing；擷取 2026-10-12T13:37:54+08:00
-- **captions**（Captions）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Studio'] vs 新 ['Max', 'Frontier']; Max: period_ambiguous_toggle; Frontier: period_ambiguous_toggle；來源 https://www.captions.ai/pricing；擷取 2026-10-12T13:38:00+08:00
-- **evernote-ai**（Evernote）旗標：period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Advanced: period_ambiguous_toggle; Flexible: period_ambiguous_toggle；來源 https://evernote.com/pricing；擷取 2026-10-12T13:38:07+08:00
-- **kagi**（Kagi）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle；來源 https://kagi.com/pricing；擷取 2026-10-12T13:38:14+08:00
-- **magicschool**（MagicSchool）旗標：dropped_fields, name_far_from_price, price_near_quote；；來源 https://www.magicschool.ai/pricing；擷取 2026-10-12T13:38:18+08:00
+- **ollama**（Ollama）旗標：period_ambiguous_toggle；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://ollama.com/pricing；擷取 2026-10-26T12:13:03+08:00
+- **10web**（10Web）旗標：has_promo, price_near_quote；；來源 https://10web.io/pricing；擷取 2026-10-26T12:13:11+08:00
+- **sloyd**（Sloyd）旗標：period_ambiguous_toggle, price_near_quote；Sloyd Plus: period_ambiguous_toggle; Sloyd Pro: period_ambiguous_toggle；來源 https://www.sloyd.ai/pricing；擷取 2026-10-26T12:13:19+08:00
+- **captions**（Captions）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Studio'] vs 新 ['Max', 'Frontier']; Max: period_ambiguous_toggle; Frontier: period_ambiguous_toggle；來源 https://www.captions.ai/pricing；擷取 2026-10-26T12:13:22+08:00
+- **auphonic**（Auphonic）旗標：billing_section_mismatch, dropped_fields, name_far_from_price；Auphonic S: billing_section_mismatch, name_far_from_price；來源 https://auphonic.com/pricing；擷取 2026-10-26T12:13:29+08:00
+- **evernote-ai**（Evernote）旗標：dropped_fields；；來源 https://evernote.com/pricing；擷取 2026-10-26T12:13:34+08:00
+- **kagi**（Kagi）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle；來源 https://kagi.com/pricing；擷取 2026-10-26T12:13:48+08:00
+- **magicschool**（MagicSchool）旗標：dropped_fields, name_far_from_price, price_near_quote；；來源 https://www.magicschool.ai/pricing；擷取 2026-10-26T12:13:51+08:00
+- **heidi**（Heidi Health）旗標：has_promo；；來源 https://www.heidihealth.com/pricing；擷取 2026-10-26T12:13:56+08:00
 - **formula-bot**（Formula Bot）旗標：name_far_from_price；Starter: name_far_from_price；來源 https://www.formulabot.com/pricing；擷取 2026-10-12T13:38:39+08:00
 - **kiro**（Kiro）旗標：price_change；Pro: 資料集 $20.0/月 → 官網 $40.0；來源 https://kiro.dev/pricing；擷取 2026-10-12T13:38:47+08:00
 - **akool**（Akool）旗標：period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro Max: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://akool.com/pricing；擷取 2026-10-12T13:38:54+08:00

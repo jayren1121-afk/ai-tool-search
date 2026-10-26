@@ -251,6 +251,7 @@ Support
 Code samples
 Cloud Architecture Center
 Training
+Builders Hub
 Certifications
 Google for Developers
 Google Cloud for Startups

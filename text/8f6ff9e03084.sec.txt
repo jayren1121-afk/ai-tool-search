@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Download
 Start for free
 Which Evernote plan is right for you?
@@ -76,9 +77,159 @@ Yes! Eligible college students can get 40% off a one-year subscription to Everno
 Is there a free trial of Evernote Enterprise?
 You can try Enterprise free for 14 days. Visit our Enterprise trial page to get started.
 I have an Evernote account. How do I upgrade to the Enterprise plan?
-To upgrade to Enterprise, please contact sales. They’ll be glad to get you up and running and answer any further questions you might have.
-How do I change my payment method?
+=== 計費模式: 月繳 (monthly) ===
+Download
+Start for free
+Which Evernote plan is right for you?
 ---
-Get Started
-Sign up for free
-Log in
+Monthly
+Annual
+Save up to 40%
+See full plan comparison
+For individuals
+Starter
+$14.99
+/ month
+---
+Capture ideas, stay organized, and keep projects moving—all in one place.
+---
+Up to 1000 attachments
+Up to 3 devices
+AI features
+Advanced
+$24.99
+/ month
+---
+For power users who want to accomplish more in less time with a streamlined and efficient workflow
+---
+For teams & business organizations
+BEST FOR YOUR COMPANY
+Flexible
+from
+$10
+/ month / seat
+Best for growing teams
+---
+Enhanced security and compliance
+Single Sign-On (SSO) and User Provisioning (SCIM)
+Customizable plan limits based on your organization’s needs
+Free
+$0
+---
+Capture ideas and find them quickly
+---
+Connect 1 device
+1 GB monthly uploads
+1 GB max. note size
+---
+Access to advanced tools like image and document search, offline mode, PDF annotations, and more
+Start For Free
+Compare plans
+---
+Free
+Start now
+---
+Sync across devices
+1 device	3 devices	Unlimited *	From 4 per seat, up to unlimited	Unlimited
+---
+Connect your Google or Microsoft Office calendars
+1	5	5	5 per user	5 per user
+---
+Frequently Asked Questions
+How long is the free trial for paid plans?
+Unless otherwise specified, free trials of Evernote last for 7 days. If you cancel before the trial ends, your credit card will not be charged
+How do I switch plans?
+To upgrade your plan from Free to Starter or Advanced:
+Go to your account settings in Evernote Web, then click ‘Manage Subscription’ on the ‘Account Summary’ page.
+Select the plan you wish to upgrade to (Starter or Advanced).
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+To upgrade your plan from Starter to Advanced:
+---
+Select the Advanced plan.
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+The process for downgrading your plan to Free depends on your payment method. For detailed instructions, please see this Help & Learning article.
+Note: If you are subscribed to Evernote through iTunes or Google Play, you will need to manage your subscription through them.
+---
+Yes! Eligible college students can get 40% off a one-year subscription to Evernote Advanced. Learn more.
+Is there a free trial of Evernote Enterprise?
+You can try Enterprise free for 14 days. Visit our Enterprise trial page to get started.
+I have an Evernote account. How do I upgrade to the Enterprise plan?
+=== 計費模式: 年繳 (yearly) ===
+Download
+Start for free
+Which Evernote plan is right for you?
+---
+Monthly
+Annual
+Save up to 40%
+See full plan comparison
+For individuals
+Starter
+$8.25
+/ month
+Pay $99.00 / year
+---
+Capture ideas, stay organized, and keep projects moving—all in one place.
+---
+Up to 1000 attachments
+Up to 3 devices
+AI features
+Advanced
+$20.83
+/ month
+Pay $249.99 / year
+---
+For power users who want to accomplish more in less time with a streamlined and efficient workflow
+---
+For teams & business organizations
+BEST FOR YOUR COMPANY
+Flexible
+from
+$10
+/ month / seat
+Best for growing teams
+---
+Enhanced security and compliance
+Single Sign-On (SSO) and User Provisioning (SCIM)
+Customizable plan limits based on your organization’s needs
+Free
+$0
+---
+Capture ideas and find them quickly
+---
+Connect 1 device
+1 GB monthly uploads
+1 GB max. note size
+---
+Access to advanced tools like image and document search, offline mode, PDF annotations, and more
+Start For Free
+Compare plans
+---
+Free
+Start now
+---
+Sync across devices
+1 device	3 devices	Unlimited *	From 4 per seat, up to unlimited	Unlimited
+---
+Connect your Google or Microsoft Office calendars
+1	5	5	5 per user	5 per user
+---
+Frequently Asked Questions
+How long is the free trial for paid plans?
+Unless otherwise specified, free trials of Evernote last for 7 days. If you cancel before the trial ends, your credit card will not be charged
+How do I switch plans?
+To upgrade your plan from Free to Starter or Advanced:
+Go to your account settings in Evernote Web, then click ‘Manage Subscription’ on the ‘Account Summary’ page.
+Select the plan you wish to upgrade to (Starter or Advanced).
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+To upgrade your plan from Starter to Advanced:
+---
+Select the Advanced plan.
+Enter your credit card or PayPal information and choose a billing frequency (monthly or yearly).
+The process for downgrading your plan to Free depends on your payment method. For detailed instructions, please see this Help & Learning article.
+Note: If you are subscribed to Evernote through iTunes or Google Play, you will need to manage your subscription through them.
+---
+Yes! Eligible college students can get 40% off a one-year subscription to Evernote Advanced. Learn more.
+Is there a free trial of Evernote Enterprise?
+You can try Enterprise free for 14 days. Visit our Enterprise trial page to get started.
+I have an Evernote account. How do I upgrade to the Enterprise plan?

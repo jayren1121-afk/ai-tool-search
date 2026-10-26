@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Skip to main content
 
 Be among the first to experience Heidi’s next chapter. Join the waitlist.
@@ -373,6 +374,402 @@ Usage Policy
 UKGDPR Policy
 
 Accessibility
+
+AI Instructions
+
+English
+imxYAA
+
+© 2026 Heidi. All rights reserved.
+
+Cookie preferences
+
+Download Heidi
+Heidi Desktop goes where the browser can’t.
+
+Dictate anywhere on your screen, capture telehealth audio straight from the call,
+and skip the second login.
+
+Download for macOS
+Download for Windows
+
+=== 計費模式: 月繳 (monthly) ===
+Skip to main content
+
+Be among the first to experience Heidi’s next chapter. Join the waitlist.
+
+Product
+
+Resources
+
+Pricing
+
+Contact us
+
+⌘K
+Log in
+Get Heidi free
+There's a Heidi that's right for you
+USD ($)
+Free
+
+Start with the basics. Stay focused on the patient.
+
+$0
+Get Heidi free
+
+Free for everyone
+
+Unlimited AI documentation
+
+Unlimited clinical evidence with citations
+
+Global healthcare-grade security
+
+See more
+
+Most Popular
+
+Clinician
+
+Document clearly. Think with confidence. Leave on time.
+
+Standard
+Max
+$150
+
+per user / month
+
+Excludes applicable sale taxes.
+
+Billed monthly.
+
+Switch to yearly
+Try 14 days free
+Talk to us
+
+Everything in Free, plus:
+
+Advanced templates
+
+Evidence in patient visits with live suggestions
+
+Patient-context–aware answers
+
+See more
+Practice
+
+Consistency across documentation and clinical standards.
+
+Standard
+Max
+$180
+
+per user / month
+
+Billed annually. Excludes applicable sale taxes.
+
+Talk to us
+Try 14 days free
+
+Everything in Clinician, plus:
+
+Full Scribe functionality with team templates
+
+Document and session sharing
+
+Guided onboarding
+
+See more
+Enterprise
+
+Built for healthcare organizations with complex needs.
+
+Custom
+
+Flexible billing.
+
+Talk to us
+
+Everything in Practice, plus:
+
+SSO and enterprise-grade governance
+
+Dedicated customer success
+
+Service commitments and custom hosting
+
+See more
+
+Trainees get Clinician, free
+
+Verify your student status. Get the same tool consultants trust, yours free.
+
+Learn more
+Trusted by clinicians globally
+Compare our plans
+Free
+Get Heidi free
+Clinician
+Try 14 days free
+Talk to us
+Practice
+Talk to us
+Try 14 days free
+Enterprise
+Talk to us
+Scribe
+
+Unlimited transcription
+
+Standard templates
+
+Task management
+
+Ask Heidi
+
+Limited
+
+Advanced templates
+
+Limited
+
+Patient & session linking
+
+Limited
+
+Document & session sharing
+
+—
+
+—
+
+Coding
+
+—
+
+—
+
+Session status
+
+—
+
+—
+
+Free assistant users
+
+—
+
+—
+
+Team template sharing
+
+—
+
+—
+
+Template configuration 1:1
+
+—
+
+—
+
+Evidence
+
+Unlimited answers
+
+Transparent citations
+
+CPD / CME tracking
+
+Patient-context–aware answers
+
+Limited
+
+Live evidence suggestions
+
+Limited
+
+Preferred sources & journals
+
+—
+
+Premium evidence sources
+
+—
+
+Personal evidence library
+
+—
+
+Evidence in patient visits
+
+—
+
+Team evidence guidelines
+
+—
+
+—
+
+Org-wide evidence library
+
+—
+
+—
+
+Platform
+
+Flexible data retention
+
+Set for team
+
+Set for team
+
+EHR integration add-on
+
+—
+
+—
+
+Centralized billing
+
+—
+
+Priority support
+
+—
+
+Team management & controls
+
+—
+
+—
+
+Guided onboarding
+
+—
+
+—
+
+Dedicated customer success
+
+—
+
+—
+
+—
+
+Single sign-on (SSO)
+
+—
+
+—
+
+—
+
+Service availability
+
+—
+
+—
+
+—
+
+Custom terms & hosting
+
+—
+
+—
+
+—
+
+Custom
+
+Questions & answers
+
+Everything you need to know about Heidi.
+
+Speak to Heidi team
+How does Agents usage work?
+
+Each seat comes with an included usage allocation for running an Agent or automating work through a Routine. Scribing and asking clinical evidence queries never consumes this usage allocation. Every paid seat comes with a monthly allowance, and Free comes with a smaller weekly one.
+
+What is the difference between a Standard and a Max seat?
+What happens when I run out of usage?
+How does Heidi handle patient data when an Agent runs?
+Is Evidence included in my plan?
+Showing 5 of 12 questions
+Show more
+The inside scoop on Heidi
+
+100s of 5-star testimonials
+
+Get Heidi free
+
+Resources
+
+Blogs
+
+Explainers
+
+FAQs
+
+Progress Notes
+
+Podcast
+
+AI Tools
+
+Why Heidi
+
+Impact
+
+Awards and Recognition
+
+Evaluating Heidi
+
+Patient Experience
+
+Compliance
+
+Trust Center
+
+GDPR
+
+HIPAA
+
+AU/NZ
+
+UK
+
+Canada
+
+Support
+
+Help Centre
+
+Heidi Guides
+
+System Status
+
+System Requirements
+
+Contact Us
+
+Legal
+
+Privacy Policy
+
+Terms of Service
+
+Usage Policy
+
+UKGDPR Policy
+
+Accessibility
+
+AI Instructions
 
 English
 imxYAA

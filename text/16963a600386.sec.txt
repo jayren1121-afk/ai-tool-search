@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Log in
 Get Heidi free
 There's a Heidi that's right for you
@@ -25,6 +26,67 @@ Billed annually.
 ---
 Saving $480
 Switch to monthly
+Try 14 days free
+Talk to us
+---
+Everything in Free, plus:
+---
+Consistency across documentation and clinical standards.
+---
+Standard
+Max
+$180
+---
+per user / month
+---
+Billed annually. Excludes applicable sale taxes.
+---
+Talk to us
+Try 14 days free
+---
+Trainees get Clinician, free
+---
+Verify your student status. Get the same tool consultants trust, yours free.
+---
+Compare our plans
+Free
+Get Heidi free
+Clinician
+Try 14 days free
+Talk to us
+---
+Talk to us
+Try 14 days free
+Enterprise
+---
+Free assistant users
+---
+Get Heidi free
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Get Heidi free
+There's a Heidi that's right for you
+USD ($)
+Free
+---
+Start with the basics. Stay focused on the patient.
+---
+$0
+Get Heidi free
+---
+Free for everyone
+---
+Document clearly. Think with confidence. Leave on time.
+---
+Standard
+Max
+$150
+---
+per user / month
+---
+Billed monthly.
+---
+Switch to yearly
 Try 14 days free
 Talk to us
 ---

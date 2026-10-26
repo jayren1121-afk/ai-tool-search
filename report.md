@@ -1,6 +1,6 @@
 # 全部工具價格擷取報告（第二階段，只寫 staging）
 
-- 產生時間：2026-10-25 12:16（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
+- 產生時間：2026-10-26 12:17（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
 - 抓取：Playwright + 系統 Chrome 無頭；UA `jAytalPriceBot/1.0 (+https://www.jaytaimark.com)`；3 個 worker（不同網域並行）、同網域序列且間隔 ≥3.2 秒；每個網址只載入 1 次、逾時 30 秒、載入後等待價格出現（最多再輪詢約 12 秒）。
 - robots：讀取失敗/403/逾時 → robots_unknown 跳過；禁止 → robots_disallowed；驗證頁/captcha/登入牆 → blocked，不重試。
 - LLM（v2，新提示詞 v2b＋新後處理）：Groq `openai/gpt-oss-120b`，送入『價格區段』（含價格的段落＋上下文，≤約 4500 字元）。方案以 name_quote（方案名）＋price_quote（含價格與計費文字）各自逐字驗證且須彼此靠近；月付/年付折算/年付總額/原價(list_price)/不明週期(price_unclear) 分欄；程式後處理檢查標籤式名稱、名稱缺失、月年矛盾、價格 0 或 >2000/月、非訂閱金額、月/年切換不明等並旗標。
@@ -9,19 +9,19 @@
 ## 1. 各 status 數量（以工具計）
 | status | 數量 | 說明 |
 |---|---|---|
-| ok | 257 | LLM 結構化後有已驗證的價格 |
+| ok | 258 | LLM 結構化後有已驗證的價格 |
 | no_pricing_url | 118 | 資料集沒有 pricing_url，略過 |
-| no_price_found | 92 | 頁面渲染後找不到價格（或 LLM 的價格未通過驗證） |
+| no_price_found | 91 | 頁面渲染後找不到價格（或 LLM 的價格未通過驗證） |
 | blocked | 19 | 403/驗證頁/登入牆，跳過 |
 | robots_unknown | 8 | robots.txt 讀不到（403/逾時等），保守跳過 |
 | robots_disallowed | 5 | robots.txt 禁止 |
 | error | 1 | 載入失敗（逾時、網路/HTTP2 錯誤等） |
 
-- **成功拿到價格（ok）：257 / 382 個有 pricing_url 的工具 = 67.3%**（佔全部 500 個工具 51.4%）。
-- 排除『合規跳過』（robots/blocked）後：257/350 = 73.4%。
+- **成功拿到價格（ok）：258 / 382 個有 pricing_url 的工具 = 67.5%**（佔全部 500 個工具 51.6%）。
+- 排除『合規跳過』（robots/blocked）後：258/350 = 73.7%。
 
 ## 1b. 本次執行的 LLM 提供者
-- groq（openai/gpt-oss-120b）：本次呼叫 11 次、成功 11 頁、token 29,372
+- groq（openai/gpt-oss-120b）：本次呼叫 6 次、成功 6 頁、token 20,624
 - openrouter（openrouter:nvidia/nemotron-3-super-120b-a12b:free）：本次呼叫 0 次、成功 0 頁、token 0
 - gemini（gemini:gemini-3.8-flash）：本次呼叫 0 次、成功 0 頁、token 0
 - 未設定金鑰而略過：cerebras, mistral
@@ -29,10 +29,10 @@
 - 累計使用備援模型（非 Groq 120b，帶 llm_fallback_model、不進自動核准）的頁面：0（{}）；Groq 有額度時會自動用 120b 重做。
 
 ## 2. 效能與 Groq 用量
-- 抓取：平均每個網址 11.2 秒（中位數 9.0）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-25T12:11:40+08:00。
-- Groq v2：成功處理 296 / 296 個頁面（120b），token 738,344；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
+- 抓取：平均每個網址 11.3 秒（中位數 9.1）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-26T12:13:56+08:00。
+- Groq v2：成功處理 296 / 296 個頁面（120b），token 744,588；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
 - 限流：每分鐘 8K token 以送出前節流避開；**120b 每日 token 額度（200,000，漏桶式連續回補，約 2.3 token/秒 ≈ 每小時 8.3K）是瓶頸**——v1 全量與本輪驗證已耗盡，之後每小時只能再處理約 4 個頁面（每頁約 2,100 token）。TPD 型 429 皆依 retry-after 等待或停止，沒有降級成 20b 當正式資料。
-- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 880, 'price_near_quote': 153, 'issue_period_ambiguous_toggle': 193, 'issue_name_far_from_price': 21, 'issue_name_missing': 55, 'plan_dropped_quote': 89, 'price_other_section': 152, 'issue_yearly_gt_monthly': 16, 'price_dropped_unverified': 38, 'free_dropped_quote': 19, 'issue_name_not_in_quote': 4, 'issue_price_unclear': 16, 'issue_zero_price': 4, 'issue_non_subscription_hint': 3, 'issue_yearly_total_mismatch': 4, 'issue_abnormal_price': 2, 'issue_billing_section_mismatch': 3, 'issue_label_name': 1}
+- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 881, 'price_near_quote': 145, 'issue_period_ambiguous_toggle': 190, 'issue_name_far_from_price': 22, 'issue_name_missing': 55, 'plan_dropped_quote': 90, 'price_other_section': 163, 'issue_yearly_gt_monthly': 16, 'price_dropped_unverified': 39, 'free_dropped_quote': 19, 'issue_name_not_in_quote': 4, 'issue_price_unclear': 16, 'issue_zero_price': 4, 'issue_non_subscription_hint': 3, 'issue_yearly_total_mismatch': 4, 'issue_abnormal_price': 2, 'issue_billing_section_mismatch': 4, 'issue_label_name': 1}
 
 ## 3. 被跳過 / 失敗的工具與原因
 | id | status | 原因 |
@@ -76,14 +76,14 @@ Call log:
 - 無 pricing_url 略過（118）：meta-ai, qwen, kimi, huggingchat, phind, notebooklm, felo, playground, civitai, hailuo, capcut, whisper, adobe-podcast, udio, mem, chatpdf, tome, manus, pi, bing-image-creator, tldv, hubspot-breeze, harvey, abridge, papago, intercom-fin, khroma, semantic-scholar, casetext, nuance-dax, eightfold, reverso, zendesk-ai, gemini-code-assist, beatoven, autogen, nabla, rogo, tensor-art, microsoft-designer, gemini-cli, luma-genie, duolingo-max, luminance, loudly, langflow, donotpay, tickeron, sierra, continue, kaedim, vidnoz, clickup-brain, photomath, lavender, slidesgo, unbabel, decagon, asana-ai, stocknews-finchat, lexica, monday-ai, brainly, 11x, legora, k-health, elevenlabs-dubbing, snowflake-cortex, aider, coda-ai, brave-leo, studyfetch, woebot, splash, novelai, miro-ai, timekettle, wix-ai, blockade-labs, wondershare-filmora, brisk, suki, move-ai, haiper, facefusion, reflect, mureka, multion, viz-ai, librechat, kore-ai, agentgpt, speak, open-webui, interior-ai, pixverse, metaso, praktika, hemingway, chorus, jan, roomgpt, storm, elsa, typeface, dreamina, microsoft-copilot-studio, turnitin, moonvalley, adcreative, chatsonic, starryai, replika, langsmith, quizgecko, janitor-ai, deep-dream-generator, nomi
 
 ## 4. no_price_found（渲染後沒有價格 / 驗證不過）
-deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, murf, microsoft-365-copilot, canva, relevance-ai, google-translate, rask, hostinger-ai, hedra, hirevue, bloomberg-gpt, typeform-ai, doubao, crewai, gong, hebbia, spellbook, paradox, zhipu-chatglm, flowise, connected-papers, textio, akkio, yuanbao, kapwing, outreach, marketmuse, obviously-ai, cohere, clipchamp, hypotenuse, lexis-ai, datarobot, groq, galileo-stitch, cline, voicemod, exa, writer, ironclad, ada-health, databricks, together-ai, landr, bardeen, mindmeister, openrouter, browser-use, lex, artisan, looker-gemini, voiceflow, vtube-studio, auphonic, profound, leena-ai, clipdrop, tunee, andi, seamless-ai, interprefy, gptexcel, brandmark, seo-ai-yoast, vic-ai, qodo, vidu, datarails, deepmotion, moises, gorgias, rokoko, mode, assemblyai, merlin, deepgram, predis, sider, penpot, hume, pencil, blackbox, clockwise, gradescope, retell
+deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, murf, microsoft-365-copilot, canva, relevance-ai, google-translate, rask, hostinger-ai, hedra, hirevue, bloomberg-gpt, typeform-ai, doubao, crewai, gong, hebbia, spellbook, paradox, zhipu-chatglm, flowise, connected-papers, textio, akkio, yuanbao, kapwing, outreach, marketmuse, obviously-ai, cohere, clipchamp, hypotenuse, lexis-ai, datarobot, groq, galileo-stitch, cline, voicemod, exa, writer, ironclad, ada-health, databricks, together-ai, landr, bardeen, mindmeister, openrouter, browser-use, lex, artisan, looker-gemini, voiceflow, vtube-studio, profound, leena-ai, clipdrop, tunee, andi, seamless-ai, interprefy, gptexcel, brandmark, seo-ai-yoast, vic-ai, qodo, vidu, datarails, deepmotion, moises, gorgias, rokoko, mode, assemblyai, merlin, deepgram, predis, sider, penpot, hume, pencil, blackbox, clockwise, gradescope, retell
 
 ## 4b. 處理進度（因 120b 每日額度）
-- 已用 v2 新規則處理：257 個工具的 ok 結果（頁面 296/296）；**尚未重跑、沿用 v1 結果（帶 old_prompt、不可批次核准）：0 個工具**。
+- 已用 v2 新規則處理：258 個工具的 ok 結果（頁面 296/296）；**尚未重跑、沿用 v1 結果（帶 old_prompt、不可批次核准）：0 個工具**。
 - 續跑：GitHub Actions「價格資料每日更新」每天台灣時間 20:27 自動執行並接續進度（也可在 Actions 頁面手動 Run workflow）。
 - 時間估計：每頁約 2,100 token，額度約 200K/天 → 每天約 95 頁；剩 0 頁約需 0.0 天（升級 Groq Dev Tier 後約 1–2 小時）。批次：第 1 天約 95 頁（資料集前段：chatbot、search、image、video、audio、music、coding 前段…）、第 2 天約 95 頁、第 3 天其餘。
 
-## 5. 需人工覆核（212 筆；可批次核准的無旗標 45 筆）
+## 5. 需人工覆核（214 筆；可批次核准的無旗標 44 筆）
 旗標：price_change＝與資料集舊價差>50%；name_diff＝方案名稱與舊資料多數不同；shared_page＝多個工具共用同一價格頁；has_promo＝含促銷價；non_usd＝非美元；price_near_quote＝價格不在引用句內而在附近；dropped_fields＝有欄位因證據驗證失敗被丟棄。
 
 | id | 旗標 | 細節 | 來源 |
@@ -225,11 +225,13 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, mu
 | heygen-translate | has_promo |  | https://maestra.ai/pricing |
 | ollama | period_ambiguous_toggle | Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle | https://ollama.com/pricing |
 | 10web | has_promo, price_near_quote |  | https://10web.io/pricing |
-| sloyd | has_promo, period_ambiguous_toggle, price_near_quote | Sloyd Plus: period_ambiguous_toggle; Sloyd Pro: period_ambiguous_toggle | https://www.sloyd.ai/pricing |
+| sloyd | period_ambiguous_toggle, price_near_quote | Sloyd Plus: period_ambiguous_toggle; Sloyd Pro: period_ambiguous_toggle | https://www.sloyd.ai/pricing |
 | captions | name_diff, period_ambiguous_toggle | 資料集方案 ['Studio'] vs 新 ['Max', 'Frontier']; Max: period_ambiguous_toggle; Frontier: period_ambiguous_toggle | https://www.captions.ai/pricing |
-| evernote-ai | period_ambiguous_toggle, price_near_quote | Starter: period_ambiguous_toggle; Advanced: period_ambiguous_toggle; Flexible: period_ambiguous_toggle | https://evernote.com/pricing |
+| auphonic | billing_section_mismatch, dropped_fields, name_far_from_price | Auphonic S: billing_section_mismatch, name_far_from_price | https://auphonic.com/pricing |
+| evernote-ai | dropped_fields |  | https://evernote.com/pricing |
 | kagi | period_ambiguous_toggle | Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle | https://kagi.com/pricing |
 | magicschool | dropped_fields, name_far_from_price, price_near_quote |  | https://www.magicschool.ai/pricing |
+| heidi | has_promo |  | https://www.heidihealth.com/pricing |
 | formula-bot | name_far_from_price | Starter: name_far_from_price | https://www.formulabot.com/pricing |
 | kiro | price_change | Pro: 資料集 $20.0/月 → 官網 $40.0 | https://kiro.dev/pricing |
 | akool | period_ambiguous_toggle, price_near_quote | Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro Max: period_ambiguous_toggle; Business: period_ambiguous_toggle | https://akool.com/pricing |
@@ -301,4 +303,4 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, mu
 | mem0 | dropped_fields, label_name, name_diff | 資料集方案 ['Scale', 'Pro', 'Starter', 'Hobby'] vs 新 ['Starter', 'Popular']; Popular: label_name | https://mem0.ai/pricing |
 | coursebox | dropped_fields, period_ambiguous_toggle, price_near_quote | Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro + LMS: period_ambiguous_toggle | https://www.coursebox.ai/pricing |
 
-旗標統計：{'has_promo': 82, 'name_diff': 43, 'period_ambiguous_toggle': 79, 'price_near_quote': 58, 'shared_page': 4, 'name_far_from_price': 18, 'price_change': 15, 'name_missing': 22, 'dropped_fields': 57, 'yearly_gt_monthly': 9, 'non_usd': 2, 'name_not_in_quote': 2, 'price_unclear': 11, 'zero_price': 4, 'non_subscription_hint': 1, 'yearly_total_mismatch': 2, 'abnormal_price': 2, 'billing_section_mismatch': 2, 'label_name': 1}
+旗標統計：{'has_promo': 82, 'name_diff': 43, 'period_ambiguous_toggle': 78, 'price_near_quote': 57, 'shared_page': 4, 'name_far_from_price': 19, 'price_change': 15, 'name_missing': 22, 'dropped_fields': 59, 'yearly_gt_monthly': 9, 'non_usd': 2, 'name_not_in_quote': 2, 'price_unclear': 11, 'zero_price': 4, 'non_subscription_hint': 1, 'yearly_total_mismatch': 2, 'abnormal_price': 2, 'billing_section_mismatch': 3, 'label_name': 1}
