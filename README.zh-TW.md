@@ -48,7 +48,18 @@ npm run dev                  # http://localhost:3000
    - `TURNSTILE_SECRET_KEY`（與公開的 `NEXT_PUBLIC_TURNSTILE_SITE_KEY`）：選填。沒設就不要求 Turnstile。
    - `ADMIN_PASSWORD`：至少 8 個字元，才能進 `/admin` 看「待審核建議」。
 
-改完環境變數後重新部署。管理後台的「核准」這一階段只把該筆標成已核准並留下「已核准，尚未寫入目錄（第四階段）」，不會自動加入目錄。
+改完環境變數後重新部署。
+
+## 核准建議並寫入目錄（第四階段）
+管理後台對一筆待審核建議按「核准」時，伺服器會用既有的公開網址檢查（擋私有 IP 與 metadata）抓取該頁，再交給與每日檢查相同的模型順序整理成目錄列：先 Groq（預設 `openai/gpt-oss-120b`），失敗再改 OpenRouter 免費模型。這一步不使用 Gemini。
+
+整理結果會先顯示成草稿，可以改名稱、分類、描述與價格，再按「確認寫入」。確認後才新增 `ai_tools`（狀態為已上架），建議標成已核准，備註是「已核准並寫入目錄」，並記下新工具 id。網域已經在目錄裡就不再新增，備註是「這個網站已經在目錄裡」。抓取失敗、模型失敗或 JSON 不合格時，建議維持待審核，清單上會看到失敗原因和「重試」。不會寫入半筆空白資料。
+
+請再做一次：
+
+1. Supabase → **SQL Editor**，貼上並執行 `supabase_migration_012_suggestion_publish.sql`（需先有 011；可重複執行）。它為 `tool_suggestions` 加上 `tool_id` 與 `draft`，並再次 `REVOKE` `public`、`anon`、`authenticated`，`GRANT ALL` 給 `service_role`。不要授權給訪客。
+2. 環境變數不用新增。伺服器要已經有 `GROQ_API_KEY` 或 `OPENROUTER_API_KEY`（兩個都有時先用 Groq）。`SUPABASE_SERVICE_ROLE_KEY` 仍用來寫入。沒有這兩把模型鑰匙時，核准會失敗並留在待審核清單。
+3. 重新部署後，到 `/admin` 核准一筆建議即可。
 
 ## 部署到 Vercel
 ### 方式 A：從 GitHub 匯入

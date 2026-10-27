@@ -24,6 +24,21 @@ const BASE = "id,name,url,category,subcategory,description_zh,key_features,prici
 const TTL = 5 * 60 * 1000;
 
 let cache: { at: number; rows: CatalogRow[]; snaps: Map<string, TipSnapshot> } | null = null;
+const devExtra = globalThis as { __suggestedCatalog?: CatalogRow[] };
+
+/** 沒有 Supabase 的本機開發，把剛核准的建議併進搜尋。正式環境不使用。 */
+export function addDevCatalogRow(row: CatalogRow) {
+  if (process.env.NODE_ENV === "production") return;
+  const list = devExtra.__suggestedCatalog || (devExtra.__suggestedCatalog = []);
+  const at = list.findIndex((item) => item.id === row.id);
+  if (at >= 0) list[at] = row;
+  else list.push(row);
+  cache = null;
+}
+
+export function invalidateSearchCatalog() {
+  cache = null;
+}
 
 const env = (k: string) => (process.env[k] || "").trim();
 
@@ -117,7 +132,10 @@ export async function loadSearchCatalog(): Promise<{ rows: CatalogRow[]; snaps: 
   const configured = !!(env("NEXT_PUBLIC_SUPABASE_URL") && env("NEXT_PUBLIC_SUPABASE_ANON_KEY"));
   if (!configured) {
     if (process.env.NODE_ENV === "production") throw new Error("supabase-unconfigured");
-    const rows = await fileCatalog();
+    const file = await fileCatalog();
+    const extra = devExtra.__suggestedCatalog || [];
+    const seen = new Set(extra.map((row) => row.id));
+    const rows = [...extra, ...file.filter((row) => !seen.has(row.id))];
     cache = { at: Date.now(), rows, snaps: new Map() };
     return cache;
   }
