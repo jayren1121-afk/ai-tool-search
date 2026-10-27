@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { releaseText } from "@/lib/i18n";
 import PriceReviewSection, { type PriceReviewData } from "./PriceReviewSection";
 import HealthSection, { type HealthItem, type HealthRun, type HealthStats } from "./HealthSection";
@@ -80,18 +80,48 @@ export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs:
 export type PendingSuggestion = {
   id: string; title: string; url: string; query: string; sub_need: string | null;
   submit_count: number; created_at: string; updated_at: string; note: string | null;
+  draft?: {
+    name: string; category: string; subcategory: string | null; description_zh: string; description_en: string;
+    tags: string[]; pricing_model: string | null; free_tier: string | null;
+    paid_plans: { name: string; price_usd_month: number | null; notes: string | null }[]; pricing_url: string | null;
+  } | null;
+};
+
+type DraftForm = {
+  name: string; category: string; description_zh: string; description_en: string;
+  pricing_model: string; free_tier: string; plan_name: string; plan_price: string;
 };
 
 function SuggestionCard({ s, onDone }: { s: PendingSuggestion; onDone: (msg: string) => void }) {
   const [busy, setBusy] = useState(""); const [err, setErr] = useState("");
-  const act = async (action: "approve" | "reject") => {
+  const [form, setForm] = useState<DraftForm | null>(null);
+  useEffect(() => {
+    if (!s.draft) { setForm(null); return; }
+    const plan = s.draft.paid_plans[0];
+    setForm({
+      name: s.draft.name, category: s.draft.category, description_zh: s.draft.description_zh, description_en: s.draft.description_en,
+      pricing_model: s.draft.pricing_model ?? "", free_tier: s.draft.free_tier ?? "",
+      plan_name: plan?.name ?? "", plan_price: plan?.price_usd_month == null ? "" : String(plan.price_usd_month),
+    });
+  }, [s.id, s.updated_at, s.draft]);
+  const failed = !!s.note?.startsWith("失敗");
+  const act = async (action: "approve" | "retry" | "reject" | "confirm") => {
     if (action === "reject" && !confirm(`確定拒絕「${s.title}」？`)) return;
     setBusy(action); setErr("");
     try {
-      const j = await post("/api/admin/suggestions", { action, id: s.id });
-      onDone(action === "approve" ? `已核准：${s.title}。${j.note || "已核准，尚未寫入目錄（第四階段）"}` : `已拒絕：${s.title}`);
+      const edits = form ? {
+        name: form.name, category: form.category, description_zh: form.description_zh, description_en: form.description_en,
+        pricing_model: form.pricing_model || null, free_tier: form.free_tier,
+        paid_plans: form.plan_name ? [{ name: form.plan_name, price_usd_month: form.plan_price === "" ? null : Number(form.plan_price), notes: "管理員確認" }] : [],
+      } : {};
+      const j = await post("/api/admin/suggestions", { action, id: s.id, ...(action === "confirm" ? { edits } : {}) });
+      if (j.state === "error") onDone(String(j.note || "沒有寫入目錄"));
+      else if (j.state === "preview") onDone("已產生草稿，請確認後再寫入目錄");
+      else if (j.state === "approved") onDone(`${j.note || "已核准並寫入目錄"}${j.toolId ? `（${j.toolId}）` : ""}`);
+      else onDone(action === "reject" ? `已拒絕：${s.title}` : String(j.note || "已更新"));
     } catch (e) { setErr((e as Error).message); } finally { setBusy(""); }
   };
+  const input = "mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-indigo-400";
   return (
     <li className="rounded-xl bg-white p-4 shadow-sm">
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -104,10 +134,37 @@ function SuggestionCard({ s, onDone }: { s: PendingSuggestion; onDone: (msg: str
         <dt className="text-slate-500">次數</dt><dd>{s.submit_count}</dd>
         <dt className="text-slate-500">日期</dt><dd>{tw(s.created_at)}{s.updated_at !== s.created_at ? `（最近 ${tw(s.updated_at)}）` : ""}</dd>
       </dl>
+      {s.note && <p className={`mt-2 rounded p-2 text-sm ${failed ? "bg-red-50 text-red-700" : "bg-slate-50 text-slate-700"}`}>{s.note}</p>}
+      {form && (
+        <div className="mt-3 grid gap-3 sm:grid-cols-2">
+          <label className="text-sm text-slate-600">名稱<input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={input} /></label>
+          <label className="text-sm text-slate-600">分類
+            <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className={input}>
+              {Object.entries(CATEGORIES).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+            </select>
+          </label>
+          <label className="text-sm text-slate-600 sm:col-span-2">繁中描述<textarea value={form.description_zh} onChange={(e) => setForm({ ...form, description_zh: e.target.value })} rows={2} className={input} /></label>
+          <label className="text-sm text-slate-600 sm:col-span-2">英文描述<textarea value={form.description_en} onChange={(e) => setForm({ ...form, description_en: e.target.value })} rows={2} className={input} /></label>
+          <label className="text-sm text-slate-600">計價
+            <select value={form.pricing_model} onChange={(e) => setForm({ ...form, pricing_model: e.target.value })} className={input}>
+              <option value="">未寫明</option>
+              <option value="free">免費</option>
+              <option value="freemium">免費增值</option>
+              <option value="paid">付費</option>
+              <option value="open-source">開源</option>
+            </select>
+          </label>
+          <label className="text-sm text-slate-600">免費額度<input value={form.free_tier} onChange={(e) => setForm({ ...form, free_tier: e.target.value })} className={input} /></label>
+          <label className="text-sm text-slate-600">付費方案<input value={form.plan_name} onChange={(e) => setForm({ ...form, plan_name: e.target.value })} className={input} /></label>
+          <label className="text-sm text-slate-600">月費（美元）<input value={form.plan_price} onChange={(e) => setForm({ ...form, plan_price: e.target.value })} inputMode="decimal" className={input} /></label>
+        </div>
+      )}
       {err && <p className="mt-2 rounded bg-red-50 p-2 text-sm text-red-700">{err}</p>}
-      <div className="mt-3 flex gap-2">
-        <button onClick={() => act("approve")} disabled={!!busy} className="flex-1 rounded-lg bg-emerald-600 px-4 py-3 font-medium text-white disabled:opacity-50 sm:flex-none">{busy === "approve" ? "核准中…" : "核准 Approve"}</button>
-        <button onClick={() => act("reject")} disabled={!!busy} className="flex-1 rounded-lg border border-red-300 px-4 py-3 font-medium text-red-700 disabled:opacity-50 sm:flex-none">{busy === "reject" ? "拒絕中…" : "拒絕 Reject"}</button>
+      <div className="mt-3 flex flex-wrap gap-2">
+        {form ? <button onClick={() => act("confirm")} disabled={!!busy} className="rounded-lg bg-emerald-600 px-4 py-3 font-medium text-white disabled:opacity-50">{busy === "confirm" ? "寫入中…" : "確認寫入 Confirm"}</button> : null}
+        {!form && <button onClick={() => act("approve")} disabled={!!busy} className="rounded-lg bg-emerald-600 px-4 py-3 font-medium text-white disabled:opacity-50">{busy === "approve" ? "核准中…" : "核准 Approve"}</button>}
+        {failed && <button onClick={() => act("retry")} disabled={!!busy} className="rounded-lg border border-amber-400 px-4 py-3 font-medium text-amber-800 disabled:opacity-50">{busy === "retry" ? "重試中…" : "重試 Retry"}</button>}
+        <button onClick={() => act("reject")} disabled={!!busy} className="rounded-lg border border-red-300 px-4 py-3 font-medium text-red-700 disabled:opacity-50">{busy === "reject" ? "拒絕中…" : "拒絕 Reject"}</button>
       </div>
     </li>
   );
@@ -134,10 +191,11 @@ export default function AdminPanel({ pending, runs, setupError, health, prices, 
         <button onClick={logout} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">登出</button>
       </div>
       {setupError && <p className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{setupError}</p>}
+      {msg && <p className="mb-4 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-800">{msg}</p>}
 
       <section className="mb-4" aria-label="Pending suggestions">
         <h2 className="mb-2 text-lg font-semibold">待審核建議（Pending suggestions）</h2>
-        <p className="mb-3 text-sm text-slate-500">核准只會把狀態改成已核准，並留下「已核准，尚未寫入目錄（第四階段）」。這一階段不會把網站寫進目錄。</p>
+        <p className="mb-3 text-sm text-slate-500">核准會讀取該網站並整理成目錄草稿。確認後才寫入目錄，搜尋就找得到。失敗會留在這裡，並可以重試。</p>
         {suggestions?.error && <p className="mb-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-800">{suggestions.error}</p>}
         {!suggestions?.error && (suggestions?.items.length ?? 0) === 0 && <p className="rounded-xl bg-white p-4 text-slate-500 shadow-sm">目前沒有待審核的建議。</p>}
         {(suggestions?.items.length ?? 0) > 0 && <ul className="space-y-4">{suggestions!.items.map((s) => <SuggestionCard key={s.id} s={s} onDone={done} />)}</ul>}
@@ -164,7 +222,6 @@ export default function AdminPanel({ pending, runs, setupError, health, prices, 
 
       {health && <HealthSection items={health.items} stats={health.stats} runs={health.runs} error={health.error} movedReady={health.movedReady} moved={health.moved} />}
 
-      {msg && <p className="mb-4 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-800">{msg}</p>}
       {pending.length === 0 ? <p className="rounded-xl bg-white p-4 text-slate-500 shadow-sm">目前沒有待審核的工具。</p> : (
         <ul className="space-y-4">{pending.map((t) => <Card key={t.id} t={t} onDone={done} />)}</ul>
       )}

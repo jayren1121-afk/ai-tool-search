@@ -24,6 +24,8 @@ export type SuggestionRow = {
   note: string | null;
   created_at: string;
   updated_at: string;
+  draft?: unknown;
+  tool_id?: string | null;
 };
 
 const CTRL = /[\u0000-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF]/g;
