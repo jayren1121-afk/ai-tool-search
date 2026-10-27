@@ -40,7 +40,7 @@ npm run dev                  # http://localhost:3000
 
 上線前請做這兩件事：
 
-1. Supabase → **SQL Editor**，貼上並執行 `supabase_migration_011_tool_suggestions.sql`（可重複執行）。這張表沒有公開讀取，也沒有讓訪客插入的 policy，只有伺服器的 service role 能讀寫。
+1. Supabase → **SQL Editor**，貼上並執行 `supabase_migration_011_tool_suggestions.sql`（可重複執行）。檔案裡已經有明確的 `GRANT ALL` 給 `service_role`，並 `REVOKE ALL` 掉 `anon`、`authenticated` 與 `PUBLIC`。2026-10-30 之前與之後都用同一份，不要再另外授權給 anon 或 authenticated。這張表沒有公開讀取，也沒有讓訪客插入的 policy。
 2. Vercel → **Settings → Environment Variables**（都選 Production，不要加 `NEXT_PUBLIC_`）：
    - `SUPABASE_SERVICE_ROLE_KEY` 與 `NEXT_PUBLIC_SUPABASE_URL` 必須已經有（後台與寫入都靠它們）。
    - `SUGGESTION_SIGNING_SECRET`：選填，建議另設一組長隨機字串。沒設時會依序用 `IP_HASH_SALT`、`ADMIN_SESSION_SECRET`、`SUPABASE_SERVICE_ROLE_KEY`。四個都沒有時，正式環境不會顯示「+」。
