@@ -134,3 +134,9 @@ export function buildPriceTip(locale: Locale, tool: Pick<SearchTool, "free_tier"
   if (extra) lines.push({ label: "", text: extra });
   return { source: "catalog", confirmed: false, lines, note: C.unconfirmed };
 }
+
+/** 站外搜尋結果不在目錄裡，不推測它的價格。 */
+export function externalPriceTip(locale: Locale): PriceTip {
+  const text = locale === "en" ? "This site has no price for this website." : "本站沒有這個網站的價格";
+  return { source: "none", confirmed: false, lines: [], note: text };
+}

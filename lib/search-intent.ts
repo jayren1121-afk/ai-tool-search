@@ -284,3 +284,20 @@ export function searchCatalog<T extends SearchTool>(tools: T[], query: string, o
     .slice(0, 40);
   return { mode: "list", tools: list };
 }
+
+/** 站外結果跟哪個子需求最像。分數愈高愈像；0 分的不回傳。 */
+export function externalNeedScores(goalId: string, hay: string): { id: string; score: number }[] {
+  const goal = GOALS.find((g) => g.id === goalId);
+  if (!goal) return [];
+  const text = hay.toLowerCase();
+  const scored: { id: string; score: number }[] = [];
+  for (const need of goal.needs) {
+    let score = 0;
+    for (const k of need.strong) if (textHas(text, k.toLowerCase())) score += 3;
+    for (const k of need.weak) if (textHas(text, k.toLowerCase())) score += 1;
+    if (textHas(text, need.title.zh.toLowerCase())) score += 2;
+    if (need.title.en !== need.title.zh && textHas(text, need.title.en.toLowerCase())) score += 2;
+    if (score > 0) scored.push({ id: need.id, score });
+  }
+  return scored;
+}

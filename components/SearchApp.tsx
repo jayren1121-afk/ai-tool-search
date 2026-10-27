@@ -20,10 +20,11 @@ type Row = Tool & {
   priceTip?: PriceTip;
   relevance?: "direct" | "indirect";
 };
-type Group = { id: string; title: string; tools: Row[] };
+type ExternalHit = { title: string; url: string; site: string; snippet: string; priceTip: PriceTip };
+type Group = { id: string; title: string; tools: Row[]; external?: ExternalHit[] };
 type Api =
-  | { mode: "goal"; goalTitle: string; groups: Group[] }
-  | { mode: "list"; tools: Row[] };
+  | { mode: "goal"; goalTitle: string; groups: Group[]; external?: ExternalHit[] }
+  | { mode: "list"; tools: Row[]; external?: ExternalHit[] };
 
 const COLS = "id,name,url,category,subcategory,description_zh,key_features,pricing_model,free_tier,paid_plans,pricing_url,is_wrapper,underlying_models,company,country,confidence,last_verified,source_urls";
 const EN_COLS = ",description_en,key_features_en"; // 需 migration 004；欄位不存在時自動退回
@@ -104,6 +105,26 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   const usePrompt = (value: string) => { setCat(""); setPm(""); setQ(value); };
 
+  const externalBlock = (hits: ExternalHit[] | undefined, heading: boolean) => {
+    if (!hits?.length) return null;
+    return (
+      <div className="mt-3">
+        {heading && <h3 className="mb-1 text-sm font-semibold text-slate-800">{L.external}</h3>}
+        <p className="mb-2 text-xs text-slate-500">{L.externalNote}</p>
+        <ul className="space-y-3">
+          {hits.map((h) => (
+            <li key={h.url} className="rounded-xl border border-dashed border-slate-300 bg-white p-4">
+              <a href={h.url} target="_blank" rel="nofollow noopener noreferrer" className="font-semibold text-indigo-700 hover:underline">{h.title}</a>
+              <span className="ml-2 text-xs text-slate-400">{h.site}</span>
+              <div className="mt-1"><PriceBadge label={L.priceBadge} tip={h.priceTip} /></div>
+              {h.snippet && <p className="mt-2 text-sm text-slate-600">{h.snippet}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
+
   const card = (x: Row) => {
     const tip = x.priceTip ?? buildPriceTip(locale, x, null);
     const priceLabel = pricingName(locale, x.pricing_model) || (tip.source !== "none" ? L.priceBadge : "");
@@ -131,7 +152,12 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   const list = api?.mode === "list" ? api.tools : rows;
   const grouped = api?.mode === "goal" ? api : null;
-  const shown = text ? (grouped ? grouped.groups.reduce((n, g) => n + g.tools.length, 0) : list.length) : Math.min(rows.length, count);
+  const externalCount = text
+    ? (grouped
+      ? grouped.groups.reduce((n, g) => n + (g.external?.length || 0), 0) + (grouped.external?.length || 0)
+      : (api?.mode === "list" ? api.external?.length || 0 : 0))
+    : 0;
+  const shown = (text ? (grouped ? grouped.groups.reduce((n, g) => n + g.tools.length, 0) : list.length) : Math.min(rows.length, count)) + externalCount;
 
   return (
     <main className="mx-auto max-w-6xl p-4">
@@ -171,12 +197,28 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
                   {grouped.groups.map((g) => (
                     <section key={g.id} aria-labelledby={`need-${g.id}`}>
                       <h2 id={`need-${g.id}`} className="mb-2 text-base font-semibold">{g.title}</h2>
-                      {g.tools.length === 0 ? <p className="text-sm text-slate-500">{L.groupEmpty}</p> : <ul className="space-y-3">{g.tools.map(card)}</ul>}
+                      {g.tools.length === 0 && <p className="text-sm text-slate-500">{L.groupEmpty}</p>}
+                      {g.tools.length > 0 && <ul className="space-y-3">{g.tools.map(card)}</ul>}
+                      {externalBlock(g.external, true)}
                     </section>
                   ))}
+                  {(grouped.external?.length || 0) > 0 && (
+                    <section aria-label={L.external}>
+                      <h2 className="mb-2 text-base font-semibold">{L.external}</h2>
+                      {externalBlock(grouped.external, false)}
+                    </section>
+                  )}
                 </div>
               ) : (
-                <ul className="space-y-3">{(text ? list : rows.slice(0, count)).map(card)}</ul>
+                <>
+                  <ul className="space-y-3">{(text ? list : rows.slice(0, count)).map(card)}</ul>
+                  {text && api?.mode === "list" && (api.external?.length || 0) > 0 && (
+                    <section className="mt-6" aria-label={L.external}>
+                      <h2 className="mb-2 text-base font-semibold">{L.external}</h2>
+                      {externalBlock(api.external, false)}
+                    </section>
+                  )}
+                </>
               )}
               {!text && rows.length > count && (
                 <div className="mt-4 text-center">
