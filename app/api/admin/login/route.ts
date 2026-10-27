@@ -10,9 +10,11 @@ export const dynamic = "force-dynamic";
 const PER_IP_15MIN = 8;   // 同一 IP 15 分鐘內最多失敗次數（存在資料庫，跨伺服器實例有效）
 const GLOBAL_HOUR = 40;   // 全站 1 小時內最多失敗次數（防分散式暴力破解）
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const failureLogReady = () => !!((process.env.NEXT_PUBLIC_SUPABASE_URL || "").trim() && (process.env.SUPABASE_SERVICE_ROLE_KEY || "").trim());
 
-/** 以 job_runs 記錄登入失敗（不需 Upstash 也能跨實例限制）；資料表不存在時回傳 null */
+/** 以 job_runs 記錄登入失敗（不需 Upstash 也能跨實例限制）；資料表不存在或尚未設定 Supabase 時回傳 null */
 async function recentFailures(ipH: string): Promise<{ ip: number; all: number } | null> {
+  if (!failureLogReady()) return null;
   const db = supabaseAdmin();
   const since15 = new Date(Date.now() - 15 * 60_000).toISOString(), since60 = new Date(Date.now() - 3600_000).toISOString();
   const [a, b] = await Promise.all([
@@ -37,7 +39,7 @@ export async function POST(req: NextRequest) {
   const body = await readJson(req, 1024);
   const pw = typeof body?.password === "string" ? body.password : "";
   if (!pw || !safeEqual(pw, (process.env.ADMIN_PASSWORD || "").trim())) {
-    await supabaseAdmin().from("job_runs").insert({ job: "admin_login_fail", status: "fail", message: ipH, finished_at: new Date().toISOString() }).then(() => {}, () => {});
+    if (failureLogReady()) await supabaseAdmin().from("job_runs").insert({ job: "admin_login_fail", status: "fail", message: ipH, finished_at: new Date().toISOString() }).then(() => {}, () => {});
     await sleep(700); // 拖慢暴力破解
     return jerr("密碼錯誤", 401);
   }
