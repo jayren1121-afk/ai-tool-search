@@ -133,6 +133,9 @@ const ERR_EN: Record<string, string> = {
   "無效的 diagnosisId": "Invalid diagnosis ID", "請輸入 1–500 字的說明": "Please enter 1–500 characters",
   "無法載入人機驗證": "Couldn't load human verification", "人機驗證失敗，請重新整理頁面再試": "Human verification failed, please reload and try again",
   "人機驗證逾時": "Human verification timed out", "未設定人機驗證": "Human verification not configured", "載入失敗": "Failed to load",
+  "這筆結果無法送出": "This result cannot be submitted", "今天的建議次數已達上限，請明天再試": "Daily suggestion limit reached, please try again tomorrow",
+  "建議功能尚未設定": "Suggestions are not configured", "送出失敗，請稍後再試": "Could not send, please try again later",
+  "建議資料表尚未建立，請先在 Supabase 執行 supabase_migration_011_tool_suggestions.sql": "The suggestions table is missing. Run supabase_migration_011_tool_suggestions.sql in Supabase first",
 };
 export function trError(loc: Locale, v: string | undefined | null) {
   if (!v) return v ?? "";
@@ -151,6 +154,7 @@ const zh = {
   goalLead: (name: string) => `「${name}」拆成下面幾項，由最相關排到間接相關。免費、免費增值與付費工具都會列出。`,
   groupEmpty: "目錄裡還沒有這類工具。", indirect: "間接相關",
   external: "外部網站", externalNote: "以下來自站外搜尋，不是本站目錄。",
+  suggestAdmin: "建議給管理員", suggestSent: "已送出，等待管理員審核", suggestListed: "這個網站已經在目錄裡", suggestFail: "送出失敗：",
   priceBadge: "價格", sortRelevance: "有輸入關鍵字時依相關性排序",
   sortName: "依名稱", sortVotes: "好評優先", searching: "搜尋中…", results: (n: number) => `${n} 筆結果`,
   loadMore: "載入更多", resultsMore: "（還有更多結果）", resultsCap: (n: number) => `（最多顯示 ${n} 筆，請輸入更精確的關鍵字）`, queryFailed: "查詢失敗：", website: "官網 ↗", diagnose: "診斷",
@@ -246,6 +250,7 @@ const en: Dict = {
   goalLead: (name: string) => `“${name}” is split into the needs below, from the closest match to a looser one. Free, freemium, and paid tools are all listed.`,
   groupEmpty: "No tool in the directory yet.", indirect: "Loosely related",
   external: "External", externalNote: "These come from a web search and are not in this directory.",
+  suggestAdmin: "Suggest to admin", suggestSent: "Sent. Waiting for an admin to review it.", suggestListed: "This site is already in the directory.", suggestFail: "Could not send: ",
   priceBadge: "Price", sortRelevance: "Typed searches are ordered by relevance",
   sortName: "By name", sortVotes: "Top rated", searching: "Searching…", results: (n) => `${n} result${n === 1 ? "" : "s"}`,
   loadMore: "Load more", resultsMore: " (more results available)", resultsCap: (n) => ` (showing up to ${n}; try a more specific keyword)`, queryFailed: "Search failed: ", website: "Website ↗", diagnose: "Diagnose",

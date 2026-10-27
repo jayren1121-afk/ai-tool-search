@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { loadSearchCatalog } from "@/lib/search-catalog";
 import { searchCatalog } from "@/lib/search-intent";
-import { placeExternal, type WebHit } from "@/lib/external-search";
+import { httpsUrl, placeExternal, type WebHit } from "@/lib/external-search";
 import { searchWeb } from "@/lib/web-search";
 import { buildPriceTip, externalPriceTip } from "@/lib/price-tip";
 import { clientIp } from "@/lib/security";
+import { cleanText, resolveSuggestionSecret, signSuggestion } from "@/lib/suggestions";
 import { isLocale, type Locale } from "@/lib/i18n";
 
 export const runtime = "nodejs";
@@ -14,6 +15,17 @@ export const dynamic = "force-dynamic";
 // 沒有 TAVILY_API_KEY、或額度用完，只回站內目錄。此路由在伺服器呼叫，不改瀏覽器的 CSP。
 
 const noStore = { "Cache-Control": "no-store" };
+const env = (k: string) => (process.env[k] || "").trim();
+
+/** 簽過名的網址與標題才能按「+」。密鑰留在伺服器，簽章對不上就不能建議。 */
+function presentExternal(h: WebHit, locale: Locale) {
+  const url = httpsUrl(h.url) || h.url;
+  const title = cleanText(h.title, 120) || h.site;
+  const base = { ...h, url, title, priceTip: externalPriceTip(locale) };
+  const secret = resolveSuggestionSecret(env, process.env.NODE_ENV === "production");
+  if (!secret) return base;
+  return { ...base, sig: signSuggestion(secret, url, title) };
+}
 
 export async function GET(req: NextRequest) {
   const q = (req.nextUrl.searchParams.get("q") || "").replace(/\s+/g, " ").trim().slice(0, 200);
@@ -30,7 +42,7 @@ export async function GET(req: NextRequest) {
       ...t,
       priceTip: buildPriceTip(locale, t, snaps.get(t.id) ?? null),
     });
-    const withExternalTip = (h: WebHit) => ({ ...h, priceTip: externalPriceTip(locale) });
+    const withExternalTip = (h: WebHit) => presentExternal(h, locale);
     if (!q) {
       const list = rows
         .filter((t) => (!cat || t.category === cat) && (!pm || t.pricing_model === pm))

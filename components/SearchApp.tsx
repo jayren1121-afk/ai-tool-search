@@ -5,6 +5,7 @@ import { supabaseBrowser } from "@/lib/supabase";
 import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
 import { catName, pricingName, releaseText, t, toolDesc, toolHref, trSub, type Locale } from "@/lib/i18n";
 import { buildPriceTip, type PriceTip } from "@/lib/price-tip";
+import { protectedPost } from "@/lib/client";
 import DiagnosePanel from "./DiagnosePanel";
 import FingerLockPromo from "./FingerLockPromo";
 import HealthBadge from "./HealthBadge";
@@ -20,7 +21,7 @@ type Row = Tool & {
   priceTip?: PriceTip;
   relevance?: "direct" | "indirect";
 };
-type ExternalHit = { title: string; url: string; site: string; snippet: string; priceTip: PriceTip };
+type ExternalHit = { title: string; url: string; site: string; snippet: string; priceTip: PriceTip; sig?: string };
 type Group = { id: string; title: string; tools: Row[]; external?: ExternalHit[] };
 type Api =
   | { mode: "goal"; goalTitle: string; groups: Group[]; external?: ExternalHit[] }
@@ -33,6 +34,41 @@ const HEALTH_COLS = ",tool_health(status,last_checked_at)"; // 官網連線狀�
 const HEALTH_COLS_MOVED = ",tool_health(status,last_checked_at,moved_type,moved_to)"; // 加上「已轉址／已改名」提示（需 migration 009）；欄位不存在時先退回 HEALTH_COLS
 type Sort = "name" | "votes" | "newest";
 const LIMIT = 20;
+
+function SuggestButton({ hit, query, subNeed, label, sent, listed, fail }: {
+  hit: ExternalHit; query: string; subNeed: string | null; label: string; sent: string; listed: string; fail: string;
+}) {
+  const [state, setState] = useState<"idle" | "busy" | "sent" | "listed">("idle");
+  const [err, setErr] = useState("");
+  const send = async () => {
+    if (!hit.sig || state !== "idle") return;
+    setState("busy"); setErr("");
+    try {
+      const res = await protectedPost<{ state?: string }>("/api/suggestions", {
+        url: hit.url, title: hit.title, query, subNeed, sig: hit.sig,
+      });
+      if (res.ok && res.data.state === "catalog") { setState("listed"); return; }
+      if (res.ok) { setState("sent"); return; }
+      setState("idle");
+      setErr(fail + (res.data.error || res.status));
+    } catch (e) {
+      setState("idle");
+      setErr(fail + (e as Error).message);
+    }
+  };
+  const done = state === "sent" || state === "listed";
+  return (
+    <div className="flex shrink-0 flex-col items-end gap-1">
+      <button type="button" onClick={send} disabled={state !== "idle"} aria-label={label} title={label}
+        className="rounded-lg border border-indigo-300 bg-indigo-50 px-3 py-2 text-sm font-semibold text-indigo-800 hover:bg-indigo-100 disabled:cursor-default disabled:opacity-50">
+        {state === "busy" ? "…" : "+"}
+      </button>
+      {state === "sent" && <p className="max-w-40 text-right text-xs text-emerald-700">{sent}</p>}
+      {state === "listed" && <p className="max-w-40 text-right text-xs text-slate-600">{listed}</p>}
+      {err && !done && <p className="max-w-40 text-right text-xs text-red-700">{err}</p>}
+    </div>
+  );
+}
 
 export default function SearchApp({ locale = "zh", children }: { locale?: Locale; children?: React.ReactNode }) {
   const L = t(locale);
@@ -105,7 +141,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
 
   const usePrompt = (value: string) => { setCat(""); setPm(""); setQ(value); };
 
-  const externalBlock = (hits: ExternalHit[] | undefined, heading: boolean) => {
+  const externalBlock = (hits: ExternalHit[] | undefined, heading: boolean, subNeed: string | null) => {
     if (!hits?.length) return null;
     return (
       <div className="mt-3">
@@ -113,11 +149,14 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
         <p className="mb-2 text-xs text-slate-500">{L.externalNote}</p>
         <ul className="space-y-3">
           {hits.map((h) => (
-            <li key={h.url} className="rounded-xl border border-dashed border-slate-300 bg-white p-4">
-              <a href={h.url} target="_blank" rel="nofollow noopener noreferrer" className="font-semibold text-indigo-700 hover:underline">{h.title}</a>
-              <span className="ml-2 text-xs text-slate-400">{h.site}</span>
-              <div className="mt-1"><PriceBadge label={L.priceBadge} tip={h.priceTip} /></div>
-              {h.snippet && <p className="mt-2 text-sm text-slate-600">{h.snippet}</p>}
+            <li key={h.url} className="flex items-start gap-3 rounded-xl border border-dashed border-slate-300 bg-white p-4">
+              <div className="min-w-0 flex-1">
+                <a href={h.url} target="_blank" rel="nofollow noopener noreferrer" className="font-semibold text-indigo-700 hover:underline">{h.title}</a>
+                <span className="ml-2 text-xs text-slate-400">{h.site}</span>
+                <div className="mt-1"><PriceBadge label={L.priceBadge} tip={h.priceTip} /></div>
+                {h.snippet && <p className="mt-2 text-sm text-slate-600">{h.snippet}</p>}
+              </div>
+              {h.sig && <SuggestButton hit={h} query={text} subNeed={subNeed} label={L.suggestAdmin} sent={L.suggestSent} listed={L.suggestListed} fail={L.suggestFail} />}
             </li>
           ))}
         </ul>
@@ -199,13 +238,13 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
                       <h2 id={`need-${g.id}`} className="mb-2 text-base font-semibold">{g.title}</h2>
                       {g.tools.length === 0 && <p className="text-sm text-slate-500">{L.groupEmpty}</p>}
                       {g.tools.length > 0 && <ul className="space-y-3">{g.tools.map(card)}</ul>}
-                      {externalBlock(g.external, true)}
+                      {externalBlock(g.external, true, g.id)}
                     </section>
                   ))}
                   {(grouped.external?.length || 0) > 0 && (
                     <section aria-label={L.external}>
                       <h2 className="mb-2 text-base font-semibold">{L.external}</h2>
-                      {externalBlock(grouped.external, false)}
+                      {externalBlock(grouped.external, false, null)}
                     </section>
                   )}
                 </div>
@@ -215,7 +254,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
                   {text && api?.mode === "list" && (api.external?.length || 0) > 0 && (
                     <section className="mt-6" aria-label={L.external}>
                       <h2 className="mb-2 text-base font-semibold">{L.external}</h2>
-                      {externalBlock(api.external, false)}
+                      {externalBlock(api.external, false, null)}
                     </section>
                   )}
                 </>
