@@ -4,4 +4,4 @@ AI Colleagues Platform: Platform fee + usage, billed in tokens you can audit.
 ---
 Status
 Subscribe to the Leena AI newsletter: the AI Edge Digest, monthly intel on enterprise Agentic AI.
-© Leena AI. All rights reserved 2026
+© Leena AI Inc. All rights reserved.

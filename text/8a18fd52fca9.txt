@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Novelcrafter
 Features
 Resources
@@ -23,25 +24,23 @@ Annually
 Prices have been localized to your region (US)
 Scribe
 
-$4.36
+$4.00
 
 USD
 
 monthly
 
-9% tax included
 Unlimited Books
 Series & Universes
 Basic Review features
 Hobbyist
 
-$8.73
+$8.00
 
 USD
 
 monthly
 
-9% tax included
 All from Scribe, plus:
 AI (Bring your own Key)
 
@@ -49,25 +48,515 @@ Most popular
 
 Artisan
 
-$15.27
+$14.00
 
 USD
 
 monthly
 
-9% tax included
 All from Hobbyist, plus:
 Chat Features
 Advanced Review features
 Specialist
 
-$21.82
+$20.00
 
 USD
 
 monthly
 
-9% tax included
+All from Artisan, plus:
+Collaborative writing
+Create and manage teams
+Feature comparison
+
+Scribe
+
+Unlock your potential, as every story deserves to be told.
+
+Hobbyist
+
+For the curious writer, expand your narrative toolkit.
+
+Artisan
+
+For the dedicated, where passion meets professionalism.
+
+Specialist
+
+Collaborative, expansive, and limitless possibilities.
+
+Writing
+Feature
+	
+Scribe tier
+	
+Hobbyist tier
+	
+Artisan tier
+	
+Specialist tier
+
+No. of Books
+	Unlimited	Unlimited	Unlimited	Unlimited
+Reviewing Tools
+	Basic	Basic	Advanced (planned)	Advanced (planned)
+
+Codex
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Series
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+Universes (planned)	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+AI Integration
+Feature
+	
+Scribe tier
+	
+Hobbyist tier
+	
+Artisan tier
+	
+Specialist tier
+
+Bring your own Key (BYOK)
+	—
+No
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+AI Scene Summarization
+	—
+No
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+AI Character extraction
+	—
+No
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Generate from Scene Beats
+	—
+No
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Workshop Chat
+	—
+No
+	—
+No
+	
+Yes
+	
+Yes
+Collaboration
+Feature
+	
+Scribe tier
+	
+Hobbyist tier
+	
+Artisan tier
+	
+Specialist tier
+
+
+Get invited as Viewer
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Get invited as Editor
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Invite other users to your novels
+	—
+No
+	—
+No
+	—
+No
+	
+Yes
+
+
+Invite users into your series
+	—
+No
+	—
+No
+	—
+No
+	
+Yes
+Teams
+Feature
+	
+Scribe tier
+	
+Hobbyist tier
+	
+Artisan tier
+	
+Specialist tier
+
+Get invited into Teams
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Invite teams you're part of to your novels
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Invite teams you're part of to your series
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+
+Create and manage Teams
+	—
+No
+	—
+No
+	—
+No
+	
+Yes
+Support
+Feature
+	
+Scribe tier
+	
+Hobbyist tier
+	
+Artisan tier
+	
+Specialist tier
+
+Discord Community
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+Email
+	
+Yes
+	
+Yes
+	
+Yes
+	
+Yes
+
+Live Chat
+	—
+No
+	
+Yes
+	
+Yes
+	
+Yes
+
+Priority Support	—
+No
+	—
+No
+	—
+No
+	
+Yes
+We accept the following payment methods:
+Credit Card
+We believe in fair Pricing
+
+Authors already have enough to worry about. We don't want to add to that. That's why we offer a simple, fair pricing model that scales with your needs.
+
+21-day Free Trial
+
+Get unrestricted access to all of the features of Novelcrafter for 21 days. No credit card required! See for yourself if you like it before committing.
+
+We don't do Sales
+
+No special sales, discounts or holiday promotions. That means no fake countdown timers and no artificially inflated prices - you'll get the best price, every day of the year.
+
+Pay for what you need
+
+We tailored each plan so you only need pay for the features you need, making sure you get the most value for your money. You can always upgrade or downgrade later.
+
+Frequently asked questions
+How does the free trial work?
+
+When you sign up, you will immediately have access to all the features of Novelcrafter for 21 days. If you decide to continue with your plan, you will be charged the monthly or yearly price, depending on your choice, at the end of the trial period.
+
+Is there a free plan?
+
+No, we currently do not offer a free plan. However, we do offer a 21-day free trial, so you can try out Novelcrafter before committing to a plan.
+
+What payment methods do you accept?
+
+We accept all major credit cards, including Visa, Mastercard, and American Express, as well as PayPal, Apple Pay, and Google Pay. For Chinese users, we also accept Alipay.
+
+Do you offer discounts for students, educators or non-profits?
+
+No. We currently do not offer discounts on our plans.
+
+What happens to my data if I cancel?
+
+If you no longer have an active subscription, you will still have read-only access to your data. This means that you can view and export your data, but you will not be able to add or edit.
+
+Can I upgrade or downgrade my plan later?
+
+Yes, you can upgrade or downgrade your plan at any time. If you upgrade, you will be charged the prorated amount for the rest of the month.
+
+Can I cancel my subscription?
+
+Yes, you can cancel your subscription at any time. If you cancel, you will be able to use your plan until the end of your billing cycle, and you will not be charged again.
+
+Can I change my billing frequency?
+
+Yes, you can change your billing frequency at any time. If you change your billing frequency, you will be charged the prorated amount for the rest of the month.
+
+Can I pause my subscription?
+
+Yes, you can pause your subscription at any time. If you pause your subscription, you will not be charged again until you resume your subscription. This means the subscription will run until the end of the billing cycle, and then it will be paused. You can resume your subscription afterwards.
+
+Which plan do my collaborators need?
+
+Your collaborators will need to have any paid plan if they want to add or edit data. If they only need to view data, a free account is sufficient.
+
+Do you offer student discounts?
+
+No, at this time we do not offer student or educational discounts. However, please let us know if you're interested in this, as we are gauging interest for future offerings.
+
+Do you have Black Friday or holiday sales?
+
+No, we do not offer any special sales or discounts during Black Friday or holiday seasons. Our pricing remains consistent throughout the year, so you never have to worry about missing out on a deal or paying more than necessary.
+
+Do you offer team-based pricing or plans?
+
+No, at this time we do not offer unified team-based pricing or subscriptions. For the time being, each user will need to have their own account and subscription.
+
+Can I pay in a currency other than my country's currency?
+
+Yes, if you want to pay in a different currency, please contact support to request a customized payment link.
+
+Do you offer Purchase Power Parity (PPP)?
+
+No, we currently do not offer localized pricing adjustments. However, we are in the process of evaluating this option with our payment provider and may implement it in the future.
+
+Learning & Education
+
+Learn the craft of writing with our free courses and resources.
+
+Lessons & Courses
+
+Free courses for all levels of writers, covering a wide range of topics
+
+The Monthly Muse
+
+Our monthly newsletter with writing tips and a writing prompt mini-game
+
+Blog
+
+Articles on writing, creativity, interviews with authors and more
+
+Help & Support
+Getting Started
+
+Learn how to use Novelcrafter
+
+Help Center
+
+Get help with billing, and more
+
+Contact Us
+
+Talk to us about any other questions
+
+Service Status
+
+See if everything is working smoothly
+
+FEATURES
+Planning
+Codex
+Workshop
+Collaboration
+USE CASES
+Romance/NSFW
+LEARN MORE
+Pricing
+Book Title Generator
+Character Name Generator
+Location Name Generator
+Item Name Generator
+ABOUT US
+About Us
+Our Philosophy
+Media Kit
+Affiliates
+STAY IN TOUCH
+Discord
+YouTube
+Twitter/X
+© 2026 Novelcrafter. All rights reserved. Made with  from across the globe.
+Terms of Service
+Privacy Policy
+Imprint
+
+=== 計費模式: 年繳 (yearly) ===
+Novelcrafter
+Features
+Resources
+Help
+Pricing
+Open Search
+Start Writing
+
+OUR PRICING
+
+Plans for every kind of Writer
+
+Whether you are just starting out or are ready to take it further: Choose the plan that best suits your needs.
+
+Start 21-day Free Trial 
+
+No credit card required, all features unlocked.
+
+Payment frequency
+Monthly
+Annually
+2 Months off
+Prices have been localized to your region (US)
+Scribe
+
+$40.00
+
+USD
+
+annually
+
+Unlimited Books
+Series & Universes
+Basic Review features
+Hobbyist
+
+$80.00
+
+USD
+
+annually
+
+All from Scribe, plus:
+AI (Bring your own Key)
+
+Most popular
+
+Artisan
+
+$140.00
+
+USD
+
+annually
+
+All from Hobbyist, plus:
+Chat Features
+Advanced Review features
+Specialist
+
+$200.00
+
+USD
+
+annually
+
 All from Artisan, plus:
 Collaborative writing
 Create and manage teams

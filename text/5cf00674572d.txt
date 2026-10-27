@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Formula Bot is now Better Analyst—same account and workflows, with more powerful analysis, dashboards, and automation.
 
 Learn what changed
@@ -5,496 +6,16 @@ Learn what changed
 Product
 Connectors
 Pricing
+Enterprise
 Book a demo
 Log in
 Try free
 
-THE ALL-IN-ONE ANALYTICS APP
-
-All your analytics work,
-in one place.
-
-Connect your data and turn it into an analysis, dashboard, report, or automated workflow. Built for individuals and growing businesses—no analytics team required.
-
-Start analyzing for free
-
-Join 1M+ users. No credit card required.
-
-TRY A REAL QUESTION
-
-Your question carries into your free workspace
-
-Analyze this month’s sales
-Build a live executive dashboard
-Clean & send to Google Sheets
-
-Evaluating Better Analyst for your team? Book a personalized demo
-
-Data Visualization
-Data Preparation
-Data Science
-Dashboards
-Data Flows
-Presentations
-Enrich
-
-REPLACE THE FRAGMENTED STACK
-
-One app for the whole
-analytics workflow.
-
-Connect your sources, analyze your data, build dashboards, and automate reporting in one place.
-
-A fragmented stack requires separate automation, data preparation, analysis, BI, reporting, and presentation tools, with handoffs across data engineers, analysts, and scientists. Better Analyst connects these sources in one workspace for analysis, dashboards, enrichment, spreadsheets, reports, presentations, and automation.
-The fragmented stack.
-
-Your team manually stitches together data to tell a story.
-
-SOURCES
-Analytics
-Search Console
-Airtable
-PostgreSQL
-Excel
-BigQuery
-TOOLS
-Automation
-Data preparation
-Analysis
-BI / dashboards
-Reporting
-Presentations
-PEOPLE
-Data engineer
-Data analyst
-Data scientist
-Together in Better Analyst.
-
-All your analytics work, in one place.
-
-YOUR DATA, WHEREVER IT LIVES
-
-GA4
-GSC
-Tableau
-Power BI
-Airtable
-Sheets
-Drive
-Dropbox
-OneDrive
-SharePoint
-BigQuery
-Snowflake
-MySQL
-PostgreSQL
-Supabase
-MSSQL
-Excel
-PDF
-CSV
-
-Apps, databases, spreadsheets, and documents.
-
-→
-→
-Connect
-Bring your data together
-Analyze
-Ask questions, find answers
-Dashboards
-See the whole picture
-Enrichment
-Add context to your data
-Spreadsheets
-Build ready-to-use workbooks
-Reports
-Turn findings into a story
-Presentations
-Share presentation-ready insights
-Automate
-Keep recurring work moving
-
-DASHBOARDS · DATA AUTOMATION · DATA ENRICHMENT
-
-One app for the entire analytics workflow
-
-Go from raw files and live business data to enriched datasets, polished dashboards, reports, presentations, and automated workflows.
-
-Data Visualization
-
-Transform raw data into beautiful, interactive charts and graphs.
-
-Data Transformation
-
-Clean, standardize, merge, reshape, and organize raw data from multiple sources into analysis-ready formats.
-
-Feb
-$42k
-Mar
-85000
-Jan
-$120k
-Apr
-67,000
-Mon
-Amt
-Jan
-$42k
-Feb
-$85k
-Mar
-$120k
-Apr
-$67k
-Code Transparency
-
-See the exact code generated for every request. Verify, learn, and export for your own use.
-
-PYTHON
-1
-import pandas as pd
-2
-df = pd.read_csv('data.csv')
-3
-df.groupby('date').sum()
-SQL
-1
-SELECT date, SUM(profit)
-2
-FROM sales
-3
-GROUP BY 1 ORDER BY 1;
-R
-1
-ggplot(df, aes(x, y)) +
-2
-geom_line() +
-3
-theme_minimal()
-AI Agents
-
-Create reusable agents that understand your business, follow your analytical approach, and present results your way.
-
-CONTEXT
-Your business
-APPROACH
-Your method
-OUTPUT
-Your style
-Your Agent
-READY
-REFERENCE FILES
-Text Analysis
-
-Analyze text with sentiment detection, language translation, keyword extraction, and more.
-
-Analyze sentiment in customer reviews
-
-Analyzed 847 reviews:
-
-"Great product, fast shipping!"
-Positive
-"It works fine, nothing special"
-Neutral
-"Broke after two days, very disappointed"
-Negative
-"Exceeded my expectations!"
-Positive
-Data Connectors
-
-Connect analytics, BI, databases, warehouses, and cloud files from one place.
-
-AUTOMATED DELIVERY
-
-Data Flows
-
-Fresh data in. The same transform. A recorded delivery.
-
-ACTIVE
-PIPELINE READY
-FLOW-04
-
-4 SOURCES
-
-GA4
-Search Console
-Airtable
-Google Sheets
-
-Transform
-
-5 saved steps
-
-4 TARGETS
-
-Google Sheets
-Snowflake
-BigQuery
-PostgreSQL
-
-Monday · 07:30
-
-NEXT RUN
-
-2,418 rows
-
-DELIVERED
-
-INSPECT FLOW
-Data Explorer
-
-Browse curated datasets spanning government, economics, health, weather, and more — ready to analyze instantly.
-
-US Population Data
-File
-3.2k rows
-Stock Market Index
-Database
-12k rows
-Weather Stations
-API
-Live
-Consumer Prices
-API
-Live
-Company Filings
-File
-48k rows
-GDP by Country
-Database
-8.5k rows
-Embeddable Analytics
-
-Add AI-powered analytics chat to your website with a single iframe snippet. Custom-branded for your users.
-
-Copied!
-<iframe
-  src="https://app.betteranalyst.com/embed/abc123"
-  width="100%"
-  height="600"
-/>
-yourapp.com/dashboard
-Data Context
-
-Add context files, metrics, and definitions so the AI answers with your business context.
-
-DOCX
-PDF
-SQL
-TXT
-Brand Kits
-
-Keep colors, typography, number formats, and artifact styling consistent automatically.
-
-PALETTE
-Spreadsheets & Reports
-
-Export to Excel, generate formatted reports, and automate your data workflows.
-
-Make me a spreadsheet of profit by state
-
-PROFIT_BY_STATE.XLSX
-
-EXPORT
-A
-B
-1
-STATE
-PROFIT
-2
-California
-$45,200.00
-3
-New York
-$38,900.50
-4
-Texas
-$32,100.00
-5
-Florida
-$28,500.25
-
-WORKS WITH SLACK
-BETA
-
-Better Analyst for Slack
-
-Mention @Better Analyst in a channel or DM and get answers, charts, and files in the thread. Scheduled reports can post to channels and DMs too.
-
-See how it works
-
-ANALYTICS THAT FITS HOW YOU WORK
-
-Start on your own. Keep using it as you grow.
-
-Better Analyst gives one person the power to do more with data—and gives a growing business one place to keep that work consistent.
-
-For individuals
-
-Do the work of an analyst without learning SQL, Python, or another business intelligence platform.
-
-For small businesses
-
-Bring sales, marketing, finance, and operations data together, enrich it, and automate recurring reporting without assembling a data team.
-
-For growing teams
-
-Standardize metrics, dashboards, data enrichments, and automated workflows as your business grows.
-
-Start analyzing for free
-
-AI DASHBOARDS
-
-Build beautiful dashboards in seconds with AI
-
-Describe what you need and AI generates a fully interactive dashboard. Pick a template, customize every detail, and schedule automatic data refreshes.
-
-Executive
-
-Clean Corporate
-
-Terminal
-
-Maximum Density
-
-Glass
-
-Premium Cinematic
-
-Editorial
-
-Narrative Authority
-
-Learn More
-
-SECURITY FIRST
-
-Data privacy and security
-
-Data is securely stored, encrypted, and executed in a dedicated, isolated sandbox environment for every chat. Apply row-level security to database connections for complete data isolation.
-
-Your data is YOUR data. We never use your data to train AI models.
-
-Your data is always private. Your files, data sources and conversations remain isolated, keeping your business information confidential.
-
-FILES
-SOURCES
-CHATS
-Private & isolated
-AI
-TRAINING OFF
-Data is encrypted in-transit and at-rest
-
-All data is stored and encrypted in Amazon Web Services (AWS), which meets 143 security standards and certifications. Data is safeguarded in transit with TLS and at rest through RDS AES-256 encryption.
-
-Row-level security for your data
-
-Control access at the row level. Each user only sees data they're authorized to access, ensuring complete data isolation between organizations.
-
-members
-name
-email
-orgID
-sales
-id
-amount
-org_id
-Selected columns
-=
-12345
-FILTER PREVIEW
-members:
-`orgID`
-=
-12345
-sales:
-`org_id`
-=
-12345
-
-CONNECTED DATA
-
-Connect the tools your business already uses.
-View all connectors
-Google Analytics
-Google Search Console
-Tableau
-Power BI
-Airtable
-Google Sheets
-Google Drive
-Dropbox
-
-DATA FLOWS / AUTOMATED DELIVERY
-BETA
-
-Turn repeat reports into a reliable pipeline.
-
-Connect the source once, define the table you need, and deliver fresh results on demand or on schedule.
-
-Fresh source data on every run
-The same transform, replayed exactly
-Delivery status and row counts recorded
-Explore Data Flows
-PIPELINE READY
-FLOW-04
-01
-FRESH SOURCES
-GA4
-Search Console
-PostgreSQL
-MySQL
-02
-REPEATABLE TRANSFORM
-Filter rows
-Join sources
-Calculate metrics
-Replays every run
-03
-SCHEDULE
-
-Every Monday
-
-07:30 · EDT
-
-ACTIVE
-04
-MONITORED DELIVERY
-Sheets
-Snowflake
-BigQuery
-SQL Server
-2,418 rows
-Delivered
-
-TESTIMONIALS
-
-Built for anyone who needs answers from data.
-
-“Using Better Analyst is like having a data scientist on call 24/7. The ability to just ask questions and get immediate, insightful visualizations has saved us countless hours and improved our decision-making.”
-
-Rachel Morrison
-
-Operations Director, Vertex Analytics
-
-“Better Analyst's sentiment analysis feature helps me instantly understand customer feedback by classifying text as positive, negative, or neutral - no manual review needed.”
-
-James Chen
-
-Customer Success Manager, BrightPath Solutions
-
-“Better Analyst transformed how our BI team operates. We used to spend days building dashboards manually — now we upload a dataset and have presentation-ready charts in minutes.”
-
-Sarah Thornton
-
-Business Intelligence Lead, DataStream Inc.
-
 PRICING
 
-Simple, transparent pricing
+Start free. Pay when it becomes part of the job.
 
-Start free, upgrade when you need more power and usage.
+Every paid plan includes the AI analyst, connected sources and automated dashboards. Teams add shared Projects, more capacity and admin controls.
 
 Estimate what your team could save
 →
@@ -546,7 +67,7 @@ $80
 $40
 First month, then $80 per month
 
-Maximum capacity, white-label embeds, and dynamic per-user row-level security for organizations with advanced data requirements. Pricing is per user.
+Maximum capacity, SSO, private projects, free dashboard Viewers, per-member data access, and white-label embeds for organizations with advanced data requirements. Pricing is per user.
 
 Chat messages
 Unlimited
@@ -591,48 +112,31 @@ How accurate is AI data analysis?
 +
 What data sources are supported for analysis?
 +
-What are Data Flows?
+Can I share dashboards with clients or people outside my team?
 +
-Does Better Analyst work in Slack?
+Can Better Analyst alert me when a metric changes?
++
+Can I keep each client’s data separate?
++
+Does Better Analyst replace my BI tool?
 +
 Is my data secure?
 +
 What is your refund policy?
 +
+Ask your first question now.
+Let it keep working tomorrow.
 
-DECIDE WITH CONFIDENCE
+Free plan, no credit card. Bring a spreadsheet or connect a source.
 
-Still deciding? Do your own comparison.
-
-Open a neutral prompt in the AI tool you already use. It asks where Better Analyst fits, where a general-purpose assistant may be enough, and what you should verify before choosing.
-
-Analyze your data free
-
-No credit card required.
-
-01
-ChatGPT
-Open a balanced comparison prompt in ChatGPT.
-02
-Claude
-Open the same research prompt in Claude.
-03
-Perplexity
-Research the comparison with linked web sources.
-
-AI answers can be incomplete. Check source links, current pricing, and product documentation before deciding.
-
-Start analyzing your data
-in 30 seconds.
-
-No credit card required. Free forever plan included.
-
-Analyze your data free
-The all-in-one analytics app
+Start free with your data
+The AI data analyst
 Docs
 Log in
 Sign up
 Data Flows
+Alerts
+Projects
 Slack Agent
 AI Dashboard Generator
 Excel AI
@@ -666,8 +170,15 @@ PostgreSQL Connector
 Supabase Connector
 Microsoft SQL Server Connector
 Product
+Pricing
+For agencies
+For marketing teams
+For finance & accounting
+For operations
 Excel Templates
 Calculators
+Metrics & KPI Formulas
+SQL Guides
 Chart Makers
 Datasets
 Julius AI Alternative
@@ -680,5 +191,205 @@ Privacy Policy
 Terms of Service
 Fair-Use Policy
 Security
+Enterprise
+DPA
+Español
+© 2026 Better Analyst. All rights reserved.
+
+=== 計費模式: 年繳 (yearly) ===
+Formula Bot is now Better Analyst—same account and workflows, with more powerful analysis, dashboards, and automation.
+
+Learn what changed
+→
+Product
+Connectors
+Pricing
+Enterprise
+Book a demo
+Log in
+Try free
+
+PRICING
+
+Start free. Pay when it becomes part of the job.
+
+Every paid plan includes the AI analyst, connected sources and automated dashboards. Teams add shared Projects, more capacity and admin controls.
+
+Estimate what your team could save
+→
+Monthly (Save 50%)
+Annually
+Compare all features →
+STARTER
+$14
+per month, billed yearly
+
+Billed $168 annually
+
+AI data analysis with premium models and enhanced computing power for files, dashboards, and recurring work.
+
+Chat messages
+250 / month
+Choose Starter
+250 chat messages/month
+2,500 AI Actions: PDF to Excel, enrichments, deep research, formula generations
+2 automated dashboards
+25 tasks (2 scheduled)
+2 connected data sources
+Unlimited file uploads up to 200MB (20 files / chat)
+1 Data Flow, weekly refresh (Google Sheets only)
+Show more features
+Best for power users & teams
+MAX
+$28
+per month, billed yearly
+
+Billed $336 annually per user
+
+For power users and teams that need unlimited analysis, automated dashboards, connected data, and a shared workspace. Pricing is per user.
+
+Chat messages
+Unlimited
+Choose Max
+Unlimited chat messages
+5,000 AI Actions/user
+10 automated dashboards
+50 tasks (10 scheduled)
+10 connected data sources
+500MB file uploads (25 files / chat)
+5 Data Flows, daily refresh (Sheets + databases)
+Show more features
+BUSINESS
+$56
+per month, billed yearly
+
+Billed $672 annually per user
+
+Maximum capacity, SSO, private projects, free dashboard Viewers, per-member data access, and white-label embeds for organizations with advanced data requirements. Pricing is per user.
+
+Chat messages
+Unlimited
+Choose Business
+Unlimited chat messages
+15,000 AI Actions/user
+20 automated dashboards
+Unlimited tasks (20 scheduled)
+50 connected data sources
+1GB file uploads (60 files / chat)
+20 Data Flows, hourly refresh (all destinations)
+Show more features
+
+CUSTOM PLAN
+
+Need more room—or a setup built around your product?
+
+We can tailor usage, dashboards, connectors, and embedded analytics around your organization.
+
+Discuss a custom plan
+Book a live demo →
+
+Custom AI Action volumes
+
+Additional dashboards
+
+Custom data connectors
+
+Expanded embed controls
+
+Cancel anytime. Secure payments powered by Stripe.
+
+QUESTIONS BEFORE YOU START
+
+The details that matter.
+
+Understand what Better Analyst can work with, how results can be checked, and how your data is handled.
+
+Is there an AI that can analyze data?
++
+How accurate is AI data analysis?
++
+What data sources are supported for analysis?
++
+Can I share dashboards with clients or people outside my team?
++
+Can Better Analyst alert me when a metric changes?
++
+Can I keep each client’s data separate?
++
+Does Better Analyst replace my BI tool?
++
+Is my data secure?
++
+What is your refund policy?
++
+Ask your first question now.
+Let it keep working tomorrow.
+
+Free plan, no credit card. Bring a spreadsheet or connect a source.
+
+Start free with your data
+The AI data analyst
+Docs
+Log in
+Sign up
+Data Flows
+Alerts
+Projects
+Slack Agent
+AI Dashboard Generator
+Excel AI
+AI Chart Maker
+AI Spreadsheet Generator
+PDF to Excel Converter
+Bank Statement to Excel
+Sentiment Analysis Tool
+AI Homework Helper
+AI SQL Query Generator
+VBA Code Generator
+Google Sheets Formula Generator
+Google Apps Script Generator
+Regex Generator
+Excel Formulas
+Google Sheets Formulas
+Google Analytics Connector
+Google Search Console Connector
+Tableau Connector
+Power BI Connector
+Airtable Connector
+Google Sheets Connector
+Google Drive Connector
+Dropbox Connector
+OneDrive Connector
+SharePoint Connector
+Google BigQuery Connector
+Snowflake Connector
+MySQL Connector
+PostgreSQL Connector
+Supabase Connector
+Microsoft SQL Server Connector
+Product
+Pricing
+For agencies
+For marketing teams
+For finance & accounting
+For operations
+Excel Templates
+Calculators
+Metrics & KPI Formulas
+SQL Guides
+Chart Makers
+Datasets
+Julius AI Alternative
+Featured On
+ROI Calculator
+Blog
+Contact Us
+Docs
+Privacy Policy
+Terms of Service
+Fair-Use Policy
+Security
+Enterprise
+DPA
 Español
 © 2026 Better Analyst. All rights reserved.

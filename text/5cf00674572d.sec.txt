@@ -1,55 +1,8 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Log in
 Try free
 ---
-Start analyzing for free
----
-Your question carries into your free workspace
----
-Clean, standardize, merge, reshape, and organize raw data from multiple sources into analysis-ready formats.
----
-Feb
-$42k
-Mar
-85000
-Jan
-$120k
-Apr
-67,000
-Mon
-Amt
-Jan
-$42k
-Feb
-$85k
-Mar
-$120k
-Apr
-$67k
-Code Transparency
----
-See the exact code generated for every request. Verify, learn, and export for your own use.
----
-STATE
-PROFIT
-2
-California
-$45,200.00
-3
-New York
-$38,900.50
-4
-Texas
-$32,100.00
-5
-Florida
-$28,500.25
----
-WORKS WITH SLACK
-BETA
----
-Start analyzing for free
----
-Start free, upgrade when you need more power and usage.
+Start free. Pay when it becomes part of the job.
 ---
 →
 Monthly (Save 50%)
@@ -93,15 +46,71 @@ $80
 $40
 First month, then $80 per month
 ---
-Maximum capacity, white-label embeds, and dynamic per-user row-level security for organizations with advanced data requirements. Pricing is per user.
+Maximum capacity, SSO, private projects, free dashboard Viewers, per-member data access, and white-label embeds for organizations with advanced data requirements. Pricing is per user.
 ---
 Unlimited chat messages
 15,000 AI Actions/user
 20 automated dashboards
 ---
-Analyze your data free
+Free plan, no credit card. Bring a spreadsheet or connect a source.
 ---
-No credit card required. Free forever plan included.
+Start free with your data
+The AI data analyst
+=== 計費模式: 年繳 (yearly) ===
+Log in
+Try free
 ---
-Analyze your data free
-The all-in-one analytics app
+Start free. Pay when it becomes part of the job.
+---
+→
+Monthly (Save 50%)
+Annually
+Compare all features →
+STARTER
+$14
+per month, billed yearly
+---
+Billed $168 annually
+---
+AI data analysis with premium models and enhanced computing power for files, dashboards, and recurring work.
+---
+Chat messages
+250 / month
+Choose Starter
+250 chat messages/month
+2,500 AI Actions: PDF to Excel, enrichments, deep research, formula generations
+---
+1 Data Flow, weekly refresh (Google Sheets only)
+Show more features
+Best for power users & teams
+MAX
+$28
+per month, billed yearly
+---
+Billed $336 annually per user
+---
+For power users and teams that need unlimited analysis, automated dashboards, connected data, and a shared workspace. Pricing is per user.
+---
+Unlimited chat messages
+5,000 AI Actions/user
+10 automated dashboards
+---
+500MB file uploads (25 files / chat)
+5 Data Flows, daily refresh (Sheets + databases)
+Show more features
+BUSINESS
+$56
+per month, billed yearly
+---
+Billed $672 annually per user
+---
+Maximum capacity, SSO, private projects, free dashboard Viewers, per-member data access, and white-label embeds for organizations with advanced data requirements. Pricing is per user.
+---
+Unlimited chat messages
+15,000 AI Actions/user
+20 automated dashboards
+---
+Free plan, no credit card. Bring a spreadsheet or connect a source.
+---
+Start free with your data
+The AI data analyst

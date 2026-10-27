@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Pricing
 Contact sales
 Login
@@ -110,6 +111,237 @@ How do AI credits work?
 What is an AI credit?
 How do I get more credits?
 Do unused credits roll over the month?
+Can I get full amount of credits immediately if I buy a yearly plan?
+Where can I see how many credits left?
+Can I refund AI credits consumed?
+Can I change my plan after purchasing one?
+---
+Start creating for free
+=== 計費模式: 月繳 (monthly) ===
+Pricing
+Contact sales
+Login
+Free sign up
+SAVE 40% WITH YEARLY PLANS
+Built for creators. Priced for reality.
+Monthly
+Yearly
+40% OFF
+Essentials
+For solo creators getting started
+$19.99
+450 credits / month
+Get started
+~ 61 Kling 3.0 videos or 900 Nano Banana 2 images
+---
+AI Audio enhancement: Magic Dust, Noise reduction, Silence removal
+AI Subtitles (English only)
+Pro
+For professional creators who ship weekly
+$39.99
+1200 credits / month
+Get started
+~ 68 Seedance 2.0 videos or 600 Nano Banana 2 images
+---
+AI Video Enhancement: AI video enhance, Eye contact, Background remover
+Most Popular
+Teams
+For small teams producing at volume
+$84.99per creator
+3000 credits / month
+Get started
+~ 170 Seedance 2.0 videos or 1500 Nano Banana images
+---
+Custom
+Custom credits / month
+Contact us
+---
+Priority support
+Advanced security & compliance
+Free
+Get started
+$0.00
+Run into a busy month? Top up and keep going.
+Add extra credits on top of your plan so you never have to pause or scale back your projects.
+Compare all features
+---
+4.7
+Monthly
+Yearly
+Free
+$0
+.00
+/ month
+Get started
+Essentials
+$19
+.99
+/ month
+Get started
+Pro
+Most popular
+$39
+.99
+/ month
+Get started
+Teams
+Collaboration
+$84
+.99
+/ month
+Get started
+---
+Contact us
+AI capabilities & credits
+Chat-based video editing (Bumblebee)
+---
+Unlimited
+Default amount of AI credits per user
+10 (lifetime)
+450  / month
+1200  / month
+3000  / month
+Custom
+---
+Custom
+* Actual credits will be activated after trial payment is done, until that you will have 50 credits.
+AI Image Generation
+---
+Unlimited
+Royalty-free music library
+Limited content
+---
+Max number of recording studios
+1 per user
+1 per user
+1 per user
+Unlimited
+---
+Unlimited
+Royalty-free music library
+Limited
+---
+Frequently Asked Questions
+How do AI credits work?
+What is an AI credit?
+How do I get more credits?
+Do unused credits roll over the month?
+Can I get full amount of credits immediately if I buy a yearly plan?
+Where can I see how many credits left?
+Can I refund AI credits consumed?
+Can I change my plan after purchasing one?
+---
+Start creating for free
+=== 計費模式: 月繳 (monthly) #2 ===
+Pricing
+Contact sales
+Login
+Free sign up
+SAVE 40% WITH YEARLY PLANS
+Built for creators. Priced for reality.
+Monthly
+Yearly
+40% OFF
+Essentials
+For solo creators getting started
+$19.99
+450 credits / month
+Get started
+~ 61 Kling 3.0 videos or 900 Nano Banana 2 images
+---
+AI Audio enhancement: Magic Dust, Noise reduction, Silence removal
+AI Subtitles (English only)
+Pro
+For professional creators who ship weekly
+$39.99
+1200 credits / month
+Get started
+~ 68 Seedance 2.0 videos or 600 Nano Banana 2 images
+---
+AI Video Enhancement: AI video enhance, Eye contact, Background remover
+Most Popular
+Teams
+For small teams producing at volume
+$84.99per creator
+3000 credits / month
+Get started
+~ 170 Seedance 2.0 videos or 1500 Nano Banana images
+---
+Custom
+Custom credits / month
+Contact us
+---
+Priority support
+Advanced security & compliance
+Free
+Get started
+$0.00
+Run into a busy month? Top up and keep going.
+Add extra credits on top of your plan so you never have to pause or scale back your projects.
+Scroll to top
+---
+4.7
+Monthly
+Yearly
+Free
+$0
+.00
+/ month
+Get started
+Essentials
+$19
+.99
+/ month
+Get started
+Pro
+Most popular
+$39
+.99
+/ month
+Get started
+Teams
+Collaboration
+$84
+.99
+/ month
+Get started
+---
+Contact us
+AI capabilities & credits
+Chat-based video editing (Bumblebee)
+---
+Unlimited
+Default amount of AI credits per user
+10 (lifetime)
+450  / month
+1200  / month
+3000  / month
+Custom
+---
+Custom
+* Actual credits will be activated after trial payment is done, until that you will have 50 credits.
+AI Image Generation
+---
+Unlimited
+Royalty-free music library
+Limited content
+---
+Max number of recording studios
+1 per user
+1 per user
+1 per user
+Unlimited
+---
+Unlimited
+Royalty-free music library
+Limited
+---
+Frequently Asked Questions
+How do AI credits work?
+What is an AI credit?
+How do I get more credits?
+Do unused credits roll over the month?
+No, monthly subscription credits reset at the start of each billing cycle. However, credits purchased via Top-Up packs are availiable for Yearly plans till the end of the suscription, for monthly plans - for 2 months after the purchase.
 Can I get full amount of credits immediately if I buy a yearly plan?
 Where can I see how many credits left?
 Can I refund AI credits consumed?

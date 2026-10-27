@@ -125,5 +125,6 @@ Wilmington DE,
 
 Contact
 team@meetcleo.com
+press@meetcleo.com
 
 © Cleo AI Ltd. 2026. All Rights Reserved.

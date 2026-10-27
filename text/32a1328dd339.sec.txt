@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Need additional credits, faster generation or higher concurrency?
 ---
 API Pricing
@@ -122,6 +123,151 @@ Upgrade
 Business
 ---
 $174.30
+---
+Upgrade
+---
+Let's Talk
+Contact Sales
+General
+---
+Custom Studio Avatar	0	0	0	0	1	Customized
+Streaming Session time	5 mins free time	Up to 15 mins	Up to 15 mins	Up to 30 mins	Up to 60 mins	Customized
+Knowledge Base	All	All	All	All	All	All
+---
+Face Enhance	—
+Live Face Swap	5 mins free time	Up to 5mins	Up to 60 mins	Up to 90 mins	Up to 120 mins	Customized
+---
+Workspace members can be invited by clicking Invite Members in the top-right workspace module, or heading to Workspace Settings and selecting Members.
+Invites are sent via email with a secure link for the user to accept the invitation.
+Invitation charges
+All added admins and editors are subject to an additional charge upon invitation. The charge is equivalent to the rate paid by the initial workspace owner.
+For instance, if the owner pays $30 a month for a PRO Plan, any added admins or editors will also be charged $30/month (per added member) upon invitation.
+Removing an invited user will add the remaining balance of their plan as an invoice credit to the owner's account. Invoice credits are a monetary balance that will be spent on future transactions before charging the account owner's payment 
+Roles
+Workspace roles can be adjusted under Workspace Settings > Members by using the dropdown menus in the Role column. Permissions are as follows:
+---
+Download results and assets
+Use AI tools that do not require credits
+Generate Video
+=== 計費模式: 月繳 (monthly) ===
+Need additional credits, faster generation or higher concurrency?
+---
+API Pricing
+Yearly
+Monthly
+Starter
+For first-time AI content creators
+200 Credits
+---
+$12
+---
+/seat /mo
+---
+$0.060/credit
+Upgrade
+---
+VIDEO
+---
+Credits/mo
+---
+Credits
+---
+Credits
+---
+2400
+---
+Credits
+---
+$30
+---
+/seat /mo
+---
+$0.050/credit
+Upgrade
+---
+VIDEO
+---
+Credits/mo
+---
+Credits
+---
+Credits
+---
+Credits
+---
+9600
+---
+Credits
+---
+$59
+---
+/seat /mo
+---
+$0.049/credit
+Upgrade
+---
+VIDEO
+---
+Credits/mo
+---
+Credits
+---
+Credits
+---
+Credits
+---
+80000
+---
+Credits
+---
+$249
+---
+/seat /mo
+---
+$0.042/credit
+Upgrade
+---
+VIDEO
+---
+Credits/mo
+---
+Enterprise
+Customized yearly plans for your organization
+---
+Contact Sales
+---
+Credits do not expire
+---
+Customized by specific needs
+How do different products consume credits?
+Full Comparison
+---
+AKOOL's plans & pricing are designed to meet your needs as you grow
+---
+Free
+$0
+---
+Starter
+---
+$12
+---
+Upgrade
+---
+Pro
+---
+$30
+---
+Upgrade
+---
+Pro Max
+---
+$59
+---
+Upgrade
+---
+Business
+---
+$249
 ---
 Upgrade
 ---

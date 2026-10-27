@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：44 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：214 筆
+- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：213 筆
 
 核准單筆範本：
 ```sql
@@ -156,13 +156,12 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **kagi**（Kagi）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Professional: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle；來源 https://kagi.com/pricing；擷取 2026-10-26T12:13:48+08:00
 - **magicschool**（MagicSchool）旗標：dropped_fields, name_far_from_price, price_near_quote；；來源 https://www.magicschool.ai/pricing；擷取 2026-10-26T12:13:51+08:00
 - **heidi**（Heidi Health）旗標：has_promo；；來源 https://www.heidihealth.com/pricing；擷取 2026-10-26T12:13:56+08:00
-- **formula-bot**（Formula Bot）旗標：name_far_from_price；Starter: name_far_from_price；來源 https://www.formulabot.com/pricing；擷取 2026-10-12T13:38:39+08:00
-- **kiro**（Kiro）旗標：price_change；Pro: 資料集 $20.0/月 → 官網 $40.0；來源 https://kiro.dev/pricing；擷取 2026-10-12T13:38:47+08:00
-- **akool**（Akool）旗標：period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro Max: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://akool.com/pricing；擷取 2026-10-12T13:38:54+08:00
-- **podcastle**（Podcastle）旗標：period_ambiguous_toggle；Essentials: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Teams: period_ambiguous_toggle；來源 https://podcastle.ai/pricing；擷取 2026-10-12T13:38:58+08:00
-- **obsidian-copilot**（Obsidian）旗標：price_unclear；Catalyst: price_unclear；來源 https://obsidian.md/pricing；擷取 2026-10-12T13:39:00+08:00
-- **novelcrafter**（Novelcrafter）旗標：period_ambiguous_toggle；Scribe: period_ambiguous_toggle; Hobbyist: period_ambiguous_toggle; Artisan: period_ambiguous_toggle; Specialist: period_ambiguous_toggle；來源 https://www.novelcrafter.com/pricing；擷取 2026-10-12T13:39:11+08:00
-- **lattice-ai**（Lattice）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing; None: name_missing；來源 https://lattice.com/pricing；擷取 2026-10-12T13:39:18+08:00
+- **kiro**（Kiro）旗標：price_change；Pro: 資料集 $20.0/月 → 官網 $40.0；來源 https://kiro.dev/pricing；擷取 2026-10-27T12:12:10+08:00
+- **akool**（Akool）旗標：name_far_from_price, price_near_quote；；來源 https://akool.com/pricing；擷取 2026-10-27T12:12:15+08:00
+- **podcastle**（Podcastle）旗標：has_promo；；來源 https://podcastle.ai/pricing；擷取 2026-10-27T12:12:16+08:00
+- **obsidian-copilot**（Obsidian）旗標：billing_section_mismatch, price_unclear；Sync: billing_section_mismatch; Publish: billing_section_mismatch; Catalyst: price_unclear；來源 https://obsidian.md/pricing；擷取 2026-10-27T12:12:23+08:00
+- **novelcrafter**（Novelcrafter）旗標：period_ambiguous_toggle；Scribe: period_ambiguous_toggle; Hobbyist: period_ambiguous_toggle; Artisan: period_ambiguous_toggle; Specialist: period_ambiguous_toggle；來源 https://www.novelcrafter.com/pricing；擷取 2026-10-27T12:12:37+08:00
+- **lattice-ai**（Lattice）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing; None: name_missing；來源 https://lattice.com/pricing；擷取 2026-10-27T12:12:46+08:00
 - **docyt**（Docyt）旗標：period_ambiguous_toggle；Accounting Suite: period_ambiguous_toggle; Catch-Up Accounting: period_ambiguous_toggle；來源 https://docyt.com/pricing；擷取 2026-10-12T13:39:25+08:00
 - **eraser**（Eraser）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.eraser.io/pricing；擷取 2026-10-12T13:39:28+08:00
 - **typingmind**（TypingMind）旗標：has_promo, price_unclear；Standard: price_unclear; Extended: price_unclear; Premium: price_unclear；來源 https://www.typingmind.com/pricing；擷取 2026-10-12T13:39:34+08:00

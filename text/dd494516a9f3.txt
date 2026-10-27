@@ -1,20 +1,19 @@
 Webinar
-Live on Oct 14: How Inmar Put AI for HR Inside Workday and Google Chat
+Live on Oct 29: What a Forward Deployed Engineer Does When Your Pilot Stalls
 02
 DAYS
-11
+12
 HRS
-21
+47
 MIN
-14
+44
 SEC
 Save my seat
 Products
-Pricing
-Architecture
+Customers
 Why Leena AI
 Resources
-Company
+Pricing
 Talk to a specialist
 Leena AI pricing,
 built around your numbers
@@ -81,54 +80,58 @@ Agentic AI platform with pre-built AI Colleagues for the back-office.
 132 West, 31st Street, Suite #1006,
 New York 10001
 Products
-Universal IT Assistant
 Universal HR Assistant
+Universal IT Assistant
 Universal Finance Assistant
-AI Colleagues Platform
+AI Colleagues Studio
 Pricing
 Leena AI Pricing
 Agentic AI Architecture
 Agentic AI Architecture Overview
+Knowledge Studio
+AOP Studio
+Workflow Studio
 Touchpoints
 Orchestrator
 Workbench
 Context Graph + Memory
-Knowledge Studio
-AOP Studio
-Workflow Studio
 Observability and Governance
 Permissions and Access Control
-Integrations
-Trust and Security
-Differentiators
+Why Leena AI
+Customers
 45-Day Go-Live
 Avoid Vendor Lock-In
 A2A and MCP Built-In
 8 Years of Integrations
+TCO Calculator
 Compare
 Vs. Microsoft Copilot Studio
 Vs. Moveworks
 Vs. Glean
+Vs. Workday
 Resources
+AI Edge Resource Hub
+Use Case Library
+Integrations
+Events
 Product Documentation
-Blogs
+Learn
 Webinars
 Case Studies
+Blogs
 Podcasts
 Reports
-All resources
 Company
-About us
-Customers
+About Us
+Recognition
 Partners
-Events
-Newsroom
-Recognitions
+News and Media
 Careers
-Contact us
+Contact Us
+Trust Centre
 Status
 Subscribe to the Leena AI newsletter: the AI Edge Digest, monthly intel on enterprise Agentic AI.
-© Leena AI. All rights reserved 2026
+© Leena AI Inc. All rights reserved.
 Terms and Conditions
 Privacy Policy
 Media Kit

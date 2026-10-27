@@ -523,3 +523,12 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 5 ok openai/gpt-oss-120b https://auphonic.com/pricing 4594
 6 ok openai/gpt-oss-120b https://www.heidihealth.com/pricing 2574
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 6, "ok": 6, "tokens": 20624, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://www.formulabot.com/pricing 2934
+2 ok openai/gpt-oss-120b https://kiro.dev/pricing 2953
+3 ok openai/gpt-oss-120b https://akool.com/pricing 3596
+4 ok openai/gpt-oss-120b https://podcastle.ai/pricing 4168
+5 ok openai/gpt-oss-120b https://obsidian.md/pricing 2441
+6 ok openai/gpt-oss-120b https://www.novelcrafter.com/pricing 2776
+7 ok openai/gpt-oss-120b https://www.tunee.ai/pricing 2552
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 7, "ok": 7, "tokens": 21420, "rl429": 1, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}

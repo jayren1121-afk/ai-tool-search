@@ -28,8 +28,9 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'ramp' and fetched_at = '2026-10-25T12:11:27+08:00'::timestamptz;  -- Ramp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'recraft' and fetched_at = '2026-10-26T12:13:08+08:00'::timestamptz;  -- Recraft
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'zed' and fetched_at = '2026-10-26T12:13:16+08:00'::timestamptz;  -- Zed
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cleo' and fetched_at = '2026-10-12T13:38:33+08:00'::timestamptz;  -- Cleo
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lm-studio' and fetched_at = '2026-10-12T13:38:40+08:00'::timestamptz;  -- LM Studio
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cleo' and fetched_at = '2026-10-27T12:11:58+08:00'::timestamptz;  -- Cleo
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'formula-bot' and fetched_at = '2026-10-27T12:12:00+08:00'::timestamptz;  -- Formula Bot
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lm-studio' and fetched_at = '2026-10-27T12:12:04+08:00'::timestamptz;  -- LM Studio
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'crisp' and fetched_at = '2026-10-12T13:39:36+08:00'::timestamptz;  -- Crisp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'logoai' and fetched_at = '2026-10-12T13:40:24+08:00'::timestamptz;  -- LogoAI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'quadratic' and fetched_at = '2026-10-12T13:40:54+08:00'::timestamptz;  -- Quadratic

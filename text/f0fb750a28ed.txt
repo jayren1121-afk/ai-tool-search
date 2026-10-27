@@ -22,7 +22,7 @@ Download
 
 Made with ❤️
 
-v0.8.23
+v0.8.33
 
 Hello! I'm Andi, your friendly search assistant. What are you looking for? 🤗
 
@@ -43,10 +43,10 @@ Supercharge Your Writing
 Unlock your creativity with AI-assisted research and writing. Produce factual, high-quality content, with sources.
 Explore the Best of the Web
 Discover fascinating content with visual search results and smart summary cards. Fall in love with the internet all over again.
-Go to stackoverflow pages. Try 'go stackoverflow python tuples'
-Try these examples
-Try 'go instagram'. Allow popups for me to open it.
-Go to the Go game website. Try 'go usgo'
 Try 'go amazon'. Allow popups for me to open it.
-Ask questions. Try "when did Biden first become a Senator?"
-Go direct to website content. Try 'go youtube cute pandas'
+Try these examples
+Search music on Spotify. Try 'go spotify the beatles'
+Go to the Go Language website. Try 'go golang'
+Try 'go facebook'. Allow popups for me to open it.
+Convert between things. Try "One cup in ounces"
+Play music. Try 'Play peaceful guitar music'

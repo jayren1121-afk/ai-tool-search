@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Whether you are just starting out or are ready to take it further: Choose the plan that best suits your needs.
 ---
 Start 21-day Free Trial
@@ -9,7 +10,7 @@ Annually
 Prices have been localized to your region (US)
 Scribe
 ---
-$4.36
+$4.00
 ---
 USD
 ---
@@ -19,7 +20,7 @@ Series & Universes
 Basic Review features
 Hobbyist
 ---
-$8.73
+$8.00
 ---
 USD
 ---
@@ -29,7 +30,7 @@ Most popular
 ---
 Artisan
 ---
-$15.27
+$14.00
 ---
 USD
 ---
@@ -39,11 +40,77 @@ Chat Features
 Advanced Review features
 Specialist
 ---
-$21.82
+$20.00
 ---
 USD
 ---
 monthly
+---
+21-day Free Trial
+---
+Frequently asked questions
+How does the free trial work?
+---
+Is there a free plan?
+---
+No, we currently do not offer a free plan. However, we do offer a 21-day free trial, so you can try out Novelcrafter before committing to a plan.
+---
+Your collaborators will need to have any paid plan if they want to add or edit data. If they only need to view data, a free account is sufficient.
+---
+Learn the craft of writing with our free courses and resources.
+---
+Free courses for all levels of writers, covering a wide range of topics
+---
+The Monthly Muse
+---
+Our monthly newsletter with writing tips and a writing prompt mini-game
+=== 計費模式: 年繳 (yearly) ===
+Whether you are just starting out or are ready to take it further: Choose the plan that best suits your needs.
+---
+Start 21-day Free Trial
+---
+Payment frequency
+Monthly
+Annually
+2 Months off
+Prices have been localized to your region (US)
+Scribe
+---
+$40.00
+---
+USD
+---
+annually
+---
+Series & Universes
+Basic Review features
+Hobbyist
+---
+$80.00
+---
+USD
+---
+annually
+---
+Most popular
+---
+Artisan
+---
+$140.00
+---
+USD
+---
+annually
+---
+Chat Features
+Advanced Review features
+Specialist
+---
+$200.00
+---
+USD
+---
+annually
 ---
 21-day Free Trial
 ---
