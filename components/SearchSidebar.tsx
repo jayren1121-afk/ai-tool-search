@@ -44,7 +44,7 @@ export default function SearchSidebar({ locale, query, onPrompt }: { locale: Loc
   const L = t(locale);
   return (
     <div>
-      <details className="mb-3 rounded-xl bg-white p-3 shadow-sm lg:hidden">
+      <details className="search-suggest mb-3 rounded-xl bg-white p-3 shadow-sm lg:hidden">
         <summary className="cursor-pointer text-sm font-medium text-slate-800">{L.sidebarToggle}</summary>
         <Body locale={locale} query={query} onPrompt={onPrompt} />
       </details>

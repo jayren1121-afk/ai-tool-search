@@ -6,8 +6,12 @@ import type { PriceTip } from "@/lib/price-tip";
 export default function PriceBadge({ label, tip }: { label: string; tip: PriceTip }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
+  const openNow = useRef(false);
+  const fromPointer = useRef(false);
+  const wasOpen = useRef(false);
   const stuck = useRef(0);
   const id = useId();
+  openNow.current = open;
   useEffect(() => {
     if (!open) return;
     const down = (e: PointerEvent) => { if (!ref.current?.contains(e.target as Node)) setOpen(false); };
@@ -22,9 +26,18 @@ export default function PriceBadge({ label, tip }: { label: string; tip: PriceTi
       onMouseLeave={() => { if (Date.now() - stuck.current < 600) return; setOpen(false); }}>
       <button type="button" className="rounded bg-emerald-50 px-2 py-0.5 text-emerald-800 outline-none ring-emerald-400 focus-visible:ring-2"
         aria-expanded={open} aria-describedby={open ? id : undefined}
-        onClick={() => { stuck.current = Date.now(); setOpen((v) => !v); }}
-        onFocus={() => setOpen(true)}
-        onBlur={(e) => { if (!ref.current?.contains(e.relatedTarget as Node)) setOpen(false); }}>
+        onPointerDown={() => { fromPointer.current = true; wasOpen.current = openNow.current; }}
+        onPointerUp={() => { setTimeout(() => { fromPointer.current = false; }, 0); }}
+        onPointerCancel={() => { fromPointer.current = false; }}
+        onClick={() => {
+          stuck.current = Date.now();
+          // 觸控會先觸發 focus 再 click。用按下前的開關決定，避免點一下又被立刻關掉。
+          if (fromPointer.current) { fromPointer.current = false; setOpen(!wasOpen.current); return; }
+          setOpen((v) => !v);
+        }}
+        onFocus={() => { if (fromPointer.current) return; setOpen(true); }}
+        onBlur={(e) => { if (!ref.current?.contains(e.relatedTarget as Node)) setOpen(false); }}
+        onKeyDown={(e) => { if (e.key === "Escape") { e.preventDefault(); setOpen(false); } }}>
         {label}
       </button>
       {open && (
