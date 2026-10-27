@@ -198,6 +198,9 @@ button.border-indigo-300 { border-radius: 0.8rem; padding: 0.7rem 1.6rem; font-s
 a.rounded-lg.border { padding: 0.55rem 1.1rem; font-size: 0.95rem; border-radius: 0.75rem; border-color: var(--line-strong); }
 a.rounded-full.border { font-size: 0.9rem; border-color: var(--line-strong); }
 
+/* 手機側欄：有些瀏覽器關掉 details 後仍把內容排進去，這裡明確收起。 */
+.search-suggest:not([open]) > :not(summary) { display: none; }
+
 /* 診斷側邊面板 */
 .bg-black\/40 { background-color: rgb(46 36 12 / 0.45); }
 div.fixed > aside { border-left: 1px solid var(--line); }

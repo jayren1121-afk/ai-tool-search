@@ -4,14 +4,26 @@ import { useEffect, useMemo, useState } from "react";
 import { supabaseBrowser } from "@/lib/supabase";
 import { CATEGORIES, PRICING, type Tool } from "@/lib/types";
 import { catName, pricingName, releaseText, t, toolDesc, toolHref, trSub, type Locale } from "@/lib/i18n";
+import { buildPriceTip, type PriceTip } from "@/lib/price-tip";
 import DiagnosePanel from "./DiagnosePanel";
 import FingerLockPromo from "./FingerLockPromo";
 import HealthBadge from "./HealthBadge";
 import { OnSiteGuardToggle } from "./OnSiteGuard";
+import PriceBadge from "./PriceBadge";
+import SearchSidebar from "./SearchSidebar";
 import VoteSummary from "./VoteSummary";
 
 type HealthEmbed = { status: string; last_checked_at: string | null; moved_type?: string | null; moved_to?: string | null };
-type Row = Tool & { tool_vote_stats?: { up: number; down: number; score: number } | null; tool_health?: HealthEmbed | HealthEmbed[] | null };
+type Row = Tool & {
+  tool_vote_stats?: { up: number; down: number; score: number } | null;
+  tool_health?: HealthEmbed | HealthEmbed[] | null;
+  priceTip?: PriceTip;
+  relevance?: "direct" | "indirect";
+};
+type Group = { id: string; title: string; tools: Row[] };
+type Api =
+  | { mode: "goal"; goalTitle: string; groups: Group[] }
+  | { mode: "list"; tools: Row[] };
 
 const COLS = "id,name,url,category,subcategory,description_zh,key_features,pricing_model,free_tier,paid_plans,pricing_url,is_wrapper,underlying_models,company,country,confidence,last_verified,source_urls";
 const EN_COLS = ",description_en,key_features_en"; // 需 migration 004；欄位不存在時自動退回
@@ -28,19 +40,20 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
   const [rows, setRows] = useState<Row[]>([]); const [sort, setSort] = useState<Sort>("name"); const [votesOn, setVotesOn] = useState(true); const [relOn, setRelOn] = useState(true); const [healthOn, setHealthOn] = useState(true); const [movedOn, setMovedOn] = useState(true);
   const [enOn, setEnOn] = useState(locale === "en"); const [loading, setLoading] = useState(false); const [err, setErr] = useState("");
   const [sel, setSel] = useState<Tool | null>(null); const [count, setCount] = useState(LIMIT); // 目前要顯示幾筆（每按一次「載入更多」增加 20）
+  const [api, setApi] = useState<Api | null>(null);
+  const text = q.trim();
+  const browse = !text && !!(cat || pm); // 只選分類或計價時，沿用原本的資料庫排序
   useEffect(() => { setCount(LIMIT); }, [q, cat, pm, sort]);
-  const searched = !!(q.trim() || cat || pm); // 沒有輸入關鍵字也沒選篩選時，不顯示工具列表（改顯示分類）
 
   useEffect(() => {
-    if (!searched) { setRows([]); setErr(""); setLoading(false); return; }
+    if (!browse) { if (!text) { setRows([]); setErr(""); setLoading(false); } return; }
     if (!sb) {
       setRows([]); setLoading(false);
       setErr(L.queryFailed + (locale === "en" ? "search is not configured" : "尚未設定搜尋服務"));
       return;
     }
     const timer = setTimeout(async () => {
-      setLoading(true); setErr("");
-      const term = q.trim().replace(/[,()%*\\:'"]/g, " ").replace(/\s+/g, " ").trim();
+      setLoading(true); setErr(""); setApi(null);
       const build = (withVotes: boolean, withEn: boolean, withRel: boolean, withHealth: boolean, withMoved: boolean) => {
         let query = sb.from("ai_tools").select(`${COLS}${withEn ? EN_COLS : ""}${withRel ? REL_COLS : ""}${withHealth ? (withMoved ? HEALTH_COLS_MOVED : HEALTH_COLS) : ""}${withVotes ? ",tool_vote_stats(up,down,score)" : ""}`).range(0, count); // 多抓 1 筆，用來判斷是否還有更多結果
         query = withVotes && sort === "votes"
@@ -50,10 +63,6 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
             : query.order("name");
         if (cat) query = query.eq("category", cat);
         if (pm) query = query.eq("pricing_model", pm);
-        if (term) {
-          const fts = term.split(" ").join(" & ");
-          query = query.or(`search_tsv.fts(simple).${fts},name.ilike.*${term}*,description_zh.ilike.*${term}*,subcategory.ilike.*${term}*${withEn ? `,description_en.ilike.*${term}*` : ""}`);
-        }
         return query;
       };
       let v = votesOn, e = enOn, r = relOn, h = healthOn, m = movedOn;
@@ -70,10 +79,62 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
       setLoading(false);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q, cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, searched, locale, L.queryFailed]);
+  }, [cat, pm, sb, sort, votesOn, enOn, relOn, healthOn, movedOn, count, browse, text, locale, L.queryFailed]);
+
+  useEffect(() => {
+    if (!text) { setApi(null); return; }
+    const timer = setTimeout(async () => {
+      setLoading(true); setErr(""); setRows([]);
+      try {
+        const params = new URLSearchParams({ q: text, locale });
+        if (cat) params.set("cat", cat);
+        if (pm) params.set("pm", pm);
+        const r = await fetch(`/api/search?${params}`);
+        const data = await r.json();
+        if (!r.ok) { setApi(null); setErr(L.queryFailed + (data.error || r.status)); }
+        else setApi(data as Api);
+      } catch {
+        setApi(null);
+        setErr(L.queryFailed + (locale === "en" ? "network error" : "網路錯誤"));
+      }
+      setLoading(false);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [text, cat, pm, locale, L.queryFailed]);
+
+  const usePrompt = (value: string) => { setCat(""); setPm(""); setQ(value); };
+
+  const card = (x: Row) => {
+    const tip = x.priceTip ?? buildPriceTip(locale, x, null);
+    const priceLabel = pricingName(locale, x.pricing_model) || (tip.source !== "none" ? L.priceBadge : "");
+    const votes = Array.isArray(x.tool_vote_stats) ? x.tool_vote_stats[0] : x.tool_vote_stats;
+    return (
+      <li key={x.id} className="flex items-start gap-3 rounded-xl bg-white p-4 shadow-sm">
+        <div className="min-w-0 flex-1">
+          <Link href={toolHref(locale, x.id)} className="font-semibold text-indigo-700 hover:underline">{x.name}</Link>
+          <a href={x.url} target="_blank" rel="nofollow noopener noreferrer" className="ml-2 text-xs text-slate-400 hover:text-indigo-600">{L.website}</a>
+          <div className="mt-1 flex flex-wrap items-center gap-1 text-xs">
+            <span className="rounded bg-indigo-50 px-2 py-0.5">{catName(locale, x.category)}</span>
+            {x.subcategory && <span className="rounded bg-slate-100 px-2 py-0.5">{trSub(locale, x.subcategory)}</span>}
+            {priceLabel && <PriceBadge label={priceLabel} tip={tip} />}
+            {x.relevance === "indirect" && <span className="rounded bg-amber-50 px-2 py-0.5 text-amber-800">{L.indirect}</span>}
+          </div>
+          <p className="mt-2 text-sm text-slate-600">{toolDesc(locale, x)}</p>
+          {releaseText(locale, x.released_at, x.released_source) && <p className="mt-1 text-xs text-slate-400" title={L.releasedHint}>{L.released}{locale === "en" ? ": " : "："}{releaseText(locale, x.released_at, x.released_source)}</p>}
+          {healthOn && <HealthBadge health={Array.isArray(x.tool_health) ? x.tool_health[0] : x.tool_health} locale={locale} className="mt-2" />}
+          {votesOn && <VoteSummary up={votes?.up} down={votes?.down} className="mt-2" locale={locale} />}
+        </div>
+        <button onClick={() => setSel(x)} className="shrink-0 rounded-lg bg-indigo-600 px-3 py-2 text-sm font-medium text-white hover:bg-indigo-700">{L.diagnose}</button>
+      </li>
+    );
+  };
+
+  const list = api?.mode === "list" ? api.tools : rows;
+  const grouped = api?.mode === "goal" ? api : null;
+  const shown = text ? (grouped ? grouped.groups.reduce((n, g) => n + g.tools.length, 0) : list.length) : Math.min(rows.length, count);
 
   return (
-    <main className="mx-auto max-w-5xl p-4">
+    <main className="mx-auto max-w-6xl p-4">
       <div className="home-title flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between lg:gap-4">
         <div className="min-w-0 lg:flex-1">
           <h1 className="flex flex-wrap items-center gap-x-3 gap-y-1 text-2xl font-bold"><img src="/logo.png" alt="jAytal" className="h-10 w-10 shrink-0 rounded-xl" /><span className="min-w-0">{L.siteName}</span></h1>
@@ -82,52 +143,50 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
         <FingerLockPromo locale={locale} />
         <OnSiteGuardToggle />
       </div>
-      <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={L.searchPh} aria-label={L.searchPh}
-          className="min-w-0 flex-[1_1_240px] rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-400" />
-        <select value={cat} onChange={(e) => setCat(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-2" aria-label={L.allCats}>
-          <option value="">{L.allCats}</option>
-          {Object.keys(CATEGORIES).map((k) => <option key={k} value={k}>{catName(locale, k)}</option>)}
-        </select>
-        {(votesOn || relOn) && <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="rounded-lg border border-slate-300 px-2 py-2" aria-label={L.sortLabel}>
-          <option value="name">{L.sortName}</option>{votesOn && <option value="votes">{L.sortVotes}</option>}{relOn && <option value="newest">{L.sortNewest}</option>}
-        </select>}
-        <select value={pm} onChange={(e) => setPm(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-2" aria-label={L.allPricing}>
-          <option value="">{L.allPricing}</option>
-          {Object.keys(PRICING).map((k) => <option key={k} value={k}>{pricingName(locale, k)}</option>)}
-        </select>
-      </div>
-      {searched ? (
-        <>
-      <div className="mb-2 text-sm text-slate-500">{loading && rows.length === 0 ? L.searching : L.results(Math.min(rows.length, count)) + (rows.length > count ? L.resultsMore : "")}</div>
-      {err && <div className="mb-3 rounded bg-red-50 p-3 text-red-700">{err}</div>}
-      <ul className="space-y-3">
-        {rows.slice(0, count).map((x) => (
-          <li key={x.id} className="flex items-start gap-3 rounded-xl bg-white p-4 shadow-sm">
-            <div className="min-w-0 flex-1">
-              <Link href={toolHref(locale, x.id)} className="font-semibold text-indigo-700 hover:underline">{x.name}</Link>
-              <a href={x.url} target="_blank" rel="nofollow noopener noreferrer" className="ml-2 text-xs text-slate-400 hover:text-indigo-600">{L.website}</a>
-              <div className="mt-1 flex flex-wrap gap-1 text-xs">
-                <span className="rounded bg-indigo-50 px-2 py-0.5">{catName(locale, x.category)}</span>
-                {x.subcategory && <span className="rounded bg-slate-100 px-2 py-0.5">{trSub(locale, x.subcategory)}</span>}
-                {x.pricing_model && <span className="rounded bg-emerald-50 px-2 py-0.5">{pricingName(locale, x.pricing_model)}</span>}
-              </div>
-              <p className="mt-2 text-sm text-slate-600">{toolDesc(locale, x)}</p>
-              {releaseText(locale, x.released_at, x.released_source) && <p className="mt-1 text-xs text-slate-400" title={L.releasedHint}>{L.released}{locale === "en" ? ": " : "："}{releaseText(locale, x.released_at, x.released_source)}</p>}
-              {healthOn && <HealthBadge health={Array.isArray(x.tool_health) ? x.tool_health[0] : x.tool_health} locale={locale} className="mt-2" />}
-              {votesOn && <VoteSummary up={x.tool_vote_stats?.up} down={x.tool_vote_stats?.down} className="mt-2" locale={locale} />}
-            </div>
-            <button onClick={() => setSel(x)} className="shrink-0 rounded-lg bg-indigo-600 px-3 py-2 text-sm font-medium text-white hover:bg-indigo-700">{L.diagnose}</button>
-          </li>
-        ))}
-      </ul>
-      {rows.length > count && (
-        <div className="mt-4 text-center">
-          <button onClick={() => setCount((c) => c + LIMIT)} disabled={loading} className="rounded-lg border border-indigo-300 bg-white px-5 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-50">{loading ? L.searching : L.loadMore}</button>
+      <div className="lg:grid lg:grid-cols-[15rem_minmax(0,1fr)] lg:items-start lg:gap-6">
+        <SearchSidebar locale={locale} query={q} onPrompt={usePrompt} />
+        <div className="min-w-0">
+          <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
+            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={L.searchPh} aria-label={L.searchPh}
+              className="min-w-0 flex-[1_1_240px] rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-400" />
+            <select value={cat} onChange={(e) => setCat(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-2" aria-label={L.allCats}>
+              <option value="">{L.allCats}</option>
+              {Object.keys(CATEGORIES).map((k) => <option key={k} value={k}>{catName(locale, k)}</option>)}
+            </select>
+            {(votesOn || relOn) && <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} disabled={!!text} title={text ? L.sortRelevance : undefined} className="rounded-lg border border-slate-300 px-2 py-2 disabled:opacity-50" aria-label={L.sortLabel}>
+              <option value="name">{L.sortName}</option>{votesOn && <option value="votes">{L.sortVotes}</option>}{relOn && <option value="newest">{L.sortNewest}</option>}
+            </select>}
+            <select value={pm} onChange={(e) => setPm(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-2" aria-label={L.allPricing}>
+              <option value="">{L.allPricing}</option>
+              {Object.keys(PRICING).map((k) => <option key={k} value={k}>{pricingName(locale, k)}</option>)}
+            </select>
+          </div>
+          {(text || browse) ? (
+            <>
+              <div className="mb-2 text-sm text-slate-500">{loading && shown === 0 ? L.searching : L.results(shown) + (!text && rows.length > count ? L.resultsMore : "")}</div>
+              {grouped && <p className="mb-3 text-sm text-slate-600">{L.goalLead(grouped.goalTitle)}</p>}
+              {err && <div className="mb-3 rounded bg-red-50 p-3 text-red-700">{err}</div>}
+              {grouped ? (
+                <div className="space-y-6">
+                  {grouped.groups.map((g) => (
+                    <section key={g.id} aria-labelledby={`need-${g.id}`}>
+                      <h2 id={`need-${g.id}`} className="mb-2 text-base font-semibold">{g.title}</h2>
+                      {g.tools.length === 0 ? <p className="text-sm text-slate-500">{L.groupEmpty}</p> : <ul className="space-y-3">{g.tools.map(card)}</ul>}
+                    </section>
+                  ))}
+                </div>
+              ) : (
+                <ul className="space-y-3">{(text ? list : rows.slice(0, count)).map(card)}</ul>
+              )}
+              {!text && rows.length > count && (
+                <div className="mt-4 text-center">
+                  <button onClick={() => setCount((c) => c + LIMIT)} disabled={loading} className="rounded-lg border border-indigo-300 bg-white px-5 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 disabled:opacity-50">{loading ? L.searching : L.loadMore}</button>
+                </div>
+              )}
+            </>
+          ) : children}
         </div>
-      )}
-        </>
-      ) : children}
+      </div>
       <DiagnosePanel tool={sel} onClose={() => setSel(null)} locale={locale} />
     </main>
   );
