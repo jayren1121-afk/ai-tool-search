@@ -35,6 +35,21 @@ npm run dev                  # http://localhost:3000
 ```
 前提：已在 Supabase SQL Editor 執行 `supabase_setup.sql`。
 
+## 站外結果建議給管理員（第三階段）
+搜尋結果裡的外部網站有「+」。按下後，伺服器只接受自己簽過名的網址與標題，並把建議寫進 `tool_suggestions`。同一個網域若已在目錄，不會再開一筆；若已有待審核建議，則把次數加一。每個 IP 每天最多 10 次。有設定 Turnstile 才會要求人機驗證。
+
+上線前請做這兩件事：
+
+1. Supabase → **SQL Editor**，貼上並執行 `supabase_migration_011_tool_suggestions.sql`（可重複執行）。這張表沒有公開讀取，也沒有讓訪客插入的 policy，只有伺服器的 service role 能讀寫。
+2. Vercel → **Settings → Environment Variables**（都選 Production，不要加 `NEXT_PUBLIC_`）：
+   - `SUPABASE_SERVICE_ROLE_KEY` 與 `NEXT_PUBLIC_SUPABASE_URL` 必須已經有（後台與寫入都靠它們）。
+   - `SUGGESTION_SIGNING_SECRET`：選填，建議另設一組長隨機字串。沒設時會依序用 `IP_HASH_SALT`、`ADMIN_SESSION_SECRET`、`SUPABASE_SERVICE_ROLE_KEY`。四個都沒有時，正式環境不會顯示「+」。
+   - `TAVILY_API_KEY`：沒有站外結果就沒有「+」。
+   - `TURNSTILE_SECRET_KEY`（與公開的 `NEXT_PUBLIC_TURNSTILE_SITE_KEY`）：選填。沒設就不要求 Turnstile。
+   - `ADMIN_PASSWORD`：至少 8 個字元，才能進 `/admin` 看「待審核建議」。
+
+改完環境變數後重新部署。管理後台的「核准」這一階段只把該筆標成已核准並留下「已核准，尚未寫入目錄（第四階段）」，不會自動加入目錄。
+
 ## 部署到 Vercel
 ### 方式 A：從 GitHub 匯入
 1. 將此資料夾推到 GitHub 新儲存庫（`.env.local` 已被 `.gitignore` 排除）。

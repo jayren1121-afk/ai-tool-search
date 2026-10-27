@@ -6,6 +6,7 @@ import type { HealthItem, HealthRun } from "@/components/admin/HealthSection";
 import type { PriceReviewData, PriceReviewItem } from "@/components/admin/PriceReviewSection";
 import { ADMIN_COOKIE, adminConfigured, sessionOk } from "@/lib/admin-auth";
 import { isMissingColumn } from "@/lib/published";
+import { listPendingSuggestions, supabaseReady } from "@/lib/suggestion-store";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
 export const dynamic = "force-dynamic";
@@ -25,13 +26,20 @@ export default async function AdminPage() {
   }
   if (!sessionOk((await cookies()).get(ADMIN_COOKIE)?.value)) return <AdminLogin />;
 
+  const suggestions = await listPendingSuggestions();
+  if (!supabaseReady()) {
+    const setupError = process.env.NODE_ENV === "production"
+      ? "尚未設定 NEXT_PUBLIC_SUPABASE_URL 或 SUPABASE_SERVICE_ROLE_KEY，後台無法讀取資料。"
+      : "本機沒有 Supabase。待審核工具與排程不會載入；建議清單使用這次執行的暫存。";
+    return <AdminPanel pending={[]} runs={[]} setupError={setupError} suggestions={suggestions} />;
+  }
   const db = supabaseAdmin();
   const [pend, runs] = await Promise.all([
     db.from("ai_tools").select(PENDING_COLS).eq("status", "pending").order("added_at", { ascending: false }).limit(100),
     db.from("job_runs").select("id,started_at,finished_at,status,message,details").eq("job", "discover").order("started_at", { ascending: false }).limit(5),
   ]);
   const setupError = pend.error ? `讀取待審核資料失敗：${pend.error.message}（請確認已在 Supabase 執行 supabase_migration_005.sql）` : runs.error ? `讀取排程紀錄失敗：${runs.error.message}` : null;
-  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} prices={await loadPrices(db)} />;
+  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} prices={await loadPrices(db)} suggestions={suggestions} />;
 }
 
 /** 官網檢查區塊的資料；資料表尚未建立（migration 008）時只在該區塊顯示提示，不影響其他後台功能 */

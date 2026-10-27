@@ -77,7 +77,46 @@ function Card({ t, onDone }: { t: PendingTool; onDone: (msg: string) => void }) 
 
 export type HealthData = { items: HealthItem[]; stats: HealthStats | null; runs: HealthRun[]; error: string | null; movedReady?: boolean; moved?: HealthItem[] };
 
-export default function AdminPanel({ pending, runs, setupError, health, prices }: { pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData; prices?: PriceReviewData }) {
+export type PendingSuggestion = {
+  id: string; title: string; url: string; query: string; sub_need: string | null;
+  submit_count: number; created_at: string; updated_at: string; note: string | null;
+};
+
+function SuggestionCard({ s, onDone }: { s: PendingSuggestion; onDone: (msg: string) => void }) {
+  const [busy, setBusy] = useState(""); const [err, setErr] = useState("");
+  const act = async (action: "approve" | "reject") => {
+    if (action === "reject" && !confirm(`確定拒絕「${s.title}」？`)) return;
+    setBusy(action); setErr("");
+    try {
+      const j = await post("/api/admin/suggestions", { action, id: s.id });
+      onDone(action === "approve" ? `已核准：${s.title}。${j.note || "已核准，尚未寫入目錄（第四階段）"}` : `已拒絕：${s.title}`);
+    } catch (e) { setErr((e as Error).message); } finally { setBusy(""); }
+  };
+  return (
+    <li className="rounded-xl bg-white p-4 shadow-sm">
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <h2 className="text-lg font-semibold">{s.title}</h2>
+        <a href={s.url} target="_blank" rel="noopener noreferrer nofollow" className="break-all text-sm text-indigo-600 underline">{s.url}</a>
+      </div>
+      <dl className="mt-2 grid grid-cols-[6.5rem_1fr] gap-y-1 text-sm">
+        <dt className="text-slate-500">查詢</dt><dd className="break-all">{s.query}</dd>
+        {s.sub_need && <><dt className="text-slate-500">子需求</dt><dd>{s.sub_need}</dd></>}
+        <dt className="text-slate-500">次數</dt><dd>{s.submit_count}</dd>
+        <dt className="text-slate-500">日期</dt><dd>{tw(s.created_at)}{s.updated_at !== s.created_at ? `（最近 ${tw(s.updated_at)}）` : ""}</dd>
+      </dl>
+      {err && <p className="mt-2 rounded bg-red-50 p-2 text-sm text-red-700">{err}</p>}
+      <div className="mt-3 flex gap-2">
+        <button onClick={() => act("approve")} disabled={!!busy} className="flex-1 rounded-lg bg-emerald-600 px-4 py-3 font-medium text-white disabled:opacity-50 sm:flex-none">{busy === "approve" ? "核准中…" : "核准 Approve"}</button>
+        <button onClick={() => act("reject")} disabled={!!busy} className="flex-1 rounded-lg border border-red-300 px-4 py-3 font-medium text-red-700 disabled:opacity-50 sm:flex-none">{busy === "reject" ? "拒絕中…" : "拒絕 Reject"}</button>
+      </div>
+    </li>
+  );
+}
+
+export default function AdminPanel({ pending, runs, setupError, health, prices, suggestions }: {
+  pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData; prices?: PriceReviewData;
+  suggestions?: { items: PendingSuggestion[]; error: string | null };
+}) {
   const router = useRouter();
   const [msg, setMsg] = useState(""); const [running, setRunning] = useState(false);
   const last = runs[0];
@@ -95,6 +134,14 @@ export default function AdminPanel({ pending, runs, setupError, health, prices }
         <button onClick={logout} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">登出</button>
       </div>
       {setupError && <p className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{setupError}</p>}
+
+      <section className="mb-4" aria-label="Pending suggestions">
+        <h2 className="mb-2 text-lg font-semibold">待審核建議（Pending suggestions）</h2>
+        <p className="mb-3 text-sm text-slate-500">核准只會把狀態改成已核准，並留下「已核准，尚未寫入目錄（第四階段）」。這一階段不會把網站寫進目錄。</p>
+        {suggestions?.error && <p className="mb-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-800">{suggestions.error}</p>}
+        {!suggestions?.error && (suggestions?.items.length ?? 0) === 0 && <p className="rounded-xl bg-white p-4 text-slate-500 shadow-sm">目前沒有待審核的建議。</p>}
+        {(suggestions?.items.length ?? 0) > 0 && <ul className="space-y-4">{suggestions!.items.map((s) => <SuggestionCard key={s.id} s={s} onDone={done} />)}</ul>}
+      </section>
 
       <section className="mb-4 rounded-xl bg-white p-4 text-sm shadow-sm">
         <h2 className="mb-2 font-semibold">今日排程狀態</h2>
