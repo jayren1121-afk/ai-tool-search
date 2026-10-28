@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Choose the plan that fits how you create
 Monthly
 Yearly
@@ -7,10 +8,10 @@ Most popular
 ---
 AI tools for everyday creative work.
 ---
-$15 $9.45/mo
+$15 $10.5/mo
 Billed yearly
 Continue with this plan
-You save $48.59 with yearly
+You save $54 with yearly
 0
 1
 2
@@ -27,7 +28,7 @@ Trending models
 Kling 3.0
 4K 15s
 Continue with this plan
-You save $48.59 with yearly
+You save $54 with yearly
 Access to all photo & video editing features
 Advanced background & object removal
 Parallel video generations with the world's most powerful AI video models
@@ -36,10 +37,10 @@ Parallel video generations with the world's most powerful AI video models
 ---
 Heavy AI usage for creators & teams.
 ---
-$75 $54/mo
+$75 $60/mo
 Billed yearly, per seat
 Continue with this plan
-You save $162 with yearly
+You save $180 with yearly
 0
 1
 2
@@ -52,7 +53,7 @@ credits/month
 Kling 3.0
 4K 15s
 Continue with this plan
-You save $162 with yearly
+You save $180 with yearly
 200+ leading AI video, image, and audio models (Kling 3.0, Nano Banana, MiniMax H3, Seedance 2.5 & more)
 Parallel video generations with the world's most powerful AI video models
 Early access to advanced AI features
@@ -68,7 +69,7 @@ New features:
 How many credits do I need per month
 The number of assets varies by model and specification
 Video model
-Seedance 2.5 videos • 300 credits / 50 videos
+Seedance 2.5 videos • 300 credits / 25 videos
 Image model
 Nano Banana Pro images • 200 credits / 40 images
 We recommend Pro Plan
@@ -81,15 +82,15 @@ credits/month
 Fixed credits/mo
 Expected monthly usage
 500/500 credits
-$15 $9.45/mo
+$15 $10.5/mo
 Continue with this plan
-You save $48.59 with yearly
+You save $54 with yearly
 Compare features
 Pro
-$9.45/mo
+$10.5/mo
 Subscribe now
 Ultra
-$54/mo
+$60/mo
 Subscribe now
 AI video models
 Veo 3.1720p
@@ -108,216 +109,351 @@ Veo 3.1 Fast720p
 12 credits/4s
 ~41 videos
 ---
-Veo 3.1 Fast1080p
-16 credits/4s
-~31 videos
+Nano Banana 20.5K
+=== 計費模式: 月繳 (monthly) ===
+Choose the plan that fits how you create
+Monthly
+Yearly
+SAVE UP TO 30%
 ---
-Veo 3.1 Fast4K
-36 credits/4s
-~13 videos
+Most popular
 ---
-Veo 3.1 Lite720p
-8 credits/4s
-~62 videos
+AI tools for everyday creative work.
 ---
-Veo 3.1 Lite1080p
-12 credits/4s
-~41 videos
+$15/mo
+Billed monthly
+Continue with this plan
+0
 ---
-Kling V3Standard
-12 credits/3s
-~41 videos
+9
+credits/month
+~ 100
 ---
-Kling V3Pro
-18 credits/3s
-~27 videos
+seconds of Seedance 2.5 videos
+Fixed credits/mo
+Trending models
 ---
-Kling V34K
-39 credits/3s
-~12 videos
+5x Pro
 ---
-Kling V3 Turbo720p
-12 credits/3s
-~41 videos
+Heavy AI usage for creators & teams.
 ---
-Kling V3 Turbo1080p
-15 credits/3s
-~33 videos
+$75/mo
+Billed monthly, per seat
+Continue with this plan
+0
 ---
-Kling V2.6
-15 credits/5s
-~33 videos
+9
+credits/month
+~ 500
 ---
-Kling V3 Omni4K
-39 credits/3s
-~12 videos
+Unlimited image generations with Flex.2 Klein
+Option to buy add-on credits that never expire
+Up to 6.5 million Getty stock videos
 ---
-Kling Video O1Standard
-15 credits/5s
-~33 videos
+Add team seats
+300 GB of cloud storage per seat
+New features:
 ---
-Kling Video O1Pro
-20 credits/5s
-~25 videos
+2
+How many credits do I need per month
+The number of assets varies by model and specification
+Video model
+Seedance 2.5 videos • 300 credits / 25 videos
+Image model
+Nano Banana Pro images • 200 credits / 40 images
+We recommend Pro Plan
+Monthly
+Yearly
+Pro
 ---
-Kling Motion Control V3Standard
-4 credits/s
-~125 videos
+9
+credits/month
+Fixed credits/mo
+Expected monthly usage
+500/500 credits
+$15/mo
+Continue with this plan
+Compare features
+Pro
+$15/mo
+Subscribe now
+Ultra
+$75/mo
+Subscribe now
+AI video models
+Veo 3.1720p
+48 credits/4s
+~10 videos
 ---
-Kling Motion Control V3Pro
-4 credits/s
-~125 videos
+Veo 3.11080p
+48 credits/4s
+~10 videos
 ---
-Kling Motion Control 2.6Standard
-3 credits/s
-~166 videos
----
-Kling Motion Control 2.6Pro
-3 credits/s
-~166 videos
----
-Kling AvatarStandard
-2 credits/s
-~250 videos
----
-Kling AvatarPro
-4 credits/s
-~125 videos
----
-Kling Video Effects
-5 credits/video
-~100 videos
----
-Sora 2 Pro720p
-36 credits/4s
-~13 videos
----
-Sora 2 Pro1024p
-60 credits/4s
-~8 videos
----
-Sora 2 Pro1080p
-84 credits/4s
-~5 videos
----
-Sora 2
-12 credits/4s
-~41 videos
----
-Grok Imagine 1.0480p
-6 credits/3s
-~83 videos
----
-Grok Imagine 1.0720p
-9 credits/3s
-~55 videos
----
-Grok Imagine 1.5480p
-9 credits/3s
-~55 videos
----
-Grok Imagine 1.5720p
-15 credits/3s
-~33 videos
----
-Grok Imagine 1.51080p
-24 credits/3s
-~20 videos
----
-Grok Edit Video
-3 credits/s
-~166 videos
----
-Grok Extend Video
-9 credits/3s
-~55 videos
----
-Runway Gen 4.5
-20 credits/5s
-~25 videos
----
-Runway Aleph 2
-9 credits/s
-~55 videos
----
-Seedance 2.5480p
-16 credits/4s
-~31 videos
----
-Seedance 2.5720p
-28 credits/4s
-~17 videos
----
-Seedance 2.51080p
+Veo 3.14K
 72 credits/4s
 ~6 videos
 ---
-Seedance 2.5 Video Edit480p
-2 credits/s
-~250 videos
----
-Seedance 2.5 Video Edit720p
-5 credits/s
-~100 videos
----
-Seedance 2.5 Video Edit1080p
-11 credits/s
-~45 videos
----
-Seedance 2.5 Video Extend480p
-8 credits/4s
-~62 videos
----
-Seedance 2.5 Video Extend720p
-20 credits/4s
-~25 videos
----
-Seedance 2.5 Video Extend1080p
-44 credits/4s
-~11 videos
----
-Seedance 2.0480p
+Veo 3.1 Fast720p
 12 credits/4s
 ~41 videos
 ---
-Seedance 2.0720p
-20 credits/4s
-~25 videos
+Nano Banana 20.5K
+2 credits/image
+~250 images
 ---
-Seedance 2.01080p
+Nano Banana 21K
+3 credits/image
+~166 images
+---
+Nano Banana 22K
+4 credits/image
+~125 images
+---
+Nano Banana 24K
+5 credits/image
+~100 images
+---
+Eleven v3
+3 credits/1k characters
+~166k characters
+---
+Eleven Multilingual v2
+3 credits/1k characters
+~166k characters
+---
+ElevenLabs SFX v2
+4 credits/min
+~125 minutes
+---
+Eleven STS v2
+4 credits/min
+~125 minutes
+---
+10
+Get The Free App
+Explore
+=== 計費模式: 月繳 (monthly) #2 ===
+Choose the plan that fits how you create
+Monthly
+Yearly
+SAVE UP TO 30%
+---
+Most popular
+---
+AI tools for everyday creative work.
+---
+$15 $10.5/mo
+Billed yearly
+Continue with this plan
+You save $54 with yearly
+0
+1
+2
+---
+9
+credits/month
+~ 100
+---
+seconds of Seedance 2.5 videos
+Fixed credits/mo
+Trending models
+---
+2K 15s
+Kling 3.0
+4K 15s
+Continue with this plan
+You save $54 with yearly
+Access to all photo & video editing features
+Advanced background & object removal
+Parallel video generations with the world's most powerful AI video models
+---
+5x Pro
+---
+Heavy AI usage for creators & teams.
+---
+$75 $60/mo
+Billed yearly, per seat
+Continue with this plan
+You save $180 with yearly
+0
+1
+2
+---
+9
+credits/month
+~ 500
+---
+2K 15s
+Kling 3.0
+4K 15s
+Continue with this plan
+You save $180 with yearly
+200+ leading AI video, image, and audio models (Kling 3.0, Nano Banana, MiniMax H3, Seedance 2.5 & more)
+Parallel video generations with the world's most powerful AI video models
+Early access to advanced AI features
+Unlimited image generations with Flex.2 Klein
+Option to buy add-on credits that never expire
+Up to 6.5 million Getty stock videos
+---
+Add team seats
+300 GB of cloud storage per seat
+New features:
+---
+2
+How many credits do I need per month
+The number of assets varies by model and specification
+Video model
+Seedance 2.5 videos • 300 credits / 25 videos
+Image model
+Nano Banana Pro images • 200 credits / 40 images
+We recommend Pro Plan
+Monthly
+Yearly
+Pro
+---
+9
+credits/month
+Fixed credits/mo
+Expected monthly usage
+500/500 credits
+$15/mo
+Continue with this plan
+Compare features
+Pro
+$15/mo
+Subscribe now
+Ultra
+$75/mo
+Subscribe now
+AI video models
+Veo 3.1720p
 48 credits/4s
 ~10 videos
 ---
-Seedance 2.04K
-96 credits/4s
-~5 videos
+Veo 3.11080p
+48 credits/4s
+~10 videos
 ---
-Seedance 2.0 Fast480p
-8 credits/4s
-~62 videos
+Veo 3.14K
+72 credits/4s
+~6 videos
 ---
-Seedance 2.0 Fast720p
-16 credits/4s
-~31 videos
----
-Seedance 2.0 Mini480p
-8 credits/4s
-~62 videos
----
-Seedance 2.0 Mini720p
-8 credits/4s
-~62 videos
----
-Seedance 2.0 Video Edit480p
+Veo 3.1 Fast720p
 12 credits/4s
 ~41 videos
 ---
-Seedance 2.0 Video Edit720p
-20 credits/4s
-~25 videos
+Nano Banana 20.5K
+2 credits/image
+~250 images
+=== 計費模式: 年繳 (yearly) ===
+Choose the plan that fits how you create
+Monthly
+Yearly
+SAVE UP TO 30%
 ---
-Seedance 2.0 Video Edit1080p
+Most popular
+---
+AI tools for everyday creative work.
+---
+$15 $10.5/mo
+Billed yearly
+Continue with this plan
+You save $54 with yearly
+0
+1
+2
+---
+9
+credits/month
+~ 100
+---
+seconds of Seedance 2.5 videos
+Fixed credits/mo
+Trending models
+---
+2K 15s
+Kling 3.0
+4K 15s
+Continue with this plan
+You save $54 with yearly
+Access to all photo & video editing features
+Advanced background & object removal
+Parallel video generations with the world's most powerful AI video models
+---
+5x Pro
+---
+Heavy AI usage for creators & teams.
+---
+$75 $60/mo
+Billed yearly, per seat
+Continue with this plan
+You save $180 with yearly
+0
+1
+2
+---
+9
+credits/month
+~ 500
+---
+2K 15s
+Kling 3.0
+4K 15s
+Continue with this plan
+You save $180 with yearly
+200+ leading AI video, image, and audio models (Kling 3.0, Nano Banana, MiniMax H3, Seedance 2.5 & more)
+Parallel video generations with the world's most powerful AI video models
+Early access to advanced AI features
+Unlimited image generations with Flex.2 Klein
+Option to buy add-on credits that never expire
+Up to 6.5 million Getty stock videos
+---
+Add team seats
+300 GB of cloud storage per seat
+New features:
+---
+2
+How many credits do I need per month
+The number of assets varies by model and specification
+Video model
+Seedance 2.5 videos • 300 credits / 25 videos
+Image model
+Nano Banana Pro images • 200 credits / 40 images
+We recommend Pro Plan
+Monthly
+Yearly
+Pro
+---
+9
+credits/month
+Fixed credits/mo
+Expected monthly usage
+500/500 credits
+$15 $10.5/mo
+Continue with this plan
+You save $54 with yearly
+Compare features
+Pro
+$10.5/mo
+Subscribe now
+Ultra
+$60/mo
+Subscribe now
+AI video models
+Veo 3.1720p
 48 credits/4s
 ~10 videos
 ---
-Seedance 2.0 Video Edit4K
+Veo 3.11080p
+48 credits/4s
+~10 videos
+---
+Veo 3.14K
+72 credits/4s
+~6 videos
+---
+Veo 3.1 Fast720p
+12 credits/4s
+~41 videos
+---
+Nano Banana 20.5K

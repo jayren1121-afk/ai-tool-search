@@ -14,6 +14,7 @@ Unlock all premium features
 TypingMind
 The best frontend for AI
 GPT-6 Sol
+Enable thinking mode
 
 ​
 TypingMind
@@ -69,7 +70,7 @@ Premium
 
 $99
 $198
-Ends in 6d 10h 20m 18s
+Ends in 4d 11h 50m 10s
 Buy Premium
 
 Everything from Extended, plus
@@ -240,7 +241,7 @@ A shared License Key for up to 10 users on 50 different devices. Comes with Prem
 $395
 $790
 Buy Bulk license
-Ends in 6d 10h 20m 18s
+Ends in 4d 11h 50m 10s
 TypingMind for Teams
 A custom branded private AI workspace for your company, with all TypingMind features and easy team management.
 Explore Teams
@@ -1122,14 +1123,14 @@ LLM API Cost Estimation
 
 GUIDE
 
-Use OpenAI API Key for AI chat
-Use Claude API Key for AI chat
-Use Perplexity API Key for AI chat
-Use OpenRouter API Key for AI chat
-Use DeepSeek API Key for AI chat
-Use Grok API Key for AI chat
-Use Gemini API Key for AI chat
-Use Mistral AI API Key for AI chat
+OpenAI API Key
+Claude API Key
+Perplexity API Key
+OpenRouter API Key
+DeepSeek API Key
+Grok API Key
+Gemini API Key
+Mistral AI API Key
 More guides...
 
 Copyright © 2026, All Rights Reserved

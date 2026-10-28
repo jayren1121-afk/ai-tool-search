@@ -349,6 +349,14 @@ AI Chatbot
 Shared Inbox
 CRM
 
+Trust
+
+Security
+Terms of use
+Privacy policy
+Cookie policy
+Cookie settings
+
 Company
 
 About us
@@ -361,11 +369,7 @@ Resources
 
 Read our blog
 State of AI Support
-Security
-Terms of use
-Privacy policy
-Cookie policy
-Cookie settings
+Tools
 Ready to build exceptional customer support?
 Get your AI agent
 Meet Hugo, your brand's most efficient support teammate.

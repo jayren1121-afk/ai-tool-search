@@ -676,3 +676,21 @@ SCRAPE DONE
 2 15 scraped https://docyt.com/pricing 5.8
 舊版頁面還要重抓： 98 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://www.eraser.io/pricing 5.5
+2 2 scraped https://www.wordly.ai/pricing 5.7
+2 3 scraped https://crisp.chat/pricing 5.5
+1 4 scraped https://www.typingmind.com/pricing 7.7
+0 5 no_price_found https://www.microsoft.com/microsoft-365/excel/pricing 17.5
+1 6 scraped https://www.trae.ai/pricing 10.4
+2 7 scraped https://picsart.com/pricing 16.1
+0 8 scraped https://riverside.fm/pricing 13.3
+1 9 scraped https://komo.ai/pricing 8.6
+2 10 scraped https://prowritingaid.com/pricing 8.7
+0 11 scraped https://instantly.ai/pricing 9.7
+2 12 scraped https://www.vic.ai/pricing 7.2
+0 13 scraped https://mapify.so/pricing 10.9
+2 14 scraped https://www.sheetai.app/pricing 7.2
+1 15 no_price_found https://yoast.com/pricing 19.3
+舊版頁面還要重抓： 83 個（每次最多 15 個）
+SCRAPE DONE

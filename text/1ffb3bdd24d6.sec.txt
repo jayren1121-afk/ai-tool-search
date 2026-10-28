@@ -6,40 +6,50 @@ $0 / member / mo
 ---
 Free forever
 ---
-Starter
----
-For advanced collaboration
----
-$15 / member / mo
----
-billed annually, or $20 monthly
----
-Get Started
-Unlimited files
----
-Everything in Free
+3 files
+3 AI credits
+7-day version history
 ---
 Business
 ---
-For growing teams
+For small teams
 ---
 $45 / member / mo
 ---
 billed annually, or $60 monthly
 ---
 Get Started
+100 AI credits / mo
 Unlimited files
+---
+Everything in Free
+---
+Business Plus
+---
+For larger teams
+---
+$42 / member / mo
+---
+Min. 10 seats, billed annually
+---
+Get Started
+250 AI credits / mo
+3 Git repos + 3 data sources
+---
+Contact Us
+Unlimited AI credits
+Unlimited Git repos and data sources
 ---
 All prices per member / month. Unlimited free guests on every plan.
 ---
 Every feature, side by side
-Features	Free	Starter	Business	Enterprise
+Features	Free	Business	Business Plus	Enterprise
 USAGE
 Number of files	3	Unlimited	Unlimited	Unlimited
-AI credits (diagrams & outlines)	3	40	250	Unlimited
+AI credits (diagrams & outlines)	3	100	250	Unlimited
 Guests	Unlimited	Unlimited	Unlimited	Unlimited
 ---
-20	100	Unlimited
+100	Unlimited	Unlimited
 Monthly API calls	–
 Not included
 ---

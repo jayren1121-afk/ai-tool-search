@@ -1,3 +1,9 @@
+This site uses cookies
+We use cookies to make your experience better.
+Show details
+Allow All
+Deny
+AI Agents
 Products
 Use Cases
 Resources
@@ -270,7 +276,7 @@ Company
 Terms
 AI Sales Agent Terms
 Privacy
-Don’t Sell My Info
+Your Privacy Choices
 Privacy Center
 Cookie Declaration
 

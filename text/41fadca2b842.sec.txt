@@ -1,61 +1,126 @@
-One-Month
+=== 計費模式: 預設畫面 (default) ===
+Looking for enterprise solutions? Contact us via BytePlus.
 Monthly
 Yearly
 Save
-25%
-Lite
-$3
-per month, auto-renews
-To get started
-$5 Basic usage
-Unlimited Autocomplete
-TraeCode SOLO mode included
-Up to 2 concurrent cloud tasks in TraeWork (Web/Desktop)
-Upgrade plan
+17%
+Free
+$0
+---
+Start for free
+Auto mode only
+---
+Limited Autocomplete
+Get started
 Pro
 Recommended
-$0
-$10
+$20
 per month, auto-renews
-Everything in Lite, plus:
-$20 Basic usage
+To get started
+Auto + all models
+$20 usage / month
 Unlimited Autocomplete
-TraeCode SOLO mode included
-Up to 10 concurrent cloud tasks in TraeWork (Web/Desktop)
+Up to 10 concurrent cloud tasks in Trae
 Upgrade plan
 Pro+
-$30
+$60
 per month, auto-renews
 Everything in Pro, plus:
-3.5x more usage than Pro
-Up to 15 concurrent cloud tasks in TraeWork (Web/Desktop)
+$60 usage / month (3× Pro)
+Up to 15 concurrent cloud tasks in Trae
 Upgrade plan
 Ultra
-$100
+$200
 per month, auto-renews
 Everything in Pro+, plus:
-20x more usage than Pro
----
+$200 usage / month (10× Pro)
+Model early access
+Up to 20 concurrent cloud tasks in Trae
 Upgrade plan
+---
+Compare Plans
+Free
+Get started
+---
 Ultra
 Upgrade plan
 Monthly Basic Usage
-$5 Basic usage
+Limited usage
 $20 Basic usage
-$90 Basic usage
-$400 Basic usage
+$60 Basic usage
+$200 Basic usage
 Queue Priority
-Fast queue
+Standard queue
 Fast queue
 ---
-How is usage calculated?
-All AI requests are billed based on the number of tokens processed.
-TRAE converts the token cost into Dollar Usage, which is deducted from your monthly balance.
-What is Basic Usage and Bonus Usage?
+Autocompletion
+5000 / month
+Unlimited
 ---
-What happens when I run out of usage?
-How do I get and use a Pro trial?
-What happens if an AI request fails?
+Get Started with TraeCode
+Try it for Free
+Download TraeCode
+=== 計費模式: 年繳 (yearly) ===
+Looking for enterprise solutions? Contact us via BytePlus.
+Monthly
+Yearly
+Save
+17%
+Free
+$0
+---
+Start for free
+Auto mode only
+---
+Limited Autocomplete
+Get started
+Pro
+Recommended
+$16.67
+$20
+per month, billed yearly
+To get started
+Auto + all models
+$20 usage / month
+Unlimited Autocomplete
+Up to 10 concurrent cloud tasks in Trae
+Upgrade plan
+Pro+
+$50
+$60
+per month, billed yearly
+Everything in Pro, plus:
+$60 usage / month (3× Pro)
+Up to 15 concurrent cloud tasks in Trae
+Upgrade plan
+Ultra
+$166.67
+$200
+per month, billed yearly
+Everything in Pro+, plus:
+$200 usage / month (10× Pro)
+Model early access
+Up to 20 concurrent cloud tasks in Trae
+Upgrade plan
+---
+Compare Plans
+Free
+Get started
+---
+Ultra
+Upgrade plan
+Monthly Basic Usage
+Limited usage
+$20 Basic usage
+$60 Basic usage
+$200 Basic usage
+Queue Priority
+Standard queue
+Fast queue
+---
+Autocompletion
+5000 / month
+Unlimited
 ---
 Get Started with TraeCode
 Try it for Free

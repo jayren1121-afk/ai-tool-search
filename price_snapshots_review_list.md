@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：45 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：213 筆
+- 可批次核准（無旗標）：46 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：212 筆
 
 核准單筆範本：
 ```sql
@@ -163,16 +163,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **novelcrafter**（Novelcrafter）旗標：period_ambiguous_toggle；Scribe: period_ambiguous_toggle; Hobbyist: period_ambiguous_toggle; Artisan: period_ambiguous_toggle; Specialist: period_ambiguous_toggle；來源 https://www.novelcrafter.com/pricing；擷取 2026-10-27T12:12:37+08:00
 - **lattice-ai**（Lattice）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing; None: name_missing；來源 https://lattice.com/pricing；擷取 2026-10-27T12:12:46+08:00
 - **docyt**（Docyt）旗標：period_ambiguous_toggle；Accounting Suite: period_ambiguous_toggle; Catch-Up Accounting: period_ambiguous_toggle；來源 https://docyt.com/pricing；擷取 2026-10-12T13:39:25+08:00
-- **eraser**（Eraser）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.eraser.io/pricing；擷取 2026-10-12T13:39:28+08:00
-- **typingmind**（TypingMind）旗標：has_promo, price_unclear；Standard: price_unclear; Extended: price_unclear; Premium: price_unclear；來源 https://www.typingmind.com/pricing；擷取 2026-10-12T13:39:34+08:00
-- **picsart-ai**（Picsart）旗標：has_promo, period_ambiguous_toggle；Ultra: period_ambiguous_toggle；來源 https://picsart.com/pricing；擷取 2026-10-12T13:39:36+08:00
-- **trae**（Trae）旗標：period_ambiguous_toggle；Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro+: period_ambiguous_toggle; Ultra: period_ambiguous_toggle；來源 https://www.trae.ai/pricing；擷取 2026-10-12T13:39:42+08:00
-- **riverside**（Riverside）旗標：dropped_fields, has_promo, period_ambiguous_toggle；Pro: period_ambiguous_toggle; Grow: period_ambiguous_toggle; Webinar: period_ambiguous_toggle；來源 https://riverside.fm/pricing；擷取 2026-10-12T13:39:45+08:00
-- **komo**（Komo）旗標：name_missing；None: name_missing；來源 https://komo.ai/pricing；擷取 2026-10-12T13:39:50+08:00
-- **shortlyai**（ProWritingAid）旗標：has_promo；；來源 https://prowritingaid.com/pricing；擷取 2026-10-12T13:39:55+08:00
-- **instantly**（Instantly）旗標：name_diff, period_ambiguous_toggle, price_change；資料集方案 ['Starter', 'Growth', 'Premium', 'Scale', 'Supersonic'] vs 新 ['Growth', 'Hypergrowth', 'Light Speed']; Growth: 資料集 $47.0/月 → 官網 $97.0; Growth: period_ambiguous_toggle; Hypergrowth: period_ambiguous_toggle; Light Speed: period_ambiguous_toggle；來源 https://instantly.ai/pricing；擷取 2026-10-12T13:39:58+08:00
-- **mapify**（Mapify）旗標：has_promo, price_near_quote；；來源 https://mapify.so/pricing；擷取 2026-10-12T13:40:16+08:00
-- **sheetai**（SheetAI）旗標：period_ambiguous_toggle；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.sheetai.app/pricing；擷取 2026-10-12T13:40:23+08:00
+- **eraser**（Eraser）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Business: period_ambiguous_toggle；來源 https://www.eraser.io/pricing；擷取 2026-10-28T12:09:37+08:00
+- **typingmind**（TypingMind）旗標：has_promo, price_unclear；Standard: price_unclear; Extended: price_unclear; Premium: price_unclear; Bulk license: price_unclear；來源 https://www.typingmind.com/pricing；擷取 2026-10-28T12:09:43+08:00
+- **picsart-ai**（Picsart）旗標：has_promo；；來源 https://picsart.com/pricing；擷取 2026-10-28T12:09:49+08:00
+- **trae**（Trae）旗標：has_promo, period_ambiguous_toggle；Pro: period_ambiguous_toggle; Pro+: period_ambiguous_toggle; Ultra: period_ambiguous_toggle；來源 https://www.trae.ai/pricing；擷取 2026-10-28T12:09:50+08:00
+- **riverside**（Riverside）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://riverside.fm/pricing；擷取 2026-10-28T12:09:54+08:00
+- **komo**（Komo）旗標：dropped_fields, name_missing；None: name_missing; None: name_missing；來源 https://komo.ai/pricing；擷取 2026-10-28T12:10:00+08:00
+- **shortlyai**（ProWritingAid）旗標：price_change；Premium: 資料集 $36.0/月 → 官網 $10.0；來源 https://prowritingaid.com/pricing；擷取 2026-10-28T12:10:05+08:00
+- **instantly**（Instantly）旗標：name_diff, period_ambiguous_toggle, price_change；資料集方案 ['Starter', 'Growth', 'Premium', 'Scale', 'Supersonic'] vs 新 ['Growth', 'Hypergrowth', 'Light Speed']; Growth: 資料集 $47.0/月 → 官網 $97.0; Growth: period_ambiguous_toggle; Hypergrowth: period_ambiguous_toggle; Light Speed: period_ambiguous_toggle；來源 https://instantly.ai/pricing；擷取 2026-10-28T12:10:07+08:00
+- **mapify**（Mapify）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Basic: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Unlimited: period_ambiguous_toggle；來源 https://mapify.so/pricing；擷取 2026-10-28T12:10:17+08:00
 - **fotor**（Fotor）旗標：name_missing, period_ambiguous_toggle, price_near_quote；None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.fotor.com/pricing；擷取 2026-10-12T13:40:23+08:00
 - **synthesys**（Synthesys）旗標：dropped_fields, has_promo, name_diff, period_ambiguous_toggle；資料集方案 ['Studio', 'Starter', 'Pro'] vs 新 ['Max']; Max: period_ambiguous_toggle；來源 https://synthesys.io/pricing；擷取 2026-10-12T13:40:31+08:00
 - **lalal**（LALAL.AI）旗標：period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.lalal.ai/pricing；擷取 2026-10-12T13:40:37+08:00
