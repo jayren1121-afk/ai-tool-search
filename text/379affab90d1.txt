@@ -1,4 +1,5 @@
-We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze web traffic. For these reasons, we may share your site usage data with our advertising and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”
+=== 計費模式: 預設畫面 (default) ===
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze web traffic. For these reasons, we may share your site usage data with our advertising and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy. You can change your cookie settings at any time by clicking “Preferences.”
 Accept
 Pricing
 Product
@@ -37,6 +38,152 @@ Business
 $36
 
 /user/month, billed annually
+Get started
+
+For teams who need more AI and advanced features.
+
+$40 in AI credits / month
+Purchase additional AI credits on-demand
+Everything in Pro
+Enterprise
+
+Custom
+
+Contact us
+
+For companies who need custom features & support.
+
+Custom AI usage
+Single Sign-On (SSO)
+Self-hosting option
+Dedicated support
+Pricing FAQs
+What happens if I exceed my sharing limit?
+Sharing is limited on the Personal plan. Upgrading to the Pro plan allows for unlimited shared files.
+Can I add more users to my Pro plan after subscribing?
+Yes. Pro is billed per user for the whole team. When you upgrade, all existing and new team members are billed at the Pro price.
+How does billing work when I add a team member?
+New members are added to your subscription at the per-user price. Your next bill includes a pro-rated charge for the rest of the current period, plus the updated total for all team members going forward.
+Is there a free trial?
+If you would like to test out Quadratic for free, please sign up for a free account.
+Does Quadratic have a Education plan or discount?
+Yes, learn more about Quadratic's Education plan.
+Can I downgrade my plan?
+Yes, you can cancel and downgrade your plan at any time.
+What is the difference between Pro and Business?
+Business includes higher AI usage limits, AI on-demand usage, and all features from Pro. It is designed for teams that need more capacity and flexibility.
+What payment methods do you accept?
+We accept most major credit and debit cards, as well as Stripe Link, Google Pay, and Apple Pay. All payments are processed through Stripe.
+“Quadratic has now become one of my "tabs". Every day I tidy my workspace and close any tabs that I won't use for the day. There are a few which I use every day and never close - Quadratic is now one of them!”
+Muriel Grobler•Senior Data Scientist•Arrive Logistics
+Get started for free
+
+The AI Spreadsheet built for speed, clarity, and instant insights — without the pain.
+
+Try Quadratic free
+Product
+AI
+Analysis
+Charts
+PDF Data Extraction
+Research
+MCPNew
+APINew
+Scheduled Tasks
+Connections
+Postgres
+QuickBooksNew
+MySQL
+Snowflake
+View all
+Code
+Python
+SQL
+Formulas
+JavaScript
+Solutions
+Personas
+Traders & Investors
+Business Intelligence
+Finance
+Product Management
+Sales
+Marketing
+Use Cases
+Big DataNew
+HIPAA ComplianceNew
+Database Analytics
+Combining Data
+Exploratory Data Analysis
+View all
+Resources
+Resources
+Blog
+Templates
+Research
+Changelog
+Quadratic 101
+Recipes
+Docs
+About
+Pricing
+Partners
+Company
+Technology
+Security
+Careers
+Connect
+Youtube
+Contact
+Partners
+Advocates
+Compliance
+Privacy policy
+Terms and conditions
+Trust
+Status
+© 2026 Quadratic Growth Inc.
+
+=== 計費模式: 月繳 (monthly) ===
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze web traffic. For these reasons, we may share your site usage data with our advertising and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy. You can change your cookie settings at any time by clicking “Preferences.”
+Accept
+Pricing
+Product
+Solutions
+Resources
+Open Quadratic
+Pricing
+Yearly - Save 10%
+Monthly
+Personal
+
+Free
+
+Open Quadratic
+
+For individuals getting started with Quadratic.
+
+Limited AI usage
+Limited sharing, files, and connections
+Limited support
+Pro
+
+$20
+
+/user/month, billed monthly
+Get started
+
+More AI usage and a shared workspace.
+
+$20 in AI credits / month
+Access to additional models
+Additional privacy controls
+Unlimited sharing, files, and connections
+Business
+
+$40
+
+/user/month, billed monthly
 Get started
 
 For teams who need more AI and advanced features.

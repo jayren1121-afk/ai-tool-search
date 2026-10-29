@@ -1,7 +1,8 @@
+=== 計費模式: 預設畫面 (default) ===
 Try it free. Upgrade for higher limits and advanced features.
 ---
 Monthly
-Annually • Save 3 Months
+Annually • 30% OFF
 ---
 Starter
 ---
@@ -28,15 +29,19 @@ Unlimited Minutes
 ---
 90 Minutes/mo
 ---
-Best value
----
 Pro
+---
+30% OFF
 ---
 $15
 ---
+$10.5
+---
 /mo
 ---
-$180 billed annually
+*
+---
+$126 billed annually
 ---
 Card
 Unlimited Minutes
@@ -50,8 +55,8 @@ Lite
 $7.5/mo
 $90 billed annually
 Pro
-$15/mo
-$180 billed annually
+$10.5/mo
+$126 billed annually
 Minutes in Relaxed Queue
 ?
 10 Minutes
@@ -60,3 +65,66 @@ Minutes in Relaxed Queue
 90 minutes/mo
 250 minutes/mo
 Upload Size Limit per File
+---
+Every Stem Is a Treat
+Halloween Price on the Annual Plan
+Save 30%
+=== 計費模式: 月繳 (monthly) ===
+Try it free. Upgrade for higher limits and advanced features.
+---
+Monthly
+Annually • 30% OFF
+---
+Starter
+---
+$0
+---
+Always free
+---
+Get Free
+---
+Free Result Previews
+---
+200MB Upload File Limit
+---
+Lite
+---
+$9.99
+---
+/mo
+---
+billed monthly
+---
+90 Minutes/mo
+---
+Best value
+---
+Pro
+---
+$19.99
+---
+/mo
+---
+billed monthly
+---
+250 Minutes/mo
+---
+Compare Plans
+Starter
+Always free
+Lite
+$9.99 billed monthly
+Pro
+$19.99 billed monthly
+Minutes in Relaxed Queue
+?
+10 Minutes
+---
+–
+90 minutes/mo
+250 minutes/mo
+Upload Size Limit per File
+---
+Every Stem Is a Treat
+Halloween Price on the Annual Plan
+Save 30%

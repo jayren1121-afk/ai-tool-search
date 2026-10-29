@@ -1,6 +1,6 @@
 # 全部工具價格擷取報告（第二階段，只寫 staging）
 
-- 產生時間：2026-10-28 12:15（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
+- 產生時間：2026-10-29 12:17（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
 - 抓取：Playwright + 系統 Chrome 無頭；UA `jAytalPriceBot/1.0 (+https://www.jaytaimark.com)`；3 個 worker（不同網域並行）、同網域序列且間隔 ≥3.2 秒；每個網址只載入 1 次、逾時 30 秒、載入後等待價格出現（最多再輪詢約 12 秒）。
 - robots：讀取失敗/403/逾時 → robots_unknown 跳過；禁止 → robots_disallowed；驗證頁/captcha/登入牆 → blocked，不重試。
 - LLM（v2，新提示詞 v2b＋新後處理）：Groq `openai/gpt-oss-120b`，送入『價格區段』（含價格的段落＋上下文，≤約 4500 字元）。方案以 name_quote（方案名）＋price_quote（含價格與計費文字）各自逐字驗證且須彼此靠近；月付/年付折算/年付總額/原價(list_price)/不明週期(price_unclear) 分欄；程式後處理檢查標籤式名稱、名稱缺失、月年矛盾、價格 0 或 >2000/月、非訂閱金額、月/年切換不明等並旗標。
@@ -21,7 +21,7 @@
 - 排除『合規跳過』（robots/blocked）後：258/350 = 73.7%。
 
 ## 1b. 本次執行的 LLM 提供者
-- groq（openai/gpt-oss-120b）：本次呼叫 9 次、成功 9 頁、token 26,224
+- groq（openai/gpt-oss-120b）：本次呼叫 10 次、成功 10 頁、token 33,367
 - openrouter（openrouter:nvidia/nemotron-3-super-120b-a12b:free）：本次呼叫 0 次、成功 0 頁、token 0
 - gemini（gemini:gemini-3.8-flash）：本次呼叫 0 次、成功 0 頁、token 0
 - 未設定金鑰而略過：cerebras, mistral
@@ -29,10 +29,10 @@
 - 累計使用備援模型（非 Groq 120b，帶 llm_fallback_model、不進自動核准）的頁面：0（{}）；Groq 有額度時會自動用 120b 重做。
 
 ## 2. 效能與 Groq 用量
-- 抓取：平均每個網址 11.5 秒（中位數 9.5）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-28T12:10:21+08:00。
-- Groq v2：成功處理 296 / 296 個頁面（120b），token 750,912；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
+- 抓取：平均每個網址 11.7 秒（中位數 9.8）；首筆 2026-10-12T13:24:50+08:00 → 末筆 2026-10-29T12:10:36+08:00。
+- Groq v2：成功處理 296 / 296 個頁面（120b），token 759,756；另有被丟棄的第一版 v2a 試跑 0 頁（0 token，引文格式不合）、20b 僅供驗證提示詞的 0 頁（0 token，不進 results.json）；v1 全量（舊提示詞）共 0 token。
 - 限流：每分鐘 8K token 以送出前節流避開；**120b 每日 token 額度（200,000，漏桶式連續回補，約 2.3 token/秒 ≈ 每小時 8.3K）是瓶頸**——v1 全量與本輪驗證已耗盡，之後每小時只能再處理約 4 個頁面（每頁約 2,100 token）。TPD 型 429 皆依 retry-after 等待或停止，沒有降級成 20b 當正式資料。
-- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 883, 'price_near_quote': 147, 'issue_period_ambiguous_toggle': 178, 'issue_name_far_from_price': 22, 'issue_name_missing': 56, 'plan_dropped_quote': 90, 'price_other_section': 185, 'issue_yearly_gt_monthly': 16, 'price_dropped_unverified': 41, 'free_dropped_quote': 18, 'issue_name_not_in_quote': 4, 'issue_price_unclear': 17, 'issue_zero_price': 4, 'issue_non_subscription_hint': 3, 'issue_yearly_total_mismatch': 4, 'issue_abnormal_price': 2, 'issue_billing_section_mismatch': 6, 'issue_label_name': 1}
+- 驗證統計（僅 v2 處理的 plan）：{'plans_total': 883, 'price_near_quote': 145, 'issue_period_ambiguous_toggle': 162, 'issue_name_far_from_price': 22, 'issue_name_missing': 53, 'plan_dropped_quote': 88, 'price_other_section': 208, 'issue_yearly_gt_monthly': 17, 'price_dropped_unverified': 42, 'free_dropped_quote': 16, 'issue_name_not_in_quote': 4, 'issue_price_unclear': 17, 'issue_zero_price': 4, 'issue_non_subscription_hint': 3, 'issue_yearly_total_mismatch': 4, 'issue_abnormal_price': 2, 'issue_billing_section_mismatch': 10, 'issue_label_name': 1}
 
 ## 3. 被跳過 / 失敗的工具與原因
 | id | status | 原因 |
@@ -248,15 +248,15 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, mu
 | shortlyai | price_change | Premium: 資料集 $36.0/月 → 官網 $10.0 | https://prowritingaid.com/pricing |
 | instantly | name_diff, period_ambiguous_toggle, price_change | 資料集方案 ['Starter', 'Growth', 'Premium', 'Scale', 'Supersonic'] vs 新 ['Growth', 'Hypergrowth', 'Light Speed']; Growth: 資料集 $47.0/月 → 官網 $97.0; Growth: period_ambiguous_toggle; Hypergrowth: period_ambigu | https://instantly.ai/pricing |
 | mapify | has_promo, period_ambiguous_toggle, price_near_quote | Basic: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Unlimited: period_ambiguous_toggle | https://mapify.so/pricing |
-| fotor | name_missing, period_ambiguous_toggle, price_near_quote | None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing,  | https://www.fotor.com/pricing |
-| synthesys | dropped_fields, has_promo, name_diff, period_ambiguous_toggle | 資料集方案 ['Studio', 'Starter', 'Pro'] vs 新 ['Max']; Max: period_ambiguous_toggle | https://synthesys.io/pricing |
-| lalal | period_ambiguous_toggle, price_near_quote | Lite: period_ambiguous_toggle; Pro: period_ambiguous_toggle | https://www.lalal.ai/pricing |
+| fotor | name_missing, price_near_quote | None: name_missing; None: name_missing; None: name_missing; None: name_missing; None: name_missing; None: name_missing | https://www.fotor.com/pricing |
+| synthesys | billing_section_mismatch, has_promo | Starter: billing_section_mismatch; Pro: billing_section_mismatch; Agency: billing_section_mismatch; Max: billing_section_mismatch | https://synthesys.io/pricing |
+| lalal | has_promo, yearly_gt_monthly | Lite: yearly_gt_monthly | https://www.lalal.ai/pricing |
 | heptabase | has_promo |  | https://heptabase.com/pricing |
 | iask | name_diff | 資料集方案 ['Unlimited'] vs 新 ['iAsk Free', 'iAsk Pro'] | https://iask.ai/pricing |
-| languagetool | has_promo, name_far_from_price, name_missing, price_near_quote | None: name_missing; None: name_missing; None: name_missing; For Teams: name_far_from_price | https://languagetool.org/pricing |
-| smartlead | name_diff, period_ambiguous_toggle | 資料集方案 ['Basic', 'Pro', 'Unlimited', 'Premium', 'Free'] vs 新 ['Base', 'Pro', 'Smart', 'Prime']; Base: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Smart: period_ambiguous_toggle; Prime: perio | https://www.smartlead.ai/pricing |
-| xmind-ai | period_ambiguous_toggle | Pro: period_ambiguous_toggle; Premium: period_ambiguous_toggle | https://xmind.com/pricing |
-| landbot | dropped_fields, has_promo, period_ambiguous_toggle | Professional WA: period_ambiguous_toggle | https://landbot.io/pricing |
+| languagetool | dropped_fields, name_far_from_price, price_near_quote | LT for Business: name_far_from_price | https://languagetool.org/pricing |
+| smartlead | name_diff, price_change | 資料集方案 ['Basic', 'Pro', 'Unlimited', 'Premium', 'Free'] vs 新 ['Base', 'Pro', 'Unlimited Smart', 'Unlimited Prime']; Unlimited: 資料集 $174.0/月 → 官網 $315.0 | https://www.smartlead.ai/pricing |
+| quadratic | dropped_fields, has_promo |  | https://www.quadratichq.com/pricing |
+| landbot | dropped_fields, has_promo |  | https://landbot.io/pricing |
 | pixlr | period_ambiguous_toggle, price_change | Ultra: 資料集 $24.99/月 → 官網 $49.99; Plus: period_ambiguous_toggle; Premium: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; Ultra MAX: period_ambiguous_toggle | https://pixlr.com/pricing |
 | coderabbit | dropped_fields, period_ambiguous_toggle | Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle; Advanced: period_ambiguous_toggle | https://www.coderabbit.ai/pricing |
 | tana | has_promo |  | https://tana.inc/pricing |
@@ -301,4 +301,4 @@ deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, mu
 | mem0 | dropped_fields, label_name, name_diff | 資料集方案 ['Scale', 'Pro', 'Starter', 'Hobby'] vs 新 ['Starter', 'Popular']; Popular: label_name | https://mem0.ai/pricing |
 | coursebox | dropped_fields, period_ambiguous_toggle, price_near_quote | Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro + LMS: period_ambiguous_toggle | https://www.coursebox.ai/pricing |
 
-旗標統計：{'has_promo': 83, 'name_diff': 43, 'period_ambiguous_toggle': 74, 'price_near_quote': 58, 'shared_page': 4, 'name_far_from_price': 19, 'price_change': 16, 'name_missing': 22, 'dropped_fields': 60, 'yearly_gt_monthly': 9, 'non_usd': 2, 'name_not_in_quote': 2, 'price_unclear': 11, 'zero_price': 4, 'non_subscription_hint': 1, 'yearly_total_mismatch': 2, 'abnormal_price': 2, 'billing_section_mismatch': 4, 'label_name': 1}
+旗標統計：{'has_promo': 84, 'name_diff': 42, 'period_ambiguous_toggle': 68, 'price_near_quote': 57, 'shared_page': 4, 'name_far_from_price': 19, 'price_change': 17, 'name_missing': 21, 'dropped_fields': 61, 'yearly_gt_monthly': 10, 'non_usd': 2, 'name_not_in_quote': 2, 'price_unclear': 11, 'zero_price': 4, 'non_subscription_hint': 1, 'yearly_total_mismatch': 2, 'abnormal_price': 2, 'billing_section_mismatch': 5, 'label_name': 1}

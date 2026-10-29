@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Trusted by customers from the world's leading universities.
 Yearly (Save 25%)
 Monthly
@@ -21,6 +22,37 @@ AI tutor
 1,800 AI credits/month
 Premium+
 $53.99
+/ month
+---
+For power users who want AI credits at the best discounted price.
+---
+Everything in Premium
+33% discount for AI credits
+8,100 AI credits/month
+=== 計費模式: 月繳 (monthly) ===
+Trusted by customers from the world's leading universities.
+Yearly (Save 25%)
+Monthly
+Pro
+$11.99
+/ month
+---
+For anyone building a lifelong knowledge base.
+---
+PDF highlights, YouTube transcripts, etc.
+AI agent (Gemini models only)
+100 AI credits/month
+Premium
+$23.99
+/ month
+---
+For learners and researchers who need extra AI credits at a lower cost.
+---
+AI agent (GPT, Claude, Gemini)
+AI tutor
+1,800 AI credits/month
+Premium+
+$71.99
 / month
 ---
 For power users who want AI credits at the best discounted price.

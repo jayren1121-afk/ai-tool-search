@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 2D Animation
 Yearly Billing
 18% OFF
@@ -39,15 +40,15 @@ Q4 model usage: 540P 2 credits/sec
 Dedicated ultra-fast generation channel
 ---
 $
-191.67
+95.83
 /
 month
-$230
-Billed yearly as $2300
+$115
+Billed yearly as $1150
 Subscribe Now
-10,000
 20,000
-20,000credits monthly
+10,000
+10,000credits monthly
 Limited-time offer
 100 credits = $0.96
 Off-peak quota: 200 videos per day
@@ -84,6 +85,79 @@ $
 month
 $230
 Billed yearly as $2300
+Subscribe Now
+Credits
+Log in to Get Bonus Credits
+800
+credits monthly
+Generate up to
+---
+3500
+credits monthly
+Off-peak quota: 20 videos per day
+8000
+credits monthly
+Off-peak quota: 200 videos per day
+---
+Number of My References
+10/month
+300/month
+300/month
+300/month
+Commercial use allowed
+---
+Frequently Asked Questions
+What are Credits?
+How to Get Credits?
+Will I Be Automatically Charged by Vidu?
+=== 計費模式: 月繳 (monthly) ===
+2D Animation
+Yearly Billing
+18% OFF
+Monthly Billing
+Free
+$
+---
+Current Plan
+Q4 model usage: 540P 4 credits/sec
+10 references/month
+Standard
+---
+month
+Subscribe Now
+800credits monthly
+Limited-time offer
+100 credits = $1.25
+Q4 model usage: 540P 2 credits/sec
+Dedicated fast generation channel
+Supports 3-16s video generation
+---
+month
+Subscribe Now
+3500credits monthly
+Limited-time offer
+100 credits = $1.23
+Off-peak quota: 20 videos per day
+Q4 model usage: 540P 2 credits/sec
+Dedicated ultra-fast generation channel
+---
+20,000
+10,000
+10,000credits monthly
+Limited-time offer
+100 credits = $1.15
+Off-peak quota: 200 videos per day
+Q4 model usage: 540P 2 credits/sec
+Dedicated ultra-fast generation channel
+---
+Compare Plans and Features
+Yearly Billing
+18% OFF
+Monthly Billing
+Compare Plans
+Free
+$
+---
 Subscribe Now
 Credits
 Log in to Get Bonus Credits

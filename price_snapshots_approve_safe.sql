@@ -33,8 +33,8 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'lm-studio' and fetched_at = '2026-10-27T12:12:04+08:00'::timestamptz;  -- LM Studio
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'crisp' and fetched_at = '2026-10-28T12:09:43+08:00'::timestamptz;  -- Crisp
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'sheetai' and fetched_at = '2026-10-28T12:10:21+08:00'::timestamptz;  -- SheetAI
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'logoai' and fetched_at = '2026-10-12T13:40:24+08:00'::timestamptz;  -- LogoAI
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'quadratic' and fetched_at = '2026-10-12T13:40:54+08:00'::timestamptz;  -- Quadratic
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'logoai' and fetched_at = '2026-10-29T12:09:42+08:00'::timestamptz;  -- LogoAI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'xmind-ai' and fetched_at = '2026-10-29T12:10:25+08:00'::timestamptz;  -- Xmind
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'autogpt' and fetched_at = '2026-10-12T13:41:24+08:00'::timestamptz;  -- AutoGPT
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'power-automate' and fetched_at = '2026-10-12T13:25:51+08:00'::timestamptz;  -- Power Automate
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'copysmith' and fetched_at = '2026-10-12T13:42:30+08:00'::timestamptz;  -- Ocoya

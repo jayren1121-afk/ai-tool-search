@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Products
 Vidu Q4
 Vidu Q3
@@ -95,15 +96,15 @@ Ultimate
 FIRST-TIME PURCHASE: UP TO 17% OFF
 For high-volume creation and complete benefits
 $
-191.67
+95.83
 /
 month
-$230
-Billed yearly as $2300
+$115
+Billed yearly as $1150
 Subscribe Now
-10,000
 20,000
-20,000credits monthly
+10,000
+10,000credits monthly
 Limited-time offer
 100 credits = $0.96
 Off-peak quota: 200 videos per day
@@ -150,6 +151,233 @@ $
 month
 $230
 Billed yearly as $2300
+Subscribe Now
+Credits
+Log in to Get Bonus Credits
+800
+credits monthly
+Generate up to
+200
+videos
+3500
+credits monthly
+Off-peak quota: 20 videos per day
+8000
+credits monthly
+Off-peak quota: 200 videos per day
+AI Video Generation
+1080p video generation
+720p video generation
+6s-8s Video Generation
+ViduQ3 11-16s Video Generation
+Unlimited Q2 1080p Image Generation
+Off-Peak mode
+Off-peak quota: 20 videos per day
+Off-peak quota: 200 videos per day
+Fast Generation
+Fast channel generation
+Ultra-fast channel generation
+Ultra-fast channel generation
+Batch Generation
+4 videos at once
+4 videos at once
+4 videos at once
+Ultra HD up to 4K
+Content Management
+Number of My References
+10/month
+300/month
+300/month
+300/month
+Commercial use allowed
+Download without watermark
+Services & Support
+Credit Purchase
+Feedback Support
+Online Tutorials
+Security & Private
+
+We prioritize protecting your financial data, personal information, and private details. Your data stays safe and confidential with advanced encryption and strict security protocols.
+
+Service Support
+
+Need assistance? Our dedicated customer service team is ready to resolve your queries. Contact us anytime at support@vidu.com for prompt and reliable support.
+
+Trusted Worldwide
+
+Trusted by millions of users across 200+ countries. Our proven track record and positive feedback reflect the trust and satisfaction of our global community.
+
+Frequently Asked Questions
+What are Credits?
+How to Get Credits?
+Will I Be Automatically Charged by Vidu?
+Can I Get a Refund?
+
+What you imagine is what Vidu.
+
+GET STARTED
+Reference to Video
+Image to Video
+Text to Video
+AI Sound Effect Generator
+Templates
+AI Image Generator
+Vidu Q3
+All Tools
+AI TOOLS
+AI Video Generator
+AI Animation Generator
+AI Image Animator
+AI Video Ad Generator
+AI Hug Generator
+AI Kissing Generator
+View All
+FOR ENTERPRISE
+API Platform
+COMPANY
+Contact Us: support@vidu.com
+Creative Partner Program
+Copyright © 2026 Vidu®
+Terms of UsePrivacy PolicyCookies Policy
+
+=== 計費模式: 月繳 (monthly) ===
+Products
+Vidu Q4
+Vidu Q3
+Reference to Video
+Image to Video
+Text to Video
+Reference to Image
+Text to Image
+Vidu Agent
+AI Tools
+AI Templates
+Vidu Q4
+Vidu S
+Pricing
+API Platform
+Creator Plan
+Vidu CPP
+Vidu Earn
+About Us
+Help Center
+Tutorial
+Join Us
+AI Templates
+Blog
+Try Vidu
+Choose the best plan for you
+Ultra-Fast
+Generation
+Multi-Reference
+Consistency
+Off-Peak
+Mode
+High-Quality
+Video Generation
+Smooth
+2D Animation
+Yearly Billing
+18% OFF
+Monthly Billing
+Free
+$
+0
+/
+month
+Current Plan
+Q4 model usage: 540P 4 credits/sec
+10 references/month
+Standard
+For everyday lightweight creation
+$
+10
+/
+month
+Subscribe Now
+800credits monthly
+Limited-time offer
+100 credits = $1.25
+Q4 model usage: 540P 2 credits/sec
+Dedicated fast generation channel
+Supports 3-16s video generation
+High-quality video generation
+Generate up to 4 videos at once
+Prompt professional editing mode
+Higher-quality encoding formats
+H.265 Pro / H.264 Pro
+Generated content can be used commercially
+Premium
+Balanced for efficiency and advanced capabilities
+$
+43
+/
+month
+Subscribe Now
+3500credits monthly
+Limited-time offer
+100 credits = $1.23
+Off-peak quota: 20 videos per day
+Q4 model usage: 540P 2 credits/sec
+Dedicated ultra-fast generation channel
+Supports 3-16s video generation
+High-quality video generation
+Generate up to 4 videos at once
+Prompt professional editing mode
+Higher-quality encoding formats
+H.265 Pro / H.264 Pro
+Generated content can be used commercially
+Best value
+Ultimate
+For high-volume creation and complete benefits
+$
+115
+/
+month
+Subscribe Now
+20,000
+10,000
+10,000credits monthly
+Limited-time offer
+100 credits = $1.15
+Off-peak quota: 200 videos per day
+Q4 model usage: 540P 2 credits/sec
+Dedicated ultra-fast generation channel
+Supports 3-16s video generation
+High-quality video generation
+Generate up to 4 videos at once
+Prompt professional editing mode
+Higher-quality encoding formats
+H.265 Pro / H.264 Pro
+Generated content can be used commercially
+Compare Plans and Features
+Yearly Billing
+18% OFF
+Monthly Billing
+Compare Plans
+Free
+$
+0
+/
+month
+Current Plan
+Standard
+$
+10
+/
+month
+Subscribe Now
+Premium
+$
+43
+/
+month
+Subscribe Now
+Ultimate
+$
+230
+/
+month
 Subscribe Now
 Credits
 Log in to Get Bonus Credits

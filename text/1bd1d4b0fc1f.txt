@@ -1,9 +1,7 @@
+=== 計費模式: 預設畫面 (default) ===
 Heptabase
-AI Tutor
-Community
-Wiki
+Resources
 Download
-Gallery
 Pricing
 Log in
 Get started
@@ -39,6 +37,82 @@ AI tutor
 1,800 AI credits/month
 Premium+
 $53.99
+/ month
+
+For power users who want AI credits at the best discounted price.
+
+Get started
+Everything in Premium
+33% discount for AI credits
+8,100 AI credits/month
+
+Have any questions?
+
+Read more in our help center.
+
+Heptabase
+Product
+Changelog
+Roadmap
+Wiki
+Pricing
+Download
+Mac
+Mac (Apple Silicon)
+Windows
+Linux
+iOS
+Android
+Resources
+Privacy Policy
+Terms of Service
+Company
+Blog
+Discord Community
+Contact Support
+Email Us
+
+© 2026 Hepta Platforms, Inc.
+
+=== 計費模式: 月繳 (monthly) ===
+Heptabase
+Resources
+Download
+Pricing
+Log in
+Get started
+Trusted by customers from the world's leading universities.
+Yearly (Save 25%)
+Monthly
+Pro
+$11.99
+/ month
+
+For anyone building a lifelong knowledge base.
+
+Get started
+Unlimited notes, whiteboards, and tags
+Unlimited image uploads
+Unlimited collaborator invites
+PDF highlights, YouTube transcripts, etc.
+AI agent (Gemini models only)
+100 AI credits/month
+Premium
+$23.99
+/ month
+
+For learners and researchers who need extra AI credits at a lower cost.
+
+Get started
+Everything in Pro
+Unlimited PDF uploads
+Unlimited PDF parsing (OCR)
+Unlimited Q&A with basic AI models
+AI agent (GPT, Claude, Gemini)
+AI tutor
+1,800 AI credits/month
+Premium+
+$71.99
 / month
 
 For power users who want AI credits at the best discounted price.

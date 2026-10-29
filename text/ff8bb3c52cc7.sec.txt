@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 PRICING
 SAVE 30% YEARLY
 MCP
@@ -92,7 +93,7 @@ from$199$139/mo
 $1,668 billed annually
 ---
 Credits per month	3,500	8,000	17,000	30,000 to 250,000+
-Commercial rights
+Autopilot workers
 ---
 AI voiceover and music
 Never costs credits
@@ -130,7 +131,7 @@ Sale prices. Top up whenever you run low. Pack credits never expire and stack on
 Best value
 $1 = 120 credits
 ---
-About 11 UGC ads of 15 seconds, or 200 faceless stories
+About 15 UGC ads of 15 seconds, or 200 faceless stories
 ---
 $100
 $50
@@ -139,7 +140,7 @@ Plan required
 2,750 credits
 $1 = 110 credits
 ---
-About 5 UGC ads of 15 seconds, or 91 faceless stories
+About 6 UGC ads of 15 seconds, or 91 faceless stories
 ---
 $50
 $25
@@ -147,34 +148,299 @@ $25
 Plan required
 1,000 credits
 $1 = 100 credits
+=== 計費模式: 月繳 (monthly) ===
+PRICING
+SAVE 30% YEARLY
+MCP
 ---
-About 1 UGC ads of 15 seconds, or 33 faceless stories
+Monthly
+Yearly
+SAVE 30%
 ---
+Starter
+---
+For creators and solo founders.
+---
+$29
 $20
-$10
+/mo
+---
+$240 billed yearly
+---
+Get Starter
+CREDITS / MONTH
+3,500
+---
+Pro
+---
+For marketers who ship ads weekly.
+---
+$59
+$41
+/mo
+---
+$492 billed yearly
+---
+Get Pro
+CREDITS / MONTH
+8,000
+---
+Agency
+---
+For agencies and teams producing at volume.
+---
+$119
+$83
+/mo
+---
+$996 billed yearly
+---
+Get Agency
+CREDITS / MONTH
+17,000
+---
+Max
+---
+For high-volume production. Set your own credits.
+---
+$199
+$139
+/mo
+---
+$1,668 billed yearly
+---
+Get Max 30k
+CREDITS / MONTH
+30,000
+---
+AT&S
+JETEX
+How much does Synthesys cost?
+---
+Synthesys costs $29/month for Starter (3,500 credits), $59/month for Pro (8,000 credits), $119/month for Agency (17,000 credits) and from $199/month for Max (30,000 credits and up). Yearly billing saves 30%. Every plan includes the full vid
+---
+Compare Synthesys plans
+Compare plans
+---
+Every plan gets the agent, all 11 formats and Studio tools. Each step up unlocks more.
+---
+STARTER
+$29$20/mo
+$240 billed annually
+---
+PRO
+$59$41/mo
+$492 billed annually
+---
+MOST POPULAR
+AGENCY
+$119$83/mo
+$996 billed annually
+---
+BEST VALUE
+MAX
+from$199$139/mo
+$1,668 billed annually
+---
+Credits per month	3,500	8,000	17,000	30,000 to 250,000+
+Autopilot workers
+---
+AI voiceover and music
+Never costs credits
+---
+Schedule postsFROM AGENCY
+Pick a time, reschedule or cancel; publishing never costs credits
+---
+Product of the Day
+Understand your credits
+---
+What your monthly credits make. The app quotes every video before you approve it, and a failed generation costs nothing.
+---
+Credits per 15-second video and how many each plan covers a month
+SERVICE TYPE	CREDITS / VIDEO
+15 seconds, any resolution*
+STARTER
+3,500 credits
+PRO
+8,000 credits
+AGENCY
+17,000 credits
+MAX
+from 30,000 credits
+---
+Faceless story	30	116videos	266videos	566videos	1000videos
+Voiceover, music, scripts and agent chat	Free	Unlimited on every plan
+---
+Need more credits? Move up a plan, or add a credit pack any time from inside the app. Pack credits never expire.
+---
+Need more credits?
+---
+Sale prices. Top up whenever you run low. Pack credits never expire and stack on top of your plan.
+---
+6,000 credits
+Best value
+$1 = 120 credits
+---
+About 15 UGC ads of 15 seconds, or 200 faceless stories
+---
+$100
+$50
 50% OFF
 Plan required
+2,750 credits
+$1 = 110 credits
 ---
-Packs are bought inside the app by accounts with an active plan. Pack credits are used after your plan credits.
+About 6 UGC ads of 15 seconds, or 91 faceless stories
 ---
-How do credits work?
+$50
+$25
+50% OFF
+Plan required
+1,000 credits
+$1 = 100 credits
+=== 計費模式: 年繳 (yearly) ===
+PRICING
+SAVE 30% YEARLY
+MCP
 ---
-Yes. Upgrades apply straight away: you pay the prorated difference for the rest of the month and get extra credits in the same proportion, then the full new amount at your next renewal. Downgrades apply at your next renewal, so nothing chan
+Monthly
+Yearly
+SAVE 30%
 ---
-How much do I save with yearly billing?
+Starter
 ---
-30%. Starter is $240 a year ($20/mo), Pro $492 ($41/mo), Agency $996 ($83/mo) and Max from $1,668 ($139/mo). You get the same monthly credits as the monthly plan, delivered every month for 12 months.
+For creators and solo founders.
 ---
-Are prices shown with tax?
+$29
+/mo
 ---
-No. Prices are in US dollars and exclude tax. Sales tax or VAT is added at checkout based on your address, and businesses can enter a VAT number there.
+Billed monthly. Save 30% yearly
 ---
-Can I buy extra credits?
+Get Starter
+CREDITS / MONTH
+3,500
 ---
-Yes. Any active plan can add a credit pack from inside the app at any time: 1,000 credits for $10, 2,750 for $25 or 6,000 for $50. Pack credits never expire and are used after your plan credits.
+Pro
 ---
-What is your refund policy?
+For marketers who ship ads weekly.
 ---
-I need more than 250,000 credits a month.
+$59
+/mo
 ---
-Move the Max slider to its last stop and contact sales. We set up custom volume, invoicing and a dedicated account manager.
+Billed monthly. Save 30% yearly
+---
+Get Pro
+CREDITS / MONTH
+8,000
+---
+Agency
+---
+For agencies and teams producing at volume.
+---
+$119
+/mo
+---
+Billed monthly. Save 30% yearly
+---
+Get Agency
+CREDITS / MONTH
+17,000
+---
+Max
+---
+For high-volume production. Set your own credits.
+---
+$199
+/mo
+---
+Billed monthly. Save 30% yearly
+---
+Get Max 30k
+CREDITS / MONTH
+30,000
+---
+AT&S
+JETEX
+How much does Synthesys cost?
+---
+Synthesys costs $29/month for Starter (3,500 credits), $59/month for Pro (8,000 credits), $119/month for Agency (17,000 credits) and from $199/month for Max (30,000 credits and up). Yearly billing saves 30%. Every plan includes the full vid
+---
+Compare Synthesys plans
+Compare plans
+---
+Every plan gets the agent, all 11 formats and Studio tools. Each step up unlocks more.
+---
+STARTER
+$29/mo
+billed monthly
+---
+PRO
+$59/mo
+billed monthly
+---
+MOST POPULAR
+AGENCY
+$119/mo
+billed monthly
+---
+BEST VALUE
+MAX
+from$199/mo
+billed monthly
+---
+Credits per month	3,500	8,000	17,000	30,000 to 250,000+
+Autopilot workers
+---
+AI voiceover and music
+Never costs credits
+---
+Schedule postsFROM AGENCY
+Pick a time, reschedule or cancel; publishing never costs credits
+---
+Product of the Day
+Understand your credits
+---
+What your monthly credits make. The app quotes every video before you approve it, and a failed generation costs nothing.
+---
+Credits per 15-second video and how many each plan covers a month
+SERVICE TYPE	CREDITS / VIDEO
+15 seconds, any resolution*
+STARTER
+3,500 credits
+PRO
+8,000 credits
+AGENCY
+17,000 credits
+MAX
+from 30,000 credits
+---
+Faceless story	30	116videos	266videos	566videos	1000videos
+Voiceover, music, scripts and agent chat	Free	Unlimited on every plan
+---
+Need more credits? Move up a plan, or add a credit pack any time from inside the app. Pack credits never expire.
+---
+Need more credits?
+---
+Sale prices. Top up whenever you run low. Pack credits never expire and stack on top of your plan.
+---
+6,000 credits
+Best value
+$1 = 120 credits
+---
+About 15 UGC ads of 15 seconds, or 200 faceless stories
+---
+$100
+$50
+50% OFF
+Plan required
+2,750 credits
+$1 = 110 credits
+---
+About 6 UGC ads of 15 seconds, or 91 faceless stories
+---
+$50
+$25
+50% OFF
+Plan required
+1,000 credits
+$1 = 100 credits

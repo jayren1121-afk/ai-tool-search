@@ -694,3 +694,21 @@ SCRAPE DONE
 1 15 no_price_found https://yoast.com/pricing 19.3
 舊版頁面還要重抓： 83 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+1 1 scraped https://www.logoai.com/pricing 6.1
+2 2 scraped https://www.fotor.com/pricing 16.6
+0 3 no_price_found https://www.qodo.ai/pricing 17.8
+1 4 scraped https://www.vidu.com/pricing 18.4
+2 5 scraped https://synthesys.io/pricing 8.6
+0 6 scraped https://www.lalal.ai/pricing 9.6
+1 7 scraped https://heptabase.com/pricing 7.7
+1 8 scraped https://www.smartlead.ai/pricing 9.5
+2 9 scraped https://iask.ai/pricing 5.7
+0 10 scraped https://languagetool.org/pricing 17.9
+2 11 scraped https://xmind.com/pricing 9.3
+0 12 scraped https://www.quadratichq.com/pricing 8.4
+1 13 no_price_found https://www.datarails.com/pricing 20.4
+2 14 scraped https://landbot.io/pricing 18.4
+0 15 scraped https://pixlr.com/pricing 26.2
+舊版頁面還要重抓： 68 個（每次最多 15 個）
+SCRAPE DONE

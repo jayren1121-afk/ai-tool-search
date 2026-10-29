@@ -1,3 +1,6 @@
+=== 計費模式: 預設畫面 (default) ===
+TREAT YOURSELF: 30% OFF A FULL YEAR OF PRO UNTIL 11/02/2026
+
 Products
 NEW
 Pricing
@@ -12,7 +15,7 @@ Top-Ups
 Try it free. Upgrade for higher limits and advanced features.
 
 Monthly
-Annually • Save 3 Months
+Annually • 30% OFF
 
 Starter
 
@@ -61,15 +64,23 @@ Also included:
 
 In Voice Cloner
 
-Best value
+Batty Low Price
+-
+4 days left
 
 Pro
 
+30% OFF
+
 $15
+
+$10.5
 
 /mo
 
-$180 billed annually
+*
+
+$126 billed annually
 
 Card
 Unlimited Minutes
@@ -100,6 +111,9 @@ Also included:
 
 In Voice Cloner
 
+*
+First-year price. Renews at the standard rate.
+
 By making a purchase, you agree to our Refund Policy and Privacy Policy.
 
 Compare Plans
@@ -109,8 +123,8 @@ Lite
 $7.5/mo
 $90 billed annually
 Pro
-$15/mo
-$180 billed annually
+$10.5/mo
+$126 billed annually
 Minutes in Relaxed Queue
 ?
 10 Minutes
@@ -173,6 +187,241 @@ Windows
 
 By uploading a file, you agree to our Terms of Service.
 
+%
+Every Stem Is a Treat
+Halloween Price on the Annual Plan
+Save 30%
+Choose what to extract, then upload your file
+Add up to 20 files in MP3, FLAC, MKV, MP4, and other formats
+Vocal and Instrumental 
+Select Files
+
+AI notice: This feature uses AI technology to process your audio files.
+
+Follow Us
+Listen to Us
+Listen on
+Spotify
+Listen on
+Apple Podcasts
+Awards
+Webby Awards
+People’s Voice Winner
+International Sound
+Awards 2026 Winner
+Explore
+Pricing
+Enterprise
+API
+Help
+Support
+Changelog
+Company
+About
+Blog
+Media Kit
+Press
+Affiliate Program
+Ambassador Program
+Apps
+Desktop App
+iOS App
+Android App
+VST Plugins
+En
+
+© 2026 OmniSale GMBH
+
+Terms of service
+Privacy policy
+Refund Policy
+Care to share on Trustpilot? Review Us
+Cookies
+
+For magic to happen, we use cookies. Read our Privacy Policy to learn more.
+
+OK
+
+=== 計費模式: 月繳 (monthly) ===
+TREAT YOURSELF: 30% OFF A FULL YEAR OF PRO UNTIL 11/02/2026
+
+Products
+NEW
+Pricing
+Help
+Blog
+En
+Log In
+Choose Your Plan
+Plans
+Top-Ups
+
+Try it free. Upgrade for higher limits and advanced features.
+
+Monthly
+Annually • 30% OFF
+
+Starter
+
+$0
+
+Always free
+
+Get Free
+
+Try out our service.
+
+No credit card needed.
+
+10 Minutes
+
+Free Result Previews
+
+200MB Upload File Limit
+
+Lite
+
+$9.99
+
+/mo
+
+billed monthly
+
+Card
+Unlimited Minutes
+
+in Relaxed Queue
+
+90 Minutes/mo
+
+in Fast Queue
+
+2GB Upload File Limit
+
+Result Downloads
+
+Batch Processing
+
+Also included:
+
+1 Voice Pack Slot
+
+In Voice Cloner
+
+Best value
+
+Pro
+
+$19.99
+
+/mo
+
+billed monthly
+
+Card
+Unlimited Minutes
+
+in Relaxed Queue
+
+250 Minutes/mo
+
+in Fast Queue
+
+2GB Upload File Limit
+
+Result Downloads
+
+Batch Processing
+
+VST Plugin
+
+Local Processing with Lyra
+
+API Access
+
+New Features Early Access
+
+Also included:
+
+3 Voice Pack Slots
+
+In Voice Cloner
+
+By making a purchase, you agree to our Refund Policy and Privacy Policy.
+
+Compare Plans
+Starter
+Always free
+Lite
+$9.99 billed monthly
+Pro
+$19.99 billed monthly
+Minutes in Relaxed Queue
+?
+10 Minutes
+Unlimited
+Unlimited
+Minutes in Fast Queue
+–
+90 minutes/mo
+250 minutes/mo
+Upload Size Limit per File
+200MB
+2GB
+2GB
+Voice Pack Slots
+?
+–
+1 Slot
+3 Slots
+Result Downloads
+–
+Batch Processing
+–
+VST Plugin
+?
+–
+–
+API Access
+?
+–
+–
+New Features Early Access
+–
+–
+FAQ
+Plans
+Minutes
+Subscription
+How do I choose between Starter, Lite, and Pro?
+
+Starter is best for testing the service and checking output quality before committing to a paid plan. Lite works well for regular everyday use. Pro is the better choice if you need more Fast Queue minutes, access to the VST plugin, local processing in the desktop app, or API access.
+
+Which plans include the VST plugin?
+
+The VST plugin is available on the Pro plan only.
+
+Try our remover of vocal, accompaniment and instruments now
+
+Select the stem separation type and get results in seconds.
+
+Scan or click
+Download on the
+App Store
+Scan or click
+Get it on
+Google Play
+Download for
+macOS
+Download for
+Windows
+
+By uploading a file, you agree to our Terms of Service.
+
+%
+Every Stem Is a Treat
+Halloween Price on the Annual Plan
+Save 30%
 Choose what to extract, then upload your file
 Add up to 20 files in MP3, FLAC, MKV, MP4, and other formats
 Vocal and Instrumental 
