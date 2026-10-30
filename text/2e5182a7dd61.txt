@@ -1,11 +1,12 @@
-We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy. You can change your cookie settings at any time by clicking “Preferences.”
+Decline
 Accept
 Product
 Industries
 Resources
 About Rev
 Pricing
-Login
+Log In
 Talk to a Specialist
 Try Rev Free
 Pricing Plans For Legal And Investigative Work
@@ -15,18 +16,6 @@ INVESTIGATIVE PLATFORM
 HUMAN-VERIFIED SERVICES
 Monthly
 Annual · 2 months free
-Free
-Explore Rev with limited access. Need more? Upgrade to Essentials or Pro. 
-Free
-Limited Free Access
-Includes:
-English only transcription
-Analyze up to 5 files at a time
-Document editor BETA
-Page:line citations for depositions NEW
-Mobile app for dictation and recording on the go
-45 AI transcription & caption minutes/month  ·  1 user
-View All Features
 Essentials
 The quick, reliable starting point for solo practitioners and small firms. 
 $25.49 per seat/month
@@ -65,6 +54,18 @@ Analyze up to 500 files at once
 A dedicated investigative workflow specialist
 Custom discount on human-verified transcription services
 Unlimited AI transcription & caption minutes/user/month  ·  Unlimited users
+View All Features
+Free
+Explore Rev with limited access. Need more? Upgrade to Essentials or Pro. 
+Free
+Limited Free Access
+Includes:
+English only transcription
+Analyze up to 5 files at a time
+Document editor BETA
+Page:line citations for depositions NEW
+Mobile app for dictation and recording on the go
+45 AI transcription & caption minutes/month  ·  1 user
 View All Features
 Compare Our Plans
 Plans
@@ -154,9 +155,10 @@ Pro: 5% monthly / 15% annual‍
 Unlimited: Custom discounts
 How Does Rev Ensure The Security Of My Account?
 
-Rev offers multiple layers of account security. We support Single Sign-On (SSO) using SAML 2.0, which can be enforced across a domain or team. We also offer Multi-Factor Authentication (MFA) as an optional setting for all user accounts. Additionally, we provide domain claiming, allowing organizations to manage access across their domain.
+Rev offers multiple layers of account security. Within our enterprise plan, we support Single Sign-On (SSO) using SAML 2.0, which can be enforced across a domain or team. We also offer Multi-Factor Authentication (MFA) as an optional setting for all user accounts. Additionally, we provide domain claiming for enterprise plans, allowing organizations to manage access across their domain.
 
 Rev takes data privacy very seriously. We do not sell customer data or allow for customer data to be used to train external LLMs, ensuring your content remains private.
+
 
 See full FAQ on our Help Center.
 PRODUCT
@@ -222,4 +224,5 @@ Terms
 Privacy
 CA Privacy Policy
 Sitemap
-Login
+Log In
+Theme

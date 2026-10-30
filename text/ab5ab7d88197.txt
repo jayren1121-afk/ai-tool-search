@@ -1,6 +1,7 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
+tana
 The cost of meetings
 Pricing
-Log in
 Download
 Lock in early bird pricing now
 You’ll spend 30,000 hours in meetings.
@@ -43,9 +44,10 @@ Cancel anytime
 
 Business
 
-Custom
+From
+$35
 
-Billed yearly
+per user/month
 
 Intelligence that compounds with every meeting.
 
@@ -54,6 +56,8 @@ Advanced security & controls
 Designated customer success manager
 Audit logs
 Custom DPA & data residency/retention policy control
+EU cloud / storage
+Choose EU / US inference
 Contact us
 LLM agnostic
 GDPR, SOC 2®, and HIPAA
@@ -74,6 +78,107 @@ Agents
 Outcomes
 Learn
 Changelog
+Blog
+Download
+Sign up
+Log in
+Company
+The cost of meetings
+Company
+Careers
+Legal
+Privacy Policy
+Terms and Conditions
+→
+
+© 2026 Tana Inc.
+
+@tana_inc
+Tana
+@TanaInc
+hey@tana.inc
+
+=== 計費模式: 月繳 (monthly) ===
+tana
+The cost of meetings
+Pricing
+Download
+Lock in early bird pricing now
+You’ll spend 30,000 hours in meetings.
+Make them count.
+Yearly
+Monthly
+
+Free
+
+$0
+
+Perfect meeting memory without taking notes.
+
+Host 5 meetings a month with AI transcripts and summaries
+Connect 1 calendar
+View and edit all your content
+50 AI queries
+Download for Windows
+
+Pro
+
+Early bird
+
+$25
+$35
+
+per user/month
+
+End the meeting with the work already done.
+
+Everything in free, plus:
+20× more AI than the free plan
+Unlimited hosted meetings*
+Botless meeting agent for Zoom, Teams, and Google Meet
+Integrations and full MCP
+Download for Windows
+Free trial
+No credit card required
+Cancel anytime
+
+Business
+
+From
+$35
+
+per user/month (billed yearly)
+
+Intelligence that compounds with every meeting.
+
+SAML SSO
+Advanced security & controls
+Designated customer success manager
+Audit logs
+Custom DPA & data residency/retention policy control
+EU cloud / storage
+Choose EU / US inference
+Contact us
+LLM agnostic
+GDPR, SOC 2®, and HIPAA
+*
+Full MCP
+FAQ
+What if Tana isn't right for me?
+What about my data?
+What happens if I run out of AI credits?
+What does Tana replace?
+Can I use Tana with other tools?
+Product
+Agentic meetings
+Pricing
+Integrations
+Skills
+Agents
+Outcomes
+Learn
+Changelog
+Blog
 Download
 Sign up
 Log in

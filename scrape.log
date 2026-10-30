@@ -712,3 +712,21 @@ SCRAPE DONE
 0 15 scraped https://pixlr.com/pricing 26.2
 舊版頁面還要重抓： 68 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+0 1 scraped https://www.coderabbit.ai/pricing 8.1
+2 2 scraped https://tana.inc/pricing 10.0
+0 3 scraped https://agpt.co/pricing 7.5
+1 4 no_price_found https://moises.ai/pricing 26.4
+2 5 scraped https://www.visme.co/pricing 16.3
+0 6 scraped https://deepnote.com/pricing 16.3
+1 7 scraped https://www.greptile.com/pricing 6.6
+2 8 scraped https://www.rokoko.com/pricing 9.0
+0 9 scraped https://www.genmo.ai/pricing 16.1
+2 10 scraped https://www.craft.do/pricing 11.0
+0 11 scraped https://www.uipath.com/pricing 6.3
+1 12 scraped https://www.rev.com/pricing 31.3
+2 13 no_price_found https://mode.com/pricing 17.7
+0 14 scraped https://monica.im/pricing 13.0
+1 15 scraped https://vectorizer.ai/pricing 4.8
+舊版頁面還要重抓： 53 個（每次最多 15 個）
+SCRAPE DONE

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 We use cookies and other technologies to improve your website experience, manage personal preferences, analyze traffic and website behavior, and serve relevant marketing and promotional content. Blocking some types of cookies may negatively impact your experience and limit the services we can provide.
 
 Allow allDecline allManage cookies
@@ -20,12 +21,12 @@ Basic
 
 Pick a plan and start creating better visuals.
 
-US $0 /month per person
+US $0
 $0/year
 Create a free account
 Includes:
 Unlimited projects
-Templates & Design Assets Limited
+Limited Templates & Design Assets
 Most Templates
 Starter
 
@@ -39,7 +40,7 @@ All Premium Assets
 Full Access to Templates and Assets
 Download as JPG, PNG, PDF
 Email & Chat Support
-Pro
+Business
 
 For teams that need branding collaboration and deeper control.
 
@@ -49,16 +50,16 @@ Save and get more done as a team
 $297/year
 Get Started
 Everything in Starter, plus:
-Download as PPTX, HTML5, Video, & GIF
+Download as PPTX, HTML5, Video & GIF
 Brand Kit, Analytics, Most Integrations
 Privacy Controls
 Enterprise
 
-For organizations that need consistency security and visibility at scale.
+For organizations that need consistency, security and visibility at scale.
 
 Custom Price from 10 users
 Book a Demo
-Everything in Pro, plus:
+Everything in Business, plus:
 Custom Sub-domain
 More Project Security & Services
 Project Management & Approvals
@@ -73,7 +74,7 @@ Basic
 Starter
 US $12.25 /mo
 billed $147  
-Pro
+Business
 US $24.75 /mo
 billed $297  
 Enterprise
@@ -162,11 +163,246 @@ Can Visme be free?
 What does Visme cost?
 How do you cancel a Visme subscription?
 Is Visme worth the money?
-Do I have to Pay to use Visme?
+Do I have to pay to use Visme?
 How do paid plans work?
 What's included in Visme's free plan?
 How do I upgrade my Free account to Paid?
-Can I make some or all of my content Private?
+Can I make some or all of my content private?
+We're interested in Team/Enterprise account. How can we set up a live demo?
+What happens to my content when I cancel my subscription?
+Can I get an educational or non-profit discount?
+How do I sign up for an education plan?
+Is there any limit on how often I can download or share my content on Visme?
+Create every type of visual content in one place
+
+Presentations, infographics, reports, surveys, social graphics, and more all built from one connected platform.
+
+Contact Sales Sign Up Free
+
+We’re empowering everyone to communicate visually.
+
+ 
+     
+CREATE
+Presentations
+Infographics
+Form Builder
+Printables
+Documents
+Social Media Graphics
+Graphs
+MORE TO CREATE
+USE CASES
+Marketing
+Sales
+Human Resources
+Training & Development
+Nonprofits
+Education
+Enterprise
+Schedule a Demo
+RESOURCES
+Blog
+Webinars
+Video Tutorials
+eBooks
+Online Courses
+Templates
+Design Gallery
+Integrations
+COMPANY
+About
+Newsroom
+Careers
+Download
+What's New
+Compare
+Community
+Affiliates
+SUPPORT
+FAQ
+Help Center
+Contact Us
+Pricing
+RECENT FEATURES & ARTICLES
+How IBM Uses Infographics to Attract and Hire Top Talent [Case Study]
+More from our blog >
+English
+
+Copyright 2026 Easy WebContent, LLC. (DBA Visme). All rights reserved. Proudly made in Maryland.
+
+Terms of Service Privacy Site Map
+
+=== 計費模式: 月繳 (monthly) ===
+We use cookies and other technologies to improve your website experience, manage personal preferences, analyze traffic and website behavior, and serve relevant marketing and promotional content. Blocking some types of cookies may negatively impact your experience and limit the services we can provide.
+
+Allow allDecline allManage cookies
+Create
+Solutions
+Templates
+Examples
+Learn
+Pricing
+Login
+Sign Up Free
+Create beautiful content faster
+
+Scalable pricing. No hidden fees. Cancel anytime.
+
+Monthly
+Yearly
+Save 50%
+Basic
+
+Pick a plan and start creating better visuals.
+
+US $0
+$0/monthly
+Create a free account
+Includes:
+Unlimited projects
+Limited Templates & Design Assets
+Most Templates
+Starter
+
+Perfect for solo creators who want premium visuals.
+
+US $29 /month per person
+$29/monthly
+Get Started
+Everything in Basic, plus:
+All Premium Assets
+Full Access to Templates and Assets
+Download as JPG, PNG, PDF
+Email & Chat Support
+Business
+
+For teams that need branding collaboration and deeper control.
+
+US $59 /month per person
+1x
+Save and get more done as a team
+$59/monthly
+Get Started
+Everything in Starter, plus:
+Download as PPTX, HTML5, Video & GIF
+Brand Kit, Analytics, Most Integrations
+Privacy Controls
+Enterprise
+
+For organizations that need consistency, security and visibility at scale.
+
+Custom Price from 10 users
+Book a Demo
+Everything in Business, plus:
+Custom Sub-domain
+More Project Security & Services
+Project Management & Approvals
+Enhanced Workspace Visibility
+Personalized Training & Onboarding
+Single Sign-on (SSO) & 2FA
+Dedicated Customer Success Manager
+See Students & Educators Plans
+See Nonprofits Plans
+Features
+Basic
+Starter
+US $29 /mo
+ 
+Business
+US $59 /mo
+ 
+Enterprise
+Custom Pricing
+Licenses
+1
+1
+1
+10+ users
+Basics
+Number of Projects
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Available Storage
+500MB
+1GB
+10GB
+25GB/user
+Slides/pages per project
+50
+Unlimited
+Unlimited
+Unlimited
+Premium assets & templates
+No Visme Logo on Projects
+Brand Kit
+My Files (File Manager)
+Charts and Data Widgets
+Limited
+Privacy Settings
+Download Formats
+JPG, PNG, PDF
+JPG, PNG, PDF, MP4, GIF, PPTx, HTML5
+JPG, PNG, PDF, MP4, GIF, PPTx, HTML5
+Download as SCORM/xAPI
+Collaboration
+Limited
+Advanced
+Premium support
+Includes Training & Customer Success
+Share, download & privacy
+Templates and Assets
+Animation & Interactivity
+AI features
+Forms
+Organize & Analyze
+Manage your Brand
+Productivity
+Team Collaboration
+Apps & Integrations
+Trusted by leading brands
+
+Visme allows us to work on multiple different decks at the same time, and allows the sales reps to focus on selling and telling the best story they can rather than wasting their time searching for old slides, data, or formatting.
+
+Alex Zani
+Corporate Partnership Strategy, Los Angeles Football Club
+
+Our relationship with Visme has been amazing since day one. Their responsiveness to our needs and long term plans have helped us use their solutions even more intensively and to the success of our clients needs.
+
+Hubert Janowski
+Digital Marketer, IBM
+
+Visme is Easy, clean and creative. Great way to show data to engage my teams.
+
+Joyce Brandao
+Senior HR Manager, Schneider Electric
+
+The biggest fans of Visme are probably my graphics team. Our internal team has become independent when designing presentations, and we do not need to ask for assistance. Visme acts as our designer.
+
+Jenna Daneker
+BarPro Team Lead, Krowne
+
+We looked at a number of different solutions and Visme had, by far, the broadest set of features at such a reasonable price point. We noticed the extra touches in our content and so did our customers.
+
+Rachel Adams
+Dynamics Implementer, Sunrise Technologies
+
+As a small non-profit with limited funds SWITCH requires high value services at a low price point; Visme allows us to create outstanding promotional pieces and presentations at an exceptional value!
+
+Karen Cederwall
+Executive Director
+Frequently Asked Questions (FAQs)
+Can Visme be free?
+What does Visme cost?
+How do you cancel a Visme subscription?
+Is Visme worth the money?
+Do I have to pay to use Visme?
+How do paid plans work?
+What's included in Visme's free plan?
+How do I upgrade my Free account to Paid?
+Can I make some or all of my content private?
 We're interested in Team/Enterprise account. How can we set up a live demo?
 What happens to my content when I cancel my subscription?
 Can I get an educational or non-profit discount?

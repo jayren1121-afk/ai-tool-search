@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Make them count.
 Yearly
 Monthly
@@ -25,7 +26,50 @@ Download for Windows
 Free trial
 No credit card required
 ---
-Billed yearly
+Business
+---
+From
+$35
+---
+per user/month
+---
+What about my data?
+What happens if I run out of AI credits?
+What does Tana replace?
+=== 計費模式: 月繳 (monthly) ===
+Make them count.
+Yearly
+Monthly
+---
+Free
+---
+$0
+---
+Perfect meeting memory without taking notes.
+---
+Pro
+---
+Early bird
+---
+$25
+$35
+---
+per user/month
+---
+Everything in free, plus:
+20× more AI than the free plan
+Unlimited hosted meetings*
+---
+Download for Windows
+Free trial
+No credit card required
+---
+Business
+---
+From
+$35
+---
+per user/month (billed yearly)
 ---
 What about my data?
 What happens if I run out of AI credits?

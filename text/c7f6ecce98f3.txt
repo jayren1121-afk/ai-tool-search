@@ -1,6 +1,6 @@
-Catch up on the "Best Bits" from FUSION
+We've been named a Leader in business orchestration
 
-Watch now
+Find out why
 Platform
 Solutions
 Resources
@@ -216,7 +216,6 @@ Brochures
 Demos and videos
 EVENTS
 UiPath FUSION
-UiPath FUSION (multi-city)
 UiPath DevCon
 See all events
 
@@ -257,6 +256,6 @@ The UiPath word mark, logos, and robots are registered trademarks owned by UiPat
 © 2005-2026 UiPath. All rights reserved.
 
 Ask AI about...
-We use cookies to analyze traffic and deliver personalized content. Click “Ok, got it” or simply close this banner to allow the all cookies. Click "View cookie settings" to allow certain categories of cookies. Update your cookie settings any time from our Cookie Policy.
-View cookie settings
-Ok, got it
+We use cookies and similar technologies to improve your experience, analyze website traffic and support advertising and social media features. We may share information about your use of our site with our social media, advertising and analytics partners. You can manage your choices, including opting out of sale or sharing personal information, in Cookie Settings. Where we detect a valid opt-out preference signal, we honor it as required. Further information is available in our Cookie Policy
+Your Privacy Choices
+Accept Cookies

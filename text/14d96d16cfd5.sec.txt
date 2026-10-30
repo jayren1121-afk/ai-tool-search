@@ -1,3 +1,13 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
+Skip to content
+---
+$1M in free security Deep Scans through November 8, 2026.
+Run a Deep Scan
+: $1M in free security Deep Scans through November 8, 2026.
+---
+Product
+Customers
+---
 Log In
 Get a free trial
 CodeRabbit Pricing
@@ -54,3 +64,77 @@ Usage controls and monthly spending caps
 Can I switch between Essentials and Team?
 How do I sign up for the free open-source plan?
 View all questions
+---
+Customers
+Contact Sales
+Resources
+=== 計費模式: 月繳 (monthly) ===
+Skip to content
+---
+$1M in free security Deep Scans through November 8, 2026.
+Run a Deep Scan
+: $1M in free security Deep Scans through November 8, 2026.
+---
+Product
+Customers
+---
+Log In
+Get a free trial
+CodeRabbit Pricing
+---
+Annual Plans
+saves 20%
+Monthly Plans
+Collapse all
+Essentials
+---
+Complete, self-learning code reviews for every developer.
+---
+$30
+/user/mo.
+Review
+Agentic code reviews in PR, CLI, IDE, and in agent loops
+---
+Enterprise Controls
+Start Your 14-Day Trial
+Team
+---
+The core features a team needs to merge fast while ensuring code quality and standards.
+---
+$60
+/user/mo.
+Review
+Agentic code reviews in PR, CLI, IDE, and in agent loops
+---
+Enterprise Controls
+Start Your 14-Day Trial
+Advanced
+---
+For professional engineering teams looking for the most advanced code analysis and continuous monitoring.
+---
+$90
+/user/mo.
+Review
+Agentic code reviews in PR, CLI, IDE, and in agent loops
+---
+Enterprise Controls
+Start Your 14-Day Trial
+Enterprise
+---
+Verifies elimination of issues
+Try it Free
+CodeRabbit Engineer
+---
+System-aware research & analysis
+Try it Free
+Detailed Plan Comparison
+---
+Usage controls and monthly spending caps
+---
+Can I switch between Essentials and Team?
+How do I sign up for the free open-source plan?
+View all questions
+---
+Customers
+Contact Sales
+Resources

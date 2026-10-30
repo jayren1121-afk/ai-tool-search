@@ -1,26 +1,10 @@
- Vectorizer.AI
- 
+Skip to content
+Vectorizer.AI
 Developers
 Pricing
 Support
-  English 
-English
-Deutsch (German)
-Español (Spanish)
-Français (French)
-हिन्दी (Hindi)
-Indonesia (Indonesian)
-Italiano (Italian)
-日本語 (Japanese)
-한국어 (Korean)
-Polski (Polish)
-Português (Portuguese)
-Русский (Russian)
-ไทย (Thai)
-Türkçe (Turkish)
-Tiếng Việt (Vietnamese)
-Create Account
-Log In
+Log in
+Create account
 Pricing for the Web App and API
 
 Vectorizer.AI offers both unlimited Web App plans and usage-based API plans for image vectorization.
@@ -30,124 +14,64 @@ Using the Web App you can upload, vectorize, and preview as many images as you l
 API plans are for automated workflows where your own software converts images to SVG, PDF, EPS, DXF, or PNG through the Vectorizer.AI API.
 
 Currency: USD 
-USD, United States Dollar
-EUR, Euro
 Web App
-Unlimited Web Images
+Most popular
 
-For people: no API access.
-Billed monthly, cancel anytime.
+Unlimited Web Images
 
 $9.99 / month
 
-Most popular
-
-SUBSCRIBE
+For people: no API access.
+Billed monthly, cancel anytime.
+Subscribe
 API
+
 1 Credit = 1 API Image
 
 For software: has API access.
 Billed monthly, cancel anytime.
 Roll over up to 5× monthly credits.
+CREDITS/MONTH	PRICE/MONTH	PRICE/CREDIT
 
-Credits/Month	Price/Month	Price/Credit
-	50	$9.99/month	$0.200
-	100	$18.99/month	$0.190
-	200	$34.99/month	$0.175
+50
+	$9.99/month	$0.200
+
+100
+	$18.99/month	$0.190
+
+200
+	$34.99/month	$0.175
 Show more plans
-SUBSCRIBE
+Subscribe
 Which plan should I choose?
-
-For most users the unlimited Web App plan is the best choice. It allows you to upload images, inspect the results in the Web App, and download as much as you like.
-
-If you need programmatic access, where you write software for e.g. your mobile app or your website that needs to be able to vectorize images without having a human in the loop, then you need an API plan.
-
-All API plans come with roll over of unused credits (up to 5× monthly credits) so you can pick a plan based on your average monthly volume and not worry about spikes or troughs. We generally recommend starting with the smallest plan that fits your current needs, and then only upgrade as your usage requires.
-
 Will it work on my images?
-
-Most likely, yes. However, as always, the devil is in the details. That is why we provide you with a free, interactive preview so that you can see what you're going to get before you buy.
-
 Will the results work with my software?
-
-Our results follow the respective file format standards, and work with all standards-compliant readers.
-
-That said, not all vector software is fully standards compliant. We therefore offer a host of download options that allow you to customize the output to maximize compatibility. For example, you can control the file format version, the types of curves that are used, and much more.
-
-We also let you download the result from any of our example images for free so that you can try them out with your software before you buy.
-
 What is the difference between the Web App and API plans?
-
-The Web App is best when a person uploads images, reviews the preview, adjusts export options, and downloads results in the browser.
-
-API plans are best when your software needs to vectorize images automatically, such as in a website, mobile app, production pipeline, or customer-facing workflow.
-
 Do unused API credits roll over?
-
-Yes. Unused API credits roll over up to 5× your monthly credits, so you can choose a plan around your average usage without losing flexibility during busier months.
-
 How do I make changes to my subscription?
-
-After signing up you can upgrade, downgrade, and renew your subscription anytime right here on this webpage.
-
 What payment options do I have?
-
-We accept all major credit cards and PayPal. We do not accept purchase orders and do not issue invoices.
-
 Can I integrate with the API for free?
-
-Yes! It is free to integrate with and test out the API, no subscription required. Details
-
 I need a lot of API calls to make a sale, can you give me a break on pricing?
-
-Yes! We offer lower-priced preview results you can show your end-users before they make a purchase. Details
-
-Previews are PNG images four times larger than your input, come with a discreet watermark, and cost 0.200 credits each.
-
 What happens when I run out of API credits?
-
-When you run out of credits, your API requests will result in 402 Payment Required errors.
-
-To avoid this, you can opt-in to automatically renew your subscription when running low on credits. You can set this up on your account page after creating an API Key.
-
 Do you offer special pricing for Academic or Non-profit users?
-
-Sorry, but we do not offer special pricing for Academic Institutions or Non-profits.
-
 Subscription Details
-
-You can cancel your subscription any time with just a few clicks on your account page. You can keep using your subscription until the end of your billing period, even after you cancel. There are no hoops, catches, or strings attached, and you do not have to call to cancel.
-
-If you're unable to log into your account, please contact support and we will help you out.
-
-Subscription fees are non-refundable.
-
-Remaining credits are lost upon cancellation.
-
-Subscriptions continue running and are automatically billed until cancelled.
-
-Access is granted immediately when subscribing.
-
-Subscriptions are personal and cannot be shared.
-
 Vectorizer.AI
 
-© Cedar Lake Ventures, Inc.
+Traced with care by a very meticulous robot.
 
-Affiliate Program
-
-About
-
-Terms
-
-Privacy
-
-Support
-
+PRODUCT
 Pricing
-
 Developers
+Support
+COMPANY
+About
+Terms
+Privacy
+CONVERTERS
 
 Convert PNG to SVG
 
 Convert JPG to SVG
+
+© Cedar Lake Ventures, Inc.
+Vectorizer.AI

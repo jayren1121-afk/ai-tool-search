@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
 Sign in
 Start free for 7 days
 Choose the plan that's right for you
@@ -26,6 +27,54 @@ Max
 $320.00
 / month
 billed monthly
+---
+Secure access for shared integrations
+Contact sales
+---
+8
+Billing, Credits & Usage
+6
+---
+Llama Family
+Kimi / Moonshot
+Mistral Family
+---
+Google Drive Picker
+Billing, Credits & Usage
+6
+---
+Reddit
+Start free for 7 days
+Product
+=== 計費模式: 年繳 (yearly) ===
+Sign in
+Start free for 7 days
+Choose the plan that's right for you
+---
+Plans
+Monthly billing
+Yearly billing
+Save 15%
+Pro
+7-day free trial
+$42.50
+/ month
+billed yearly on the regular paid plan
+---
+7 days free, then $50/mo on Pro. Trial terms confirmed at checkout.
+---
+For individuals ready to put an AI team to work.
+---
+Scheduled workflows and recurring routines
+Start free for 7 days
+---
+Eligible new accounts. Card required; no subscription charge today. Cancel anytime.
+---
+Max
+8.5x usage
+$272.00
+/ month
+billed annually
 ---
 Secure access for shared integrations
 Contact sales

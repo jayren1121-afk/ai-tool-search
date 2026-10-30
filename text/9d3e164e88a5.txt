@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Product
 Imagine
 Community
@@ -7,207 +8,1076 @@ Download
 Log in
 Try Craft Free
 Choose The Plan That’s Right For You
-Free 
-
-Start exploring. A complete experience for occasional use.
-
-STARTER
-
-$0 
-
-Explore all available features with a content limit.
-
-Sign up
-PLUS
 Yearly
 Monthly
+Most popular
+FOR INDIVIDUALS
+STARTER
 
-For your daily workflow. Remove all limits and make Craft your everyday creative home.
+$0
 
+A complete Craft experience, perfect for exploring.
+
+Get Started
+1,500 blocks total
+1 Personal Space
+AI Models: Core, Fast, Max
+Basic export options
+1-click publish
+Custom domain & branding
 PLUS
 $8.0
 
-$6.4 
+$6.4
 
 /month
 
-One account — full-featured, no content limit. Ideal for individual creators.
+Remove all limits and make Craft your everyday creative home.
 
 Get Started
-FAMILY
-$15.0
-
-$12.0 
-
-/month
-
-Fixed-price bundle of 2 to 6 Plus accounts in a single subscription. Collaborate in a shared Space.
-
-Get Started
+Unlimited content and blocks
+10 personal spaces
+AI max model
+Advanced export options
+Advanced publishing control
+Custom domain & branding
+FOR TEAMS & ORGANISATIONS
 TEAM
 
-$50.0 
+$5
+
+/member /month
+
+Min. 3 members
+
+Full Craft for everyone & Shared spaces for the team.
+
+Get Started
+Everything in Plus for everyone
+25 Shared Team Spaces
+Roles & permissions
+Centralised Billing
+ENTERPRISE
+
+SSO & SCIM, advanced admin controls and priority support for larger organisations.
+
+Let’s talk
+
+Contact us
+
+FOR STUDENTS
+
+Plus, on us.
+
+Everything Plus offers, on the house while you study. Verify with your school email once a year.
+
+Free
+
+Verification required · Renewed yearly
+
+Verify as a student
+
+FOR FAMILIES
+
+The Craft you love, with the people you love.
+
+Bundle of 6 Plus accounts under a single subscription and shared Spaces for collaboration.
+
+$12.0
 
 /month
 
-Fixed-price with up to 10 Plus accounts in a single subscription. Collaborate in a shared Space.
+Fixed price · Up to 6 accounts · Personal use only
 
-Get Started
-Bigger group?
-Contact us
-Why Choose Craft Plus
+Get Family
 
-For your daily workflow. Remove all limits and make Craft your everyday creative home.
+FOR NON-PROFITS & EDUCATION
+
+Doing meaningful work? Get a discount.
+
+Charities, schools and educators get a discount on Plus and Team plans.
+
+Up to 50% off
+
+Verification required
+
+Get in touch
+Compare plans.
+
+Remove all limits and make Craft your everyday creative home.
 
 	
 Free
-
-$0/month
-
-Sign up
+$0
 	
-PLUS
-
-$6.4/month per person
-
-Get Started
-
-
-
-
-Content limit
-
+Plus
+$6.4/mo
 	
-
-1500 blocks
-
+Family
+$12.0/mo
 	
+Team
+$5/user/mo
+	
+Enterprise
+Custom
 
-Unlimited
 
-
-
-
-
+Content
+	1,500 blocks	Unlimited	Unlimited	Unlimited	Unlimited
 
 Storage
+	1 GB	Unlimited	Unlimited	Unlimited	Unlimited
 
-	
+Personal spaces
+	1	10	10 / member	10 / member	10 / member
 
-1 GB
-
-	
-
-Unlimited
-
-
-
-
-
+Shared Spaces
+	—
+Not included
+	—
+Not included
+	5	25	Unlimited
 
 Media upload limit
+	25 MB	Unlimited	Unlimited	Unlimited	Unlimited
 
-	
-
-25 MB
-
-	
-
-Unlimited
-
-
-
-
+Real-time sync across devices
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
 
 Link-sharing
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
-		
 
-
+Offline access & editing
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
 
 Version history
+	7 days	30 days	30 days	30 days	Unlimited
+
+Core Features
+
+
+Tasks
+Set schedules, deadlines, reminders, and repeats
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Calendar & Daily Notes
+Daily notes, scheduled tasks, and synced events for any day
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Tags
+Inline labels with hierarchy and a filtered view
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Smart Search
+Natural-language semantic search across your space
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Members
+
+
+Members included
+	1	1	Up to 6	3 base	Custom
+
+Additional members
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	+$5 / mo each	Custom
+
+Shared Spaces
+
+
+Private / permissioned spaces
+	—
+Not included
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Admins can restrict who invites new members
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	Coming soon	Coming soon
+
+Single sign-on (SSO)
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	✓
+Included
+
+
+Export
+
+
+PDF, Markdown, MS Word (.docx), PNG
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Print, TextBundle
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Brand & Customization
+
+
+Saved Templates
+	2 max	Unlimited	Unlimited	Unlimited	Unlimited
+
+Saved Style
+	1 max	Unlimited	Unlimited	Unlimited	Unlimited
+
+Card styles available
+	Basic style	Unlimited	Unlimited	Unlimited	Unlimited
+
+Publishing - Access Control
+
+
+Unlimited published pages
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Password Protection
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Email Access
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Expiration date
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Disable comments
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Publishing - Advanced Control
+
+
+Hide “Created with Craft”
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Hide Title & Table of content
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Visitors can duplicate
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Enable search engine indexing
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+AI
+
+
+Core & Fast Models
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Max Model
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+AI sessions included
+	~20 lifetime	~250–500 / yr	~500–1,000 / yr	~1,500–3,000 / yr	Custom
+Smart on price,
+strong on power
+
+Notes
+
+$10/month
+
+Docs
+
+$12/month
+
+File Storage
+
+$12/month
+
+Web Publishing
+
+$12/month
+
+WITH CRAFT
+
+$6.4/month
+
+OTHER APPS TOTAL
+
+$46/month
+
+Common Questions
+How does the Free plan work?
+You can have up to 1500 blocks across all your documents. You get 1 GB storage and all the essential Craft features, making it perfect for exploring without pressure to upgrade.
+Will my documents sync across devices?
+Why might I see different prices in different countries?
+What happens to my documents if I switch plans?
+App Store Award
+Mac App of the Year
+Apple Design Awards
+Finalist
+Webby
+Awarded three times in various categories
+German Design Award
+Excellent Communications Design Interactive UX
+Footer
+PRODUCT
+Product Releases
+Features
+Write
+Plan
+Organize
+Customize
+Imagine With Craft
+Pricing
+Education Plan
+COMMUNITY
+Slack
+Reddit Community
+X / Twitter
+Learn
+Use Cases
+Compare Craft
+Getting Started Guide
+Template Gallery
+SUPPORT
+Help Center
+Contact Support
+COMPANY
+About us
+Blog
+Careers
+Affiliate Program
+Media
+Legal
+Terms
+Privacy Policy
+Security
+ESG
+Responsible Disclosure
+DOWNLOAD
+Craft for iPhone
+Craft for iPad
+Craft for Mac
+Craft for Windows
+Windows x64
+Windows ARM64
+Craft for Vision Pro
+Craft for Android
+
+English
+
+Instagram
+YouTube
+X
+LinkedIn
+
+© 2026 Craft Docs Limited, Inc. All rights reserved.
+
+=== 計費模式: 月繳 (monthly) ===
+Product
+Imagine
+Community
+Pricing
+Learn
+Download
+Log in
+Try Craft Free
+Choose The Plan That’s Right For You
+Yearly
+Monthly
+Most popular
+FOR INDIVIDUALS
+STARTER
+
+$0
+
+A complete Craft experience, perfect for exploring.
+
+Get Started
+1,500 blocks total
+1 Personal Space
+AI Models: Core, Fast, Max
+Basic export options
+1-click publish
+Custom domain & branding
+PLUS
+
+$10.0
+
+/month
+
+Remove all limits and make Craft your everyday creative home.
+
+Get Started
+Unlimited content and blocks
+10 personal spaces
+AI max model
+Advanced export options
+Advanced publishing control
+Custom domain & branding
+FOR TEAMS & ORGANISATIONS
+TEAM
+
+$6
+
+/member /month
+
+Min. 3 members
+
+Full Craft for everyone & Shared spaces for the team.
+
+Get Started
+Everything in Plus for everyone
+25 Shared Team Spaces
+Roles & permissions
+Centralised Billing
+ENTERPRISE
+
+SSO & SCIM, advanced admin controls and priority support for larger organisations.
+
+Let’s talk
+
+Contact us
+
+FOR STUDENTS
+
+Plus, on us.
+
+Everything Plus offers, on the house while you study. Verify with your school email once a year.
+
+Free
+
+Verification required · Renewed yearly
+
+Verify as a student
+
+FOR FAMILIES
+
+The Craft you love, with the people you love.
+
+Bundle of 6 Plus accounts under a single subscription and shared Spaces for collaboration.
+
+$18.0
+
+/month
+
+Fixed price · Up to 6 accounts · Personal use only
+
+Get Family
+
+FOR NON-PROFITS & EDUCATION
+
+Doing meaningful work? Get a discount.
+
+Charities, schools and educators get a discount on Plus and Team plans.
+
+Up to 50% off
+
+Verification required
+
+Get in touch
+Compare plans.
+
+Remove all limits and make Craft your everyday creative home.
 
 	
-
-7 days
-
+Free
+$0
 	
-
-30 days
-
-
-
-
-
-
-Cross-device sync
-
-		
-
-
-
-
-Shared Space
-
+Plus
+$6.4/mo
 	
-
-Not available
-
+Family
+$12.0/mo
 	
-
-Available with Craft Family
-
-
-
-
-
-
-AI assistant credits
-
+Team
+$5/user/mo
 	
-
-15 credits
-
-	
-
-50 credits/month
+Enterprise
+Custom
 
 
+Content
+	1,500 blocks	Unlimited	Unlimited	Unlimited	Unlimited
+
+Storage
+	1 GB	Unlimited	Unlimited	Unlimited	Unlimited
+
+Personal spaces
+	1	10	10 / member	10 / member	10 / member
+
+Shared Spaces
+	—
+Not included
+	—
+Not included
+	5	25	Unlimited
+
+Media upload limit
+	25 MB	Unlimited	Unlimited	Unlimited	Unlimited
+
+Real-time sync across devices
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
 
+Link-sharing
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
 
-AI assistant model
-
-	
-
-Core, Fast
-
-	
-
-Core, Fast, Max
-
-
-
-
+Offline access & editing
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
 
-API & MCP access
+Version history
+	7 days	30 days	30 days	30 days	Unlimited
 
-	
-
-100 requests/min
-20,000 blocks/min
-
-	
-
-100 requests/min
-20,000 blocks/min
+Core Features
 
 
+Tasks
+Set schedules, deadlines, reminders, and repeats
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
 
+
+Calendar & Daily Notes
+Daily notes, scheduled tasks, and synced events for any day
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Tags
+Inline labels with hierarchy and a filtered view
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Smart Search
+Natural-language semantic search across your space
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Members
+
+
+Members included
+	1	1	Up to 6	3 base	Custom
+
+Additional members
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	+$5 / mo each	Custom
+
+Shared Spaces
+
+
+Private / permissioned spaces
+	—
+Not included
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Admins can restrict who invites new members
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	Coming soon	Coming soon
+
+Single sign-on (SSO)
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	—
+Not included
+	✓
+Included
+
+
+Export
+
+
+PDF, Markdown, MS Word (.docx), PNG
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Print, TextBundle
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Brand & Customization
+
+
+Saved Templates
+	2 max	Unlimited	Unlimited	Unlimited	Unlimited
+
+Saved Style
+	1 max	Unlimited	Unlimited	Unlimited	Unlimited
+
+Card styles available
+	Basic style	Unlimited	Unlimited	Unlimited	Unlimited
+
+Publishing - Access Control
+
+
+Unlimited published pages
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Password Protection
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Email Access
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Expiration date
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Disable comments
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Publishing - Advanced Control
+
+
+Hide “Created with Craft”
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Hide Title & Table of content
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Visitors can duplicate
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Enable search engine indexing
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+AI
+
+
+Core & Fast Models
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+Max Model
+	—
+Not included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+	✓
+Included
+
+
+AI sessions included
+	~20 lifetime	~250–500 / yr	~500–1,000 / yr	~1,500–3,000 / yr	Custom
 Smart on price,
 strong on power
 

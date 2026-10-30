@@ -1,22 +1,20 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Log in
 Try Craft Free
 Choose The Plan That’s Right For You
-Free
----
-Start exploring. A complete experience for occasional use.
----
+Yearly
+Monthly
+Most popular
+FOR INDIVIDUALS
 STARTER
 ---
 $0
 ---
-Explore all available features with a content limit.
+A complete Craft experience, perfect for exploring.
 ---
-PLUS
-Yearly
-Monthly
----
-For your daily workflow. Remove all limits and make Craft your everyday creative home.
----
+Basic export options
+1-click publish
+Custom domain & branding
 PLUS
 $8.0
 ---
@@ -24,41 +22,153 @@ $6.4
 ---
 /month
 ---
-One account — full-featured, no content limit. Ideal for individual creators.
+Custom domain & branding
+FOR TEAMS & ORGANISATIONS
+TEAM
 ---
-Get Started
-FAMILY
-$15.0
+$5
+---
+/member /month
+---
+Free
+---
+Verification required · Renewed yearly
+---
+The Craft you love, with the people you love.
+---
+Bundle of 6 Plus accounts under a single subscription and shared Spaces for collaboration.
 ---
 $12.0
 ---
 /month
 ---
-Get Started
-TEAM
+Remove all limits and make Craft your everyday creative home.
 ---
-$50.0
+Free
+$0
+---
+Plus
+$6.4/mo
+---
+Family
+$12.0/mo
+---
+Team
+$5/user/mo
+---
+Enterprise
+Custom
+---
+—
+Not included
+—
+Not included
++$5 / mo each	Custom
+---
+Shared Spaces
+---
+AI sessions included
+~20 lifetime	~250–500 / yr	~500–1,000 / yr	~1,500–3,000 / yr	Custom
+Smart on price,
+strong on power
+---
+Notes
+---
+$10/month
+---
+Docs
+---
+$12/month
+---
+File Storage
+---
+$12/month
+---
+Web Publishing
+---
+$12/month
+---
+WITH CRAFT
+---
+$6.4/month
+---
+OTHER APPS TOTAL
+---
+$46/month
+---
+Common Questions
+How does the Free plan work?
+You can have up to 1500 blocks across all your documents. You get 1 GB storage and all the essential Craft features, making it perfect for exploring without pressure to upgrade.
+=== 計費模式: 月繳 (monthly) ===
+Log in
+Try Craft Free
+Choose The Plan That’s Right For You
+Yearly
+Monthly
+Most popular
+FOR INDIVIDUALS
+STARTER
+---
+$0
+---
+A complete Craft experience, perfect for exploring.
+---
+1-click publish
+Custom domain & branding
+PLUS
+---
+$10.0
 ---
 /month
 ---
+Custom domain & branding
+FOR TEAMS & ORGANISATIONS
+TEAM
+---
+$6
+---
+/member /month
+---
 Free
 ---
-$0/month
+Verification required · Renewed yearly
 ---
-Sign up
+The Craft you love, with the people you love.
 ---
-PLUS
+Bundle of 6 Plus accounts under a single subscription and shared Spaces for collaboration.
 ---
-$6.4/month per person
+$18.0
 ---
-Get Started
+/month
 ---
-AI assistant credits
+Remove all limits and make Craft your everyday creative home.
 ---
-15 credits
+Free
+$0
 ---
-50 credits/month
+Plus
+$6.4/mo
 ---
+Family
+$12.0/mo
+---
+Team
+$5/user/mo
+---
+Enterprise
+Custom
+---
+—
+Not included
+—
+Not included
++$5 / mo each	Custom
+---
+Shared Spaces
+---
+AI sessions included
+~20 lifetime	~250–500 / yr	~500–1,000 / yr	~1,500–3,000 / yr	Custom
+Smart on price,
 strong on power
 ---
 Notes

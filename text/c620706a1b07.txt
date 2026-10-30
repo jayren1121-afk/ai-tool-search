@@ -21,7 +21,7 @@ data teams
 
 Mode is the central hub for your organization’s analysis, uniting data teams and business teams around data to drive business outcomes.
 
-Try for freeRequest demo
+Request demo
 Clear the path from data to insights, together
 
 Perform complex, ad hoc analysis and empower simple self-service reporting, all on the same platform.

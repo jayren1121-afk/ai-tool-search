@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：46 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：212 筆
+- 可批次核准（無旗標）：47 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：210 筆
 
 核准單筆範本：
 ```sql
@@ -182,17 +182,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **quadratic**（Quadratic）旗標：dropped_fields, has_promo；；來源 https://www.quadratichq.com/pricing；擷取 2026-10-29T12:10:27+08:00
 - **landbot**（Landbot）旗標：dropped_fields, has_promo；；來源 https://landbot.io/pricing；擷取 2026-10-29T12:10:34+08:00
 - **pixlr**（Pixlr）旗標：period_ambiguous_toggle, price_change；Ultra: 資料集 $24.99/月 → 官網 $49.99; Plus: period_ambiguous_toggle; Premium: period_ambiguous_toggle; Ultra: period_ambiguous_toggle; Ultra MAX: period_ambiguous_toggle；來源 https://pixlr.com/pricing；擷取 2026-10-29T12:10:36+08:00
-- **coderabbit**（CodeRabbit）旗標：dropped_fields, period_ambiguous_toggle；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle; Advanced: period_ambiguous_toggle；來源 https://www.coderabbit.ai/pricing；擷取 2026-10-12T13:41:06+08:00
-- **tana**（Tana）旗標：has_promo；；來源 https://tana.inc/pricing；擷取 2026-10-12T13:41:15+08:00
-- **beautiful-tables**（Visme）旗標：period_ambiguous_toggle, price_near_quote；Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.visme.co/pricing；擷取 2026-10-12T13:41:24+08:00
-- **deepnote**（Deepnote）旗標：has_promo；；來源 https://deepnote.com/pricing；擷取 2026-10-12T13:41:30+08:00
-- **greptile**（Greptile）旗標：name_diff；資料集方案 ['Unlimited', 'Free'] vs 新 ['Pro', 'Enterprise']；來源 https://www.greptile.com/pricing；擷取 2026-10-12T13:41:38+08:00
-- **genmo**（Genmo）旗標：period_ambiguous_toggle；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle；來源 https://www.genmo.ai/pricing；擷取 2026-10-12T13:41:44+08:00
-- **rev**（Rev）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.rev.com/pricing；擷取 2026-10-12T13:41:49+08:00
-- **craft**（Craft）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://www.craft.do/pricing；擷取 2026-10-12T13:41:57+08:00
-- **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-12T13:41:58+08:00
-- **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Ultra: period_ambiguous_toggle; Max: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-12T13:42:06+08:00
-- **vectorizer**（Vectorizer.AI）旗標：name_missing；None: name_missing；來源 https://vectorizer.ai/pricing；擷取 2026-10-12T13:42:14+08:00
+- **coderabbit**（CodeRabbit）旗標：has_promo；；來源 https://www.coderabbit.ai/pricing；擷取 2026-10-30T12:09:22+08:00
+- **tana**（Tana）旗標：billing_section_mismatch, has_promo；Business: billing_section_mismatch；來源 https://tana.inc/pricing；擷取 2026-10-30T12:09:24+08:00
+- **beautiful-tables**（Visme）旗標：name_diff；資料集方案 ['Free', 'Premium', 'Basic', 'Pro'] vs 新 ['Basic', 'Starter', 'Business', 'Enterprise']；來源 https://www.visme.co/pricing；擷取 2026-10-30T12:09:34+08:00
+- **deepnote**（Deepnote）旗標：has_promo；；來源 https://deepnote.com/pricing；擷取 2026-10-30T12:09:37+08:00
+- **genmo**（Genmo）旗標：period_ambiguous_toggle；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle；來源 https://www.genmo.ai/pricing；擷取 2026-10-30T12:09:54+08:00
+- **rev**（Rev）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://www.rev.com/pricing；擷取 2026-10-30T12:09:56+08:00
+- **craft**（Craft）旗標：dropped_fields, has_promo, name_diff, name_far_from_price, price_change, price_unclear；資料集方案 ['Plus', 'Free', 'Pro', 'Lite', 'Team'] vs 新 ['Starter', 'PLUS', 'TEAM', 'Family', 'Enterprise']; Team: 資料集 $50.0/月 → 官網 $5.0；來源 https://www.craft.do/pricing；擷取 2026-10-30T12:09:59+08:00
+- **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-30T12:10:10+08:00
+- **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote, yearly_gt_monthly, yearly_total_mismatch；Ultra: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle; Max: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle; Pro: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-30T12:10:16+08:00
 - **scenario**（Scenario）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Starter', 'Free', 'Teams'] vs 新 ['Starter', 'Pro', 'Max']; Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://www.scenario.com/pricing；擷取 2026-10-12T13:42:19+08:00
 - **ltx-studio**（LTX Studio）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://ltx.studio/pricing；擷取 2026-10-12T13:42:20+08:00
 - **saner**（Saner.AI）旗標：period_ambiguous_toggle；Standard: period_ambiguous_toggle; Starter: period_ambiguous_toggle；來源 https://www.saner.ai/pricing；擷取 2026-10-12T13:42:25+08:00
