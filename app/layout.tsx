@@ -3,7 +3,6 @@ import type { Metadata, Viewport } from "next";
 import { SITE_DESC, SITE_NAME, SITE_SHORT, SITE_URL } from "@/lib/site";
 import { Inter, Noto_Sans_TC } from "next/font/google";
 import AdSenseScript from "@/components/AdSenseScript";
-import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import HtmlLang from "@/components/HtmlLang";
 import OnSiteGuard from "@/components/OnSiteGuard";
 import SiteHeader from "@/components/SiteHeader";
@@ -34,7 +33,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.variable} ${noto.variable} bg-slate-50 text-slate-800`}>
         <SiteHeader />
         <OnSiteGuard>{children}</OnSiteGuard>
-        <AffiliateDisclosure />
       </body>
     </HtmlLang>
   );
