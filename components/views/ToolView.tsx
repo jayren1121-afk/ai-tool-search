@@ -12,6 +12,7 @@ import { getPriceSnapshot, type PriceSnapshot } from "@/lib/price-snapshots";
 import { getPublicStats, getTool, getHealthByCategory, getToolHealth, getToolsByCategory, type ToolFull } from "@/lib/tools-server";
 import { validToolId } from "@/lib/security";
 import {
+
   categoryHref, catName, HTML_LANG, lp, OG_LOCALE, pricingName, releaseText, t, toolDesc, toolFeatures, toolHref,
   trFree, trNote, trPlanName, trSub, type Locale,
 } from "@/lib/i18n";
@@ -134,7 +135,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
         </dl>
 
         <p className="mt-6 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-800">{L.toolDisclaimer}</p>
-        <p className="mt-2 px-3 text-xs text-slate-500">{L.affiliateNote}</p>
+        {isAffiliateUrl(x.url) && <p className="mt-2 px-3 text-xs text-slate-500">{L.affiliateNote}</p>}
       </article>
 
       <ToolCommunity toolId={x.id} locale={locale} />
@@ -157,4 +158,11 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
       )}
     </main>
   );
+}
+
+/** 網址帶推薦參數（如 ?via=、?ref=）才算推薦連結，才顯示分潤說明 */
+const AFFILIATE_PARAMS = ["via", "ref", "aff", "affiliate", "referral", "fpr"];
+function isAffiliateUrl(u?: string | null): boolean {
+  if (!u) return false;
+  try { const q = new URL(u).searchParams; return AFFILIATE_PARAMS.some((k) => q.has(k)); } catch { return false; }
 }
