@@ -134,6 +134,7 @@ export default async function ToolView({ id, locale }: { id: string; locale: Loc
         </dl>
 
         <p className="mt-6 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-800">{L.toolDisclaimer}</p>
+        <p className="mt-2 px-3 text-xs text-slate-500">{L.affiliateNote}</p>
       </article>
 
       <ToolCommunity toolId={x.id} locale={locale} />
