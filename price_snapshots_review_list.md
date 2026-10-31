@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：47 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：210 筆
+- 可批次核准（無旗標）：48 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：209 筆
 
 核准單筆範本：
 ```sql
@@ -191,15 +191,14 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **craft**（Craft）旗標：dropped_fields, has_promo, name_diff, name_far_from_price, price_change, price_unclear；資料集方案 ['Plus', 'Free', 'Pro', 'Lite', 'Team'] vs 新 ['Starter', 'PLUS', 'TEAM', 'Family', 'Enterprise']; Team: 資料集 $50.0/月 → 官網 $5.0；來源 https://www.craft.do/pricing；擷取 2026-10-30T12:09:59+08:00
 - **uipath**（UiPath）旗標：dropped_fields, name_diff；資料集方案 ['Free'] vs 新 ['Basic']；來源 https://www.uipath.com/pricing；擷取 2026-10-30T12:10:10+08:00
 - **monica**（Monica）旗標：has_promo, period_ambiguous_toggle, price_near_quote, yearly_gt_monthly, yearly_total_mismatch；Ultra: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle; Max: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle; Pro: yearly_gt_monthly, yearly_total_mismatch, period_ambiguous_toggle；來源 https://monica.im/pricing；擷取 2026-10-30T12:10:16+08:00
-- **scenario**（Scenario）旗標：name_diff, period_ambiguous_toggle；資料集方案 ['Starter', 'Free', 'Teams'] vs 新 ['Starter', 'Pro', 'Max']; Starter: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://www.scenario.com/pricing；擷取 2026-10-12T13:42:19+08:00
-- **ltx-studio**（LTX Studio）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_near_quote；Lite: period_ambiguous_toggle; Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://ltx.studio/pricing；擷取 2026-10-12T13:42:20+08:00
-- **saner**（Saner.AI）旗標：period_ambiguous_toggle；Standard: period_ambiguous_toggle; Starter: period_ambiguous_toggle；來源 https://www.saner.ai/pricing；擷取 2026-10-12T13:42:25+08:00
-- **mathgpt**（Mathos AI）旗標：dropped_fields, price_unclear；Basic: price_unclear; Prime: price_unclear；來源 https://www.mathgptpro.com/pricing；擷取 2026-10-12T13:42:27+08:00
-- **jotform-ai**（Jotform AI Agents）旗標：dropped_fields；；來源 https://www.jotform.com/ai/agents/pricing；擷取 2026-10-12T13:42:35+08:00
-- **patterned**（Patterned AI）旗標：period_ambiguous_toggle；Standard: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.patterned.ai/pricing；擷取 2026-10-12T13:42:37+08:00
-- **warp**（Warp）旗標：dropped_fields, period_ambiguous_toggle, price_change；Business: 資料集 $20.0/月 → 官網 $50.0; Build: period_ambiguous_toggle; Max: period_ambiguous_toggle; Business: period_ambiguous_toggle；來源 https://www.warp.dev/pricing；擷取 2026-10-12T13:42:39+08:00
-- **higgsfield**（Higgsfield）旗標：has_promo, price_near_quote；；來源 https://higgsfield.ai/pricing；擷取 2026-10-12T13:42:43+08:00
-- **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-12T13:42:52+08:00
+- **scenario**（Scenario）旗標：billing_section_mismatch, has_promo, name_diff, price_near_quote；資料集方案 ['Starter', 'Free', 'Teams'] vs 新 ['Starter', 'Pro', 'Max']; Starter: billing_section_mismatch; Pro: billing_section_mismatch; Max: billing_section_mismatch；來源 https://www.scenario.com/pricing；擷取 2026-10-31T12:07:53+08:00
+- **ltx-studio**（LTX Studio）旗標：has_promo, price_near_quote；；來源 https://ltx.studio/pricing；擷取 2026-10-31T12:07:54+08:00
+- **saner**（Saner.AI）旗標：has_promo；；來源 https://www.saner.ai/pricing；擷取 2026-10-31T12:08:01+08:00
+- **mathgpt**（Mathos AI）旗標：dropped_fields, has_promo；；來源 https://www.mathgptpro.com/pricing；擷取 2026-10-31T12:08:05+08:00
+- **jotform-ai**（Jotform AI Agents）旗標：dropped_fields；；來源 https://www.jotform.com/ai/agents/pricing；擷取 2026-10-31T12:08:14+08:00
+- **warp**（Warp）旗標：price_change；Business: 資料集 $20.0/月 → 官網 $45.0；來源 https://www.warp.dev/pricing；擷取 2026-10-31T12:08:18+08:00
+- **higgsfield**（Higgsfield）旗標：has_promo；；來源 https://higgsfield.ai/pricing；擷取 2026-10-31T12:08:24+08:00
+- **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-31T12:08:43+08:00
 - **ai2sql**（AI2SQL）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_unclear；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle; Lifetime: price_unclear；來源 https://www.ai2sql.io/pricing；擷取 2026-10-12T13:42:53+08:00
 - **imagine-art**（Imagine Art）旗標：dropped_fields, period_ambiguous_toggle；Basic: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle; Creator: period_ambiguous_toggle；來源 https://www.imagine.art/pricing；擷取 2026-10-12T13:43:00+08:00
 - **fontjoy**（Kittl）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.kittl.com/pricing；擷取 2026-10-12T13:43:05+08:00

@@ -1,9 +1,11 @@
+=== 計費模式: 預設畫面 (default) ===
 Features
 Integrations
 Resources
 Pricing
 Login
 Try free
+EN
 PRICING
 Simple, honest pricing.
 
@@ -18,9 +20,11 @@ For independent creators and small brands.
 $29
 / month
 
-Billed monthly
+Billed monthly · + VAT where applicable
 
 Start free trial
+
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 
 WHAT'S INCLUDED
 
@@ -30,6 +34,15 @@ Social profiles
 5
 Credits
 300
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
 Most popular
 Team
 
@@ -38,9 +51,11 @@ For growing teams managing a few brands.
 $79
 / month
 
-Billed monthly
+Billed monthly · + VAT where applicable
 
 Start free trial
+
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 
 WHAT'S INCLUDED
 
@@ -50,6 +65,15 @@ Social profiles
 20
 Credits
 1,500
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
 Agency
 
 For agencies managing many client brands.
@@ -57,9 +81,11 @@ For agencies managing many client brands.
 $199
 / month
 
-Billed monthly
+Billed monthly · + VAT where applicable
 
 Start free trial
+
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 
 WHAT'S INCLUDED
 
@@ -69,6 +95,15 @@ Social profiles
 100
 Credits
 5,000
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
 AI credits refresh every month
 Scale profiles and team members as you grow
 Switch plans or cancel anytime
@@ -85,7 +120,7 @@ Your most important questions before committing — answered here.
 Do you have a free trial?
 +
 
-Yes! We offer a 7-day free trial, giving you full access to all features so you can explore the platform before committing to a subscription.
+Yes! We offer a 7-day free trial of any paid plan, giving you full access to all features. Starting the trial requires a payment card, but nothing is charged during the 7 days.
 
 What happens at the end of the 7-day trial?
 +
@@ -104,7 +139,7 @@ What counts as a social profile?
 Can I run more than one brand on a single plan?
 +
 
-Social media management. Using AI.
+Your social media copilot.
 
 Join Facebook community →
 
@@ -138,12 +173,17 @@ Slack
 Discord
 Mastodon
 Dribbble
-Kick
-Twitch
-Whop
-DEV.to
-WordPress
 Tumblr
+WordPress
+DEV.to
+Whop
+Notion
+Airtable
+Webflow
+Framer
+Wix
+Twitch
+Kick
 WooCommerce
 Custom
 
@@ -152,7 +192,6 @@ Company
 Pricing
 Compare
 Get paid!
-Open metrics
 Blog
 Help Center
 Service status
@@ -163,5 +202,428 @@ Terms of service
 Privacy policy
 Cookie policy
 GDPR
+Consumer information
+Contact
 © 2026 UAB Ocoya. All rights reserved.
-Made with 🤍 in 🇪🇺 EU
+EN
+UAB „Ocoya“, company code 305673313, VAT LT100013652516, Perkūnkiemio g. 19, Vilnius, Lithuania · support@ocoya.com
+
+=== 計費模式: 年繳 (yearly) ===
+Features
+Integrations
+Resources
+Pricing
+Login
+Try free
+EN
+PRICING
+Simple, honest pricing.
+
+Compare brand limits, social profiles and shared credits for your team. Every plan starts with a 7-day free trial.
+
+Monthly
+Yearly (2 months free)
+Starter
+
+For independent creators and small brands.
+
+$290
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+1
+Social profiles
+5
+Credits
+300
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+Most popular
+Team
+
+For growing teams managing a few brands.
+
+$790
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+5
+Social profiles
+20
+Credits
+1,500
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+Agency
+
+For agencies managing many client brands.
+
+$1,990
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+20
+Social profiles
+100
+Credits
+5,000
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+AI credits refresh every month
+Scale profiles and team members as you grow
+Switch plans or cancel anytime
+Need more than Agency?
+
+For large businesses with specific needs we offer custom plans.
+
+Let's talk
+QUESTIONS ANSWERED
+FAQ
+
+Your most important questions before committing — answered here.
+
+Do you have a free trial?
++
+
+Yes! We offer a 7-day free trial of any paid plan, giving you full access to all features. Starting the trial requires a payment card, but nothing is charged during the 7 days.
+
+What happens at the end of the 7-day trial?
++
+Can I change my plan after subscribing?
++
+Do you offer a discount to non-profit organizations and charities?
++
+Do you charge Value-Added Tax (VAT) to customers?
++
+What are the credits?
++
+How much cheaper is yearly?
++
+What counts as a social profile?
++
+Can I run more than one brand on a single plan?
++
+
+Your social media copilot.
+
+Join Facebook community →
+
+Features
+
+Publishing
+Campaigns
+Design Studio
+Bio pages
+NEW
+Social Inbox
+Workflows
+API
+MCP
+NEW
+
+Integrations
+
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+Pinterest
+Bluesky
+Threads
+YouTube Shorts
+Google Business
+TikTok
+Telegram
+Slack
+Discord
+Mastodon
+Dribbble
+Tumblr
+WordPress
+DEV.to
+Whop
+Notion
+Airtable
+Webflow
+Framer
+Wix
+Twitch
+Kick
+WooCommerce
+Custom
+
+Company
+
+Pricing
+Compare
+Get paid!
+Blog
+Help Center
+Service status
+
+Legal
+
+Terms of service
+Privacy policy
+Cookie policy
+GDPR
+Consumer information
+Contact
+© 2026 UAB Ocoya. All rights reserved.
+EN
+UAB „Ocoya“, company code 305673313, VAT LT100013652516, Perkūnkiemio g. 19, Vilnius, Lithuania · support@ocoya.com
+
+=== 計費模式: 年繳 (yearly) #2 ===
+Features
+Integrations
+Resources
+Pricing
+Login
+Try free
+EN
+PRICING
+Simple, honest pricing.
+
+Compare brand limits, social profiles and shared credits for your team. Every plan starts with a 7-day free trial.
+
+Monthly
+Yearly (2 months free)
+Starter
+
+For independent creators and small brands.
+
+$290
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+1
+Social profiles
+5
+Credits
+300
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+Most popular
+Team
+
+For growing teams managing a few brands.
+
+$790
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+5
+Social profiles
+20
+Credits
+1,500
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+Agency
+
+For agencies managing many client brands.
+
+$1,990
+/ year
+
+Billed yearly · + VAT where applicable
+
+Start free trial
+
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+
+WHAT'S INCLUDED
+
+Users
+20
+Social profiles
+100
+Credits
+5,000
+Integrations
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+TikTok
+YouTube Shorts
++22
+See all 28 integrations
+AI credits refresh every month
+Scale profiles and team members as you grow
+Switch plans or cancel anytime
+Need more than Agency?
+
+For large businesses with specific needs we offer custom plans.
+
+Let's talk
+QUESTIONS ANSWERED
+FAQ
+
+Your most important questions before committing — answered here.
+
+Do you have a free trial?
++
+What happens at the end of the 7-day trial?
++
+Can I change my plan after subscribing?
++
+Do you offer a discount to non-profit organizations and charities?
++
+Do you charge Value-Added Tax (VAT) to customers?
++
+What are the credits?
++
+How much cheaper is yearly?
++
+
+Yearly billing gives you two months free — you pay ten months for twelve. Starter is $290 a year instead of $348, Team is $790 instead of $948, and Agency is $1,990 instead of $2,388.
+
+What counts as a social profile?
++
+Can I run more than one brand on a single plan?
++
+
+Your social media copilot.
+
+Join Facebook community →
+
+Features
+
+Publishing
+Campaigns
+Design Studio
+Bio pages
+NEW
+Social Inbox
+Workflows
+API
+MCP
+NEW
+
+Integrations
+
+Facebook
+Instagram
+X (Twitter)
+LinkedIn
+Pinterest
+Bluesky
+Threads
+YouTube Shorts
+Google Business
+TikTok
+Telegram
+Slack
+Discord
+Mastodon
+Dribbble
+Tumblr
+WordPress
+DEV.to
+Whop
+Notion
+Airtable
+Webflow
+Framer
+Wix
+Twitch
+Kick
+WooCommerce
+Custom
+
+Company
+
+Pricing
+Compare
+Get paid!
+Blog
+Help Center
+Service status
+
+Legal
+
+Terms of service
+Privacy policy
+Cookie policy
+GDPR
+Consumer information
+Contact
+© 2026 UAB Ocoya. All rights reserved.
+EN
+UAB „Ocoya“, company code 305673313, VAT LT100013652516, Perkūnkiemio g. 19, Vilnius, Lithuania · support@ocoya.com

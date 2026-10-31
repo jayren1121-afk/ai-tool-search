@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Platform
 Models
 Industries
@@ -34,14 +35,14 @@ Standard compute rate
 ✓
 Single user workspace
 ✓
-Access to 65+ core AI models
+Access to every AI model
 ✓
 Private generations
 ✓
 Community support (Discord)
 ✓
 50 GB storage
-Start Free Trial
+Get Started
 FOR CREATORS
 Pro
 
@@ -58,10 +59,6 @@ Everything in Starter, plus:
 Priority queue + unlimited relaxed generations
 ✓
 Train custom models
-✓
-All editing models (Gemini, GPT, Runway)
-✓
-Access to 30+ advanced models
 ✓
 Ticket support
 ✓
@@ -102,24 +99,268 @@ Custom
 
 For organizations running AI at scale.
 
- 
-
+SCALE
 ✓
-Annual billing, minimum 10 users
+Unlimited seats, projects and workspaces
 ✓
-Enterprise SSO, SOC2, governance
+Consumption-based pricing with volume discounts
 ✓
-Dedicated account team + Slack support
-✓
-Advanced dashboards
-✓
-Audit trail
-✓
-Enterprise add-ons
+Flexible credits, 12-month contract
 ✓
 Custom integrations
 ✓
 10 TB storage (+1 TB per seat)
+CONTROL
+✓
+Quality Gate with custom filters
+✓
+IP Detection
+✓
+Watermarking on generated assets
+✓
+Your data and IP never used for training
+✓
+Spending limits and model allowlists
+✓
+Activity trails across users and projects
+✓
+SSO/SAML, SOC 2, DPA
+SUPPORT
+✓
+Account team and shared Slack channel
+✓
+Dedicated creative technologist
+✓
+Enablement sessions for your teams
+✓
+Roadmap access and early features
+Contact Sales
+
+50 free daily credits · No credit card required · Upgrade or downgrade anytime
+
+FAQ
+
+Common questions
+Credits & billing
+How do credits work?
++
+What happens when I run out of credits?
++
+Is there a free tier? Do I need a credit card?
++
+Can I switch or cancel my plan at any time?
++
+Does annual billing really save money?
++
+Models & training
+What is a model, and do I need to train one?
++
+How do I train a custom model?
++
+Are my models and generations private?
++
+Outputs & licensing
+Can I use generated assets commercially, in a shipped game or for clients?
++
+What file formats and asset types does Scenario support?
++
+Can Scenario connect to my game engine or existing pipeline?
++
+
+The creative AI engine built for production at scale.
+
+SOC 2 TYPE II · SSO/SAML · NO DATA REUSE
+
+PRODUCT
+Enterprise
+Platform
+Models
+Providers
+Workflows
+Industries
+Features
+Pricing
+Case Studies
+RESOURCES
+Blog
+Testimonials
+Knowledge Center
+MCP Server
+API Reference
+Changelog
+Status
+COMPANY
+About Us
+Careers
+Customers
+Trust Center
+Privacy Policy
+Terms & Conditions
+Get Support
+Contact Us
+COMMUNITY
+Discord
+X
+LinkedIn
+YouTube
+CPP (Creator Program)
+Stay in the loop
+
+Monthly product updates, launches, and creative AI notes.
+
+Get updates
+
+© 2026 Scenario, Inc. All rights reserved.
+
+Cookie settings
+We value your privacy
+This site uses cookies to improve your browsing experience, analyze site traffic, and show personalized content.
+Reject All
+Accept All
+Customize
+
+=== 計費模式: 年繳 (yearly) ===
+Platform
+Models
+Industries
+Customers
+Enterprise
+Pricing
+Resources
+Search
+⌘K
+Sign In
+Get Started
+
+PRICING
+
+Straightforward, transparent
+
+From individual creators to large-scale organizations - find the plan that fits. Change anytime as you grow.
+
+Monthly
+Annual (Save 33%)
+Starter
+
+1,500 monthly credits
+
+$15/mo
+
+$10
+/mo
+
+Designed for casual creators who love to explore AI.
+
+ 
+
+✓
+Standard compute rate
+✓
+Single user workspace
+✓
+Access to every AI model
+✓
+Private generations
+✓
+Community support (Discord)
+✓
+50 GB storage
+Get Started
+FOR CREATORS
+Pro
+
+5,000 monthly credits
+
+$45/mo
+
+$30
+/mo
+
+For demanding creators who need high performance or custom models.
+
+Everything in Starter, plus:
+
+✓
+Priority queue + unlimited relaxed generations
+✓
+Train custom models
+✓
+Ticket support
+✓
+500 GB storage
+Start Now
+FOR TEAMS
+Max
+
+10,000 monthly credits
+
+$75/mo
+
+$50
+/mo
+
+For small to mid-sized teams scaling together.
+
+Everything in Pro, plus:
+
+✓
+Workspace for up to 25 users
+✓
+Team collaboration tools
+✓
+Training custom editing models
+✓
+Standard monitoring dashboards
+✓
+High-priority queue
+✓
+Priority ticket support
+✓
+1 TB storage (+1 TB per seat)
+Start Now
+Enterprise
+
+Tied to your needs
+
+Custom
+
+For organizations running AI at scale.
+
+SCALE
+✓
+Unlimited seats, projects and workspaces
+✓
+Consumption-based pricing with volume discounts
+✓
+Flexible credits, 12-month contract
+✓
+Custom integrations
+✓
+10 TB storage (+1 TB per seat)
+CONTROL
+✓
+Quality Gate with custom filters
+✓
+IP Detection
+✓
+Watermarking on generated assets
+✓
+Your data and IP never used for training
+✓
+Spending limits and model allowlists
+✓
+Activity trails across users and projects
+✓
+SSO/SAML, SOC 2, DPA
+SUPPORT
+✓
+Account team and shared Slack channel
+✓
+Dedicated creative technologist
+✓
+Enablement sessions for your teams
+✓
+Roadmap access and early features
 Contact Sales
 
 50 free daily credits · No credit card required · Upgrade or downgrade anytime

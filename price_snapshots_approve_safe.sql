@@ -37,9 +37,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'xmind-ai' and fetched_at = '2026-10-29T12:10:25+08:00'::timestamptz;  -- Xmind
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'autogpt' and fetched_at = '2026-10-30T12:09:30+08:00'::timestamptz;  -- AutoGPT
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'vectorizer' and fetched_at = '2026-10-30T12:10:27+08:00'::timestamptz;  -- Vectorizer.AI
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'power-automate' and fetched_at = '2026-10-12T13:25:51+08:00'::timestamptz;  -- Power Automate
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'copysmith' and fetched_at = '2026-10-12T13:42:30+08:00'::timestamptz;  -- Ocoya
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'vanna' and fetched_at = '2026-10-12T13:42:30+08:00'::timestamptz;  -- Vanna AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'power-automate' and fetched_at = '2026-10-31T12:07:52+08:00'::timestamptz;  -- Power Automate
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'copysmith' and fetched_at = '2026-10-31T12:08:05+08:00'::timestamptz;  -- Ocoya
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'vanna' and fetched_at = '2026-10-31T12:08:09+08:00'::timestamptz;  -- Vanna AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'patterned' and fetched_at = '2026-10-31T12:08:15+08:00'::timestamptz;  -- Patterned AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'factory' and fetched_at = '2026-10-12T13:43:10+08:00'::timestamptz;  -- Factory
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cartesia' and fetched_at = '2026-10-12T13:43:14+08:00'::timestamptz;  -- Cartesia
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'shortwave' and fetched_at = '2026-10-12T13:43:16+08:00'::timestamptz;  -- Shortwave

@@ -1,212 +1,141 @@
-Log In
-Sign Up Free
+Free to start. Priced to scale.
 ---
-With pre-paid credits for the year.
-Credits are redeemed against actual usage.
+Speech-to-text, text-to-speech, voice agents, and audio intelligence. Start free, pay for usage, and unlock better rates as you scale.
 ---
-Overview
-Price
+Pay as you go
 ---
-Free $200 Credit
+No minimums, no expiration, and no credit  card required.
 ---
+Free $200 credit
 then pay-as-you-go
 ---
-$4K+
+SIGN UP FREE
+Growth
 ---
+Pre-paid credits for the year, redeemed against actual usage.
+---
+SAVE UP TO 20%
+---
+$4,000+
 / year
 ---
-Sign Up Free
-Get Started
+GET STARTED
 ---
-Contact Sales
-Speech to Text
+Custom pricing
 ---
-Flux English
-i
+CONTACT SALES
+Rates by product
 ---
-Current price
-$0.0065/min
-Regular price
-$0.0077/min
+Usage-based rates across every product, billed per second of audio, per 1,000 characters, or per minute of connection time. No minimums.
 ---
-Current price
-$0.0057/min
-Regular price
-$0.0065/min
+API	Pay as you go	Growth	Enterprise
 ---
-Flux Multilingual
-i
+Flux STT English
 ---
-$0.0078/min
+$0.0077 / min
 ---
-$0.0068/min
+$0.0065 / min
+---
+-
+---
+Flux STT Multilingual
+---
+$0.0078 / min
+---
+$0.0068 / min
+---
+-
 ---
 Nova-3 Monolingual
-i
 ---
-Current price
-$0.0048/min
-Regular price
-$0.0077/min
+$0.0077 / min
 ---
-Current price
-$0.0042/min
-Regular price
-$0.0065/min
+$0.0065 / min
+---
+-
 ---
 Nova-3 Multilingual
-i
 ---
-Current price
-$0.0058/min
-Regular price
-$0.0092/min
+$0.0092 / min
 ---
-Current price
-$0.0050/min
-Regular price
-$0.0078/min
+$0.0078 / min
 ---
-Custom
+-
 ---
-Contact Sales
+CONTACT SALES
 ---
-Contact Sales
-Speech-to-Text Add-ons
+CONTACT SALES
+---
+CONTACT SALES
+---
+Billed per second, with no block-based rounding for normal audio requests. Multichannel audio bills by total processed duration across channels.
+---
+Optional features billed on top of transcription. Smart formatting is included at no cost.
+---
+API	Pay as you go	Growth	Enterprise
 ---
 Redaction
 ---
-Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.
+$0.0020 / min
 ---
-$0.0020/min
+$0.0017 / min
 ---
-$0.0017/min
+-
 ---
 Keyterm Prompting
 ---
-Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.
+$0.0013 / min
 ---
-$0.0013/min
+$0.0012 / min
 ---
-$0.0012/min
----
-Smart Formatting
+-
 ---
 Entity Detection
 ---
-Identify and extract entities like person names, organizations, locations, and dates from your audio.
+$0.0017 / min
 ---
-$0.0017/min
+$0.0017 / min
 ---
-$0.0017/min
+-
 ---
 Speaker Diarization
 ---
-Detect multiple speakers and label who spoke when in the transcript.
+$0.0020 / min
 ---
-$0.0020/min
-Text to Speech
+$0.0017 / min
 ---
-Generate natural, low-latency speech for your voice assistants and conversational AI applications.
+-
 ---
-Buy Flux TTS, get matching credits.
-For every $1 you spend on Flux TTS, we'll add $1 in credits — up to $500. Available on Pay As You Go and Growth plans. Offer ends December 31, 2026. See terms and conditions.
+CONTACT SALES
 ---
-Model
+CONTACT SALES
 ---
-Flux TTS
----
-$0.0450/1k characters
----
-$0.0405/1k characters
----
-Aura-2
----
-$0.030/1k characters
----
-$0.027/1k characters
----
-Aura-1
----
-$0.0150/1k characters
----
-$0.0135/1k characters
-Calculate the Text-to-Speech concurrency you need
-Number of Conversations Per Day
-Average Duration of Conversations (Minutes)
----
-Standard
----
-$0.075/min
-i
----
-$0.068/min
-i
----
-Standard - BYO TTS
----
-$0.065/min
-i
----
-$0.051/min
-i
----
-Custom - BYO LLM
----
-$0.059/min
-i
----
-Custom - BYO LLM + TTS
----
-$0.050/min
-i
----
-$0.041/min
-i
----
-Advanced
----
-$0.163/min
-i
----
-$0.146/min
-i
----
-Advanced - BYO TTS
----
-$0.122/min
-i
----
-$0.110/min
-i
----
-For detailed LLM tier information, please refer to our Developer Documentation.
----
-Summarization
----
-$0.0003/1k input tokens - $0.0006/1k output tokens
----
-$0.00024/1k input tokens - $0.00048/1k output tokens
----
-Topic Detection
+CONTACT SALES
+Sweating compliance, so you don’t have to
 ---
 Maintains PCI compliance with yearly reviews for secure payment processing.
 ---
-Frequently Asked Questions
-How much does Deepgram Speech-to-Text cost per hour?
-Are older models (Nova-2, Enhanced, Base) still available?
-Does Deepgram charge for silence or round up audio time?
-What is included in the $200 free credit?
-How do you calculate costs for multichannel audio?
-What is the difference between Pay-As-You-Go and Growth plans?
-How does pricing work for the Voice Agent API?
-Do Audio Intelligence features cost extra?
-How is Text-to-Speech billed?
-Can I deploy Deepgram on-premise or in a private cloud?
+FAQs
+How much does speech-to-text cost per hour?
 ---
-Can I avoid the 10% overage fee?
-Managing your Deepgram Pay-As-You-Go credits: auto-load settings, refunds, and transfers
+Monolingual streaming is $0.46 an hour on Pay as you go, for either Nova-3 or Flux STT, and $0.39 on Growth. Multilingual is $0.55 for Nova-3 and $0.47 for Flux STT. Pre-recorded runs lower.
 ---
-Managing Your Subscription
-Refunds for Unused Credits
-Refund Request Process
+What is the difference between Pay as you go and Growth?
+---
+Pay as you go has no commitment and bills against credits as you use them. Growth starts at $4,000 a year in pre-paid annual credits for up to 20% off and higher streaming concurrency.
+---
+What does the $200 free credit cover?
+---
+Roughly 43,000 minutes, over 700 hours, of Nova-3 transcription. It does not expire, so you can prototype without a clock running. No credit card is required to start.
+---
+How is text-to-speech billed?
+---
+How is multichannel audio billed?
+---
+Yes. Enterprise pricing ladders down with committed volume, and includes custom model training and a named account team. Talk to sales if you are processing millions of minutes a month.
+---
+Are Nova-2, Enhanced and Base still available?
+---
+Yes, at unchanged rates for existing deployments: Nova-2 streaming $0.35 an hour, Enhanced $0.99, Base $0.87. Growth is about 12.5% lower. New projects should start with Nova-3 for general transcription or Flux for real-time voice agents.
+---
+What is the refund request process?

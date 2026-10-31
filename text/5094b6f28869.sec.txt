@@ -5,6 +5,9 @@ Pricing
 Pay monthly
 Pay annually
 Save 20%
+---
+Working with a team? Build a team plan and pay per seat.
+---
 Standard
 $24
 /month

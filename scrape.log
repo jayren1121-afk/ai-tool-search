@@ -730,3 +730,21 @@ SCRAPE DONE
 1 15 scraped https://vectorizer.ai/pricing 4.8
 舊版頁面還要重抓： 53 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+0 1 scraped https://www.microsoft.com/power-platform/products/power-automate/pricing 8.1
+1 2 scraped https://www.scenario.com/pricing 8.0
+2 3 scraped https://ltx.studio/pricing 10.3
+0 4 scraped https://www.assemblyai.com/pricing 5.3
+1 5 scraped https://www.saner.ai/pricing 8.0
+2 6 scraped https://www.mathgptpro.com/pricing 7.8
+1 7 scraped https://vanna.ai/pricing 5.3
+0 8 scraped https://www.ocoya.com/pricing 9.3
+2 9 no_price_found https://www.getmerlin.in/pricing 5.6
+0 10 scraped https://www.patterned.ai/pricing 9.5
+0 11 scraped https://higgsfield.ai/pricing 18.3
+2 12 scraped https://www.warp.dev/pricing 25.2
+1 13 scraped https://www.jotform.com/ai/agents/pricing 29.5
+0 14 scraped https://deepgram.com/pricing 6.8
+2 15 scraped https://superhuman.com/pricing 15.0
+舊版頁面還要重抓： 38 個（每次最多 15 個）
+SCRAPE DONE

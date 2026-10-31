@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Enterprise Plans
 Yearly (20% off)
 Monthly
@@ -44,6 +45,94 @@ Billed yearly $1,200
 110,000 CREDITS/MONTH
 Subscribe
 Everything in Standard, plus...
+---
+Yearly
+---
+Monthly
+---
+Free
+$0
+Forever
+No billing
+800 CREDITS (ONE TIME)
+Start for free
+Lite
+$12
+/month
+Billed yearly $144
+8,000 CREDITS/MONTH
+Subscribe
+Standard
+$28
+/month
+Billed yearly $336
+28,000 CREDITS/MONTH
+Subscribe
+Pro
+$100
+/month
+Billed yearly $1,200
+110,000 CREDITS/MONTH
+Subscribe
+Enterprise
+Custom billing
+Billed yearly
+CUSTOM CREDIT VOLUME
+---
+Custom model options
+Credits
+Credits
+800 credits (one time)
+8,000 credits per month
+28,000 credits per month
+110,000 credits per month
+Custom credit volumes
+Purchase additional credits
+Data & Licensing
+---
+FAQs
+What are Credits?
+---
+Why do I now see "credits" instead of "computing seconds" in the platform?
+=== 計費模式: 月繳 (monthly) ===
+Enterprise Plans
+Yearly (20% off)
+Monthly
+Free
+$0
+Forever
+No billing
+800 CREDITS (ONE TIME)
+Start for free
+Image and video generation
+---
+Flows, node-based automation
+Video-to-Video Control
+Personal use license
+Lite
+$15
+/month
+8,000 CREDITS/MONTH
+Subscribe
+Everything in Free, plus...
+Image and video upscales
+Editing tools
+No watermarking
+Standard
+POPULAR
+$35
+/month
+28,000 CREDITS/MONTH
+Subscribe
+---
+Pitch Decks
+Purchase additional Credits
+Commercial use license
+Pro
+$125
+/month
+110,000 CREDITS/MONTH
+Subscribe
 ---
 Yearly
 ---

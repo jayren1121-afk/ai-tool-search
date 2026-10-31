@@ -1,6 +1,7 @@
+=== 計費模式: 預設畫面 (default) ===
 Login
 Try free
-PRICING
+EN
 ---
 Compare brand limits, social profiles and shared credits for your team. Every plan starts with a 7-day free trial.
 ---
@@ -13,9 +14,11 @@ For independent creators and small brands.
 $29
 / month
 ---
-Billed monthly
+Billed monthly · + VAT where applicable
 ---
 Start free trial
+---
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 ---
 5
 Credits
@@ -28,13 +31,16 @@ For growing teams managing a few brands.
 $79
 / month
 ---
-Billed monthly
+Billed monthly · + VAT where applicable
 ---
 Start free trial
+---
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 ---
 20
 Credits
 1,500
+---
 Agency
 ---
 For agencies managing many client brands.
@@ -42,20 +48,22 @@ For agencies managing many client brands.
 $199
 / month
 ---
-Billed monthly
+Billed monthly · + VAT where applicable
 ---
 Start free trial
+---
+7 days free, card required. Then monthly at the price above, renewing automatically until you cancel in Settings → Billing.
 ---
 100
 Credits
 5,000
+---
+See all 28 integrations
 AI credits refresh every month
 Scale profiles and team members as you grow
 ---
 Do you have a free trial?
 +
----
-Yes! We offer a 7-day free trial, giving you full access to all features so you can explore the platform before committing to a subscription.
 ---
 What happens at the end of the 7-day trial?
 +
@@ -64,4 +72,158 @@ What happens at the end of the 7-day trial?
 What are the credits?
 +
 How much cheaper is yearly?
++
+=== 計費模式: 年繳 (yearly) ===
+Login
+Try free
+EN
+---
+Compare brand limits, social profiles and shared credits for your team. Every plan starts with a 7-day free trial.
+---
+Monthly
+Yearly (2 months free)
+Starter
+---
+For independent creators and small brands.
+---
+$290
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+5
+Credits
+300
+---
+Team
+---
+For growing teams managing a few brands.
+---
+$790
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+20
+Credits
+1,500
+---
+Agency
+---
+For agencies managing many client brands.
+---
+$1,990
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+100
+Credits
+5,000
+---
+See all 28 integrations
+AI credits refresh every month
+Scale profiles and team members as you grow
+---
+Do you have a free trial?
++
+---
+What happens at the end of the 7-day trial?
++
+---
++
+What are the credits?
++
+How much cheaper is yearly?
++
+=== 計費模式: 年繳 (yearly) #2 ===
+Login
+Try free
+EN
+---
+Compare brand limits, social profiles and shared credits for your team. Every plan starts with a 7-day free trial.
+---
+Monthly
+Yearly (2 months free)
+Starter
+---
+For independent creators and small brands.
+---
+$290
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+5
+Credits
+300
+---
+Team
+---
+For growing teams managing a few brands.
+---
+$790
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+20
+Credits
+1,500
+---
+Agency
+---
+For agencies managing many client brands.
+---
+$1,990
+/ year
+---
+Billed yearly · + VAT where applicable
+---
+Start free trial
+---
+7 days free, card required. Then yearly at the price above, renewing automatically until you cancel in Settings → Billing.
+---
+100
+Credits
+5,000
+---
+See all 28 integrations
+AI credits refresh every month
+Scale profiles and team members as you grow
+---
+Do you have a free trial?
++
+What happens at the end of the 7-day trial?
++
+---
++
+What are the credits?
++
+How much cheaper is yearly?
++
+---
+Yearly billing gives you two months free — you pay ten months for twelve. Starter is $290 a year instead of $348, Team is $790 instead of $948, and Agency is $1,990 instead of $2,388.
+---
+What counts as a social profile?
 +

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 AI Agents
 Benefits
 Features
@@ -178,7 +179,7 @@ Partnerships
 Blog
 Customer Stories
 
-Apps
+Apps & Platforms
 
 Jotform AI Agents represent the future of customer service with instant automated assistance, trusted by businesses worldwide for 24/7 customer support, featuring 7,000+ agent templates across phone, chat, WhatsApp, Instagram, Gmail, Salesforce and SMS channels that streamline customer interactions and form completion, engineered for organizations requiring scalable automated customer service.
 
@@ -214,3 +215,446 @@ Privacy Policy
 Security
 Accessibility Statement
 Anti-Slavery Policy
+
+=== 計費模式: 月繳 (monthly) ===
+AI Agents
+Benefits
+Features
+Channels
+Agent Templates
+Explore
+Pricing
+Get Started Now — It’s Free!
+Jotform AI Agents Features and Pricing
+Trusted by over 40 million users
+Payment Periods
+Monthly
+YearlySave up to 20%
+Starter
+FREE
+* All Features Included
+Get Started
+5 Agents
+100 Monthly Conversations
+10,000 Monthly Sessions
+50 Minutes Monthly Voice Call
+250 Monthly SMS
+10M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Bronze
+$
+39
+/month
+Get Started
+25 Agents
+1,000 Monthly Conversations
+100,000 Monthly Sessions
+100 Minutes Monthly Voice Call
+300 Monthly SMS
+20M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+BEST VALUE
+Silver
+$
+49
+/month
+Get Started
+50 Agents
+2,500 Monthly Conversations
+1,000,000 Monthly Sessions
+200 Minutes Monthly Voice Call
+500 Monthly SMS
+50M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Gold
+$
+129
+/month
+Get Started
+100 Agents
+10,000 Monthly Conversations
+2,000,000 Monthly Sessions
+300 Minutes Monthly Voice Call
+750 Monthly SMS
+100M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Enterprise
+Custom Price
+Get a Quote
+Unlimited Agents
+Unlimited Monthly Conversations
+Unlimited Monthly Sessions
+1,000 Minutes Monthly Voice Call
+1,000 Monthly SMS
+Unlimited Knowledge Base
+Phone Number Add-On
+Form Limits
+Contact Sales
+Why Choose Jotform?
+UP TO
+50%
+DISCOUNT
+Nonprofit Discount
+
+Whether your nonprofit is large or small, Jotform’s online Form Builder helps your organization help others. As an exclusive benefit, we offer nonprofits a 50-percent discount on our Bronze, Silver, and Gold plans, and a 30-percent discount on our Enterprise plan.
+
+Learn More
+Education Discount
+
+Jotform is the preferred online Form Builder for educational institutions around the world — from major universities to K–12 schools. To support your mission, we offer an exclusive 50-percent discount on our Bronze, Silver, and Gold plans, and a 30-percent discount on Jotform Enterprise.
+
+Learn More
+UP TO
+50%
+DISCOUNT
+Cancel Anytime
+
+Jotform is a recurring subscription service. You can upgrade or downgrade your service at any time. To change your subscription, go to the billing page and select a new plan.
+
+30 Day Money Back Guarantee
+
+If, for any reason, you need to cancel your subscription within 30 days of payment, we’ll issue a full refund. To request a refund, please contact our support team.
+
+24/7 Customer Support
+
+Our friendly support team is available to help you anytime you need them.
+
+The Facebook Live team had a flawless experience using Jotform during an online event with President Barack Obama. The product withstood a massive amount of traffic in a 60 minute period. We see a lot of value in the product features and the ability to customize a perfect submission form for any event.
+
+Erin Kanaley, Facebook
+
+We’re proud to help organizations and professionals, from start-ups to Fortune 500 companies, all over the world.
+
+Fortune 500 companies
+Jotform Pricing FAQ
+What plans and pricing tiers does Jotform offer?
+
+Jotform offers several plans, including Starter (free), Bronze, Silver, and Gold plans. Jotform also offers Enterprise plans with custom pricing for large organizations. Storage and submission limits increase with each level.
+
+Is there a free plan available for Jotform?
+
+Yes, the Starter plan is best for individuals or small teams just starting their data-collection journeys. The Starter plan includes all standard features, such as form templates, payment integrations, and widgets. You’ll need to switch to a paid plan to increase your limits. Keep in mind that your forms and signed documents will include Jotform branding, which can be removed once you have a paid subscription.
+
+Who is the Bronze plan suitable for?
+
+The Bronze plan is the lowest-priced paid plan. This plan is ideal for startups or freelancers who are hitting the ground running with data collection and need more than the basics. With its generous limits, the Bronze plan allows you to manage your business smoothly.
+
+View More
+
+Jotform
+
+Signup
+Create a Form
+My Workspace
+Pricing
+Jotform Enterprise
+Examples
+Products
+Features
+Tools
+AI Tools
+Alternatives
+
+Marketplace
+
+Templates
+Form Themes
+Form Widgets
+Integrations
+Website Widgets
+
+Support
+
+Contact Us
+User Guide
+Help
+Jotform Academy
+Webinars
+Podcasts
+Professional Services
+Report Abuse
+Report Copyright Issue
+Recover Jotform Account
+
+Company
+
+About Us
+Jotform Facts for AI
+Media Kit
+In the News
+Newsletters
+Partnerships
+Blog
+Customer Stories
+
+Apps & Platforms
+
+Jotform AI Agents represent the future of customer service with instant automated assistance, trusted by businesses worldwide for 24/7 customer support, featuring 7,000+ agent templates across phone, chat, WhatsApp, Instagram, Gmail, Salesforce and SMS channels that streamline customer interactions and form completion, engineered for organizations requiring scalable automated customer service.
+
+4 Embarcadero Center, Suite 780, San Francisco CA 94111
+
+© 2026 Jotform Inc. The name "Jotform" and the Jotform logo are registered trademarks of Jotform Inc.
+
+English
+Español
+Français
+Italiano
+Português
+Deutsch
+Türkçe
+Nederlands
+Svenska - Beta
+Norsk - Beta
+Suomi
+Polski
+Pусский - Beta
+日本語
+български
+Српски
+ქართველი
+Indonesian
+العربية
+한국어
+繁體中文 - Beta
+Afrikaans - Beta
+Hebrew - Beta
+Terms & Conditions
+Privacy Policy
+Security
+Accessibility Statement
+Anti-Slavery Policy
+
+=== 計費模式: 月繳 (monthly) #2 ===
+AI Agents
+Benefits
+Features
+Channels
+Agent Templates
+Explore
+Pricing
+Get Started Now — It’s Free!
+Jotform AI Agents Features and Pricing
+Trusted by over 40 million users
+Payment Periods
+Monthly
+YearlySave up to 20%
+Starter
+FREE
+* All Features Included
+Get Started
+5 Agents
+100 Monthly Conversations
+10,000 Monthly Sessions
+50 Minutes Monthly Voice Call
+250 Monthly SMS
+10M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Bronze
+$
+39
+/month
+Get Started
+25 Agents
+1,000 Monthly Conversations
+100,000 Monthly Sessions
+100 Minutes Monthly Voice Call
+300 Monthly SMS
+20M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+BEST VALUE
+Silver
+$
+49
+/month
+Get Started
+50 Agents
+2,500 Monthly Conversations
+1,000,000 Monthly Sessions
+200 Minutes Monthly Voice Call
+500 Monthly SMS
+50M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Gold
+$
+129
+/month
+Get Started
+100 Agents
+10,000 Monthly Conversations
+2,000,000 Monthly Sessions
+300 Minutes Monthly Voice Call
+750 Monthly SMS
+100M Characters Knowledge Base
+Phone Number Add-On
+Form Limits
+Get Started
+Enterprise
+Custom Price
+Get a Quote
+Unlimited Agents
+Unlimited Monthly Conversations
+Unlimited Monthly Sessions
+1,000 Minutes Monthly Voice Call
+1,000 Monthly SMS
+Unlimited Knowledge Base
+Phone Number Add-On
+Form Limits
+Contact Sales
+Why Choose Jotform?
+UP TO
+50%
+DISCOUNT
+Nonprofit Discount
+
+Whether your nonprofit is large or small, Jotform’s online Form Builder helps your organization help others. As an exclusive benefit, we offer nonprofits a 50-percent discount on our Bronze, Silver, and Gold plans, and a 30-percent discount on our Enterprise plan.
+
+Learn More
+Education Discount
+
+Jotform is the preferred online Form Builder for educational institutions around the world — from major universities to K–12 schools. To support your mission, we offer an exclusive 50-percent discount on our Bronze, Silver, and Gold plans, and a 30-percent discount on Jotform Enterprise.
+
+Learn More
+UP TO
+50%
+DISCOUNT
+Cancel Anytime
+
+Jotform is a recurring subscription service. You can upgrade or downgrade your service at any time. To change your subscription, go to the billing page and select a new plan.
+
+30 Day Money Back Guarantee
+
+If, for any reason, you need to cancel your subscription within 30 days of payment, we’ll issue a full refund. To request a refund, please contact our support team.
+
+24/7 Customer Support
+
+Our friendly support team is available to help you anytime you need them.
+
+The Facebook Live team had a flawless experience using Jotform during an online event with President Barack Obama. The product withstood a massive amount of traffic in a 60 minute period. We see a lot of value in the product features and the ability to customize a perfect submission form for any event.
+
+Erin Kanaley, Facebook
+
+We’re proud to help organizations and professionals, from start-ups to Fortune 500 companies, all over the world.
+
+Fortune 500 companies
+Jotform Pricing FAQ
+What plans and pricing tiers does Jotform offer?
+
+Jotform offers several plans, including Starter (free), Bronze, Silver, and Gold plans. Jotform also offers Enterprise plans with custom pricing for large organizations. Storage and submission limits increase with each level.
+
+Is there a free plan available for Jotform?
+
+Yes, the Starter plan is best for individuals or small teams just starting their data-collection journeys. The Starter plan includes all standard features, such as form templates, payment integrations, and widgets. You’ll need to switch to a paid plan to increase your limits. Keep in mind that your forms and signed documents will include Jotform branding, which can be removed once you have a paid subscription.
+
+Who is the Bronze plan suitable for?
+
+The Bronze plan is the lowest-priced paid plan. This plan is ideal for startups or freelancers who are hitting the ground running with data collection and need more than the basics. With its generous limits, the Bronze plan allows you to manage your business smoothly.
+
+View More
+
+Jotform
+
+Signup
+Create a Form
+My Workspace
+Pricing
+Jotform Enterprise
+Examples
+Products
+Features
+Tools
+AI Tools
+Alternatives
+
+Marketplace
+
+Templates
+Form Themes
+Form Widgets
+Integrations
+Website Widgets
+
+Support
+
+Contact Us
+User Guide
+Help
+Jotform Academy
+Webinars
+Podcasts
+Professional Services
+Report Abuse
+Report Copyright Issue
+Recover Jotform Account
+
+Company
+
+About Us
+Jotform Facts for AI
+Media Kit
+In the News
+Newsletters
+Partnerships
+Blog
+Customer Stories
+
+Apps & Platforms
+
+Jotform AI Agents represent the future of customer service with instant automated assistance, trusted by businesses worldwide for 24/7 customer support, featuring 7,000+ agent templates across phone, chat, WhatsApp, Instagram, Gmail, Salesforce and SMS channels that streamline customer interactions and form completion, engineered for organizations requiring scalable automated customer service.
+
+4 Embarcadero Center, Suite 780, San Francisco CA 94111
+
+© 2026 Jotform Inc. The name "Jotform" and the Jotform logo are registered trademarks of Jotform Inc.
+
+English
+Español
+Français
+Italiano
+Português
+Deutsch
+Türkçe
+Nederlands
+Svenska - Beta
+Norsk - Beta
+Suomi
+Polski
+Pусский - Beta
+日本語
+български
+Српски
+ქართველი
+Indonesian
+العربية
+한국어
+繁體中文 - Beta
+Afrikaans - Beta
+Hebrew - Beta
+Terms & Conditions
+Privacy Policy
+Security
+Accessibility Statement
+Anti-Slavery Policy
+Sign Up Now
+
+Collect information, payments, and signatures with custom online forms.
+
+Google
+Microsoft
+Apple
+OR
+Email
+Continue
+Already have an account? Log in

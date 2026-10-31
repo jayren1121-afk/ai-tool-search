@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 A personal tutor shouldn't be a luxury. Free gets you far — upgrade only when you need more, cancel whenever.
 ---
 Weekly
@@ -32,6 +33,68 @@ $
 ---
 Start free trial
 Everything in Basic
+---
+Custom
+Contact sales
+Everything in Prime
+---
+3-day free trial on paid plans. Cancel anytime — you won't be charged if you cancel before it ends.
+---
+Frequently asked questions
+Is the Free plan really free?
+What happens when my 3-day trial ends?
+Can I cancel anytime?
+---
+Start free
+---
+Free to start · 3-day trial on paid plans · Cancel anytime
+=== 計費模式: 年繳 (yearly) ===
+A personal tutor shouldn't be a luxury. Free gets you far — upgrade only when you need more, cancel whenever.
+---
+Weekly
+Yearly
+80% OFF
+Free
+---
+/week
+Get started free
+MathosPro (Smart AI) — Limited
+---
+Basic
+---
+Handles everything you'll actually throw at it.
+---
+$2.99
+SAVE 80%
+$
+0
+---
+/week
+---
+Less than a pack of gum a week
+---
+$46.80/yr
+Start free trial
+MathosPro (Smart AI) — Unlimited
+MathosMax (Best Accuracy) — 100 / day
+---
+Prime
+---
+For when you actually need to understand it.
+---
+$4.99
+SAVE 80%
+$
+1
+---
+/week
+---
+Less than a vending machine snack a week
+---
+$98.80/yr
+Start free trial
+Everything in Basic
+MathosMax (Best Accuracy) — Unlimited
 ---
 Custom
 Contact sales

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Sign in
 Sign up for free
 Home
@@ -35,6 +36,49 @@ Mobile app
 Extended access to Reasoning Mode
 Starter
 $8
+/month
+The basic plan for newbies
+Get Started
+---
+Feel free to email us if you encounter any issues
+=== 計費模式: 月繳 (monthly) ===
+Sign in
+Sign up for free
+Home
+---
+Sign In
+Sign up for free
+Stay on top of your life
+Use Saner.AI to save time and level up your work
+YEARLY
+-20%
+MONTHLY
+Free
+$0
+/month
+For everyone
+Get Started
+30 AI messages/month
+100 Notes
+---
+Storage: 100MB
+30 AI requests/month
+Community support
+---
+Preview access to Reasoning Mode
+Free Trial Bonus: 50 AI requests + PDF 10MB
+No CC Required
+Standard
+$20
+/month
+Most popular plan for professionals
+Get Started
+---
+Chrome Extension
+Mobile app
+Extended access to Reasoning Mode
+Starter
+$12
 /month
 The basic plan for newbies
 Get Started

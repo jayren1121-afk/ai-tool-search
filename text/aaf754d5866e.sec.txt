@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Not sure which plan?
 Monthly
 Annual
@@ -13,9 +14,10 @@ Get Starter
 No difference compared to monthly
 FREE GENERATIONS
 Learn more
+---
+1080p
+5 free gens
 Higgsfield AI Influencer
-10 free gens
-Higgsfield Ads Studio
 10 free gens
 Higgsfield Genjutsu
 No free gens
@@ -37,10 +39,11 @@ Get Plus
 Save $144 compared to monthly
 FREE GENERATIONS
 Learn more
+Genjutsu Lite
+1080p
+5 free gens
 Higgsfield AI Influencer
 30 free gens
-Higgsfield Ads Studio
-10 free gens
 Higgsfield Genjutsu
 720p
 3 free gens
@@ -48,7 +51,7 @@ UNLIMITED & FREE GENS
 Learn more
 ---
 7-day unlimited
-7 unlimited & free generation models
+6 unlimited & free generation models
 Unlimited paid parallel generations
 ---
 credits/mo.
@@ -64,10 +67,11 @@ Get Ultra
 Save $360 compared to monthly
 FREE GENERATIONS
 Learn more
+Genjutsu Lite
+1080p
+5 free gens
 Higgsfield AI Influencer
 30 free gens
-Higgsfield Ads Studio
-10 free gens
 Higgsfield Genjutsu
 720p
 3 free gens
@@ -75,7 +79,103 @@ UNLIMITED & FREE GENS
 Learn more
 ---
 7-day unlimited
-7 unlimited & free generation models
+6 unlimited & free generation models
+Unlimited paid parallel generations
+---
+Shared workspaces & credits
+---
+= Up to 37,500 credits/mo pooled
+---
+Starting from 1,000 credits/seat/mo
+From $65
+per seat/month
+Explore Plans
+---
+Save up to 30% with annual billing
+---
+Delegated top-up access
+Unlimited models and Free Generations on plans are accessible only via higgsfield.ai and are not accessible on MCP/CLI, Canvas or Supercomputer.
+=== 計費模式: 月繳 (monthly) ===
+Not sure which plan?
+Monthly
+Annual
+30% OFF
+---
+credits/mo.
+= 135 Nano Banana Pro Generations
+~ 15 Seedance 2.0 Fast videos
+Fixed amount of 270 credits/mo
+$19
+Billed monthly
+Get Starter
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+10 free gens
+Higgsfield Genjutsu
+No free gens
+UNLIMITED & FREE GENS
+Learn more
+---
+No unlimited
+3 unlimited & free generation models
+Parallel generations: up to 2 Videos, 4 Images
+---
+credits/mo.
+= 600 Nano Banana Pro Generations
+~ 80 Seedance 2.5 videos
+Fixed amount of 1,200 credits/mo
+$59
+Billed monthly
+Get Plus
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+2 free gens
+UNLIMITED & FREE GENS
+Learn more
+Nano Banana Pro
+On annual plan only
+Seedream 5.0 Pro
+---
+Seedance 2.5
+On annual plan only
+6 unlimited & free generation models
+Parallel generations: up to 6 Videos, 8 Images
+---
+credits/mo.
+= 1500 Nano Banana Pro Generations
+~ 200 Seedance 2.5 videos
+3,000
+6,000
+9,000
+$129
+Billed monthly
+Get Ultra
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+2 free gens
+UNLIMITED & FREE GENS
+Learn more
+---
+7-day unlimited
+6 unlimited & free generation models
 Unlimited paid parallel generations
 ---
 Shared workspaces & credits
@@ -95,162 +195,200 @@ Prices exclude VAT and local taxes, calculated at checkout. Unlimited usage may 
 ---
 2
 How many content items per month?
----
-≈ 14 credits each · per Kling 3.0 generation, 8s, 720p
-= 2 credits each · per Nano Banana Pro generation
----
-~50 Kling 3.0 videos 700 credits
----
-~60 Nano Banana Pro images 120 credits
----
-1,200 credits/mo
-Fixed amount of 1,200 credits/mo
-Expected monthly usage
-820/1,200 credits
-Unlimited Kling 3.0 & Nano Banana 2 for 7 days
-5,000 FREE Soul 2.0 generations
-Access to every model, all features & 4K quality
-$59
-$47
-/month, billed annually
-Get Plus
-Save $144
-compared to monthly
-Premium quality
+=== 計費模式: 月繳 (monthly) #2 ===
+Not sure which plan?
 Monthly
 Annual
 30% OFF
 ---
-Annual 30% OFF
-Free
+credits/mo.
+= 135 Nano Banana Pro Generations
+~ 15 Seedance 2.0 Fast videos
+Fixed amount of 270 credits/mo
+$19
+per month, billed annually
+Get Starter
+No difference compared to monthly
+FREE GENERATIONS
+Learn more
 ---
-Free
+1080p
+5 free gens
+Higgsfield AI Influencer
+10 free gens
+Higgsfield Genjutsu
+No free gens
+UNLIMITED & FREE GENS
+Learn more
 ---
-Limited use
+No unlimited
+3 unlimited & free generation models
+Parallel generations: up to 2 Videos, 4 Images
 ---
-Starter
+credits/mo.
+= 600 Nano Banana Pro Generations
+~ 80 Seedance 2.5 videos
+Fixed amount of 1,200 credits/mo
+$59
+$47
+per month, billed annually
+Get Plus
+Save $144 compared to monthly
+FREE GENERATIONS
+Learn more
+Genjutsu Lite
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+3 free gens
+UNLIMITED & FREE GENS
+Learn more
 ---
-$19/month
+7-day unlimited
+6 unlimited & free generation models
+Unlimited paid parallel generations
 ---
-Billed annually
+credits/mo.
+= 1500 Nano Banana Pro Generations
+~ 200 Seedance 2.5 videos
+3,000
+6,000
+9,000
+$129
+$99
+per month, billed annually
+Get Ultra
+Save $360 compared to monthly
+FREE GENERATIONS
+Learn more
+Genjutsu Lite
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+3 free gens
+UNLIMITED & FREE GENS
+Learn more
 ---
-Get Plan
-Plus
+7-day unlimited
+6 unlimited & free generation models
+Unlimited paid parallel generations
 ---
-$47/month
+Shared workspaces & credits
 ---
-Billed annually
+= Up to 37,500 credits/mo pooled
 ---
-Get Plan
-Ultra
-BEST VALUE
+Starting from 1,000 credits/seat/mo
+From $65
+per seat/month
+Explore Plans
 ---
-$99/month
+Save up to 30% with annual billing
 ---
-Billed annually
+Delegated top-up access
+Unlimited models and Free Generations on plans are accessible only via higgsfield.ai and are not accessible on MCP/CLI, Canvas or Supercomputer.
+=== 計費模式: 年繳 (yearly) ===
+Not sure which plan?
+Monthly
+Annual
+30% OFF
 ---
-Seedance 2.0 720p
-~22 credits/5s
-Seedance 2.0 1080p
-~45 credits/5s
-Seedance 2.0 4K
-~110 credits/5s
-Seedance 2.0 Fast 720p
-~12 credits/5s
-Kling 3.0 720p
-~7 credits/5s
-Kling 3.0 1080p
-~8 credits/5s
-Kling 3.0 4K
-~30 credits/5s
-Kling Omni 3 Image Reference 720p
-~5 credits/5s
-Kling Omni 3 Image Reference 1080p
-~7 credits/5s
-Kling Omni 3 FLF 720p
-~5 credits/5s
-Kling Omni 3 FLF 1080p
-~6 credits/5s
-Grok Video
-~7 credits/5s
-Grok Video Edit
-~10 credits/5s
-Kling 2.6 Motion Control 720p
-~5 credits/5s
-Kling 2.6 Motion Control 1080p
-~7 credits/5s
-Kling 3.0 Motion Control 720p
-~7 credits/5s
-Kling 3.0 Motion Control 1080p
-~12 credits/5s
-Kling Omni 1 720p
-~7 credits/5s
-Kling Omni 1 1080p
-~10 credits/5s
-Kling 2.6 with sound
-~10 credits/5s
-Kling 2.6 without sound
-~5 credits/5s
-Wan 2.6 480p
-~5 credits/5s
-Wan 2.6 720p
-~7 credits/5s
-Wan 2.6 1080p
-~10 credits/5s
-Wan 3.0 480p
-5 credits/5s
-Wan 3.0 720p
-8.75 credits/5s
-Wan 3.0 1080p
-17.5 credits/5s
-Wan 3.0 Prime 480p
-7.5 credits/5s
-Wan 3.0 Prime 720p
-15 credits/5s
-Wan 3.0 Prime 1080p
-30 credits/5s
-Seedance 1.5 480p
-~1 credits/5s
-Seedance 1.5 720p
-~3 credits/5s
-Seedance 1.5 1080p
-~7 credits/5s
-Higgsfield DoP Lite 720p
-~3 credits/3s
-Higgsfield DoP Standard 720p
-~7 credits/3s
-Higgsfield DoP Turbo 720p
-~5 credits/3s
-Sora 2 720p
-~10 credits/4s
-Sora 2 Pro 720p
-~30 credits/4s
-Sora 2 Pro 1080p
-~50 credits/4s
-Sora 2 Max 720p
-~14 credits/4s
-Sora 2 Max 1080p
-~34 credits/4s
-Sora 2 Pro Max 720p
-~34 credits/4s
-Sora 2 Pro Max 1080p
-~54 credits/4s
-Google Veo 3.1 Fast 720p
-~16 credits/4s
-Google Veo 3.1 Fast 1080p
-~16 credits/4s
-Google Veo 3.1 720p
-~40 credits/4s
-Google Veo 3.1 1080p
-~40 credits/4s
-Google Veo 3 Fast 720p
-~22 credits/8s
-Google Veo 3 720p
-~58 credits/8s
-Kling 2.5 Turbo 720p
-~4 credits/5s
-Kling 2.5 Turbo 1080p
-~6 credits/5s
-Kling 2.1 720p
-~5 credits/5s
-Kling 2.1 1080p
+credits/mo.
+= 135 Nano Banana Pro Generations
+~ 15 Seedance 2.0 Fast videos
+Fixed amount of 270 credits/mo
+$19
+Billed monthly
+Get Starter
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+10 free gens
+Higgsfield Genjutsu
+No free gens
+UNLIMITED & FREE GENS
+Learn more
+---
+No unlimited
+3 unlimited & free generation models
+Parallel generations: up to 2 Videos, 4 Images
+---
+credits/mo.
+= 600 Nano Banana Pro Generations
+~ 80 Seedance 2.5 videos
+Fixed amount of 1,200 credits/mo
+$59
+Billed monthly
+Get Plus
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+2 free gens
+UNLIMITED & FREE GENS
+Learn more
+Nano Banana Pro
+On annual plan only
+Seedream 5.0 Pro
+---
+Seedance 2.5
+On annual plan only
+6 unlimited & free generation models
+Parallel generations: up to 6 Videos, 8 Images
+---
+credits/mo.
+= 1500 Nano Banana Pro Generations
+~ 200 Seedance 2.5 videos
+3,000
+6,000
+9,000
+$129
+Billed monthly
+Get Ultra
+FREE GENERATIONS
+Learn more
+---
+1080p
+5 free gens
+Higgsfield AI Influencer
+30 free gens
+Higgsfield Genjutsu
+720p
+2 free gens
+UNLIMITED & FREE GENS
+Learn more
+---
+7-day unlimited
+6 unlimited & free generation models
+Unlimited paid parallel generations
+---
+Shared workspaces & credits
+---
+= Up to 37,500 credits/mo pooled
+---
+Starting from 1,000 credits/seat/mo
+From $65
+per seat/month
+Explore Plans
+---
+Save up to 30% with annual billing
+---
+Delegated top-up access
+Unlimited models and Free Generations on plans are accessible only via higgsfield.ai and are not accessible on MCP/CLI, Canvas or Supercomputer.
+Prices exclude VAT and local taxes, calculated at checkout. Unlimited usage may be subject to dynamic speed adjustments during high-traffic periods. Learn more
+---
+2
+How many content items per month?

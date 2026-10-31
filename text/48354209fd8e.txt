@@ -1,5 +1,5 @@
 NEW
-Universal-3.6 Pro Realtime is now available
+AssemblyAI-TTS-1: Text-to-speech for voice agents.
 LEARN MORE
 x
 Products
@@ -33,6 +33,7 @@ TRANSCRIBE
 Pre-recorded Speech-to-Text API
 Realtime Speech-to-Text API
 Sync Speech-to-Text API
+Dictation API
 
 UNDERSTAND
 
@@ -40,10 +41,9 @@ Speech Understanding API
 Guardrails
 LLM Gateway
 
-BUILD
+INTERACT
 
-Voice Agent API
-Dictation API
+Text-to-Speech API
 Pre-recorded Speech-to-Text API
 
 Build Voice AI on the most accurate Speech-to-Text with language detection, formatting, filler words, keyterms prompting, custom spelling, word-level timestamps, and more.
@@ -97,10 +97,10 @@ expand_more
 
 Yes. You can create an account and start transcribing immediately with no credit card required. The free tier includes up to 185 hours of pre-recorded transcription and up to 333 hours of streaming transcription.
 
-What is included in the $4.50/hr Voice Agent API price?
+How is the Text-to-Speech API billed?
 expand_more
 
-Speech-to-text on Universal-3.6 Pro Realtime with prompting and Voice Focus, advanced turn detection, interruption detection, our Voice Agent LLM, our text-to-speech voices, and the infrastructure hosting that runs it all over a single WebSocket. Recordings and transcripts of every conversation are included as well, viewable in the dashboard or retrievable through the API. SIP trunking carries no markup either — connect your own Twilio account and keep the carrier contract you already have. There are no per-layer add-ons, concurrency fees, or per-agent subscriptions, and usage is billed per second on connected conversation time.
+The Text-to-Speech API is billed on the input characters you send, at $15 per 1M characters. Cloned voices and EU processing cost the same, and there is no spend commitment to unlock concurrency.
 
 Do you offer volume discounts?
 expand_more
@@ -180,8 +180,8 @@ Pre-recorded Speech-to-Text API
 Realtime Speech-to-Text API
 Sync Speech-to-Text API
 Speech Understanding API
-Voice Agent API
 Dictation API
+Text-to-Speech API
 Guardrails
 LLM Gateway
 Features
@@ -248,7 +248,3 @@ Privacy Policy
 Trust Center
 Subprocessors
 Do not sell my Personal Information
-Cookie Banner
-By clicking “Accept Cookies”, you agree to the storing of cookies on your device, pursuant to the AssemblyAI Privacy Policy. By clicking the Cookie Preferences button on the right, you can view US State Privacy notices and opt-out toggles, and otherwise exercise more granular preferences around how AssemblyAI uses non-essential cookies to process your information. For more information about how AssemblyAI stores and otherwise processes your personal information, and your related rights, please refer to our Privacy Policy.(AssemblyAI Privacy Policy)
-Cookie Preferences
-Reject Non-Essential Cookies Accept Cookies

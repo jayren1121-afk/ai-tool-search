@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
 Annual (Save 33%)
 Starter
@@ -9,9 +10,6 @@ $15
 ---
 Designed for casual creators who love to explore AI.
 ---
-50 GB storage
-Start Free Trial
-FOR CREATORS
 Pro
 ---
 5,000 monthly credits
@@ -35,11 +33,81 @@ For small to mid-sized teams scaling together.
 Start Now
 ---
 ✓
-Annual billing, minimum 10 users
+Flexible credits, 12-month contract
 ✓
 ---
 ✓
 10 TB storage (+1 TB per seat)
+CONTROL
+---
+Roadmap access and early features
+Contact Sales
+---
+50 free daily credits · No credit card required · Upgrade or downgrade anytime
+---
+Common questions
+Credits & billing
+How do credits work?
++
+What happens when I run out of credits?
++
+Is there a free tier? Do I need a credit card?
++
+---
++
+Does annual billing really save money?
++
+---
+Monthly product updates, launches, and creative AI notes.
+=== 計費模式: 年繳 (yearly) ===
+Monthly
+Annual (Save 33%)
+Starter
+---
+1,500 monthly credits
+---
+$15/mo
+---
+$10
+/mo
+---
+Designed for casual creators who love to explore AI.
+---
+Pro
+---
+5,000 monthly credits
+---
+$45/mo
+---
+$30
+/mo
+---
+For demanding creators who need high performance or custom models.
+---
+Max
+---
+10,000 monthly credits
+---
+$75/mo
+---
+$50
+/mo
+---
+For small to mid-sized teams scaling together.
+---
+✓
+1 TB storage (+1 TB per seat)
+Start Now
+---
+✓
+Flexible credits, 12-month contract
+✓
+---
+✓
+10 TB storage (+1 TB per seat)
+CONTROL
+---
+Roadmap access and early features
 Contact Sales
 ---
 50 free daily credits · No credit card required · Upgrade or downgrade anytime

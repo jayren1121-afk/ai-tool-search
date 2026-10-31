@@ -568,3 +568,17 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 10 ok openai/gpt-oss-120b https://www.craft.do/pricing 2947
 11 ok openai/gpt-oss-120b https://vectorizer.ai/pricing 1903
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 11, "ok": 11, "tokens": 28716, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://superhuman.com/pricing 2193
+2 ok openai/gpt-oss-120b https://deepgram.com/pricing 2752
+3 ok openai/gpt-oss-120b https://www.assemblyai.com/pricing 1811
+4 ok openai/gpt-oss-120b https://www.scenario.com/pricing 2486
+5 ok openai/gpt-oss-120b https://ltx.studio/pricing 3151
+6 ok openai/gpt-oss-120b https://www.saner.ai/pricing 2509
+7 ok openai/gpt-oss-120b https://www.mathgptpro.com/pricing 2678
+8 ok openai/gpt-oss-120b https://www.ocoya.com/pricing 2986
+9 ok openai/gpt-oss-120b https://www.jotform.com/ai/agents/pricing 3151
+10 ok openai/gpt-oss-120b https://www.patterned.ai/pricing 2383
+11 ok openai/gpt-oss-120b https://higgsfield.ai/pricing 4114
+12 ok openai/gpt-oss-120b https://www.warp.dev/pricing 3560
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 12, "ok": 12, "tokens": 33774, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
