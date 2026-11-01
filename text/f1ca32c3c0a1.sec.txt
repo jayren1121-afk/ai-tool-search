@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Team
 Contact sales
 Log in
@@ -31,21 +32,152 @@ billed annually
 500,000 words per month
 All of Premium
 ---
-Everything you get with a Professional plan, for everyone.
+Every seat includes
+Everything in the Professional plan, per seat
 Shared team credits
-Unified billing
-Create a team
-Contact Sales
-Professional Plan
-Billing Cycle
+Unified billing and seat management
+500,000 words per member, per month
+---
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+---
+Billing period
 Annual
-(Save 45%)
+save 46%
+Monthly
 Seats
-$49.98/mo
-billed annually
-$24.99/mo x 2 members
-Save $504/year
-Purchase Seats
+3
+Min 2 seats.
+Order summary
+$74.97
+/ month
+Save $756 / year
+$24.99/mo × 3 seats, billed annually $899.64
+Purchase 3 seats
+Compare Plans
+PREMIUM
+---
+Detection features
+Words per month
+300,000
+---
+View Pricing
+Contact Sales
+© 2023 - 2026 GPTZero
+=== 計費模式: 月繳 (monthly) ===
+Team
+Contact sales
+Log in
+I’m an Educator
+Get started for free
+---
+Annual (Save 45%)
+Monthly
+FREE
+$0
+10,000 words per month
+Basic AI Scan
+1 Free Advanced Scan
+5 Free AI Highlights in Chrome Extension
+PREMIUM
+MOST POPULAR
+$23.99
+/ month
+300,000 words per month
+Up to 300,000 words per month
+Advanced AI Scan
+---
+Download AI reports
+AI Highlights in Chrome Extension
+Choose Plan
+PROFESSIONAL
+$45.99
+/ month
+500,000 words per month
+All of Premium
+---
+Every seat includes
+Everything in the Professional plan, per seat
+Shared team credits
+Unified billing and seat management
+500,000 words per member, per month
+---
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+---
+Billing period
+Annual
+save 46%
+Monthly
+Seats
+3
+Min 2 seats.
+Order summary
+$74.97
+/ month
+Save $756 / year
+$24.99/mo × 3 seats, billed annually $899.64
+Purchase 3 seats
+Compare Plans
+PREMIUM
+---
+Detection features
+Words per month
+300,000
+---
+View Pricing
+Contact Sales
+© 2023 - 2026 GPTZero
+=== 計費模式: 月繳 (monthly) #2 ===
+Team
+Contact sales
+Log in
+I’m an Educator
+Get started for free
+---
+Annual (Save 45%)
+Monthly
+FREE
+$0
+10,000 words per month
+Basic AI Scan
+1 Free Advanced Scan
+5 Free AI Highlights in Chrome Extension
+PREMIUM
+MOST POPULAR
+$23.99
+/ month
+300,000 words per month
+Up to 300,000 words per month
+Advanced AI Scan
+---
+Download AI reports
+AI Highlights in Chrome Extension
+Choose Plan
+PROFESSIONAL
+$45.99
+/ month
+500,000 words per month
+All of Premium
+---
+Every seat includes
+Everything in the Professional plan, per seat
+Shared team credits
+Unified billing and seat management
+500,000 words per member, per month
+---
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+---
+Billing period
+Annual
+save 46%
+Monthly
+Seats
+3
+Min 2 seats.
+Order summary
+$137.97
+/ month
+$45.99/mo × 3 seats, billed monthly
+Purchase 3 seats
 Compare Plans
 PREMIUM
 ---

@@ -118,15 +118,15 @@ Hours included monthly
 60
 Custom
 Call duration
-$0.06 per minute
-$0.06 per minute
-$0.06 per minute
-$0.06 per minute
+$0.03 per minute
+$0.03 per minute
+$0.03 per minute
+$0.03 per minute
 Custom
 Telephony
 $0.014 per minute when using a Cartesia-provided phone number
 LLM usage during calls
-Free for UI-created agents for a limited time
+Billed separately
 Evaluations
 Free of charge for a limited time only
 FAQs
@@ -145,4 +145,4 @@ What happens if I use more prepaid voice agent dollars than I have in my account
 ---
 Events
 Free tools
-Learn
+Integrations

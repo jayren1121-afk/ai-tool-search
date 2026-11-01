@@ -243,8 +243,16 @@ Privacy Policy
 SLA and Support Policy
 Terms of Service
 
-© 2026 Augment Code. All rights reserved.
+© 2026 Harness, Inc. All rights reserved.
 
+Opt Out
+Do Not Sell or Share My Personal Information
+Cookie Settings
 DARK
 LIGHT
 SYSTEM
+Cookie Notice. By clicking "Accept All," you agree to the storing and use of cookies, web beacons, and similar technologies as described in our Privacy Statement, for various purposes, including to enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more about our data practices or to exercise your privacy rights please see Harness Privacy Statement.
+Cookie Notice
+By clicking "Accept All," you agree to the storing and use of cookies, web beacons, and similar technologies as described in our Privacy Statement, for various purposes, including to enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more about our data practices or to exercise your privacy rights please see Harness Privacy Statement.
+Manage Preferences
+Accept All

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Products
 Resources
 Pricing
@@ -47,23 +48,342 @@ Used in over 100 countries
 
 Official AI detector partners of the American Federation of Teachers
 
-Enterprise and Team Plans
-Purchase multiple plans at once for your organization.
-Everything you get with a Professional plan, for everyone.
+Get started with a team plan
+
+Start a team plan without a sales call, quote, or waiting around. You get everything in an individual plan with centralized billing and controls.
+
+Professional Team Plan
+Every seat includes
+Everything in the Professional plan, per seat
 Shared team credits
-Unified billing
-Create a team
-Contact Sales
-Professional Plan
-Billing Cycle
+Unified billing and seat management
+500,000 words per member, per month
+
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+
+Team name *
+Billing period
 Annual
-(Save 45%)
+save 46%
+Monthly
 Seats
-$49.98/mo
-billed annually
-$24.99/mo x 2 members
-Save $504/year
-Purchase Seats
+3
+Min 2 seats.
+Order summary
+$74.97
+/ month
+Save $756 / year
+$24.99/mo × 3 seats, billed annually $899.64
+Purchase 3 seats
+Compare Plans
+PREMIUM
+Choose Plan
+PROFESSIONAL
+Choose Plan
+Detection features
+Words per month
+300,000
+500,000
+Character limit per scan
+50,000
+150,000
+Multi-model AI detection (Gemini, Claude, LLaMa, etc.)
+Mixed AI and human text detection
+Sentence-level AI highlighting
+AI Vocabulary Scan
+Paraphraser and AI bypasser detection
+Batch upload file limit
+50
+250
+Advanced AI scan
+Downloadable AI report
+Plagiarism checker
+Page by page scanning
+Writing features
+Grammar Check
+Writing feedback
+Find Sources and Auto-Generate Citations
+Collaboration features
+Enterprise Grade Security and Privacy
+Roles, Accounts Provisioning, and Shared Billing Across Teams
+Custom LMS Integration (Canvas, Google Classroom)
+API for developers
+A powerful API Integration seamlessly integrates our AI detector into any platform. Ready-to-use code available in 17 different languages, including Node.JS, Python, C#, Java, PHP, and more.
+View Pricing
+Contact Sales
+© 2023 - 2026 GPTZero
+4.7
+★★★★★
+★★★★★
+(707 reviews)
+Products
+AI Detector
+Hallucination Detector
+Plagiarism Check
+Authorship & Writing Replay
+Expert Feedback
+Grammar Checker
+Chrome Extension
+AI Vision
+Resources
+Pricing
+Sales
+For Educators
+For Students
+How it Works
+Research Collaboration
+For writers
+For recruiters
+AI Guide for Seniors
+Company
+About us
+Team
+Affiliates
+Press
+Blog
+Superhuman
+Grammarly
+Help
+FAQ
+Help
+Privacy Policy
+Cookie Policy
+Terms of Use
+Cookie Settings
+Contact
+Contact form
+Stay up to date
+Subscribe
+
+=== 計費模式: 月繳 (monthly) ===
+Products
+Resources
+Pricing
+Team
+Contact sales
+Log in
+I’m an Educator
+Get started for free
+
+Words that matter start with the right plan
+
+Annual (Save 45%)
+Monthly
+FREE
+$0
+10,000 words per month
+Basic AI Scan
+1 Free Advanced Scan
+5 Free AI Highlights in Chrome Extension
+PREMIUM
+MOST POPULAR
+$23.99
+/ month
+300,000 words per month
+Up to 300,000 words per month
+Advanced AI Scan
+Multilingual AI detection
+Download AI reports
+AI Highlights in Chrome Extension
+Choose Plan
+PROFESSIONAL
+$45.99
+/ month
+500,000 words per month
+All of Premium
+Up to 2 million words overage
+Scan up to 250 files at once
+Page by page scanning
+Enterprise grade security LMS Integration
+Choose Plan
+
+Trusted by over 10 million teachers and students
+
+Used in over 100 countries
+
+Official AI detector partners of the American Federation of Teachers
+
+Get started with a team plan
+
+Start a team plan without a sales call, quote, or waiting around. You get everything in an individual plan with centralized billing and controls.
+
+Professional Team Plan
+Every seat includes
+Everything in the Professional plan, per seat
+Shared team credits
+Unified billing and seat management
+500,000 words per member, per month
+
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+
+Team name *
+Billing period
+Annual
+save 46%
+Monthly
+Seats
+3
+Min 2 seats.
+Order summary
+$74.97
+/ month
+Save $756 / year
+$24.99/mo × 3 seats, billed annually $899.64
+Purchase 3 seats
+Compare Plans
+PREMIUM
+Choose Plan
+PROFESSIONAL
+Choose Plan
+Detection features
+Words per month
+300,000
+500,000
+Character limit per scan
+50,000
+150,000
+Multi-model AI detection (Gemini, Claude, LLaMa, etc.)
+Mixed AI and human text detection
+Sentence-level AI highlighting
+AI Vocabulary Scan
+Paraphraser and AI bypasser detection
+Batch upload file limit
+50
+250
+Advanced AI scan
+Downloadable AI report
+Plagiarism checker
+Page by page scanning
+Writing features
+Grammar Check
+Writing feedback
+Find Sources and Auto-Generate Citations
+Collaboration features
+Enterprise Grade Security and Privacy
+Roles, Accounts Provisioning, and Shared Billing Across Teams
+Custom LMS Integration (Canvas, Google Classroom)
+API for developers
+A powerful API Integration seamlessly integrates our AI detector into any platform. Ready-to-use code available in 17 different languages, including Node.JS, Python, C#, Java, PHP, and more.
+View Pricing
+Contact Sales
+© 2023 - 2026 GPTZero
+4.7
+★★★★★
+★★★★★
+(707 reviews)
+Products
+AI Detector
+Hallucination Detector
+Plagiarism Check
+Authorship & Writing Replay
+Expert Feedback
+Grammar Checker
+Chrome Extension
+AI Vision
+Resources
+Pricing
+Sales
+For Educators
+For Students
+How it Works
+Research Collaboration
+For writers
+For recruiters
+AI Guide for Seniors
+Company
+About us
+Team
+Affiliates
+Press
+Blog
+Superhuman
+Grammarly
+Help
+FAQ
+Help
+Privacy Policy
+Cookie Policy
+Terms of Use
+Cookie Settings
+Contact
+Contact form
+Stay up to date
+Subscribe
+
+=== 計費模式: 月繳 (monthly) #2 ===
+Products
+Resources
+Pricing
+Team
+Contact sales
+Log in
+I’m an Educator
+Get started for free
+
+Words that matter start with the right plan
+
+Annual (Save 45%)
+Monthly
+FREE
+$0
+10,000 words per month
+Basic AI Scan
+1 Free Advanced Scan
+5 Free AI Highlights in Chrome Extension
+PREMIUM
+MOST POPULAR
+$23.99
+/ month
+300,000 words per month
+Up to 300,000 words per month
+Advanced AI Scan
+Multilingual AI detection
+Download AI reports
+AI Highlights in Chrome Extension
+Choose Plan
+PROFESSIONAL
+$45.99
+/ month
+500,000 words per month
+All of Premium
+Up to 2 million words overage
+Scan up to 250 files at once
+Page by page scanning
+Enterprise grade security LMS Integration
+Choose Plan
+
+Trusted by over 10 million teachers and students
+
+Used in over 100 countries
+
+Official AI detector partners of the American Federation of Teachers
+
+Get started with a team plan
+
+Start a team plan without a sales call, quote, or waiting around. You get everything in an individual plan with centralized billing and controls.
+
+Professional Team Plan
+Every seat includes
+Everything in the Professional plan, per seat
+Shared team credits
+Unified billing and seat management
+500,000 words per member, per month
+
+Card payment only. For purchase orders, invoicing, and larger teams contact sales.
+
+Team name *
+Billing period
+Annual
+save 46%
+Monthly
+Seats
+3
+Min 2 seats.
+Order summary
+$137.97
+/ month
+$45.99/mo × 3 seats, billed monthly
+Purchase 3 seats
 Compare Plans
 PREMIUM
 Choose Plan

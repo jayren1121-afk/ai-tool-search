@@ -748,3 +748,21 @@ SCRAPE DONE
 2 15 scraped https://superhuman.com/pricing 15.0
 舊版頁面還要重抓： 38 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 15 （已完成 378 ；其中舊版重抓 15 ）
+0 1 scraped https://predis.ai/pricing 10.2
+1 2 scraped https://www.ai2sql.io/pricing 11.8
+2 3 scraped https://sider.ai/pricing 11.0
+2 4 scraped https://factory.ai/pricing 6.8
+0 5 scraped https://www.imagine.art/pricing 19.6
+2 6 scraped https://cartesia.ai/pricing 13.0
+1 7 scraped https://www.kittl.com/pricing 20.5
+0 8 scraped https://www.shortwave.com/pricing 5.2
+2 9 scraped https://www.activepieces.com/pricing 10.4
+0 10 scraped https://www.augmentcode.com/pricing 8.3
+1 11 scraped https://gptzero.me/pricing 12.4
+1 12 scraped https://sparkmailapp.com/pricing 15.6
+0 13 no_price_found https://www.hume.ai/pricing 19.0
+2 14 scraped https://wan.video/pricing 19.4
+1 15 scraped https://pipedream.com/pricing 13.9
+舊版頁面還要重抓： 23 個（每次最多 15 個）
+SCRAPE DONE

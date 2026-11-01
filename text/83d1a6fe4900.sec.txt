@@ -1,10 +1,11 @@
+=== 計費模式: 預設畫面 (default) ===
 Demo
 Login
 Try for free
 Make ads, videos & UGC.
 For less than $1/day
 Predis.ai makes ads that your brand needs and reports back on what earned the click.
-Annually 30% off
+Annually 50% off
 Monthly
 Enterprise +
 $
@@ -33,9 +34,9 @@ Extra Credits
 Most popular
 Rise
 $
-55
+40
 /month $79
-$664 Billed Yearly
+$474 Billed Yearly
 Under $2/day across 4 brands
 3,200
 credits / month
@@ -61,9 +62,9 @@ Extra Credits
 +
 Core
 $
-24
+19
 /month $32
-$288 Billed Yearly
+$230 Billed Yearly
 Less than $1/day to keep one brand active
 1,300
 credits / month
@@ -89,12 +90,220 @@ Extra Credits
 +
 ---
 Every plan starts with 3 days free. We take a card to start the trial and charge it when day 3 ends, so cancel before then if it isn't for you.
+All prices are in USD, plus taxes where applicable.
 ---
 Number of clients
 Ads or posts per client per month
 Minutes to make each ad or post
 ---
 What are credits?
+---
+Credits are used to generate content on Predis.ai. Every generation uses credits. Each type of content and the model used has a different credit cost.
+---
+Get started
+for free
+=== 計費模式: 年繳 (yearly) ===
+Demo
+Login
+Try for free
+Make ads, videos & UGC.
+For less than $1/day
+Predis.ai makes ads that your brand needs and reports back on what earned the click.
+Annually 50% off
+Monthly
+Enterprise +
+$
+249
+/month
+Under $9/day to run ads and social for all clients
+10,000
+credits / month
+About 2500 images or 250 videos
+---
+Publish to 60 channels
+600 Competitor Runs/month
+Faster Generation Speed
+API Access
+Pricing
+Add-ons
+400 Social Channels
+($99/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+Most popular
+Rise
+$
+79
+/month
+Under $3/day to run your entire social presence
+3,200
+credits / month
+About 800 images or 80 videos
+---
+Publish to 20 channels
+130 Competitor Runs/month
+Fast Generation Speed
+API Access
+Pricing
+Add-ons
+Extra Brand
+($5/month)
+-
++
+40 Social Channels
+($25/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+Core
+$
+32
+/month
+That's about $1/day for content across every channel
+1,300
+credits / month
+About 325 images or 33 videos
+---
+Publish to 10 channels
+60 Competitor Runs/month
+Standard Generation Speed
+API Access
+Pricing
+Add-ons
+Extra Brand
+($5/month)
+-
++
+1 Social Channel
+($5/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+---
+Every plan starts with 3 days free. We take a card to start the trial and charge it when day 3 ends, so cancel before then if it isn't for you.
+All prices are in USD, plus taxes where applicable.
+---
+Number of clients
+Ads or posts per client per month
+Minutes to make each ad or post
+---
+What are credits?
+---
+Credits are used to generate content on Predis.ai. Every generation uses credits. Each type of content and the model used has a different credit cost.
+---
+Get started
+for free
+=== 計費模式: 月繳 (monthly) ===
+Demo
+Login
+Try for free
+Make ads, videos & UGC.
+For less than $1/day
+Predis.ai makes ads that your brand needs and reports back on what earned the click.
+Annually 50% off
+Monthly
+Enterprise +
+$
+212
+/month $249
+$2540 Billed Yearly
+Under $7/day for unlimited brands
+10,000
+credits / month
+About 2500 images or 250 videos
+---
+Publish to 60 channels
+600 Competitor Runs/month
+Faster Generation Speed
+API Access
+Pricing
+Add-ons
+400 Social Channels
+($99/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+Most popular
+Rise
+$
+40
+/month $79
+$474 Billed Yearly
+Under $2/day across 4 brands
+3,200
+credits / month
+About 800 images or 80 videos
+---
+Publish to 20 channels
+130 Competitor Runs/month
+Fast Generation Speed
+API Access
+Pricing
+Add-ons
+Extra Brand
+($5/month)
+-
++
+40 Social Channels
+($25/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+Core
+$
+19
+/month $32
+$230 Billed Yearly
+Less than $1/day to keep one brand active
+1,300
+credits / month
+About 325 images or 33 videos
+---
+Publish to 10 channels
+60 Competitor Runs/month
+Standard Generation Speed
+API Access
+Pricing
+Add-ons
+Extra Brand
+($5/month)
+-
++
+1 Social Channel
+($5/month)
+-
++
+Extra Credits
+($29/month)
+-
++
+---
+Every plan starts with 3 days free. We take a card to start the trial and charge it when day 3 ends, so cancel before then if it isn't for you.
+All prices are in USD, plus taxes where applicable.
+---
+Number of clients
+Ads or posts per client per month
+Minutes to make each ad or post
+---
+What are credits?
+---
+Credits are used to generate content on Predis.ai. Every generation uses credits. Each type of content and the model used has a different credit cost.
 ---
 Get started
 for free

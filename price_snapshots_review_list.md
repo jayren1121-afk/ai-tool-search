@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：48 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：209 筆
+- 可批次核准（無旗標）：47 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：211 筆
 
 核准單筆範本：
 ```sql
@@ -199,13 +199,15 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **warp**（Warp）旗標：price_change；Business: 資料集 $20.0/月 → 官網 $45.0；來源 https://www.warp.dev/pricing；擷取 2026-10-31T12:08:18+08:00
 - **higgsfield**（Higgsfield）旗標：has_promo；；來源 https://higgsfield.ai/pricing；擷取 2026-10-31T12:08:24+08:00
 - **superhuman**（Superhuman）旗標：has_promo；；來源 https://superhuman.com/pricing；擷取 2026-10-31T12:08:43+08:00
-- **ai2sql**（AI2SQL）旗標：dropped_fields, has_promo, period_ambiguous_toggle, price_unclear；Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle; Lifetime: price_unclear；來源 https://www.ai2sql.io/pricing；擷取 2026-10-12T13:42:53+08:00
-- **imagine-art**（Imagine Art）旗標：dropped_fields, period_ambiguous_toggle；Basic: period_ambiguous_toggle; Ultimate: period_ambiguous_toggle; Creator: period_ambiguous_toggle；來源 https://www.imagine.art/pricing；擷取 2026-10-12T13:43:00+08:00
-- **fontjoy**（Kittl）旗標：has_promo, name_missing, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle; None: name_missing, period_ambiguous_toggle；來源 https://www.kittl.com/pricing；擷取 2026-10-12T13:43:05+08:00
-- **activepieces**（Activepieces）旗標：dropped_fields, period_ambiguous_toggle；Plus: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.activepieces.com/pricing；擷取 2026-10-12T13:43:21+08:00
-- **wan**（Wan (通義萬相)）旗標：has_promo, price_near_quote, yearly_gt_monthly；Pro: yearly_gt_monthly; Premium: yearly_gt_monthly；來源 https://wan.video/pricing；擷取 2026-10-12T13:43:32+08:00
-- **spark-mail**（Spark Mail）旗標：has_promo, name_diff, period_ambiguous_toggle, price_near_quote；資料集方案 ['Teams'] vs 新 ['Plus', 'Pro']; Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://sparkmailapp.com/pricing；擷取 2026-10-12T13:43:42+08:00
-- **pipedream**（Pipedream）旗標：dropped_fields, name_diff, period_ambiguous_toggle；資料集方案 ['Team', 'Plus'] vs 新 ['Free', 'Startup']; Startup: period_ambiguous_toggle；來源 https://pipedream.com/pricing；擷取 2026-10-12T13:43:45+08:00
+- **ai2sql**（AI2SQL）旗標：has_promo, period_ambiguous_toggle, price_near_quote, price_unclear；Start: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle; Lifetime: price_unclear；來源 https://www.ai2sql.io/pricing；擷取 2026-11-01T12:07:49+08:00
+- **sider**（Sider）旗標：has_promo；；來源 https://sider.ai/pricing；擷取 2026-11-01T12:07:50+08:00
+- **imagine-art**（Imagine Art）旗標：has_promo；；來源 https://www.imagine.art/pricing；擷取 2026-11-01T12:07:58+08:00
+- **fontjoy**（Kittl）旗標：has_promo, price_near_quote；；來源 https://www.kittl.com/pricing；擷取 2026-11-01T12:08:01+08:00
+- **activepieces**（Activepieces）旗標：dropped_fields；；來源 https://www.activepieces.com/pricing；擷取 2026-11-01T12:08:20+08:00
+- **gptzero**（GPTZero）旗標：dropped_fields, has_promo；；來源 https://gptzero.me/pricing；擷取 2026-11-01T12:08:21+08:00
+- **wan**（Wan (通義萬相)）旗標：has_promo, price_near_quote；；來源 https://wan.video/pricing；擷取 2026-11-01T12:08:32+08:00
+- **spark-mail**（Spark Mail）旗標：has_promo, name_diff, price_near_quote；資料集方案 ['Teams'] vs 新 ['Plus', 'Pro']；來源 https://sparkmailapp.com/pricing；擷取 2026-11-01T12:08:34+08:00
+- **pipedream**（Pipedream）旗標：dropped_fields, name_diff；資料集方案 ['Team', 'Plus'] vs 新 ['Startup']；來源 https://pipedream.com/pricing；擷取 2026-11-01T12:08:49+08:00
 - **artbreeder**（Artbreeder）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing；來源 https://www.artbreeder.com/pricing；擷取 2026-10-12T13:43:55+08:00
 - **leonardo-motion**（Clipfly）旗標：has_promo；；來源 https://www.clipfly.ai/pricing；擷取 2026-10-12T13:43:59+08:00
 - **vapi**（Vapi）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Core', 'Pro']；來源 https://vapi.ai/pricing；擷取 2026-10-12T13:44:01+08:00

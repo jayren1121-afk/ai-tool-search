@@ -41,11 +41,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'copysmith' and fetched_at = '2026-10-31T12:08:05+08:00'::timestamptz;  -- Ocoya
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'vanna' and fetched_at = '2026-10-31T12:08:09+08:00'::timestamptz;  -- Vanna AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'patterned' and fetched_at = '2026-10-31T12:08:15+08:00'::timestamptz;  -- Patterned AI
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'factory' and fetched_at = '2026-10-12T13:43:10+08:00'::timestamptz;  -- Factory
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cartesia' and fetched_at = '2026-10-12T13:43:14+08:00'::timestamptz;  -- Cartesia
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'shortwave' and fetched_at = '2026-10-12T13:43:16+08:00'::timestamptz;  -- Shortwave
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'gptzero' and fetched_at = '2026-10-12T13:43:24+08:00'::timestamptz;  -- GPTZero
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'augment' and fetched_at = '2026-10-12T13:43:28+08:00'::timestamptz;  -- Augment Code
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'factory' and fetched_at = '2026-11-01T12:08:01+08:00'::timestamptz;  -- Factory
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cartesia' and fetched_at = '2026-11-01T12:08:07+08:00'::timestamptz;  -- Cartesia
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'shortwave' and fetched_at = '2026-11-01T12:08:17+08:00'::timestamptz;  -- Shortwave
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'augment' and fetched_at = '2026-11-01T12:08:23+08:00'::timestamptz;  -- Augment Code
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'displayr' and fetched_at = '2026-10-12T13:43:52+08:00'::timestamptz;  -- Displayr
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hootsuite-owlywriter' and fetched_at = '2026-10-12T13:44:06+08:00'::timestamptz;  -- Hootsuite
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'mutable' and fetched_at = '2026-10-12T13:44:38+08:00'::timestamptz;  -- Pieces

@@ -1,21 +1,16 @@
-Search Everything
+=== 計費模式: 預設畫面 (default) ===
+00
+d
+00
+h
+00
+m
+00
+s
+HALLOWEEN 2026
+Spooky Deals
 
-Search across all features
-
-EXCLUSIVE ACCESS
-LIMITED OFFER
-
-Biggest Sale Ever! 50% OFF & Unlimited Free Generations on 20 models
-
-0d
-
-:
-
-00h
-
-:
-
-00m
+· The scariest price drop in GenAI history 🎃 Up to 38% off
 
 Home
 Assets
@@ -26,6 +21,10 @@ Video
 Audio
 Edit
 Upscale
+AI Influencer
+NEW
+Sabre
+NEW
 Fashion studio
 Ad studio
 Film studio
@@ -71,13 +70,16 @@ Grok
 
 Monthly
 Quarterly
--40%
 Yearly
--51%
+3 months free
 Individual Plans
 Business Plans
 
+31% OFF till 31st Oct
+
 Basic
+
+3 months free
 
 $13
 
@@ -114,9 +116,13 @@ Unlimited Models
 
 Unlimited free generations are exclusive to the Ultimate and Creator plans
 
+32% OFF till 31st Oct
+
 Ultimate
 
-$55
+3 months free
+
+$50
 
 $
 0
@@ -149,6 +155,9 @@ Get Started
 
 ≈ 3.2K images or 516 videos
 
+39% more value
+than Basic
+
 12 Concurrent Image Generations
 
 Basic +Advanced AI Models
@@ -161,9 +170,13 @@ Unlimited Models
 
 10 models · no credits used
 
+31% OFF till 31st Oct
+
 Creator
 
-$168
+3 months free
+
+$120
 
 $
 0
@@ -199,6 +212,9 @@ Get Started
 
 ≈ 9K images or 1.5K videos
 
+63% more value
+than Basic
+
 16 Concurrent Image Generations
 
 Basic +Advanced AI Models
@@ -211,36 +227,1174 @@ Unlimited Models
 
 20 models · no credits used
 
-Teams & Business
+All unlimited models on the Ultimate plan
 
-Custom team members
+Seedance 2 Fast
 
-Custom solutions for every team, company, and agency.
+Kling 3.0 Pro
+
+Nano Banana 2
+
+GPT Image 2
+
+ImagineArt 2.0 & 1.5 Pro
+
+LUMA RAY2
+
+Flux.2 Pro
+
+xAI Grok Imagine
+
+Seedream V5 Pro
+
+Enterprise
+
+Custom Pricing
+
+Custom AI solutions and models, with enterprise-grade control.
 
 Contact Sales
 View team plans →
 
-Custom credits amount
+Custom credit volume
 
 UNLIMITED Members
 
-Higher Custom Currency
+Priority queue
 
-Premium 24/7 customer support
+24/7 dedicated support
 
 Enterprise Plan Details
 
-Access to all leading AI image and video models, plus Workflows.
+Leading AI models & Workflows.
 
-Shared credits across unlimited seats.
+Tailored Studios for Fashion, Ads, Film.
 
-Custom concurrent generations with priority queue.
+Shared credits & real-time collaboration.
 
-Legal indemnification and commercial license for AI-generated content.
+Team groups, asset folders & libraries.
 
-SOC 2 compliance with DPA, encryption, SSO and strict privacy controls.
+Custom concurrency & priority queue.
 
-Centralized admin control with per-user credit usage and permissions.
+Admin roles, permissions & per-user credit usage.
+
+Detailed usage analytics & reporting.
+
+Custom SSO.
+
+SOC 2, DPA & privacy controls.
+
+No training on your data.
+
+Legal indemnification & commercial license.
+
+Free
+
+Try ImagineArt with daily free credits.
+
+All plans include GPT, Gemini & Claude models
+
+Start for free
+
+Trusted by Professionals and Creators from top Brands and Companies
+
+Pay safely and securely with
+
+Free
+
+$0/month
+
+Basic
+
+$9/month
+
+Get Started
+
+Ultimate
+
+$34/month
+
+Get Started
+
+Creator
+
+$175/month
+
+Get Started
+
+Creator
+
+$83/month
+
+Get Started
+Platform Special
+
+Team Collaborators
+
++6
+
++20
+
++20
+
+Priority in generation queue
+
+Video
+
+Premium Video Models
+
+Concurrent Generations
+
+2
+
+4
+
+5
+
+5
+
+Unlimited Models
+
+No. of Videos
+
+Upto 420
+
+Upto 1180
+
+Upto 3000
+
+Upto 3000
+
+Last Frame
+
+Video Length
+
+3-6s
+
+3-12s
+
+3-12s
+
+3-12s
+
+Video Resolution
+
+Upto 768p
+
+Upto 4K
+
+Upto 4K
+
+Upto 4K
+
+Image
+
+Concurrent Generations
+
+4
+
+12
+
+16
+
+16
+
+Unlimited Models
+
+Personalize Elements
+
+Upto 1
+
+Upto 30
+
+Unlimited
+
+Unlimited
+
+No. of Images
+
+Upto 2550
+
+Upto 7050
+
+Upto 18000
+
+Upto 18000
+
+Image Edits
+
+700
+
+1950
+
+5000
+
+5000
+
+Image Upscales
+
+Upto 430
+
+Upto 2000
+
+Upto 6250
+
+Upto 6250
+
+Lipsync Studio
+
+Kling Avatars 2.0 Pro
+
+Upto 11 Videos
+
+Upto 53 Videos
+
+Upto 166 Videos
+
+Upto 166 Videos
+
+Kling 2.6
+
+Upto 8 Videos
+
+Upto 38 Videos
+
+Upto 119 Videos
+
+Upto 119 Videos
+
+Google VEO 3.1
+
+Upto 1 Videos
+
+Upto 8 Videos
+
+Upto 26 Videos
+
+Upto 26 Videos
+
+WAN 2.6
+
+Upto 11 Videos
+
+Upto 53 Videos
+
+Upto 50 Videos
+
+Upto 50 Videos
+
+Infini Talk
+
+Upto 3 Videos
+
+Upto 16 Videos
+
+Upto 50 Videos
+
+Upto 50 Videos
+
+Audio
+
+Voice Clones
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Speech Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Song Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Music Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+FAQs
+What are credits?
+How are credits rolled over?
+Can I use imagineArt for free?
+Do I have to buy a plan to unlock video generation?
+What is the difference between buying credits and subscriptions?
+Refund policy?
+How to Downgrade
+What if my generations fail?
+Commercial Use Policy
+
+=== 計費模式: 月繳 (monthly) ===
+00
+d
+00
+h
+00
+m
+00
+s
+HALLOWEEN 2026
+Spooky Deals
+
+· The scariest price drop in GenAI history 🎃 Up to 38% off
+
+Home
+Assets
+Brand Kits
+Search
+Image
+Video
+Audio
+Edit
+Upscale
+AI Influencer
+NEW
+Sabre
+NEW
+Fashion studio
+Ad studio
+Film studio
+Tools
+Apps
+Community
+Imagine MCP
+NEW
+Plugins
+NEW
+Imagine Academy
+NEW
+Agent
+AI Toolkit
+Workflow
+Contact Sales
+Pricing
+Login
+Sign Up
+Choose a plan that fits your needs
+
+Upgrade to get access to pro features and generate more and better
+
+Kling
+
+ByteDance
+
+Minimax
+
+Nano Banana
+
+Gemini
+
+Claude
+
+Qwen
+
+GPT Image
+
+Runway
+
+Grok
+
+Monthly
+Quarterly
+Yearly
+3 months free
+Individual Plans
+Business Plans
+
+Basic
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed monthly
+
+Get Started
+
+3,000 credits per month
+
+≈ 600 images or 96 videos
+
+4 Concurrent Image Generations
+
+Basic AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+Unlimited free generations are exclusive to the Ultimate and Creator plans
+
+Ultimate
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed monthly
+
+Get Started
+
+16,000 credits per month
+
+≈ 3.2K images or 516 videos
+
+39% more value
+than Basic
+
+12 Concurrent Image Generations
+
+Basic +Advanced AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+10 models · no credits used
+
+Creator
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed monthly
+
+Get Started
+
+45,000 credits
+
+45K
+100K
+
+≈ 9K images or 1.5K videos
+
+63% more value
+than Basic
+
+16 Concurrent Image Generations
+
+Basic +Advanced AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+20 models · no credits used
+
+All unlimited models on the Ultimate plan
+
+Seedance 2 Fast
+
+Kling 3.0 Pro
+
+Nano Banana 2
+
+GPT Image 2
+
+ImagineArt 2.0 & 1.5 Pro
+
+LUMA RAY2
+
+Flux.2 Pro
+
+xAI Grok Imagine
+
+Seedream V5 Pro
+
+Enterprise
+
+Custom Pricing
+
+Custom AI solutions and models, with enterprise-grade control.
+
+Contact Sales
+View team plans →
+
+Custom credit volume
+
+UNLIMITED Members
+
+Priority queue
+
+24/7 dedicated support
+
+Enterprise Plan Details
+
+Leading AI models & Workflows.
+
+Tailored Studios for Fashion, Ads, Film.
+
+Shared credits & real-time collaboration.
+
+Team groups, asset folders & libraries.
+
+Custom concurrency & priority queue.
+
+Admin roles, permissions & per-user credit usage.
+
+Detailed usage analytics & reporting.
+
+Custom SSO.
+
+SOC 2, DPA & privacy controls.
+
+No training on your data.
+
+Legal indemnification & commercial license.
+
+Free
+
+Try ImagineArt with daily free credits.
+
+All plans include GPT, Gemini & Claude models
+
+Start for free
+
+Trusted by Professionals and Creators from top Brands and Companies
+
+Pay safely and securely with
+
+Free
+
+$0/month
+
+Basic
+
+$13/month
+
+Get Started
+
+Ultimate
+
+$50/month
+
+Get Started
+
+Creator
+
+$250/month
+
+Get Started
+
+Creator
+
+$120/month
+
+Get Started
+Platform Special
+
+Team Collaborators
+
++6
+
++20
+
++20
+
+Priority in generation queue
+
+Video
+
+Premium Video Models
+
+Concurrent Generations
+
+2
+
+4
+
+5
+
+5
+
+Unlimited Models
+
+No. of Videos
+
+Upto 420
+
+Upto 1180
+
+Upto 3000
+
+Upto 3000
+
+Last Frame
+
+Video Length
+
+3-6s
+
+3-12s
+
+3-12s
+
+3-12s
+
+Video Resolution
+
+Upto 768p
+
+Upto 4K
+
+Upto 4K
+
+Upto 4K
+
+Image
+
+Concurrent Generations
+
+4
+
+12
+
+16
+
+16
+
+Unlimited Models
+
+Personalize Elements
+
+Upto 1
+
+Upto 30
+
+Unlimited
+
+Unlimited
+
+No. of Images
+
+Upto 2550
+
+Upto 7050
+
+Upto 18000
+
+Upto 18000
+
+Image Edits
+
+700
+
+1950
+
+5000
+
+5000
+
+Image Upscales
+
+Upto 430
+
+Upto 2000
+
+Upto 6250
+
+Upto 6250
+
+Lipsync Studio
+
+Kling Avatars 2.0 Pro
+
+Upto 11 Videos
+
+Upto 53 Videos
+
+Upto 166 Videos
+
+Upto 166 Videos
+
+Kling 2.6
+
+Upto 8 Videos
+
+Upto 38 Videos
+
+Upto 119 Videos
+
+Upto 119 Videos
+
+Google VEO 3.1
+
+Upto 1 Videos
+
+Upto 8 Videos
+
+Upto 26 Videos
+
+Upto 26 Videos
+
+WAN 2.6
+
+Upto 11 Videos
+
+Upto 53 Videos
+
+Upto 50 Videos
+
+Upto 50 Videos
+
+Infini Talk
+
+Upto 3 Videos
+
+Upto 16 Videos
+
+Upto 50 Videos
+
+Upto 50 Videos
+
+Audio
+
+Voice Clones
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Speech Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Song Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+AI Music Generation
+
+Upto 3400
+
+Upto 7700
+
+Upto 19750
+
+Upto 19750
+
+FAQs
+What are credits?
+How are credits rolled over?
+Can I use imagineArt for free?
+Do I have to buy a plan to unlock video generation?
+What is the difference between buying credits and subscriptions?
+Refund policy?
+How to Downgrade
+What if my generations fail?
+Commercial Use Policy
+
+=== 計費模式: 月繳 (monthly) #2 ===
+00
+d
+00
+h
+00
+m
+00
+s
+HALLOWEEN 2026
+Spooky Deals
+
+· The scariest price drop in GenAI history 🎃 Up to 38% off
+
+Home
+Assets
+Brand Kits
+Search
+Image
+Video
+Audio
+Edit
+Upscale
+AI Influencer
+NEW
+Sabre
+NEW
+Fashion studio
+Ad studio
+Film studio
+Tools
+Apps
+Community
+Imagine MCP
+NEW
+Plugins
+NEW
+Imagine Academy
+NEW
+Agent
+AI Toolkit
+Workflow
+Contact Sales
+Pricing
+Login
+Sign Up
+Choose a plan that fits your needs
+
+Upgrade to get access to pro features and generate more and better
+
+Kling
+
+ByteDance
+
+Minimax
+
+Nano Banana
+
+Gemini
+
+Claude
+
+Qwen
+
+GPT Image
+
+Runway
+
+Grok
+
+Monthly
+Quarterly
+Yearly
+3 months free
+Individual Plans
+Business Plans
+
+31% OFF till 31st Oct
+
+Basic
+
+3 months free
+
+$13
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed yearly
+
+Get Started
+
+3,000 credits per month
+
+≈ 600 images or 96 videos
+
+4 Concurrent Image Generations
+
+Basic AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+Unlimited free generations are exclusive to the Ultimate and Creator plans
+
+32% OFF till 31st Oct
+
+Ultimate
+
+3 months free
+
+$50
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed yearly
+
+Get Started
+
+16,000 credits per month
+
+≈ 3.2K images or 516 videos
+
+39% more value
+than Basic
+
+12 Concurrent Image Generations
+
+Basic +Advanced AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+10 models · no credits used
+
+30% OFF till 31st Oct
+
+Creator
+
+3 months free
+
+$250
+
+$
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+/month
+
+Billed yearly
+
+Get Started
+
+100,000 credits
+
+45K
+100K
+
+≈ 9K images or 1.5K videos
+
+73% more value
+than Basic
+
+16 Concurrent Image Generations
+
+Basic +Advanced AI Models
+
+Private Generations
+
+Studios (Ad, Fashion & Film)
+
+Unlimited Models
+
+20 models · no credits used
+
+All unlimited models on the Ultimate plan
+
+Seedance 2 Fast
+
+Kling 3.0 Pro
+
+Nano Banana 2
+
+GPT Image 2
+
+ImagineArt 2.0 & 1.5 Pro
+
+LUMA RAY2
+
+Flux.2 Pro
+
+xAI Grok Imagine
+
+Seedream V5 Pro
+
+Enterprise
+
+Custom Pricing
+
+Custom AI solutions and models, with enterprise-grade control.
+
+Contact Sales
+View team plans →
+
+Custom credit volume
+
+UNLIMITED Members
+
+Priority queue
+
+24/7 dedicated support
+
+Enterprise Plan Details
+
+Leading AI models & Workflows.
+
+Tailored Studios for Fashion, Ads, Film.
+
+Shared credits & real-time collaboration.
+
+Team groups, asset folders & libraries.
+
+Custom concurrency & priority queue.
+
+Admin roles, permissions & per-user credit usage.
+
+Detailed usage analytics & reporting.
+
+Custom SSO.
+
+SOC 2, DPA & privacy controls.
+
+No training on your data.
+
+Legal indemnification & commercial license.
 
 Free
 

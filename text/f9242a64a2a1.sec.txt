@@ -1,3 +1,138 @@
+=== 計費模式: 預設畫面 (default)＝月繳 (monthly) ===
+Chrome Awards: Editors' Picks 2026 · Favorites of 2025
+Yearly
+Monthly
+Pricing for teams
+✦ Go yearly: up to 17% + 20,000 bonus credits/month
+See my savings
+Nano
+For simple occasional tasks
+US$10 / mo
+Log in to Subscribe
+credits/mo
+Temporary Cloud Computer
+---
+Create
+Generate images, videos, slides, documents, and more
+Lite
+For most everyday tasks
+US$25 / mo
+Log in to Subscribe
+credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+2 vCPU · 2 GB RAM · 40 GB SSD (worth US$10/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Create
+Generate images, videos, slides, documents, and more
+Pro
+Do more with a higher quota
+US$50 / mo
+Log in to Subscribe
+credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+2 vCPU · 4 GB RAM · 40 GB SSD (worth US$15/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Create
+Generate images, videos, slides, documents, and more
+Max
+Maximize your productivity
+US$100 / mo
+Log in to Subscribe
+credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+4 vCPU · 8 GB RAM · 40 GB SSD (worth US$20/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Generate images, videos, slides, documents, and more
+Plans vary by monthly credits and cloud computer power.
+All plans include all features
+---
+Choose a higher plan for more credits and a stronger cloud computer.
+---
+Can I use one subscription across platforms?
+When do paid member credits reset?
+Can I share my Sider account with others?
+What happens when I upgrade from monthly to yearly?
+Will subscription features or plan terms change over time?
+=== 計費模式: 年繳 (yearly) ===
+Chrome Awards: Editors' Picks 2026 · Favorites of 2025
+Yearly
+Monthly
+Pricing for teams
+✓ You're saving up to 17% and getting bonus credits every month
+Nano
+17% OFF
+For simple occasional tasks
+US$8.33 / moUS$10
+Billed yearly at US$100
+Log in to Subscribe
+credits/mo
++2,500 bonus credits/mo
+Temporary Cloud Computer
+---
+Generate images, videos, slides, documents, and more
+Lite
+17% OFF
+For most everyday tasks
+US$20.83 / moUS$25
+Billed yearly at US$250
+Log in to Subscribe
+credits/mo
++10,000 bonus credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+2 vCPU · 2 GB RAM · 40 GB SSD (worth US$10/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Generate images, videos, slides, documents, and more
+Pro
+17% OFF
+Do more with a higher quota
+US$41.67 / moUS$50
+Billed yearly at US$500
+Log in to Subscribe
+credits/mo
++15,000 bonus credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+2 vCPU · 4 GB RAM · 40 GB SSD (worth US$15/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Generate images, videos, slides, documents, and more
+Max
+17% OFF
+Maximize your productivity
+US$83.33 / moUS$100
+Billed yearly at US$1000
+Log in to Subscribe
+credits/mo
++20,000 bonus credits/mo
+Dedicated Cloud Computer
+Runs Sider Hand 24/7 ·
+4 vCPU · 8 GB RAM · 40 GB SSD (worth US$20/mo)
+Chat
+Understand anything with GPT-6, Claude Fable 5.1, DeepSeek, Gemini, and more
+Hand
+---
+Generate images, videos, slides, documents, and more
+Plans vary by monthly credits and cloud computer power.
+All plans include all features
+---
 Choose a higher plan for more credits and a stronger cloud computer.
 ---
 Can I use one subscription across platforms?
