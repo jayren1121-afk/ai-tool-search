@@ -70,7 +70,7 @@ function SuggestButton({ hit, query, subNeed, label, sent, listed, fail }: {
   );
 }
 
-export default function SearchApp({ locale = "zh", children }: { locale?: Locale; children?: React.ReactNode }) {
+export default function SearchApp({ locale = "zh", children, sidebarTop }: { locale?: Locale; children?: React.ReactNode; sidebarTop?: React.ReactNode }) {
   const L = t(locale);
   const sb = useMemo(() => supabaseBrowser(), []);
   const [q, setQ] = useState(""); const [cat, setCat] = useState(""); const [pm, setPm] = useState("");
@@ -209,7 +209,7 @@ export default function SearchApp({ locale = "zh", children }: { locale?: Locale
         <OnSiteGuardToggle />
       </div>
       <div className="lg:grid lg:grid-cols-[15rem_minmax(0,1fr)] lg:items-start lg:gap-6">
-        <SearchSidebar locale={locale} query={q} onPrompt={usePrompt} />
+        <SearchSidebar locale={locale} query={q} onPrompt={usePrompt} top={sidebarTop} />
         <div className="min-w-0">
           <div className="sticky top-0 z-10 -mx-4 mb-4 flex flex-wrap gap-2 bg-slate-50/95 px-4 py-2 backdrop-blur">
             <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={L.searchPh} aria-label={L.searchPh}

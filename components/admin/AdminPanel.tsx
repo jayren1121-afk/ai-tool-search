@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { releaseText } from "@/lib/i18n";
 import PriceReviewSection, { type PriceReviewData } from "./PriceReviewSection";
+import DailyPicksSection, { type DailyPicksData } from "./DailyPicksSection";
 import HealthSection, { type HealthItem, type HealthRun, type HealthStats } from "./HealthSection";
 import { CATEGORIES } from "@/lib/types";
 
@@ -170,8 +171,8 @@ function SuggestionCard({ s, onDone }: { s: PendingSuggestion; onDone: (msg: str
   );
 }
 
-export default function AdminPanel({ pending, runs, setupError, health, prices, suggestions }: {
-  pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData; prices?: PriceReviewData;
+export default function AdminPanel({ pending, runs, setupError, health, prices, suggestions, dailyPicks }: {
+  pending: PendingTool[]; runs: JobRun[]; setupError: string | null; health?: HealthData; prices?: PriceReviewData; dailyPicks?: DailyPicksData;
   suggestions?: { items: PendingSuggestion[]; error: string | null };
 }) {
   const router = useRouter();
@@ -192,6 +193,8 @@ export default function AdminPanel({ pending, runs, setupError, health, prices, 
       </div>
       {setupError && <p className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{setupError}</p>}
       {msg && <p className="mb-4 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-800">{msg}</p>}
+
+      <DailyPicksSection data={dailyPicks} />
 
       <section className="mb-4" aria-label="Pending suggestions">
         <h2 className="mb-2 text-lg font-semibold">待審核建議（Pending suggestions）</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SearchApp from "@/components/SearchApp";
+import DailyPicks from "@/components/DailyPicks";
 import { jsonLd, langAlternates, siteDesc, siteName, SITE_URL, CATEGORY_INTRO } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
 import { categoryHref, catName, CATEGORY_INTRO_EN, HTML_LANG, OG_LOCALE, t, type Locale } from "@/lib/i18n";
@@ -27,7 +28,7 @@ export default function HomeView({ locale }: { locale: Locale }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(ld) }} />
-      <SearchApp locale={locale}>
+      <SearchApp locale={locale} sidebarTop={<DailyPicks locale={locale} />}>
         <section aria-labelledby="cats">
           <h2 id="cats" className="mb-3 mt-6 text-lg font-semibold">{L.browseCats}</h2>
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
