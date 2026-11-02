@@ -21,9 +21,9 @@ export default async function DailyPicks({ locale }: { locale: Locale }) {
             <li key={p.id} className="text-xs">
               <Link href={toolHref(locale, p.tool_id)} className="text-sm font-semibold text-indigo-700 hover:underline">{p.ai_tools?.name ?? p.tool_id}</Link>
               <span className="ml-1 text-slate-400">{catName(locale, p.category)}</span>
-              <p className="mt-1 font-medium text-emerald-700">{T.pros}</p>
+              <p className="mt-2 mb-1"><span className="inline-block rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">{T.pros}</span></p>
               <ul className="list-disc pl-4 text-slate-600">{lines(en ? p.pros_en || p.pros_zh : p.pros_zh).map((x, i) => <li key={i}>{x}</li>)}</ul>
-              <p className="mt-1 font-medium text-rose-700">{T.cons}</p>
+              <p className="mt-2 mb-1"><span className="inline-block rounded bg-rose-600 px-2 py-0.5 text-xs font-semibold text-white">{T.cons}</span></p>
               <ul className="list-disc pl-4 text-slate-600">{lines(en ? p.cons_en || p.cons_zh : p.cons_zh).map((x, i) => <li key={i}>{x}</li>)}</ul>
             </li>
           ))}
