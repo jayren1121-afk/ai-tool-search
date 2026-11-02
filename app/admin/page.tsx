@@ -8,6 +8,8 @@ import { ADMIN_COOKIE, adminConfigured, sessionOk } from "@/lib/admin-auth";
 import { isMissingColumn } from "@/lib/published";
 import { listPendingSuggestions, supabaseReady } from "@/lib/suggestion-store";
 import { supabaseAdmin } from "@/lib/supabase-admin";
+import type { AdminDailyPick, DailyPicksData } from "@/components/admin/DailyPicksSection";
+import { taipeiDate } from "@/lib/daily-picks";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -39,7 +41,7 @@ export default async function AdminPage() {
     db.from("job_runs").select("id,started_at,finished_at,status,message,details").eq("job", "discover").order("started_at", { ascending: false }).limit(5),
   ]);
   const setupError = pend.error ? `讀取待審核資料失敗：${pend.error.message}（請確認已在 Supabase 執行 supabase_migration_005.sql）` : runs.error ? `讀取排程紀錄失敗：${runs.error.message}` : null;
-  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} prices={await loadPrices(db)} suggestions={suggestions} />;
+  return <AdminPanel pending={(pend.data ?? []) as PendingTool[]} runs={(runs.data ?? []) as JobRun[]} setupError={setupError} health={await loadHealth(db)} prices={await loadPrices(db)} suggestions={suggestions} dailyPicks={await loadDailyPicks(db)} />;
 }
 
 /** 官網檢查區塊的資料；資料表尚未建立（migration 008）時只在該區塊顯示提示，不影響其他後台功能 */
@@ -103,4 +105,15 @@ async function loadPrices(db: ReturnType<typeof supabaseAdmin>): Promise<PriceRe
   items.sort((a, b) => t(b) - t(a));
   const latest = (s: string) => items.filter((r) => r.review_status === s).length;
   return { items: items.slice(0, 300), counts: { pending: latest("pending"), approved: tools("approved"), rejected: latest("rejected") }, error: null };
+}
+
+/** 每日推薦：近 7 天起（台灣日期）的所有草稿／核准／拒絕；資料表未建立（migration 013）時只在該區塊顯示提示 */
+async function loadDailyPicks(db: ReturnType<typeof supabaseAdmin>): Promise<DailyPicksData> {
+  const since = taipeiDate(new Date(Date.now() - 7 * 86400000));
+  const r = await db.from("daily_picks").select("id,pick_date,tool_id,category,pros_zh,cons_zh,pros_en,cons_en,status,ai_tools(name)").gte("pick_date", since).order("pick_date", { ascending: false }).order("created_at", { ascending: true }).limit(100);
+  if (r.error) {
+    const missing = r.error.code === "42P01" || r.error.code === "PGRST205" || /daily_picks/.test(r.error.message || "");
+    return { items: [], error: missing ? "尚未建立每日推薦資料表，請先在 Supabase 執行 supabase_migration_013_daily_picks.sql。" : `讀取每日推薦失敗：${r.error.message}` };
+  }
+  return { items: (r.data ?? []) as unknown as AdminDailyPick[], error: null };
 }
