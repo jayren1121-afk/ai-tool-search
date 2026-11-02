@@ -6,6 +6,7 @@ import AdSenseScript from "@/components/AdSenseScript";
 import HtmlLang from "@/components/HtmlLang";
 import OnSiteGuard from "@/components/OnSiteGuard";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 // 字體：display swap、限制子集與字重；Noto Sans TC 為 unicode-range 切片，只會下載頁面實際用到的字
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700"], display: "swap", variable: "--font-inter" });
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.variable} ${noto.variable} bg-slate-50 text-slate-800`}>
         <SiteHeader />
         <OnSiteGuard>{children}</OnSiteGuard>
+        <SiteFooter />
       </body>
     </HtmlLang>
   );
