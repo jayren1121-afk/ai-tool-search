@@ -150,15 +150,16 @@ const GOALS: Goal[] = [
 
 /** 側欄「試試這些」。文字本身就是目標觸發詞，點下去會走出對應的分組。 */
 export const SEARCH_PROMPTS: { zh: string; en: string }[] = [
-  { zh: "我要做一個短影片", en: "Make a short video" },
-  { zh: "音效", en: "Sound effects" },
-  { zh: "做簡報", en: "Make a presentation" },
-  { zh: "配音", en: "Voiceover" },
-  { zh: "去背", en: "Remove a background" },
-  { zh: "會議逐字稿", en: "Meeting transcript" },
-  { zh: "Word 轉 Excel", en: "Word to Excel" },
-  { zh: "寫程式", en: "Write code" },
-  { zh: "做一首歌", en: "Make a song" },
+  { zh: "有什麼免費的 AI 影片剪輯工具？", en: "Are there free AI video editing tools?" },
+  { zh: "怎麼用 AI 做短影音？", en: "How do I make short videos with AI?" },
+  { zh: "推薦寫文章的 AI 工具", en: "Recommend AI tools for writing articles" },
+  { zh: "有哪些 AI 可以幫我做簡報？", en: "Which AI can make presentations for me?" },
+  { zh: "有免費的 AI 繪圖工具嗎？", en: "Is there a free AI image generator?" },
+  { zh: "怎麼用 AI 幫圖片去背？", en: "How do I remove an image background with AI?" },
+  { zh: "有什麼 AI 可以幫影片配音？", en: "Which AI can do voiceovers for videos?" },
+  { zh: "會議錄音怎麼轉成逐字稿？", en: "How do I turn a meeting recording into a transcript?" },
+  { zh: "有哪些 AI 可以幫我寫程式？", en: "Which AI can help me write code?" },
+  { zh: "怎麼用 AI 做一首歌？", en: "How do I make a song with AI?" },
 ];
 
 const INTENT_RULES: { words: string[]; categories?: string[]; subs?: string[]; pricing?: string[] }[] = [

@@ -150,7 +150,7 @@ const zh = {
   // 首頁 / 搜尋
   heroSub: "搜尋 AI 工具，點「診斷」由 AI 即時分析價位與訂閱方案。",
   searchPh: "搜尋名稱或需求，例如：我要做一個短影片、Claude、簡報…", allCats: "所有分類", allPricing: "所有計價", sortLabel: "排序",
-  sidebarToggle: "分類與建議搜尋", suggestPrompts: "試試這些", suggestCats: "分類",
+  sidebarToggle: "建議搜尋", suggestPrompts: "常見問題", suggestCats: "分類",
   goalLead: (name: string) => `「${name}」拆成下面幾項，由最相關排到間接相關。免費、免費增值與付費工具都會列出。`,
   groupEmpty: "目錄裡還沒有這類工具。", indirect: "間接相關",
   external: "外部網站", externalNote: "以下來自站外搜尋，不是本站目錄。",
@@ -248,7 +248,7 @@ const en: Dict = {
   langName: "English", switchTo: "中文", switchLabel: "切換為繁體中文",
   heroSub: "Search AI tools and click “Diagnose” for a live AI analysis of pricing, plans and plans.",
   searchPh: "Search a name or a goal, e.g. make a short video, Claude, slides…", allCats: "All categories", allPricing: "All pricing", sortLabel: "Sort",
-  sidebarToggle: "Categories and suggestions", suggestPrompts: "Try these", suggestCats: "Categories",
+  sidebarToggle: "Suggested searches", suggestPrompts: "Common questions", suggestCats: "Categories",
   goalLead: (name: string) => `“${name}” is split into the needs below, from the closest match to a looser one. Free, freemium, and paid tools are all listed.`,
   groupEmpty: "No tool in the directory yet.", indirect: "Loosely related",
   external: "External", externalNote: "These come from a web search and are not in this directory.",
