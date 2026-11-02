@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly
 Yearly
 starter
@@ -28,6 +29,48 @@ $30.99 x 12
 $0.04 / credit
 ---
 ~ 84000 SDXL images *
+---
+Credits
+What happens if I run out of credits?
+---
+How do I buy more credits?
+---
+Do credits roll over?
+---
+Keep Artbreeder free for others
+---
+Running this many graphics cards 24/7 is expensive. Artbreeder is able to provide unlimited usage for free because of its (beloved) susbcribers.
+=== 計費模式: 月繳 (monthly) ===
+Monthly
+Yearly
+starter
+---
+100 Credits
+/ month
+---
+$8.99
+---
+$0.09 / credit
+---
+~ 1000 SDXL images *
+---
+275 Credits
+/ month
+---
+$18.99
+---
+$0.07 / credit
+---
+~ 2750 SDXL images *
+---
+700 Credits
+/ month
+---
+$38.99
+---
+$0.06 / credit
+---
+~ 7000 SDXL images *
 ---
 Credits
 What happens if I run out of credits?

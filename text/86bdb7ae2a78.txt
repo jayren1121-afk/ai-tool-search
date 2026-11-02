@@ -1,6 +1,7 @@
 Skip to content
 homepage
 Products
+Solutions
 Integrations
 Industries
 Resources
@@ -8,9 +9,6 @@ Pricing
 Enterprise
 Sign in
 Pick your plan and try it for free
-No credit card required
-Cancel anytime
-No commitment
 Standard
 
 Manage up to 10 social media accounts from one calendar.
@@ -194,8 +192,6 @@ Access and security
 
 Training and success
 Frequently asked questions
-Is a credit card required to start a trial of Hootsuite?
-Will I be charged at the end of my free trial?
 How many users can I add to my Hootsuite plan?
 What forms of payment do you accept?
 How much does Hootsuite cost?

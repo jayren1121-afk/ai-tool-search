@@ -45,7 +45,7 @@ What are my payment options?
 You can pay for your subscription using any major credit card.
 ---
 What happens if I invite colleagues to join my workspace?
-Sunsama costs $25/month per person ($20/month for yearly plans). So if you invited one teammate to your workspace, the total monthly cost would be $50.
+Sunsama costs $22/mo per person billed monthly, or $17/mo billed annually ($204/yr). So if you invited one teammate to your workspace, the total monthly cost would be $44 ($34/mo billed annually).
 ---
 Can I cancel? How does that work? Refunds?
 You can cancel your subscription at any point. When you cancel, you can continue using Sunsama until the end of the billing cycle.

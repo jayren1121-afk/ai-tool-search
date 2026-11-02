@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default)＝年繳 (yearly) ===
 Features
 Use cases
 Resources
@@ -432,3 +433,712 @@ Privacy policy
 Terms of service
 Affiliate terms & conditions
 © 2026 Browse AI Inc.
+×
+This website uses cookies
+This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy. Read more
+STRICTLY NECESSARY
+ANALYTICS
+ADVERTISEMENT
+FUNCTIONALITY
+ACCEPT ALL
+DECLINE ALL
+ SHOW DETAILS
+COOKIE DECLARATION
+ABOUT COOKIES
+Strictly necessary
+Analytics
+Advertisement
+Functionality
+Strictly necessary cookies allow core website functionality such as user login and account management. The website cannot be used properly without strictly necessary cookies.
+Name	Provider / Domain	Expiration	Description
+auth0.BClKZbm39pMYrh0YMfyPc5s7VCHyjEWh.is.authenticated	dashboard.browse.ai	3 days	
+_legacy_auth0.BClKZbm39pMYrh0YMfyPc5s7VCHyjEWh.is.authenticated	dashboard.browse.ai	1 day	
+CookieScriptConsent	
+CookieScript
+.browse.ai	6 months	This cookie is used by Cookie-Script.com service to remember visitor cookie consent preferences. It is necessary for Cookie-Script.com cookie banner to work properly.
+homePageTest	www.browse.ai	Session	This cookie decides which version of our homepage should be shown to the user.
+__cf_bm	
+Cloudflare Inc.
+.prod.website-files.com	30 minutes	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+PLAY_SESSION	help.browse.ai	1 year	This cookie is used for preserving the user session state across page requests, typically to maintain a signed-in status for a visitor to a site.
+_rewardful_session	affiliates.browse.ai	Session	If you have used an affiliated link to signup for Browse AI, this cookie will enable us to attribute your signup to the user who referred you.
+did_compat	auth.browse.ai	1 year	This cookie is used for maintaining compatibility and ensuring consistent user identification across different systems or platforms.
+VISITOR_PRIVACY_METADATA	
+YouTube
+.youtube.com	6 months	This cookie is used to store the user's consent and privacy choices for their interaction with the site. It records data on the visitor's consent regarding various privacy policies and settings, ensuring that their preferences are honored in future sessions.
+__cf_bm	
+Cloudflare Inc.
+.t.co	30 minutes	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+auth0	auth.browse.ai	3 days	This cookie is used to authenticate users, manage sessions, and securely identify a user across multiple pages/views. It is essential for ensuring that a user remains authenticated and for preventing unauthorized access to a user's account.
+ph_phc_Csfo02Bxn5BEjDqxc58rH19GTU7TZlLne2x8T6iXU4k_posthog	.browse.ai	1 year	This cookie is used to enroll a user in a product A/B test.
+_vis_opt_exp_35_split	.browse.ai	3 months 10 days	This cookie is used to track A/B test results.
+did	
+Auth0
+auth.browse.ai	1 year	This cookie is used to uniquely identify devices accessing the website to enable enhanced security measures and user experience.
+marketingAttribution	.browse.ai	1 month	
+auth0_compat	auth.browse.ai	3 days	This cookie is used to ensure that a user remains authenticated when transitioning between different applications or services, helping to maintain a seamless user experience without requiring repeated logins.
+Analytics cookies are used to see how visitors use the website, eg. analytics cookies. These cookies help Browse AI to build better products.
+Name	Provider / Domain	Expiration	Description
+_vwo_ds	
+Wingify
+.browse.ai	1 month	This cookie is used by Visual Website Optimizer to record the sequence of pages visited by a user including any variations as part of A/B split testing to help improve the website's layout, design, or content.
+ajs_anonymous_id	
+Segment.io Inc.
+demo.arcade.software	1 year	These cookies are generally used for Analytics and help count how many people visit a certain site by tracking if you have visited before. This cookie has a lifespan of 1 year.
+_ga_WJH0KVXHJL	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gid	
+Google LLC
+.browse.ai	1 day	This cookie is set by Google Analytics. It stores and update a unique value for each page visited and is used to count and track pageviews.
+_gat_UA-157462525-1	.browse.ai	58 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_ga_ZGQ7G25Z7D	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_45KW24ZDZS	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gat_UA-157462525-7	.browse.ai	58 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_gat_UA-157462525-2	.browse.ai	59 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_vwo_sn	
+Wingify
+.browse.ai	30 minutes	This cookie is used to track the performance and effectiveness of different versions of web pages presented to users. It helps in conducting A/B testing to ensure that users are provided with the most optimal web page experience based on their interactions.
+_gat_UA-157462525-8	.browse.ai	59 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_dd_s	dashboard.browse.ai	15 minutes	This cookie is used to store session data, ensuring that visits to a website are consistent during a session. It may include data such as how the visitor interacts with the site's pages, any preferences selected, and can help in error management.
+_ga_YJYFH7ZS27	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_FBB8KWELFH	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_2GDTSX0MLS	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gat_UA-157462525-6	.browse.ai	56 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_vwo_uuid	
+Wingify Software Pvt. Ltd
+.browse.ai	1 year	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie ensures a visitor always sees the same version of a page and is used to track behaviour to measure the performance of different page versions.
+_vis_opt_s	
+Wingify Software Pvt. Ltd
+.browse.ai	3 months 9 days	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie distinguishes between new and returning visitors.
+_vwo_uuid_v2	
+Wingify Software Pvt. Ltd
+.browse.ai	1 year	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie ensures a visitor always sees the same version of a page and is used to track behaviour to measure the performance of different page versions.
+_ga	
+Google LLC
+.browse.ai	1 year 1 month	This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.
+mp_[abcdef0123456789]{32}_mixpanel	.browse.ai	12 months 4 days	
+_vis_opt_test_cookie	
+Wingify Software Pvt. Ltd
+.browse.ai	Session	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie tests if the browser is set to allow cookies.
+initialTrafficSource	.browse.ai	1 year 1 month	This cookie is used to register the first traffic source from which the visitor came to the site. It helps in understanding the initial user interaction and referral to the website, which can be crucial for marketing analytics and optimization.
+Advertisement cookies are used to identify visitors between different websites, such as content partners and banner networks. Companies may use those cookies to build a profile of visitor interests or show relevant ads on other websites.
+Name	Provider / Domain	Expiration	Description
+IDE	
+Google LLC
+.doubleclick.net	1 year	This cookie is set by Doubleclick and carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+guest_id_marketing	
+Twitter
+.twitter.com	1 year 1 month	This cookie is used to identify a visitor across visits and devices. It allows the website to present the visitor with relevant advertisement based on the visitor's preferences.
+muc_ads	
+Twitter
+.t.co	1 year 1 month	This cookie is used for targeting and advertising purposes. It helps track and personalize advertising content to enhance user experience.
+__utmzzses	
+Google LLC
+.browse.ai	Session	UTM Parameters used for advertising/tracking with Google Analytics
+VISITOR_INFO1_LIVE	
+Google LLC
+.youtube.com	6 months	This cookie is set by Youtube to keep track of user preferences for Youtube videos embedded in sites;it can also determine whether the website visitor is using the new or old version of the Youtube interface.
+_rdt_uuid	.browse.ai	3 months	This cookie is used to identify a browser over time to show relevant advertisements to users by collecting data on their preferences and behavior across multiple sites.
+_gcl_au	
+Google LLC
+.browse.ai	2 months 29 days	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services
+guest_id	
+Twitter Inc.
+.twitter.com	1 year 1 month	This cookie is set by Twitter to identify and track the website visitor.
+lidc	
+Microsoft Corporation
+.linkedin.com	1 day	This is a Microsoft MSN 1st party cookie that ensures the proper functioning of this website.
+guest_id_ads	
+Twitter
+.twitter.com	1 year 1 month	This cookie is associated with Twitter's advertising services. It is used to identify and track the website visitor to display personalized ads based on the user's preferences and interaction with the website.
+li_gc	
+LinkedIn Corporation
+.linkedin.com	6 months	Used to store guest consent to the use of cookies for non-essential purposes
+YSC	
+Google LLC
+.youtube.com	Session	This cookie is set by YouTube to track views of embedded videos.
+bcookie	
+Microsoft Corporation
+.linkedin.com	1 year	This is a Microsoft MSN 1st party cookie for sharing the content of the website via social media.
+personalization_id	
+Twitter Inc.
+.twitter.com	1 year 1 month	This cookie carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+Functionality cookies are used to remember visitor information on the website, eg. language, timezone, enhanced content.
+Name	Provider / Domain	Expiration	Description
+_cfuvid	.calendly.com	Session	This cookie is used for purposes of tracking users across sessions to optimize user experience by maintaining session consistency and providing personalized services.
+pscd	.browse.ai	2 months 29 days	
+_cioanonid	.browse.ai	1 year	This cookie is used to identify and track visitors anonymously to improve their user experience and collect information about website usage.
+Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser.
+
+You can change your consent to cookie usage at any time on our Privacy Policy page.
+Cookie report created by CookieScript
+
+=== 計費模式: 月繳 (monthly) ===
+Features
+Use cases
+Resources
+Pricing
+Login
+Get started for free
+Pricing
+
+Pay for the data you extract or monitor, with pricing that scales as you grow.
+
+Monthly
+Annual
+Save 20%
+
+Included on every plan (even the free one):
+
+Unlimited robots
+Monitoring every 5 minutes
+REST API, webhooks and bulk runs
+Residential proxies
+Formula columns
+Thousands of integrations
+
+FOR TRYING IT OUT
+
+Free
+
+Get started for free with no card required.
+
+$0
+
+Free forever
+
+CREDITS
+
+50 credits / month
+
+Up to 50 pages and/or 500 rows of data per month.
+
+Start free
+
+No credit card required
+
+2 domains included
+Self support
+
+FOR ONE PERSON
+
+Personal
+
+Great for smaller data scraping and monitoring projects.
+
+$48
+/mo
+
+Billed monthly. Annual saves $120 a year at the same volume
+
+CREDITS
+
+2,000 / month
+
+Up to 2,000 pages and/or 20,000 rows of data per month.
+
+Get Personal
+
+60-day refund guarantee
+
+5 domains included
+Standard support
+BEST VALUE
+
+FOR A TEAM
+
+Professional
+
+Extract and monitor the data your team depends on.
+
+$87
+/mo
+
+Billed monthly. Annual saves $216 a year at the same volume
+
+CREDITS
+
+5,000 / month
+10,000 / month
+20,000 / month
+30,000 / month
+
+Up to 5,000 pages and/or 50,000 rows of data per month.
+
+Get Professional
+
+60-day refund guarantee
+
+10 domains included
+Priority support
+Setup and onboarding services available from $399
+
+FOR ANY PAID PLAN
+
+Add-ons
+
+Add what you need, without changing plans.
+
+Extra domains
+
+Add a domain without moving up a tier.
+
+Personal
+$5/mo
+Professional
+$3/mo
+
+Credit top-ups
+
+Buy more credits mid-term. 1,000 credit minimum. Annual plans only.
+
+Monthly plans
+Not available
+
+Setup and onboarding
+
+Our team builds and configures your robots, then hands them over. Annual plans only.
+
+Professional and Premium plans only.
+From $399
+
+FOR ENTERPRISE
+
+Premium
+
+The platform plus our team of data engineers and AI experts. We work with you to build your solution and deliver clean data into your systems on your schedule.
+
+Starting at
+$500
+a month billed annually
+Talk to sales
+See how managed works
+
+Typical reply within one business day. NDA on request.
+
+We design a custom solution that turns raw pages into the dataset you actually need.
+
+AI experts and data engineers who design your pipeline end to end.
+Building the agents and keeping them running when sites change.
+Integrating into your systems, on your schedule.
+Transforming, combining and matching data across sources.
+The quality of every row, against a 98% accuracy SLA.
+Volume priced to what you actually use, from $0.010 a credit.
+
+98%
+
+data-accuracy SLA
+
+$0.01
+
+starting price per credit
+
+10+ billion
+
+rows of delivered data
+
+Built with security in mind.
+
+Discover how we safeguard your information with industry-leading practices and compliance certifications. Visit Browse AI's Trust Center to request our SOC 2 report.
+
+SOC 2 - Type II
+GDPR
+CCPA
+How credits work
+
+Credits are based on the volume and cost of the data you extract.
+
+Read the full credit guide →
+
+Here's what 100 credits can get you:
+
+1,000 rows from list pages
+
+A row is one item: a product, a listing, a job posting.
+
+100 standard pages
+
+1 credit for every time a standard page is scraped or monitored.
+
+100 screenshots
+
+Capture a full or partial screenshot.
+
+1 to 10 premium pages
+
+Including sites like Amazon or Ebay, which need residential proxies (thus cost more).
+
+Compare every plan
+
+All of our plans are built on the same platform with pricing discounts and service add-ons to support your growth.
+
+	
+
+Free
+
+$0
+
+Start free →	
+
+Personal
+
+From $48/mo
+
+Get Personal →	
+
+Professional
+
+From $87/mo
+
+Get Professional →	
+
+Premium
+
+From $500/mo
+
+Talk to sales →
+USAGE				
+
+Credits
+	50 / month	12K to 24K / year	60K to 360K / year	Custom
+
+Cost per credit
+	—	$0.019	$0.014 to $0.011	Custom
+
+Domains
+	2	5	10	Custom
+
+Team members
+	3	3	10	Custom
+
+Robots
+	Unlimited	Unlimited	Unlimited	Unlimited
+ADD-ONS				
+
+Domains
+	N/A	Additional domains $4/mo paid annually	Additional domains $2.4/mo paid annually	Custom
+
+Credits
+	N/A	$0.024 per credit on annual plans	$0.017 to $0.013 per credit on annual plans	Custom
+
+Setup and onboarding
+	N/A	N/A	From $399	Custom
+PLATFORM				
+
+Monitoring frequency
+	Every minute	Every minute	Every minute	Every minute
+
+Data retention
+	90 days	90 days	90 days	Custom
+
+Residential proxies
+	
+	
+	
+	
+
+
+Workflows
+	
+	
+	
+	
+
+
+Premium sites
+	2 to 10 credits / run	2 to 10 credits / run	2 to 10 credits / run	
+
+
+Bulk run, up to 500,000 pages
+	
+	
+	
+	
+
+
+Anti-bot and CAPTCHA handling
+	
+	
+	
+	
+
+
+Formula columns
+	
+	
+	
+	
+
+
+Deep scraping
+	
+	
+	
+	
+
+
+Max task run time
+	60 minutes	60 minutes	60 minutes	Custom
+
+Prebuilt robots
+	250+	250+	250+	250+
+DATA AND INTEGRATIONS				
+
+REST API and webhooks
+	
+	
+	
+	
+
+
+Google Sheets, Airtable, Zapier, Make, Pabbly
+	
+	
+	
+	
+
+
+Custom data integrations
+	—	—	—	
+
+
+Data transformations
+	—	—	—	
+
+SUPPORT AND SERVICES				
+
+Support
+	Self support	Standard support	Priority email	Dedicated Account Manager
+
+Credit top-ups
+	—	Annual plans only	Annual plans only	Custom
+
+Setup and onboarding services
+	—	—	From $399	
+
+
+Annual account review
+	—	—	—	
+
+
+Dedicated account manager
+	—	—	—	
+
+
+98% data-accuracy SLA
+	—	—	—	
+
+
+Custom maintenance
+	—	—	—	
+
+
+Product matching
+	—	—	—	
+
+
+Migration from another tool
+	—	—	—	
+
+
+On-time delivery SLA
+	—	—	—	
+
+
+Monthly performance reports
+	—	—	—	
+
+
+NDA on request
+	—	—	—	
+Questions about pricing
+What is a credit, and how many will I need?
+One page is one credit. Ten rows of data is one credit. You pay whichever is more, so a list page with 50 products costs 5 credits, and a page that returns two fields still costs 1. Every run shows its cost in your dashboard before it goes.
+Why do some sites cost more?
+Why did my deep scrape cost more than I expected?
+What happens if I run out of credits?
+Do unused credits roll over?
+How do I stop monitoring from using up my credits?
+What counts as a website?
+Do I need a paid plan to use the API?
+Is the free plan really free?
+Can I change plans later?
+What happens when I outgrow Professional?
+Do you offer discounts?
+What is your refund policy?
+Extract data from your first website for free
+
+Get 50 credits a month with no credit card required. Most users capture their first dataset in minutes.
+
+Start free
+Talk to sales
+
+Not sure which plan fits? Talk to us.
+
+Talk to sales
+SOLUTIONS
+Web scraper and data extractor
+Website to spreadsheet
+Website monitoring
+Website to API
+Prebuilt robots
+Price monitoring
+Integrations
+Web scraping services
+Pricing
+RESOURCES
+Help center
+API documentation
+Trust center
+Blog
+Careers
+Contact us
+Schedule a demo
+About us
+Media kit
+Glossary
+PARTNERS
+Affiliate program
+Browse AI for startups
+LEGAL
+Privacy policy
+Terms of service
+Affiliate terms & conditions
+© 2026 Browse AI Inc.
+×
+This website uses cookies
+This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy. Read more
+STRICTLY NECESSARY
+ANALYTICS
+ADVERTISEMENT
+FUNCTIONALITY
+ACCEPT ALL
+DECLINE ALL
+ SHOW DETAILS
+COOKIE DECLARATION
+ABOUT COOKIES
+Strictly necessary
+Analytics
+Advertisement
+Functionality
+Strictly necessary cookies allow core website functionality such as user login and account management. The website cannot be used properly without strictly necessary cookies.
+Name	Provider / Domain	Expiration	Description
+auth0.BClKZbm39pMYrh0YMfyPc5s7VCHyjEWh.is.authenticated	dashboard.browse.ai	3 days	
+_legacy_auth0.BClKZbm39pMYrh0YMfyPc5s7VCHyjEWh.is.authenticated	dashboard.browse.ai	1 day	
+CookieScriptConsent	
+CookieScript
+.browse.ai	6 months	This cookie is used by Cookie-Script.com service to remember visitor cookie consent preferences. It is necessary for Cookie-Script.com cookie banner to work properly.
+homePageTest	www.browse.ai	Session	This cookie decides which version of our homepage should be shown to the user.
+__cf_bm	
+Cloudflare Inc.
+.prod.website-files.com	30 minutes	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+PLAY_SESSION	help.browse.ai	1 year	This cookie is used for preserving the user session state across page requests, typically to maintain a signed-in status for a visitor to a site.
+_rewardful_session	affiliates.browse.ai	Session	If you have used an affiliated link to signup for Browse AI, this cookie will enable us to attribute your signup to the user who referred you.
+did_compat	auth.browse.ai	1 year	This cookie is used for maintaining compatibility and ensuring consistent user identification across different systems or platforms.
+VISITOR_PRIVACY_METADATA	
+YouTube
+.youtube.com	6 months	This cookie is used to store the user's consent and privacy choices for their interaction with the site. It records data on the visitor's consent regarding various privacy policies and settings, ensuring that their preferences are honored in future sessions.
+__cf_bm	
+Cloudflare Inc.
+.t.co	30 minutes	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+auth0	auth.browse.ai	3 days	This cookie is used to authenticate users, manage sessions, and securely identify a user across multiple pages/views. It is essential for ensuring that a user remains authenticated and for preventing unauthorized access to a user's account.
+ph_phc_Csfo02Bxn5BEjDqxc58rH19GTU7TZlLne2x8T6iXU4k_posthog	.browse.ai	1 year	This cookie is used to enroll a user in a product A/B test.
+_vis_opt_exp_35_split	.browse.ai	3 months 10 days	This cookie is used to track A/B test results.
+did	
+Auth0
+auth.browse.ai	1 year	This cookie is used to uniquely identify devices accessing the website to enable enhanced security measures and user experience.
+marketingAttribution	.browse.ai	1 month	
+auth0_compat	auth.browse.ai	3 days	This cookie is used to ensure that a user remains authenticated when transitioning between different applications or services, helping to maintain a seamless user experience without requiring repeated logins.
+Analytics cookies are used to see how visitors use the website, eg. analytics cookies. These cookies help Browse AI to build better products.
+Name	Provider / Domain	Expiration	Description
+_vwo_ds	
+Wingify
+.browse.ai	1 month	This cookie is used by Visual Website Optimizer to record the sequence of pages visited by a user including any variations as part of A/B split testing to help improve the website's layout, design, or content.
+ajs_anonymous_id	
+Segment.io Inc.
+demo.arcade.software	1 year	These cookies are generally used for Analytics and help count how many people visit a certain site by tracking if you have visited before. This cookie has a lifespan of 1 year.
+_ga_WJH0KVXHJL	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gid	
+Google LLC
+.browse.ai	1 day	This cookie is set by Google Analytics. It stores and update a unique value for each page visited and is used to count and track pageviews.
+_gat_UA-157462525-1	.browse.ai	58 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_ga_ZGQ7G25Z7D	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_45KW24ZDZS	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gat_UA-157462525-7	.browse.ai	58 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_gat_UA-157462525-2	.browse.ai	59 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_vwo_sn	
+Wingify
+.browse.ai	30 minutes	This cookie is used to track the performance and effectiveness of different versions of web pages presented to users. It helps in conducting A/B testing to ensure that users are provided with the most optimal web page experience based on their interactions.
+_gat_UA-157462525-8	.browse.ai	59 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_dd_s	dashboard.browse.ai	15 minutes	This cookie is used to store session data, ensuring that visits to a website are consistent during a session. It may include data such as how the visitor interacts with the site's pages, any preferences selected, and can help in error management.
+_ga_YJYFH7ZS27	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_FBB8KWELFH	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_ga_2GDTSX0MLS	.browse.ai	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_gat_UA-157462525-6	.browse.ai	56 seconds	This is a pattern type cookie set by Google Analytics, where the pattern element on the name contains the unique identity number of the account or website it relates to. It is a variation of the _gat cookie which is used to limit the amount of data recorded by Google on high traffic volume websites.
+_vwo_uuid	
+Wingify Software Pvt. Ltd
+.browse.ai	1 year	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie ensures a visitor always sees the same version of a page and is used to track behaviour to measure the performance of different page versions.
+_vis_opt_s	
+Wingify Software Pvt. Ltd
+.browse.ai	3 months 9 days	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie distinguishes between new and returning visitors.
+_vwo_uuid_v2	
+Wingify Software Pvt. Ltd
+.browse.ai	1 year	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie ensures a visitor always sees the same version of a page and is used to track behaviour to measure the performance of different page versions.
+_ga	
+Google LLC
+.browse.ai	1 year 1 month	This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.
+mp_[abcdef0123456789]{32}_mixpanel	.browse.ai	12 months 4 days	
+_vis_opt_test_cookie	
+Wingify Software Pvt. Ltd
+.browse.ai	Session	This cookie name is associated with the product Visual Website Optimiser, by USA based Wingify. The tool helps site owners measure the performance of different versions of web pages. This cookie tests if the browser is set to allow cookies.
+initialTrafficSource	.browse.ai	1 year 1 month	This cookie is used to register the first traffic source from which the visitor came to the site. It helps in understanding the initial user interaction and referral to the website, which can be crucial for marketing analytics and optimization.
+Advertisement cookies are used to identify visitors between different websites, such as content partners and banner networks. Companies may use those cookies to build a profile of visitor interests or show relevant ads on other websites.
+Name	Provider / Domain	Expiration	Description
+IDE	
+Google LLC
+.doubleclick.net	1 year	This cookie is set by Doubleclick and carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+guest_id_marketing	
+Twitter
+.twitter.com	1 year 1 month	This cookie is used to identify a visitor across visits and devices. It allows the website to present the visitor with relevant advertisement based on the visitor's preferences.
+muc_ads	
+Twitter
+.t.co	1 year 1 month	This cookie is used for targeting and advertising purposes. It helps track and personalize advertising content to enhance user experience.
+__utmzzses	
+Google LLC
+.browse.ai	Session	UTM Parameters used for advertising/tracking with Google Analytics
+VISITOR_INFO1_LIVE	
+Google LLC
+.youtube.com	6 months	This cookie is set by Youtube to keep track of user preferences for Youtube videos embedded in sites;it can also determine whether the website visitor is using the new or old version of the Youtube interface.
+_rdt_uuid	.browse.ai	3 months	This cookie is used to identify a browser over time to show relevant advertisements to users by collecting data on their preferences and behavior across multiple sites.
+_gcl_au	
+Google LLC
+.browse.ai	2 months 29 days	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services
+guest_id	
+Twitter Inc.
+.twitter.com	1 year 1 month	This cookie is set by Twitter to identify and track the website visitor.
+lidc	
+Microsoft Corporation
+.linkedin.com	1 day	This is a Microsoft MSN 1st party cookie that ensures the proper functioning of this website.
+guest_id_ads	
+Twitter
+.twitter.com	1 year 1 month	This cookie is associated with Twitter's advertising services. It is used to identify and track the website visitor to display personalized ads based on the user's preferences and interaction with the website.
+li_gc	
+LinkedIn Corporation
+.linkedin.com	6 months	Used to store guest consent to the use of cookies for non-essential purposes
+YSC	
+Google LLC
+.youtube.com	Session	This cookie is set by YouTube to track views of embedded videos.
+bcookie	
+Microsoft Corporation
+.linkedin.com	1 year	This is a Microsoft MSN 1st party cookie for sharing the content of the website via social media.
+personalization_id	
+Twitter Inc.
+.twitter.com	1 year 1 month	This cookie carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+Functionality cookies are used to remember visitor information on the website, eg. language, timezone, enhanced content.
+Name	Provider / Domain	Expiration	Description
+_cfuvid	.calendly.com	Session	This cookie is used for purposes of tracking users across sessions to optimize user experience by maintaining session consistency and providing personalized services.
+pscd	.browse.ai	2 months 29 days	
+_cioanonid	.browse.ai	1 year	This cookie is used to identify and track visitors anonymously to improve their user experience and collect information about website usage.
+Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser.
+
+You can change your consent to cookie usage at any time on our Privacy Policy page.
+Cookie report created by CookieScript

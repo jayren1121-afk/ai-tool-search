@@ -176,7 +176,7 @@ Most teams deploy a first agent within a day on the self-serve plans. Enterprise
 
 Is Bland HIPAA, SOC 2, GDPR, and PCI compliant?
 
-Yes. SOC 2 Type I and Type II, HIPAA-eligible with a signed BAA, GDPR, and PCI DSS. Compliance documentation is available under NDA on Enterprise.
+Yes. SOC 2 Type I and Type II (independently audited), HIPAA compliant with a signed BAA, GDPR compliant with a DPA, and PCI DSS self-attested. Bland is also FedRAMP 20x Class A certified and ISO 27001 certified. Compliance documentation is available under NDA on Enterprise.
 
 Who runs the implementation?
 

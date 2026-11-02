@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 Monthly Billing
 Annual Billing
 save 20%
@@ -9,6 +10,27 @@ per month
 Get Started
 ---
 per month, billed monthly
+---
+250 generations
+per month
+Get Started
+---
+Custom pricing
+Unlimited generations
+---
+Custom pricing
+=== 計費模式: 年繳 (yearly) ===
+Monthly Billing
+Annual Billing
+save 20%
+---
+per month, billed annually
+---
+50 generations
+per month
+Get Started
+---
+per month, billed annually
 ---
 250 generations
 per month

@@ -45,7 +45,9 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'cartesia' and fetched_at = '2026-11-01T12:08:07+08:00'::timestamptz;  -- Cartesia
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'shortwave' and fetched_at = '2026-11-01T12:08:17+08:00'::timestamptz;  -- Shortwave
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'augment' and fetched_at = '2026-11-01T12:08:23+08:00'::timestamptz;  -- Augment Code
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'displayr' and fetched_at = '2026-10-12T13:43:52+08:00'::timestamptz;  -- Displayr
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hootsuite-owlywriter' and fetched_at = '2026-10-12T13:44:06+08:00'::timestamptz;  -- Hootsuite
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'displayr' and fetched_at = '2026-11-02T12:08:55+08:00'::timestamptz;  -- Displayr
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hootsuite-owlywriter' and fetched_at = '2026-11-02T12:09:11+08:00'::timestamptz;  -- Hootsuite
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'browse-ai' and fetched_at = '2026-11-02T12:09:20+08:00'::timestamptz;  -- Browse AI
+update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dust' and fetched_at = '2026-11-02T12:09:34+08:00'::timestamptz;  -- Dust
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'mutable' and fetched_at = '2026-10-12T13:44:38+08:00'::timestamptz;  -- Pieces
 commit;

@@ -1,3 +1,4 @@
+=== 計費模式: 預設畫面 (default) ===
 How many minutes do you plan to use per month?
 0
 ---
@@ -127,25 +128,44 @@ $
 /mo
 ---
 Talk now
-Contact sales
+=== 計費模式: 月繳 (monthly) ===
+How many minutes do you plan to use per month?
+0
+---
+20,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
 ---
 No Success Package
 ---
 Get started for free, and then pay only for the minutes that run
 ---
-$0
+By Usage
 ---
-to start
----
-Pre-paid, $0.05/min Vapi hosting.
----
-Models pass-through at cost
----
-Start building
+Included
 ---
 $5 free credits to get you started
----
 2 organizations
+1 included Vapi phone number
+4 concurrent calls
 ---
 Core
 ---
@@ -155,20 +175,585 @@ $29
 ---
 / month
 ---
-Contact Sales
+Pro
 ---
-10%
+For scaling teams in production
 ---
-of Vapi hosting fee
+$999
 ---
+10% of Vapi hosting fee
 $999/mo minimum
 ---
-Models pass-through at cost
+10 organizations
+10 included Vapi phone numbers
 ---
 Contact Sales
 ---
-Contact sales
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
 ---
-Own your voice agents.
-Contact sales
-Sign up
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+20,000 minutes
+$1,000
+Transcriber
+Deepgram
+$191 - $199
+Intelligence Model
+OpenAI
+$155 - $905
+Voice
+ElevenLabs
+$292 - $477
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+No Success Package
+$0
+Estimated Total
+$
+1,637
+---
+2,580
+=== 計費模式: 月繳 (monthly) #2 ===
+How many minutes do you plan to use per month?
+0
+---
+20,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+By Usage
+---
+Included
+---
+$5 free credits to get you started
+2 organizations
+1 included Vapi phone number
+4 concurrent calls
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Pro
+---
+For scaling teams in production
+---
+$999
+---
+10% of Vapi hosting fee
+$999/mo minimum
+---
+10 organizations
+10 included Vapi phone numbers
+---
+Contact Sales
+---
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
+---
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+20,000 minutes
+$1,000
+Transcriber
+Deepgram
+$191 - $199
+Intelligence Model
+OpenAI
+$155 - $905
+Voice
+ElevenLabs
+$292 - $477
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+Core
+$29
+Estimated Total
+$
+1,666
+---
+2,609
+/mo
+=== 計費模式: 月繳 (monthly) #3 ===
+How many minutes do you plan to use per month?
+0
+---
+20,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+By Usage
+---
+Included
+---
+$5 free credits to get you started
+2 organizations
+1 included Vapi phone number
+4 concurrent calls
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Pro
+---
+For scaling teams in production
+---
+$999
+---
+10% of Vapi hosting fee
+$999/mo minimum
+---
+10 organizations
+10 included Vapi phone numbers
+---
+Contact Sales
+---
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
+---
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+20,000 minutes
+$1,000
+Transcriber
+Deepgram
+$191 - $199
+Intelligence Model
+OpenAI
+$155 - $905
+Voice
+ElevenLabs
+$292 - $477
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+Core
+$29
+HIPAA compliance
+$2,000
+Estimated Total
+$
+=== 計費模式: 月繳 (monthly) #4 ===
+How many minutes do you plan to use per month?
+0
+---
+20,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+By Usage
+---
+Included
+---
+$5 free credits to get you started
+2 organizations
+1 included Vapi phone number
+4 concurrent calls
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Pro
+---
+For scaling teams in production
+---
+$999
+---
+10% of Vapi hosting fee
+$999/mo minimum
+---
+10 organizations
+10 included Vapi phone numbers
+---
+Contact Sales
+---
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
+---
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+20,000 minutes
+$1,000
+Transcriber
+Deepgram
+$191 - $199
+Intelligence Model
+OpenAI
+$155 - $905
+Voice
+ElevenLabs
+$292 - $477
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+Core
+$29
+HIPAA compliance
+$2,000
+=== 計費模式: 月繳 (monthly) #5 ===
+How many minutes do you plan to use per month?
+0
+---
+20,000
+min/mo
+0
+---
+TRANSCRIBER
+---
+Deepgram
+---
+$0.0095 - $0.0099/min
+---
+INTELLIGENCE MODEL
+---
+OpenAI
+---
+$0.0077 - $0.0452/min
+---
+VOICE
+---
+ElevenLabs
+---
+$0.0146 - $0.0238/min
+---
+No Success Package
+---
+Get started for free, and then pay only for the minutes that run
+---
+By Usage
+---
+Included
+---
+$5 free credits to get you started
+2 organizations
+1 included Vapi phone number
+4 concurrent calls
+---
+Core
+---
+For builders & early teams
+---
+$29
+---
+/ month
+---
+Pro
+---
+For scaling teams in production
+---
+$999
+---
+10% of Vapi hosting fee
+$999/mo minimum
+---
+10 organizations
+10 included Vapi phone numbers
+---
+Contact Sales
+---
+Vapi Telephony / SIP
+Free
+Vapi WebSockets
+Free
+Daily WebRTC
+Free
+Twilio Inbound
+$0.008 / min
+Twilio Outbound
+$0.014 / min
+Vonage
+$0.00814 / min
+Telnyx
+$0.0055 / min
+---
+Add-ons
+---
+HIPAA compliance
+---
+HIPAA eligible data handling. Standard Data Processing Agreement and Business Associate Agreement
+---
+$2,000
+---
+/ month
+---
+Additional concurrency
+---
+Extra concurrent call lines beyond your package default
+---
+$10
+---
+/ line / month
+---
+Additional organizations
+---
+Extra workspaces beyond your package default
+---
+$20
+---
+/ organization / month
+---
+YOUR ESTIMATE
+---
+Hosting Fee
+20,000 minutes
+$1,000
+Transcriber
+Deepgram
+$191 - $199
+Intelligence Model
+OpenAI
+$155 - $905
+Voice
+ElevenLabs
+$292 - $477
+Transport Fee
+Vapi Telephony / SIP
+$0
+Success Package
+Core
+$29
+HIPAA compliance
+$2,000

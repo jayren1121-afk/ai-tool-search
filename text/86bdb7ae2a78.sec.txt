@@ -1,7 +1,5 @@
 Sign in
 Pick your plan and try it for free
-No credit card required
----
 Standard
 ---
 Manage up to 10 social media accounts from one calendar.
@@ -51,11 +49,6 @@ per user/month, billed annually
 per user/mo*,
 billed annually
 Free 14-day trial
----
-Frequently asked questions
-Is a credit card required to start a trial of Hootsuite?
-Will I be charged at the end of my free trial?
-How many users can I add to my Hootsuite plan?
 ---
 Does Hootsuite offer discounts for nonprofit organizations?
 Can I pay for Hootsuite annually?

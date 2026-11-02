@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：47 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：211 筆
+- 可批次核准（無旗標）：49 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：209 筆
 
 核准單筆範本：
 ```sql
@@ -208,15 +208,13 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **wan**（Wan (通義萬相)）旗標：has_promo, price_near_quote；；來源 https://wan.video/pricing；擷取 2026-11-01T12:08:32+08:00
 - **spark-mail**（Spark Mail）旗標：has_promo, name_diff, price_near_quote；資料集方案 ['Teams'] vs 新 ['Plus', 'Pro']；來源 https://sparkmailapp.com/pricing；擷取 2026-11-01T12:08:34+08:00
 - **pipedream**（Pipedream）旗標：dropped_fields, name_diff；資料集方案 ['Team', 'Plus'] vs 新 ['Startup']；來源 https://pipedream.com/pricing；擷取 2026-11-01T12:08:49+08:00
-- **artbreeder**（Artbreeder）旗標：name_missing；None: name_missing; None: name_missing; None: name_missing；來源 https://www.artbreeder.com/pricing；擷取 2026-10-12T13:43:55+08:00
-- **leonardo-motion**（Clipfly）旗標：has_promo；；來源 https://www.clipfly.ai/pricing；擷取 2026-10-12T13:43:59+08:00
-- **vapi**（Vapi）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Core', 'Pro']；來源 https://vapi.ai/pricing；擷取 2026-10-12T13:44:01+08:00
-- **browse-ai**（Browse AI）旗標：price_change, price_near_quote；Personal: 資料集 $48.0/月 → 官網 $19.0；來源 https://www.browse.ai/pricing；擷取 2026-10-12T13:44:09+08:00
-- **codeium**（Codeium）旗標：dropped_fields, price_change；Team: 資料集 $40.0/月 → 官網 $80.0；來源 https://codeium.com/pricing；擷取 2026-10-12T13:44:14+08:00
-- **vmake**（Vmake）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://vmake.ai/pricing；擷取 2026-10-12T13:44:16+08:00
-- **bland**（Bland AI）旗標：name_diff；資料集方案 ['Plus'] vs 新 ['Build']；來源 https://www.bland.ai/pricing；擷取 2026-10-12T13:44:20+08:00
-- **sunsama**（Sunsama）旗標：dropped_fields, name_diff, name_missing；資料集方案 ['Free', 'Unlimited'] vs 新 ['', '']; None: name_missing; None: name_missing；來源 https://www.sunsama.com/pricing；擷取 2026-10-12T13:44:21+08:00
-- **dust**（Dust）旗標：has_promo, period_ambiguous_toggle, price_near_quote；Pro: period_ambiguous_toggle; Max: period_ambiguous_toggle；來源 https://dust.tt/pricing；擷取 2026-10-12T13:44:24+08:00
+- **artbreeder**（Artbreeder）旗標：dropped_fields, name_missing；None: name_missing; None: name_missing; None: name_missing；來源 https://www.artbreeder.com/pricing；擷取 2026-11-02T12:08:55+08:00
+- **leonardo-motion**（Clipfly）旗標：has_promo；；來源 https://www.clipfly.ai/pricing；擷取 2026-11-02T12:09:04+08:00
+- **vapi**（Vapi）旗標：name_diff；資料集方案 ['Teams'] vs 新 ['Core', 'Pro']；來源 https://vapi.ai/pricing；擷取 2026-11-02T12:09:05+08:00
+- **codeium**（Codeium）旗標：price_change；Team: 資料集 $40.0/月 → 官網 $80.0；來源 https://codeium.com/pricing；擷取 2026-11-02T12:09:20+08:00
+- **vmake**（Vmake）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://vmake.ai/pricing；擷取 2026-11-02T12:09:25+08:00
+- **bland**（Bland AI）旗標：name_diff；資料集方案 ['Plus'] vs 新 ['Build']；來源 https://www.bland.ai/pricing；擷取 2026-11-02T12:09:27+08:00
+- **sunsama**（Sunsama）旗標：name_diff, name_missing, price_near_quote；資料集方案 ['Free', 'Unlimited'] vs 新 ['']; None: name_missing；來源 https://www.sunsama.com/pricing；擷取 2026-11-02T12:09:32+08:00
 - **buffer-ai**（Buffer）旗標：period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://buffer.com/pricing；擷取 2026-10-12T13:44:27+08:00
 - **firecrawl**（Firecrawl）旗標：dropped_fields, name_far_from_price；；來源 https://www.firecrawl.dev/pricing；擷取 2026-10-12T13:44:32+08:00
 - **comfyui**（ComfyUI）旗標：has_promo, name_far_from_price, period_ambiguous_toggle, price_near_quote；Standard: period_ambiguous_toggle, name_far_from_price; Creator: period_ambiguous_toggle, name_far_from_price; Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.comfy.org/pricing；擷取 2026-10-12T13:44:33+08:00

@@ -1,11 +1,9 @@
-PLATFORM
-RESOURCES
 LOGIN
-GET STARTED
+CONTACT SALES
 PRICING
-Priced per token, committed once.
+PRICED PER TOKEN, COMMITTED ONCE.
 
-The same 300+ model catalog at the same rack rates, with end-to-end encryption on every connection. Commitment is the only variable. Commit annual enterprise spend for a discount on every token: the balance decreases as your teams consume it, with dedicated deployments, customer-managed keys, and custom contracts when you need them. No platform fees, no markups, and no seats.
+The same 300+ model catalog at the same rack rates, with end-to-end encryption on every connection. Commit annual enterprise spend, and the balance decreases as your teams consume it, with dedicated deployments, customer-managed keys, and custom contracts when you need them. No platform fees, no markups, and no seats.
 
 01
 ENTERPRISE
@@ -30,10 +28,10 @@ End-to-end encryption on every connection
 Guaranteed TPM · custom rate limits
 Dedicated Remote Agent runners · SSO
 Agents API: cloud coding agents
-Custom SLAs · volume discounts
+Custom SLAs
 TALK TO SALES
 
-Your contract is quoted against the per-token rates below as a reference point. The rate on your contract improves as committed spend grows.
+Your contract is quoted against the per-token rates below as a reference point.
 
 02
 COMPARE
@@ -71,13 +69,21 @@ We suppress retention and training on routed traffic through provider terms and 
 PER-MODEL RATES
 Transparent token pricing
 
-Priced per 1M tokens. We bill input, output, and cached reads separately. These are list rates. We quote contracts against them, and your rate improves as committed spend grows.
+Priced per 1M tokens. We bill input, output, and cached reads separately. These are list rates. We quote contracts against them.
 
 MODEL	TYPE	CONTEXT	INPUT / 1M	OUTPUT / 1M	CACHE READ / 1M
 
 MOONSHOTAI
+kimi-k3.1-pro
+	Text	1M	$2.00	$10.00	$0.20
+
+MOONSHOTAI
 kimi-k3
 	Text	1M	$3.00	$15.00	$0.30
+
+DEEPSEEK
+deepseek-v4.1-flash-1017
+	Text	1M	$0.30	$1.20	$0.007
 
 ZAI
 glm-5.3
@@ -88,16 +94,8 @@ qwen3.8-max
 	Text	262K	$2.00	$6.00	$0.25
 
 DEEPSEEK
-deepseek-v4.1-flash
-	Text	1M	$0.30	$1.20	$0.007
-
-DEEPSEEK
 deepseek-v4-pro-0813
 	Text	1M	$0.66	$1.98	$0.07
-
-XIAOMI
-mimo-v2.6-pro
-	Text	1M	$0.43	$0.87	$0.004
 $0.44
 BLENDED / 1M ON NEMOTRON 3 ULTRA · #1 SPEED
 2.7×
@@ -123,15 +121,11 @@ It expires at the end of the billing period. We send spend alerts at 75% and 90%
 
 Is there a platform fee?
 
-No. There is no credit-purchase fee and no per-seat charge. You pay for tokens at or below the list rates.
+No. There is no credit-purchase fee and no per-seat charge. You pay only for tokens.
 
 Can I connect my own provider accounts?
 
 Yes. Connect your OpenAI, Anthropic, or Google accounts and route through your existing provider relationships and negotiated rates. Routing, failover, caching, and the dashboard remain available, while usage bills through your provider.
-
-Why is the open-weight discount bigger?
-
-Open-weight models run on infrastructure that Blackbox operates end to end, which includes the Nemotron deployment that Artificial Analysis benchmarked #1 on output speed (July 2026). Closed models route to their providers, and we pass our scale discounts to you.
 
 What is included beyond the tokens?
 
@@ -143,13 +137,15 @@ The engineer writes code in your stack: migration from your current provider, pr
 
 When do I have to talk to sales?
 
-From the start. The commit is the contract. Enterprise exists for committed discounts, dedicated single-tenant deployments, data residency, and custom contracts.
+From the start. The commit is the contract. Enterprise exists for dedicated single-tenant deployments, data residency, and custom contracts.
 
 How does an engagement start?
 
 With a conversation, not a signup. We scope the workload and the volume with you and agree a commit. A forward-deployed engineer then configures the account, with any controls, such as PII removal, that your security review requires. Talk to sales to start one.
 
-Scope a deployment with our team.
+// NEXT STEP
+THE MOST SECURE INFERENCE FOR ENTERPRISE
+SCOPE A DEPLOYMENT WITH OUR TEAM.
 
 Tell us the workload, the controls that it must satisfy, and the volume that you expect. We reply with a commit and a deployment plan, not a form reply.
 
@@ -165,6 +161,7 @@ PLATFORM
 Enterprise Inference
 Model catalog
 Nemotron 3 Ultra
+Self-improving inference
 Provider benchmarks
 Compare models
 Pricing
@@ -172,6 +169,7 @@ DEPLOYMENT
 Dedicated deployment
 Zero data retention
 Microsoft Azure
+Forward-deployed engineering
 Talk to sales
 DEVELOPERS
 Docs
@@ -180,6 +178,7 @@ Log in
 COMPANY
 Contact Us
 Support
+Trust Center
 Careers
 Blog
 Brand Guide

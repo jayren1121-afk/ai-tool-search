@@ -595,3 +595,16 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 10 ok openai/gpt-oss-120b https://sider.ai/pricing 3041
 11 ok openai/gpt-oss-120b https://wan.video/pricing 2817
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 11, "ok": 11, "tokens": 32182, "rl429": 2, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+1 ok openai/gpt-oss-120b https://codeium.com/pricing 2637
+2 ok openai/gpt-oss-120b https://www.hootsuite.com/pricing 2091
+3 ok openai/gpt-oss-120b https://www.trypencil.com/pricing 1721
+4 ok openai/gpt-oss-120b https://www.displayr.com/pricing 2335
+5 ok openai/gpt-oss-120b https://www.artbreeder.com/pricing 2675
+6 ok openai/gpt-oss-120b https://www.blackbox.ai/pricing 1930
+7 ok openai/gpt-oss-120b https://vapi.ai/pricing 4655
+8 ok openai/gpt-oss-120b https://www.browse.ai/pricing 4078
+9 ok openai/gpt-oss-120b https://vmake.ai/pricing 2095
+10 ok openai/gpt-oss-120b https://www.sunsama.com/pricing 2357
+11 ok openai/gpt-oss-120b https://dust.tt/pricing 2951
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 11, "ok": 11, "tokens": 29525, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
