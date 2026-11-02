@@ -29,5 +29,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...tools.filter((x) => x.id !== "fingerlock").flatMap((x) => pair(`/tools/${encodeURIComponent(x.id)}`, x.updated_at ? new Date(x.updated_at) : now, "weekly", 0.6)),
     // 作者自製的 Windows 工具，靜態頁，不進 ai_tools
     ...pair("/tools/fingerlock", now, "monthly", 0.7),
+    ...["/about", "/privacy", "/contact"].flatMap((p) => pair(p, now, "yearly", 0.3)),
   ];
 }

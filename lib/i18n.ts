@@ -160,6 +160,7 @@ const zh = {
   loadMore: "載入更多", resultsMore: "（還有更多結果）", resultsCap: (n: number) => `（最多顯示 ${n} 筆，請輸入更精確的關鍵字）`, queryFailed: "查詢失敗：", website: "官網 ↗", diagnose: "診斷",
   browseCats: "依分類瀏覽 AI 工具", homeNote: "資料由公開網頁自動整理，AI 診斷僅供參考，價格請以官網為準。",
   footerCopy: "jAytal AI 工具搜尋", contact: "聯絡我們：",
+  aboutTitle: "關於我們", privacyTitle: "隱私權政策", contactTitle: "聯絡我們", footerNav: "網站資訊",
   // 投票
   votes: "站內使用者投票", noVotes: "尚無投票", good: (p: number) => `${p}% 好評`, goodVotes: (p: number, n: number) => `${p}% 好評（${n} 票）`,
   firstVote: "成為第一個投票的人", voteFailed: "投票失敗",
@@ -257,6 +258,7 @@ const en: Dict = {
   loadMore: "Load more", resultsMore: " (more results available)", resultsCap: (n) => ` (showing up to ${n}; try a more specific keyword)`, queryFailed: "Search failed: ", website: "Website ↗", diagnose: "Diagnose",
   browseCats: "Browse AI tools by category", homeNote: "Data is compiled automatically from public web pages. AI diagnoses are for reference only; check official websites for current prices.",
   footerCopy: "jAytal AI Tool Search", contact: "Contact: ",
+  aboutTitle: "About Us", privacyTitle: "Privacy Policy", contactTitle: "Contact Us", footerNav: "Site information",
   votes: "Votes from site users", noVotes: "No votes yet", good: (p) => `${p}% positive`, goodVotes: (p, n) => `${p}% positive (${n} vote${n === 1 ? "" : "s"})`,
   firstVote: "Be the first to vote", voteFailed: "Vote failed",
   toolTitle: (n) => `${n} Pricing, Plans & Reviews`, aiDiagnose: "Live AI Diagnosis", visitSite: "Visit website ↗", pricingPlans: "Pricing & Plans",

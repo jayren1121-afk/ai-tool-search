@@ -5,8 +5,6 @@ import { jsonLd, langAlternates, siteDesc, siteName, SITE_URL, CATEGORY_INTRO } 
 import { CATEGORIES } from "@/lib/types";
 import { categoryHref, catName, CATEGORY_INTRO_EN, HTML_LANG, OG_LOCALE, t, type Locale } from "@/lib/i18n";
 
-const CONTACT = "jayren1121@gmail.com";
-
 export function homeMetadata(locale: Locale): Metadata {
   const name = siteName(locale), desc = siteDesc(locale);
   const alt = langAlternates("/", locale);
@@ -41,12 +39,6 @@ export default function HomeView({ locale }: { locale: Locale }) {
           <p className="mt-6 text-xs text-slate-400">{siteDesc(locale)} {L.homeNote}</p>
         </section>
       </SearchApp>
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-6 text-sm text-slate-500">
-          <span>© {new Date().getFullYear()} {L.footerCopy}</span>
-          <span>{L.contact}<a href={`mailto:${CONTACT}`} className="text-indigo-700 hover:underline">{CONTACT}</a></span>
-        </div>
-      </footer>
     </>
   );
 }
