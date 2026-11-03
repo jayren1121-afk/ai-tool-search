@@ -1,5 +1,4 @@
-Login
-Contact Sales
+Book a demo
 Try For Free
 True pay as you go.
 Only pay for the minutes you use.
@@ -30,8 +29,6 @@ Custom Pricing
 for AI Voice Agents
 Custom Pricing
 for AI Chat Agents
-Contact sales
-Everything from pay as you go, plus
 ---
 Adjust key parameters to see an approximate monthly cost for your Retell AI voice agents. Quickly understand which plan fits best.
 ---
@@ -45,9 +42,6 @@ $
 ---
 Pay-as-you-go
 Sign up for free
----
-Enterprise
-Contact Sales
 ---
 Pay-as-you-go
 ---
@@ -94,7 +88,7 @@ LLM	Standard	Fast Tier
 ---
 GPT 5.6 Terra
 Recommended
-$0.064/minute
+$0.064/minute	$0.128/minute
 ---
 Claude 5 Sonnet
 Recommended
@@ -111,6 +105,12 @@ $0.080/minute	$0.16/minute
 GPT 6.1 Sol
 $0.064/minute	$0.128/minute
 ---
+GPT 6.1 Sol (Ultrafast)
+$0.384/minute
+---
+GPT 6.1 Terra
+$0.032/minute	$0.064/minute
+---
 GPT 6 Astra
 $0.32/minute	$0.64/minute
 ---
@@ -124,7 +124,7 @@ GPT 5.6 Sol
 $0.128/minute	$0.256/minute
 ---
 GPT 5.6 Luna
-$0.0064/minute
+$0.0064/minute	$0.0128/minute
 ---
 GPT 5.4 mini
 $0.024/minute	$0.048/minute
@@ -176,6 +176,9 @@ $0.025/minute
 ---
 Claude 4.5 sonnet
 $0.08/minute
+---
+Gemini 4 Argon
+$0.128/minute
 ---
 Gemini 3.8 Flash
 $0.048/minute
@@ -259,6 +262,9 @@ $0.025/AI msg
 GPT 6.1 Sol
 $0.02/AI msg
 ---
+GPT 6.1 Terra
+$0.01/AI msg
+---
 GPT 6 Astra
 $0.10/AI msg
 ---
@@ -303,11 +309,3 @@ $0.004/AI msg
 ---
 GPT 4.1 nano
 $0.001/AI msg
----
-Claude 5.5 Opus
-$0.04/AI msg
----
-Claude 5.5 Sonnet
-$0.02/AI msg
----
-Claude 5.5 Haiku

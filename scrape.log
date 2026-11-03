@@ -784,3 +784,14 @@ SCRAPE DONE
 1 15 no_price_found https://www.gradescope.com/pricing 19.4
 舊版頁面還要重抓： 8 個（每次最多 15 個）
 SCRAPE DONE
+待抓取網址： 8 （已完成 378 ；其中舊版重抓 8 ）
+2 1 scraped https://www.comfy.org/pricing 10.0
+0 2 scraped https://buffer.com/pricing 15.4
+2 3 scraped https://pieces.app/pricing 9.8
+1 4 scraped https://www.firecrawl.dev/pricing 21.7
+0 5 scraped https://www.retellai.com/pricing 8.0
+2 6 scraped https://akiflow.com/pricing 7.6
+0 7 scraped https://www.coursebox.ai/pricing 9.3
+1 8 scraped https://mem0.ai/pricing 6.4
+舊版頁面還要重抓： 0 個（每次最多 15 個）
+SCRAPE DONE

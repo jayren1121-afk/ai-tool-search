@@ -8,7 +8,7 @@ Developers
 Resources
 Pricing
 Login
-Contact Sales
+Book a demo
 Try For Free
 True pay as you go.
 Only pay for the minutes you use.
@@ -45,7 +45,7 @@ Custom Pricing
 for AI Voice Agents
 Custom Pricing
 for AI Chat Agents
-Contact sales
+Book a demo
 Everything from pay as you go, plus
 Dedicated Implementation Support (add-on)
 Custom MSA/DPA terms
@@ -158,7 +158,7 @@ Pay-as-you-go
 Sign up for free
 	
 Enterprise
-Contact Sales
+Book a demo
 
 Voice AI	
 Pay-as-you-go
@@ -267,7 +267,7 @@ LLM	Standard	Fast Tier
 
 GPT 5.6 Terra
 Recommended
-	$0.064/minute	
+	$0.064/minute	$0.128/minute
 
 Claude 5 Sonnet
 Recommended
@@ -284,6 +284,12 @@ Recommended
 GPT 6.1 Sol
 	$0.064/minute	$0.128/minute
 
+GPT 6.1 Sol (Ultrafast)
+	$0.384/minute	
+
+GPT 6.1 Terra
+	$0.032/minute	$0.064/minute
+
 GPT 6 Astra
 	$0.32/minute	$0.64/minute
 
@@ -297,7 +303,7 @@ GPT 5.6 Sol
 	$0.128/minute	$0.256/minute
 
 GPT 5.6 Luna
-	$0.0064/minute	
+	$0.0064/minute	$0.0128/minute
 
 GPT 5.4 mini
 	$0.024/minute	$0.048/minute
@@ -349,6 +355,9 @@ Claude 4.5 haiku
 
 Claude 4.5 sonnet
 	$0.08/minute	
+
+Gemini 4 Argon
+	$0.128/minute	
 
 Gemini 3.8 Flash
 	$0.048/minute	
@@ -449,6 +458,9 @@ Recommended
 GPT 6.1 Sol
 		$0.02/AI msg
 
+GPT 6.1 Terra
+		$0.01/AI msg
+
 GPT 6 Astra
 		$0.10/AI msg
 
@@ -514,6 +526,9 @@ Claude 4.5 haiku
 
 Claude 4.5 sonnet
 		$0.03/AI msg
+
+Gemini 4 Argon
+		$0.04/AI msg
 
 Gemini 3.8 Flash
 		$0.015/AI msg
@@ -598,7 +613,7 @@ Time to hire your AI call center
 Revolutionize your call operation with Retell.
 
 Try For Free
-Contact Sales
+Book a demo
 Built
 to scale,
 human by
@@ -622,7 +637,7 @@ Start Free Trial
 See what makes Retell’s AI voice platform unique  from how it works to what it can do for your team.
 
 Try For Free
-Contact Sales
+Book a demo
 Products
 Build
 Call Transfer
@@ -638,13 +653,12 @@ Post Call Analysis
 AI Quality Assurance
 Solutions
 Industries
-Industries Overview
+Overview
 Healthcare
 Financial Services
 Insurance
 Logistics
-Home Services
-Retail & Consumer
+Retail & Consumer Goods
 Travel & Hospitality
 Debt Collection
 Use Cases
@@ -668,7 +682,10 @@ Customer Stories
 Events
 Area Code
 Glossary
+Learn
+Retell University
 Status Page
+AI Instructions
 Compare Products
 Competitors Overview
 VS
@@ -705,4 +722,4 @@ Trust Center
 Privacy Policy
 HIPAA
 Terms Of Service
-Cookie Preferences
+Add Retell AI as a preferred source on Google

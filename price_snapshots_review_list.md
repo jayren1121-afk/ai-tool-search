@@ -1,7 +1,7 @@
 # 價格快照人工覆核清單
 
-- 可批次核准（無旗標）：49 筆（見 price_snapshots_approve_safe.sql）
-- 需人工覆核（有旗標）：209 筆
+- 可批次核准（無旗標）：48 筆（見 price_snapshots_approve_safe.sql）
+- 需人工覆核（有旗標）：210 筆
 
 核准單筆範本：
 ```sql
@@ -215,9 +215,10 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 - **vmake**（Vmake）旗標：period_ambiguous_toggle；Plus: period_ambiguous_toggle; Pro: period_ambiguous_toggle；來源 https://vmake.ai/pricing；擷取 2026-11-02T12:09:25+08:00
 - **bland**（Bland AI）旗標：name_diff；資料集方案 ['Plus'] vs 新 ['Build']；來源 https://www.bland.ai/pricing；擷取 2026-11-02T12:09:27+08:00
 - **sunsama**（Sunsama）旗標：name_diff, name_missing, price_near_quote；資料集方案 ['Free', 'Unlimited'] vs 新 ['']; None: name_missing；來源 https://www.sunsama.com/pricing；擷取 2026-11-02T12:09:32+08:00
-- **buffer-ai**（Buffer）旗標：period_ambiguous_toggle, price_near_quote；Essentials: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://buffer.com/pricing；擷取 2026-10-12T13:44:27+08:00
-- **firecrawl**（Firecrawl）旗標：dropped_fields, name_far_from_price；；來源 https://www.firecrawl.dev/pricing；擷取 2026-10-12T13:44:32+08:00
-- **comfyui**（ComfyUI）旗標：has_promo, name_far_from_price, period_ambiguous_toggle, price_near_quote；Standard: period_ambiguous_toggle, name_far_from_price; Creator: period_ambiguous_toggle, name_far_from_price; Pro: period_ambiguous_toggle; Team: period_ambiguous_toggle；來源 https://www.comfy.org/pricing；擷取 2026-10-12T13:44:33+08:00
-- **akiflow**（Akiflow）旗標：dropped_fields；；來源 https://akiflow.com/pricing；擷取 2026-10-12T13:44:43+08:00
+- **buffer-ai**（Buffer）旗標：has_promo；；來源 https://buffer.com/pricing；擷取 2026-11-03T12:08:20+08:00
+- **firecrawl**（Firecrawl）旗標：dropped_fields, price_near_quote；；來源 https://www.firecrawl.dev/pricing；擷取 2026-11-03T12:08:20+08:00
+- **comfyui**（ComfyUI）旗標：dropped_fields, has_promo, price_near_quote；；來源 https://www.comfy.org/pricing；擷取 2026-11-03T12:08:21+08:00
+- **mutable**（Pieces）旗標：has_promo, name_diff；資料集方案 ['Personal'] vs 新 ['Pro', 'Enterprise', 'Pro', 'Enterprise']；來源 https://pieces.app/pricing；擷取 2026-11-03T12:08:31+08:00
+- **akiflow**（Akiflow）旗標：dropped_fields, has_promo；；來源 https://akiflow.com/pricing；擷取 2026-11-03T12:08:41+08:00
 - **mem0**（Mem0）旗標：dropped_fields, label_name, name_diff；資料集方案 ['Scale', 'Pro', 'Starter', 'Hobby'] vs 新 ['Starter', 'Popular']; Popular: label_name；來源 https://mem0.ai/pricing；擷取 2026-10-12T13:44:46+08:00
-- **coursebox**（Coursebox）旗標：dropped_fields, period_ambiguous_toggle, price_near_quote；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro + LMS: period_ambiguous_toggle；來源 https://www.coursebox.ai/pricing；擷取 2026-10-12T13:44:46+08:00
+- **coursebox**（Coursebox）旗標：name_far_from_price, period_ambiguous_toggle；Creator: period_ambiguous_toggle; Pro: period_ambiguous_toggle; Pro + LMS: period_ambiguous_toggle；來源 https://www.coursebox.ai/pricing；擷取 2026-11-03T12:08:43+08:00

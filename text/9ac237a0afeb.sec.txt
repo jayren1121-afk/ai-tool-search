@@ -1,10 +1,201 @@
+=== 計費模式: 預設畫面 (default) ===
 Log In
 Start Free
 CORE PLATFORM
 ---
 Unlimited learners on every plan.
-Yearly (2 months free)
 Monthly
+Yearly (2 months free)
+Free
+---
+Try the full course builder. No card needed.
+---
+$0
+USD
+free forever
+Start free
+✓
+---
+AI course generation
+• 150 AI page credits
+• 2 AI images
+---
+Creator
+---
+For individuals building and selling their own courses.
+---
+$30/m
+USD
+Get Creator
+✓
+More AI Credits (~10 courses a month)
+• 500 AI page credits per month
+• 20 AI images per month
+• 1,000 AI tutor messages per month
+• 5 minutes of AI video per month
+• 50 voice minutes per month
+✓
+---
+✓
+1 admin seat
+Any user who can create/edit courses or manage grades (not a learner) counts as an admin.
+Pro
+$100/m
+Pro + LMS
+$300/m
+Pro
+---
+For teams creating, publishing, and delivering courses at scale.
+---
+$100/m
+USD
+Get Pro
+---
+1 admin seat included. Extra seats $100/mo each.
+Anyone who creates or edits courses counts as an admin.
+Add seats at checkout or any time from Payments. Every seat adds a full AI credit allowance to your account.
+---
+✓
+14× the AI credits of Creator
+• 7,000 AI page credits per month
+• 300 AI images per month
+• 10,000 AI tutor messages per month
+• 75 minutes of AI video per month
+• 500 voice minutes per month
+✓
+---
+✓
+Advanced reporting & CSV export
+✓
+Announcements & questions
++ Add LMS — $200/mo
+Enterprise
+---
+For organisations with security, scale and compliance requirements.
+---
+Custom
+annual agreement
+Talk to us
+---
+AI capacity sized to your rollout
+• 4,200,000 AI page credits per year
+• 15,000 AI images per year
+• 2,000,000 AI tutor messages per year
+• 3,000 minutes of AI video per year
+• 18,000 voice minutes per year
+✓
+SSO
+Log into Coursebox via your existing platform. Enabled as a paid add-on at $3,000 USD/year.
+✓
+Multiple portals
+✓
+---
++
+admins on
+Pro
+Pro + LMS
+$300/m billed monthly
+Get Pro with 3 admins
+Compare every feature ↓
+---
+Compare Plans
+AI Credits
+AI Features
+---
+Integrations
+Languages
+Hosting
+Free
+$0
+USD
+Start Free
+Creator
+$30
+USD
+Get Started
+Pro
+$100
+USD
+Get Started
+Pro + LMS
+$300
+USD
+Get Started
+Enterprise
+---
+Add-ons
+Standard AI video minutes (monthly) (shared credit pool)
+1 (once)
+---
+250
+Custom AI video minutes (monthly) (shared credit pool)
+Upload any person's photo as your AI video avatar instead of choosing from 500+ standard avatars.
+---
+N/A
+Standard AI video minutes (yearly) (shared credit pool)
+–
+---
+3,000
+Custom AI video minutes (yearly) (shared credit pool)
+Upload any person's photo as your AI video avatar instead of choosing from 500+ standard avatars.
+---
+N/A
+AI page credits (monthly)
+150 (once)
+---
+350,000
+AI page credits (yearly)
+–
+---
+4,200,000
+AI images (monthly)
+2 (once)
+---
+Pack of 100 images for US30
+AI images (yearly)
+–
+---
+Pack of 1200 images for US300
+AI tutor messages (monthly)
+100 (once)
+---
+180,000
+AI tutor messages (yearly)
+–
+---
+2,000,000
+AI text to voice minutes (monthly)
+10 (once)
+---
+1,500
+AI text to voice minutes (yearly)
+-
+---
+18,000
+AI Units of Competency (monthly)
+-
+---
+300
+AI Units of Competency (yearly)
+-
+---
+Sign Up Free
+Frequently Asked Questions
+Is there a free version of Coursebox available?
+---
+Coursebox allows unlimited learners on all plans, including the free plan, allowing you to train small teams or large organisations without seat-based fees.
+---
+Case Studies
+Free AI course
+Demo
+=== 計費模式: 年繳 (yearly) ===
+Log In
+Start Free
+CORE PLATFORM
+---
+Unlimited learners on every plan.
+Monthly
+Yearly (2 months free)
 Free
 ---
 Try the full course builder. No card needed.
@@ -43,15 +234,14 @@ Pro
 $83/m
 Pro + LMS
 $250/m
-Pro + LMS
-Most popular
+Pro
 ---
-For teams building and running a fully branded learning platform.
+For teams creating, publishing, and delivering courses at scale.
 ---
-$250/m
+$83/m
 USD
-$3,000 billed yearly
-Get Pro + LMS
+$1,000 billed yearly
+Get Pro
 ---
 1 admin seat included. Extra seats $83/mo each.
 Anyone who creates or edits courses counts as an admin.
@@ -65,6 +255,15 @@ Add seats at checkout or any time from Payments. Every seat adds a full AI credi
 • 900 minutes of AI video per year
 • 6,000 voice minutes per year
 ✓
+---
+✓
+Advanced reporting & CSV export
+✓
+Announcements & questions
++ Add LMS — $167/mo
+Enterprise
+---
+For organisations with security, scale and compliance requirements.
 ---
 Custom
 annual agreement
@@ -87,8 +286,8 @@ Multiple portals
 admins on
 Pro
 Pro + LMS
-$417/m $5,000 billed yearly
-Get Pro + LMS with 3 admins
+$250/m $3,000 billed yearly
+Get Pro with 3 admins
 Compare every feature ↓
 ---
 Compare Plans

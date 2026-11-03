@@ -49,5 +49,4 @@ update public.price_snapshots set reviewed = true, reviewed_at = now() where too
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'hootsuite-owlywriter' and fetched_at = '2026-11-02T12:09:11+08:00'::timestamptz;  -- Hootsuite
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'browse-ai' and fetched_at = '2026-11-02T12:09:20+08:00'::timestamptz;  -- Browse AI
 update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'dust' and fetched_at = '2026-11-02T12:09:34+08:00'::timestamptz;  -- Dust
-update public.price_snapshots set reviewed = true, reviewed_at = now() where tool_id = 'mutable' and fetched_at = '2026-10-12T13:44:38+08:00'::timestamptz;  -- Pieces
 commit;
