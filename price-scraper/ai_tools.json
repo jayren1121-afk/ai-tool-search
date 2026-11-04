@@ -5499,58 +5499,6 @@
     "verification_note": "已即時抓取: https://invideo.io, https://invideo.io/pricing (首頁 HTTP 200, 價格頁 HTTP 200)"
   },
   {
-    "id": "hedra",
-    "name": "Hedra",
-    "url": "https://www.hedra.com",
-    "category": "avatar",
-    "subcategory": "角色影片",
-    "description_zh": "生成會說話的角色影片。",
-    "description_en": "Generates talking character videos.",
-    "key_features": [],
-    "key_features_en": [],
-    "pricing_model": "freemium",
-    "free_tier": "官網頁面提及「free plan」",
-    "paid_plans": [
-      {
-        "name": "Free",
-        "price_usd_month": 20.0,
-        "notes": "自官網頁面自動擷取，可能為年繳月均價，需人工確認"
-      },
-      {
-        "name": "Pro",
-        "price_usd_month": 50.0,
-        "notes": "自官網頁面自動擷取，可能為年繳月均價，需人工確認"
-      },
-      {
-        "name": "Ultra",
-        "price_usd_month": 100.0,
-        "notes": "自官網頁面自動擷取，可能為年繳月均價，需人工確認"
-      },
-      {
-        "name": "Teams",
-        "price_usd_month": 75.0,
-        "notes": "自官網頁面自動擷取，可能為年繳月均價，需人工確認"
-      }
-    ],
-    "pricing_url": "https://www.hedra.com/pricing",
-    "is_wrapper": null,
-    "underlying_models": null,
-    "company": "Hedra",
-    "country": "US",
-    "api_available": null,
-    "platforms": [],
-    "tags": [
-      "avatar"
-    ],
-    "last_verified": "2026-10-07",
-    "source_urls": [
-      "https://www.hedra.com",
-      "https://www.hedra.com/pricing"
-    ],
-    "confidence": "medium",
-    "verification_note": "已即時抓取: https://www.hedra.com, https://www.hedra.com/pricing (首頁 HTTP 200, 價格頁 HTTP 200)"
-  },
-  {
     "id": "speechify",
     "name": "Speechify",
     "url": "https://speechify.com",

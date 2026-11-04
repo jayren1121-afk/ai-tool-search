@@ -121,7 +121,6 @@ chatbase
 vizcom
 hostinger-ai
 spline
-hedra
 mubert
 llamaindex
 liner
