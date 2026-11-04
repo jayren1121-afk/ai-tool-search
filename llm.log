@@ -617,3 +617,5 @@ LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-
 6 ok openai/gpt-oss-120b https://akiflow.com/pricing 2421
 7 ok openai/gpt-oss-120b https://www.coursebox.ai/pricing 4227
 LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 7, "ok": 7, "tokens": 23203, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
+沒有設定金鑰、略過： cerebras, mistral
+LLM 結束： 全部頁面都已處理完成 {"groq": {"model": "openai/gpt-oss-120b", "primary": true, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "openrouter": {"model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}, "gemini": {"model": "gemini:gemini-3.8-flash", "primary": false, "down": null, "calls": 0, "ok": 0, "tokens": 0, "rl429": 0, "errors": 0}}
