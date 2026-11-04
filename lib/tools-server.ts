@@ -12,6 +12,16 @@ const FULL = "id,name,url,category,subcategory,description_zh,key_features,prici
 
 export const supabaseConfigured = () => !!(supabaseUrl() && (process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "").trim());
 
+/** 應廠商要求已刪除的工具：即使快取仍有舊資料也一律不顯示 */
+const REMOVED_TOOL_IDS = new Set(["hedra"]);
+function dropRemoved<T>(data: T): T {
+  if (!Array.isArray(data)) return data;
+  return data.filter((r) => {
+    const o = r as { id?: unknown; tool_id?: unknown };
+    return !REMOVED_TOOL_IDS.has(String(o?.id ?? "")) && !REMOVED_TOOL_IDS.has(String(o?.tool_id ?? ""));
+  }) as T;
+}
+
 /** 以 PostgREST 讀取（anon key，受 RLS 保護），走 Next.js 快取；網路錯誤會丟出例外 */
 async function rest<T>(query: string, revalidate = REVALIDATE): Promise<T> {
   if (!supabaseConfigured()) throw new Error("Supabase 未設定");
@@ -22,7 +32,7 @@ async function rest<T>(query: string, revalidate = REVALIDATE): Promise<T> {
     signal: AbortSignal.timeout(8000),
   });
   if (!r.ok) throw Object.assign(new Error(`Supabase HTTP ${r.status}`), { status: r.status });
-  return r.json() as Promise<T>;
+  return dropRemoved((await r.json()) as T);
 }
 
 /** 找不到回傳 null；連線失敗丟出例外（避免把暫時性錯誤快取成 404） */
