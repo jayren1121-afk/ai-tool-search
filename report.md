@@ -1,6 +1,6 @@
 # 全部工具價格擷取報告（第二階段，只寫 staging）
 
-- 產生時間：2026-11-04 12:08（UTC+8）；資料集 500 個工具，其中 382 個有 pricing_url（378 個不同網址，共用同頁者只抓一次）。
+- 產生時間：2026-11-05 12:08（UTC+8）；資料集 499 個工具，其中 381 個有 pricing_url（377 個不同網址，共用同頁者只抓一次）。
 - 抓取：Playwright + 系統 Chrome 無頭；UA `jAytalPriceBot/1.0 (+https://www.jaytaimark.com)`；3 個 worker（不同網域並行）、同網域序列且間隔 ≥3.2 秒；每個網址只載入 1 次、逾時 30 秒、載入後等待價格出現（最多再輪詢約 12 秒）。
 - robots：讀取失敗/403/逾時 → robots_unknown 跳過；禁止 → robots_disallowed；驗證頁/captcha/登入牆 → blocked，不重試。
 - LLM（v2，新提示詞 v2b＋新後處理）：Groq `openai/gpt-oss-120b`，送入『價格區段』（含價格的段落＋上下文，≤約 4500 字元）。方案以 name_quote（方案名）＋price_quote（含價格與計費文字）各自逐字驗證且須彼此靠近；月付/年付折算/年付總額/原價(list_price)/不明週期(price_unclear) 分欄；程式後處理檢查標籤式名稱、名稱缺失、月年矛盾、價格 0 或 >2000/月、非訂閱金額、月/年切換不明等並旗標。
@@ -11,14 +11,14 @@
 |---|---|---|
 | ok | 258 | LLM 結構化後有已驗證的價格 |
 | no_pricing_url | 118 | 資料集沒有 pricing_url，略過 |
-| no_price_found | 91 | 頁面渲染後找不到價格（或 LLM 的價格未通過驗證） |
+| no_price_found | 90 | 頁面渲染後找不到價格（或 LLM 的價格未通過驗證） |
 | blocked | 19 | 403/驗證頁/登入牆，跳過 |
 | robots_unknown | 8 | robots.txt 讀不到（403/逾時等），保守跳過 |
 | robots_disallowed | 5 | robots.txt 禁止 |
 | error | 1 | 載入失敗（逾時、網路/HTTP2 錯誤等） |
 
-- **成功拿到價格（ok）：258 / 382 個有 pricing_url 的工具 = 67.5%**（佔全部 500 個工具 51.6%）。
-- 排除『合規跳過』（robots/blocked）後：258/350 = 73.7%。
+- **成功拿到價格（ok）：258 / 381 個有 pricing_url 的工具 = 67.7%**（佔全部 499 個工具 51.7%）。
+- 排除『合規跳過』（robots/blocked）後：258/349 = 73.9%。
 
 ## 1b. 本次執行的 LLM 提供者
 - groq（openai/gpt-oss-120b）：本次呼叫 0 次、成功 0 頁、token 0
@@ -76,7 +76,7 @@ Call log:
 - 無 pricing_url 略過（118）：meta-ai, qwen, kimi, huggingchat, phind, notebooklm, felo, playground, civitai, hailuo, capcut, whisper, adobe-podcast, udio, mem, chatpdf, tome, manus, pi, bing-image-creator, tldv, hubspot-breeze, harvey, abridge, papago, intercom-fin, khroma, semantic-scholar, casetext, nuance-dax, eightfold, reverso, zendesk-ai, gemini-code-assist, beatoven, autogen, nabla, rogo, tensor-art, microsoft-designer, gemini-cli, luma-genie, duolingo-max, luminance, loudly, langflow, donotpay, tickeron, sierra, continue, kaedim, vidnoz, clickup-brain, photomath, lavender, slidesgo, unbabel, decagon, asana-ai, stocknews-finchat, lexica, monday-ai, brainly, 11x, legora, k-health, elevenlabs-dubbing, snowflake-cortex, aider, coda-ai, brave-leo, studyfetch, woebot, splash, novelai, miro-ai, timekettle, wix-ai, blockade-labs, wondershare-filmora, brisk, suki, move-ai, haiper, facefusion, reflect, mureka, multion, viz-ai, librechat, kore-ai, agentgpt, speak, open-webui, interior-ai, pixverse, metaso, praktika, hemingway, chorus, jan, roomgpt, storm, elsa, typeface, dreamina, microsoft-copilot-studio, turnitin, moonvalley, adcreative, chatsonic, starryai, replika, langsmith, quizgecko, janitor-ai, deep-dream-generator, nomi
 
 ## 4. no_price_found（渲染後沒有價格 / 驗證不過）
-deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, murf, microsoft-365-copilot, canva, relevance-ai, google-translate, rask, hostinger-ai, hedra, hirevue, bloomberg-gpt, typeform-ai, doubao, crewai, gong, hebbia, spellbook, paradox, zhipu-chatglm, flowise, connected-papers, textio, akkio, yuanbao, kapwing, outreach, marketmuse, obviously-ai, cohere, clipchamp, hypotenuse, lexis-ai, datarobot, groq, galileo-stitch, cline, voicemod, exa, writer, ironclad, ada-health, databricks, together-ai, landr, bardeen, mindmeister, openrouter, browser-use, lex, artisan, looker-gemini, voiceflow, vtube-studio, profound, leena-ai, clipdrop, tunee, andi, seamless-ai, interprefy, gptexcel, brandmark, seo-ai-yoast, vic-ai, qodo, vidu, datarails, deepmotion, moises, gorgias, greptile, rokoko, mode, assemblyai, merlin, deepgram, predis, penpot, hume, pencil, blackbox, clockwise, gradescope, retell
+deepseek, character-ai, you-com, dall-e, stable-diffusion, flux, pika, kling, murf, microsoft-365-copilot, canva, relevance-ai, google-translate, rask, hostinger-ai, hirevue, bloomberg-gpt, typeform-ai, doubao, crewai, gong, hebbia, spellbook, paradox, zhipu-chatglm, flowise, connected-papers, textio, akkio, yuanbao, kapwing, outreach, marketmuse, obviously-ai, cohere, clipchamp, hypotenuse, lexis-ai, datarobot, groq, galileo-stitch, cline, voicemod, exa, writer, ironclad, ada-health, databricks, together-ai, landr, bardeen, mindmeister, openrouter, browser-use, lex, artisan, looker-gemini, voiceflow, vtube-studio, profound, leena-ai, clipdrop, tunee, andi, seamless-ai, interprefy, gptexcel, brandmark, seo-ai-yoast, vic-ai, qodo, vidu, datarails, deepmotion, moises, gorgias, greptile, rokoko, mode, assemblyai, merlin, deepgram, predis, penpot, hume, pencil, blackbox, clockwise, gradescope, retell
 
 ## 4b. 處理進度（因 120b 每日額度）
 - 已用 v2 新規則處理：258 個工具的 ok 結果（頁面 297/297）；**尚未重跑、沿用 v1 結果（帶 old_prompt、不可批次核准）：0 個工具**。

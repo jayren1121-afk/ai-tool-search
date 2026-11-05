@@ -9227,45 +9227,6 @@
   "price_note": "價格來源：官網價格頁（https://invideo.io/pricing），2026-10-17 擷取"
  },
  {
-  "id": "hedra",
-  "name": "Hedra",
-  "status": "no_price_found",
-  "source_url": "https://www.hedra.com/pricing",
-  "fetched_at": "2026-10-17T12:10:39+08:00",
-  "note": "robots 允許",
-  "rendered_text_len": 5650,
-  "extracted": {
-   "plans": [],
-   "free_tier": {
-    "available": true,
-    "limits": null,
-    "evidence_quote": "free",
-    "quote_verified": true
-   },
-   "price_summary": null,
-   "display_region_note": null
-  },
-  "verify_stats": {},
-  "evidence": [
-   {
-    "evidence_quote": "free",
-    "plan": "free_tier",
-    "source_url": "https://www.hedra.com/pricing",
-    "fetched_at": "2026-10-17T12:10:39+08:00"
-   }
-  ],
-  "llm_model": "openai/gpt-oss-120b",
-  "llm_provider": "groq",
-  "prompt_version": "v2c",
-  "diff_flag": {
-   "flags": [],
-   "needs_review": false,
-   "details": [],
-   "auto_approvable": false
-  },
-  "price_note": ""
- },
- {
   "id": "speechify",
   "name": "Speechify",
   "status": "ok",
