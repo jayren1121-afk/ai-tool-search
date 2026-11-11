@@ -1,6 +1,6 @@
 # 全部工具價格擷取報告（第二階段，只寫 staging）
 
-- 產生時間：2026-11-10 12:08（UTC+8）；資料集 499 個工具，其中 381 個有 pricing_url（377 個不同網址，共用同頁者只抓一次）。
+- 產生時間：2026-11-11 12:08（UTC+8）；資料集 499 個工具，其中 381 個有 pricing_url（377 個不同網址，共用同頁者只抓一次）。
 - 抓取：Playwright + 系統 Chrome 無頭；UA `jAytalPriceBot/1.0 (+https://www.jaytaimark.com)`；3 個 worker（不同網域並行）、同網域序列且間隔 ≥3.2 秒；每個網址只載入 1 次、逾時 30 秒、載入後等待價格出現（最多再輪詢約 12 秒）。
 - robots：讀取失敗/403/逾時 → robots_unknown 跳過；禁止 → robots_disallowed；驗證頁/captcha/登入牆 → blocked，不重試。
 - LLM（v2，新提示詞 v2b＋新後處理）：Groq `openai/gpt-oss-120b`，送入『價格區段』（含價格的段落＋上下文，≤約 4500 字元）。方案以 name_quote（方案名）＋price_quote（含價格與計費文字）各自逐字驗證且須彼此靠近；月付/年付折算/年付總額/原價(list_price)/不明週期(price_unclear) 分欄；程式後處理檢查標籤式名稱、名稱缺失、月年矛盾、價格 0 或 >2000/月、非訂閱金額、月/年切換不明等並旗標。
